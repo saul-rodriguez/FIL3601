@@ -1,0 +1,47 @@
+\o Program:		@(#)$CDS: libManager version 6.1.8 - CAT37 01/17/2024 18:07 (csvcm36c-7) $
+\o Sub version:		sub-version  s353 
+\o Arguments:		-mpssession virtuoso14307 -mpshost s2424 
+\o Working Directory:	s2424:/home/saul/projects/FIL3601
+\o 64-bit offsets
+\o Qt version: 		5.9.1
+\o Log file is "/home/saul/projects/FIL3601/libManager.log".
+\o Opening libManager window.
+\a nrResizeWindow(cdsLibManager list(2103 203 840 807))
+\a nrSetCurrentWindow(cdsLibManager)
+\o MPS virtuoso types registered: 68
+\o changeWorkingDir("/home/saul/projects/FIL3601") unnecessary.
+\o ddSetForcedLib("") unnecessary.
+\o MPS service: map window
+\o Library Manager customization server connected.
+\a nrResizeWindow(cdsLibManager list(1599 236 840 807))
+\w Warning: The directory: '/home/saul/projects/FIL3601/FIL3601/DAY4' does not exist
+\w 	but was defined in libFile '/home/saul/projects/FIL3601/cds.lib' for Lib 'DAY4'.
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(cdsLibManager list(464 119 840 807))
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = "DAY1"
+\a cdsLibManager->libLineEdit->value = "DAY1"
+\a cdsLibManager->cellListBox->value = "op_example"
+\a cdsLibManager->cellLineEdit->value = "op_example"
+\a cdsLibManager->libListBox->value = "DAY2"
+\a cdsLibManager->libLineEdit->value = "DAY2"
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->libListBox->value = "CadenceLibs"
+\a cdsLibManager->libLineEdit->value = "CadenceLibs"
+\a cdsLibManager->libListBox->value = "DAY2"
+\a cdsLibManager->libLineEdit->value = "DAY2"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(cdsLibManager list(832 234 840 807))
+\o MPS request: update library list
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "DAY2"
+\a cdsLibManager->libLineEdit->value = "DAY2"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "DAY2"
+\a cdsLibManager->libLineEdit->value = "DAY2"
+\o MPS service: shutdown
+\o libManager is exiting.
+\a exit(0)

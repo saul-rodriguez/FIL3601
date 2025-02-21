@@ -1,0 +1,18 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Wed Feb 12 18:04:50 2025 
+Best design point: 1
+Design specs: 
+	CHARACTERIZATION:FT:1	corner	Nominal - 
+Design parameters: 
+	IDS		1u
+	L		180n
+	NF		4
+	VDS		1
+	WF		8u
+
+Ocean.13
+Number of points completed: 47
+Number of simulation errors: 47
+Ocean.13 completed. 
+Current time: Wed Feb 12 18:05:24 2025 

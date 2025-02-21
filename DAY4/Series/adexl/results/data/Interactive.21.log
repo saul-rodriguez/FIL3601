@@ -1,0 +1,23 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Thu Feb 20 09:12:59 2025 
+Best design point: 1
+Design specs: 
+	Af	corner	Nominal - 
+	Asymptotic	corner	Nominal - 
+	LoopGain	corner	Nominal - 
+	rootlocus	corner	Nominal - 
+Design parameters: 
+	cdb1		160f
+	cds1		46.01f
+	cgb1		160.4f
+	cgd1		26.4f
+	cgs1		112.8f
+	rds1		23.89M
+	gm		227u
+
+Interactive.21
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.21 completed. 
+Current time: Thu Feb 20 09:13:08 2025 

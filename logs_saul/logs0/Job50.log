@@ -1,0 +1,194 @@
+*Info*    Exporting services from client ... 
+
+*Info*    Client has finished starting ... 
+
+
+
+*Info*    Configuring the session ...
+
+	Library      = DAY4
+	Cell         = Shunt
+	View         = schematic
+	Simulator    = spectre
+	State Path   = $AXL_SETUPDB_DIR/test_states
+	State Name   = Af_none_Interactive.28
+	Results DB   = /home/saul/projects/FIL3601/DAY4/Shunt/adexl/results/data/Interactive.28.rdb
+	Results Dir  = /home/saul/projects/FIL3601/Sim/DAY4/Shunt/adexl/results/data/Interactive.28/1/Af
+	Results Loc  = /home/saul/projects/FIL3601/Sim/DAY4/Shunt/adexl/results/data
+	Project Dir  = /home/saul/projects/FIL3601/Sim
+	Setup DB loc = /home/saul/projects/FIL3601/DAY4/Shunt/adexl
+	File Encoding = 0
+
+
+
+*Info*    The auto suspension is disabled.
+
+
+
+
+
+
+*Info*    Run start for Point ID (1 1) on testbench [ Af ].
+
+Resetting statistical vars
+
+*Info*    Setting parameter values ...
+
+Setting var IS = "1"
+Setting var IT = "0"
+Setting var cdb1 = "160f"
+Setting var cds1 = "46.01f"
+Setting var cgb1 = "160.37f"
+Setting var cgd1 = "26.40f"
+Setting var cgs1 = "112.78f"
+Setting var gm = "0.227m"
+Setting var gm1 = "0.227m"
+Setting var rds1 = "23893065.17"
+Setting var temperature = "27"
+Setting temp(T) = 27
+
+*Info*    Netlist Directory =
+          /home/saul/projects/FIL3601/Sim/DAY4/Shunt/adexl/results/data/Interactive.28/1/Af/netlist
+
+
+*Info*    Data Directory    =
+          /home/saul/projects/FIL3601/Sim/DAY4/Shunt/adexl/results/data/Interactive.28/1/Af
+
+
+*Info*    Creating Netlist for Point ID (1 1)
+
+generate netlist...
+function ansCdlCompPrim redefined
+function ansCdlCompPrim redefined
+Begin Incremental Netlisting Feb 21 08:12:22 2025
+WARNING (OSSHNL-225): The design variable 'VIN', used in the last netlisting session in the current
+run directory is not used in this netlisting session. The netlist(s) generated
+in the last netlisting session cannot be reused for incremental netlisting.
+Therefore re-netlisting the design.
+
+End netlisting Feb 21 08:12:22 2025
+
+Netlisting Statistics:
+	Number of components:   13
+
+	Elapsed time:          0.0s
+Errors: 0	Warnings: 0
+      ...successful.
+compose simulator input file...
+      ...successful.
+
+*Info*    Running simulation on testbench [ Af ] for Point ID (1 1).
+
+Delete psf data in /home/saul/projects/FIL3601/Sim/DAY4/Shunt/adexl/results/data/Interactive.28/1/Af/psf.
+compose simulator input file...
+      ...successful.
+start simulator if needed...
+      ...successful.
+simulate...
+To view the simulator output, right-click on the test name, result 
+name, or any value in the "Results" tab of the Outputs section and 
+choose "Output Log" menu option.
+INFO (ADE-3067): Errors encountered during simulation. For more information, right-click
+        on a test name in the 'Results' tab of the Outputs pane and choose 'Output Log'
+        to view the simulation run log.
+
+*Error*   Error ID  = 5011
+*Error*   Error Msg = Simulator failed to complete the simulation.
+
+          Error found by spectre during hierarchy flattening.
+Error
+          found by spectre during hierarchy flattening.
+ERROR
+          (SFE-1997): "input.scs" 50: Cannot run the simulation,
+          because pz in parameter `iprobe': An invalid component name
+          `V0' has been specified as a 
+value for the parameter.
+          Specify a valid component name and rerun the simulation.
+          Correct the expression and rerun the simulation.
+
+
+
+
+
+
+
+
+
+
+*Info*    Run start for Point ID (1 1) on testbench [ Af ].
+
+Resetting statistical vars
+
+*Info*    Setting parameter values ...
+
+Setting var IS = "1"
+Setting var IT = "0"
+Setting var cdb1 = "160f"
+Setting var cds1 = "46.01f"
+Setting var cgb1 = "160.37f"
+Setting var cgd1 = "26.40f"
+Setting var cgs1 = "112.78f"
+Setting var gm = "0.227m"
+Setting var gm1 = "0.227m"
+Setting var rds1 = "23893065.17"
+Setting var temperature = "27"
+Setting temp(T) = 27
+
+*Info*    Netlist Directory =
+          /home/saul/projects/FIL3601/Sim/DAY4/Shunt/adexl/results/data/Interactive.28/1/Af/netlist
+
+
+*Info*    Data Directory    =
+          /home/saul/projects/FIL3601/Sim/DAY4/Shunt/adexl/results/data/Interactive.28/1/Af
+
+
+*Info*    Creating Netlist for Point ID (1 1)
+
+generate netlist...
+function ansCdlCompPrim redefined
+function ansCdlCompPrim redefined
+Begin Incremental Netlisting Feb 21 08:12:24 2025
+End netlisting Feb 21 08:12:24 2025
+
+	The netlist is up to date.
+	Time taken to compare the design with netlist:   0.0s
+      ...successful.
+compose simulator input file...
+      ...successful.
+
+*Info*    Running simulation on testbench [ Af ] for Point ID (1 1).
+
+Delete psf data in /home/saul/projects/FIL3601/Sim/DAY4/Shunt/adexl/results/data/Interactive.28/1/Af/psf.
+compose simulator input file...
+      ...successful.
+start simulator if needed...
+      ...successful.
+simulate...
+To view the simulator output, right-click on the test name, result 
+name, or any value in the "Results" tab of the Outputs section and 
+choose "Output Log" menu option.
+INFO (ADE-3067): Errors encountered during simulation. For more information, right-click
+        on a test name in the 'Results' tab of the Outputs pane and choose 'Output Log'
+        to view the simulation run log.
+
+*Error*   Error ID  = 5011
+*Error*   Error Msg = Simulator failed to complete the simulation.
+
+          Error found by spectre during hierarchy flattening.
+Error
+          found by spectre during hierarchy flattening.
+ERROR
+          (SFE-1997): "input.scs" 50: Cannot run the simulation,
+          because pz in parameter `iprobe': An invalid component name
+          `V0' has been specified as a 
+value for the parameter.
+          Specify a valid component name and rerun the simulation.
+          Correct the expression and rerun the simulation.
+
+
+
+
+
+Simulation design variables differ from those on the cellView,
+they have been saved in the file "/tmp/saved-design-variables2".
+To save future changes, copy variables to cellView before exiting.

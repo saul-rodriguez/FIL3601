@@ -1,0 +1,25 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Thu Feb 13 00:27:31 2025 
+Best design point: 4
+Design specs: 
+	CHARACTERIZATION:GMID_NMOS_L:1	corner	Nominal - 
+	cgs		-66.02f
+	cgb		-104.6f
+	gm		643.7n
+	cgd		-66f
+	Ctot		236.6f
+	ft		433K
+	gm_id		32.24
+Design parameters: 
+	IDS1		19.95n
+	L1		180n
+	NF1		20
+	VDS1		900m
+	WF1		10u
+
+Ocean.4
+Number of points completed: 61
+Number of simulation errors: 0
+Ocean.4 completed. 
+Current time: Thu Feb 13 00:27:57 2025 

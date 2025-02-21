@@ -1,0 +1,229 @@
+;====================== Set to XL mode =========================================
+ocnSetXLMode()
+ocnxlProjectDir( "./Sim" )
+ocnxlTargetCellView( "CURRENT_SOURCE" "current_source_gm_tb" "adexl" )
+ocnxlResultsLocation( "" )
+ocnxlSimResultsLocation( "" )
+ocnxlMaxJobFail( 20 )
+
+;====================== Tests setup ============================================
+
+;---------- Test "CURRENT_SOURCE:current_source_gm_tb:1" ------------- 
+ocnxlBeginTest("CURRENT_SOURCE:current_source_gm_tb:1")
+simulator( 'spectre )
+design( "CURRENT_SOURCE" "current_source_gm_tb" "schematic")
+modelFile( 
+    '("/home/saul/pkg/xfab/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/config.scs" "default")
+    '("/home/saul/pkg/xfab/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/param.scs" "3s")
+    '("/home/saul/pkg/xfab/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/bip.scs" "tm")
+    '("/home/saul/pkg/xfab/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/cap.scs" "tm")
+    '("/home/saul/pkg/xfab/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/dio.scs" "tm")
+    '("/home/saul/pkg/xfab/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/mos.scs" "tm")
+    '("/home/saul/pkg/xfab/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/photo.scs" "tm")
+    '("/home/saul/pkg/xfab/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/res.scs" "tm")
+)
+analysis('pz ?p ""  ?n ""  ?oprobe "/IPRB0"  
+		?iprobe "/V0"  ?porti "1"  )
+analysis('tran ?stop "200u"  ?errpreset "conservative"  )
+analysis('dc ?saveOppoint t  ?param "VIN_DC"  ?start "0"  
+		?stop "1.8"  ?step "0.005"  )
+analysis('ac ?start "0.1"  ?stop "100M"  ?dec "20"  )
+analysis('noise ?start "0.1"  ?stop "100M"  ?dec "20"  
+		?oprobe "/IPRB0"  ?iprobe "/V0"  )
+desVar(	  "VDD_AC" 0	)
+desVar(	  "VDD" 3.3	)
+desVar(	  "VDDH" 45	)
+desVar(	  "VSWITCH" 18	)
+desVar(	  "VIN_AC" 1	)
+desVar(	  "VIN_DC" 1	)
+envOption(
+	'firstRun  nil 
+	'analysisOrder  list("dc" "ac" "noise" "tran" "pz" "dcmatch" "stb" "envlp" "lf" "xf" "sp" "pss" "pac" "pstb" "pnoise" "pxf" "psp" "qpss" "qpac" "qpnoise" "qpxf" "qpsp" "hb" "hbac" "hbstb" "hbnoise" "hbxf" "sens" "acmatch") 
+)
+save( 'i "/I0/OUT" )
+temp( 27 ) 
+ocnxlOutputTerminal( "/I0/OUT" ?plot t ?save t)
+ocnxlOutputExpr( "deriv(IS(\"/I0/OUT\"))" ?plot t ?evalType 'point)
+ocnxlOutputSignal( "/VIN" ?plot t)
+ocnxlOutputExpr( "pzFrequencyAndRealFilter(getData(\"poles\" ?result \"pz\"))" ?name "Poles" ?plot t)
+ocnxlOutputExpr( "pzFrequencyAndRealFilter(getData(\"zeros\" ?result \"pz\"))" ?name "Zeros" ?plot t)
+ocnxlOutputExpr( "IF(\"/I0/OUT\")" ?name "leafValue( IF(\"/I0/OUT\") \"VDDH\" 40 )" ?plot t)
+ocnxlEndTest() ; "CURRENT_SOURCE:current_source_gm_tb:1"
+
+;---------- Test "montecarlo" ------------- 
+ocnxlBeginTest("montecarlo")
+simulator( 'spectre )
+design( "CURRENT_SOURCE" "current_source_gm_tb" "schematic")
+modelFile( 
+    '("/home/saul/pkg/xfab/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/config.scs" "default")
+    '("/home/saul/pkg/xfab/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/param.scs" "3s")
+    '("/home/saul/pkg/xfab/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/xh018.scs" "mc_g")
+)
+analysis('tran ?stop "200u"  ?errpreset "conservative"  )
+analysis('dc ?saveOppoint t  ?param "VIN_DC"  ?start "0"  
+		?stop "1.8"  ?step "0.005"  )
+analysis('ac ?start "0.1"  ?stop "100M"  ?dec "20"  )
+analysis('noise ?start "0.1"  ?stop "100M"  ?dec "20"  
+		?oprobe "/IPRB0"  ?iprobe "/V0"  )
+desVar(	  "VDD" 3.3	)
+desVar(	  "VDDH" 40	)
+desVar(	  "VSWITCH" 18	)
+desVar(	  "VIN_AC" 1	)
+desVar(	  "VIN_DC" 1	)
+envOption(
+	'firstRun  nil 
+	'analysisOrder  list("dc" "ac" "noise" "tran" "pz" "dcmatch" "stb" "envlp" "lf" "xf" "sp" "pss" "pac" "pstb" "pnoise" "pxf" "psp" "qpss" "qpac" "qpnoise" "qpxf" "qpsp" "hb" "hbac" "hbstb" "hbnoise" "hbxf" "sens" "acmatch") 
+)
+option( ?categ 'turboOpts
+	'apsplus  t 
+)
+save( 'i "/I0/OUT" )
+temp( 27 ) 
+ocnxlOutputTerminal( "/I0/OUT" ?plot t ?save t)
+ocnxlOutputExpr( "deriv(IS(\"/I0/OUT\"))" ?plot t ?evalType 'point)
+ocnxlOutputSignal( "/VIN" ?plot t)
+ocnxlEndTest() ; "montecarlo"
+
+;---------- Test "psrr" ------------- 
+ocnxlBeginTest("psrr")
+simulator( 'spectre )
+design( "CURRENT_SOURCE" "current_source_gm_tb" "schematic")
+modelFile( 
+    '("/home/saul/pkg/xfab/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/config.scs" "default")
+    '("/home/saul/pkg/xfab/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/param.scs" "3s")
+    '("/home/saul/pkg/xfab/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/bip.scs" "tm")
+    '("/home/saul/pkg/xfab/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/cap.scs" "tm")
+    '("/home/saul/pkg/xfab/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/dio.scs" "tm")
+    '("/home/saul/pkg/xfab/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/mos.scs" "tm")
+    '("/home/saul/pkg/xfab/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/photo.scs" "tm")
+    '("/home/saul/pkg/xfab/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/res.scs" "tm")
+)
+analysis('pz ?p ""  ?n ""  ?oprobe "/IPRB0"  
+		?iprobe "/V0"  ?porti "1"  )
+analysis('tran ?stop "200u"  ?errpreset "conservative"  )
+analysis('dc ?saveOppoint t  ?param "VIN_DC"  ?start "0"  
+		?stop "1.8"  ?step "0.005"  )
+analysis('ac ?start "0.1"  ?stop "100M"  ?dec "20"  )
+analysis('noise ?start "0.1"  ?stop "100M"  ?dec "20"  
+		?oprobe "/IPRB0"  ?iprobe "/V0"  )
+desVar(	  "VDD_AC" 1	)
+desVar(	  "VDD" 3.3	)
+desVar(	  "VDDH" 45	)
+desVar(	  "VSWITCH" 18	)
+desVar(	  "VIN_AC" 0	)
+desVar(	  "VIN_DC" 1	)
+envOption(
+	'firstRun  nil 
+	'analysisOrder  list("dc" "ac" "noise" "tran" "pz" "dcmatch" "stb" "envlp" "lf" "xf" "sp" "pss" "pac" "pstb" "pnoise" "pxf" "psp" "qpss" "qpac" "qpnoise" "qpxf" "qpsp" "hb" "hbac" "hbstb" "hbnoise" "hbxf" "sens" "acmatch") 
+)
+save( 'i "/I0/OUT" )
+temp( 27 ) 
+ocnxlOutputTerminal( "/I0/OUT" ?plot t ?save t)
+ocnxlOutputExpr( "deriv(IS(\"/I0/OUT\"))" ?plot t ?evalType 'point)
+ocnxlOutputSignal( "/VIN" ?plot t)
+ocnxlOutputExpr( "pzFrequencyAndRealFilter(getData(\"poles\" ?result \"pz\"))" ?name "Poles" ?plot t)
+ocnxlOutputExpr( "pzFrequencyAndRealFilter(getData(\"zeros\" ?result \"pz\"))" ?name "Zeros" ?plot t)
+ocnxlEndTest() ; "psrr"
+
+;====================== Sweeps setup ===========================================
+ocnxlSweepVar("VIN_AC" "0")
+ocnxlSweepVar("VIN_DC" "0.825")
+ocnxlSweepVar("VSWITCH" "18")
+ocnxlSweepVar("VDD" "3.3")
+ocnxlSweepVar("VDDH" "40")
+ocnxlSweepVar("VDD_AC" "1")
+
+;====================== Model Group setup ==========================================
+
+;====================== Corners setup ==========================================
+ocnxlCorner( "C0"
+   '(
+      ("model" "/home/saul/pkg/xfab/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/config.scs" ?section "\"default\"")
+      ("model" "/home/saul/pkg/xfab/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/param.scs" ?section "\"3s\"")
+      ("model" "/home/saul/pkg/xfab/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/bip.scs" ?section "\"tm\"")
+      ("model" "/home/saul/pkg/xfab/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/cap.scs" ?section "\"wp\" \"ws\"")
+      ("model" "/home/saul/pkg/xfab/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/dio.scs" ?section "\"tm\"")
+      ("model" "/home/saul/pkg/xfab/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/mos.scs" ?section "\"wp\" \"ws\" \"wo\" \"wz\"")
+      ("model" "/home/saul/pkg/xfab/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/photo.scs" ?section "\"tm\"")
+      ("model" "/home/saul/pkg/xfab/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/res.scs" ?section "\"wp\" \"ws\"")
+      ("model" "/home/saul/pkg/xfab/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/xh018.scs" ?enabled nil  ?section "")
+      ("modelGroup" "")
+   )
+)
+ocnxlCorner( "VDD_TEMP"
+   '(
+      ("variable" "temperature" "-40 85")
+      ("variable" "VDD" "3.0  3.6")
+      ("model" "/home/saul/pkg/xfab/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/config.scs" ?section "\"default\"")
+      ("model" "/home/saul/pkg/xfab/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/param.scs" ?section "\"3s\"")
+      ("model" "/home/saul/pkg/xfab/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/bip.scs" ?section "\"tm\"")
+      ("model" "/home/saul/pkg/xfab/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/cap.scs" ?section "\"wp\" \"ws\"")
+      ("model" "/home/saul/pkg/xfab/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/dio.scs" ?section "\"tm\"")
+      ("model" "/home/saul/pkg/xfab/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/mos.scs" ?section "\"wp\" \"ws\" \"wo\" \"wz\"")
+      ("model" "/home/saul/pkg/xfab/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/photo.scs" ?section "\"tm\"")
+      ("model" "/home/saul/pkg/xfab/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/res.scs" ?section "\"wp\" \"ws\"")
+      ("model" "/home/saul/pkg/xfab/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/xh018.scs" ?enabled nil  ?section "")
+      ("modelGroup" "")
+   )
+)
+ocnxlCorner( "C1"
+   '(
+      ("model" "/home/saul/pkg/xfab/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/config.scs" ?enabled nil  ?section "")
+      ("model" "/home/saul/pkg/xfab/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/param.scs" ?enabled nil  ?section "")
+      ("model" "/home/saul/pkg/xfab/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/bip.scs" ?enabled nil  ?section "")
+      ("model" "/home/saul/pkg/xfab/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/cap.scs" ?enabled nil  ?section "")
+      ("model" "/home/saul/pkg/xfab/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/dio.scs" ?enabled nil  ?section "")
+      ("model" "/home/saul/pkg/xfab/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/mos.scs" ?enabled nil  ?section "")
+      ("model" "/home/saul/pkg/xfab/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/photo.scs" ?enabled nil  ?section "")
+      ("model" "/home/saul/pkg/xfab/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/res.scs" ?enabled nil  ?section "")
+      ("model" "/home/saul/pkg/xfab/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/xh018.scs" ?enabled nil  ?section "")
+      ("modelGroup" "")
+   )
+)
+
+;====================== Checks and Asserts setup ============================================
+ocnxlPutChecksAsserts(?netlist nil)
+
+;====================== Test v/s corners setup =================================
+
+;====================== Job setup ==============================================
+ocnxlJobSetup( '(
+	"blockemail" "1"
+	"configuretimeout" "300"
+	"distributionmethod" "Local"
+	"jobruntype" "ICRP"
+	"estimatecpuvalue" ""
+	"estimatememoryvalue" ""
+	"lingertimeout" "300"
+	"maxjobs" "1"
+	"name" "ADE XL Default"
+	"preemptivestart" "1"
+	"reconfigureimmediately" "1"
+	"runtimeout" "-1"
+	"showerrorwhenretrying" "1"
+	"showoutputlogerror" "0"
+	"startmaxjobsimmed" "1"
+	"starttimeout" "300"
+	"usesameprocess" "1"
+) )
+
+;====================== Disabled items =========================================
+ocnxlDisableTest("montecarlo")
+ocnxlDisableSweepVar("VIN_AC")
+ocnxlDisableSweepVar("VDD_AC")
+ocnxlDisableCorner("C0")
+ocnxlDisableCorner("VDD_TEMP")
+ocnxlDisableCorner("C1")
+
+;====================== Run Mode Options ======================================
+ocnxlMonteCarloOptions( ?mcMethod "all" ?mcNumPoints "200" ?mcNumBins "" ?mcStopEarly "0" ?mcStopMethod "Significance Test" ?samplingMode "lds" ?saveProcess "0" ?saveMismatch "0" ?parasiticAnalysis "0" ?useReference "0" ?donominal "1" ?saveAllPlots "1" ?monteCarloSeed "" ?mcStartingRunNumber "" ?dumpParamMode "no" )
+
+;====================== Starting Point Info ======================================
+
+;====================== Run command ============================================
+ocnxlRun( ?mode 'sweepsAndCorners ?nominalCornerEnabled t ?allCornersEnabled t ?allSweepsEnabled t)
+ocnxlOutputSummary(?exprSummary t ?specSummary t ?detailed t ?wave t)
+ocnxlOpenResults()
+
+;====================== End XL Mode command ===================================
+ocnxlEndXLMode()

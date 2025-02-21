@@ -1,0 +1,21 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Wed Feb 12 18:29:45 2025 
+Best design point: 5
+Design specs: 
+	CHARACTERIZATION:FT:1	corner	Nominal - 
+	cross(dB20(IF("/IPRB0/MINUS")) "1" 1 "falling" nil nil nil)		808.5M
+Design parameters: 
+	IDS		1m
+	VDS		1
+	IDS1		2.512u
+	L		180n
+	NF		1
+	VDS1		1
+	WF		10u
+
+Ocean.16
+Number of points completed: 41
+Number of simulation errors: 0
+Ocean.16 completed. 
+Current time: Wed Feb 12 18:30:10 2025 

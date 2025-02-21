@@ -1,0 +1,18 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Fri Feb 14 00:28:20 2025 
+Best design point: 1
+Design specs: 
+	DAY2:GM_ID:1	corner	Nominal - 
+Design parameters: 
+	IDS		10n
+	L		180n
+	NF		1
+	VDS		900m
+	WF		8u
+
+Interactive.1
+Number of points completed: 61
+Number of simulation errors: 0
+Interactive.1 completed. 
+Current time: Fri Feb 14 00:28:38 2025 

@@ -1,0 +1,20 @@
+\o Program:		@(#)$CDS: cdsLibEditor version 6.1.8 - CAT37 01/17/2024 18:09 (csvcm36c-7) $
+\o Sub version:		sub-version  s353 
+\o Arguments:		-cdslib /home/saul/projects/FIL3601/cds.lib -mpssession virtuoso14307 -mpshost s2424 -mpsversion 6.18 
+\o Working Directory:	s2424:/home/saul/projects/FIL3601
+\o 64-bit offsets
+\a nrSetWindowVisibility(cdsLibEditor "show")
+\o Qt version: 		5.9.1
+\a nrResizeWindow(cdsLibEditor list(0 -37 500 400))
+\a nrSetCurrentWindow(cdsLibEditor)
+\a nrListItemAction(cdsLibEditor->mainTable 0 0)
+\o Active cell: 0 0 "analogLib"
+\a nrResizeWindow(cdsLibEditor list(50 50 500 400))
+\a nrListItemAction(cdsLibEditor->mainTable 67 1)
+\o Active cell: 67 1 "./FIL3601/DAY4"
+\a nrListItemRename(cdsLibEditor->mainTable, 67 1 "./DAY4")
+\a nrListItemAction(cdsLibEditor->mainTable 68 0)
+\o Active cell: 68 0 ""
+\a cdsLibEditor->fileSaveButton->value = t
+\a cdsLibEditor->fileExitButton->value = t
+\a exit(0)

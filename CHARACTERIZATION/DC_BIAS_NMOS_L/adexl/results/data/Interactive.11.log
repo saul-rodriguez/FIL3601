@@ -1,0 +1,17 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Wed Feb 12 22:46:33 2025 
+Best design point: 4
+Design specs: 
+	VGS	corner	Nominal - 
+Design parameters: 
+	L1		1u
+	NF1		1
+	VDS		200m
+	WF1		10u
+
+Interactive.11
+Number of points completed: 36
+Number of simulation errors: 0
+Interactive.11 completed. 
+Current time: Wed Feb 12 22:46:40 2025 

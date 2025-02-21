@@ -1,0 +1,16 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Mon Dec  2 09:57:31 2024 
+Best design point: 1
+Design specs: 
+	CSA:csa:1	corner	Nominal - 
+Design parameters: 
+	Q		160z
+	TC		30n
+	e		160z
+
+Interactive.8
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.8 completed. 
+Current time: Mon Dec  2 09:57:36 2024 

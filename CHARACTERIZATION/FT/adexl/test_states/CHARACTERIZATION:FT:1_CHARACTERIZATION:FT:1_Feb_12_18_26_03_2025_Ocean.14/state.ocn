@@ -1,0 +1,35 @@
+design( "CHARACTERIZATION" "FT" "schematic")
+modelFile( 
+    '("/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/config.scs" "default")
+    '("/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/param.scs" "3s")
+    '("/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/bip.scs" "tm")
+    '("/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/cap.scs" "tm")
+    '("/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/dio.scs" "tm")
+    '("/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/mos.scs" "tm")
+    '("/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/photo.scs" "tm")
+    '("/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/res.scs" "tm")
+)
+analysis('ac ?start "1"  ?stop "100G"  ?dec "10"  )
+analysis('dc ?saveOppoint t  )
+desVar(	  "IDS" 1e-06	)
+desVar(	  "VDS" 1.0	)
+desVar(	  "IDS1" 1e-06	)
+desVar(	  "L" 1.8e-07	)
+desVar(	  "NF" 4	)
+desVar(	  "VDS1" 1.0	)
+desVar(	  "WF" 8e-06	)
+envOption(
+	'analysisOrder  list("dc" "ac" "pz" "dcmatch" "stb" "tran" "envlp" "lf" "noise" "xf" "sp" "pss" "pac" "pstb" "pnoise" "pxf" "psp" "qpss" "qpac" "qpnoise" "qpxf" "qpsp" "hb" "hbac" "hbstb" "hbnoise" "hbxf" "sens" "acmatch") 
+	'stopViewList  list("spectre" "veriloga" "ahdl") 
+	'switchViewList  list("spectre" "veriloga" "ahdl" "cmos_sch" "schematic") 
+)
+option(	'limit  "delta" 
+	'homotopy  "all" 
+	'reltol  "100e-6" 
+)
+option( ?categ 'turboOpts
+	'apsplus  t 
+	'uniModeSpectreX  "Spectre" 
+)
+save( 'i "/IPRB0/MINUS" )
+temp( 27 ) 

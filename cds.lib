@@ -1,0 +1,32 @@
+# File Created by saul at Fri Feb 21 20:43:32 2025
+# assisted by CdsLibEditor
+# ------------------------------------------------------------------------------
+# XKIT library definition files
+#   xh018.lib:
+#     - contains X-FAB XH018 Cadence library definitions 
+# 	 and must not be changed, exept with tkit -m|--modules
+#     - tkit -m|--modules overwrites this file, any changes will be lost.
+#   cds.lib:
+#     - includes xh018.lib
+#     - can contain customer specific library definitions
+#     xkit -m|--modules does NOT change an existing cds.lib.
+# ------------------------------------------------------------------------------
+
+
+# ------------------------------------------------------------------------------
+# XH018 Cadence library definitions
+
+# X-FAB library definitions
+INCLUDE ./xh018.lib
+
+# Library Manager Combine/Display Definitions
+INCLUDE ./xh018_combine.lib
+
+# ------------------------------------------------------------------------------
+# Add user specific libraries below this line 
+DEFINE CHARACTERIZATION ./CHARACTERIZATION
+DEFINE DAY1 ./DAY1
+#Removed by ddDeleteObj: DEFINE DAY2 /home/saul/projects/FIL3601/DAY2
+DEFINE DAY2 ./DAY2
+DEFINE DAY4 ./DAY4
+
