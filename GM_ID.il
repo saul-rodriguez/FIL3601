@@ -12,7 +12,6 @@ ocnxlMaxJobFail( 20 )
 ocnxlBeginTest("DAY2:GM_ID:1")
 simulator( 'spectre )
 design( "DAY2" "GM_ID" "schematic")
-
 load("SCRIPTS/day2/models.il")
 load("SCRIPTS/day2/global.il")
 
@@ -23,9 +22,11 @@ desVar(	  "NF" NF1	)
 desVar(	  "VDS" VDS1	)
 desVar(	  "WF" WF1	)
 envOption(
-	'analysisOrder  list("dc" "pz" "dcmatch" "stb" "tran" "envlp" "ac" "lf" "noise" "xf" "sp" "pss" "pac" "pstb" "pnoise" "pxf" "psp" "qpss" "qpac" "qpnoise" "qpxf" "qpsp" "hb" "hbac" "hbstb" "hbnoise" "hbxf" "sens" "acmatch") 
+	'analysisOrder  list("dc") 
 )
 temp( 27 ) 
+ocnxlOutputExpr( "pv(\"M0.m1\" \"ids\" ?result \"dcOpInfo\")" ?name "ids" ?plot t ?evalType 'point)
+ocnxlOutputExpr( "pv(\"M0.m1\" \"gm\" ?result \"dcOpInfo\")" ?name "gm" ?plot t ?evalType 'point)
 ocnxlEndTest() ; "DAY2:GM_ID:1"
 
 ;====================== Sweeps setup ===========================================
@@ -52,7 +53,7 @@ ocnxlJobSetup( '(
 	"estimatecpuvalue" ""
 	"estimatememoryvalue" ""
 	"lingertimeout" "300"
-	"maxjobs" "10"
+	"maxjobs" "8"
 	"name" "ADE XL Default"
 	"preemptivestart" "1"
 	"reconfigureimmediately" "1"
@@ -78,19 +79,19 @@ ocnxlOpenResults()
 ;====================== End XL Mode command ===================================
 ocnxlEndXLMode()
 
-
-
 gm = pv("M0.m1" "gm" ?result "dcOpInfo")
-id = pv("M0.m1" "id" ?result "dcOpInfo")
+ids = pv("M0.m1" "ids" ?result "dcOpInfo")
 cgs = mag(pv("M0.m1" "cgs" ?result "dcOpInfo"))
 cgd = mag(pv("M0.m1" "cgd" ?result "dcOpInfo"))
 cgb = mag(pv("M0.m1" "cgb" ?result "dcOpInfo"))
 
-gm_id = gm/id
+gm_id = gm/ids
+ft = (gm/(cgs + cgd + cgb))/(2*3.141592)
 
 newWindow
 plot( gm_id ?expr '( "gm_id" ) )
-
-newWindow
-ft = (gm/(cgs + cgd + cgb))/(2*3.14159265)
 plot( ft ?expr '( "ft" ) )
+plot( gm ?expr '( "gm" ) )
+
+
+

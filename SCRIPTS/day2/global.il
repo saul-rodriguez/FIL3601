@@ -2,10 +2,10 @@
 
 ; ** NMOS1 **
 VDS1 = 0.9
-IDS1 = 10.0u
-L1 = 1.0u
+IDS1 = 400u
+L1 = 0.5u
 WF1 = 10u
-NF1 = 8
+NF1 = 50
 
 ; ** NMOS2 **
 VDS2 = 0.6

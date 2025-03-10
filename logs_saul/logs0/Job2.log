@@ -1,14 +1,14 @@
-\# Program start time:     UTC 2025.02.12 21:10:45.867
-\# Local time: CET (UTC+01:00) 2025.02.12 22:10:45.867
+\# Program start time:     UTC 2025.03.08 06:02:48.770
+\# Local time: CET (UTC+01:00) 2025.03.08 07:02:48.770
 \o Program:		@(#)$CDS: virtuoso version 6.1.8-64b 01/30/2024 20:11 (cpgbld02) $
 \o Hierarchy:		/pkg/cadence/installs/IC618/tools.lnx86/dfII/
 \o Sub version:		sub-version  IC6.1.8-64b.500.35  (64-bit addresses)
-\# Command line:	/pkg/cadence/installs/IC618/tools.lnx86/dfII/bin/64bit/virtuoso -noautostart -mpssession virtuoso832 -mpshost s2424 -davinciService DaVinciService_832_1739393749 -log /home/saul/projects/FIL3601/logs_saul/logs0/Job2.log -licenseLockFileName /home/saul/projects/FIL3601/.tmp_saul/.s2424_832 -interactiveA -interactiveE -interactiveRTT -nostdin -nographE -axlChildIdFlag 2
+\# Command line:	/pkg/cadence/installs/IC618/tools.lnx86/dfII/bin/64bit/virtuoso -noautostart -mpssession virtuoso20917 -mpshost s2424 -davinciService DaVinciService_20917_1741413705 -log /home/saul/projects/FIL3601/logs_saul/logs0/Job2.log -licenseLockFileName /home/saul/projects/FIL3601/.tmp_saul/.s2424_20917 -interactiveA -interactiveE -interactiveRTT -nostdin -nographE -axlChildIdFlag 2
 \# Host name (type):	s2424 (x86_64)
 \# Operating system:	Linux 3.10.0-1160.53.1.el7.x86_64 #1 SMP Fri Jan 14 13:59:45 UTC 2022
 \# Linux /etc/issue:	\S
 \# Linux /etc/issue:	Kernel \r on an \m
-\# X display name (WxH):	:1854 (1024x868)
+\# X display name (WxH):	:3328 (1024x868)
 \# Available geometry:			TL(0:0) BR(1023:867)
 \# X server:			The X.Org Foundation
 \# Depth of Visual (Root):	24 (24)
@@ -18,11 +18,11 @@
 \# 			current id 0x0, current max 0x1ffffa (2097146)
 \# Max data seg size:	     unlimited
 \# Max process size:	     unlimited
-\# Initial sbrk value:	        641 MB
-\# Available memory:	     72,471 MB
+\# Initial sbrk value:	        644 MB
+\# Available memory:	     69,447 MB
 \# System memory:	     96,361 MB
-\# Maximum memory size:	     96,011 MB
-\# Max mem available:	     72,762 MB
+\# Maximum memory size:	     96,008 MB
+\# Max mem available:	     69,737 MB
 \# Initial memory used:	        291 MB
 \#        process size:	      1,888 MB
 \# Thread usage limits (effective/default):	maxthreads 4096/4096 maxload 32.00/32.00
@@ -30,7 +30,7 @@
 \# Window Manager:	other
 \# User Name:		saul
 \o Working Directory:	s2424:/home/saul/projects/FIL3601
-\# Process Id:		9582
+\# Process Id:		22283
 \o 
 \o COPYRIGHT (C) 1992-2024  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
 \o           (C) 1992-2024  UNIX SYSTEMS Laboratories INC.,
@@ -68,19 +68,19 @@
 \o Loading amps.cxt 
 \o Loading adexlCore.cxt 
 \o Loading adexl.cxt 
-\# Memory report: using         420 MB, process size 2,140 MB at UTC 2025.02.12 21:10:48.150
+\# Memory report: using         420 MB, process size 2,140 MB at UTC 2025.03.08 06:02:51.138
 \o *Info*    Exporting services from client ... 
 \o 
 \o Loading adexlDM.cxt 
 \o Loading cpf.cxt 
 \o Loading cli.cxt 
 \o Loading lp.cxt 
-\o INFO (ELI-00302) Connecting to parent process (session=virtuoso832, host=s2424). Connection mode is ICRP. Total timeout is 180 seconds. Connection timeout is 90 seconds.
+\o INFO (ELI-00302) Connecting to parent process (session=virtuoso20917, host=s2424). Connection mode is ICRP. Total timeout is 180 seconds. Connection timeout is 90 seconds.
 \o INFO (ELI-00303) Step 1: Connecting to parent. Time spent is 0 seconds.
-\o INFO (ELI-00304) The registration of the child 9582 within 90 seconds is being processed...
+\o INFO (ELI-00304) The registration of the child 22283 within 90 seconds is being processed...
 \o INFO (ELI-00305) The result of registration is true. Time spent is 0 seconds.
 \o INFO (ELI-00308) The connection has ended. Result is true. Total time spent is 0 seconds.
-\# [22:10:45.512369] Configured Lic search path (22.01-s002): 3000@lic08.ug.kth.se
+\# [07:02:48.512425] Configured Lic search path (22.01-s002): 3000@lic08.ug.kth.se
 \o Loading .cdsinit for the XH018 X-Fab XKit.
 \o     LOAD xh018_1143 SPECIFIC CALL-BACK ROUTINES
 \o     LOAD ALL AVAILABLE P-CELL FUNCTIONS
@@ -107,8 +107,8 @@
 \o Loading vdsil.cxt 
 \o Loading hspiceD.cxt 
 \o Loading spectreinl.cxt 
-\# Memory report: using         525 MB, process size 2,251 MB at UTC 2025.02.12 21:10:50.052
 \o Loading UltraSim.cxt 
+\# Memory report: using         527 MB, process size 2,254 MB at UTC 2025.03.08 06:02:53.174
 \o Loading msgHandler.cxt 
 \o Loading AMSOSS.cxt 
 \o Loading AMS.cxt 
@@ -123,7 +123,7 @@
 \p > 
 \# Loading perfDiag...
 \# (PerfDiag): Set GDB path to environment variable 'gdbPath' (gdb).
-\# Performance Diagnostic tool is installed. You can access PerfDiag from CIW Tools or use the shell command 'cdsPerfDiag -p 9582' to open it when Virtuoso freezes.
+\# Performance Diagnostic tool is installed. You can access PerfDiag from CIW Tools or use the shell command 'cdsPerfDiag -p 22283' to open it when Virtuoso freezes.
 \# (PerfDiag): Loading backtrace from /pkg/cadence/installs/IC618/tools/lib/64bit/cdnslibunwind.so
 \o Loading vqp.cxt 
 \o Loading hdlPkg.cxt 
@@ -132,17 +132,17 @@
 \o *Info*    Configuring the session ...
 \o 
 \o Loading simui.cxt 
-\o 	Library      = CHARACTERIZATION
-\o 	Cell         = DC_BIAS_NMOS_L
+\o 	Library      = DAY6
+\o 	Cell         = ex1
 \o 	View         = schematic
 \o 	Simulator    = spectre
 \o 	State Path   = $AXL_SETUPDB_DIR/test_states
-\o 	State Name   = CHARACTERIZATION:DC_BIAS_NMOS_L:1_none_Interactive.5
-\o 	Results DB   = /home/saul/projects/FIL3601/CHARACTERIZATION/DC_BIAS_NMOS_L/adexl/results/data/Interactive.5.rdb
-\o 	Results Dir  = /home/saul/projects/FIL3601/Sim/CHARACTERIZATION/DC_BIAS_NMOS_L/adexl/results/data/Interactive.5/13/CHARACTERIZATION:DC_BIAS_NMOS_L:1
-\o 	Results Loc  = /home/saul/projects/FIL3601/Sim/CHARACTERIZATION/DC_BIAS_NMOS_L/adexl/results/data
+\o 	State Name   = SR_3M:1_state_Interactive.37
+\o 	Results DB   = /home/saul/projects/FIL3601/DAY6/ex1/adexl/results/data/Interactive.37.rdb
+\o 	Results Dir  = /home/saul/projects/FIL3601/Sim/DAY6/ex1/adexl/results/data/Interactive.37/1/SR
+\o 	Results Loc  = /home/saul/projects/FIL3601/Sim/DAY6/ex1/adexl/results/data
 \o 	Project Dir  = /home/saul/projects/FIL3601/Sim
-\o 	Setup DB loc = /home/saul/projects/FIL3601/CHARACTERIZATION/DC_BIAS_NMOS_L/adexl
+\o 	Setup DB loc = /home/saul/projects/FIL3601/DAY6/ex1/adexl
 \o 	File Encoding = 0
 \o 
 \o 
@@ -168,40 +168,37 @@
 \o 
 \o 
 \o 
-\o *Info*    Run start for Point ID (0 15) on testbench [
-\o           CHARACTERIZATION:DC_BIAS_NMOS_L:1 ].
+\o *Info*    Run start for Point ID (0 1) on testbench [ SR ].
 \o 
 \o Resetting statistical vars
 \o 
 \o *Info*    Setting parameter values ...
 \o 
-\o Setting var L1 = "1u"
-\o Setting var NF1 = "1"
-\o Setting var VDS = "1"
-\o Setting var VGS = "1.32631578947368"
-\o Setting var WF1 = "10u"
+\o Setting var FREQ = "700k"
+\o Setting var VIN = "0"
+\o Setting var VPULSE = "-500m"
 \o Setting var temperature = "27"
 \o Setting temp(T) = 27
 \o 
 \o *Info*    Netlist Directory =
-\o           /home/saul/projects/FIL3601/Sim/CHARACTERIZATION/DC_BIAS_NMOS_L/adexl/results/data/Interactive.5/15/CHARACTERIZATION:DC_BIAS_NMOS_L:1/netlist
+\o           /home/saul/projects/FIL3601/Sim/DAY6/ex1/adexl/results/data/Interactive.37/1/SR/netlist
 \o 
 \o 
 \o *Info*    Data Directory    =
-\o           /home/saul/projects/FIL3601/Sim/CHARACTERIZATION/DC_BIAS_NMOS_L/adexl/results/data/Interactive.5/15/CHARACTERIZATION:DC_BIAS_NMOS_L:1
+\o           /home/saul/projects/FIL3601/Sim/DAY6/ex1/adexl/results/data/Interactive.37/1/SR
 \o 
 \o 
-\o *Info*    Creating Netlist for Point ID (0 15)
+\o *Info*    Creating Netlist for Point ID (0 1)
 \o 
 \o generate netlist...
 \o Loading hnlInit.cxt 
 \o Loading seCore.cxt 
 \o function ansCdlCompPrim redefined
 \o function ansCdlCompPrim redefined
-\# [22:10:52.256050] Periodic Lic check successful
-\# [22:10:52.256051] Feature usage summary:
-\o Begin Incremental Netlisting Feb 12 22:10:52 2025
-\o End netlisting Feb 12 22:10:52 2025
+\# [07:02:55.145752] Periodic Lic check successful
+\# [07:02:55.145770] Feature usage summary:
+\o Begin Incremental Netlisting Mar  8 07:02:55 2025
+\o End netlisting Mar  8 07:02:55 2025
 \o 
 \o 	The netlist is up to date.
 \o 	Time taken to compare the design with netlist:   0.0s
@@ -209,10 +206,104 @@
 \o compose simulator input file...
 \o       ...successful.
 \o 
-\o *Info*    Running simulation on testbench [
-\o           CHARACTERIZATION:DC_BIAS_NMOS_L:1 ] for Point ID (0 15).
+\o *Info*    Running simulation on testbench [ SR ] for Point ID (0 1).
 \o 
-\o Delete psf data in /home/saul/projects/FIL3601/Sim/CHARACTERIZATION/DC_BIAS_NMOS_L/adexl/results/data/Interactive.5/15/CHARACTERIZATION:DC_BIAS_NMOS_L:1/psf.
+\o Delete psf data in /home/saul/projects/FIL3601/Sim/DAY6/ex1/adexl/results/data/Interactive.37/1/SR/psf.
+\o compose simulator input file...
+\# Memory report: using         649 MB, process size 2,382 MB at UTC 2025.03.08 06:02:56.137
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o Loading paraplot.cxt 
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 1) on testbench [ SR ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\# Available memory:         68,861 MB at UTC 2025.03.08 06:02:59.308
+\# Memory report: Maximum memory size now 69,556 MB at UTC 2025.03.08 06:02:59.308
+\# Thread usage report: 38 active threads, active load 1.40 at UTC 2025.03.08 06:02:59.308
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = DAY6
+\o 	Cell         = ex1
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = SR_3M:1_state_Interactive.38
+\o 	Results DB   = /home/saul/projects/FIL3601/DAY6/ex1/adexl/results/data/Interactive.38.rdb
+\o 	Results Dir  = /home/saul/projects/FIL3601/Sim/DAY6/ex1/adexl/results/data/Interactive.38/1/SR
+\o 	Results Loc  = /home/saul/projects/FIL3601/Sim/DAY6/ex1/adexl/results/data
+\o 	Project Dir  = /home/saul/projects/FIL3601/Sim
+\o 	Setup DB loc = /home/saul/projects/FIL3601/DAY6/ex1/adexl
+\o 	File Encoding = 0
+\o 
+\o 
+\o 
+\o *Info*    The auto suspension is disabled.
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 1) on testbench [ SR ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var FREQ = "700k"
+\o Setting var VIN = "0"
+\o Setting var VPULSE = "-500m"
+\o Setting var temperature = "27"
+\o Setting temp(T) = 27
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/FIL3601/Sim/DAY6/ex1/adexl/results/data/Interactive.38/1/SR/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/FIL3601/Sim/DAY6/ex1/adexl/results/data/Interactive.38/1/SR
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 1)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Mar  8 07:07:16 2025
+\o Loading json.cxt 
+\o End netlisting Mar  8 07:07:16 2025
+\o 
+\o Netlisting Statistics:
+\o 	Number of components:   16
+\o 
+\o 	Elapsed time:          0.0s
+\o Errors: 0	Warnings: 0
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ SR ] for Point ID (1 1).
+\o 
+\o Delete psf data in /home/saul/projects/FIL3601/Sim/DAY6/ex1/adexl/results/data/Interactive.38/1/SR/psf.
 \o compose simulator input file...
 \o       ...successful.
 \o start simulator if needed...
@@ -221,29 +312,198 @@
 \o To view the simulator output, right-click on the test name, result 
 \o name, or any value in the "Results" tab of the Outputs section and 
 \o choose "Output Log" menu option.
-\# Memory report: using         688 MB, process size 2,472 MB at UTC 2025.02.12 21:10:53.169
-\o Loading paraplot.cxt 
 \o INFO (ADE-3071): Simulation completed successfully.
 \o reading simulation data...
 \o       ...successful.
 \o *Info*    Client has finished evaluating ... 
 \o 
 \o 
-\o *Info*    Run complete for Point ID (0 15) on testbench [
-\o           CHARACTERIZATION:DC_BIAS_NMOS_L:1 ].
+\o *Info*    Run complete for Point ID (1 1) on testbench [ SR ].
 \o 
 \o 
 \o 
 \o 
 \o 
-\# Available memory:         69,885 MB at UTC 2025.02.12 21:10:56.308
-\# Memory report: Maximum memory size now 70,574 MB at UTC 2025.02.12 21:10:56.308
-\# Thread usage report: 38 active threads, active load 1.40 at UTC 2025.02.12 21:10:56.308
 \o Simulation design variables differ from those on the cellView,
-\o they have been saved in the file "/tmp/saved-design-variables2".
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = DAY6
+\o 	Cell         = ex1
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = SR_3M:1_state_Interactive.39
+\o 	Results DB   = /home/saul/projects/FIL3601/DAY6/ex1/adexl/results/data/Interactive.39.rdb
+\o 	Results Dir  = /home/saul/projects/FIL3601/Sim/DAY6/ex1/adexl/results/data/Interactive.39/1/SR
+\o 	Results Loc  = /home/saul/projects/FIL3601/Sim/DAY6/ex1/adexl/results/data
+\o 	Project Dir  = /home/saul/projects/FIL3601/Sim
+\o 	Setup DB loc = /home/saul/projects/FIL3601/DAY6/ex1/adexl
+\o 	File Encoding = 0
+\o 
+\o 
+\o 
+\o *Info*    The auto suspension is disabled.
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (2 1) on testbench [ SR ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var FREQ = "700k"
+\o Setting var VIN = "0"
+\o Setting var VPULSE = "-500m"
+\o Setting var temperature = "27"
+\o Setting temp(T) = 27
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/FIL3601/Sim/DAY6/ex1/adexl/results/data/Interactive.39/1/SR/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/FIL3601/Sim/DAY6/ex1/adexl/results/data/Interactive.39/1/SR
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (2 1)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Mar  8 07:07:33 2025
+\o End netlisting Mar  8 07:07:33 2025
+\o 
+\o Netlisting Statistics:
+\o 	Number of components:   16
+\o 
+\o 	Elapsed time:          0.0s
+\o Errors: 0	Warnings: 0
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ SR ] for Point ID (2 1).
+\o 
+\o Delete psf data in /home/saul/projects/FIL3601/Sim/DAY6/ex1/adexl/results/data/Interactive.39/1/SR/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (2 1) on testbench [ SR ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = DAY6
+\o 	Cell         = ex1
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = SR_3M:1_state_Interactive.40
+\o 	Results DB   = /home/saul/projects/FIL3601/DAY6/ex1/adexl/results/data/Interactive.40.rdb
+\o 	Results Dir  = /home/saul/projects/FIL3601/Sim/DAY6/ex1/adexl/results/data/Interactive.40/1/SR
+\o 	Results Loc  = /home/saul/projects/FIL3601/Sim/DAY6/ex1/adexl/results/data
+\o 	Project Dir  = /home/saul/projects/FIL3601/Sim
+\o 	Setup DB loc = /home/saul/projects/FIL3601/DAY6/ex1/adexl
+\o 	File Encoding = 0
+\o 
+\o 
+\o 
+\o *Info*    The auto suspension is disabled.
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (3 1) on testbench [ SR ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var FREQ = "700k"
+\o Setting var VIN = "0"
+\o Setting var VPULSE = "-500m"
+\o Setting var temperature = "27"
+\o Setting temp(T) = 27
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/FIL3601/Sim/DAY6/ex1/adexl/results/data/Interactive.40/1/SR/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/FIL3601/Sim/DAY6/ex1/adexl/results/data/Interactive.40/1/SR
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (3 1)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Mar  8 07:08:08 2025
+\o End netlisting Mar  8 07:08:08 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ SR ] for Point ID (3 1).
+\o 
+\o Delete psf data in /home/saul/projects/FIL3601/Sim/DAY6/ex1/adexl/results/data/Interactive.40/1/SR/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 1) on testbench [ SR ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
 \o To save future changes, copy variables to cellView before exiting.
 \# Lic Summary:
-\# [22:16:01.326937] Cdslmd servers:3000@lic08.ug.kth.se
-\# [22:16:01.326961] Feature usage summary:
-\# Memory report: on exit            688 MB, process size 2,472 MB at UTC 2025.02.12 21:16:01.327
-\# Memory report: peak usage         688 MB, process size 2,472 MB
+\# [07:13:13.352938] Cdslmd servers:3000@lic08.ug.kth.se
+\# [07:13:13.352962] Feature usage summary:
+\# Memory report: on exit            708 MB, process size 2,492 MB at UTC 2025.03.08 06:13:13.353
+\# Memory report: peak usage         708 MB, process size 2,492 MB

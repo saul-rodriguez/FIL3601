@@ -6,17 +6,17 @@
 
 *Info*    Configuring the session ...
 
-	Library      = DAY4
-	Cell         = Series
+	Library      = DAY6
+	Cell         = ex1
 	View         = schematic
 	Simulator    = spectre
 	State Path   = $AXL_SETUPDB_DIR/test_states
-	State Name   = rootlocus_Af:1_state_Interactive.18
-	Results DB   = /home/saul/projects/FIL3601/DAY4/Series/adexl/results/data/Interactive.18.rdb
-	Results Dir  = /home/saul/projects/FIL3601/Sim/DAY4/Series/adexl/results/data/Interactive.18/1/rootlocus
-	Results Loc  = /home/saul/projects/FIL3601/Sim/DAY4/Series/adexl/results/data
+	State Name   = 3M_DAY6:ex1:1:1_state_Interactive.57
+	Results DB   = /home/saul/projects/FIL3601/DAY6/ex1/adexl/results/data/Interactive.57.rdb
+	Results Dir  = /home/saul/projects/FIL3601/Sim/DAY6/ex1/adexl/results/data/Interactive.57/1/3M
+	Results Loc  = /home/saul/projects/FIL3601/Sim/DAY6/ex1/adexl/results/data
 	Project Dir  = /home/saul/projects/FIL3601/Sim
-	Setup DB loc = /home/saul/projects/FIL3601/DAY4/Series/adexl
+	Setup DB loc = /home/saul/projects/FIL3601/DAY6/ex1/adexl
 	File Encoding = 0
 
 
@@ -28,47 +28,39 @@
 
 
 
-*Info*    Run start for Point ID (18 1) on testbench [ rootlocus ].
+*Info*    Run start for Point ID (20 1) on testbench [ 3M ].
 
 Resetting statistical vars
 
 *Info*    Setting parameter values ...
 
-Setting var IT = "0"
-Setting var VIN = "1"
-Setting var cdb1 = "160f"
-Setting var cds1 = "46.01f"
-Setting var cgb1 = "160.37f"
-Setting var cgd1 = "26.40f"
-Setting var cgs1 = "112.78f"
-Setting var gm = "0.227m"
-Setting var gm1 = "0.227m"
-Setting var rds1 = "23893065.17"
+Setting var FREQ = "1M"
+Setting var VIN = "500m"
+Setting var VPULSE = "0"
 Setting var temperature = "27"
 Setting temp(T) = 27
 
 *Info*    Netlist Directory =
-          /home/saul/projects/FIL3601/Sim/DAY4/Series/adexl/results/data/Interactive.18/1/rootlocus/netlist
+          /home/saul/projects/FIL3601/Sim/DAY6/ex1/adexl/results/data/Interactive.57/1/3M/netlist
 
 
 *Info*    Data Directory    =
-          /home/saul/projects/FIL3601/Sim/DAY4/Series/adexl/results/data/Interactive.18/1/rootlocus
+          /home/saul/projects/FIL3601/Sim/DAY6/ex1/adexl/results/data/Interactive.57/1/3M
 
 
-*Info*    Creating Netlist for Point ID (18 1)
+*Info*    Creating Netlist for Point ID (20 1)
 
 generate netlist...
 function ansCdlCompPrim redefined
 function ansCdlCompPrim redefined
-Initializing the control file using cp:
-    cp /pkg/cadence/installs/IC618/tools.lnx86/dfII/etc/si/control.spectre /home/saul/projects/FIL3601/Sim/DAY4/Series/adexl/results/data/Interactive.18/1/rootlocus/netlist/control
-Copying Spectre source file 'spectre.inp'
-Copying Spectre command file 'spectre.sim'
-Begin Incremental Netlisting Feb 20 09:05:47 2025
-End netlisting Feb 20 09:05:47 2025
+Begin Incremental Netlisting Mar  8 10:29:06 2025
+WARNING (OSSHNL-941): Failed to open the sameCellNamesInMultipleLibs file '/home/saul/projects/FIL3601/Sim/DAY6/ex1/adexl/results/data/Interactive.45/1/1k/netlist/ihnl/sameCellNamesInMultipleLibs', in the append mode.
+Ensure that you have the write permission for the mentioned file.
+
+End netlisting Mar  8 10:29:06 2025
 
 Netlisting Statistics:
-	Number of components:   13
+	Number of components:   16
 
 	Elapsed time:          0.0s
 Errors: 0	Warnings: 0
@@ -76,10 +68,9 @@ Errors: 0	Warnings: 0
 compose simulator input file...
       ...successful.
 
-*Info*    Running simulation on testbench [ rootlocus ] for Point ID
-          (18 1).
+*Info*    Running simulation on testbench [ 3M ] for Point ID (20 1).
 
-Delete psf data in /home/saul/projects/FIL3601/Sim/DAY4/Series/adexl/results/data/Interactive.18/1/rootlocus/psf.
+Delete psf data in /home/saul/projects/FIL3601/Sim/DAY6/ex1/adexl/results/data/Interactive.57/1/3M/psf.
 compose simulator input file...
       ...successful.
 start simulator if needed...
@@ -94,12 +85,12 @@ reading simulation data...
 *Info*    Client has finished evaluating ... 
 
 
-*Info*    Run complete for Point ID (18 1) on testbench [ rootlocus ].
+*Info*    Run complete for Point ID (20 1) on testbench [ 3M ].
 
 
 
 
 
 Simulation design variables differ from those on the cellView,
-they have been saved in the file "/tmp/saved-design-variables2".
+they have been saved in the file "/tmp/saved-design-variables".
 To save future changes, copy variables to cellView before exiting.

@@ -1,17 +1,10 @@
 simulator( 'spectre )
-design(	 "/home/saul/projects/FIL3601/Sim/BIAS_NMOS/spectre/schematic/netlist/netlist")
+;design(	 "/home/saul/projects/FIL3601/Sim/BIAS_NMOS/spectre/schematic/netlist/netlist")
+design( "DAY2" "BIAS_NMOS" "schematic")
+createNetlist
 resultsDir( "/home/saul/projects/FIL3601/Sim/BIAS_NMOS/spectre/schematic" )
-modelFile( 
-    '("/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/config.scs" "default")
-    '("/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/param.scs" "3s")
-    '("/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/bip.scs" "tm")
-    '("/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/cap.scs" "tm")
-    '("/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/dio.scs" "tm")
-    '("/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/mos.scs" "tm")
-    '("/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/photo.scs" "tm")
-    '("/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/res.scs" "tm")
-)
 
+load("SCRIPTS/day2/models.il")
 load("SCRIPTS/day2/global.il")
 
 analysis('dc ?saveOppoint t  )

@@ -1,0 +1,19 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Thu Feb 27 15:14:36 2025 
+Best design point: 1
+Design specs: 
+	NoiseVoltage	corner	Nominal - 
+	NoiseCurrent	corner	Nominal - 
+Design parameters: 
+	IDS		10u
+	L		1u
+	NF		8
+	VDS		900m
+	WF		10u
+
+Interactive.5
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.5 completed. 
+Current time: Thu Feb 27 15:14:56 2025 

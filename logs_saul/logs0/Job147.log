@@ -1,0 +1,97 @@
+*Info*    Exporting services from client ... 
+
+*Info*    Client has finished starting ... 
+
+
+
+*Info*    Configuring the session ...
+
+	Library      = DAY5
+	Cell         = NOISE_NMOS
+	View         = schematic
+	Simulator    = spectre
+	State Path   = $AXL_SETUPDB_DIR/test_states
+	State Name   = NoiseVoltage_none_Interactive.7
+	Results DB   = /home/saul/projects/FIL3601/DAY5/NOISE_NMOS/adexl/results/data/Interactive.7.rdb
+	Results Dir  = /home/saul/projects/FIL3601/Sim/DAY5/NOISE_NMOS/adexl/results/data/Interactive.7/1/NoiseVoltage
+	Results Loc  = /home/saul/projects/FIL3601/Sim/DAY5/NOISE_NMOS/adexl/results/data
+	Project Dir  = /home/saul/projects/FIL3601/Sim
+	Setup DB loc = /home/saul/projects/FIL3601/DAY5/NOISE_NMOS/adexl
+	File Encoding = 0
+
+
+
+*Info*    The auto suspension is disabled.
+
+
+
+
+
+
+*Info*    Run start for Point ID (0 1) on testbench [ NoiseVoltage ].
+
+Resetting statistical vars
+
+*Info*    Setting parameter values ...
+
+Setting var IDS = "10u"
+Setting var L = "1u"
+Setting var NF = "8"
+Setting var VDS = "0.9"
+Setting var WF = "10u"
+Setting var temperature = "27"
+Setting temp(T) = 27
+
+*Info*    Netlist Directory =
+          /home/saul/projects/FIL3601/Sim/DAY5/NOISE_NMOS/adexl/results/data/Interactive.7/1/NoiseVoltage/netlist
+
+
+*Info*    Data Directory    =
+          /home/saul/projects/FIL3601/Sim/DAY5/NOISE_NMOS/adexl/results/data/Interactive.7/1/NoiseVoltage
+
+
+*Info*    Creating Netlist for Point ID (0 1)
+
+generate netlist...
+function ansCdlCompPrim redefined
+function ansCdlCompPrim redefined
+Begin Incremental Netlisting Mar  3 10:48:26 2025
+WARNING (OSSHNL-941): Failed to open the sameCellNamesInMultipleLibs file '/home/saul/projects/FIL3601/Sim/DAY2/GM_ID/adexl/results/data/Interactive.5/1/DAY2:GM_ID:1/netlist/ihnl/sameCellNamesInMultipleLibs', in the append mode.
+Ensure that you have the write permission for the mentioned file.
+
+End netlisting Mar  3 10:48:26 2025
+
+	The netlist is up to date.
+	Time taken to compare the design with netlist:   0.0s
+      ...successful.
+compose simulator input file...
+      ...successful.
+
+*Info*    Running simulation on testbench [ NoiseVoltage ] for Point
+          ID (0 1).
+
+Delete psf data in /home/saul/projects/FIL3601/Sim/DAY5/NOISE_NMOS/adexl/results/data/Interactive.7/1/NoiseVoltage/psf.
+compose simulator input file...
+      ...successful.
+start simulator if needed...
+      ...successful.
+simulate...
+To view the simulator output, right-click on the test name, result 
+name, or any value in the "Results" tab of the Outputs section and 
+choose "Output Log" menu option.
+INFO (ADE-3071): Simulation completed successfully.
+reading simulation data...
+      ...successful.
+*Info*    Client has finished evaluating ... 
+
+
+*Info*    Run complete for Point ID (0 1) on testbench [ NoiseVoltage
+          ].
+
+
+
+
+
+Simulation design variables differ from those on the cellView,
+they have been saved in the file "/tmp/saved-design-variables".
+To save future changes, copy variables to cellView before exiting.

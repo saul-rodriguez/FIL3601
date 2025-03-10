@@ -1,14 +1,14 @@
-\# Program start time:     UTC 2025.02.21 13:01:55.365
-\# Local time: CET (UTC+01:00) 2025.02.21 14:01:55.365
+\# Program start time:     UTC 2025.03.08 06:01:49.679
+\# Local time: CET (UTC+01:00) 2025.03.08 07:01:49.679
 \o Program:		@(#)$CDS: virtuoso version 6.1.8-64b 01/30/2024 20:11 (cpgbld02) $
 \o Hierarchy:		/pkg/cadence/installs/IC618/tools.lnx86/dfII/
 \o Sub version:		sub-version  IC6.1.8-64b.500.35  (64-bit addresses)
-\# Command line:	/pkg/cadence/installs/IC618/tools.lnx86/dfII/bin/64bit/virtuoso -noautostart -mpssession virtuoso13890 -mpshost s2424 -davinciService DaVinciService_13890_1740142911 -log /home/saul/projects/FIL3601/logs_saul/logs0/Job0.log -licenseLockFileName /home/saul/projects/FIL3601/.tmp_saul/.s2424_13890 -interactiveA -interactiveE -interactiveRTT -nostdin -nographE -axlChildIdFlag 0
+\# Command line:	/pkg/cadence/installs/IC618/tools.lnx86/dfII/bin/64bit/virtuoso -noautostart -mpssession virtuoso20917 -mpshost s2424 -davinciService DaVinciService_20917_1741413705 -log /home/saul/projects/FIL3601/logs_saul/logs0/Job0.log -licenseLockFileName /home/saul/projects/FIL3601/.tmp_saul/.s2424_20917 -interactiveA -interactiveE -interactiveRTT -nostdin -nographE -axlChildIdFlag 0
 \# Host name (type):	s2424 (x86_64)
 \# Operating system:	Linux 3.10.0-1160.53.1.el7.x86_64 #1 SMP Fri Jan 14 13:59:45 UTC 2022
 \# Linux /etc/issue:	\S
 \# Linux /etc/issue:	Kernel \r on an \m
-\# X display name (WxH):	:6670 (1024x868)
+\# X display name (WxH):	:1119 (1024x868)
 \# Available geometry:			TL(0:0) BR(1023:867)
 \# X server:			The X.Org Foundation
 \# Depth of Visual (Root):	24 (24)
@@ -18,11 +18,11 @@
 \# 			current id 0x0, current max 0x1ffffa (2097146)
 \# Max data seg size:	     unlimited
 \# Max process size:	     unlimited
-\# Initial sbrk value:	        628 MB
-\# Available memory:	     68,201 MB
+\# Initial sbrk value:	        631 MB
+\# Available memory:	     69,930 MB
 \# System memory:	     96,361 MB
-\# Maximum memory size:	     96,023 MB
-\# Max mem available:	     68,491 MB
+\# Maximum memory size:	     96,020 MB
+\# Max mem available:	     70,221 MB
 \# Initial memory used:	        291 MB
 \#        process size:	      1,888 MB
 \# Thread usage limits (effective/default):	maxthreads 4096/4096 maxload 32.00/32.00
@@ -30,7 +30,7 @@
 \# Window Manager:	other
 \# User Name:		saul
 \o Working Directory:	s2424:/home/saul/projects/FIL3601
-\# Process Id:		17800
+\# Process Id:		21838
 \o 
 \o COPYRIGHT (C) 1992-2024  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
 \o           (C) 1992-2024  UNIX SYSTEMS Laboratories INC.,
@@ -67,7 +67,6 @@
 \o Loading caa.cxt 
 \o Loading amps.cxt 
 \o Loading adexlCore.cxt 
-\# Memory report: using         403 MB, process size 2,123 MB at UTC 2025.02.21 13:02:01.108
 \o Loading adexl.cxt 
 \o *Info*    Exporting services from client ... 
 \o 
@@ -75,12 +74,13 @@
 \o Loading cpf.cxt 
 \o Loading cli.cxt 
 \o Loading lp.cxt 
-\o INFO (ELI-00302) Connecting to parent process (session=virtuoso13890, host=s2424). Connection mode is ICRP. Total timeout is 180 seconds. Connection timeout is 90 seconds.
+\o INFO (ELI-00302) Connecting to parent process (session=virtuoso20917, host=s2424). Connection mode is ICRP. Total timeout is 180 seconds. Connection timeout is 90 seconds.
 \o INFO (ELI-00303) Step 1: Connecting to parent. Time spent is 0 seconds.
-\o INFO (ELI-00304) The registration of the child 17800 within 90 seconds is being processed...
+\o INFO (ELI-00304) The registration of the child 21838 within 90 seconds is being processed...
 \o INFO (ELI-00305) The result of registration is true. Time spent is 0 seconds.
-\o INFO (ELI-00308) The connection has ended. Result is true. Total time spent is 3 seconds.
-\# [14:01:58.512409] Configured Lic search path (22.01-s002): 3000@lic08.ug.kth.se
+\o INFO (ELI-00308) The connection has ended. Result is true. Total time spent is 8 seconds.
+\# [07:01:57.512417] Configured Lic search path (22.01-s002): 3000@lic08.ug.kth.se
+\# Memory report: using         442 MB, process size 2,169 MB at UTC 2025.03.08 06:02:09.043
 \o Loading .cdsinit for the XH018 X-Fab XKit.
 \o     LOAD xh018_1143 SPECIFIC CALL-BACK ROUTINES
 \o     LOAD ALL AVAILABLE P-CELL FUNCTIONS
@@ -103,7 +103,6 @@
 \o Use model setup from PDK...
 \o Loading spectrei.cxt 
 \o Loading devCheck.cxt 
-\# Memory report: using         513 MB, process size 2,239 MB at UTC 2025.02.21 13:02:03.061
 \o Loading relXpert.cxt 
 \o Loading vdsil.cxt 
 \o Loading hspiceD.cxt 
@@ -112,6 +111,7 @@
 \o Loading msgHandler.cxt 
 \o Loading AMSOSS.cxt 
 \o Loading AMS.cxt 
+\# Memory report: using         543 MB, process size 2,270 MB at UTC 2025.03.08 06:02:11.004
 \o  --> Finished setting the required PDK definitions
 \o  --> Setting the recommended EDA tool defaults...
 \o  --> Finished setting the recommended EDA tool defaults
@@ -123,7 +123,7 @@
 \p > 
 \# Loading perfDiag...
 \# (PerfDiag): Set GDB path to environment variable 'gdbPath' (gdb).
-\# Performance Diagnostic tool is installed. You can access PerfDiag from CIW Tools or use the shell command 'cdsPerfDiag -p 17800' to open it when Virtuoso freezes.
+\# Performance Diagnostic tool is installed. You can access PerfDiag from CIW Tools or use the shell command 'cdsPerfDiag -p 21838' to open it when Virtuoso freezes.
 \# (PerfDiag): Loading backtrace from /pkg/cadence/installs/IC618/tools/lib/64bit/cdnslibunwind.so
 \o     LOAD GENERIC "X-KIT" SKILL CONTEXT "./.xkit/setup/x_all/cadence/xenv/skill/context6/xkit.cxt" 
 \o  - Menu "XKit Utilities" installed to CIW.
@@ -137,9 +137,9 @@
 \o                              setenv CUSTOM_SKILL_PATH /path/to/my/skill/LoadMySkills.il
 \o  loading default key binding 
 \o  -> END LOAD ".cdsinit" FILE
-\# Available memory:         67,923 MB at UTC 2025.02.21 13:02:09.307
-\# Memory report: Maximum memory size now 68,488 MB at UTC 2025.02.21 13:02:09.307
-\# Thread usage report: 38 active threads, active load 1.40 at UTC 2025.02.21 13:02:09.307
+\# Available memory:         69,670 MB at UTC 2025.03.08 06:02:15.307
+\# Memory report: Maximum memory size now 70,235 MB at UTC 2025.03.08 06:02:15.308
+\# Thread usage report: 38 active threads, active load 1.40 at UTC 2025.03.08 06:02:15.308
 \o Loading vqp.cxt 
 \o Loading hdlPkg.cxt 
 \o 
@@ -147,17 +147,17 @@
 \o *Info*    Configuring the session ...
 \o 
 \o Loading simui.cxt 
-\o 	Library      = DAY4
-\o 	Cell         = Series
+\o 	Library      = DAY6
+\o 	Cell         = ex1
 \o 	View         = schematic
 \o 	Simulator    = spectre
 \o 	State Path   = $AXL_SETUPDB_DIR/test_states
-\o 	State Name   = Af_none_Interactive.27
-\o 	Results DB   = /home/saul/projects/FIL3601/DAY4/Series/adexl/results/data/Interactive.27.rdb
-\o 	Results Dir  = /home/saul/projects/FIL3601/Sim/DAY4/Series/adexl/results/data/Interactive.27/1/Af
-\o 	Results Loc  = /home/saul/projects/FIL3601/Sim/DAY4/Series/adexl/results/data
+\o 	State Name   = 1k_none_Interactive.37
+\o 	Results DB   = /home/saul/projects/FIL3601/DAY6/ex1/adexl/results/data/Interactive.37.rdb
+\o 	Results Dir  = /home/saul/projects/FIL3601/Sim/DAY6/ex1/adexl/results/data/Interactive.37/1/1k
+\o 	Results Loc  = /home/saul/projects/FIL3601/Sim/DAY6/ex1/adexl/results/data
 \o 	Project Dir  = /home/saul/projects/FIL3601/Sim
-\o 	Setup DB loc = /home/saul/projects/FIL3601/DAY4/Series/adexl
+\o 	Setup DB loc = /home/saul/projects/FIL3601/DAY6/ex1/adexl
 \o 	File Encoding = 0
 \o 
 \o 
@@ -171,31 +171,24 @@
 \o 
 \o 
 \o 
-\o *Info*    Run start for Point ID (0 1) on testbench [ Af ].
+\o *Info*    Run start for Point ID (0 1) on testbench [ 1k ].
 \o 
 \o Resetting statistical vars
 \o 
 \o *Info*    Setting parameter values ...
 \o 
-\o Setting var IT = "0"
-\o Setting var VIN = "1"
-\o Setting var cdb1 = "160f"
-\o Setting var cds1 = "46.01f"
-\o Setting var cgb1 = "160.37f"
-\o Setting var cgd1 = "26.40f"
-\o Setting var cgs1 = "112.78f"
-\o Setting var gm = "0.227m"
-\o Setting var gm1 = "0.227m"
-\o Setting var rds1 = "23893065.17"
+\o Setting var FREQ = "1k"
+\o Setting var VIN = "500m"
+\o Setting var VPULSE = "0"
 \o Setting var temperature = "27"
 \o Setting temp(T) = 27
 \o 
 \o *Info*    Netlist Directory =
-\o           /home/saul/projects/FIL3601/Sim/DAY4/Series/adexl/results/data/Interactive.27/1/Af/netlist
+\o           /home/saul/projects/FIL3601/Sim/DAY6/ex1/adexl/results/data/Interactive.37/1/1k/netlist
 \o 
 \o 
 \o *Info*    Data Directory    =
-\o           /home/saul/projects/FIL3601/Sim/DAY4/Series/adexl/results/data/Interactive.27/1/Af
+\o           /home/saul/projects/FIL3601/Sim/DAY6/ex1/adexl/results/data/Interactive.37/1/1k
 \o 
 \o 
 \o *Info*    Creating Netlist for Point ID (0 1)
@@ -205,20 +198,21 @@
 \o Loading seCore.cxt 
 \o function ansCdlCompPrim redefined
 \o function ansCdlCompPrim redefined
-\# [14:02:44.268842] Periodic Lic check successful
-\# [14:02:44.268849] Feature usage summary:
-\o Begin Incremental Netlisting Feb 21 14:02:44 2025
-\o End netlisting Feb 21 14:02:44 2025
+\# [07:02:47.435552] Periodic Lic check successful
+\# [07:02:47.435554] Feature usage summary:
+\o Begin Incremental Netlisting Mar  8 07:02:47 2025
+\o End netlisting Mar  8 07:02:48 2025
 \o 
 \o 	The netlist is up to date.
-\o 	Time taken to compare the design with netlist:   0.0s
+\o 	Time taken to compare the design with netlist:   1.0s
 \o       ...successful.
 \o compose simulator input file...
 \o       ...successful.
+\# Memory report: using         649 MB, process size 2,382 MB at UTC 2025.03.08 06:02:48.308
 \o 
-\o *Info*    Running simulation on testbench [ Af ] for Point ID (0 1).
+\o *Info*    Running simulation on testbench [ 1k ] for Point ID (0 1).
 \o 
-\o Delete psf data in /home/saul/projects/FIL3601/Sim/DAY4/Series/adexl/results/data/Interactive.27/1/Af/psf.
+\o Delete psf data in /home/saul/projects/FIL3601/Sim/DAY6/ex1/adexl/results/data/Interactive.37/1/1k/psf.
 \o compose simulator input file...
 \o       ...successful.
 \o start simulator if needed...
@@ -227,7 +221,6 @@
 \o To view the simulator output, right-click on the test name, result 
 \o name, or any value in the "Results" tab of the Outputs section and 
 \o choose "Output Log" menu option.
-\# Memory report: using         690 MB, process size 2,474 MB at UTC 2025.02.21 13:02:45.070
 \o Loading paraplot.cxt 
 \o INFO (ADE-3071): Simulation completed successfully.
 \o reading simulation data...
@@ -235,30 +228,30 @@
 \o *Info*    Client has finished evaluating ... 
 \o 
 \o 
-\o *Info*    Run complete for Point ID (0 1) on testbench [ Af ].
+\o *Info*    Run complete for Point ID (0 1) on testbench [ 1k ].
 \o 
 \o 
 \o 
 \o 
 \o 
 \o Simulation design variables differ from those on the cellView,
-\o they have been saved in the file "/tmp/saved-design-variables2".
+\o they have been saved in the file "/tmp/saved-design-variables".
 \o To save future changes, copy variables to cellView before exiting.
 \o 
 \o 
 \o *Info*    Configuring the session ...
 \o 
-\o 	Library      = DAY4
-\o 	Cell         = Series
+\o 	Library      = DAY6
+\o 	Cell         = ex1
 \o 	View         = schematic
 \o 	Simulator    = spectre
 \o 	State Path   = $AXL_SETUPDB_DIR/test_states
-\o 	State Name   = Asymptotic_Af:1_state_Interactive.27
-\o 	Results DB   = /home/saul/projects/FIL3601/DAY4/Series/adexl/results/data/Interactive.27.rdb
-\o 	Results Dir  = /home/saul/projects/FIL3601/Sim/DAY4/Series/adexl/results/data/Interactive.27/1/Asymptotic
-\o 	Results Loc  = /home/saul/projects/FIL3601/Sim/DAY4/Series/adexl/results/data
+\o 	State Name   = 1k_none_Interactive.38
+\o 	Results DB   = /home/saul/projects/FIL3601/DAY6/ex1/adexl/results/data/Interactive.38.rdb
+\o 	Results Dir  = /home/saul/projects/FIL3601/Sim/DAY6/ex1/adexl/results/data/Interactive.38/1/1k
+\o 	Results Loc  = /home/saul/projects/FIL3601/Sim/DAY6/ex1/adexl/results/data
 \o 	Project Dir  = /home/saul/projects/FIL3601/Sim
-\o 	Setup DB loc = /home/saul/projects/FIL3601/DAY4/Series/adexl
+\o 	Setup DB loc = /home/saul/projects/FIL3601/DAY6/ex1/adexl
 \o 	File Encoding = 0
 \o 
 \o 
@@ -270,51 +263,47 @@
 \o 
 \o 
 \o 
-\o *Info*    Run start for Point ID (0 1) on testbench [ Asymptotic ].
+\o *Info*    Run start for Point ID (1 1) on testbench [ 1k ].
 \o 
 \o Resetting statistical vars
 \o 
 \o *Info*    Setting parameter values ...
 \o 
-\o Setting var IT = "0"
-\o Setting var VIN = "1"
-\o Setting var cdb1 = "160f"
-\o Setting var cds1 = "46.01f"
-\o Setting var cgb1 = "160.37f"
-\o Setting var cgd1 = "26.40f"
-\o Setting var cgs1 = "112.78f"
-\o Setting var gm = "0.227m"
-\o Setting var gm1 = "1000"
-\o Setting var rds1 = "23893065.17"
+\o Setting var FREQ = "1k"
+\o Setting var VIN = "500m"
+\o Setting var VPULSE = "0"
 \o Setting var temperature = "27"
 \o Setting temp(T) = 27
 \o 
 \o *Info*    Netlist Directory =
-\o           /home/saul/projects/FIL3601/Sim/DAY4/Series/adexl/results/data/Interactive.27/1/Asymptotic/netlist
+\o           /home/saul/projects/FIL3601/Sim/DAY6/ex1/adexl/results/data/Interactive.38/1/1k/netlist
 \o 
 \o 
 \o *Info*    Data Directory    =
-\o           /home/saul/projects/FIL3601/Sim/DAY4/Series/adexl/results/data/Interactive.27/1/Asymptotic
+\o           /home/saul/projects/FIL3601/Sim/DAY6/ex1/adexl/results/data/Interactive.38/1/1k
 \o 
 \o 
-\o *Info*    Creating Netlist for Point ID (0 1)
+\o *Info*    Creating Netlist for Point ID (1 1)
 \o 
 \o generate netlist...
 \o function ansCdlCompPrim redefined
 \o function ansCdlCompPrim redefined
-\o Begin Incremental Netlisting Feb 21 14:02:47 2025
-\o End netlisting Feb 21 14:02:47 2025
+\o Begin Incremental Netlisting Mar  8 07:07:16 2025
+\o Loading json.cxt 
+\o End netlisting Mar  8 07:07:16 2025
 \o 
-\o 	The netlist is up to date.
-\o 	Time taken to compare the design with netlist:   0.0s
+\o Netlisting Statistics:
+\o 	Number of components:   16
+\o 
+\o 	Elapsed time:          0.0s
+\o Errors: 0	Warnings: 0
 \o       ...successful.
 \o compose simulator input file...
 \o       ...successful.
 \o 
-\o *Info*    Running simulation on testbench [ Asymptotic ] for Point ID
-\o           (0 1).
+\o *Info*    Running simulation on testbench [ 1k ] for Point ID (1 1).
 \o 
-\o Delete psf data in /home/saul/projects/FIL3601/Sim/DAY4/Series/adexl/results/data/Interactive.27/1/Asymptotic/psf.
+\o Delete psf data in /home/saul/projects/FIL3601/Sim/DAY6/ex1/adexl/results/data/Interactive.38/1/1k/psf.
 \o compose simulator input file...
 \o       ...successful.
 \o start simulator if needed...
@@ -329,30 +318,30 @@
 \o *Info*    Client has finished evaluating ... 
 \o 
 \o 
-\o *Info*    Run complete for Point ID (0 1) on testbench [ Asymptotic ].
+\o *Info*    Run complete for Point ID (1 1) on testbench [ 1k ].
 \o 
 \o 
 \o 
 \o 
 \o 
 \o Simulation design variables differ from those on the cellView,
-\o they have been saved in the file "/tmp/saved-design-variables2".
+\o they have been saved in the file "/tmp/saved-design-variables".
 \o To save future changes, copy variables to cellView before exiting.
 \o 
 \o 
 \o *Info*    Configuring the session ...
 \o 
-\o 	Library      = DAY4
-\o 	Cell         = Series
+\o 	Library      = DAY6
+\o 	Cell         = ex1
 \o 	View         = schematic
 \o 	Simulator    = spectre
 \o 	State Path   = $AXL_SETUPDB_DIR/test_states
-\o 	State Name   = LoopGain_Af:1_state_Interactive.27
-\o 	Results DB   = /home/saul/projects/FIL3601/DAY4/Series/adexl/results/data/Interactive.27.rdb
-\o 	Results Dir  = /home/saul/projects/FIL3601/Sim/DAY4/Series/adexl/results/data/Interactive.27/1/LoopGain
-\o 	Results Loc  = /home/saul/projects/FIL3601/Sim/DAY4/Series/adexl/results/data
+\o 	State Name   = 1k_none_Interactive.39
+\o 	Results DB   = /home/saul/projects/FIL3601/DAY6/ex1/adexl/results/data/Interactive.39.rdb
+\o 	Results Dir  = /home/saul/projects/FIL3601/Sim/DAY6/ex1/adexl/results/data/Interactive.39/1/1k
+\o 	Results Loc  = /home/saul/projects/FIL3601/Sim/DAY6/ex1/adexl/results/data
 \o 	Project Dir  = /home/saul/projects/FIL3601/Sim
-\o 	Setup DB loc = /home/saul/projects/FIL3601/DAY4/Series/adexl
+\o 	Setup DB loc = /home/saul/projects/FIL3601/DAY6/ex1/adexl
 \o 	File Encoding = 0
 \o 
 \o 
@@ -364,51 +353,46 @@
 \o 
 \o 
 \o 
-\o *Info*    Run start for Point ID (0 1) on testbench [ LoopGain ].
+\o *Info*    Run start for Point ID (2 1) on testbench [ 1k ].
 \o 
 \o Resetting statistical vars
 \o 
 \o *Info*    Setting parameter values ...
 \o 
-\o Setting var IT = "1"
-\o Setting var VIN = "0"
-\o Setting var cdb1 = "160f"
-\o Setting var cds1 = "46.01f"
-\o Setting var cgb1 = "160.37f"
-\o Setting var cgd1 = "26.40f"
-\o Setting var cgs1 = "112.78f"
-\o Setting var gm = "0.227m"
-\o Setting var gm1 = "0"
-\o Setting var rds1 = "23893065.17"
+\o Setting var FREQ = "1k"
+\o Setting var VIN = "500m"
+\o Setting var VPULSE = "0"
 \o Setting var temperature = "27"
 \o Setting temp(T) = 27
 \o 
 \o *Info*    Netlist Directory =
-\o           /home/saul/projects/FIL3601/Sim/DAY4/Series/adexl/results/data/Interactive.27/1/LoopGain/netlist
+\o           /home/saul/projects/FIL3601/Sim/DAY6/ex1/adexl/results/data/Interactive.39/1/1k/netlist
 \o 
 \o 
 \o *Info*    Data Directory    =
-\o           /home/saul/projects/FIL3601/Sim/DAY4/Series/adexl/results/data/Interactive.27/1/LoopGain
+\o           /home/saul/projects/FIL3601/Sim/DAY6/ex1/adexl/results/data/Interactive.39/1/1k
 \o 
 \o 
-\o *Info*    Creating Netlist for Point ID (0 1)
+\o *Info*    Creating Netlist for Point ID (2 1)
 \o 
 \o generate netlist...
 \o function ansCdlCompPrim redefined
 \o function ansCdlCompPrim redefined
-\o Begin Incremental Netlisting Feb 21 14:02:50 2025
-\o End netlisting Feb 21 14:02:50 2025
+\o Begin Incremental Netlisting Mar  8 07:07:33 2025
+\o End netlisting Mar  8 07:07:33 2025
 \o 
-\o 	The netlist is up to date.
-\o 	Time taken to compare the design with netlist:   0.0s
+\o Netlisting Statistics:
+\o 	Number of components:   16
+\o 
+\o 	Elapsed time:          0.0s
+\o Errors: 0	Warnings: 0
 \o       ...successful.
 \o compose simulator input file...
 \o       ...successful.
 \o 
-\o *Info*    Running simulation on testbench [ LoopGain ] for Point ID
-\o           (0 1).
+\o *Info*    Running simulation on testbench [ 1k ] for Point ID (2 1).
 \o 
-\o Delete psf data in /home/saul/projects/FIL3601/Sim/DAY4/Series/adexl/results/data/Interactive.27/1/LoopGain/psf.
+\o Delete psf data in /home/saul/projects/FIL3601/Sim/DAY6/ex1/adexl/results/data/Interactive.39/1/1k/psf.
 \o compose simulator input file...
 \o       ...successful.
 \o start simulator if needed...
@@ -423,30 +407,30 @@
 \o *Info*    Client has finished evaluating ... 
 \o 
 \o 
-\o *Info*    Run complete for Point ID (0 1) on testbench [ LoopGain ].
+\o *Info*    Run complete for Point ID (2 1) on testbench [ 1k ].
 \o 
 \o 
 \o 
 \o 
 \o 
 \o Simulation design variables differ from those on the cellView,
-\o they have been saved in the file "/tmp/saved-design-variables2".
+\o they have been saved in the file "/tmp/saved-design-variables".
 \o To save future changes, copy variables to cellView before exiting.
 \o 
 \o 
 \o *Info*    Configuring the session ...
 \o 
-\o 	Library      = DAY4
-\o 	Cell         = Series
+\o 	Library      = DAY6
+\o 	Cell         = ex1
 \o 	View         = schematic
 \o 	Simulator    = spectre
 \o 	State Path   = $AXL_SETUPDB_DIR/test_states
-\o 	State Name   = rootlocus_Af:1_state_Interactive.27
-\o 	Results DB   = /home/saul/projects/FIL3601/DAY4/Series/adexl/results/data/Interactive.27.rdb
-\o 	Results Dir  = /home/saul/projects/FIL3601/Sim/DAY4/Series/adexl/results/data/Interactive.27/1/rootlocus
-\o 	Results Loc  = /home/saul/projects/FIL3601/Sim/DAY4/Series/adexl/results/data
+\o 	State Name   = 1k_none_Interactive.40
+\o 	Results DB   = /home/saul/projects/FIL3601/DAY6/ex1/adexl/results/data/Interactive.40.rdb
+\o 	Results Dir  = /home/saul/projects/FIL3601/Sim/DAY6/ex1/adexl/results/data/Interactive.40/1/1k
+\o 	Results Loc  = /home/saul/projects/FIL3601/Sim/DAY6/ex1/adexl/results/data
 \o 	Project Dir  = /home/saul/projects/FIL3601/Sim
-\o 	Setup DB loc = /home/saul/projects/FIL3601/DAY4/Series/adexl
+\o 	Setup DB loc = /home/saul/projects/FIL3601/DAY6/ex1/adexl
 \o 	File Encoding = 0
 \o 
 \o 
@@ -458,40 +442,33 @@
 \o 
 \o 
 \o 
-\o *Info*    Run start for Point ID (0 1) on testbench [ rootlocus ].
+\o *Info*    Run start for Point ID (3 1) on testbench [ 1k ].
 \o 
 \o Resetting statistical vars
 \o 
 \o *Info*    Setting parameter values ...
 \o 
-\o Setting var IT = "0"
-\o Setting var VIN = "1"
-\o Setting var cdb1 = "160f"
-\o Setting var cds1 = "46.01f"
-\o Setting var cgb1 = "160.37f"
-\o Setting var cgd1 = "26.40f"
-\o Setting var cgs1 = "112.78f"
-\o Setting var gm = "0.227m"
-\o Setting var gm1 = "0.227m"
-\o Setting var rds1 = "23893065.17"
+\o Setting var FREQ = "1k"
+\o Setting var VIN = "500m"
+\o Setting var VPULSE = "0"
 \o Setting var temperature = "27"
 \o Setting temp(T) = 27
 \o 
 \o *Info*    Netlist Directory =
-\o           /home/saul/projects/FIL3601/Sim/DAY4/Series/adexl/results/data/Interactive.27/1/rootlocus/netlist
+\o           /home/saul/projects/FIL3601/Sim/DAY6/ex1/adexl/results/data/Interactive.40/1/1k/netlist
 \o 
 \o 
 \o *Info*    Data Directory    =
-\o           /home/saul/projects/FIL3601/Sim/DAY4/Series/adexl/results/data/Interactive.27/1/rootlocus
+\o           /home/saul/projects/FIL3601/Sim/DAY6/ex1/adexl/results/data/Interactive.40/1/1k
 \o 
 \o 
-\o *Info*    Creating Netlist for Point ID (0 1)
+\o *Info*    Creating Netlist for Point ID (3 1)
 \o 
 \o generate netlist...
 \o function ansCdlCompPrim redefined
 \o function ansCdlCompPrim redefined
-\o Begin Incremental Netlisting Feb 21 14:02:53 2025
-\o End netlisting Feb 21 14:02:53 2025
+\o Begin Incremental Netlisting Mar  8 07:08:08 2025
+\o End netlisting Mar  8 07:08:08 2025
 \o 
 \o 	The netlist is up to date.
 \o 	Time taken to compare the design with netlist:   0.0s
@@ -499,10 +476,9 @@
 \o compose simulator input file...
 \o       ...successful.
 \o 
-\o *Info*    Running simulation on testbench [ rootlocus ] for Point ID
-\o           (0 1).
+\o *Info*    Running simulation on testbench [ 1k ] for Point ID (3 1).
 \o 
-\o Delete psf data in /home/saul/projects/FIL3601/Sim/DAY4/Series/adexl/results/data/Interactive.27/1/rootlocus/psf.
+\o Delete psf data in /home/saul/projects/FIL3601/Sim/DAY6/ex1/adexl/results/data/Interactive.40/1/1k/psf.
 \o compose simulator input file...
 \o       ...successful.
 \o start simulator if needed...
@@ -517,15 +493,14 @@
 \o *Info*    Client has finished evaluating ... 
 \o 
 \o 
-\o *Info*    Run complete for Point ID (0 1) on testbench [ rootlocus ].
+\o *Info*    Run complete for Point ID (3 1) on testbench [ 1k ].
 \o 
 \o 
 \o 
 \o 
 \o 
-\o Job 0 timed out after no activity in 300 seconds.
 \o Simulation design variables differ from those on the cellView,
-\o they have been saved in the file "/tmp/saved-design-variables2".
+\o they have been saved in the file "/tmp/saved-design-variables".
 \o To save future changes, copy variables to cellView before exiting.
 \o 
 \o *Info*    Received signal SIGTERM.

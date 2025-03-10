@@ -12,34 +12,29 @@ ocnxlMaxJobFail( 20 )
 ocnxlBeginTest("DAY2:GM_ID:1")
 simulator( 'spectre )
 design( "DAY2" "GM_ID" "schematic")
-modelFile( 
-    '("/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/config.scs" "default")
-    '("/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/param.scs" "3s")
-    '("/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/bip.scs" "tm")
-    '("/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/cap.scs" "tm")
-    '("/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/dio.scs" "tm")
-    '("/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/mos.scs" "tm")
-    '("/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/photo.scs" "tm")
-    '("/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/res.scs" "tm")
-)
+load("SCRIPTS/day2/models.il")
+load("SCRIPTS/day2/global.il")
+
 analysis('dc ?saveOppoint t  )
-desVar(	  "IDS" 10u	)
-desVar(	  "L" 180n	)
-desVar(	  "NF" 1	)
-desVar(	  "VDS" 0.9	)
-desVar(	  "WF" 8u	)
+desVar(	  "IDS" IDS1	)
+desVar(	  "L" L1	)
+desVar(	  "NF" NF1	)
+desVar(	  "VDS" VDS1	)
+desVar(	  "WF" WF1	)
 envOption(
-	'analysisOrder  list("dc" "pz" "dcmatch" "stb" "tran" "envlp" "ac" "lf" "noise" "xf" "sp" "pss" "pac" "pstb" "pnoise" "pxf" "psp" "qpss" "qpac" "qpnoise" "qpxf" "qpsp" "hb" "hbac" "hbstb" "hbnoise" "hbxf" "sens" "acmatch") 
+	'analysisOrder  list("dc") 
 )
 temp( 27 ) 
+ocnxlOutputExpr( "pv(\"M0.m1\" \"ids\" ?result \"dcOpInfo\")" ?name "ids" ?plot t ?evalType 'point)
+ocnxlOutputExpr( "pv(\"M0.m1\" \"gm\" ?result \"dcOpInfo\")" ?name "gm" ?plot t ?evalType 'point)
 ocnxlEndTest() ; "DAY2:GM_ID:1"
 
 ;====================== Sweeps setup ===========================================
 ocnxlSweepVar("IDS" "{From/To}Decade:10n:10:10m{From/To}")
-ocnxlSweepVar("L" "180n")
-ocnxlSweepVar("NF" "1")
-ocnxlSweepVar("VDS" "0.9")
-ocnxlSweepVar("WF" "8u")
+ocnxlSweepVar("L" "L1")
+ocnxlSweepVar("NF" "NF1")
+ocnxlSweepVar("VDS" "VDS1")
+ocnxlSweepVar("WF" "WF1")
 
 ;====================== Model Group setup ==========================================
 
@@ -58,7 +53,7 @@ ocnxlJobSetup( '(
 	"estimatecpuvalue" ""
 	"estimatememoryvalue" ""
 	"lingertimeout" "300"
-	"maxjobs" "10"
+	"maxjobs" "8"
 	"name" "ADE XL Default"
 	"preemptivestart" "1"
 	"reconfigureimmediately" "1"
@@ -83,3 +78,20 @@ ocnxlOpenResults()
 
 ;====================== End XL Mode command ===================================
 ocnxlEndXLMode()
+
+gm = pv("M0.m1" "gm" ?result "dcOpInfo")
+ids = pv("M0.m1" "ids" ?result "dcOpInfo")
+cgs = mag(pv("M0.m1" "cgs" ?result "dcOpInfo"))
+cgd = mag(pv("M0.m1" "cgd" ?result "dcOpInfo"))
+cgb = mag(pv("M0.m1" "cgb" ?result "dcOpInfo"))
+
+gm_id = gm/ids
+ft = (gm/(cgs + cgd + cgb))/(2*3.141592)
+
+newWindow
+plot( gm_id ?expr '( "gm_id" ) )
+plot( ft ?expr '( "ft" ) )
+plot( gm ?expr '( "gm" ) )
+
+
+
