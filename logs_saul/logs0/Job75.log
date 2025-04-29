@@ -6,17 +6,17 @@
 
 *Info*    Configuring the session ...
 
-	Library      = DAY6
-	Cell         = ex3
+	Library      = EX1
+	Cell         = current_amplifier_final_tb
 	View         = schematic
 	Simulator    = spectre
 	State Path   = $AXL_SETUPDB_DIR/test_states
-	State Name   = DAY6:ex3:1_none_Interactive.4
-	Results DB   = /home/saul/projects/FIL3601/DAY6/ex3/adexl/results/data/Interactive.4.rdb
-	Results Dir  = /home/saul/projects/FIL3601/Sim/DAY6/ex3/adexl/results/data/Interactive.4/1/DAY6:ex3:1
-	Results Loc  = /home/saul/projects/FIL3601/Sim/DAY6/ex3/adexl/results/data
+	State Name   = TRAN_PULSE_VDD_TRAN_STAB_IN:1_state_Interactive.79
+	Results DB   = /home/saul/projects/FIL3601/EX1/current_amplifier_final_tb/adexl/results/data/Interactive.79.rdb
+	Results Dir  = /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/Interactive.79/1/TRAN_PULSE_VDD
+	Results Loc  = /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data
 	Project Dir  = /home/saul/projects/FIL3601/Sim
-	Setup DB loc = /home/saul/projects/FIL3601/DAY6/ex3/adexl
+	Setup DB loc = /home/saul/projects/FIL3601/EX1/current_amplifier_final_tb/adexl
 	File Encoding = 0
 
 
@@ -28,47 +28,57 @@
 
 
 
-*Info*    Run start for Point ID (4 1) on testbench [ DAY6:ex3:1 ].
+*Info*    Run start for Point ID (26 1) on testbench [ TRAN_PULSE_VDD
+          ].
 
 Resetting statistical vars
 
 *Info*    Setting parameter values ...
 
-Setting var FREQ = "1k"
-Setting var VIN = "200m"
-Setting var VPULSE = "0"
+Setting var AMP1 = "0"
+Setting var AMP2 = "0"
+Setting var FREQ1 = "40M"
+Setting var FREQ2 = "50M"
+Setting var IN = "1"
+Setting var IN_DC = "0"
+Setting var IN_PULSE = "0"
+Setting var VDD = "0"
+Setting var VDD_PULSE = "1.8"
 Setting var temperature = "27"
 Setting temp(T) = 27
 
 *Info*    Netlist Directory =
-          /home/saul/projects/FIL3601/Sim/DAY6/ex3/adexl/results/data/Interactive.4/1/DAY6:ex3:1/netlist
+          /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/Interactive.79/1/TRAN_PULSE_VDD/netlist
 
 
 *Info*    Data Directory    =
-          /home/saul/projects/FIL3601/Sim/DAY6/ex3/adexl/results/data/Interactive.4/1/DAY6:ex3:1
+          /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/Interactive.79/1/TRAN_PULSE_VDD
 
 
-*Info*    Creating Netlist for Point ID (4 1)
+*Info*    Creating Netlist for Point ID (26 1)
 
 generate netlist...
 function ansCdlCompPrim redefined
 function ansCdlCompPrim redefined
-Begin Incremental Netlisting Mar  5 14:52:05 2025
-End netlisting Mar  5 14:52:05 2025
+Begin Incremental Netlisting Apr 26 17:02:20 2025
+WARNING (OSSHNL-941): Failed to open the sameCellNamesInMultipleLibs file '/home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/Interactive.53/1/AC_NOISE_PZ_TRANS_PSRR/netlist/ihnl/sameCellNamesInMultipleLibs', in the append mode.
+Ensure that you have the write permission for the mentioned file.
+
+End netlisting Apr 26 17:02:20 2025
 
 Netlisting Statistics:
-	Number of components:   17
+	Number of components:   11
 
-	Elapsed time:          1.0s (17.00/s)
+	Elapsed time:          0.0s
 Errors: 0	Warnings: 0
       ...successful.
 compose simulator input file...
       ...successful.
 
-*Info*    Running simulation on testbench [ DAY6:ex3:1 ] for Point ID
-          (4 1).
+*Info*    Running simulation on testbench [ TRAN_PULSE_VDD ] for
+          Point ID (26 1).
 
-Delete psf data in /home/saul/projects/FIL3601/Sim/DAY6/ex3/adexl/results/data/Interactive.4/1/DAY6:ex3:1/psf.
+Delete psf data in /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/Interactive.79/1/TRAN_PULSE_VDD/psf.
 compose simulator input file...
       ...successful.
 start simulator if needed...
@@ -83,7 +93,8 @@ reading simulation data...
 *Info*    Client has finished evaluating ... 
 
 
-*Info*    Run complete for Point ID (4 1) on testbench [ DAY6:ex3:1 ].
+*Info*    Run complete for Point ID (26 1) on testbench [
+          TRAN_PULSE_VDD ].
 
 
 

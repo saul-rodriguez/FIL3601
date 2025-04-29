@@ -1,0 +1,102 @@
+*Info*    Exporting services from client ... 
+
+*Info*    Client has finished starting ... 
+
+
+
+*Info*    Configuring the session ...
+
+	Library      = EX1
+	Cell         = current_amplifier_final_tb
+	View         = schematic
+	Simulator    = spectre
+	State Path   = $AXL_SETUPDB_DIR/test_states
+	State Name   = AC_NOISE_PZ_TRANS_PSRR_none_Interactive.33
+	Results DB   = /home/saul/projects/FIL3601/EX1/current_amplifier_final_tb/adexl/results/data/Interactive.33.rdb
+	Results Dir  = /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/Interactive.33/1/AC_NOISE_PZ_TRANS_PSRR
+	Results Loc  = /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data
+	Project Dir  = /home/saul/projects/FIL3601/Sim
+	Setup DB loc = /home/saul/projects/FIL3601/EX1/current_amplifier_final_tb/adexl
+	File Encoding = 0
+
+
+
+*Info*    The auto suspension is disabled.
+
+
+
+
+
+
+*Info*    Run start for Point ID (33 1) on testbench [
+          AC_NOISE_PZ_TRANS_PSRR ].
+
+Resetting statistical vars
+
+*Info*    Setting parameter values ...
+
+Setting var AMP1 = "2u"
+Setting var AMP2 = "0"
+Setting var FREQ1 = "10M"
+Setting var FREQ2 = "50M"
+Setting var IN = "1"
+Setting var IN_DC = "0"
+Setting var IN_PULSE = "0"
+Setting var VDD = "1.8"
+Setting var VDD_PULSE = "0"
+Setting var temperature = "27"
+Setting temp(T) = 27
+
+*Info*    Netlist Directory =
+          /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/Interactive.33/1/AC_NOISE_PZ_TRANS_PSRR/netlist
+
+
+*Info*    Data Directory    =
+          /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/Interactive.33/1/AC_NOISE_PZ_TRANS_PSRR
+
+
+*Info*    Creating Netlist for Point ID (33 1)
+
+generate netlist...
+function ansCdlCompPrim redefined
+function ansCdlCompPrim redefined
+Begin Incremental Netlisting Apr 22 16:09:51 2025
+End netlisting Apr 22 16:09:51 2025
+
+Netlisting Statistics:
+	Number of components:   11
+
+	Elapsed time:          1.0s (11.00/s)
+Errors: 0	Warnings: 0
+      ...successful.
+compose simulator input file...
+      ...successful.
+
+*Info*    Running simulation on testbench [ AC_NOISE_PZ_TRANS_PSRR ]
+          for Point ID (33 1).
+
+Delete psf data in /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/Interactive.33/1/AC_NOISE_PZ_TRANS_PSRR/psf.
+compose simulator input file...
+      ...successful.
+start simulator if needed...
+      ...successful.
+simulate...
+To view the simulator output, right-click on the test name, result 
+name, or any value in the "Results" tab of the Outputs section and 
+choose "Output Log" menu option.
+INFO (ADE-3071): Simulation completed successfully.
+reading simulation data...
+      ...successful.
+*Info*    Client has finished evaluating ... 
+
+
+*Info*    Run complete for Point ID (33 1) on testbench [
+          AC_NOISE_PZ_TRANS_PSRR ].
+
+
+
+
+
+Simulation design variables differ from those on the cellView,
+they have been saved in the file "/tmp/saved-design-variables".
+To save future changes, copy variables to cellView before exiting.

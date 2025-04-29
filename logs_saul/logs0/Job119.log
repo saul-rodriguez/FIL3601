@@ -1,1032 +1,125 @@
-\# Program start time:     UTC 2025.03.03 08:51:04.722
-\# Local time: CET (UTC+01:00) 2025.03.03 09:51:04.722
-\o Program:		@(#)$CDS: virtuoso version 6.1.8-64b 01/30/2024 20:11 (cpgbld02) $
-\o Hierarchy:		/pkg/cadence/installs/IC618/tools.lnx86/dfII/
-\o Sub version:		sub-version  IC6.1.8-64b.500.35  (64-bit addresses)
-\# Command line:	/pkg/cadence/installs/IC618/tools.lnx86/dfII/bin/64bit/virtuoso -noautostart -mpssession virtuoso24014 -mpshost s2424 -davinciService DaVinciService_24014_1740988313 -log /home/saul/projects/FIL3601/logs_saul/logs0/Job119.log -licenseLockFileName /home/saul/projects/FIL3601/.tmp_saul/.s2424_24014 -interactiveA -interactiveE -interactiveRTT -nostdin -nographE -axlChildIdFlag 119
-\# Host name (type):	s2424 (x86_64)
-\# Operating system:	Linux 3.10.0-1160.53.1.el7.x86_64 #1 SMP Fri Jan 14 13:59:45 UTC 2022
-\# Linux /etc/issue:	\S
-\# Linux /etc/issue:	Kernel \r on an \m
-\# X display name (WxH):	:5216 (1024x868)
-\# Available geometry:			TL(0:0) BR(1023:867)
-\# X server:			The X.Org Foundation
-\# Depth of Visual (Root):	24 (24)
-\# Number of Planes Used:	24
-\# X version:		11.0 (vendor release 12004000)
-\# X resource pool:	base 0x400000, mask 0x1fffff (2097151), shift 0
-\# 			current id 0x0, current max 0x1ffffa (2097146)
-\# Max data seg size:	     unlimited
-\# Max process size:	     unlimited
-\# Initial sbrk value:	        625 MB
-\# Available memory:	     68,896 MB
-\# System memory:	     96,361 MB
-\# Maximum memory size:	     96,027 MB
-\# Max mem available:	     69,187 MB
-\# Initial memory used:	        291 MB
-\#        process size:	      1,888 MB
-\# Thread usage limits (effective/default):	maxthreads 4096/4096 maxload 32.00/32.00
-\# Qt version:		5.9.1
-\# Window Manager:	other
-\# User Name:		saul
-\o Working Directory:	s2424:/home/saul/projects/FIL3601
-\# Process Id:		4337
-\o 
-\o COPYRIGHT (C) 1992-2024  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
-\o           (C) 1992-2024  UNIX SYSTEMS Laboratories INC.,
-\o                          Reproduced with permission.
-\o 
-\o This Cadence Design Systems program and online documentation are
-\o proprietary/confidential information and may be disclosed/used only
-\o as authorized in a license agreement controlling such use and disclosure.
-\o 
-\o           RESTRICTED RIGHTS NOTICE (SHORT FORM)
-\o Use/reproduction/disclosure is subject to restriction
-\o set forth at FAR 1252.227-19 or its equivalent.
-\o Loading geView.cxt 
-\o Loading menuBuilder.cxt 
-\o Loading schView.cxt 
-\o Loading selectSv.cxt 
-\o Loading pvsui.cxt
-\o Loading wireEdit.cxt 
-\o Loading pte2.cxt 
-\o Loading xlUI.cxt 
-\o Loading auCore.cxt 
-\o Loading vhdl.cxt 
-\o Loading seismic.cxt 
-\o Loading ci.cxt 
-\o Loading ams.cxt 
-\o Loading oasis.cxt 
-\o Loading analog.cxt 
-\o Loading asimenv.cxt 
-\o Loading dal.cxt 
-\o Loading awv.cxt 
-\o Loading socket.cxt 
-\o Loading par.cxt 
-\o Loading alvs.cxt 
-\# Memory report: using         401 MB, process size 2,005 MB at UTC 2025.03.03 08:51:12.078
-\o Loading caa.cxt 
-\o Loading amps.cxt 
-\o Loading adexlCore.cxt 
-\o Loading adexl.cxt 
-\o *Info*    Exporting services from client ... 
-\o 
-\o Loading adexlDM.cxt 
-\o Loading cpf.cxt 
-\o Loading cli.cxt 
-\o Loading lp.cxt 
-\o INFO (ELI-00302) Connecting to parent process (session=virtuoso24014, host=s2424). Connection mode is ICRP. Total timeout is 180 seconds. Connection timeout is 90 seconds.
-\o INFO (ELI-00303) Step 1: Connecting to parent. Time spent is 0 seconds.
-\o INFO (ELI-00304) The registration of the child 4337 within 90 seconds is being processed...
-\o INFO (ELI-00305) The result of registration is true. Time spent is 0 seconds.
-\o INFO (ELI-00308) The connection has ended. Result is true. Total time spent is 0 seconds.
-\# [09:51:04.512409] Configured Lic search path (22.01-s002): 3000@lic08.ug.kth.se
-\o Loading .cdsinit for the XH018 X-Fab XKit.
-\o     LOAD xh018_1143 SPECIFIC CALL-BACK ROUTINES
-\o     LOAD ALL AVAILABLE P-CELL FUNCTIONS
-\o ** Info: PDK loadpath is "/pkg/xfab2/XKIT/xh018/cadence/v9_0/PDK/IC61/v9_0_4"
-\o Loading XfSktTools.cxt
-\o Loading XfMenu.cxt
-\o Loading XfTechXh018.cxt
-\o Loading XfPcellCore.cxt
-\o function ansiSpicePrintProperties_subcircuit redefined
-\o Loading XfSkillExt.cxt
-\o Initializing library.
-\o Finished Initializing Library .
-\o     Generic PcellKit: 'production' loaded.
-\o     Generic Pcell Skill Tools: 'production' loaded.
-\o Loading Circuit Prospector Setup (XfCircuitProspSetup.il)
-\o     LOAD THE ENVIRONMENT FILE
-\o  --> Setting the required PDK definitions...
-\o     GDSII LAYER MAPPING FILE = "./.xkit/setup/xh018/cadence/PDK/TECH_XH018_1143/strmInOut.layertable"
-\o     GDSII OBJECT MAPPING FILE = "./.xkit/setup/xh018/cadence/PDK/TECH_XH018_1143/strmOutObjects.map"
-\o Use model setup from PDK...
-\o Loading spectrei.cxt 
-\o Loading devCheck.cxt 
-\o Loading relXpert.cxt 
-\o Loading vdsil.cxt 
-\o Loading hspiceD.cxt 
-\o Loading spectreinl.cxt 
-\o Loading UltraSim.cxt 
-\# Available memory:         67,291 MB at UTC 2025.03.03 08:51:15.135
-\# Memory report: Maximum memory size now 67,818 MB at UTC 2025.03.03 08:51:15.135
-\# Thread usage report: 37 active threads, active load 1.40 at UTC 2025.03.03 08:51:15.135
-\# Memory report: using         527 MB, process size 2,254 MB at UTC 2025.03.03 08:51:15.135
-\o Loading msgHandler.cxt 
-\o Loading AMSOSS.cxt 
-\o Loading AMS.cxt 
-\o  --> Finished setting the required PDK definitions
-\o  --> Setting the recommended EDA tool defaults...
-\o  --> Finished setting the recommended EDA tool defaults
-\o     LOAD DEFAULT BINDKEYS
-\o Loading viva.cxt 
-\o  --> AssuraTools Setup not available
-\o *Info*    Client has finished starting ... 
-\o 
-\p > 
-\# Loading perfDiag...
-\# (PerfDiag): Set GDB path to environment variable 'gdbPath' (gdb).
-\# Performance Diagnostic tool is installed. You can access PerfDiag from CIW Tools or use the shell command 'cdsPerfDiag -p 4337' to open it when Virtuoso freezes.
-\# (PerfDiag): Loading backtrace from /pkg/cadence/installs/IC618/tools/lib/64bit/cdnslibunwind.so
-\o Loading vqp.cxt 
-\o Loading hdlPkg.cxt 
-\o Loading simui.cxt 
-\o 
-\o 
-\o *Info*    Configuring the session ...
-\o 
-\o 	Library      = DAY2
-\o 	Cell         = GM_ID
-\o 	View         = schematic
-\o 	Netlist  	  = nil
-\o 	Simulator    = spectre
-\o 	State Path   = $AXL_SETUPDB_DIR/test_states
-\o 	State Name   = DAY2:GM_ID:1_DAY2:GM_ID:1_Mar__3_09_50_56_2025_Ocean.9
-\o 	Results DB   = /home/saul/projects/FIL3601/DAY2/GM_ID/adexl/results/data/Ocean.9.rdb
-\o 	Setup DB loc = /home/saul/projects/FIL3601/DAY2/GM_ID/adexl
-\o 
-\o 
-\o 
-\o *Info*    The auto suspension is disabled.
-\o 
-\o     LOAD GENERIC "X-KIT" SKILL CONTEXT "./.xkit/setup/x_all/cadence/xenv/skill/context6/xkit.cxt" 
-\o  - Menu "XKit Utilities" installed to CIW.
-\o     LOAD ".cdsinit_personal" FILE FROM THE WORKING DIRECTORY.
-\o     INFO: To customize this setup, please use the following environment variables:
-\o           CUSTOM_SCRIPT_PATH - should point to the master shell or perl script
-\o                              e.g.:
-\o                              setenv CUSTOM_SCRIPT_PATH /path/to/my/script/LoadMyScripts.csh
-\o           CUSTOM_SKILL_PATH - should point to your master skill load file
-\o                              e.g.:
-\o                              setenv CUSTOM_SKILL_PATH /path/to/my/skill/LoadMySkills.il
-\o  loading default key binding 
-\o  -> END LOAD ".cdsinit" FILE
-\o Loading monte.cxt 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o *Info*    Run start for Point ID (0 5) on testbench [ DAY2:GM_ID:1 ].
-\o 
-\o Resetting statistical vars
-\o 
-\o *Info*    Setting parameter values ...
-\o 
-\o Setting var IDS = "15.84893192n"
-\o Setting var L = "300e-9"
-\o Setting var NF = "20"
-\o Setting var VDS = "0.9"
-\o Setting var WF = "10e-6"
-\o Setting var temperature = "27"
-\o Setting temp(T) = 27
-\o 
-\o *Info*    Netlist Directory =
-\o           /home/saul/projects/FIL3601/Sim/DAY2/GM_ID/adexl/results/data/Ocean.9/5/DAY2:GM_ID:1/netlist
-\o 
-\o 
-\o *Info*    Data Directory    =
-\o           /home/saul/projects/FIL3601/Sim/DAY2/GM_ID/adexl/results/data/Ocean.9/5/DAY2:GM_ID:1
-\o 
-\o 
-\o *Info*    Creating Netlist for Point ID (0 5)
-\o 
-\o generate netlist...
-\o Loading hnlInit.cxt 
-\o Loading seCore.cxt 
-\o function ansCdlCompPrim redefined
-\o function ansCdlCompPrim redefined
-\# [09:51:16.355577] Periodic Lic check successful
-\# [09:51:16.355608] Feature usage summary:
-\o Begin Incremental Netlisting Mar  3 09:51:16 2025
-\o End netlisting Mar  3 09:51:16 2025
-\o 
-\o 	The netlist is up to date.
-\o 	Time taken to compare the design with netlist:   0.0s
-\o       ...successful.
-\o compose simulator input file...
-\o       ...successful.
-\o 
-\o *Info*    Running simulation on testbench [ DAY2:GM_ID:1 ] for Point
-\o           ID (0 5).
-\o 
-\o Delete psf data in /home/saul/projects/FIL3601/Sim/DAY2/GM_ID/adexl/results/data/Ocean.9/5/DAY2:GM_ID:1/psf.
-\o simulate...
-\# Memory report: using         672 MB, process size 2,456 MB at UTC 2025.03.03 08:51:17.654
-\o INFO (ADE-3071): Simulation completed successfully.
-\o reading simulation data...
-\o       ...successful.
-\o *Info*    Client has finished evaluating ... 
-\o 
-\o 
-\o *Info*    Run complete for Point ID (0 5) on testbench [ DAY2:GM_ID:1
-\o           ].
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o *Info*    Run start for Point ID (0 9) on testbench [ DAY2:GM_ID:1 ].
-\o 
-\o Resetting statistical vars
-\o 
-\o *Info*    Setting parameter values ...
-\o 
-\o Setting var IDS = "25.11886432n"
-\o 
-\o *Info*    Netlist Directory =
-\o           /home/saul/projects/FIL3601/Sim/DAY2/GM_ID/adexl/results/data/Ocean.9/9/DAY2:GM_ID:1/netlist
-\o 
-\o 
-\o *Info*    Data Directory    =
-\o           /home/saul/projects/FIL3601/Sim/DAY2/GM_ID/adexl/results/data/Ocean.9/9/DAY2:GM_ID:1
-\o 
-\o 
-\o *Info*    Creating Netlist for Point ID (0 9)
-\o 
-\o generate netlist...
-\o function ansCdlCompPrim redefined
-\o function ansCdlCompPrim redefined
-\o Begin Incremental Netlisting Mar  3 09:51:18 2025
-\o End netlisting Mar  3 09:51:18 2025
-\o 
-\o 	The netlist is up to date.
-\o 	Time taken to compare the design with netlist:   0.0s
-\o       ...successful.
-\o compose simulator input file...
-\o       ...successful.
-\o 
-\o *Info*    Running simulation on testbench [ DAY2:GM_ID:1 ] for Point
-\o           ID (0 9).
-\o 
-\o Delete psf data in /home/saul/projects/FIL3601/Sim/DAY2/GM_ID/adexl/results/data/Ocean.9/9/DAY2:GM_ID:1/psf.
-\o simulate...
-\o INFO (ADE-3071): Simulation completed successfully.
-\o reading simulation data...
-\o       ...successful.
-\o *Info*    Client has finished evaluating ... 
-\o 
-\o 
-\o *Info*    Run complete for Point ID (0 9) on testbench [ DAY2:GM_ID:1
-\o           ].
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o *Info*    Run start for Point ID (0 15) on testbench [ DAY2:GM_ID:1 ].
-\o 
-\o Resetting statistical vars
-\o 
-\o *Info*    Setting parameter values ...
-\o 
-\o Setting var IDS = "50.11872336n"
-\o 
-\o *Info*    Netlist Directory =
-\o           /home/saul/projects/FIL3601/Sim/DAY2/GM_ID/adexl/results/data/Ocean.9/15/DAY2:GM_ID:1/netlist
-\o 
-\o 
-\o *Info*    Data Directory    =
-\o           /home/saul/projects/FIL3601/Sim/DAY2/GM_ID/adexl/results/data/Ocean.9/15/DAY2:GM_ID:1
-\o 
-\o 
-\o *Info*    Creating Netlist for Point ID (0 15)
-\o 
-\o generate netlist...
-\o function ansCdlCompPrim redefined
-\o function ansCdlCompPrim redefined
-\o Begin Incremental Netlisting Mar  3 09:51:19 2025
-\o End netlisting Mar  3 09:51:19 2025
-\o 
-\o 	The netlist is up to date.
-\o 	Time taken to compare the design with netlist:   0.0s
-\o       ...successful.
-\o compose simulator input file...
-\o       ...successful.
-\o 
-\o *Info*    Running simulation on testbench [ DAY2:GM_ID:1 ] for Point
-\o           ID (0 15).
-\o 
-\o Delete psf data in /home/saul/projects/FIL3601/Sim/DAY2/GM_ID/adexl/results/data/Ocean.9/15/DAY2:GM_ID:1/psf.
-\o simulate...
-\o INFO (ADE-3071): Simulation completed successfully.
-\o reading simulation data...
-\o       ...successful.
-\o *Info*    Client has finished evaluating ... 
-\o 
-\o 
-\o *Info*    Run complete for Point ID (0 15) on testbench [
-\o           DAY2:GM_ID:1 ].
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o *Info*    Run start for Point ID (0 22) on testbench [ DAY2:GM_ID:1 ].
-\o 
-\o Resetting statistical vars
-\o 
-\o *Info*    Setting parameter values ...
-\o 
-\o Setting var IDS = "112.2018454n"
-\o 
-\o *Info*    Netlist Directory =
-\o           /home/saul/projects/FIL3601/Sim/DAY2/GM_ID/adexl/results/data/Ocean.9/22/DAY2:GM_ID:1/netlist
-\o 
-\o 
-\o *Info*    Data Directory    =
-\o           /home/saul/projects/FIL3601/Sim/DAY2/GM_ID/adexl/results/data/Ocean.9/22/DAY2:GM_ID:1
-\o 
-\o 
-\o *Info*    Creating Netlist for Point ID (0 22)
-\o 
-\o generate netlist...
-\o function ansCdlCompPrim redefined
-\o function ansCdlCompPrim redefined
-\o Begin Incremental Netlisting Mar  3 09:51:21 2025
-\o End netlisting Mar  3 09:51:21 2025
-\o 
-\o 	The netlist is up to date.
-\o 	Time taken to compare the design with netlist:   0.0s
-\o       ...successful.
-\o compose simulator input file...
-\o       ...successful.
-\o 
-\o *Info*    Running simulation on testbench [ DAY2:GM_ID:1 ] for Point
-\o           ID (0 22).
-\o 
-\o Delete psf data in /home/saul/projects/FIL3601/Sim/DAY2/GM_ID/adexl/results/data/Ocean.9/22/DAY2:GM_ID:1/psf.
-\o simulate...
-\o INFO (ADE-3071): Simulation completed successfully.
-\o reading simulation data...
-\o       ...successful.
-\o *Info*    Client has finished evaluating ... 
-\o 
-\o 
-\o *Info*    Run complete for Point ID (0 22) on testbench [
-\o           DAY2:GM_ID:1 ].
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o *Info*    Run start for Point ID (0 30) on testbench [ DAY2:GM_ID:1 ].
-\o 
-\o Resetting statistical vars
-\o 
-\o *Info*    Setting parameter values ...
-\o 
-\o Setting var IDS = "281.8382931n"
-\o 
-\o *Info*    Netlist Directory =
-\o           /home/saul/projects/FIL3601/Sim/DAY2/GM_ID/adexl/results/data/Ocean.9/30/DAY2:GM_ID:1/netlist
-\o 
-\o 
-\o *Info*    Data Directory    =
-\o           /home/saul/projects/FIL3601/Sim/DAY2/GM_ID/adexl/results/data/Ocean.9/30/DAY2:GM_ID:1
-\o 
-\o 
-\o *Info*    Creating Netlist for Point ID (0 30)
-\o 
-\o generate netlist...
-\o function ansCdlCompPrim redefined
-\o function ansCdlCompPrim redefined
-\o Begin Incremental Netlisting Mar  3 09:51:22 2025
-\o End netlisting Mar  3 09:51:22 2025
-\o 
-\o 	The netlist is up to date.
-\o 	Time taken to compare the design with netlist:   0.0s
-\o       ...successful.
-\o compose simulator input file...
-\o       ...successful.
-\o 
-\o *Info*    Running simulation on testbench [ DAY2:GM_ID:1 ] for Point
-\o           ID (0 30).
-\o 
-\o Delete psf data in /home/saul/projects/FIL3601/Sim/DAY2/GM_ID/adexl/results/data/Ocean.9/30/DAY2:GM_ID:1/psf.
-\o simulate...
-\o INFO (ADE-3071): Simulation completed successfully.
-\o reading simulation data...
-\o       ...successful.
-\o *Info*    Client has finished evaluating ... 
-\o 
-\o 
-\o *Info*    Run complete for Point ID (0 30) on testbench [
-\o           DAY2:GM_ID:1 ].
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o *Info*    Run start for Point ID (0 38) on testbench [ DAY2:GM_ID:1 ].
-\o 
-\o Resetting statistical vars
-\o 
-\o *Info*    Setting parameter values ...
-\o 
-\o Setting var IDS = "707.9457844n"
-\o 
-\o *Info*    Netlist Directory =
-\o           /home/saul/projects/FIL3601/Sim/DAY2/GM_ID/adexl/results/data/Ocean.9/38/DAY2:GM_ID:1/netlist
-\o 
-\o 
-\o *Info*    Data Directory    =
-\o           /home/saul/projects/FIL3601/Sim/DAY2/GM_ID/adexl/results/data/Ocean.9/38/DAY2:GM_ID:1
-\o 
-\o 
-\o *Info*    Creating Netlist for Point ID (0 38)
-\o 
-\o generate netlist...
-\o function ansCdlCompPrim redefined
-\o function ansCdlCompPrim redefined
-\o Begin Incremental Netlisting Mar  3 09:51:23 2025
-\o End netlisting Mar  3 09:51:23 2025
-\o 
-\o 	The netlist is up to date.
-\o 	Time taken to compare the design with netlist:   0.0s
-\o       ...successful.
-\o compose simulator input file...
-\o       ...successful.
-\o 
-\o *Info*    Running simulation on testbench [ DAY2:GM_ID:1 ] for Point
-\o           ID (0 38).
-\o 
-\o Delete psf data in /home/saul/projects/FIL3601/Sim/DAY2/GM_ID/adexl/results/data/Ocean.9/38/DAY2:GM_ID:1/psf.
-\o simulate...
-\o INFO (ADE-3071): Simulation completed successfully.
-\# Thread usage report: 38 active threads, active load 1.40 at UTC 2025.03.03 08:51:25.092
-\o reading simulation data...
-\o       ...successful.
-\o *Info*    Client has finished evaluating ... 
-\o 
-\o 
-\o *Info*    Run complete for Point ID (0 38) on testbench [
-\o           DAY2:GM_ID:1 ].
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o *Info*    Run start for Point ID (0 46) on testbench [ DAY2:GM_ID:1 ].
-\o 
-\o Resetting statistical vars
-\o 
-\o *Info*    Setting parameter values ...
-\o 
-\o Setting var IDS = "1.77827941u"
-\o 
-\o *Info*    Netlist Directory =
-\o           /home/saul/projects/FIL3601/Sim/DAY2/GM_ID/adexl/results/data/Ocean.9/46/DAY2:GM_ID:1/netlist
-\o 
-\o 
-\o *Info*    Data Directory    =
-\o           /home/saul/projects/FIL3601/Sim/DAY2/GM_ID/adexl/results/data/Ocean.9/46/DAY2:GM_ID:1
-\o 
-\o 
-\o *Info*    Creating Netlist for Point ID (0 46)
-\o 
-\o generate netlist...
-\o function ansCdlCompPrim redefined
-\o function ansCdlCompPrim redefined
-\o Begin Incremental Netlisting Mar  3 09:51:25 2025
-\o End netlisting Mar  3 09:51:25 2025
-\o 
-\o 	The netlist is up to date.
-\o 	Time taken to compare the design with netlist:   0.0s
-\o       ...successful.
-\o compose simulator input file...
-\o       ...successful.
-\o 
-\o *Info*    Running simulation on testbench [ DAY2:GM_ID:1 ] for Point
-\o           ID (0 46).
-\o 
-\o Delete psf data in /home/saul/projects/FIL3601/Sim/DAY2/GM_ID/adexl/results/data/Ocean.9/46/DAY2:GM_ID:1/psf.
-\o simulate...
-\o INFO (ADE-3071): Simulation completed successfully.
-\o reading simulation data...
-\o       ...successful.
-\o *Info*    Client has finished evaluating ... 
-\o 
-\o 
-\o *Info*    Run complete for Point ID (0 46) on testbench [
-\o           DAY2:GM_ID:1 ].
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o *Info*    Run start for Point ID (0 54) on testbench [ DAY2:GM_ID:1 ].
-\o 
-\o Resetting statistical vars
-\o 
-\o *Info*    Setting parameter values ...
-\o 
-\o Setting var IDS = "4.466835922u"
-\o 
-\o *Info*    Netlist Directory =
-\o           /home/saul/projects/FIL3601/Sim/DAY2/GM_ID/adexl/results/data/Ocean.9/54/DAY2:GM_ID:1/netlist
-\o 
-\o 
-\o *Info*    Data Directory    =
-\o           /home/saul/projects/FIL3601/Sim/DAY2/GM_ID/adexl/results/data/Ocean.9/54/DAY2:GM_ID:1
-\o 
-\o 
-\o *Info*    Creating Netlist for Point ID (0 54)
-\o 
-\o generate netlist...
-\o function ansCdlCompPrim redefined
-\o function ansCdlCompPrim redefined
-\o Begin Incremental Netlisting Mar  3 09:51:26 2025
-\o End netlisting Mar  3 09:51:26 2025
-\o 
-\o 	The netlist is up to date.
-\o 	Time taken to compare the design with netlist:   0.0s
-\o       ...successful.
-\o compose simulator input file...
-\o       ...successful.
-\o 
-\o *Info*    Running simulation on testbench [ DAY2:GM_ID:1 ] for Point
-\o           ID (0 54).
-\o 
-\o Delete psf data in /home/saul/projects/FIL3601/Sim/DAY2/GM_ID/adexl/results/data/Ocean.9/54/DAY2:GM_ID:1/psf.
-\o simulate...
-\o INFO (ADE-3071): Simulation completed successfully.
-\o reading simulation data...
-\o       ...successful.
-\o *Info*    Client has finished evaluating ... 
-\o 
-\o 
-\o *Info*    Run complete for Point ID (0 54) on testbench [
-\o           DAY2:GM_ID:1 ].
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o *Info*    Run start for Point ID (0 62) on testbench [ DAY2:GM_ID:1 ].
-\o 
-\o Resetting statistical vars
-\o 
-\o *Info*    Setting parameter values ...
-\o 
-\o Setting var IDS = "11.22018454u"
-\o 
-\o *Info*    Netlist Directory =
-\o           /home/saul/projects/FIL3601/Sim/DAY2/GM_ID/adexl/results/data/Ocean.9/62/DAY2:GM_ID:1/netlist
-\o 
-\o 
-\o *Info*    Data Directory    =
-\o           /home/saul/projects/FIL3601/Sim/DAY2/GM_ID/adexl/results/data/Ocean.9/62/DAY2:GM_ID:1
-\o 
-\o 
-\o *Info*    Creating Netlist for Point ID (0 62)
-\o 
-\o generate netlist...
-\o function ansCdlCompPrim redefined
-\o function ansCdlCompPrim redefined
-\o Begin Incremental Netlisting Mar  3 09:51:28 2025
-\o End netlisting Mar  3 09:51:28 2025
-\o 
-\o 	The netlist is up to date.
-\o 	Time taken to compare the design with netlist:   0.0s
-\o       ...successful.
-\o compose simulator input file...
-\o       ...successful.
-\o 
-\o *Info*    Running simulation on testbench [ DAY2:GM_ID:1 ] for Point
-\o           ID (0 62).
-\o 
-\o Delete psf data in /home/saul/projects/FIL3601/Sim/DAY2/GM_ID/adexl/results/data/Ocean.9/62/DAY2:GM_ID:1/psf.
-\o simulate...
-\o INFO (ADE-3071): Simulation completed successfully.
-\o reading simulation data...
-\o       ...successful.
-\o *Info*    Client has finished evaluating ... 
-\o 
-\o 
-\o *Info*    Run complete for Point ID (0 62) on testbench [
-\o           DAY2:GM_ID:1 ].
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o *Info*    Run start for Point ID (0 70) on testbench [ DAY2:GM_ID:1 ].
-\o 
-\o Resetting statistical vars
-\o 
-\o *Info*    Setting parameter values ...
-\o 
-\o Setting var IDS = "28.18382931u"
-\o 
-\o *Info*    Netlist Directory =
-\o           /home/saul/projects/FIL3601/Sim/DAY2/GM_ID/adexl/results/data/Ocean.9/70/DAY2:GM_ID:1/netlist
-\o 
-\o 
-\o *Info*    Data Directory    =
-\o           /home/saul/projects/FIL3601/Sim/DAY2/GM_ID/adexl/results/data/Ocean.9/70/DAY2:GM_ID:1
-\o 
-\o 
-\o *Info*    Creating Netlist for Point ID (0 70)
-\o 
-\o generate netlist...
-\o function ansCdlCompPrim redefined
-\o function ansCdlCompPrim redefined
-\o Begin Incremental Netlisting Mar  3 09:51:29 2025
-\o End netlisting Mar  3 09:51:29 2025
-\o 
-\o 	The netlist is up to date.
-\o 	Time taken to compare the design with netlist:   0.0s
-\o       ...successful.
-\o compose simulator input file...
-\o       ...successful.
-\o 
-\o *Info*    Running simulation on testbench [ DAY2:GM_ID:1 ] for Point
-\o           ID (0 70).
-\o 
-\o Delete psf data in /home/saul/projects/FIL3601/Sim/DAY2/GM_ID/adexl/results/data/Ocean.9/70/DAY2:GM_ID:1/psf.
-\o simulate...
-\o INFO (ADE-3071): Simulation completed successfully.
-\o reading simulation data...
-\o       ...successful.
-\o *Info*    Client has finished evaluating ... 
-\o 
-\o 
-\o *Info*    Run complete for Point ID (0 70) on testbench [
-\o           DAY2:GM_ID:1 ].
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o *Info*    Run start for Point ID (0 78) on testbench [ DAY2:GM_ID:1 ].
-\o 
-\o Resetting statistical vars
-\o 
-\o *Info*    Setting parameter values ...
-\o 
-\o Setting var IDS = "70.79457844u"
-\o 
-\o *Info*    Netlist Directory =
-\o           /home/saul/projects/FIL3601/Sim/DAY2/GM_ID/adexl/results/data/Ocean.9/78/DAY2:GM_ID:1/netlist
-\o 
-\o 
-\o *Info*    Data Directory    =
-\o           /home/saul/projects/FIL3601/Sim/DAY2/GM_ID/adexl/results/data/Ocean.9/78/DAY2:GM_ID:1
-\o 
-\o 
-\o *Info*    Creating Netlist for Point ID (0 78)
-\o 
-\o generate netlist...
-\o function ansCdlCompPrim redefined
-\o function ansCdlCompPrim redefined
-\o Begin Incremental Netlisting Mar  3 09:51:31 2025
-\o End netlisting Mar  3 09:51:31 2025
-\o 
-\o 	The netlist is up to date.
-\o 	Time taken to compare the design with netlist:   0.0s
-\o       ...successful.
-\o compose simulator input file...
-\o       ...successful.
-\o 
-\o *Info*    Running simulation on testbench [ DAY2:GM_ID:1 ] for Point
-\o           ID (0 78).
-\o 
-\o Delete psf data in /home/saul/projects/FIL3601/Sim/DAY2/GM_ID/adexl/results/data/Ocean.9/78/DAY2:GM_ID:1/psf.
-\o simulate...
-\o INFO (ADE-3071): Simulation completed successfully.
-\o reading simulation data...
-\o       ...successful.
-\o *Info*    Client has finished evaluating ... 
-\o 
-\o 
-\o *Info*    Run complete for Point ID (0 78) on testbench [
-\o           DAY2:GM_ID:1 ].
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o *Info*    Run start for Point ID (0 86) on testbench [ DAY2:GM_ID:1 ].
-\o 
-\o Resetting statistical vars
-\o 
-\o *Info*    Setting parameter values ...
-\o 
-\o Setting var IDS = "177.827941u"
-\o 
-\o *Info*    Netlist Directory =
-\o           /home/saul/projects/FIL3601/Sim/DAY2/GM_ID/adexl/results/data/Ocean.9/86/DAY2:GM_ID:1/netlist
-\o 
-\o 
-\o *Info*    Data Directory    =
-\o           /home/saul/projects/FIL3601/Sim/DAY2/GM_ID/adexl/results/data/Ocean.9/86/DAY2:GM_ID:1
-\o 
-\o 
-\o *Info*    Creating Netlist for Point ID (0 86)
-\o 
-\o generate netlist...
-\o function ansCdlCompPrim redefined
-\o function ansCdlCompPrim redefined
-\o Begin Incremental Netlisting Mar  3 09:51:32 2025
-\o End netlisting Mar  3 09:51:32 2025
-\o 
-\o 	The netlist is up to date.
-\o 	Time taken to compare the design with netlist:   0.0s
-\o       ...successful.
-\o compose simulator input file...
-\o       ...successful.
-\o 
-\o *Info*    Running simulation on testbench [ DAY2:GM_ID:1 ] for Point
-\o           ID (0 86).
-\o 
-\o Delete psf data in /home/saul/projects/FIL3601/Sim/DAY2/GM_ID/adexl/results/data/Ocean.9/86/DAY2:GM_ID:1/psf.
-\o simulate...
-\o INFO (ADE-3071): Simulation completed successfully.
-\o reading simulation data...
-\o       ...successful.
-\o *Info*    Client has finished evaluating ... 
-\o 
-\o 
-\o *Info*    Run complete for Point ID (0 86) on testbench [
-\o           DAY2:GM_ID:1 ].
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o *Info*    Run start for Point ID (0 93) on testbench [ DAY2:GM_ID:1 ].
-\o 
-\o Resetting statistical vars
-\o 
-\o *Info*    Setting parameter values ...
-\o 
-\o Setting var IDS = "398.1071706u"
-\o 
-\o *Info*    Netlist Directory =
-\o           /home/saul/projects/FIL3601/Sim/DAY2/GM_ID/adexl/results/data/Ocean.9/93/DAY2:GM_ID:1/netlist
-\o 
-\o 
-\o *Info*    Data Directory    =
-\o           /home/saul/projects/FIL3601/Sim/DAY2/GM_ID/adexl/results/data/Ocean.9/93/DAY2:GM_ID:1
-\o 
-\o 
-\o *Info*    Creating Netlist for Point ID (0 93)
-\o 
-\o generate netlist...
-\o function ansCdlCompPrim redefined
-\o function ansCdlCompPrim redefined
-\o Begin Incremental Netlisting Mar  3 09:51:34 2025
-\o End netlisting Mar  3 09:51:34 2025
-\o 
-\o 	The netlist is up to date.
-\o 	Time taken to compare the design with netlist:   0.0s
-\o       ...successful.
-\o compose simulator input file...
-\o       ...successful.
-\o 
-\o *Info*    Running simulation on testbench [ DAY2:GM_ID:1 ] for Point
-\o           ID (0 93).
-\o 
-\o Delete psf data in /home/saul/projects/FIL3601/Sim/DAY2/GM_ID/adexl/results/data/Ocean.9/93/DAY2:GM_ID:1/psf.
-\o simulate...
-\o INFO (ADE-3071): Simulation completed successfully.
-\o reading simulation data...
-\o       ...successful.
-\o *Info*    Client has finished evaluating ... 
-\o 
-\o 
-\o *Info*    Run complete for Point ID (0 93) on testbench [
-\o           DAY2:GM_ID:1 ].
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o *Info*    Run start for Point ID (0 101) on testbench [ DAY2:GM_ID:1
-\o           ].
-\o 
-\o Resetting statistical vars
-\o 
-\o *Info*    Setting parameter values ...
-\o 
-\o Setting var IDS = "1m"
-\o 
-\o *Info*    Netlist Directory =
-\o           /home/saul/projects/FIL3601/Sim/DAY2/GM_ID/adexl/results/data/Ocean.9/101/DAY2:GM_ID:1/netlist
-\o 
-\o 
-\o *Info*    Data Directory    =
-\o           /home/saul/projects/FIL3601/Sim/DAY2/GM_ID/adexl/results/data/Ocean.9/101/DAY2:GM_ID:1
-\o 
-\o 
-\o *Info*    Creating Netlist for Point ID (0 101)
-\o 
-\o generate netlist...
-\o function ansCdlCompPrim redefined
-\o function ansCdlCompPrim redefined
-\o Begin Incremental Netlisting Mar  3 09:51:35 2025
-\o End netlisting Mar  3 09:51:35 2025
-\o 
-\o 	The netlist is up to date.
-\o 	Time taken to compare the design with netlist:   0.0s
-\o       ...successful.
-\o compose simulator input file...
-\o       ...successful.
-\o 
-\o *Info*    Running simulation on testbench [ DAY2:GM_ID:1 ] for Point
-\o           ID (0 101).
-\o 
-\o Delete psf data in /home/saul/projects/FIL3601/Sim/DAY2/GM_ID/adexl/results/data/Ocean.9/101/DAY2:GM_ID:1/psf.
-\o simulate...
-\o INFO (ADE-3071): Simulation completed successfully.
-\o reading simulation data...
-\o       ...successful.
-\o *Info*    Client has finished evaluating ... 
-\o 
-\o 
-\o *Info*    Run complete for Point ID (0 101) on testbench [
-\o           DAY2:GM_ID:1 ].
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o *Info*    Run start for Point ID (0 110) on testbench [ DAY2:GM_ID:1
-\o           ].
-\o 
-\o Resetting statistical vars
-\o 
-\o *Info*    Setting parameter values ...
-\o 
-\o Setting var IDS = "2.818382931m"
-\o 
-\o *Info*    Netlist Directory =
-\o           /home/saul/projects/FIL3601/Sim/DAY2/GM_ID/adexl/results/data/Ocean.9/110/DAY2:GM_ID:1/netlist
-\o 
-\o 
-\o *Info*    Data Directory    =
-\o           /home/saul/projects/FIL3601/Sim/DAY2/GM_ID/adexl/results/data/Ocean.9/110/DAY2:GM_ID:1
-\o 
-\o 
-\o *Info*    Creating Netlist for Point ID (0 110)
-\o 
-\o generate netlist...
-\o function ansCdlCompPrim redefined
-\o function ansCdlCompPrim redefined
-\o Begin Incremental Netlisting Mar  3 09:51:37 2025
-\o End netlisting Mar  3 09:51:37 2025
-\o 
-\o 	The netlist is up to date.
-\o 	Time taken to compare the design with netlist:   0.0s
-\o       ...successful.
-\o compose simulator input file...
-\o       ...successful.
-\o 
-\o *Info*    Running simulation on testbench [ DAY2:GM_ID:1 ] for Point
-\o           ID (0 110).
-\o 
-\o Delete psf data in /home/saul/projects/FIL3601/Sim/DAY2/GM_ID/adexl/results/data/Ocean.9/110/DAY2:GM_ID:1/psf.
-\o simulate...
-\o INFO (ADE-3071): Simulation completed successfully.
-\o reading simulation data...
-\o       ...successful.
-\o *Info*    Client has finished evaluating ... 
-\o 
-\o 
-\o *Info*    Run complete for Point ID (0 110) on testbench [
-\o           DAY2:GM_ID:1 ].
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o *Info*    Run start for Point ID (0 118) on testbench [ DAY2:GM_ID:1
-\o           ].
-\o 
-\o Resetting statistical vars
-\o 
-\o *Info*    Setting parameter values ...
-\o 
-\o Setting var IDS = "7.079457844m"
-\o 
-\o *Info*    Netlist Directory =
-\o           /home/saul/projects/FIL3601/Sim/DAY2/GM_ID/adexl/results/data/Ocean.9/118/DAY2:GM_ID:1/netlist
-\o 
-\o 
-\o *Info*    Data Directory    =
-\o           /home/saul/projects/FIL3601/Sim/DAY2/GM_ID/adexl/results/data/Ocean.9/118/DAY2:GM_ID:1
-\o 
-\o 
-\o *Info*    Creating Netlist for Point ID (0 118)
-\o 
-\o generate netlist...
-\o function ansCdlCompPrim redefined
-\o function ansCdlCompPrim redefined
-\o Begin Incremental Netlisting Mar  3 09:51:38 2025
-\o End netlisting Mar  3 09:51:38 2025
-\o 
-\o 	The netlist is up to date.
-\o 	Time taken to compare the design with netlist:   0.0s
-\o       ...successful.
-\o compose simulator input file...
-\o       ...successful.
-\o 
-\o *Info*    Running simulation on testbench [ DAY2:GM_ID:1 ] for Point
-\o           ID (0 118).
-\o 
-\o Delete psf data in /home/saul/projects/FIL3601/Sim/DAY2/GM_ID/adexl/results/data/Ocean.9/118/DAY2:GM_ID:1/psf.
-\o simulate...
-\o INFO (ADE-3071): Simulation completed successfully.
-\o reading simulation data...
-\o       ...successful.
-\o *Info*    Client has finished evaluating ... 
-\o 
-\o 
-\o *Info*    Run complete for Point ID (0 118) on testbench [
-\o           DAY2:GM_ID:1 ].
-\o 
-\o 
-\o 
-\o 
-\o 
-\# Lic Summary:
-\# [09:51:44.393387] Cdslmd servers:3000@lic08.ug.kth.se
-\# [09:51:44.393408] Feature usage summary:
-\# Memory report: on exit            686 MB, process size 2,470 MB at UTC 2025.03.03 08:51:44.393
-\# Memory report: peak usage         686 MB, process size 2,470 MB
+*Info*    Exporting services from client ... 
+
+*Info*    Client has finished starting ... 
+
+
+
+*Info*    Configuring the session ...
+
+	Library      = EX1
+	Cell         = current_amplifier_final_tb
+	View         = schematic
+	Simulator    = spectre
+	State Path   = $AXL_SETUPDB_DIR/test_states
+	State Name   = TRAN_PULSE_VDD_TRAN_STAB_IN:1_state_Interactive.96
+	Results DB   = /home/saul/projects/FIL3601/EX1/current_amplifier_final_tb/adexl/results/data/Interactive.96.rdb
+	Results Dir  = /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/Interactive.96/1/TRAN_PULSE_VDD
+	Results Loc  = /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data
+	Project Dir  = /home/saul/projects/FIL3601/Sim
+	Setup DB loc = /home/saul/projects/FIL3601/EX1/current_amplifier_final_tb/adexl
+	File Encoding = 0
+
+
+
+*Info*    The auto suspension is disabled.
+
+
+
+
+
+
+*Info*    Run start for Point ID (43 1) on testbench [ TRAN_PULSE_VDD
+          ].
+
+Resetting statistical vars
+
+*Info*    Setting parameter values ...
+
+Setting var AMP1 = "0"
+Setting var AMP2 = "0"
+Setting var BIAS_PULSE = "0.1"
+Setting var FREQ1 = "40M"
+Setting var FREQ2 = "50M"
+Setting var IN = "1"
+Setting var IN_DC = "0"
+Setting var IN_PULSE = "0"
+Setting var VDD = "1.8"
+Setting var VDD_PULSE = "0"
+Setting var temperature = "27"
+Setting temp(T) = 27
+
+*Info*    Netlist Directory =
+          /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/Interactive.96/1/TRAN_PULSE_VDD/netlist
+
+
+*Info*    Data Directory    =
+          /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/Interactive.96/1/TRAN_PULSE_VDD
+
+
+*Info*    Creating Netlist for Point ID (43 1)
+
+generate netlist...
+function ansCdlCompPrim redefined
+function ansCdlCompPrim redefined
+Begin Incremental Netlisting Apr 26 17:32:39 2025
+WARNING (OSSHNL-941): Failed to open the sameCellNamesInMultipleLibs file '/home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/Interactive.53/1/AC_NOISE_PZ_TRANS_PSRR/netlist/ihnl/sameCellNamesInMultipleLibs', in the append mode.
+Ensure that you have the write permission for the mentioned file.
+
+End netlisting Apr 26 17:32:39 2025
+
+	The netlist is up to date.
+	Time taken to compare the design with netlist:   0.0s
+      ...successful.
+compose simulator input file...
+      ...successful.
+
+*Info*    Running simulation on testbench [ TRAN_PULSE_VDD ] for
+          Point ID (43 1).
+
+Delete psf data in /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/Interactive.96/1/TRAN_PULSE_VDD/psf.
+compose simulator input file...
+      ...successful.
+start simulator if needed...
+      ...successful.
+simulate...
+To view the simulator output, right-click on the test name, result 
+name, or any value in the "Results" tab of the Outputs section and 
+choose "Output Log" menu option.
+INFO (ADE-3067): Errors encountered during simulation. For more information, right-click
+        on a test name in the 'Results' tab of the Outputs pane and choose 'Output Log'
+        to view the simulation run log.
+reading simulation data...
+      ...successful.
+
+*Error*   Error ID  = 5011
+*Error*   Error Msg = Simulator failed to complete the simulation.
+
+          Error found by spectre at time = 71.4773 ms during
+          transient analysis `tran'.
+Error found by spectre at time =
+          71.4773 ms during transient analysis `tran'.
+ERROR
+          (SPECTRE-16384): Signal V(I0.C12.21) = 1.02632 GV has
+          exceeded the blowup limit for the quantity `V' which is (1
+          GV). It is likely that the circ
+uit is unstable. If you
+          really want signals this large, set the `blowup' parameter
+          of this quantity to a larger value.
+
+
+
+
+
+*Info*    Client has finished evaluating ... 
+
+
+*Info*    Run complete for Point ID (43 1) on testbench [
+          TRAN_PULSE_VDD ].
+
+
+
+
+
+Simulation design variables differ from those on the cellView,
+they have been saved in the file "/tmp/saved-design-variables".
+To save future changes, copy variables to cellView before exiting.

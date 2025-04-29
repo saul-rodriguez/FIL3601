@@ -1,14 +1,14 @@
-\# Program start time:     UTC 2025.03.03 10:05:54.070
-\# Local time: CET (UTC+01:00) 2025.03.03 11:05:54.070
+\# Program start time:     UTC 2025.04.26 16:44:57.761
+\# Local time: CEST (UTC+02:00) 2025.04.26 18:44:57.761
 \o Program:		@(#)$CDS: virtuoso version 6.1.8-64b 01/30/2024 20:11 (cpgbld02) $
 \o Hierarchy:		/pkg/cadence/installs/IC618/tools.lnx86/dfII/
 \o Sub version:		sub-version  IC6.1.8-64b.500.35  (64-bit addresses)
-\# Command line:	/pkg/cadence/installs/IC618/tools.lnx86/dfII/bin/64bit/virtuoso -noautostart -mpssession virtuoso24014 -mpshost s2424 -davinciService DaVinciService_24014_1740988313 -log /home/saul/projects/FIL3601/logs_saul/logs0/Job160.log -licenseLockFileName /home/saul/projects/FIL3601/.tmp_saul/.s2424_24014 -interactiveA -interactiveE -interactiveRTT -nostdin -nographE -axlChildIdFlag 160
+\# Command line:	/pkg/cadence/installs/IC618/tools.lnx86/dfII/bin/64bit/virtuoso -noautostart -mpssession virtuoso23927 -mpshost s2424 -davinciService DaVinciService_23927_1745638980 -log /home/saul/projects/FIL3601/logs_saul/logs0/Job160.log -licenseLockFileName /home/saul/projects/FIL3601/.tmp_saul/.s2424_23927 -interactiveA -interactiveE -interactiveRTT -nostdin -nographE -axlChildIdFlag 160
 \# Host name (type):	s2424 (x86_64)
 \# Operating system:	Linux 3.10.0-1160.53.1.el7.x86_64 #1 SMP Fri Jan 14 13:59:45 UTC 2022
 \# Linux /etc/issue:	\S
 \# Linux /etc/issue:	Kernel \r on an \m
-\# X display name (WxH):	:1611 (1024x868)
+\# X display name (WxH):	:3112 (1024x868)
 \# Available geometry:			TL(0:0) BR(1023:867)
 \# X server:			The X.Org Foundation
 \# Depth of Visual (Root):	24 (24)
@@ -18,11 +18,11 @@
 \# 			current id 0x0, current max 0x1ffffa (2097146)
 \# Max data seg size:	     unlimited
 \# Max process size:	     unlimited
-\# Initial sbrk value:	        636 MB
-\# Available memory:	     68,677 MB
+\# Initial sbrk value:	        637 MB
+\# Available memory:	     77,066 MB
 \# System memory:	     96,361 MB
-\# Maximum memory size:	     96,016 MB
-\# Max mem available:	     68,968 MB
+\# Maximum memory size:	     96,015 MB
+\# Max mem available:	     77,356 MB
 \# Initial memory used:	        291 MB
 \#        process size:	      1,888 MB
 \# Thread usage limits (effective/default):	maxthreads 4096/4096 maxload 32.00/32.00
@@ -30,7 +30,7 @@
 \# Window Manager:	other
 \# User Name:		saul
 \o Working Directory:	s2424:/home/saul/projects/FIL3601
-\# Process Id:		10561
+\# Process Id:		10738
 \o 
 \o COPYRIGHT (C) 1992-2024  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
 \o           (C) 1992-2024  UNIX SYSTEMS Laboratories INC.,
@@ -63,33 +63,30 @@
 \o Loading awv.cxt 
 \o Loading socket.cxt 
 \o Loading par.cxt 
-\# Memory report: using         398 MB, process size 2,002 MB at UTC 2025.03.03 10:06:04.099
 \o Loading alvs.cxt 
 \o Loading caa.cxt 
 \o Loading amps.cxt 
 \o Loading adexlCore.cxt 
 \o Loading adexl.cxt 
+\# Memory report: using         418 MB, process size 2,138 MB at UTC 2025.04.26 16:45:04.824
 \o *Info*    Exporting services from client ... 
 \o 
 \o Loading adexlDM.cxt 
 \o Loading cpf.cxt 
 \o Loading cli.cxt 
 \o Loading lp.cxt 
-\o INFO (ELI-00302) Connecting to parent process (session=virtuoso24014, host=s2424). Connection mode is ICRP. Total timeout is 180 seconds. Connection timeout is 90 seconds.
+\o INFO (ELI-00302) Connecting to parent process (session=virtuoso23927, host=s2424). Connection mode is ICRP. Total timeout is 180 seconds. Connection timeout is 90 seconds.
 \o INFO (ELI-00303) Step 1: Connecting to parent. Time spent is 0 seconds.
-\o INFO (ELI-00304) The registration of the child 10561 within 90 seconds is being processed...
+\o INFO (ELI-00304) The registration of the child 10738 within 90 seconds is being processed...
 \o INFO (ELI-00305) The result of registration is true. Time spent is 0 seconds.
-\o INFO (ELI-00308) The connection has ended. Result is true. Total time spent is 1 seconds.
-\# [11:05:55.512393] Configured Lic search path (22.01-s002): 3000@lic08.ug.kth.se
+\o INFO (ELI-00308) The connection has ended. Result is true. Total time spent is 4 seconds.
+\# [18:45:01.512409] Configured Lic search path (22.01-s002): 3000@lic08.ug.kth.se
 \o Loading .cdsinit for the XH018 X-Fab XKit.
 \o     LOAD xh018_1143 SPECIFIC CALL-BACK ROUTINES
 \o     LOAD ALL AVAILABLE P-CELL FUNCTIONS
 \o ** Info: PDK loadpath is "/pkg/xfab2/XKIT/xh018/cadence/v9_0/PDK/IC61/v9_0_4"
 \o Loading XfSktTools.cxt
 \o Loading XfMenu.cxt
-\# Available memory:         66,862 MB at UTC 2025.03.03 10:06:06.007
-\# Memory report: Maximum memory size now 67,311 MB at UTC 2025.03.03 10:06:06.007
-\# Thread usage report: 37 active threads, active load 1.40 at UTC 2025.03.03 10:06:06.007
 \o Loading XfTechXh018.cxt
 \o Loading XfPcellCore.cxt
 \o function ansiSpicePrintProperties_subcircuit redefined
@@ -111,7 +108,7 @@
 \o Loading hspiceD.cxt 
 \o Loading spectreinl.cxt 
 \o Loading UltraSim.cxt 
-\# Memory report: using         527 MB, process size 2,254 MB at UTC 2025.03.03 10:06:07.063
+\# Memory report: using         527 MB, process size 2,254 MB at UTC 2025.04.26 16:45:07.091
 \o Loading msgHandler.cxt 
 \o Loading AMSOSS.cxt 
 \o Loading AMS.cxt 
@@ -126,29 +123,8 @@
 \p > 
 \# Loading perfDiag...
 \# (PerfDiag): Set GDB path to environment variable 'gdbPath' (gdb).
-\# Performance Diagnostic tool is installed. You can access PerfDiag from CIW Tools or use the shell command 'cdsPerfDiag -p 10561' to open it when Virtuoso freezes.
+\# Performance Diagnostic tool is installed. You can access PerfDiag from CIW Tools or use the shell command 'cdsPerfDiag -p 10738' to open it when Virtuoso freezes.
 \# (PerfDiag): Loading backtrace from /pkg/cadence/installs/IC618/tools/lib/64bit/cdnslibunwind.so
-\o Loading vqp.cxt 
-\o Loading hdlPkg.cxt 
-\o Loading simui.cxt 
-\o 
-\o 
-\o *Info*    Configuring the session ...
-\o 
-\o 	Library      = DAY2
-\o 	Cell         = GM_ID
-\o 	View         = schematic
-\o 	Netlist  	  = nil
-\o 	Simulator    = spectre
-\o 	State Path   = $AXL_SETUPDB_DIR/test_states
-\o 	State Name   = DAY2:GM_ID:1_DAY2:GM_ID:1_Mar__3_11_05_46_2025_Ocean.12
-\o 	Results DB   = /home/saul/projects/FIL3601/DAY2/GM_ID/adexl/results/data/Ocean.12.rdb
-\o 	Setup DB loc = /home/saul/projects/FIL3601/DAY2/GM_ID/adexl
-\o 
-\o 
-\o 
-\o *Info*    The auto suspension is disabled.
-\o 
 \o     LOAD GENERIC "X-KIT" SKILL CONTEXT "./.xkit/setup/x_all/cadence/xenv/skill/context6/xkit.cxt" 
 \o  - Menu "XKit Utilities" installed to CIW.
 \o     LOAD ".cdsinit_personal" FILE FROM THE WORKING DIRECTORY.
@@ -161,45 +137,80 @@
 \o                              setenv CUSTOM_SKILL_PATH /path/to/my/skill/LoadMySkills.il
 \o  loading default key binding 
 \o  -> END LOAD ".cdsinit" FILE
+\# Available memory:         73,740 MB at UTC 2025.04.26 16:45:11.310
+\# Memory report: Maximum memory size now 74,305 MB at UTC 2025.04.26 16:45:11.310
+\# Thread usage report: 38 active threads, active load 1.40 at UTC 2025.04.26 16:45:11.310
+\o Loading vqp.cxt 
+\o Loading hdlPkg.cxt 
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o Loading simui.cxt 
+\o 	Library      = EX1
+\o 	Cell         = current_amplifier_final_tb
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = AC_NOISE_PZ_TRANS_PSRR_none_MonteCarlo.1
+\o 	Results DB   = /home/saul/projects/FIL3601/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.1.rdb
+\o 	Results Dir  = /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.1/1/AC_NOISE_PZ_TRANS_PSRR
+\o 	Results Loc  = /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data
+\o 	Project Dir  = /home/saul/projects/FIL3601/Sim
+\o 	Setup DB loc = /home/saul/projects/FIL3601/EX1/current_amplifier_final_tb/adexl
+\o 	File Encoding = 0
+\o 
+\o 
+\o WARNING (ADE-7017): The Spectre run mode needs to be 'batch' when EM/IR analysis is enabled. Automatically setting the run mode to 'batch'.
+\o Loading cdf.cxt 
+\o 
+\o *Info*    The auto suspension is disabled.
+\o 
 \o Loading monte.cxt 
 \o 
 \o 
 \o 
 \o 
 \o 
-\o *Info*    Run start for Point ID (0 13) on testbench [ DAY2:GM_ID:1 ].
+\o *Info*    Run start for Point ID (53 126) on testbench [
+\o           AC_NOISE_PZ_TRANS_PSRR ].
 \o 
 \o Resetting statistical vars
 \o 
 \o *Info*    Setting parameter values ...
 \o 
-\o Setting var IDS = "158.4893192n"
-\o Setting var L = "180e-9"
-\o Setting var NF = "30"
-\o Setting var VDS = "0.9"
-\o Setting var WF = "10e-6"
+\o Setting var AMP1 = "2u"
+\o Setting var AMP2 = "0"
+\o Setting var BIAS_PULSE = "0"
+\o Setting var FREQ1 = "1M"
+\o Setting var FREQ2 = "50M"
+\o Setting var IN = "1"
+\o Setting var IN_DC = "0"
+\o Setting var IN_PULSE = "0"
+\o Setting var VDD = "1.8"
+\o Setting var VDD_PULSE = "0"
 \o Setting var temperature = "27"
 \o Setting temp(T) = 27
 \o 
 \o *Info*    Netlist Directory =
-\o           /home/saul/projects/FIL3601/Sim/DAY2/GM_ID/adexl/results/data/Ocean.12/13/DAY2:GM_ID:1/netlist
+\o           /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.1/126/AC_NOISE_PZ_TRANS_PSRR/groupRunDataDir/netlist
 \o 
 \o 
 \o *Info*    Data Directory    =
-\o           /home/saul/projects/FIL3601/Sim/DAY2/GM_ID/adexl/results/data/Ocean.12/13/DAY2:GM_ID:1
+\o           /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.1/126/AC_NOISE_PZ_TRANS_PSRR/groupRunDataDir
 \o 
 \o 
-\o *Info*    Creating Netlist for Point ID (0 13)
+\o *Info*    Creating Netlist for Point ID (53 126)
 \o 
 \o generate netlist...
 \o Loading hnlInit.cxt 
 \o Loading seCore.cxt 
 \o function ansCdlCompPrim redefined
 \o function ansCdlCompPrim redefined
-\# [11:06:08.162257] periodic Lic check successful
-\# [11:06:08.162259] Feature usage summary:
-\o Begin Incremental Netlisting Mar  3 11:06:08 2025
-\o End netlisting Mar  3 11:06:08 2025
+\# [18:45:15.058835] Periodic Lic check successful
+\# [18:45:15.058841] Feature usage summary:
+\o Begin Incremental Netlisting Apr 26 18:45:15 2025
+\o End netlisting Apr 26 18:45:15 2025
 \o 
 \o 	The netlist is up to date.
 \o 	Time taken to compare the design with netlist:   0.0s
@@ -207,20 +218,55 @@
 \o compose simulator input file...
 \o       ...successful.
 \o 
-\o *Info*    Running simulation on testbench [ DAY2:GM_ID:1 ] for Point
-\o           ID (0 13).
+\o *Info*    Running simulation on testbench [ AC_NOISE_PZ_TRANS_PSRR ]
+\o           for Point ID (53 126).
 \o 
-\o Delete psf data in /home/saul/projects/FIL3601/Sim/DAY2/GM_ID/adexl/results/data/Ocean.12/13/DAY2:GM_ID:1/psf.
+\o *Info*    Spectre controlMode is set "batch" due to monte carlo run.
+\o 
+\o Delete psf data in /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.1/126/AC_NOISE_PZ_TRANS_PSRR/groupRunDataDir/psf.
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Apr 26 18:45:15 2025
+\o End netlisting Apr 26 18:45:15 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
 \o simulate...
-\# Memory report: using         671 MB, process size 2,455 MB at UTC 2025.03.03 10:06:09.006
-\o INFO (ADE-3071): Simulation completed successfully.
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\# Memory report: using         692 MB, process size 2,476 MB at UTC 2025.04.26 16:45:16.104
+\o Loading paraplot.cxt 
+\o INFO (ADE-3067): Errors encountered during simulation. For more information, right-click
+\o         on a test name in the 'Results' tab of the Outputs pane and choose 'Output Log'
+\o         to view the simulation run log.
 \o reading simulation data...
 \o       ...successful.
-\o *Info*    Client has finished evaluating ... 
+\o *Info*    Monte Carlo Simulation unsuccessful...
+\o *Info*    See simulation output log for more information.
+\o 
+\o *Error*   Error ID  = 5069
+\o *Error*   Error Msg = Spectre simulator stopped due to following
+\o           reasons:
+\o Error found by spectre during Monte Carlo analysis
+\o           `mc1'.
+\o Error found by spectre during Monte Carlo analysis
+\o           `mc1'.
+\o ERROR (SPECTRE-16012): mc1: Attempt to run Monte
+\o           Carlo analysis with process and mismatch variations, but no
+\o           variations were specified in the statisti
+\o cs
+\o           block.
+\o 
+\o Resolve these errors and rerun simulation.
 \o 
 \o 
-\o *Info*    Run complete for Point ID (0 13) on testbench [
-\o           DAY2:GM_ID:1 ].
 \o 
 \o 
 \o 
@@ -228,32 +274,41 @@
 \o 
 \o 
 \o 
-\o 
-\o 
-\o 
-\o *Info*    Run start for Point ID (0 23) on testbench [ DAY2:GM_ID:1 ].
+\o *Info*    Run start for Point ID (53 126) on testbench [
+\o           AC_NOISE_PZ_TRANS_PSRR ].
 \o 
 \o Resetting statistical vars
 \o 
 \o *Info*    Setting parameter values ...
 \o 
-\o Setting var IDS = "1.584893192u"
+\o Setting var AMP1 = "2u"
+\o Setting var AMP2 = "0"
+\o Setting var BIAS_PULSE = "0"
+\o Setting var FREQ1 = "1M"
+\o Setting var FREQ2 = "50M"
+\o Setting var IN = "1"
+\o Setting var IN_DC = "0"
+\o Setting var IN_PULSE = "0"
+\o Setting var VDD = "1.8"
+\o Setting var VDD_PULSE = "0"
+\o Setting var temperature = "27"
+\o Setting temp(T) = 27
 \o 
 \o *Info*    Netlist Directory =
-\o           /home/saul/projects/FIL3601/Sim/DAY2/GM_ID/adexl/results/data/Ocean.12/23/DAY2:GM_ID:1/netlist
+\o           /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.1/126/AC_NOISE_PZ_TRANS_PSRR/groupRunDataDir/netlist
 \o 
 \o 
 \o *Info*    Data Directory    =
-\o           /home/saul/projects/FIL3601/Sim/DAY2/GM_ID/adexl/results/data/Ocean.12/23/DAY2:GM_ID:1
+\o           /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.1/126/AC_NOISE_PZ_TRANS_PSRR/groupRunDataDir
 \o 
 \o 
-\o *Info*    Creating Netlist for Point ID (0 23)
+\o *Info*    Creating Netlist for Point ID (53 126)
 \o 
 \o generate netlist...
 \o function ansCdlCompPrim redefined
 \o function ansCdlCompPrim redefined
-\o Begin Incremental Netlisting Mar  3 11:06:10 2025
-\o End netlisting Mar  3 11:06:10 2025
+\o Begin Incremental Netlisting Apr 26 18:45:19 2025
+\o End netlisting Apr 26 18:45:19 2025
 \o 
 \o 	The netlist is up to date.
 \o 	Time taken to compare the design with netlist:   0.0s
@@ -261,52 +316,119 @@
 \o compose simulator input file...
 \o       ...successful.
 \o 
-\o *Info*    Running simulation on testbench [ DAY2:GM_ID:1 ] for Point
-\o           ID (0 23).
+\o *Info*    Running simulation on testbench [ AC_NOISE_PZ_TRANS_PSRR ]
+\o           for Point ID (53 126).
 \o 
-\o Delete psf data in /home/saul/projects/FIL3601/Sim/DAY2/GM_ID/adexl/results/data/Ocean.12/23/DAY2:GM_ID:1/psf.
+\o *Info*    Spectre controlMode is set "batch" due to monte carlo run.
+\o 
+\o Delete psf data in /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.1/126/AC_NOISE_PZ_TRANS_PSRR/groupRunDataDir/psf.
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Apr 26 18:45:19 2025
+\o End netlisting Apr 26 18:45:19 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
 \o simulate...
-\o INFO (ADE-3071): Simulation completed successfully.
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3067): Errors encountered during simulation. For more information, right-click
+\o         on a test name in the 'Results' tab of the Outputs pane and choose 'Output Log'
+\o         to view the simulation run log.
 \o reading simulation data...
 \o       ...successful.
-\o *Info*    Client has finished evaluating ... 
+\o *Info*    Monte Carlo Simulation unsuccessful...
+\o *Info*    See simulation output log for more information.
+\o 
+\o *Error*   Error ID  = 5069
+\o *Error*   Error Msg = Spectre simulator stopped due to following
+\o           reasons:
+\o Error found by spectre during Monte Carlo analysis
+\o           `mc1'.
+\o Error found by spectre during Monte Carlo analysis
+\o           `mc1'.
+\o ERROR (SPECTRE-16012): mc1: Attempt to run Monte
+\o           Carlo analysis with process and mismatch variations, but no
+\o           variations were specified in the statisti
+\o cs
+\o           block.
+\o 
+\o Resolve these errors and rerun simulation.
 \o 
 \o 
-\o *Info*    Run complete for Point ID (0 23) on testbench [
-\o           DAY2:GM_ID:1 ].
+\o 
+\o 
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = EX1
+\o 	Cell         = current_amplifier_final_tb
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = AC_NOISE_PZ_TRANS_PSRR_MC_AC_NOISE_PZ_TRANS_PSRR:1_state_MonteCarlo.2
+\o 	Results DB   = /home/saul/projects/FIL3601/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2.rdb
+\o 	Results Dir  = /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/1/AC_NOISE_PZ_TRANS_PSRR_MC
+\o 	Results Loc  = /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data
+\o 	Project Dir  = /home/saul/projects/FIL3601/Sim
+\o 	Setup DB loc = /home/saul/projects/FIL3601/EX1/current_amplifier_final_tb/adexl
+\o 	File Encoding = 0
+\o 
+\o 
+\o 
+\o *Info*    The auto suspension is disabled.
 \o 
 \o 
 \o 
 \o 
 \o 
 \o 
-\o 
-\o 
-\o 
-\o 
-\o *Info*    Run start for Point ID (0 31) on testbench [ DAY2:GM_ID:1 ].
+\o *Info*    Run start for Point ID (54 26) on testbench [
+\o           AC_NOISE_PZ_TRANS_PSRR_MC ].
 \o 
 \o Resetting statistical vars
 \o 
 \o *Info*    Setting parameter values ...
 \o 
-\o Setting var IDS = "10u"
+\o Setting var AMP1 = "2u"
+\o Setting var AMP2 = "0"
+\o Setting var BIAS_PULSE = "0"
+\o Setting var FREQ1 = "1M"
+\o Setting var FREQ2 = "50M"
+\o Setting var IN = "1"
+\o Setting var IN_DC = "0"
+\o Setting var IN_PULSE = "0"
+\o Setting var VDD = "1.8"
+\o Setting var VDD_PULSE = "0"
+\o Setting var temperature = "27"
+\o Setting temp(T) = 27
 \o 
 \o *Info*    Netlist Directory =
-\o           /home/saul/projects/FIL3601/Sim/DAY2/GM_ID/adexl/results/data/Ocean.12/31/DAY2:GM_ID:1/netlist
+\o           /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/netlist
 \o 
 \o 
 \o *Info*    Data Directory    =
-\o           /home/saul/projects/FIL3601/Sim/DAY2/GM_ID/adexl/results/data/Ocean.12/31/DAY2:GM_ID:1
+\o           /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir
 \o 
 \o 
-\o *Info*    Creating Netlist for Point ID (0 31)
+\o *Info*    Creating Netlist for Point ID (54 26)
 \o 
 \o generate netlist...
 \o function ansCdlCompPrim redefined
 \o function ansCdlCompPrim redefined
-\o Begin Incremental Netlisting Mar  3 11:06:11 2025
-\o End netlisting Mar  3 11:06:11 2025
+\o Begin Incremental Netlisting Apr 26 18:46:31 2025
+\o End netlisting Apr 26 18:46:31 2025
 \o 
 \o 	The netlist is up to date.
 \o 	Time taken to compare the design with netlist:   0.0s
@@ -314,239 +436,1439 @@
 \o compose simulator input file...
 \o       ...successful.
 \o 
-\o *Info*    Running simulation on testbench [ DAY2:GM_ID:1 ] for Point
-\o           ID (0 31).
+\o *Info*    Running simulation on testbench [ AC_NOISE_PZ_TRANS_PSRR_MC
+\o           ] for Point ID (54 26).
 \o 
-\o Delete psf data in /home/saul/projects/FIL3601/Sim/DAY2/GM_ID/adexl/results/data/Ocean.12/31/DAY2:GM_ID:1/psf.
-\o simulate...
-\o INFO (ADE-3071): Simulation completed successfully.
-\o reading simulation data...
-\o       ...successful.
-\o *Info*    Client has finished evaluating ... 
+\o *Info*    Spectre controlMode is set "batch" due to monte carlo run.
 \o 
-\o 
-\o *Info*    Run complete for Point ID (0 31) on testbench [
-\o           DAY2:GM_ID:1 ].
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o *Info*    Run start for Point ID (0 39) on testbench [ DAY2:GM_ID:1 ].
-\o 
-\o Resetting statistical vars
-\o 
-\o *Info*    Setting parameter values ...
-\o 
-\o Setting var IDS = "63.09573445u"
-\o 
-\o *Info*    Netlist Directory =
-\o           /home/saul/projects/FIL3601/Sim/DAY2/GM_ID/adexl/results/data/Ocean.12/39/DAY2:GM_ID:1/netlist
-\o 
-\o 
-\o *Info*    Data Directory    =
-\o           /home/saul/projects/FIL3601/Sim/DAY2/GM_ID/adexl/results/data/Ocean.12/39/DAY2:GM_ID:1
-\o 
-\o 
-\o *Info*    Creating Netlist for Point ID (0 39)
-\o 
+\o Delete psf data in /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf.
 \o generate netlist...
 \o function ansCdlCompPrim redefined
 \o function ansCdlCompPrim redefined
-\o Begin Incremental Netlisting Mar  3 11:06:13 2025
-\o End netlisting Mar  3 11:06:13 2025
+\o Begin Incremental Netlisting Apr 26 18:46:31 2025
+\o End netlisting Apr 26 18:46:31 2025
 \o 
 \o 	The netlist is up to date.
 \o 	Time taken to compare the design with netlist:   0.0s
 \o       ...successful.
 \o compose simulator input file...
 \o       ...successful.
-\o 
-\o *Info*    Running simulation on testbench [ DAY2:GM_ID:1 ] for Point
-\o           ID (0 39).
-\o 
-\o Delete psf data in /home/saul/projects/FIL3601/Sim/DAY2/GM_ID/adexl/results/data/Ocean.12/39/DAY2:GM_ID:1/psf.
-\o simulate...
-\o INFO (ADE-3071): Simulation completed successfully.
-\o reading simulation data...
+\o start simulator if needed...
 \o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/026/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/026/. Use results() for a list of available results.
+\o ERROR (ADE-2709): Evaluation of output 'input noise; A / sqrt(Hz)' returned 'nil' for point:'26' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'getData("in" ?result "noise")'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* xval: can't handle xval(nil)
+\e 
+\e 
+\o WARNING (OCN-6041): You must do openResults() and selectResults() before using this command.
+\o         Make sure your openResults() and selectResults() commands worked. Use ocnHelp('openResults)
+\o         and ocnHelp('selectResults) for more information.
+\e *Error* ("quotient" 0 t nil ("*Error* quotient: Attempted to divide by zero" (0.0 0.0)))
+\e 
+\e 
+\o ERROR (ADE-2708): Evaluation of output '%THD v /OUT; pss (V)' failed for point:'26' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'_drplPssHarmThd(vh('pss "/OUT") 1)'
+\o 	because of the following error(s)
+\o 	*Error* quotient: Attempted to divide by zero.
+\o Ensure that the definition of output is correct.
+\o 
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/026/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/026/. Use results() for a list of available results.
+\e *Error* 
+\e  Error in locating poles-zeros. Ensure that poles and zeros exist in this simualtion data.
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'Zeros' returned 'nil' for point:'26' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'pzFrequencyAndRealFilter(getData("zeros" ?result "pz"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/026/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/026/. Use results() for a list of available results.
+\e *Error* 
+\e  Error in locating poles-zeros. Ensure that poles and zeros exist in this simualtion data.
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'Poles' returned 'nil' for point:'26' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'pzFrequencyAndRealFilter(getData("poles" ?result "pz"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'i /R3/PLUS; pss dB20(I)' returned 'nil' for point:'26' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'db(ih('pss "/R3/PLUS"))'.
+\o Ensure that the definition of output is correct.
+\o 
 \o *Info*    Client has finished evaluating ... 
 \o 
 \o 
-\o *Info*    Run complete for Point ID (0 39) on testbench [
-\o           DAY2:GM_ID:1 ].
+\o *Info*    Run complete for Point ID (54 26) on testbench [
+\o           AC_NOISE_PZ_TRANS_PSRR_MC ].
 \o 
 \o 
 \o 
 \o 
 \o 
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/027/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/027/. Use results() for a list of available results.
+\o ERROR (ADE-2709): Evaluation of output 'input noise; A / sqrt(Hz)' returned 'nil' for point:'27' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'getData("in" ?result "noise")'.
+\o Ensure that the definition of output is correct.
 \o 
+\e *Error* xval: can't handle xval(nil)
+\e 
+\e 
+\o WARNING (OCN-6041): You must do openResults() and selectResults() before using this command.
+\o         Make sure your openResults() and selectResults() commands worked. Use ocnHelp('openResults)
+\o         and ocnHelp('selectResults) for more information.
+\e *Error* ("quotient" 0 t nil ("*Error* quotient: Attempted to divide by zero" (0.0 0.0)))
+\e 
+\e 
+\o ERROR (ADE-2708): Evaluation of output '%THD v /OUT; pss (V)' failed for point:'27' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'_drplPssHarmThd(vh('pss "/OUT") 1)'
+\o 	because of the following error(s)
+\o 	*Error* quotient: Attempted to divide by zero.
+\o Ensure that the definition of output is correct.
 \o 
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/027/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/027/. Use results() for a list of available results.
+\e *Error* 
+\e  Error in locating poles-zeros. Ensure that poles and zeros exist in this simualtion data.
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'Zeros' returned 'nil' for point:'27' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'pzFrequencyAndRealFilter(getData("zeros" ?result "pz"))'.
+\o Ensure that the definition of output is correct.
 \o 
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/027/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/027/. Use results() for a list of available results.
+\e *Error* 
+\e  Error in locating poles-zeros. Ensure that poles and zeros exist in this simualtion data.
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'Poles' returned 'nil' for point:'27' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'pzFrequencyAndRealFilter(getData("poles" ?result "pz"))'.
+\o Ensure that the definition of output is correct.
 \o 
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'i /R3/PLUS; pss dB20(I)' returned 'nil' for point:'27' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'db(ih('pss "/R3/PLUS"))'.
+\o Ensure that the definition of output is correct.
 \o 
-\o *Info*    Run start for Point ID (0 45) on testbench [ DAY2:GM_ID:1 ].
-\o 
-\o Resetting statistical vars
-\o 
-\o *Info*    Setting parameter values ...
-\o 
-\o Setting var IDS = "251.1886432u"
-\o 
-\o *Info*    Netlist Directory =
-\o           /home/saul/projects/FIL3601/Sim/DAY2/GM_ID/adexl/results/data/Ocean.12/45/DAY2:GM_ID:1/netlist
-\o 
-\o 
-\o *Info*    Data Directory    =
-\o           /home/saul/projects/FIL3601/Sim/DAY2/GM_ID/adexl/results/data/Ocean.12/45/DAY2:GM_ID:1
-\o 
-\o 
-\o *Info*    Creating Netlist for Point ID (0 45)
-\o 
-\o generate netlist...
-\o function ansCdlCompPrim redefined
-\o function ansCdlCompPrim redefined
-\o Begin Incremental Netlisting Mar  3 11:06:14 2025
-\o End netlisting Mar  3 11:06:14 2025
-\o 
-\o 	The netlist is up to date.
-\o 	Time taken to compare the design with netlist:   0.0s
-\o       ...successful.
-\o compose simulator input file...
-\o       ...successful.
-\o 
-\o *Info*    Running simulation on testbench [ DAY2:GM_ID:1 ] for Point
-\o           ID (0 45).
-\o 
-\o Delete psf data in /home/saul/projects/FIL3601/Sim/DAY2/GM_ID/adexl/results/data/Ocean.12/45/DAY2:GM_ID:1/psf.
-\o simulate...
-\# Thread usage report: 38 active threads, active load 1.40 at UTC 2025.03.03 10:06:16.077
-\o INFO (ADE-3071): Simulation completed successfully.
-\o reading simulation data...
-\o       ...successful.
 \o *Info*    Client has finished evaluating ... 
 \o 
 \o 
-\o *Info*    Run complete for Point ID (0 45) on testbench [
-\o           DAY2:GM_ID:1 ].
+\o *Info*    Run complete for Point ID (54 27) on testbench [
+\o           AC_NOISE_PZ_TRANS_PSRR_MC ].
 \o 
 \o 
 \o 
 \o 
 \o 
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/028/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/028/. Use results() for a list of available results.
+\o ERROR (ADE-2709): Evaluation of output 'input noise; A / sqrt(Hz)' returned 'nil' for point:'28' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'getData("in" ?result "noise")'.
+\o Ensure that the definition of output is correct.
 \o 
+\e *Error* xval: can't handle xval(nil)
+\e 
+\e 
+\o WARNING (OCN-6041): You must do openResults() and selectResults() before using this command.
+\o         Make sure your openResults() and selectResults() commands worked. Use ocnHelp('openResults)
+\o         and ocnHelp('selectResults) for more information.
+\e *Error* ("quotient" 0 t nil ("*Error* quotient: Attempted to divide by zero" (0.0 0.0)))
+\e 
+\e 
+\o ERROR (ADE-2708): Evaluation of output '%THD v /OUT; pss (V)' failed for point:'28' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'_drplPssHarmThd(vh('pss "/OUT") 1)'
+\o 	because of the following error(s)
+\o 	*Error* quotient: Attempted to divide by zero.
+\o Ensure that the definition of output is correct.
 \o 
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/028/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/028/. Use results() for a list of available results.
+\e *Error* 
+\e  Error in locating poles-zeros. Ensure that poles and zeros exist in this simualtion data.
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'Zeros' returned 'nil' for point:'28' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'pzFrequencyAndRealFilter(getData("zeros" ?result "pz"))'.
+\o Ensure that the definition of output is correct.
 \o 
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/028/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/028/. Use results() for a list of available results.
+\e *Error* 
+\e  Error in locating poles-zeros. Ensure that poles and zeros exist in this simualtion data.
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'Poles' returned 'nil' for point:'28' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'pzFrequencyAndRealFilter(getData("poles" ?result "pz"))'.
+\o Ensure that the definition of output is correct.
 \o 
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'i /R3/PLUS; pss dB20(I)' returned 'nil' for point:'28' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'db(ih('pss "/R3/PLUS"))'.
+\o Ensure that the definition of output is correct.
 \o 
-\o *Info*    Run start for Point ID (0 52) on testbench [ DAY2:GM_ID:1 ].
-\o 
-\o Resetting statistical vars
-\o 
-\o *Info*    Setting parameter values ...
-\o 
-\o Setting var IDS = "1.258925412m"
-\o 
-\o *Info*    Netlist Directory =
-\o           /home/saul/projects/FIL3601/Sim/DAY2/GM_ID/adexl/results/data/Ocean.12/52/DAY2:GM_ID:1/netlist
-\o 
-\o 
-\o *Info*    Data Directory    =
-\o           /home/saul/projects/FIL3601/Sim/DAY2/GM_ID/adexl/results/data/Ocean.12/52/DAY2:GM_ID:1
-\o 
-\o 
-\o *Info*    Creating Netlist for Point ID (0 52)
-\o 
-\o generate netlist...
-\o function ansCdlCompPrim redefined
-\o function ansCdlCompPrim redefined
-\o Begin Incremental Netlisting Mar  3 11:06:16 2025
-\o End netlisting Mar  3 11:06:16 2025
-\o 
-\o 	The netlist is up to date.
-\o 	Time taken to compare the design with netlist:   0.0s
-\o       ...successful.
-\o compose simulator input file...
-\o       ...successful.
-\o 
-\o *Info*    Running simulation on testbench [ DAY2:GM_ID:1 ] for Point
-\o           ID (0 52).
-\o 
-\o Delete psf data in /home/saul/projects/FIL3601/Sim/DAY2/GM_ID/adexl/results/data/Ocean.12/52/DAY2:GM_ID:1/psf.
-\o simulate...
-\o INFO (ADE-3071): Simulation completed successfully.
-\o reading simulation data...
-\o       ...successful.
 \o *Info*    Client has finished evaluating ... 
 \o 
 \o 
-\o *Info*    Run complete for Point ID (0 52) on testbench [
-\o           DAY2:GM_ID:1 ].
+\o *Info*    Run complete for Point ID (54 28) on testbench [
+\o           AC_NOISE_PZ_TRANS_PSRR_MC ].
 \o 
 \o 
 \o 
 \o 
 \o 
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/029/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/029/. Use results() for a list of available results.
+\o ERROR (ADE-2709): Evaluation of output 'input noise; A / sqrt(Hz)' returned 'nil' for point:'29' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'getData("in" ?result "noise")'.
+\o Ensure that the definition of output is correct.
 \o 
+\e *Error* xval: can't handle xval(nil)
+\e 
+\e 
+\o WARNING (OCN-6041): You must do openResults() and selectResults() before using this command.
+\o         Make sure your openResults() and selectResults() commands worked. Use ocnHelp('openResults)
+\o         and ocnHelp('selectResults) for more information.
+\e *Error* ("quotient" 0 t nil ("*Error* quotient: Attempted to divide by zero" (0.0 0.0)))
+\e 
+\e 
+\o ERROR (ADE-2708): Evaluation of output '%THD v /OUT; pss (V)' failed for point:'29' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'_drplPssHarmThd(vh('pss "/OUT") 1)'
+\o 	because of the following error(s)
+\o 	*Error* quotient: Attempted to divide by zero.
+\o Ensure that the definition of output is correct.
 \o 
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/029/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/029/. Use results() for a list of available results.
+\e *Error* 
+\e  Error in locating poles-zeros. Ensure that poles and zeros exist in this simualtion data.
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'Zeros' returned 'nil' for point:'29' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'pzFrequencyAndRealFilter(getData("zeros" ?result "pz"))'.
+\o Ensure that the definition of output is correct.
 \o 
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/029/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/029/. Use results() for a list of available results.
+\e *Error* 
+\e  Error in locating poles-zeros. Ensure that poles and zeros exist in this simualtion data.
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'Poles' returned 'nil' for point:'29' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'pzFrequencyAndRealFilter(getData("poles" ?result "pz"))'.
+\o Ensure that the definition of output is correct.
 \o 
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'i /R3/PLUS; pss dB20(I)' returned 'nil' for point:'29' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'db(ih('pss "/R3/PLUS"))'.
+\o Ensure that the definition of output is correct.
 \o 
-\o *Info*    Run start for Point ID (0 60) on testbench [ DAY2:GM_ID:1 ].
-\o 
-\o Resetting statistical vars
-\o 
-\o *Info*    Setting parameter values ...
-\o 
-\o Setting var IDS = "7.943282347m"
-\o 
-\o *Info*    Netlist Directory =
-\o           /home/saul/projects/FIL3601/Sim/DAY2/GM_ID/adexl/results/data/Ocean.12/60/DAY2:GM_ID:1/netlist
-\o 
-\o 
-\o *Info*    Data Directory    =
-\o           /home/saul/projects/FIL3601/Sim/DAY2/GM_ID/adexl/results/data/Ocean.12/60/DAY2:GM_ID:1
-\o 
-\o 
-\o *Info*    Creating Netlist for Point ID (0 60)
-\o 
-\o generate netlist...
-\o function ansCdlCompPrim redefined
-\o function ansCdlCompPrim redefined
-\o Begin Incremental Netlisting Mar  3 11:06:17 2025
-\o End netlisting Mar  3 11:06:17 2025
-\o 
-\o 	The netlist is up to date.
-\o 	Time taken to compare the design with netlist:   0.0s
-\o       ...successful.
-\o compose simulator input file...
-\o       ...successful.
-\o 
-\o *Info*    Running simulation on testbench [ DAY2:GM_ID:1 ] for Point
-\o           ID (0 60).
-\o 
-\o Delete psf data in /home/saul/projects/FIL3601/Sim/DAY2/GM_ID/adexl/results/data/Ocean.12/60/DAY2:GM_ID:1/psf.
-\o simulate...
-\o INFO (ADE-3071): Simulation completed successfully.
-\o reading simulation data...
-\o       ...successful.
 \o *Info*    Client has finished evaluating ... 
 \o 
 \o 
-\o *Info*    Run complete for Point ID (0 60) on testbench [
-\o           DAY2:GM_ID:1 ].
+\o *Info*    Run complete for Point ID (54 29) on testbench [
+\o           AC_NOISE_PZ_TRANS_PSRR_MC ].
 \o 
 \o 
 \o 
 \o 
 \o 
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/030/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/030/. Use results() for a list of available results.
+\o ERROR (ADE-2709): Evaluation of output 'input noise; A / sqrt(Hz)' returned 'nil' for point:'30' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'getData("in" ?result "noise")'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* xval: can't handle xval(nil)
+\e 
+\e 
+\o WARNING (OCN-6041): You must do openResults() and selectResults() before using this command.
+\o         Make sure your openResults() and selectResults() commands worked. Use ocnHelp('openResults)
+\o         and ocnHelp('selectResults) for more information.
+\e *Error* ("quotient" 0 t nil ("*Error* quotient: Attempted to divide by zero" (0.0 0.0)))
+\e 
+\e 
+\o ERROR (ADE-2708): Evaluation of output '%THD v /OUT; pss (V)' failed for point:'30' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'_drplPssHarmThd(vh('pss "/OUT") 1)'
+\o 	because of the following error(s)
+\o 	*Error* quotient: Attempted to divide by zero.
+\o Ensure that the definition of output is correct.
+\o 
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/030/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/030/. Use results() for a list of available results.
+\e *Error* 
+\e  Error in locating poles-zeros. Ensure that poles and zeros exist in this simualtion data.
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'Zeros' returned 'nil' for point:'30' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'pzFrequencyAndRealFilter(getData("zeros" ?result "pz"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/030/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/030/. Use results() for a list of available results.
+\e *Error* 
+\e  Error in locating poles-zeros. Ensure that poles and zeros exist in this simualtion data.
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'Poles' returned 'nil' for point:'30' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'pzFrequencyAndRealFilter(getData("poles" ?result "pz"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'i /R3/PLUS; pss dB20(I)' returned 'nil' for point:'30' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'db(ih('pss "/R3/PLUS"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (54 30) on testbench [
+\o           AC_NOISE_PZ_TRANS_PSRR_MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/031/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/031/. Use results() for a list of available results.
+\o ERROR (ADE-2709): Evaluation of output 'input noise; A / sqrt(Hz)' returned 'nil' for point:'31' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'getData("in" ?result "noise")'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* xval: can't handle xval(nil)
+\e 
+\e 
+\o WARNING (OCN-6041): You must do openResults() and selectResults() before using this command.
+\o         Make sure your openResults() and selectResults() commands worked. Use ocnHelp('openResults)
+\o         and ocnHelp('selectResults) for more information.
+\e *Error* ("quotient" 0 t nil ("*Error* quotient: Attempted to divide by zero" (0.0 0.0)))
+\e 
+\e 
+\o ERROR (ADE-2708): Evaluation of output '%THD v /OUT; pss (V)' failed for point:'31' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'_drplPssHarmThd(vh('pss "/OUT") 1)'
+\o 	because of the following error(s)
+\o 	*Error* quotient: Attempted to divide by zero.
+\o Ensure that the definition of output is correct.
+\o 
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/031/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/031/. Use results() for a list of available results.
+\e *Error* 
+\e  Error in locating poles-zeros. Ensure that poles and zeros exist in this simualtion data.
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'Zeros' returned 'nil' for point:'31' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'pzFrequencyAndRealFilter(getData("zeros" ?result "pz"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/031/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/031/. Use results() for a list of available results.
+\e *Error* 
+\e  Error in locating poles-zeros. Ensure that poles and zeros exist in this simualtion data.
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'Poles' returned 'nil' for point:'31' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'pzFrequencyAndRealFilter(getData("poles" ?result "pz"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'i /R3/PLUS; pss dB20(I)' returned 'nil' for point:'31' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'db(ih('pss "/R3/PLUS"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (54 31) on testbench [
+\o           AC_NOISE_PZ_TRANS_PSRR_MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/032/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/032/. Use results() for a list of available results.
+\o ERROR (ADE-2709): Evaluation of output 'input noise; A / sqrt(Hz)' returned 'nil' for point:'32' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'getData("in" ?result "noise")'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* xval: can't handle xval(nil)
+\e 
+\e 
+\o WARNING (OCN-6041): You must do openResults() and selectResults() before using this command.
+\o         Make sure your openResults() and selectResults() commands worked. Use ocnHelp('openResults)
+\o         and ocnHelp('selectResults) for more information.
+\e *Error* ("quotient" 0 t nil ("*Error* quotient: Attempted to divide by zero" (0.0 0.0)))
+\e 
+\e 
+\o ERROR (ADE-2708): Evaluation of output '%THD v /OUT; pss (V)' failed for point:'32' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'_drplPssHarmThd(vh('pss "/OUT") 1)'
+\o 	because of the following error(s)
+\o 	*Error* quotient: Attempted to divide by zero.
+\o Ensure that the definition of output is correct.
+\o 
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/032/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/032/. Use results() for a list of available results.
+\e *Error* 
+\e  Error in locating poles-zeros. Ensure that poles and zeros exist in this simualtion data.
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'Zeros' returned 'nil' for point:'32' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'pzFrequencyAndRealFilter(getData("zeros" ?result "pz"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/032/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/032/. Use results() for a list of available results.
+\e *Error* 
+\e  Error in locating poles-zeros. Ensure that poles and zeros exist in this simualtion data.
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'Poles' returned 'nil' for point:'32' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'pzFrequencyAndRealFilter(getData("poles" ?result "pz"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'i /R3/PLUS; pss dB20(I)' returned 'nil' for point:'32' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'db(ih('pss "/R3/PLUS"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (54 32) on testbench [
+\o           AC_NOISE_PZ_TRANS_PSRR_MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/033/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/033/. Use results() for a list of available results.
+\o ERROR (ADE-2709): Evaluation of output 'input noise; A / sqrt(Hz)' returned 'nil' for point:'33' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'getData("in" ?result "noise")'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* xval: can't handle xval(nil)
+\e 
+\e 
+\o WARNING (OCN-6041): You must do openResults() and selectResults() before using this command.
+\o         Make sure your openResults() and selectResults() commands worked. Use ocnHelp('openResults)
+\o         and ocnHelp('selectResults) for more information.
+\e *Error* ("quotient" 0 t nil ("*Error* quotient: Attempted to divide by zero" (0.0 0.0)))
+\e 
+\e 
+\o ERROR (ADE-2708): Evaluation of output '%THD v /OUT; pss (V)' failed for point:'33' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'_drplPssHarmThd(vh('pss "/OUT") 1)'
+\o 	because of the following error(s)
+\o 	*Error* quotient: Attempted to divide by zero.
+\o Ensure that the definition of output is correct.
+\o 
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/033/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/033/. Use results() for a list of available results.
+\e *Error* 
+\e  Error in locating poles-zeros. Ensure that poles and zeros exist in this simualtion data.
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'Zeros' returned 'nil' for point:'33' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'pzFrequencyAndRealFilter(getData("zeros" ?result "pz"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/033/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/033/. Use results() for a list of available results.
+\e *Error* 
+\e  Error in locating poles-zeros. Ensure that poles and zeros exist in this simualtion data.
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'Poles' returned 'nil' for point:'33' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'pzFrequencyAndRealFilter(getData("poles" ?result "pz"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'i /R3/PLUS; pss dB20(I)' returned 'nil' for point:'33' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'db(ih('pss "/R3/PLUS"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (54 33) on testbench [
+\o           AC_NOISE_PZ_TRANS_PSRR_MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/034/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/034/. Use results() for a list of available results.
+\o ERROR (ADE-2709): Evaluation of output 'input noise; A / sqrt(Hz)' returned 'nil' for point:'34' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'getData("in" ?result "noise")'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* xval: can't handle xval(nil)
+\e 
+\e 
+\o WARNING (OCN-6041): You must do openResults() and selectResults() before using this command.
+\o         Make sure your openResults() and selectResults() commands worked. Use ocnHelp('openResults)
+\o         and ocnHelp('selectResults) for more information.
+\e *Error* ("quotient" 0 t nil ("*Error* quotient: Attempted to divide by zero" (0.0 0.0)))
+\e 
+\e 
+\o ERROR (ADE-2708): Evaluation of output '%THD v /OUT; pss (V)' failed for point:'34' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'_drplPssHarmThd(vh('pss "/OUT") 1)'
+\o 	because of the following error(s)
+\o 	*Error* quotient: Attempted to divide by zero.
+\o Ensure that the definition of output is correct.
+\o 
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/034/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/034/. Use results() for a list of available results.
+\e *Error* 
+\e  Error in locating poles-zeros. Ensure that poles and zeros exist in this simualtion data.
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'Zeros' returned 'nil' for point:'34' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'pzFrequencyAndRealFilter(getData("zeros" ?result "pz"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/034/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/034/. Use results() for a list of available results.
+\e *Error* 
+\e  Error in locating poles-zeros. Ensure that poles and zeros exist in this simualtion data.
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'Poles' returned 'nil' for point:'34' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'pzFrequencyAndRealFilter(getData("poles" ?result "pz"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'i /R3/PLUS; pss dB20(I)' returned 'nil' for point:'34' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'db(ih('pss "/R3/PLUS"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (54 34) on testbench [
+\o           AC_NOISE_PZ_TRANS_PSRR_MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/035/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/035/. Use results() for a list of available results.
+\o ERROR (ADE-2709): Evaluation of output 'input noise; A / sqrt(Hz)' returned 'nil' for point:'35' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'getData("in" ?result "noise")'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* xval: can't handle xval(nil)
+\e 
+\e 
+\o WARNING (OCN-6041): You must do openResults() and selectResults() before using this command.
+\o         Make sure your openResults() and selectResults() commands worked. Use ocnHelp('openResults)
+\o         and ocnHelp('selectResults) for more information.
+\e *Error* ("quotient" 0 t nil ("*Error* quotient: Attempted to divide by zero" (0.0 0.0)))
+\e 
+\e 
+\o ERROR (ADE-2708): Evaluation of output '%THD v /OUT; pss (V)' failed for point:'35' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'_drplPssHarmThd(vh('pss "/OUT") 1)'
+\o 	because of the following error(s)
+\o 	*Error* quotient: Attempted to divide by zero.
+\o Ensure that the definition of output is correct.
+\o 
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/035/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/035/. Use results() for a list of available results.
+\e *Error* 
+\e  Error in locating poles-zeros. Ensure that poles and zeros exist in this simualtion data.
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'Zeros' returned 'nil' for point:'35' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'pzFrequencyAndRealFilter(getData("zeros" ?result "pz"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/035/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/035/. Use results() for a list of available results.
+\e *Error* 
+\e  Error in locating poles-zeros. Ensure that poles and zeros exist in this simualtion data.
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'Poles' returned 'nil' for point:'35' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'pzFrequencyAndRealFilter(getData("poles" ?result "pz"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'i /R3/PLUS; pss dB20(I)' returned 'nil' for point:'35' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'db(ih('pss "/R3/PLUS"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (54 35) on testbench [
+\o           AC_NOISE_PZ_TRANS_PSRR_MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\# Memory report: Maximum memory size now 72,269 MB at UTC 2025.04.26 16:46:41.309
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/036/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/036/. Use results() for a list of available results.
+\o ERROR (ADE-2709): Evaluation of output 'input noise; A / sqrt(Hz)' returned 'nil' for point:'36' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'getData("in" ?result "noise")'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* xval: can't handle xval(nil)
+\e 
+\e 
+\o WARNING (OCN-6041): You must do openResults() and selectResults() before using this command.
+\o         Make sure your openResults() and selectResults() commands worked. Use ocnHelp('openResults)
+\o         and ocnHelp('selectResults) for more information.
+\e *Error* ("quotient" 0 t nil ("*Error* quotient: Attempted to divide by zero" (0.0 0.0)))
+\e 
+\e 
+\o ERROR (ADE-2708): Evaluation of output '%THD v /OUT; pss (V)' failed for point:'36' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'_drplPssHarmThd(vh('pss "/OUT") 1)'
+\o 	because of the following error(s)
+\o 	*Error* quotient: Attempted to divide by zero.
+\o Ensure that the definition of output is correct.
+\o 
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/036/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/036/. Use results() for a list of available results.
+\e *Error* 
+\e  Error in locating poles-zeros. Ensure that poles and zeros exist in this simualtion data.
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'Zeros' returned 'nil' for point:'36' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'pzFrequencyAndRealFilter(getData("zeros" ?result "pz"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/036/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/036/. Use results() for a list of available results.
+\e *Error* 
+\e  Error in locating poles-zeros. Ensure that poles and zeros exist in this simualtion data.
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'Poles' returned 'nil' for point:'36' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'pzFrequencyAndRealFilter(getData("poles" ?result "pz"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'i /R3/PLUS; pss dB20(I)' returned 'nil' for point:'36' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'db(ih('pss "/R3/PLUS"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (54 36) on testbench [
+\o           AC_NOISE_PZ_TRANS_PSRR_MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/037/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/037/. Use results() for a list of available results.
+\o ERROR (ADE-2709): Evaluation of output 'input noise; A / sqrt(Hz)' returned 'nil' for point:'37' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'getData("in" ?result "noise")'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* xval: can't handle xval(nil)
+\e 
+\e 
+\o WARNING (OCN-6041): You must do openResults() and selectResults() before using this command.
+\o         Make sure your openResults() and selectResults() commands worked. Use ocnHelp('openResults)
+\o         and ocnHelp('selectResults) for more information.
+\e *Error* ("quotient" 0 t nil ("*Error* quotient: Attempted to divide by zero" (0.0 0.0)))
+\e 
+\e 
+\o ERROR (ADE-2708): Evaluation of output '%THD v /OUT; pss (V)' failed for point:'37' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'_drplPssHarmThd(vh('pss "/OUT") 1)'
+\o 	because of the following error(s)
+\o 	*Error* quotient: Attempted to divide by zero.
+\o Ensure that the definition of output is correct.
+\o 
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/037/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/037/. Use results() for a list of available results.
+\e *Error* 
+\e  Error in locating poles-zeros. Ensure that poles and zeros exist in this simualtion data.
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'Zeros' returned 'nil' for point:'37' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'pzFrequencyAndRealFilter(getData("zeros" ?result "pz"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/037/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/037/. Use results() for a list of available results.
+\e *Error* 
+\e  Error in locating poles-zeros. Ensure that poles and zeros exist in this simualtion data.
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'Poles' returned 'nil' for point:'37' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'pzFrequencyAndRealFilter(getData("poles" ?result "pz"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'i /R3/PLUS; pss dB20(I)' returned 'nil' for point:'37' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'db(ih('pss "/R3/PLUS"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (54 37) on testbench [
+\o           AC_NOISE_PZ_TRANS_PSRR_MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/038/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/038/. Use results() for a list of available results.
+\o ERROR (ADE-2709): Evaluation of output 'input noise; A / sqrt(Hz)' returned 'nil' for point:'38' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'getData("in" ?result "noise")'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* xval: can't handle xval(nil)
+\e 
+\e 
+\o WARNING (OCN-6041): You must do openResults() and selectResults() before using this command.
+\o         Make sure your openResults() and selectResults() commands worked. Use ocnHelp('openResults)
+\o         and ocnHelp('selectResults) for more information.
+\e *Error* ("quotient" 0 t nil ("*Error* quotient: Attempted to divide by zero" (0.0 0.0)))
+\e 
+\e 
+\o ERROR (ADE-2708): Evaluation of output '%THD v /OUT; pss (V)' failed for point:'38' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'_drplPssHarmThd(vh('pss "/OUT") 1)'
+\o 	because of the following error(s)
+\o 	*Error* quotient: Attempted to divide by zero.
+\o Ensure that the definition of output is correct.
+\o 
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/038/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/038/. Use results() for a list of available results.
+\e *Error* 
+\e  Error in locating poles-zeros. Ensure that poles and zeros exist in this simualtion data.
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'Zeros' returned 'nil' for point:'38' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'pzFrequencyAndRealFilter(getData("zeros" ?result "pz"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/038/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/038/. Use results() for a list of available results.
+\e *Error* 
+\e  Error in locating poles-zeros. Ensure that poles and zeros exist in this simualtion data.
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'Poles' returned 'nil' for point:'38' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'pzFrequencyAndRealFilter(getData("poles" ?result "pz"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'i /R3/PLUS; pss dB20(I)' returned 'nil' for point:'38' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'db(ih('pss "/R3/PLUS"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (54 38) on testbench [
+\o           AC_NOISE_PZ_TRANS_PSRR_MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/039/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/039/. Use results() for a list of available results.
+\o ERROR (ADE-2709): Evaluation of output 'input noise; A / sqrt(Hz)' returned 'nil' for point:'39' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'getData("in" ?result "noise")'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* xval: can't handle xval(nil)
+\e 
+\e 
+\o WARNING (OCN-6041): You must do openResults() and selectResults() before using this command.
+\o         Make sure your openResults() and selectResults() commands worked. Use ocnHelp('openResults)
+\o         and ocnHelp('selectResults) for more information.
+\e *Error* ("quotient" 0 t nil ("*Error* quotient: Attempted to divide by zero" (0.0 0.0)))
+\e 
+\e 
+\o ERROR (ADE-2708): Evaluation of output '%THD v /OUT; pss (V)' failed for point:'39' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'_drplPssHarmThd(vh('pss "/OUT") 1)'
+\o 	because of the following error(s)
+\o 	*Error* quotient: Attempted to divide by zero.
+\o Ensure that the definition of output is correct.
+\o 
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/039/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/039/. Use results() for a list of available results.
+\e *Error* 
+\e  Error in locating poles-zeros. Ensure that poles and zeros exist in this simualtion data.
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'Zeros' returned 'nil' for point:'39' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'pzFrequencyAndRealFilter(getData("zeros" ?result "pz"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/039/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/039/. Use results() for a list of available results.
+\e *Error* 
+\e  Error in locating poles-zeros. Ensure that poles and zeros exist in this simualtion data.
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'Poles' returned 'nil' for point:'39' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'pzFrequencyAndRealFilter(getData("poles" ?result "pz"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'i /R3/PLUS; pss dB20(I)' returned 'nil' for point:'39' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'db(ih('pss "/R3/PLUS"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (54 39) on testbench [
+\o           AC_NOISE_PZ_TRANS_PSRR_MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/040/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/040/. Use results() for a list of available results.
+\o ERROR (ADE-2709): Evaluation of output 'input noise; A / sqrt(Hz)' returned 'nil' for point:'40' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'getData("in" ?result "noise")'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* xval: can't handle xval(nil)
+\e 
+\e 
+\o WARNING (OCN-6041): You must do openResults() and selectResults() before using this command.
+\o         Make sure your openResults() and selectResults() commands worked. Use ocnHelp('openResults)
+\o         and ocnHelp('selectResults) for more information.
+\e *Error* ("quotient" 0 t nil ("*Error* quotient: Attempted to divide by zero" (0.0 0.0)))
+\e 
+\e 
+\o ERROR (ADE-2708): Evaluation of output '%THD v /OUT; pss (V)' failed for point:'40' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'_drplPssHarmThd(vh('pss "/OUT") 1)'
+\o 	because of the following error(s)
+\o 	*Error* quotient: Attempted to divide by zero.
+\o Ensure that the definition of output is correct.
+\o 
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/040/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/040/. Use results() for a list of available results.
+\e *Error* 
+\e  Error in locating poles-zeros. Ensure that poles and zeros exist in this simualtion data.
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'Zeros' returned 'nil' for point:'40' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'pzFrequencyAndRealFilter(getData("zeros" ?result "pz"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/040/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/040/. Use results() for a list of available results.
+\e *Error* 
+\e  Error in locating poles-zeros. Ensure that poles and zeros exist in this simualtion data.
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'Poles' returned 'nil' for point:'40' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'pzFrequencyAndRealFilter(getData("poles" ?result "pz"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'i /R3/PLUS; pss dB20(I)' returned 'nil' for point:'40' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'db(ih('pss "/R3/PLUS"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (54 40) on testbench [
+\o           AC_NOISE_PZ_TRANS_PSRR_MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/041/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/041/. Use results() for a list of available results.
+\o ERROR (ADE-2709): Evaluation of output 'input noise; A / sqrt(Hz)' returned 'nil' for point:'41' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'getData("in" ?result "noise")'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* xval: can't handle xval(nil)
+\e 
+\e 
+\o WARNING (OCN-6041): You must do openResults() and selectResults() before using this command.
+\o         Make sure your openResults() and selectResults() commands worked. Use ocnHelp('openResults)
+\o         and ocnHelp('selectResults) for more information.
+\e *Error* ("quotient" 0 t nil ("*Error* quotient: Attempted to divide by zero" (0.0 0.0)))
+\e 
+\e 
+\o ERROR (ADE-2708): Evaluation of output '%THD v /OUT; pss (V)' failed for point:'41' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'_drplPssHarmThd(vh('pss "/OUT") 1)'
+\o 	because of the following error(s)
+\o 	*Error* quotient: Attempted to divide by zero.
+\o Ensure that the definition of output is correct.
+\o 
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/041/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/041/. Use results() for a list of available results.
+\e *Error* 
+\e  Error in locating poles-zeros. Ensure that poles and zeros exist in this simualtion data.
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'Zeros' returned 'nil' for point:'41' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'pzFrequencyAndRealFilter(getData("zeros" ?result "pz"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/041/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/041/. Use results() for a list of available results.
+\e *Error* 
+\e  Error in locating poles-zeros. Ensure that poles and zeros exist in this simualtion data.
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'Poles' returned 'nil' for point:'41' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'pzFrequencyAndRealFilter(getData("poles" ?result "pz"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'i /R3/PLUS; pss dB20(I)' returned 'nil' for point:'41' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'db(ih('pss "/R3/PLUS"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (54 41) on testbench [
+\o           AC_NOISE_PZ_TRANS_PSRR_MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/042/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/042/. Use results() for a list of available results.
+\o ERROR (ADE-2709): Evaluation of output 'input noise; A / sqrt(Hz)' returned 'nil' for point:'42' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'getData("in" ?result "noise")'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* xval: can't handle xval(nil)
+\e 
+\e 
+\o WARNING (OCN-6041): You must do openResults() and selectResults() before using this command.
+\o         Make sure your openResults() and selectResults() commands worked. Use ocnHelp('openResults)
+\o         and ocnHelp('selectResults) for more information.
+\e *Error* ("quotient" 0 t nil ("*Error* quotient: Attempted to divide by zero" (0.0 0.0)))
+\e 
+\e 
+\o ERROR (ADE-2708): Evaluation of output '%THD v /OUT; pss (V)' failed for point:'42' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'_drplPssHarmThd(vh('pss "/OUT") 1)'
+\o 	because of the following error(s)
+\o 	*Error* quotient: Attempted to divide by zero.
+\o Ensure that the definition of output is correct.
+\o 
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/042/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/042/. Use results() for a list of available results.
+\e *Error* 
+\e  Error in locating poles-zeros. Ensure that poles and zeros exist in this simualtion data.
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'Zeros' returned 'nil' for point:'42' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'pzFrequencyAndRealFilter(getData("zeros" ?result "pz"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/042/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/042/. Use results() for a list of available results.
+\e *Error* 
+\e  Error in locating poles-zeros. Ensure that poles and zeros exist in this simualtion data.
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'Poles' returned 'nil' for point:'42' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'pzFrequencyAndRealFilter(getData("poles" ?result "pz"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'i /R3/PLUS; pss dB20(I)' returned 'nil' for point:'42' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'db(ih('pss "/R3/PLUS"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (54 42) on testbench [
+\o           AC_NOISE_PZ_TRANS_PSRR_MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/043/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/043/. Use results() for a list of available results.
+\o ERROR (ADE-2709): Evaluation of output 'input noise; A / sqrt(Hz)' returned 'nil' for point:'43' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'getData("in" ?result "noise")'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* xval: can't handle xval(nil)
+\e 
+\e 
+\o WARNING (OCN-6041): You must do openResults() and selectResults() before using this command.
+\o         Make sure your openResults() and selectResults() commands worked. Use ocnHelp('openResults)
+\o         and ocnHelp('selectResults) for more information.
+\e *Error* ("quotient" 0 t nil ("*Error* quotient: Attempted to divide by zero" (0.0 0.0)))
+\e 
+\e 
+\o ERROR (ADE-2708): Evaluation of output '%THD v /OUT; pss (V)' failed for point:'43' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'_drplPssHarmThd(vh('pss "/OUT") 1)'
+\o 	because of the following error(s)
+\o 	*Error* quotient: Attempted to divide by zero.
+\o Ensure that the definition of output is correct.
+\o 
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/043/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/043/. Use results() for a list of available results.
+\e *Error* 
+\e  Error in locating poles-zeros. Ensure that poles and zeros exist in this simualtion data.
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'Zeros' returned 'nil' for point:'43' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'pzFrequencyAndRealFilter(getData("zeros" ?result "pz"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/043/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/043/. Use results() for a list of available results.
+\e *Error* 
+\e  Error in locating poles-zeros. Ensure that poles and zeros exist in this simualtion data.
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'Poles' returned 'nil' for point:'43' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'pzFrequencyAndRealFilter(getData("poles" ?result "pz"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'i /R3/PLUS; pss dB20(I)' returned 'nil' for point:'43' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'db(ih('pss "/R3/PLUS"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (54 43) on testbench [
+\o           AC_NOISE_PZ_TRANS_PSRR_MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/044/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/044/. Use results() for a list of available results.
+\o ERROR (ADE-2709): Evaluation of output 'input noise; A / sqrt(Hz)' returned 'nil' for point:'44' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'getData("in" ?result "noise")'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* xval: can't handle xval(nil)
+\e 
+\e 
+\o WARNING (OCN-6041): You must do openResults() and selectResults() before using this command.
+\o         Make sure your openResults() and selectResults() commands worked. Use ocnHelp('openResults)
+\o         and ocnHelp('selectResults) for more information.
+\e *Error* ("quotient" 0 t nil ("*Error* quotient: Attempted to divide by zero" (0.0 0.0)))
+\e 
+\e 
+\o ERROR (ADE-2708): Evaluation of output '%THD v /OUT; pss (V)' failed for point:'44' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'_drplPssHarmThd(vh('pss "/OUT") 1)'
+\o 	because of the following error(s)
+\o 	*Error* quotient: Attempted to divide by zero.
+\o Ensure that the definition of output is correct.
+\o 
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/044/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/044/. Use results() for a list of available results.
+\e *Error* 
+\e  Error in locating poles-zeros. Ensure that poles and zeros exist in this simualtion data.
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'Zeros' returned 'nil' for point:'44' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'pzFrequencyAndRealFilter(getData("zeros" ?result "pz"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/044/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/044/. Use results() for a list of available results.
+\e *Error* 
+\e  Error in locating poles-zeros. Ensure that poles and zeros exist in this simualtion data.
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'Poles' returned 'nil' for point:'44' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'pzFrequencyAndRealFilter(getData("poles" ?result "pz"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'i /R3/PLUS; pss dB20(I)' returned 'nil' for point:'44' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'db(ih('pss "/R3/PLUS"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (54 44) on testbench [
+\o           AC_NOISE_PZ_TRANS_PSRR_MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/045/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/045/. Use results() for a list of available results.
+\o ERROR (ADE-2709): Evaluation of output 'input noise; A / sqrt(Hz)' returned 'nil' for point:'45' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'getData("in" ?result "noise")'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* xval: can't handle xval(nil)
+\e 
+\e 
+\o WARNING (OCN-6041): You must do openResults() and selectResults() before using this command.
+\o         Make sure your openResults() and selectResults() commands worked. Use ocnHelp('openResults)
+\o         and ocnHelp('selectResults) for more information.
+\e *Error* ("quotient" 0 t nil ("*Error* quotient: Attempted to divide by zero" (0.0 0.0)))
+\e 
+\e 
+\o ERROR (ADE-2708): Evaluation of output '%THD v /OUT; pss (V)' failed for point:'45' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'_drplPssHarmThd(vh('pss "/OUT") 1)'
+\o 	because of the following error(s)
+\o 	*Error* quotient: Attempted to divide by zero.
+\o Ensure that the definition of output is correct.
+\o 
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/045/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/045/. Use results() for a list of available results.
+\e *Error* 
+\e  Error in locating poles-zeros. Ensure that poles and zeros exist in this simualtion data.
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'Zeros' returned 'nil' for point:'45' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'pzFrequencyAndRealFilter(getData("zeros" ?result "pz"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/045/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/045/. Use results() for a list of available results.
+\e *Error* 
+\e  Error in locating poles-zeros. Ensure that poles and zeros exist in this simualtion data.
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'Poles' returned 'nil' for point:'45' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'pzFrequencyAndRealFilter(getData("poles" ?result "pz"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'i /R3/PLUS; pss dB20(I)' returned 'nil' for point:'45' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'db(ih('pss "/R3/PLUS"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (54 45) on testbench [
+\o           AC_NOISE_PZ_TRANS_PSRR_MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/046/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/046/. Use results() for a list of available results.
+\o ERROR (ADE-2709): Evaluation of output 'input noise; A / sqrt(Hz)' returned 'nil' for point:'46' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'getData("in" ?result "noise")'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* xval: can't handle xval(nil)
+\e 
+\e 
+\o WARNING (OCN-6041): You must do openResults() and selectResults() before using this command.
+\o         Make sure your openResults() and selectResults() commands worked. Use ocnHelp('openResults)
+\o         and ocnHelp('selectResults) for more information.
+\e *Error* ("quotient" 0 t nil ("*Error* quotient: Attempted to divide by zero" (0.0 0.0)))
+\e 
+\e 
+\o ERROR (ADE-2708): Evaluation of output '%THD v /OUT; pss (V)' failed for point:'46' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'_drplPssHarmThd(vh('pss "/OUT") 1)'
+\o 	because of the following error(s)
+\o 	*Error* quotient: Attempted to divide by zero.
+\o Ensure that the definition of output is correct.
+\o 
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/046/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/046/. Use results() for a list of available results.
+\e *Error* 
+\e  Error in locating poles-zeros. Ensure that poles and zeros exist in this simualtion data.
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'Zeros' returned 'nil' for point:'46' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'pzFrequencyAndRealFilter(getData("zeros" ?result "pz"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/046/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/046/. Use results() for a list of available results.
+\e *Error* 
+\e  Error in locating poles-zeros. Ensure that poles and zeros exist in this simualtion data.
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'Poles' returned 'nil' for point:'46' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'pzFrequencyAndRealFilter(getData("poles" ?result "pz"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'i /R3/PLUS; pss dB20(I)' returned 'nil' for point:'46' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'db(ih('pss "/R3/PLUS"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (54 46) on testbench [
+\o           AC_NOISE_PZ_TRANS_PSRR_MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/047/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/047/. Use results() for a list of available results.
+\o ERROR (ADE-2709): Evaluation of output 'input noise; A / sqrt(Hz)' returned 'nil' for point:'47' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'getData("in" ?result "noise")'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* xval: can't handle xval(nil)
+\e 
+\e 
+\o WARNING (OCN-6041): You must do openResults() and selectResults() before using this command.
+\o         Make sure your openResults() and selectResults() commands worked. Use ocnHelp('openResults)
+\o         and ocnHelp('selectResults) for more information.
+\e *Error* ("quotient" 0 t nil ("*Error* quotient: Attempted to divide by zero" (0.0 0.0)))
+\e 
+\e 
+\o ERROR (ADE-2708): Evaluation of output '%THD v /OUT; pss (V)' failed for point:'47' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'_drplPssHarmThd(vh('pss "/OUT") 1)'
+\o 	because of the following error(s)
+\o 	*Error* quotient: Attempted to divide by zero.
+\o Ensure that the definition of output is correct.
+\o 
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/047/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/047/. Use results() for a list of available results.
+\e *Error* 
+\e  Error in locating poles-zeros. Ensure that poles and zeros exist in this simualtion data.
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'Zeros' returned 'nil' for point:'47' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'pzFrequencyAndRealFilter(getData("zeros" ?result "pz"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/047/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/047/. Use results() for a list of available results.
+\e *Error* 
+\e  Error in locating poles-zeros. Ensure that poles and zeros exist in this simualtion data.
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'Poles' returned 'nil' for point:'47' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'pzFrequencyAndRealFilter(getData("poles" ?result "pz"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'i /R3/PLUS; pss dB20(I)' returned 'nil' for point:'47' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'db(ih('pss "/R3/PLUS"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (54 47) on testbench [
+\o           AC_NOISE_PZ_TRANS_PSRR_MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/048/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/048/. Use results() for a list of available results.
+\o ERROR (ADE-2709): Evaluation of output 'input noise; A / sqrt(Hz)' returned 'nil' for point:'48' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'getData("in" ?result "noise")'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* xval: can't handle xval(nil)
+\e 
+\e 
+\o WARNING (OCN-6041): You must do openResults() and selectResults() before using this command.
+\o         Make sure your openResults() and selectResults() commands worked. Use ocnHelp('openResults)
+\o         and ocnHelp('selectResults) for more information.
+\e *Error* ("quotient" 0 t nil ("*Error* quotient: Attempted to divide by zero" (0.0 0.0)))
+\e 
+\e 
+\o ERROR (ADE-2708): Evaluation of output '%THD v /OUT; pss (V)' failed for point:'48' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'_drplPssHarmThd(vh('pss "/OUT") 1)'
+\o 	because of the following error(s)
+\o 	*Error* quotient: Attempted to divide by zero.
+\o Ensure that the definition of output is correct.
+\o 
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/048/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/048/. Use results() for a list of available results.
+\e *Error* 
+\e  Error in locating poles-zeros. Ensure that poles and zeros exist in this simualtion data.
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'Zeros' returned 'nil' for point:'48' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'pzFrequencyAndRealFilter(getData("zeros" ?result "pz"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/048/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/048/. Use results() for a list of available results.
+\e *Error* 
+\e  Error in locating poles-zeros. Ensure that poles and zeros exist in this simualtion data.
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'Poles' returned 'nil' for point:'48' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'pzFrequencyAndRealFilter(getData("poles" ?result "pz"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'i /R3/PLUS; pss dB20(I)' returned 'nil' for point:'48' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'db(ih('pss "/R3/PLUS"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (54 48) on testbench [
+\o           AC_NOISE_PZ_TRANS_PSRR_MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/049/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/049/. Use results() for a list of available results.
+\o ERROR (ADE-2709): Evaluation of output 'input noise; A / sqrt(Hz)' returned 'nil' for point:'49' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'getData("in" ?result "noise")'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* xval: can't handle xval(nil)
+\e 
+\e 
+\o WARNING (OCN-6041): You must do openResults() and selectResults() before using this command.
+\o         Make sure your openResults() and selectResults() commands worked. Use ocnHelp('openResults)
+\o         and ocnHelp('selectResults) for more information.
+\e *Error* ("quotient" 0 t nil ("*Error* quotient: Attempted to divide by zero" (0.0 0.0)))
+\e 
+\e 
+\o ERROR (ADE-2708): Evaluation of output '%THD v /OUT; pss (V)' failed for point:'49' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'_drplPssHarmThd(vh('pss "/OUT") 1)'
+\o 	because of the following error(s)
+\o 	*Error* quotient: Attempted to divide by zero.
+\o Ensure that the definition of output is correct.
+\o 
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/049/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/049/. Use results() for a list of available results.
+\e *Error* 
+\e  Error in locating poles-zeros. Ensure that poles and zeros exist in this simualtion data.
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'Zeros' returned 'nil' for point:'49' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'pzFrequencyAndRealFilter(getData("zeros" ?result "pz"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/049/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/049/. Use results() for a list of available results.
+\e *Error* 
+\e  Error in locating poles-zeros. Ensure that poles and zeros exist in this simualtion data.
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'Poles' returned 'nil' for point:'49' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'pzFrequencyAndRealFilter(getData("poles" ?result "pz"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'i /R3/PLUS; pss dB20(I)' returned 'nil' for point:'49' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'db(ih('pss "/R3/PLUS"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (54 49) on testbench [
+\o           AC_NOISE_PZ_TRANS_PSRR_MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/050/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/050/. Use results() for a list of available results.
+\o ERROR (ADE-2709): Evaluation of output 'input noise; A / sqrt(Hz)' returned 'nil' for point:'50' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'getData("in" ?result "noise")'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* xval: can't handle xval(nil)
+\e 
+\e 
+\o WARNING (OCN-6041): You must do openResults() and selectResults() before using this command.
+\o         Make sure your openResults() and selectResults() commands worked. Use ocnHelp('openResults)
+\o         and ocnHelp('selectResults) for more information.
+\e *Error* ("quotient" 0 t nil ("*Error* quotient: Attempted to divide by zero" (0.0 0.0)))
+\e 
+\e 
+\o ERROR (ADE-2708): Evaluation of output '%THD v /OUT; pss (V)' failed for point:'50' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'_drplPssHarmThd(vh('pss "/OUT") 1)'
+\o 	because of the following error(s)
+\o 	*Error* quotient: Attempted to divide by zero.
+\o Ensure that the definition of output is correct.
+\o 
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/050/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/050/. Use results() for a list of available results.
+\e *Error* 
+\e  Error in locating poles-zeros. Ensure that poles and zeros exist in this simualtion data.
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'Zeros' returned 'nil' for point:'50' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'pzFrequencyAndRealFilter(getData("zeros" ?result "pz"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/050/. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/MonteCarlo.2/26/AC_NOISE_PZ_TRANS_PSRR_MC/groupRunDataDir/psf/mc1_separate/050/. Use results() for a list of available results.
+\e *Error* 
+\e  Error in locating poles-zeros. Ensure that poles and zeros exist in this simualtion data.
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'Poles' returned 'nil' for point:'50' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'pzFrequencyAndRealFilter(getData("poles" ?result "pz"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'i /R3/PLUS; pss dB20(I)' returned 'nil' for point:'50' test:'AC_NOISE_PZ_TRANS_PSRR_MC'
+\o 	Expression:'db(ih('pss "/R3/PLUS"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (54 50) on testbench [
+\o           AC_NOISE_PZ_TRANS_PSRR_MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Monte Carlo Simulation completed successfully...
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
 \# Lic Summary:
-\# [11:06:23.035914] Cdslmd servers:3000@lic08.ug.kth.se
-\# [11:06:23.035939] Feature usage summary:
-\# Memory report: on exit            681 MB, process size 2,464 MB at UTC 2025.03.03 10:06:23.036
-\# Memory report: peak usage         681 MB, process size 2,464 MB
+\# [18:51:54.404888] Cdslmd servers:3000@lic08.ug.kth.se
+\# [18:51:54.404914] Feature usage summary:
+\# Memory report: on exit            773 MB, process size 2,556 MB at UTC 2025.04.26 16:51:54.405
+\# Memory report: peak usage         773 MB, process size 2,556 MB

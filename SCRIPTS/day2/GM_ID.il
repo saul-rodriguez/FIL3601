@@ -80,6 +80,7 @@ ocnxlOpenResults()
 ocnxlEndXLMode()
 
 gm = pv("M0.m1" "gm" ?result "dcOpInfo")
+gds = pv("M0.m1" "gds" ?result "dcOpInfo")
 ids = pv("M0.m1" "ids" ?result "dcOpInfo")
 cgs = mag(pv("M0.m1" "cgs" ?result "dcOpInfo"))
 cgd = mag(pv("M0.m1" "cgd" ?result "dcOpInfo"))
@@ -87,11 +88,14 @@ cgb = mag(pv("M0.m1" "cgb" ?result "dcOpInfo"))
 
 gm_id = gm/ids
 ft = (gm/(cgs + cgd + cgb))/(2*3.141592)
+rds = 1/gds
+av = gm*rds
 
 newWindow
 plot( gm_id ?expr '( "gm_id" ) )
 plot( ft ?expr '( "ft" ) )
 plot( gm ?expr '( "gm" ) )
+plot( av ?expr '( "av" ) )
 
 
 

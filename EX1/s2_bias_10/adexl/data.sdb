@@ -1,0 +1,3952 @@
+<?xml version="1.0"?>
+<setupdb version="6">data
+	<active>Active Setup
+		<corners>
+			<corner enabled="1">_default</corner>
+			<corner enabled="0">PT
+				<vars>
+					<var>temperature
+						<value>-20 85</value>
+					</var>
+				</vars>
+				<models>
+					<model enabled="1">config.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/config.scs</modelfile>
+						<modelsection>"default"</modelsection>
+					</model>
+					<model enabled="1">param.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/param.scs</modelfile>
+						<modelsection>"3s"</modelsection>
+					</model>
+					<model enabled="1">bip.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/bip.scs</modelfile>
+						<modelsection>"tm"</modelsection>
+					</model>
+					<model enabled="1">cap.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/cap.scs</modelfile>
+						<modelsection>"wp" "ws"</modelsection>
+					</model>
+					<model enabled="1">dio.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/dio.scs</modelfile>
+						<modelsection>"tm"</modelsection>
+					</model>
+					<model enabled="1">mos.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/mos.scs</modelfile>
+						<modelsection>"wp" "ws" "wo" "wz"</modelsection>
+					</model>
+					<model enabled="1">photo.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/photo.scs</modelfile>
+						<modelsection>"tm"</modelsection>
+					</model>
+					<model enabled="1">res.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/res.scs</modelfile>
+						<modelsection>"wp" "ws"</modelsection>
+					</model>
+					<model enabled="0">xh018.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/xh018.scs</modelfile>
+						<modelsection>"mc_g"</modelsection>
+					</model>
+				</models>
+			</corner>
+			<corner enabled="0">PVT
+				<vars>
+					<var>temperature
+						<value>-20 85</value>
+					</var>
+					<var>VDD
+						<value>1.62 1.98</value>
+					</var>
+				</vars>
+				<models>
+					<model enabled="1">config.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/config.scs</modelfile>
+						<modelsection>"default"</modelsection>
+					</model>
+					<model enabled="1">param.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/param.scs</modelfile>
+						<modelsection>"3s"</modelsection>
+					</model>
+					<model enabled="1">bip.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/bip.scs</modelfile>
+						<modelsection>"tm"</modelsection>
+					</model>
+					<model enabled="1">cap.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/cap.scs</modelfile>
+						<modelsection>"wp" "ws"</modelsection>
+					</model>
+					<model enabled="1">dio.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/dio.scs</modelfile>
+						<modelsection>"tm"</modelsection>
+					</model>
+					<model enabled="1">mos.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/mos.scs</modelfile>
+						<modelsection>"wp" "ws" "wo" "wz"</modelsection>
+					</model>
+					<model enabled="1">photo.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/photo.scs</modelfile>
+						<modelsection>"tm"</modelsection>
+					</model>
+					<model enabled="1">res.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/res.scs</modelfile>
+						<modelsection>"wp" "ws"</modelsection>
+					</model>
+					<model enabled="0">xh018.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/xh018.scs</modelfile>
+						<modelsection>"mc_g"</modelsection>
+					</model>
+				</models>
+			</corner>
+		</corners>
+		<extensions>
+			<extension>Parasitics
+				<callback>_parSetupDBExtensionCB</callback>
+				<iconvalue></iconvalue>
+				<icontype></icontype>
+			</extension>
+		</extensions>
+		<currentmode>Single Run, Sweeps and Corners</currentmode>
+		<overwritehistory>0</overwritehistory>
+		<tests>
+			<test enabled="1">CORNER
+				<tool>ADE</tool>
+				<tooloptions>
+					<option>cell
+						<value>s2_bias_10</value>
+					</option>
+					<option>lib
+						<value>EX1</value>
+					</option>
+					<option>sim
+						<value>spectre</value>
+					</option>
+					<option>view
+						<value>schematic</value>
+					</option>
+					<option>path
+						<value>$AXL_SETUPDB_DIR/test_states</value>
+					</option>
+					<option>state
+						<value>CORNER_active</value>
+					</option>
+				</tooloptions>
+				<origoptions>
+					<option>cell
+						<value>s2_bias_10</value>
+					</option>
+					<option>lib
+						<value>EX1</value>
+					</option>
+					<option>sim
+						<value>spectre</value>
+					</option>
+					<option>view
+						<value>schematic</value>
+					</option>
+					<option>path
+						<value>$AXL_SETUPDB_DIR/test_states</value>
+					</option>
+					<option>state
+						<value>spectre_state1</value>
+					</option>
+				</origoptions>
+			</test>
+			<test enabled="1">MC
+				<tool>ADE</tool>
+				<tooloptions>
+					<option>cell
+						<value>s2_bias_10</value>
+					</option>
+					<option>lib
+						<value>EX1</value>
+					</option>
+					<option>path
+						<value>$AXL_SETUPDB_DIR/test_states</value>
+					</option>
+					<option>sim
+						<value>spectre</value>
+					</option>
+					<option>state
+						<value>MC_active</value>
+					</option>
+					<option>view
+						<value>schematic</value>
+					</option>
+				</tooloptions>
+				<prerunscript>0</prerunscript>
+				<origoptions>
+					<option>cell
+						<value>s2_bias_10</value>
+					</option>
+					<option>lib
+						<value>EX1</value>
+					</option>
+					<option>path
+						<value>$AXL_SETUPDB_DIR/test_states</value>
+					</option>
+					<option>sim
+						<value>spectre</value>
+					</option>
+					<option>state
+						<value>EX1:s2_bias_10:1:1_state</value>
+					</option>
+					<option>view
+						<value>schematic</value>
+					</option>
+				</origoptions>
+				<outputs>
+					<output>Gain_dB
+						<evalType>point</evalType>
+					</output>
+				</outputs>
+			</test>
+		</tests>
+		<vars>
+			<var>IN_DC
+				<value>0</value>
+				<dependentTests>
+					<dependentTest enabled="1">MC</dependentTest>
+					<dependentTest enabled="1">CORNER</dependentTest>
+				</dependentTests>
+			</var>
+			<var>IN
+				<value>1</value>
+				<dependentTests>
+					<dependentTest enabled="1">MC</dependentTest>
+					<dependentTest enabled="1">CORNER</dependentTest>
+				</dependentTests>
+			</var>
+			<var>VDD
+				<value>1.8</value>
+				<dependentTests>
+					<dependentTest enabled="1">MC</dependentTest>
+					<dependentTest enabled="1">CORNER</dependentTest>
+				</dependentTests>
+			</var>
+		</vars>
+		<distributeoptions></distributeoptions>
+		<jobpolicyname>ADE XL Default</jobpolicyname>
+		<overwritehistoryname>Interactive.0</overwritehistoryname>
+		<plottingoptions>
+			<plottingoption>plottingmode
+				<value>Replace</value>
+			</plottingoption>
+			<plottingoption>plottype
+				<value>None</value>
+			</plottingoption>
+			<plottingoption>usewaveformtemplate
+				<value>no</value>
+			</plottingoption>
+			<plottingoption>useMaestroPlottingTemplate
+				<value>yes</value>
+			</plottingoption>
+			<plottingoption>waveformtemplate
+				<value></value>
+			</plottingoption>
+			<plottingoption>allplottingtemplates
+				<value></value>
+			</plottingoption>
+			<plottingoption>defaultplottingtemplate
+				<value></value>
+			</plottingoption>
+			<plottingoption>distributedplot_enabled
+				<value>no</value>
+			</plottingoption>
+		</plottingoptions>
+		<allcornersenabled>1</allcornersenabled>
+		<runoptions>
+			<mode>Monte Carlo Sampling
+				<runoption>mcmethod
+					<value>all</value>
+				</runoption>
+				<runoption>mcnumpoints
+					<value>200</value>
+				</runoption>
+				<runoption>mcnumbins
+					<value></value>
+				</runoption>
+				<runoption>mcStopEarly
+					<value>0</value>
+				</runoption>
+				<runoption>mcStopMethod
+					<value>Significance Test</value>
+				</runoption>
+				<runoption>samplingmode
+					<value>lds</value>
+				</runoption>
+				<runoption>saveprocess
+					<value>0</value>
+				</runoption>
+				<runoption>savemismatch
+					<value>0</value>
+				</runoption>
+				<runoption>parasiticanalysis
+					<value>0</value>
+				</runoption>
+				<runoption>mcreferencepoint
+					<value>0</value>
+				</runoption>
+				<runoption>donominal
+					<value>0</value>
+				</runoption>
+				<runoption>saveallplots
+					<value>1</value>
+				</runoption>
+				<runoption>montecarloseed
+					<value></value>
+				</runoption>
+				<runoption>mcstartingrunnumber
+					<value></value>
+				</runoption>
+				<runoption>dumpParamMode
+					<value>no</value>
+				</runoption>
+			</mode>
+		</runoptions>
+		<disabledtests>
+			<test>MC</test>
+		</disabledtests>
+	</active>
+	<history>History
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">MonteCarlo.6
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+					<corner enabled="0">PT
+						<vars>
+							<var>temperature
+								<value>-20 85</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">config.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/config.scs</modelfile>
+								<modelsection>"default"</modelsection>
+							</model>
+							<model enabled="1">param.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/param.scs</modelfile>
+								<modelsection>"3s"</modelsection>
+							</model>
+							<model enabled="1">bip.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/bip.scs</modelfile>
+								<modelsection>"tm"</modelsection>
+							</model>
+							<model enabled="1">cap.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/cap.scs</modelfile>
+								<modelsection>"wp" "ws"</modelsection>
+							</model>
+							<model enabled="1">dio.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/dio.scs</modelfile>
+								<modelsection>"tm"</modelsection>
+							</model>
+							<model enabled="1">mos.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/mos.scs</modelfile>
+								<modelsection>"wp" "ws" "wo" "wz"</modelsection>
+							</model>
+							<model enabled="1">photo.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/photo.scs</modelfile>
+								<modelsection>"tm"</modelsection>
+							</model>
+							<model enabled="1">res.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/res.scs</modelfile>
+								<modelsection>"wp" "ws"</modelsection>
+							</model>
+							<model enabled="0">xh018.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/xh018.scs</modelfile>
+								<modelsection>"mc_g"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">PVT
+						<vars>
+							<var>temperature
+								<value>-20 85</value>
+							</var>
+							<var>VDD
+								<value>1.62 1.98</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">config.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/config.scs</modelfile>
+								<modelsection>"default"</modelsection>
+							</model>
+							<model enabled="1">param.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/param.scs</modelfile>
+								<modelsection>"3s"</modelsection>
+							</model>
+							<model enabled="1">bip.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/bip.scs</modelfile>
+								<modelsection>"tm"</modelsection>
+							</model>
+							<model enabled="1">cap.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/cap.scs</modelfile>
+								<modelsection>"wp" "ws"</modelsection>
+							</model>
+							<model enabled="1">dio.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/dio.scs</modelfile>
+								<modelsection>"tm"</modelsection>
+							</model>
+							<model enabled="1">mos.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/mos.scs</modelfile>
+								<modelsection>"wp" "ws" "wo" "wz"</modelsection>
+							</model>
+							<model enabled="1">photo.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/photo.scs</modelfile>
+								<modelsection>"tm"</modelsection>
+							</model>
+							<model enabled="1">res.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/res.scs</modelfile>
+								<modelsection>"wp" "ws"</modelsection>
+							</model>
+							<model enabled="0">xh018.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/xh018.scs</modelfile>
+								<modelsection>"mc_g"</modelsection>
+							</model>
+						</models>
+					</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Monte Carlo Sampling</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test enabled="1">CORNER
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>s2_bias_10</value>
+							</option>
+							<option>lib
+								<value>EX1</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>CORNER_spectre_state1_MonteCarlo.6</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>s2_bias_10</value>
+							</option>
+							<option>lib
+								<value>EX1</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>spectre_state1</value>
+							</option>
+						</origoptions>
+					</test>
+					<test enabled="1">MC
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>s2_bias_10</value>
+							</option>
+							<option>lib
+								<value>EX1</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>MC_EX1:s2_bias_10:1:1_state_MonteCarlo.6</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</tooloptions>
+						<prerunscript>0</prerunscript>
+						<origoptions>
+							<option>cell
+								<value>s2_bias_10</value>
+							</option>
+							<option>lib
+								<value>EX1</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>EX1:s2_bias_10:1:1_state</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var>IN_DC
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="1">MC</dependentTest>
+							<dependentTest enabled="1">CORNER</dependentTest>
+						</dependentTests>
+					</var>
+					<var>IN
+						<value>1</value>
+						<dependentTests>
+							<dependentTest enabled="1">MC</dependentTest>
+							<dependentTest enabled="1">CORNER</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VDD
+						<value>1.8</value>
+						<dependentTests>
+							<dependentTest enabled="1">MC</dependentTest>
+							<dependentTest enabled="1">CORNER</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<distributeoptions></distributeoptions>
+				<jobpolicyname>ADE XL Default</jobpolicyname>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottingmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>distributedplot_enabled
+						<value>no</value>
+					</plottingoption>
+				</plottingoptions>
+				<allcornersenabled>1</allcornersenabled>
+				<runoptions>
+					<mode>Monte Carlo Sampling
+						<runoption>mcmethod
+							<value>all</value>
+						</runoption>
+						<runoption>mcnumpoints
+							<value>20</value>
+						</runoption>
+						<runoption>mcnumbins
+							<value></value>
+						</runoption>
+						<runoption>mcStopEarly
+							<value>0</value>
+						</runoption>
+						<runoption>mcStopMethod
+							<value>Significance Test</value>
+						</runoption>
+						<runoption>samplingmode
+							<value>lds</value>
+						</runoption>
+						<runoption>saveprocess
+							<value>0</value>
+						</runoption>
+						<runoption>savemismatch
+							<value>0</value>
+						</runoption>
+						<runoption>parasiticanalysis
+							<value>0</value>
+						</runoption>
+						<runoption>mcreferencepoint
+							<value>0</value>
+						</runoption>
+						<runoption>donominal
+							<value>0</value>
+						</runoption>
+						<runoption>saveallplots
+							<value>0</value>
+						</runoption>
+						<runoption>montecarloseed
+							<value></value>
+						</runoption>
+						<runoption>mcstartingrunnumber
+							<value></value>
+						</runoption>
+						<runoption>dumpParamMode
+							<value>no</value>
+						</runoption>
+					</mode>
+				</runoptions>
+				<disabledtests>
+					<test>CORNER</test>
+				</disabledtests>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Apr 20 03:08:52 2025</timestamp>
+			<uuid>{c2fed0cc-266c-4fd3-80c1-5a926b634cc5}</uuid>
+			<resultsname>/home/saul/projects/FIL3601/EX1/s2_bias_10/adexl/results/data/MonteCarlo.6.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/MonteCarlo.6.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/s2424_saul_030852993</localpsfdir>
+			<psfdir>/home/saul/projects/FIL3601/Sim/EX1/s2_bias_10/adexl/results/data/MonteCarlo.6</psfdir>
+			<simdir>$AXL_PROJECT_DIR/EX1/s2_bias_10/adexl/results/data/MonteCarlo.6</simdir>
+			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
+			<runlog>/home/saul/projects/FIL3601/EX1/s2_bias_10/adexl/results/data/MonteCarlo.6.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/MonteCarlo.6.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">MonteCarlo.7
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+					<corner enabled="0">PT
+						<vars>
+							<var>temperature
+								<value>-20 85</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">config.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/config.scs</modelfile>
+								<modelsection>"default"</modelsection>
+							</model>
+							<model enabled="1">param.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/param.scs</modelfile>
+								<modelsection>"3s"</modelsection>
+							</model>
+							<model enabled="1">bip.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/bip.scs</modelfile>
+								<modelsection>"tm"</modelsection>
+							</model>
+							<model enabled="1">cap.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/cap.scs</modelfile>
+								<modelsection>"wp" "ws"</modelsection>
+							</model>
+							<model enabled="1">dio.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/dio.scs</modelfile>
+								<modelsection>"tm"</modelsection>
+							</model>
+							<model enabled="1">mos.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/mos.scs</modelfile>
+								<modelsection>"wp" "ws" "wo" "wz"</modelsection>
+							</model>
+							<model enabled="1">photo.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/photo.scs</modelfile>
+								<modelsection>"tm"</modelsection>
+							</model>
+							<model enabled="1">res.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/res.scs</modelfile>
+								<modelsection>"wp" "ws"</modelsection>
+							</model>
+							<model enabled="0">xh018.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/xh018.scs</modelfile>
+								<modelsection>"mc_g"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">PVT
+						<vars>
+							<var>temperature
+								<value>-20 85</value>
+							</var>
+							<var>VDD
+								<value>1.62 1.98</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">config.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/config.scs</modelfile>
+								<modelsection>"default"</modelsection>
+							</model>
+							<model enabled="1">param.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/param.scs</modelfile>
+								<modelsection>"3s"</modelsection>
+							</model>
+							<model enabled="1">bip.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/bip.scs</modelfile>
+								<modelsection>"tm"</modelsection>
+							</model>
+							<model enabled="1">cap.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/cap.scs</modelfile>
+								<modelsection>"wp" "ws"</modelsection>
+							</model>
+							<model enabled="1">dio.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/dio.scs</modelfile>
+								<modelsection>"tm"</modelsection>
+							</model>
+							<model enabled="1">mos.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/mos.scs</modelfile>
+								<modelsection>"wp" "ws" "wo" "wz"</modelsection>
+							</model>
+							<model enabled="1">photo.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/photo.scs</modelfile>
+								<modelsection>"tm"</modelsection>
+							</model>
+							<model enabled="1">res.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/res.scs</modelfile>
+								<modelsection>"wp" "ws"</modelsection>
+							</model>
+							<model enabled="0">xh018.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/xh018.scs</modelfile>
+								<modelsection>"mc_g"</modelsection>
+							</model>
+						</models>
+					</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Monte Carlo Sampling</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test enabled="1">CORNER
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>s2_bias_10</value>
+							</option>
+							<option>lib
+								<value>EX1</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>CORNER_spectre_state1_MonteCarlo.7</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>s2_bias_10</value>
+							</option>
+							<option>lib
+								<value>EX1</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>spectre_state1</value>
+							</option>
+						</origoptions>
+					</test>
+					<test enabled="1">MC
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>s2_bias_10</value>
+							</option>
+							<option>lib
+								<value>EX1</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>MC_EX1:s2_bias_10:1:1_state_MonteCarlo.7</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</tooloptions>
+						<prerunscript>0</prerunscript>
+						<origoptions>
+							<option>cell
+								<value>s2_bias_10</value>
+							</option>
+							<option>lib
+								<value>EX1</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>EX1:s2_bias_10:1:1_state</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var>IN_DC
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="1">MC</dependentTest>
+							<dependentTest enabled="1">CORNER</dependentTest>
+						</dependentTests>
+					</var>
+					<var>IN
+						<value>1</value>
+						<dependentTests>
+							<dependentTest enabled="1">MC</dependentTest>
+							<dependentTest enabled="1">CORNER</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VDD
+						<value>1.8</value>
+						<dependentTests>
+							<dependentTest enabled="1">MC</dependentTest>
+							<dependentTest enabled="1">CORNER</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<distributeoptions></distributeoptions>
+				<jobpolicyname>ADE XL Default</jobpolicyname>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottingmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>distributedplot_enabled
+						<value>no</value>
+					</plottingoption>
+				</plottingoptions>
+				<allcornersenabled>1</allcornersenabled>
+				<runoptions>
+					<mode>Monte Carlo Sampling
+						<runoption>mcmethod
+							<value>all</value>
+						</runoption>
+						<runoption>mcnumpoints
+							<value>20</value>
+						</runoption>
+						<runoption>mcnumbins
+							<value></value>
+						</runoption>
+						<runoption>mcStopEarly
+							<value>0</value>
+						</runoption>
+						<runoption>mcStopMethod
+							<value>Significance Test</value>
+						</runoption>
+						<runoption>samplingmode
+							<value>lds</value>
+						</runoption>
+						<runoption>saveprocess
+							<value>0</value>
+						</runoption>
+						<runoption>savemismatch
+							<value>0</value>
+						</runoption>
+						<runoption>parasiticanalysis
+							<value>0</value>
+						</runoption>
+						<runoption>mcreferencepoint
+							<value>0</value>
+						</runoption>
+						<runoption>donominal
+							<value>0</value>
+						</runoption>
+						<runoption>saveallplots
+							<value>1</value>
+						</runoption>
+						<runoption>montecarloseed
+							<value></value>
+						</runoption>
+						<runoption>mcstartingrunnumber
+							<value></value>
+						</runoption>
+						<runoption>dumpParamMode
+							<value>no</value>
+						</runoption>
+					</mode>
+				</runoptions>
+				<disabledtests>
+					<test>CORNER</test>
+				</disabledtests>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Apr 20 03:09:13 2025</timestamp>
+			<uuid>{6021e07c-3a62-4b19-be31-d82a1912873e}</uuid>
+			<resultsname>/home/saul/projects/FIL3601/EX1/s2_bias_10/adexl/results/data/MonteCarlo.7.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/MonteCarlo.7.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/s2424_saul_030913545</localpsfdir>
+			<psfdir>/home/saul/projects/FIL3601/Sim/EX1/s2_bias_10/adexl/results/data/MonteCarlo.7</psfdir>
+			<simdir>$AXL_PROJECT_DIR/EX1/s2_bias_10/adexl/results/data/MonteCarlo.7</simdir>
+			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
+			<runlog>/home/saul/projects/FIL3601/EX1/s2_bias_10/adexl/results/data/MonteCarlo.7.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/MonteCarlo.7.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">MonteCarlo.8
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+					<corner enabled="0">PT
+						<vars>
+							<var>temperature
+								<value>-20 85</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">config.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/config.scs</modelfile>
+								<modelsection>"default"</modelsection>
+							</model>
+							<model enabled="1">param.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/param.scs</modelfile>
+								<modelsection>"3s"</modelsection>
+							</model>
+							<model enabled="1">bip.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/bip.scs</modelfile>
+								<modelsection>"tm"</modelsection>
+							</model>
+							<model enabled="1">cap.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/cap.scs</modelfile>
+								<modelsection>"wp" "ws"</modelsection>
+							</model>
+							<model enabled="1">dio.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/dio.scs</modelfile>
+								<modelsection>"tm"</modelsection>
+							</model>
+							<model enabled="1">mos.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/mos.scs</modelfile>
+								<modelsection>"wp" "ws" "wo" "wz"</modelsection>
+							</model>
+							<model enabled="1">photo.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/photo.scs</modelfile>
+								<modelsection>"tm"</modelsection>
+							</model>
+							<model enabled="1">res.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/res.scs</modelfile>
+								<modelsection>"wp" "ws"</modelsection>
+							</model>
+							<model enabled="0">xh018.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/xh018.scs</modelfile>
+								<modelsection>"mc_g"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">PVT
+						<vars>
+							<var>temperature
+								<value>-20 85</value>
+							</var>
+							<var>VDD
+								<value>1.62 1.98</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">config.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/config.scs</modelfile>
+								<modelsection>"default"</modelsection>
+							</model>
+							<model enabled="1">param.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/param.scs</modelfile>
+								<modelsection>"3s"</modelsection>
+							</model>
+							<model enabled="1">bip.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/bip.scs</modelfile>
+								<modelsection>"tm"</modelsection>
+							</model>
+							<model enabled="1">cap.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/cap.scs</modelfile>
+								<modelsection>"wp" "ws"</modelsection>
+							</model>
+							<model enabled="1">dio.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/dio.scs</modelfile>
+								<modelsection>"tm"</modelsection>
+							</model>
+							<model enabled="1">mos.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/mos.scs</modelfile>
+								<modelsection>"wp" "ws" "wo" "wz"</modelsection>
+							</model>
+							<model enabled="1">photo.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/photo.scs</modelfile>
+								<modelsection>"tm"</modelsection>
+							</model>
+							<model enabled="1">res.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/res.scs</modelfile>
+								<modelsection>"wp" "ws"</modelsection>
+							</model>
+							<model enabled="0">xh018.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/xh018.scs</modelfile>
+								<modelsection>"mc_g"</modelsection>
+							</model>
+						</models>
+					</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Monte Carlo Sampling</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test enabled="1">CORNER
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>s2_bias_10</value>
+							</option>
+							<option>lib
+								<value>EX1</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>CORNER_spectre_state1_MonteCarlo.8</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>s2_bias_10</value>
+							</option>
+							<option>lib
+								<value>EX1</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>spectre_state1</value>
+							</option>
+						</origoptions>
+					</test>
+					<test enabled="1">MC
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>s2_bias_10</value>
+							</option>
+							<option>lib
+								<value>EX1</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>MC_EX1:s2_bias_10:1:1_state_MonteCarlo.8</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</tooloptions>
+						<prerunscript>0</prerunscript>
+						<origoptions>
+							<option>cell
+								<value>s2_bias_10</value>
+							</option>
+							<option>lib
+								<value>EX1</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>EX1:s2_bias_10:1:1_state</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var>IN_DC
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="1">MC</dependentTest>
+							<dependentTest enabled="1">CORNER</dependentTest>
+						</dependentTests>
+					</var>
+					<var>IN
+						<value>1</value>
+						<dependentTests>
+							<dependentTest enabled="1">MC</dependentTest>
+							<dependentTest enabled="1">CORNER</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VDD
+						<value>1.8</value>
+						<dependentTests>
+							<dependentTest enabled="1">MC</dependentTest>
+							<dependentTest enabled="1">CORNER</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<distributeoptions></distributeoptions>
+				<jobpolicyname>ADE XL Default</jobpolicyname>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottingmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>distributedplot_enabled
+						<value>no</value>
+					</plottingoption>
+				</plottingoptions>
+				<allcornersenabled>1</allcornersenabled>
+				<runoptions>
+					<mode>Monte Carlo Sampling
+						<runoption>mcmethod
+							<value>all</value>
+						</runoption>
+						<runoption>mcnumpoints
+							<value>200</value>
+						</runoption>
+						<runoption>mcnumbins
+							<value></value>
+						</runoption>
+						<runoption>mcStopEarly
+							<value>0</value>
+						</runoption>
+						<runoption>mcStopMethod
+							<value>Significance Test</value>
+						</runoption>
+						<runoption>samplingmode
+							<value>lds</value>
+						</runoption>
+						<runoption>saveprocess
+							<value>0</value>
+						</runoption>
+						<runoption>savemismatch
+							<value>0</value>
+						</runoption>
+						<runoption>parasiticanalysis
+							<value>0</value>
+						</runoption>
+						<runoption>mcreferencepoint
+							<value>0</value>
+						</runoption>
+						<runoption>donominal
+							<value>0</value>
+						</runoption>
+						<runoption>saveallplots
+							<value>1</value>
+						</runoption>
+						<runoption>montecarloseed
+							<value></value>
+						</runoption>
+						<runoption>mcstartingrunnumber
+							<value></value>
+						</runoption>
+						<runoption>dumpParamMode
+							<value>no</value>
+						</runoption>
+					</mode>
+				</runoptions>
+				<disabledtests>
+					<test>CORNER</test>
+				</disabledtests>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Apr 20 03:09:41 2025</timestamp>
+			<uuid>{d8af5d3a-a747-4ec9-bce9-00e070e12425}</uuid>
+			<resultsname>/home/saul/projects/FIL3601/EX1/s2_bias_10/adexl/results/data/MonteCarlo.8.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/MonteCarlo.8.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/s2424_saul_030941424</localpsfdir>
+			<psfdir>/home/saul/projects/FIL3601/Sim/EX1/s2_bias_10/adexl/results/data/MonteCarlo.8</psfdir>
+			<simdir>$AXL_PROJECT_DIR/EX1/s2_bias_10/adexl/results/data/MonteCarlo.8</simdir>
+			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
+			<runlog>/home/saul/projects/FIL3601/EX1/s2_bias_10/adexl/results/data/MonteCarlo.8.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/MonteCarlo.8.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">MonteCarlo.9
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+					<corner enabled="0">PT
+						<vars>
+							<var>temperature
+								<value>-20 85</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">config.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/config.scs</modelfile>
+								<modelsection>"default"</modelsection>
+							</model>
+							<model enabled="1">param.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/param.scs</modelfile>
+								<modelsection>"3s"</modelsection>
+							</model>
+							<model enabled="1">bip.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/bip.scs</modelfile>
+								<modelsection>"tm"</modelsection>
+							</model>
+							<model enabled="1">cap.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/cap.scs</modelfile>
+								<modelsection>"wp" "ws"</modelsection>
+							</model>
+							<model enabled="1">dio.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/dio.scs</modelfile>
+								<modelsection>"tm"</modelsection>
+							</model>
+							<model enabled="1">mos.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/mos.scs</modelfile>
+								<modelsection>"wp" "ws" "wo" "wz"</modelsection>
+							</model>
+							<model enabled="1">photo.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/photo.scs</modelfile>
+								<modelsection>"tm"</modelsection>
+							</model>
+							<model enabled="1">res.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/res.scs</modelfile>
+								<modelsection>"wp" "ws"</modelsection>
+							</model>
+							<model enabled="0">xh018.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/xh018.scs</modelfile>
+								<modelsection>"mc_g"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">PVT
+						<vars>
+							<var>temperature
+								<value>-20 85</value>
+							</var>
+							<var>VDD
+								<value>1.62 1.98</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">config.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/config.scs</modelfile>
+								<modelsection>"default"</modelsection>
+							</model>
+							<model enabled="1">param.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/param.scs</modelfile>
+								<modelsection>"3s"</modelsection>
+							</model>
+							<model enabled="1">bip.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/bip.scs</modelfile>
+								<modelsection>"tm"</modelsection>
+							</model>
+							<model enabled="1">cap.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/cap.scs</modelfile>
+								<modelsection>"wp" "ws"</modelsection>
+							</model>
+							<model enabled="1">dio.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/dio.scs</modelfile>
+								<modelsection>"tm"</modelsection>
+							</model>
+							<model enabled="1">mos.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/mos.scs</modelfile>
+								<modelsection>"wp" "ws" "wo" "wz"</modelsection>
+							</model>
+							<model enabled="1">photo.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/photo.scs</modelfile>
+								<modelsection>"tm"</modelsection>
+							</model>
+							<model enabled="1">res.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/res.scs</modelfile>
+								<modelsection>"wp" "ws"</modelsection>
+							</model>
+							<model enabled="0">xh018.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/xh018.scs</modelfile>
+								<modelsection>"mc_g"</modelsection>
+							</model>
+						</models>
+					</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Monte Carlo Sampling</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test enabled="1">CORNER
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>s2_bias_10</value>
+							</option>
+							<option>lib
+								<value>EX1</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>CORNER_spectre_state1_MonteCarlo.9</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>s2_bias_10</value>
+							</option>
+							<option>lib
+								<value>EX1</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>spectre_state1</value>
+							</option>
+						</origoptions>
+					</test>
+					<test enabled="1">MC
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>s2_bias_10</value>
+							</option>
+							<option>lib
+								<value>EX1</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>MC_EX1:s2_bias_10:1:1_state_MonteCarlo.9</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</tooloptions>
+						<prerunscript>0</prerunscript>
+						<origoptions>
+							<option>cell
+								<value>s2_bias_10</value>
+							</option>
+							<option>lib
+								<value>EX1</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>EX1:s2_bias_10:1:1_state</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var>IN_DC
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="1">MC</dependentTest>
+							<dependentTest enabled="1">CORNER</dependentTest>
+						</dependentTests>
+					</var>
+					<var>IN
+						<value>1</value>
+						<dependentTests>
+							<dependentTest enabled="1">MC</dependentTest>
+							<dependentTest enabled="1">CORNER</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VDD
+						<value>1.8</value>
+						<dependentTests>
+							<dependentTest enabled="1">MC</dependentTest>
+							<dependentTest enabled="1">CORNER</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<distributeoptions></distributeoptions>
+				<jobpolicyname>ADE XL Default</jobpolicyname>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottingmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>distributedplot_enabled
+						<value>no</value>
+					</plottingoption>
+				</plottingoptions>
+				<allcornersenabled>1</allcornersenabled>
+				<runoptions>
+					<mode>Monte Carlo Sampling
+						<runoption>mcmethod
+							<value>all</value>
+						</runoption>
+						<runoption>mcnumpoints
+							<value>200</value>
+						</runoption>
+						<runoption>mcnumbins
+							<value></value>
+						</runoption>
+						<runoption>mcStopEarly
+							<value>0</value>
+						</runoption>
+						<runoption>mcStopMethod
+							<value>Significance Test</value>
+						</runoption>
+						<runoption>samplingmode
+							<value>lds</value>
+						</runoption>
+						<runoption>saveprocess
+							<value>0</value>
+						</runoption>
+						<runoption>savemismatch
+							<value>0</value>
+						</runoption>
+						<runoption>parasiticanalysis
+							<value>0</value>
+						</runoption>
+						<runoption>mcreferencepoint
+							<value>0</value>
+						</runoption>
+						<runoption>donominal
+							<value>0</value>
+						</runoption>
+						<runoption>saveallplots
+							<value>1</value>
+						</runoption>
+						<runoption>montecarloseed
+							<value></value>
+						</runoption>
+						<runoption>mcstartingrunnumber
+							<value></value>
+						</runoption>
+						<runoption>dumpParamMode
+							<value>no</value>
+						</runoption>
+					</mode>
+				</runoptions>
+				<disabledtests>
+					<test>CORNER</test>
+				</disabledtests>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Apr 20 03:13:08 2025</timestamp>
+			<uuid>{ddbfce32-896a-49f4-b7f6-0114896b7949}</uuid>
+			<resultsname>/home/saul/projects/FIL3601/EX1/s2_bias_10/adexl/results/data/MonteCarlo.9.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/MonteCarlo.9.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/s2424_saul_031308440</localpsfdir>
+			<psfdir>/home/saul/projects/FIL3601/Sim/EX1/s2_bias_10/adexl/results/data/MonteCarlo.9</psfdir>
+			<simdir>$AXL_PROJECT_DIR/EX1/s2_bias_10/adexl/results/data/MonteCarlo.9</simdir>
+			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
+			<runlog>/home/saul/projects/FIL3601/EX1/s2_bias_10/adexl/results/data/MonteCarlo.9.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/MonteCarlo.9.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.0
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+					<corner enabled="0">PT
+						<vars>
+							<var>temperature
+								<value>-20 85</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">config.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/config.scs</modelfile>
+								<modelsection>"default"</modelsection>
+							</model>
+							<model enabled="1">param.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/param.scs</modelfile>
+								<modelsection>"3s"</modelsection>
+							</model>
+							<model enabled="1">bip.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/bip.scs</modelfile>
+								<modelsection>"tm"</modelsection>
+							</model>
+							<model enabled="1">cap.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/cap.scs</modelfile>
+								<modelsection>"wp" "ws"</modelsection>
+							</model>
+							<model enabled="1">dio.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/dio.scs</modelfile>
+								<modelsection>"tm"</modelsection>
+							</model>
+							<model enabled="1">mos.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/mos.scs</modelfile>
+								<modelsection>"wp" "ws" "wo" "wz"</modelsection>
+							</model>
+							<model enabled="1">photo.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/photo.scs</modelfile>
+								<modelsection>"tm"</modelsection>
+							</model>
+							<model enabled="1">res.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/res.scs</modelfile>
+								<modelsection>"wp" "ws"</modelsection>
+							</model>
+							<model enabled="0">xh018.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/xh018.scs</modelfile>
+								<modelsection>"mc_g"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">PVT
+						<vars>
+							<var>temperature
+								<value>-20 85</value>
+							</var>
+							<var>VDD
+								<value>1.62 1.98</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">config.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/config.scs</modelfile>
+								<modelsection>"default"</modelsection>
+							</model>
+							<model enabled="1">param.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/param.scs</modelfile>
+								<modelsection>"3s"</modelsection>
+							</model>
+							<model enabled="1">bip.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/bip.scs</modelfile>
+								<modelsection>"tm"</modelsection>
+							</model>
+							<model enabled="1">cap.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/cap.scs</modelfile>
+								<modelsection>"wp" "ws"</modelsection>
+							</model>
+							<model enabled="1">dio.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/dio.scs</modelfile>
+								<modelsection>"tm"</modelsection>
+							</model>
+							<model enabled="1">mos.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/mos.scs</modelfile>
+								<modelsection>"wp" "ws" "wo" "wz"</modelsection>
+							</model>
+							<model enabled="1">photo.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/photo.scs</modelfile>
+								<modelsection>"tm"</modelsection>
+							</model>
+							<model enabled="1">res.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/res.scs</modelfile>
+								<modelsection>"wp" "ws"</modelsection>
+							</model>
+							<model enabled="0">xh018.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/xh018.scs</modelfile>
+								<modelsection>"mc_g"</modelsection>
+							</model>
+						</models>
+					</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test enabled="1">CORNER
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>s2_bias_10</value>
+							</option>
+							<option>lib
+								<value>EX1</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>CORNER_spectre_state1_Interactive.0</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>s2_bias_10</value>
+							</option>
+							<option>lib
+								<value>EX1</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>spectre_state1</value>
+							</option>
+						</origoptions>
+					</test>
+					<test enabled="1">MC
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>s2_bias_10</value>
+							</option>
+							<option>lib
+								<value>EX1</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>MC_EX1:s2_bias_10:1:1_state_Interactive.0</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</tooloptions>
+						<prerunscript>0</prerunscript>
+						<origoptions>
+							<option>cell
+								<value>s2_bias_10</value>
+							</option>
+							<option>lib
+								<value>EX1</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>EX1:s2_bias_10:1:1_state</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var>IN_DC
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="1">MC</dependentTest>
+							<dependentTest enabled="1">CORNER</dependentTest>
+						</dependentTests>
+					</var>
+					<var>IN
+						<value>1</value>
+						<dependentTests>
+							<dependentTest enabled="1">MC</dependentTest>
+							<dependentTest enabled="1">CORNER</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VDD
+						<value>1.8</value>
+						<dependentTests>
+							<dependentTest enabled="1">MC</dependentTest>
+							<dependentTest enabled="1">CORNER</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<distributeoptions></distributeoptions>
+				<jobpolicyname>ADE XL Default</jobpolicyname>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottingmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>distributedplot_enabled
+						<value>no</value>
+					</plottingoption>
+				</plottingoptions>
+				<allcornersenabled>1</allcornersenabled>
+				<runoptions>
+					<mode>Monte Carlo Sampling
+						<runoption>mcmethod
+							<value>all</value>
+						</runoption>
+						<runoption>mcnumpoints
+							<value>200</value>
+						</runoption>
+						<runoption>mcnumbins
+							<value></value>
+						</runoption>
+						<runoption>mcStopEarly
+							<value>0</value>
+						</runoption>
+						<runoption>mcStopMethod
+							<value>Significance Test</value>
+						</runoption>
+						<runoption>samplingmode
+							<value>lds</value>
+						</runoption>
+						<runoption>saveprocess
+							<value>0</value>
+						</runoption>
+						<runoption>savemismatch
+							<value>0</value>
+						</runoption>
+						<runoption>parasiticanalysis
+							<value>0</value>
+						</runoption>
+						<runoption>mcreferencepoint
+							<value>0</value>
+						</runoption>
+						<runoption>donominal
+							<value>0</value>
+						</runoption>
+						<runoption>saveallplots
+							<value>1</value>
+						</runoption>
+						<runoption>montecarloseed
+							<value></value>
+						</runoption>
+						<runoption>mcstartingrunnumber
+							<value></value>
+						</runoption>
+						<runoption>dumpParamMode
+							<value>no</value>
+						</runoption>
+					</mode>
+				</runoptions>
+				<disabledtests>
+					<test>MC</test>
+				</disabledtests>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Apr 20 03:16:18 2025</timestamp>
+			<uuid>{c640a2ed-abeb-42ab-ac98-54ad72110330}</uuid>
+			<resultsname>/home/saul/projects/FIL3601/EX1/s2_bias_10/adexl/results/data/Interactive.0.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.0.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/s2424_saul_031618457</localpsfdir>
+			<psfdir>/home/saul/projects/FIL3601/Sim/EX1/s2_bias_10/adexl/results/data/Interactive.0</psfdir>
+			<simdir>$AXL_PROJECT_DIR/EX1/s2_bias_10/adexl/results/data/Interactive.0</simdir>
+			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
+			<runlog>/home/saul/projects/FIL3601/EX1/s2_bias_10/adexl/results/data/Interactive.0.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.0.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">MonteCarlo.10
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+					<corner enabled="0">PT
+						<vars>
+							<var>temperature
+								<value>-20 85</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">config.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/config.scs</modelfile>
+								<modelsection>"default"</modelsection>
+							</model>
+							<model enabled="1">param.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/param.scs</modelfile>
+								<modelsection>"3s"</modelsection>
+							</model>
+							<model enabled="1">bip.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/bip.scs</modelfile>
+								<modelsection>"tm"</modelsection>
+							</model>
+							<model enabled="1">cap.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/cap.scs</modelfile>
+								<modelsection>"wp" "ws"</modelsection>
+							</model>
+							<model enabled="1">dio.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/dio.scs</modelfile>
+								<modelsection>"tm"</modelsection>
+							</model>
+							<model enabled="1">mos.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/mos.scs</modelfile>
+								<modelsection>"wp" "ws" "wo" "wz"</modelsection>
+							</model>
+							<model enabled="1">photo.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/photo.scs</modelfile>
+								<modelsection>"tm"</modelsection>
+							</model>
+							<model enabled="1">res.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/res.scs</modelfile>
+								<modelsection>"wp" "ws"</modelsection>
+							</model>
+							<model enabled="0">xh018.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/xh018.scs</modelfile>
+								<modelsection>"mc_g"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">PVT
+						<vars>
+							<var>temperature
+								<value>-20 85</value>
+							</var>
+							<var>VDD
+								<value>1.62 1.98</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">config.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/config.scs</modelfile>
+								<modelsection>"default"</modelsection>
+							</model>
+							<model enabled="1">param.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/param.scs</modelfile>
+								<modelsection>"3s"</modelsection>
+							</model>
+							<model enabled="1">bip.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/bip.scs</modelfile>
+								<modelsection>"tm"</modelsection>
+							</model>
+							<model enabled="1">cap.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/cap.scs</modelfile>
+								<modelsection>"wp" "ws"</modelsection>
+							</model>
+							<model enabled="1">dio.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/dio.scs</modelfile>
+								<modelsection>"tm"</modelsection>
+							</model>
+							<model enabled="1">mos.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/mos.scs</modelfile>
+								<modelsection>"wp" "ws" "wo" "wz"</modelsection>
+							</model>
+							<model enabled="1">photo.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/photo.scs</modelfile>
+								<modelsection>"tm"</modelsection>
+							</model>
+							<model enabled="1">res.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/res.scs</modelfile>
+								<modelsection>"wp" "ws"</modelsection>
+							</model>
+							<model enabled="0">xh018.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/xh018.scs</modelfile>
+								<modelsection>"mc_g"</modelsection>
+							</model>
+						</models>
+					</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Monte Carlo Sampling</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test enabled="1">CORNER
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>s2_bias_10</value>
+							</option>
+							<option>lib
+								<value>EX1</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>CORNER_spectre_state1_MonteCarlo.10</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>s2_bias_10</value>
+							</option>
+							<option>lib
+								<value>EX1</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>spectre_state1</value>
+							</option>
+						</origoptions>
+					</test>
+					<test enabled="1">MC
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>s2_bias_10</value>
+							</option>
+							<option>lib
+								<value>EX1</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>MC_EX1:s2_bias_10:1:1_state_MonteCarlo.10</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</tooloptions>
+						<prerunscript>0</prerunscript>
+						<origoptions>
+							<option>cell
+								<value>s2_bias_10</value>
+							</option>
+							<option>lib
+								<value>EX1</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>EX1:s2_bias_10:1:1_state</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+						<outputs>
+							<output>Gain_dB
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+					</test>
+				</tests>
+				<vars>
+					<var>IN_DC
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="1">MC</dependentTest>
+							<dependentTest enabled="1">CORNER</dependentTest>
+						</dependentTests>
+					</var>
+					<var>IN
+						<value>1</value>
+						<dependentTests>
+							<dependentTest enabled="1">MC</dependentTest>
+							<dependentTest enabled="1">CORNER</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VDD
+						<value>1.8</value>
+						<dependentTests>
+							<dependentTest enabled="1">MC</dependentTest>
+							<dependentTest enabled="1">CORNER</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<distributeoptions></distributeoptions>
+				<jobpolicyname>ADE XL Default</jobpolicyname>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottingmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>distributedplot_enabled
+						<value>no</value>
+					</plottingoption>
+				</plottingoptions>
+				<allcornersenabled>1</allcornersenabled>
+				<runoptions>
+					<mode>Monte Carlo Sampling
+						<runoption>mcmethod
+							<value>all</value>
+						</runoption>
+						<runoption>mcnumpoints
+							<value>200</value>
+						</runoption>
+						<runoption>mcnumbins
+							<value></value>
+						</runoption>
+						<runoption>mcStopEarly
+							<value>0</value>
+						</runoption>
+						<runoption>mcStopMethod
+							<value>Significance Test</value>
+						</runoption>
+						<runoption>samplingmode
+							<value>lds</value>
+						</runoption>
+						<runoption>saveprocess
+							<value>0</value>
+						</runoption>
+						<runoption>savemismatch
+							<value>0</value>
+						</runoption>
+						<runoption>parasiticanalysis
+							<value>0</value>
+						</runoption>
+						<runoption>mcreferencepoint
+							<value>0</value>
+						</runoption>
+						<runoption>donominal
+							<value>0</value>
+						</runoption>
+						<runoption>saveallplots
+							<value>1</value>
+						</runoption>
+						<runoption>montecarloseed
+							<value></value>
+						</runoption>
+						<runoption>mcstartingrunnumber
+							<value></value>
+						</runoption>
+						<runoption>dumpParamMode
+							<value>no</value>
+						</runoption>
+					</mode>
+				</runoptions>
+				<disabledtests>
+					<test>CORNER</test>
+				</disabledtests>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Apr 20 03:19:05 2025</timestamp>
+			<uuid>{3e8a81e8-4c6d-4838-8dbd-8a7e24e3423d}</uuid>
+			<resultsname>/home/saul/projects/FIL3601/EX1/s2_bias_10/adexl/results/data/MonteCarlo.10.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/MonteCarlo.10.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/s2424_saul_031906071</localpsfdir>
+			<psfdir>/home/saul/projects/FIL3601/Sim/EX1/s2_bias_10/adexl/results/data/MonteCarlo.10</psfdir>
+			<simdir>$AXL_PROJECT_DIR/EX1/s2_bias_10/adexl/results/data/MonteCarlo.10</simdir>
+			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
+			<runlog>/home/saul/projects/FIL3601/EX1/s2_bias_10/adexl/results/data/MonteCarlo.10.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/MonteCarlo.10.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">MonteCarlo.11
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+					<corner enabled="0">PT
+						<vars>
+							<var>temperature
+								<value>-20 85</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">config.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/config.scs</modelfile>
+								<modelsection>"default"</modelsection>
+							</model>
+							<model enabled="1">param.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/param.scs</modelfile>
+								<modelsection>"3s"</modelsection>
+							</model>
+							<model enabled="1">bip.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/bip.scs</modelfile>
+								<modelsection>"tm"</modelsection>
+							</model>
+							<model enabled="1">cap.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/cap.scs</modelfile>
+								<modelsection>"wp" "ws"</modelsection>
+							</model>
+							<model enabled="1">dio.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/dio.scs</modelfile>
+								<modelsection>"tm"</modelsection>
+							</model>
+							<model enabled="1">mos.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/mos.scs</modelfile>
+								<modelsection>"wp" "ws" "wo" "wz"</modelsection>
+							</model>
+							<model enabled="1">photo.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/photo.scs</modelfile>
+								<modelsection>"tm"</modelsection>
+							</model>
+							<model enabled="1">res.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/res.scs</modelfile>
+								<modelsection>"wp" "ws"</modelsection>
+							</model>
+							<model enabled="0">xh018.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/xh018.scs</modelfile>
+								<modelsection>"mc_g"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">PVT
+						<vars>
+							<var>temperature
+								<value>-20 85</value>
+							</var>
+							<var>VDD
+								<value>1.62 1.98</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">config.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/config.scs</modelfile>
+								<modelsection>"default"</modelsection>
+							</model>
+							<model enabled="1">param.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/param.scs</modelfile>
+								<modelsection>"3s"</modelsection>
+							</model>
+							<model enabled="1">bip.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/bip.scs</modelfile>
+								<modelsection>"tm"</modelsection>
+							</model>
+							<model enabled="1">cap.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/cap.scs</modelfile>
+								<modelsection>"wp" "ws"</modelsection>
+							</model>
+							<model enabled="1">dio.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/dio.scs</modelfile>
+								<modelsection>"tm"</modelsection>
+							</model>
+							<model enabled="1">mos.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/mos.scs</modelfile>
+								<modelsection>"wp" "ws" "wo" "wz"</modelsection>
+							</model>
+							<model enabled="1">photo.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/photo.scs</modelfile>
+								<modelsection>"tm"</modelsection>
+							</model>
+							<model enabled="1">res.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/res.scs</modelfile>
+								<modelsection>"wp" "ws"</modelsection>
+							</model>
+							<model enabled="0">xh018.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/xh018.scs</modelfile>
+								<modelsection>"mc_g"</modelsection>
+							</model>
+						</models>
+					</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Monte Carlo Sampling</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test enabled="1">CORNER
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>s2_bias_10</value>
+							</option>
+							<option>lib
+								<value>EX1</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>CORNER_spectre_state1_MonteCarlo.11</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>s2_bias_10</value>
+							</option>
+							<option>lib
+								<value>EX1</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>spectre_state1</value>
+							</option>
+						</origoptions>
+					</test>
+					<test enabled="1">MC
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>s2_bias_10</value>
+							</option>
+							<option>lib
+								<value>EX1</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>MC_EX1:s2_bias_10:1:1_state_MonteCarlo.11</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</tooloptions>
+						<prerunscript>0</prerunscript>
+						<origoptions>
+							<option>cell
+								<value>s2_bias_10</value>
+							</option>
+							<option>lib
+								<value>EX1</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>EX1:s2_bias_10:1:1_state</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+						<outputs>
+							<output>Gain_dB
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+					</test>
+				</tests>
+				<vars>
+					<var>IN_DC
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="1">MC</dependentTest>
+							<dependentTest enabled="1">CORNER</dependentTest>
+						</dependentTests>
+					</var>
+					<var>IN
+						<value>1</value>
+						<dependentTests>
+							<dependentTest enabled="1">MC</dependentTest>
+							<dependentTest enabled="1">CORNER</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VDD
+						<value>1.8</value>
+						<dependentTests>
+							<dependentTest enabled="1">MC</dependentTest>
+							<dependentTest enabled="1">CORNER</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<distributeoptions></distributeoptions>
+				<jobpolicyname>ADE XL Default</jobpolicyname>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottingmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>distributedplot_enabled
+						<value>no</value>
+					</plottingoption>
+				</plottingoptions>
+				<allcornersenabled>1</allcornersenabled>
+				<runoptions>
+					<mode>Monte Carlo Sampling
+						<runoption>mcmethod
+							<value>all</value>
+						</runoption>
+						<runoption>mcnumpoints
+							<value>200</value>
+						</runoption>
+						<runoption>mcnumbins
+							<value></value>
+						</runoption>
+						<runoption>mcStopEarly
+							<value>0</value>
+						</runoption>
+						<runoption>mcStopMethod
+							<value>Significance Test</value>
+						</runoption>
+						<runoption>samplingmode
+							<value>lds</value>
+						</runoption>
+						<runoption>saveprocess
+							<value>0</value>
+						</runoption>
+						<runoption>savemismatch
+							<value>0</value>
+						</runoption>
+						<runoption>parasiticanalysis
+							<value>0</value>
+						</runoption>
+						<runoption>mcreferencepoint
+							<value>0</value>
+						</runoption>
+						<runoption>donominal
+							<value>0</value>
+						</runoption>
+						<runoption>saveallplots
+							<value>1</value>
+						</runoption>
+						<runoption>montecarloseed
+							<value></value>
+						</runoption>
+						<runoption>mcstartingrunnumber
+							<value></value>
+						</runoption>
+						<runoption>dumpParamMode
+							<value>no</value>
+						</runoption>
+					</mode>
+				</runoptions>
+				<disabledtests>
+					<test>MC</test>
+				</disabledtests>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Apr 20 03:23:19 2025</timestamp>
+			<uuid>{e57a92f2-1596-4d3f-b0c9-ceb2311e49d7}</uuid>
+			<resultsname>/home/saul/projects/FIL3601/EX1/s2_bias_10/adexl/results/data/MonteCarlo.11.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/MonteCarlo.11.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/s2424_saul_032319452</localpsfdir>
+			<psfdir>/home/saul/projects/FIL3601/Sim/EX1/s2_bias_10/adexl/results/data/MonteCarlo.11</psfdir>
+			<simdir>$AXL_PROJECT_DIR/EX1/s2_bias_10/adexl/results/data/MonteCarlo.11</simdir>
+			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
+			<runlog>/home/saul/projects/FIL3601/EX1/s2_bias_10/adexl/results/data/MonteCarlo.11.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/MonteCarlo.11.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.1
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+					<corner enabled="0">PT
+						<vars>
+							<var>temperature
+								<value>-20 85</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">config.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/config.scs</modelfile>
+								<modelsection>"default"</modelsection>
+							</model>
+							<model enabled="1">param.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/param.scs</modelfile>
+								<modelsection>"3s"</modelsection>
+							</model>
+							<model enabled="1">bip.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/bip.scs</modelfile>
+								<modelsection>"tm"</modelsection>
+							</model>
+							<model enabled="1">cap.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/cap.scs</modelfile>
+								<modelsection>"wp" "ws"</modelsection>
+							</model>
+							<model enabled="1">dio.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/dio.scs</modelfile>
+								<modelsection>"tm"</modelsection>
+							</model>
+							<model enabled="1">mos.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/mos.scs</modelfile>
+								<modelsection>"wp" "ws" "wo" "wz"</modelsection>
+							</model>
+							<model enabled="1">photo.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/photo.scs</modelfile>
+								<modelsection>"tm"</modelsection>
+							</model>
+							<model enabled="1">res.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/res.scs</modelfile>
+								<modelsection>"wp" "ws"</modelsection>
+							</model>
+							<model enabled="0">xh018.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/xh018.scs</modelfile>
+								<modelsection>"mc_g"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">PVT
+						<vars>
+							<var>temperature
+								<value>-20 85</value>
+							</var>
+							<var>VDD
+								<value>1.62 1.98</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">config.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/config.scs</modelfile>
+								<modelsection>"default"</modelsection>
+							</model>
+							<model enabled="1">param.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/param.scs</modelfile>
+								<modelsection>"3s"</modelsection>
+							</model>
+							<model enabled="1">bip.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/bip.scs</modelfile>
+								<modelsection>"tm"</modelsection>
+							</model>
+							<model enabled="1">cap.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/cap.scs</modelfile>
+								<modelsection>"wp" "ws"</modelsection>
+							</model>
+							<model enabled="1">dio.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/dio.scs</modelfile>
+								<modelsection>"tm"</modelsection>
+							</model>
+							<model enabled="1">mos.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/mos.scs</modelfile>
+								<modelsection>"wp" "ws" "wo" "wz"</modelsection>
+							</model>
+							<model enabled="1">photo.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/photo.scs</modelfile>
+								<modelsection>"tm"</modelsection>
+							</model>
+							<model enabled="1">res.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/res.scs</modelfile>
+								<modelsection>"wp" "ws"</modelsection>
+							</model>
+							<model enabled="0">xh018.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/xh018.scs</modelfile>
+								<modelsection>"mc_g"</modelsection>
+							</model>
+						</models>
+					</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test enabled="1">CORNER
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>s2_bias_10</value>
+							</option>
+							<option>lib
+								<value>EX1</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>CORNER_spectre_state1_Interactive.1</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>s2_bias_10</value>
+							</option>
+							<option>lib
+								<value>EX1</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>spectre_state1</value>
+							</option>
+						</origoptions>
+					</test>
+					<test enabled="1">MC
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>s2_bias_10</value>
+							</option>
+							<option>lib
+								<value>EX1</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>MC_EX1:s2_bias_10:1:1_state_Interactive.1</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</tooloptions>
+						<prerunscript>0</prerunscript>
+						<origoptions>
+							<option>cell
+								<value>s2_bias_10</value>
+							</option>
+							<option>lib
+								<value>EX1</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>EX1:s2_bias_10:1:1_state</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+						<outputs>
+							<output>Gain_dB
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+					</test>
+				</tests>
+				<vars>
+					<var>IN_DC
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="1">MC</dependentTest>
+							<dependentTest enabled="1">CORNER</dependentTest>
+						</dependentTests>
+					</var>
+					<var>IN
+						<value>1</value>
+						<dependentTests>
+							<dependentTest enabled="1">MC</dependentTest>
+							<dependentTest enabled="1">CORNER</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VDD
+						<value>1.8</value>
+						<dependentTests>
+							<dependentTest enabled="1">MC</dependentTest>
+							<dependentTest enabled="1">CORNER</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<distributeoptions></distributeoptions>
+				<jobpolicyname>ADE XL Default</jobpolicyname>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottingmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>distributedplot_enabled
+						<value>no</value>
+					</plottingoption>
+				</plottingoptions>
+				<allcornersenabled>1</allcornersenabled>
+				<runoptions>
+					<mode>Monte Carlo Sampling
+						<runoption>mcmethod
+							<value>all</value>
+						</runoption>
+						<runoption>mcnumpoints
+							<value>200</value>
+						</runoption>
+						<runoption>mcnumbins
+							<value></value>
+						</runoption>
+						<runoption>mcStopEarly
+							<value>0</value>
+						</runoption>
+						<runoption>mcStopMethod
+							<value>Significance Test</value>
+						</runoption>
+						<runoption>samplingmode
+							<value>lds</value>
+						</runoption>
+						<runoption>saveprocess
+							<value>0</value>
+						</runoption>
+						<runoption>savemismatch
+							<value>0</value>
+						</runoption>
+						<runoption>parasiticanalysis
+							<value>0</value>
+						</runoption>
+						<runoption>mcreferencepoint
+							<value>0</value>
+						</runoption>
+						<runoption>donominal
+							<value>0</value>
+						</runoption>
+						<runoption>saveallplots
+							<value>1</value>
+						</runoption>
+						<runoption>montecarloseed
+							<value></value>
+						</runoption>
+						<runoption>mcstartingrunnumber
+							<value></value>
+						</runoption>
+						<runoption>dumpParamMode
+							<value>no</value>
+						</runoption>
+					</mode>
+				</runoptions>
+				<disabledtests>
+					<test>MC</test>
+				</disabledtests>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Apr 20 03:23:29 2025</timestamp>
+			<uuid>{1eaf4b5e-ca88-4903-a079-6bd5028571c1}</uuid>
+			<resultsname>/home/saul/projects/FIL3601/EX1/s2_bias_10/adexl/results/data/Interactive.1.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.1.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/s2424_saul_032329466</localpsfdir>
+			<psfdir>/home/saul/projects/FIL3601/Sim/EX1/s2_bias_10/adexl/results/data/Interactive.1</psfdir>
+			<simdir>$AXL_PROJECT_DIR/EX1/s2_bias_10/adexl/results/data/Interactive.1</simdir>
+			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
+			<runlog>/home/saul/projects/FIL3601/EX1/s2_bias_10/adexl/results/data/Interactive.1.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.1.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.2
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+					<corner enabled="0">PT
+						<vars>
+							<var>temperature
+								<value>-20 85</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">config.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/config.scs</modelfile>
+								<modelsection>"default"</modelsection>
+							</model>
+							<model enabled="1">param.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/param.scs</modelfile>
+								<modelsection>"3s"</modelsection>
+							</model>
+							<model enabled="1">bip.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/bip.scs</modelfile>
+								<modelsection>"tm"</modelsection>
+							</model>
+							<model enabled="1">cap.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/cap.scs</modelfile>
+								<modelsection>"wp" "ws"</modelsection>
+							</model>
+							<model enabled="1">dio.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/dio.scs</modelfile>
+								<modelsection>"tm"</modelsection>
+							</model>
+							<model enabled="1">mos.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/mos.scs</modelfile>
+								<modelsection>"wp" "ws" "wo" "wz"</modelsection>
+							</model>
+							<model enabled="1">photo.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/photo.scs</modelfile>
+								<modelsection>"tm"</modelsection>
+							</model>
+							<model enabled="1">res.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/res.scs</modelfile>
+								<modelsection>"wp" "ws"</modelsection>
+							</model>
+							<model enabled="0">xh018.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/xh018.scs</modelfile>
+								<modelsection>"mc_g"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">PVT
+						<vars>
+							<var>temperature
+								<value>-20 85</value>
+							</var>
+							<var>VDD
+								<value>1.62 1.98</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">config.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/config.scs</modelfile>
+								<modelsection>"default"</modelsection>
+							</model>
+							<model enabled="1">param.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/param.scs</modelfile>
+								<modelsection>"3s"</modelsection>
+							</model>
+							<model enabled="1">bip.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/bip.scs</modelfile>
+								<modelsection>"tm"</modelsection>
+							</model>
+							<model enabled="1">cap.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/cap.scs</modelfile>
+								<modelsection>"wp" "ws"</modelsection>
+							</model>
+							<model enabled="1">dio.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/dio.scs</modelfile>
+								<modelsection>"tm"</modelsection>
+							</model>
+							<model enabled="1">mos.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/mos.scs</modelfile>
+								<modelsection>"wp" "ws" "wo" "wz"</modelsection>
+							</model>
+							<model enabled="1">photo.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/photo.scs</modelfile>
+								<modelsection>"tm"</modelsection>
+							</model>
+							<model enabled="1">res.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/res.scs</modelfile>
+								<modelsection>"wp" "ws"</modelsection>
+							</model>
+							<model enabled="0">xh018.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/xh018.scs</modelfile>
+								<modelsection>"mc_g"</modelsection>
+							</model>
+						</models>
+					</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test enabled="1">CORNER
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>s2_bias_10</value>
+							</option>
+							<option>lib
+								<value>EX1</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>CORNER_spectre_state1_Interactive.2</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>s2_bias_10</value>
+							</option>
+							<option>lib
+								<value>EX1</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>spectre_state1</value>
+							</option>
+						</origoptions>
+					</test>
+					<test enabled="1">MC
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>s2_bias_10</value>
+							</option>
+							<option>lib
+								<value>EX1</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>MC_EX1:s2_bias_10:1:1_state_Interactive.2</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</tooloptions>
+						<prerunscript>0</prerunscript>
+						<origoptions>
+							<option>cell
+								<value>s2_bias_10</value>
+							</option>
+							<option>lib
+								<value>EX1</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>EX1:s2_bias_10:1:1_state</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+						<outputs>
+							<output>Gain_dB
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+					</test>
+				</tests>
+				<vars>
+					<var>IN_DC
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="1">MC</dependentTest>
+							<dependentTest enabled="1">CORNER</dependentTest>
+						</dependentTests>
+					</var>
+					<var>IN
+						<value>1</value>
+						<dependentTests>
+							<dependentTest enabled="1">MC</dependentTest>
+							<dependentTest enabled="1">CORNER</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VDD
+						<value>1.8</value>
+						<dependentTests>
+							<dependentTest enabled="1">MC</dependentTest>
+							<dependentTest enabled="1">CORNER</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<distributeoptions></distributeoptions>
+				<jobpolicyname>ADE XL Default</jobpolicyname>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottingmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>distributedplot_enabled
+						<value>no</value>
+					</plottingoption>
+				</plottingoptions>
+				<allcornersenabled>1</allcornersenabled>
+				<runoptions>
+					<mode>Monte Carlo Sampling
+						<runoption>mcmethod
+							<value>all</value>
+						</runoption>
+						<runoption>mcnumpoints
+							<value>200</value>
+						</runoption>
+						<runoption>mcnumbins
+							<value></value>
+						</runoption>
+						<runoption>mcStopEarly
+							<value>0</value>
+						</runoption>
+						<runoption>mcStopMethod
+							<value>Significance Test</value>
+						</runoption>
+						<runoption>samplingmode
+							<value>lds</value>
+						</runoption>
+						<runoption>saveprocess
+							<value>0</value>
+						</runoption>
+						<runoption>savemismatch
+							<value>0</value>
+						</runoption>
+						<runoption>parasiticanalysis
+							<value>0</value>
+						</runoption>
+						<runoption>mcreferencepoint
+							<value>0</value>
+						</runoption>
+						<runoption>donominal
+							<value>0</value>
+						</runoption>
+						<runoption>saveallplots
+							<value>1</value>
+						</runoption>
+						<runoption>montecarloseed
+							<value></value>
+						</runoption>
+						<runoption>mcstartingrunnumber
+							<value></value>
+						</runoption>
+						<runoption>dumpParamMode
+							<value>no</value>
+						</runoption>
+					</mode>
+				</runoptions>
+				<disabledtests>
+					<test>MC</test>
+				</disabledtests>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Apr 20 03:28:09 2025</timestamp>
+			<uuid>{c04bed0e-8453-475e-994b-42c67ac18e17}</uuid>
+			<resultsname>/home/saul/projects/FIL3601/EX1/s2_bias_10/adexl/results/data/Interactive.2.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.2.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/s2424_saul_032810068</localpsfdir>
+			<psfdir>/home/saul/projects/FIL3601/Sim/EX1/s2_bias_10/adexl/results/data/Interactive.2</psfdir>
+			<simdir>$AXL_PROJECT_DIR/EX1/s2_bias_10/adexl/results/data/Interactive.2</simdir>
+			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
+			<runlog>/home/saul/projects/FIL3601/EX1/s2_bias_10/adexl/results/data/Interactive.2.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.2.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.3
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+					<corner enabled="0">PT
+						<vars>
+							<var>temperature
+								<value>-20 85</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">config.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/config.scs</modelfile>
+								<modelsection>"default"</modelsection>
+							</model>
+							<model enabled="1">param.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/param.scs</modelfile>
+								<modelsection>"3s"</modelsection>
+							</model>
+							<model enabled="1">bip.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/bip.scs</modelfile>
+								<modelsection>"tm"</modelsection>
+							</model>
+							<model enabled="1">cap.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/cap.scs</modelfile>
+								<modelsection>"wp" "ws"</modelsection>
+							</model>
+							<model enabled="1">dio.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/dio.scs</modelfile>
+								<modelsection>"tm"</modelsection>
+							</model>
+							<model enabled="1">mos.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/mos.scs</modelfile>
+								<modelsection>"wp" "ws" "wo" "wz"</modelsection>
+							</model>
+							<model enabled="1">photo.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/photo.scs</modelfile>
+								<modelsection>"tm"</modelsection>
+							</model>
+							<model enabled="1">res.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/res.scs</modelfile>
+								<modelsection>"wp" "ws"</modelsection>
+							</model>
+							<model enabled="0">xh018.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/xh018.scs</modelfile>
+								<modelsection>"mc_g"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">PVT
+						<vars>
+							<var>temperature
+								<value>-20 85</value>
+							</var>
+							<var>VDD
+								<value>1.62 1.98</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">config.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/config.scs</modelfile>
+								<modelsection>"default"</modelsection>
+							</model>
+							<model enabled="1">param.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/param.scs</modelfile>
+								<modelsection>"3s"</modelsection>
+							</model>
+							<model enabled="1">bip.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/bip.scs</modelfile>
+								<modelsection>"tm"</modelsection>
+							</model>
+							<model enabled="1">cap.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/cap.scs</modelfile>
+								<modelsection>"wp" "ws"</modelsection>
+							</model>
+							<model enabled="1">dio.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/dio.scs</modelfile>
+								<modelsection>"tm"</modelsection>
+							</model>
+							<model enabled="1">mos.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/mos.scs</modelfile>
+								<modelsection>"wp" "ws" "wo" "wz"</modelsection>
+							</model>
+							<model enabled="1">photo.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/photo.scs</modelfile>
+								<modelsection>"tm"</modelsection>
+							</model>
+							<model enabled="1">res.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/res.scs</modelfile>
+								<modelsection>"wp" "ws"</modelsection>
+							</model>
+							<model enabled="0">xh018.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/xh018.scs</modelfile>
+								<modelsection>"mc_g"</modelsection>
+							</model>
+						</models>
+					</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test enabled="1">CORNER
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>s2_bias_10</value>
+							</option>
+							<option>lib
+								<value>EX1</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>CORNER_spectre_state1_Interactive.3</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>s2_bias_10</value>
+							</option>
+							<option>lib
+								<value>EX1</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>spectre_state1</value>
+							</option>
+						</origoptions>
+					</test>
+					<test enabled="1">MC
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>s2_bias_10</value>
+							</option>
+							<option>lib
+								<value>EX1</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>MC_EX1:s2_bias_10:1:1_state_Interactive.3</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</tooloptions>
+						<prerunscript>0</prerunscript>
+						<origoptions>
+							<option>cell
+								<value>s2_bias_10</value>
+							</option>
+							<option>lib
+								<value>EX1</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>EX1:s2_bias_10:1:1_state</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+						<outputs>
+							<output>Gain_dB
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+					</test>
+				</tests>
+				<vars>
+					<var>IN_DC
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="1">MC</dependentTest>
+							<dependentTest enabled="1">CORNER</dependentTest>
+						</dependentTests>
+					</var>
+					<var>IN
+						<value>1</value>
+						<dependentTests>
+							<dependentTest enabled="1">MC</dependentTest>
+							<dependentTest enabled="1">CORNER</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VDD
+						<value>1.8</value>
+						<dependentTests>
+							<dependentTest enabled="1">MC</dependentTest>
+							<dependentTest enabled="1">CORNER</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<distributeoptions></distributeoptions>
+				<jobpolicyname>ADE XL Default</jobpolicyname>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottingmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>distributedplot_enabled
+						<value>no</value>
+					</plottingoption>
+				</plottingoptions>
+				<allcornersenabled>1</allcornersenabled>
+				<runoptions>
+					<mode>Monte Carlo Sampling
+						<runoption>mcmethod
+							<value>all</value>
+						</runoption>
+						<runoption>mcnumpoints
+							<value>200</value>
+						</runoption>
+						<runoption>mcnumbins
+							<value></value>
+						</runoption>
+						<runoption>mcStopEarly
+							<value>0</value>
+						</runoption>
+						<runoption>mcStopMethod
+							<value>Significance Test</value>
+						</runoption>
+						<runoption>samplingmode
+							<value>lds</value>
+						</runoption>
+						<runoption>saveprocess
+							<value>0</value>
+						</runoption>
+						<runoption>savemismatch
+							<value>0</value>
+						</runoption>
+						<runoption>parasiticanalysis
+							<value>0</value>
+						</runoption>
+						<runoption>mcreferencepoint
+							<value>0</value>
+						</runoption>
+						<runoption>donominal
+							<value>0</value>
+						</runoption>
+						<runoption>saveallplots
+							<value>1</value>
+						</runoption>
+						<runoption>montecarloseed
+							<value></value>
+						</runoption>
+						<runoption>mcstartingrunnumber
+							<value></value>
+						</runoption>
+						<runoption>dumpParamMode
+							<value>no</value>
+						</runoption>
+					</mode>
+				</runoptions>
+				<disabledtests>
+					<test>MC</test>
+				</disabledtests>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Apr 22 11:10:49 2025</timestamp>
+			<uuid>{667f8766-4e18-4776-a262-00c596dd49bb}</uuid>
+			<resultsname>/home/saul/projects/FIL3601/EX1/s2_bias_10/adexl/results/data/Interactive.3.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.3.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/s2424_saul_111049487</localpsfdir>
+			<psfdir>/home/saul/projects/FIL3601/Sim/EX1/s2_bias_10/adexl/results/data/Interactive.3</psfdir>
+			<simdir>$AXL_PROJECT_DIR/EX1/s2_bias_10/adexl/results/data/Interactive.3</simdir>
+			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
+			<runlog>/home/saul/projects/FIL3601/EX1/s2_bias_10/adexl/results/data/Interactive.3.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.3.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+	</history>
+</setupdb>

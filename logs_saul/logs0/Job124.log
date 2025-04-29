@@ -1,14 +1,14 @@
-\# Program start time:     UTC 2025.02.12 23:27:33.912
-\# Local time: CET (UTC+01:00) 2025.02.13 00:27:33.912
+\# Program start time:     UTC 2025.04.20 01:19:10.829
+\# Local time: CEST (UTC+02:00) 2025.04.20 03:19:10.829
 \o Program:		@(#)$CDS: virtuoso version 6.1.8-64b 01/30/2024 20:11 (cpgbld02) $
 \o Hierarchy:		/pkg/cadence/installs/IC618/tools.lnx86/dfII/
 \o Sub version:		sub-version  IC6.1.8-64b.500.35  (64-bit addresses)
-\# Command line:	/pkg/cadence/installs/IC618/tools.lnx86/dfII/bin/64bit/virtuoso -noautostart -mpssession virtuoso832 -mpshost s2424 -davinciService DaVinciService_832_1739393749 -log /home/saul/projects/FIL3601/logs_saul/logs0/Job124.log -licenseLockFileName /home/saul/projects/FIL3601/.tmp_saul/.s2424_832 -interactiveA -interactiveE -interactiveRTT -nostdin -nographE -axlChildIdFlag 124
+\# Command line:	/pkg/cadence/installs/IC618/tools.lnx86/dfII/bin/64bit/virtuoso -noautostart -mpssession virtuoso20692 -mpshost s2424 -davinciService DaVinciService_20692_1745103739 -log /home/saul/projects/FIL3601/logs_saul/logs0/Job124.log -licenseLockFileName /home/saul/projects/FIL3601/.tmp_saul/.s2424_20692 -interactiveA -interactiveE -interactiveRTT -nostdin -nographE -axlChildIdFlag 124
 \# Host name (type):	s2424 (x86_64)
 \# Operating system:	Linux 3.10.0-1160.53.1.el7.x86_64 #1 SMP Fri Jan 14 13:59:45 UTC 2022
 \# Linux /etc/issue:	\S
 \# Linux /etc/issue:	Kernel \r on an \m
-\# X display name (WxH):	:1315 (1024x868)
+\# X display name (WxH):	:5808 (1024x868)
 \# Available geometry:			TL(0:0) BR(1023:867)
 \# X server:			The X.Org Foundation
 \# Depth of Visual (Root):	24 (24)
@@ -18,11 +18,11 @@
 \# 			current id 0x0, current max 0x1ffffa (2097146)
 \# Max data seg size:	     unlimited
 \# Max process size:	     unlimited
-\# Initial sbrk value:	        636 MB
-\# Available memory:	     72,217 MB
+\# Initial sbrk value:	        623 MB
+\# Available memory:	     81,082 MB
 \# System memory:	     96,361 MB
-\# Maximum memory size:	     96,016 MB
-\# Max mem available:	     72,507 MB
+\# Maximum memory size:	     96,029 MB
+\# Max mem available:	     81,372 MB
 \# Initial memory used:	        291 MB
 \#        process size:	      1,888 MB
 \# Thread usage limits (effective/default):	maxthreads 4096/4096 maxload 32.00/32.00
@@ -30,7 +30,7 @@
 \# Window Manager:	other
 \# User Name:		saul
 \o Working Directory:	s2424:/home/saul/projects/FIL3601
-\# Process Id:		30236
+\# Process Id:		18362
 \o 
 \o COPYRIGHT (C) 1992-2024  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
 \o           (C) 1992-2024  UNIX SYSTEMS Laboratories INC.,
@@ -67,23 +67,20 @@
 \o Loading caa.cxt 
 \o Loading amps.cxt 
 \o Loading adexlCore.cxt 
-\# Memory report: using         403 MB, process size 2,123 MB at UTC 2025.02.12 23:27:43.310
 \o Loading adexl.cxt 
+\# Memory report: using         420 MB, process size 2,140 MB at UTC 2025.04.20 01:19:13.089
 \o *Info*    Exporting services from client ... 
 \o 
 \o Loading adexlDM.cxt 
 \o Loading cpf.cxt 
 \o Loading cli.cxt 
 \o Loading lp.cxt 
-\o INFO (ELI-00302) Connecting to parent process (session=virtuoso832, host=s2424). Connection mode is ICRP. Total timeout is 180 seconds. Connection timeout is 90 seconds.
+\o INFO (ELI-00302) Connecting to parent process (session=virtuoso20692, host=s2424). Connection mode is ICRP. Total timeout is 180 seconds. Connection timeout is 90 seconds.
 \o INFO (ELI-00303) Step 1: Connecting to parent. Time spent is 0 seconds.
-\o INFO (ELI-00304) The registration of the child 30236 within 90 seconds is being processed...
+\o INFO (ELI-00304) The registration of the child 18362 within 90 seconds is being processed...
 \o INFO (ELI-00305) The result of registration is true. Time spent is 0 seconds.
-\o INFO (ELI-00308) The connection has ended. Result is true. Total time spent is 1 seconds.
-\# [00:27:34.512385] Configured Lic search path (22.01-s002): 3000@lic08.ug.kth.se
-\# Available memory:         69,987 MB at UTC 2025.02.12 23:27:45.661
-\# Memory report: Maximum memory size now 70,429 MB at UTC 2025.02.12 23:27:45.661
-\# Thread usage report: 37 active threads, active load 1.40 at UTC 2025.02.12 23:27:45.661
+\o INFO (ELI-00308) The connection has ended. Result is true. Total time spent is 0 seconds.
+\# [03:19:10.512369] Configured Lic search path (22.01-s002): 3000@lic08.ug.kth.se
 \o Loading .cdsinit for the XH018 X-Fab XKit.
 \o     LOAD xh018_1143 SPECIFIC CALL-BACK ROUTINES
 \o     LOAD ALL AVAILABLE P-CELL FUNCTIONS
@@ -105,13 +102,13 @@
 \o     GDSII OBJECT MAPPING FILE = "./.xkit/setup/xh018/cadence/PDK/TECH_XH018_1143/strmOutObjects.map"
 \o Use model setup from PDK...
 \o Loading spectrei.cxt 
-\# Memory report: using         509 MB, process size 2,235 MB at UTC 2025.02.12 23:27:46.141
 \o Loading devCheck.cxt 
 \o Loading relXpert.cxt 
 \o Loading vdsil.cxt 
 \o Loading hspiceD.cxt 
 \o Loading spectreinl.cxt 
 \o Loading UltraSim.cxt 
+\# Memory report: using         527 MB, process size 2,254 MB at UTC 2025.04.20 01:19:15.162
 \o Loading msgHandler.cxt 
 \o Loading AMSOSS.cxt 
 \o Loading AMS.cxt 
@@ -126,26 +123,31 @@
 \p > 
 \# Loading perfDiag...
 \# (PerfDiag): Set GDB path to environment variable 'gdbPath' (gdb).
-\# Performance Diagnostic tool is installed. You can access PerfDiag from CIW Tools or use the shell command 'cdsPerfDiag -p 30236' to open it when Virtuoso freezes.
+\# Performance Diagnostic tool is installed. You can access PerfDiag from CIW Tools or use the shell command 'cdsPerfDiag -p 18362' to open it when Virtuoso freezes.
 \# (PerfDiag): Loading backtrace from /pkg/cadence/installs/IC618/tools/lib/64bit/cdnslibunwind.so
 \o Loading vqp.cxt 
 \o Loading hdlPkg.cxt 
-\o Loading simui.cxt 
 \o 
 \o 
 \o *Info*    Configuring the session ...
 \o 
-\o 	Library      = CHARACTERIZATION
-\o 	Cell         = GMID_NMOS_L
+\o Loading simui.cxt 
+\o 	Library      = EX1
+\o 	Cell         = s2_bias_10
 \o 	View         = schematic
-\o 	Netlist  	  = nil
 \o 	Simulator    = spectre
 \o 	State Path   = $AXL_SETUPDB_DIR/test_states
-\o 	State Name   = CHARACTERIZATION:GMID_NMOS_L:1_CHARACTERIZATION:GMID_NMOS_L:1_Feb_13_00_27_27_2025_Ocean.4
-\o 	Results DB   = /home/saul/projects/FIL3601/CHARACTERIZATION/GMID_NMOS_L/adexl/results/data/Ocean.4.rdb
-\o 	Setup DB loc = /home/saul/projects/FIL3601/CHARACTERIZATION/GMID_NMOS_L/adexl
+\o 	State Name   = MC_EX1:s2_bias_10:1:1_state_MonteCarlo.10
+\o 	Results DB   = /home/saul/projects/FIL3601/EX1/s2_bias_10/adexl/results/data/MonteCarlo.10.rdb
+\o 	Results Dir  = /home/saul/projects/FIL3601/Sim/EX1/s2_bias_10/adexl/results/data/MonteCarlo.10/1/MC
+\o 	Results Loc  = /home/saul/projects/FIL3601/Sim/EX1/s2_bias_10/adexl/results/data
+\o 	Project Dir  = /home/saul/projects/FIL3601/Sim
+\o 	Setup DB loc = /home/saul/projects/FIL3601/EX1/s2_bias_10/adexl
+\o 	File Encoding = 0
 \o 
 \o 
+\o WARNING (ADE-7017): The Spectre run mode needs to be 'batch' when EM/IR analysis is enabled. Automatically setting the run mode to 'batch'.
+\o Loading cdf.cxt 
 \o 
 \o *Info*    The auto suspension is disabled.
 \o 
@@ -167,40 +169,37 @@
 \o 
 \o 
 \o 
-\o *Info*    Run start for Point ID (0 8) on testbench [
-\o           CHARACTERIZATION:GMID_NMOS_L:1 ].
+\o *Info*    Run start for Point ID (48 101) on testbench [ MC ].
 \o 
 \o Resetting statistical vars
 \o 
 \o *Info*    Setting parameter values ...
 \o 
-\o Setting var IDS1 = "50.11872336n"
-\o Setting var L1 = "180n"
-\o Setting var NF1 = "20"
-\o Setting var VDS1 = "0.9"
-\o Setting var WF1 = "10u"
+\o Setting var IN = "1"
+\o Setting var IN_DC = "0"
+\o Setting var VDD = "1.8"
 \o Setting var temperature = "27"
 \o Setting temp(T) = 27
 \o 
 \o *Info*    Netlist Directory =
-\o           /home/saul/projects/FIL3601/Sim/CHARACTERIZATION/GMID_NMOS_L/adexl/results/data/Ocean.4/8/CHARACTERIZATION:GMID_NMOS_L:1/netlist
+\o           /home/saul/projects/FIL3601/Sim/EX1/s2_bias_10/adexl/results/data/MonteCarlo.10/101/MC/groupRunDataDir/netlist
 \o 
 \o 
 \o *Info*    Data Directory    =
-\o           /home/saul/projects/FIL3601/Sim/CHARACTERIZATION/GMID_NMOS_L/adexl/results/data/Ocean.4/8/CHARACTERIZATION:GMID_NMOS_L:1
+\o           /home/saul/projects/FIL3601/Sim/EX1/s2_bias_10/adexl/results/data/MonteCarlo.10/101/MC/groupRunDataDir
 \o 
 \o 
-\o *Info*    Creating Netlist for Point ID (0 8)
+\o *Info*    Creating Netlist for Point ID (48 101)
 \o 
 \o generate netlist...
 \o Loading hnlInit.cxt 
 \o Loading seCore.cxt 
 \o function ansCdlCompPrim redefined
 \o function ansCdlCompPrim redefined
-\# [00:27:48.393744] periodic Lic check successful
-\# [00:27:48.393746] Feature usage summary:
-\o Begin Incremental Netlisting Feb 13 00:27:48 2025
-\o End netlisting Feb 13 00:27:48 2025
+\# [03:19:17.336985] periodic Lic check successful
+\# [03:19:17.336987] Feature usage summary:
+\o Begin Incremental Netlisting Apr 20 03:19:17 2025
+\o End netlisting Apr 20 03:19:17 2025
 \o 
 \o 	The netlist is up to date.
 \o 	Time taken to compare the design with netlist:   0.0s
@@ -208,54 +207,274 @@
 \o compose simulator input file...
 \o       ...successful.
 \o 
-\o *Info*    Running simulation on testbench [
-\o           CHARACTERIZATION:GMID_NMOS_L:1 ] for Point ID (0 8).
+\o *Info*    Running simulation on testbench [ MC ] for Point ID (48
+\o           101).
 \o 
-\o Delete psf data in /home/saul/projects/FIL3601/Sim/CHARACTERIZATION/GMID_NMOS_L/adexl/results/data/Ocean.4/8/CHARACTERIZATION:GMID_NMOS_L:1/psf.
+\o *Info*    Spectre controlMode is set "batch" due to monte carlo run.
+\o 
+\o Delete psf data in /home/saul/projects/FIL3601/Sim/EX1/s2_bias_10/adexl/results/data/MonteCarlo.10/101/MC/groupRunDataDir/psf.
+\o generate netlist...
+\# Memory report: using         673 MB, process size 2,406 MB at UTC 2025.04.20 01:19:18.087
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Apr 20 03:19:18 2025
+\o End netlisting Apr 20 03:19:18 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
 \o simulate...
-\# Memory report: using         672 MB, process size 2,455 MB at UTC 2025.02.12 23:27:49.886
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o Loading paraplot.cxt 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (48 101) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\# Available memory:         77,409 MB at UTC 2025.04.20 01:19:21.092
+\# Memory report: Maximum memory size now 78,110 MB at UTC 2025.04.20 01:19:21.092
+\# Thread usage report: 38 active threads, active load 1.40 at UTC 2025.04.20 01:19:21.093
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (48 102) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (48 103) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (48 104) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (48 105) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (48 106) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (48 107) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (48 108) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (48 109) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (48 110) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (48 111) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (48 112) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (48 113) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (48 114) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (48 115) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (48 116) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
 \o INFO (ADE-3071): Simulation completed successfully.
 \o reading simulation data...
 \o       ...successful.
 \o *Info*    Client has finished evaluating ... 
 \o 
 \o 
-\o *Info*    Run complete for Point ID (0 8) on testbench [
-\o           CHARACTERIZATION:GMID_NMOS_L:1 ].
+\o *Info*    Run complete for Point ID (48 117) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (48 118) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (48 119) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (48 120) on testbench [ MC ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Monte Carlo Simulation completed successfully...
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = EX1
+\o 	Cell         = s2_bias_10
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = CORNER_spectre_state1_MonteCarlo.11
+\o 	Results DB   = /home/saul/projects/FIL3601/EX1/s2_bias_10/adexl/results/data/MonteCarlo.11.rdb
+\o 	Results Dir  = /home/saul/projects/FIL3601/Sim/EX1/s2_bias_10/adexl/results/data/MonteCarlo.11/1/CORNER
+\o 	Results Loc  = /home/saul/projects/FIL3601/Sim/EX1/s2_bias_10/adexl/results/data
+\o 	Project Dir  = /home/saul/projects/FIL3601/Sim
+\o 	Setup DB loc = /home/saul/projects/FIL3601/EX1/s2_bias_10/adexl
+\o 	File Encoding = 0
+\o 
+\o 
+\o 
+\o *Info*    The auto suspension is disabled.
 \o 
 \o 
 \o 
 \o 
 \o 
 \o 
-\o 
-\o 
-\o 
-\o 
-\o *Info*    Run start for Point ID (0 26) on testbench [
-\o           CHARACTERIZATION:GMID_NMOS_L:1 ].
+\o *Info*    Run start for Point ID (49 61) on testbench [ CORNER ].
 \o 
 \o Resetting statistical vars
 \o 
 \o *Info*    Setting parameter values ...
 \o 
-\o Setting var IDS1 = "3.16227766u"
+\o Setting var IN = "1"
+\o Setting var IN_DC = "0"
+\o Setting var VDD = "1.8"
+\o Setting var temperature = "27"
+\o Setting temp(T) = 27
 \o 
 \o *Info*    Netlist Directory =
-\o           /home/saul/projects/FIL3601/Sim/CHARACTERIZATION/GMID_NMOS_L/adexl/results/data/Ocean.4/26/CHARACTERIZATION:GMID_NMOS_L:1/netlist
+\o           /home/saul/projects/FIL3601/Sim/EX1/s2_bias_10/adexl/results/data/MonteCarlo.11/61/CORNER/groupRunDataDir/netlist
 \o 
 \o 
 \o *Info*    Data Directory    =
-\o           /home/saul/projects/FIL3601/Sim/CHARACTERIZATION/GMID_NMOS_L/adexl/results/data/Ocean.4/26/CHARACTERIZATION:GMID_NMOS_L:1
+\o           /home/saul/projects/FIL3601/Sim/EX1/s2_bias_10/adexl/results/data/MonteCarlo.11/61/CORNER/groupRunDataDir
 \o 
 \o 
-\o *Info*    Creating Netlist for Point ID (0 26)
+\o *Info*    Creating Netlist for Point ID (49 61)
 \o 
 \o generate netlist...
 \o function ansCdlCompPrim redefined
 \o function ansCdlCompPrim redefined
-\o Begin Incremental Netlisting Feb 13 00:27:50 2025
-\o End netlisting Feb 13 00:27:50 2025
+\o Begin Incremental Netlisting Apr 20 03:23:23 2025
+\o End netlisting Apr 20 03:23:23 2025
 \o 
 \o 	The netlist is up to date.
 \o 	Time taken to compare the design with netlist:   0.0s
@@ -263,19 +482,53 @@
 \o compose simulator input file...
 \o       ...successful.
 \o 
-\o *Info*    Running simulation on testbench [
-\o           CHARACTERIZATION:GMID_NMOS_L:1 ] for Point ID (0 26).
+\o *Info*    Running simulation on testbench [ CORNER ] for Point ID (49
+\o           61).
 \o 
-\o Delete psf data in /home/saul/projects/FIL3601/Sim/CHARACTERIZATION/GMID_NMOS_L/adexl/results/data/Ocean.4/26/CHARACTERIZATION:GMID_NMOS_L:1/psf.
+\o *Info*    Spectre controlMode is set "batch" due to monte carlo run.
+\o 
+\o Delete psf data in /home/saul/projects/FIL3601/Sim/EX1/s2_bias_10/adexl/results/data/MonteCarlo.11/61/CORNER/groupRunDataDir/psf.
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Apr 20 03:23:23 2025
+\o End netlisting Apr 20 03:23:23 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
 \o simulate...
-\o INFO (ADE-3071): Simulation completed successfully.
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3067): Errors encountered during simulation. For more information, right-click
+\o         on a test name in the 'Results' tab of the Outputs pane and choose 'Output Log'
+\o         to view the simulation run log.
 \o reading simulation data...
 \o       ...successful.
-\o *Info*    Client has finished evaluating ... 
+\o *Info*    Monte Carlo Simulation unsuccessful...
+\o *Info*    See simulation output log for more information.
+\o 
+\o *Error*   Error ID  = 5069
+\o *Error*   Error Msg = Spectre simulator stopped due to following
+\o           reasons:
+\o Error found by spectre during Monte Carlo analysis
+\o           `mc1'.
+\o Error found by spectre during Monte Carlo analysis
+\o           `mc1'.
+\o ERROR (SPECTRE-16012): mc1: Attempt to run Monte
+\o           Carlo analysis with process and mismatch variations, but no
+\o           variations were specified in the statisti
+\o cs
+\o           block.
+\o 
+\o Resolve these errors and rerun simulation.
 \o 
 \o 
-\o *Info*    Run complete for Point ID (0 26) on testbench [
-\o           CHARACTERIZATION:GMID_NMOS_L:1 ].
 \o 
 \o 
 \o 
@@ -283,33 +536,33 @@
 \o 
 \o 
 \o 
-\o 
-\o 
-\o 
-\o *Info*    Run start for Point ID (0 35) on testbench [
-\o           CHARACTERIZATION:GMID_NMOS_L:1 ].
+\o *Info*    Run start for Point ID (49 61) on testbench [ CORNER ].
 \o 
 \o Resetting statistical vars
 \o 
 \o *Info*    Setting parameter values ...
 \o 
-\o Setting var IDS1 = "25.11886432u"
+\o Setting var IN = "1"
+\o Setting var IN_DC = "0"
+\o Setting var VDD = "1.8"
+\o Setting var temperature = "27"
+\o Setting temp(T) = 27
 \o 
 \o *Info*    Netlist Directory =
-\o           /home/saul/projects/FIL3601/Sim/CHARACTERIZATION/GMID_NMOS_L/adexl/results/data/Ocean.4/35/CHARACTERIZATION:GMID_NMOS_L:1/netlist
+\o           /home/saul/projects/FIL3601/Sim/EX1/s2_bias_10/adexl/results/data/MonteCarlo.11/61/CORNER/groupRunDataDir/netlist
 \o 
 \o 
 \o *Info*    Data Directory    =
-\o           /home/saul/projects/FIL3601/Sim/CHARACTERIZATION/GMID_NMOS_L/adexl/results/data/Ocean.4/35/CHARACTERIZATION:GMID_NMOS_L:1
+\o           /home/saul/projects/FIL3601/Sim/EX1/s2_bias_10/adexl/results/data/MonteCarlo.11/61/CORNER/groupRunDataDir
 \o 
 \o 
-\o *Info*    Creating Netlist for Point ID (0 35)
+\o *Info*    Creating Netlist for Point ID (49 61)
 \o 
 \o generate netlist...
 \o function ansCdlCompPrim redefined
 \o function ansCdlCompPrim redefined
-\o Begin Incremental Netlisting Feb 13 00:27:51 2025
-\o End netlisting Feb 13 00:27:51 2025
+\o Begin Incremental Netlisting Apr 20 03:23:26 2025
+\o End netlisting Apr 20 03:23:26 2025
 \o 
 \o 	The netlist is up to date.
 \o 	Time taken to compare the design with netlist:   0.0s
@@ -317,131 +570,60 @@
 \o compose simulator input file...
 \o       ...successful.
 \o 
-\o *Info*    Running simulation on testbench [
-\o           CHARACTERIZATION:GMID_NMOS_L:1 ] for Point ID (0 35).
+\o *Info*    Running simulation on testbench [ CORNER ] for Point ID (49
+\o           61).
 \o 
-\o Delete psf data in /home/saul/projects/FIL3601/Sim/CHARACTERIZATION/GMID_NMOS_L/adexl/results/data/Ocean.4/35/CHARACTERIZATION:GMID_NMOS_L:1/psf.
-\o simulate...
-\o INFO (ADE-3071): Simulation completed successfully.
-\o reading simulation data...
-\o       ...successful.
-\o *Info*    Client has finished evaluating ... 
+\o *Info*    Spectre controlMode is set "batch" due to monte carlo run.
 \o 
-\o 
-\o *Info*    Run complete for Point ID (0 35) on testbench [
-\o           CHARACTERIZATION:GMID_NMOS_L:1 ].
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o *Info*    Run start for Point ID (0 46) on testbench [
-\o           CHARACTERIZATION:GMID_NMOS_L:1 ].
-\o 
-\o Resetting statistical vars
-\o 
-\o *Info*    Setting parameter values ...
-\o 
-\o Setting var IDS1 = "316.227766u"
-\o 
-\o *Info*    Netlist Directory =
-\o           /home/saul/projects/FIL3601/Sim/CHARACTERIZATION/GMID_NMOS_L/adexl/results/data/Ocean.4/46/CHARACTERIZATION:GMID_NMOS_L:1/netlist
-\o 
-\o 
-\o *Info*    Data Directory    =
-\o           /home/saul/projects/FIL3601/Sim/CHARACTERIZATION/GMID_NMOS_L/adexl/results/data/Ocean.4/46/CHARACTERIZATION:GMID_NMOS_L:1
-\o 
-\o 
-\o *Info*    Creating Netlist for Point ID (0 46)
-\o 
+\o Delete psf data in /home/saul/projects/FIL3601/Sim/EX1/s2_bias_10/adexl/results/data/MonteCarlo.11/61/CORNER/groupRunDataDir/psf.
 \o generate netlist...
 \o function ansCdlCompPrim redefined
 \o function ansCdlCompPrim redefined
-\o Begin Incremental Netlisting Feb 13 00:27:53 2025
-\o End netlisting Feb 13 00:27:53 2025
+\o Begin Incremental Netlisting Apr 20 03:23:26 2025
+\o End netlisting Apr 20 03:23:26 2025
 \o 
 \o 	The netlist is up to date.
 \o 	Time taken to compare the design with netlist:   0.0s
 \o       ...successful.
 \o compose simulator input file...
 \o       ...successful.
-\o 
-\o *Info*    Running simulation on testbench [
-\o           CHARACTERIZATION:GMID_NMOS_L:1 ] for Point ID (0 46).
-\o 
-\o Delete psf data in /home/saul/projects/FIL3601/Sim/CHARACTERIZATION/GMID_NMOS_L/adexl/results/data/Ocean.4/46/CHARACTERIZATION:GMID_NMOS_L:1/psf.
+\o start simulator if needed...
+\o       ...successful.
 \o simulate...
-\o INFO (ADE-3071): Simulation completed successfully.
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3067): Errors encountered during simulation. For more information, right-click
+\o         on a test name in the 'Results' tab of the Outputs pane and choose 'Output Log'
+\o         to view the simulation run log.
 \o reading simulation data...
 \o       ...successful.
-\o *Info*    Client has finished evaluating ... 
+\o *Info*    Monte Carlo Simulation unsuccessful...
+\o *Info*    See simulation output log for more information.
 \o 
+\o *Error*   Error ID  = 5069
+\o *Error*   Error Msg = Spectre simulator stopped due to following
+\o           reasons:
+\o Error found by spectre during Monte Carlo analysis
+\o           `mc1'.
+\o Error found by spectre during Monte Carlo analysis
+\o           `mc1'.
+\o ERROR (SPECTRE-16012): mc1: Attempt to run Monte
+\o           Carlo analysis with process and mismatch variations, but no
+\o           variations were specified in the statisti
+\o cs
+\o           block.
 \o 
-\o *Info*    Run complete for Point ID (0 46) on testbench [
-\o           CHARACTERIZATION:GMID_NMOS_L:1 ].
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o *Info*    Run start for Point ID (0 54) on testbench [
-\o           CHARACTERIZATION:GMID_NMOS_L:1 ].
-\o 
-\o Resetting statistical vars
-\o 
-\o *Info*    Setting parameter values ...
-\o 
-\o Setting var IDS1 = "1.995262315m"
-\o 
-\o *Info*    Netlist Directory =
-\o           /home/saul/projects/FIL3601/Sim/CHARACTERIZATION/GMID_NMOS_L/adexl/results/data/Ocean.4/54/CHARACTERIZATION:GMID_NMOS_L:1/netlist
-\o 
-\o 
-\o *Info*    Data Directory    =
-\o           /home/saul/projects/FIL3601/Sim/CHARACTERIZATION/GMID_NMOS_L/adexl/results/data/Ocean.4/54/CHARACTERIZATION:GMID_NMOS_L:1
-\o 
-\o 
-\o *Info*    Creating Netlist for Point ID (0 54)
-\o 
-\o generate netlist...
-\o function ansCdlCompPrim redefined
-\o function ansCdlCompPrim redefined
-\o Begin Incremental Netlisting Feb 13 00:27:54 2025
-\o End netlisting Feb 13 00:27:54 2025
-\o 
-\o 	The netlist is up to date.
-\o 	Time taken to compare the design with netlist:   0.0s
-\o       ...successful.
-\o compose simulator input file...
-\o       ...successful.
-\o 
-\o *Info*    Running simulation on testbench [
-\o           CHARACTERIZATION:GMID_NMOS_L:1 ] for Point ID (0 54).
-\o 
-\o Delete psf data in /home/saul/projects/FIL3601/Sim/CHARACTERIZATION/GMID_NMOS_L/adexl/results/data/Ocean.4/54/CHARACTERIZATION:GMID_NMOS_L:1/psf.
-\o simulate...
-\# Thread usage report: 38 active threads, active load 1.40 at UTC 2025.02.12 23:27:55.308
-\o INFO (ADE-3071): Simulation completed successfully.
-\o reading simulation data...
-\o       ...successful.
-\o *Info*    Client has finished evaluating ... 
-\o 
-\o 
-\o *Info*    Run complete for Point ID (0 54) on testbench [
-\o           CHARACTERIZATION:GMID_NMOS_L:1 ].
+\o Resolve these errors and rerun simulation.
 \o 
 \o 
 \o 
 \o 
-\o 
-\o 
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\# Lic Summary:
+\# [03:28:34.353593] Cdslmd servers:3000@lic08.ug.kth.se
+\# [03:28:34.353619] Feature usage summary:
+\# Memory report: on exit            734 MB, process size 2,518 MB at UTC 2025.04.20 01:28:34.353
+\# Memory report: peak usage         734 MB, process size 2,518 MB

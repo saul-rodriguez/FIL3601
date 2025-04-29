@@ -6,17 +6,17 @@
 
 *Info*    Configuring the session ...
 
-	Library      = DAY5
-	Cell         = EXAMPLE2
+	Library      = EX1
+	Cell         = current_amplifier_final_tb
 	View         = schematic
 	Simulator    = spectre
 	State Path   = $AXL_SETUPDB_DIR/test_states
-	State Name   = DAY5:EXAMPLE2:1_none_Interactive.16
-	Results DB   = /home/saul/projects/FIL3601/DAY5/EXAMPLE2/adexl/results/data/Interactive.16.rdb
-	Results Dir  = /home/saul/projects/FIL3601/Sim/DAY5/EXAMPLE2/adexl/results/data/Interactive.16/1/DAY5:EXAMPLE2:1
-	Results Loc  = /home/saul/projects/FIL3601/Sim/DAY5/EXAMPLE2/adexl/results/data
+	State Name   = TRAN_PULSE_VDD_TRAN_STAB_IN:1_state_Interactive.73
+	Results DB   = /home/saul/projects/FIL3601/EX1/current_amplifier_final_tb/adexl/results/data/Interactive.73.rdb
+	Results Dir  = /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/Interactive.73/1/TRAN_PULSE_VDD
+	Results Loc  = /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data
 	Project Dir  = /home/saul/projects/FIL3601/Sim
-	Setup DB loc = /home/saul/projects/FIL3601/DAY5/EXAMPLE2/adexl
+	Setup DB loc = /home/saul/projects/FIL3601/EX1/current_amplifier_final_tb/adexl
 	File Encoding = 0
 
 
@@ -28,51 +28,57 @@
 
 
 
-*Info*    Run start for Point ID (1 1) on testbench [ DAY5:EXAMPLE2:1
+*Info*    Run start for Point ID (20 1) on testbench [ TRAN_PULSE_VDD
           ].
 
 Resetting statistical vars
 
 *Info*    Setting parameter values ...
 
-Setting var IDS = "400u"
-Setting var L = "0.5u"
-Setting var NF = "50"
-Setting var R1 = "300"
-Setting var R2 = "2700"
-Setting var RS = "1000"
-Setting var VDS = "0.9"
-Setting var VGS = "0.4386"
-Setting var WF = "10u"
+Setting var AMP1 = "0"
+Setting var AMP2 = "0"
+Setting var FREQ1 = "40M"
+Setting var FREQ2 = "50M"
+Setting var IN = "1"
+Setting var IN_DC = "0"
+Setting var IN_PULSE = "0"
+Setting var VDD = "0"
+Setting var VDD_PULSE = "1.8"
 Setting var temperature = "27"
 Setting temp(T) = 27
 
 *Info*    Netlist Directory =
-          /home/saul/projects/FIL3601/Sim/DAY5/EXAMPLE2/adexl/results/data/Interactive.16/1/DAY5:EXAMPLE2:1/netlist
+          /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/Interactive.73/1/TRAN_PULSE_VDD/netlist
 
 
 *Info*    Data Directory    =
-          /home/saul/projects/FIL3601/Sim/DAY5/EXAMPLE2/adexl/results/data/Interactive.16/1/DAY5:EXAMPLE2:1
+          /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/Interactive.73/1/TRAN_PULSE_VDD
 
 
-*Info*    Creating Netlist for Point ID (1 1)
+*Info*    Creating Netlist for Point ID (20 1)
 
 generate netlist...
 function ansCdlCompPrim redefined
 function ansCdlCompPrim redefined
-Begin Incremental Netlisting Mar  5 14:10:26 2025
-End netlisting Mar  5 14:10:26 2025
+Begin Incremental Netlisting Apr 26 16:55:23 2025
+WARNING (OSSHNL-941): Failed to open the sameCellNamesInMultipleLibs file '/home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/Interactive.53/1/AC_NOISE_PZ_TRANS_PSRR/netlist/ihnl/sameCellNamesInMultipleLibs', in the append mode.
+Ensure that you have the write permission for the mentioned file.
 
-	The netlist is up to date.
-	Time taken to compare the design with netlist:   0.0s
+End netlisting Apr 26 16:55:23 2025
+
+Netlisting Statistics:
+	Number of components:   44
+
+	Elapsed time:          1.0s (44.00/s)
+Errors: 0	Warnings: 0
       ...successful.
 compose simulator input file...
       ...successful.
 
-*Info*    Running simulation on testbench [ DAY5:EXAMPLE2:1 ] for
-          Point ID (1 1).
+*Info*    Running simulation on testbench [ TRAN_PULSE_VDD ] for
+          Point ID (20 1).
 
-Delete psf data in /home/saul/projects/FIL3601/Sim/DAY5/EXAMPLE2/adexl/results/data/Interactive.16/1/DAY5:EXAMPLE2:1/psf.
+Delete psf data in /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/Interactive.73/1/TRAN_PULSE_VDD/psf.
 compose simulator input file...
       ...successful.
 start simulator if needed...
@@ -86,16 +92,9 @@ reading simulation data...
       ...successful.
 *Info*    Client has finished evaluating ... 
 
-ERROR (ADE-1600): Cannot find an active session named .
-You can only modify an ADE session that is active.
-Perhaps the session name was misspelled or has not yet been created.	
-Verify the session name matches an existing ADE session.
 
-QuickPlot: error writing data to aggregate database
-QuickPlot: ("error" 0 t nil ("*Error* error: Cannot find an active session named ." nil))
-Error in writing quick plot waveform, pointId [(1 1)] testName ["DAY5:EXAMPLE2:1"]
-*Info*    Run complete for Point ID (1 1) on testbench [
-          DAY5:EXAMPLE2:1 ].
+*Info*    Run complete for Point ID (20 1) on testbench [
+          TRAN_PULSE_VDD ].
 
 
 

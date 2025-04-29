@@ -1,0 +1,6 @@
+[Logging Service: 9]
+[2025-04-02 01:26:03.306 +0200] [INFO] [cadence.virtuoso.ade.loggingservice] - HistoryRecorderManager init {"dbBasePath": "/home/saul/projects/FIL3601/DAY8/trans_2st_bias1/maestro/results/maestro"}
+[2025-04-02 01:26:03.307 +0200] [PROCESS] [cadence.virtuoso.ade.loggingservice] - Logging Service has successfully started. Waiting for incoming messages ... {"hostname": "s2424", "processid": 3092, "logfile": "/home/saul/projects/FIL3601/logs_saul/logs0/LoggingService9.log"}
+[2025-04-02 01:38:54.803 +0200] [PROCESS] [cadence.virtuoso.ade.loggingservice] - Current memory used: 36.2109 MBytes, peak memory used: 36.2109 MBytes {"hostname": "s2424", "processid": 3092, "logfile": "/home/saul/projects/FIL3601/logs_saul/logs0/LoggingService9.log"}
+[2025-04-02 01:38:54.803 +0200] [PROCESS] [cadence.virtuoso.ade.loggingservice] - Stopping Logging Service process. {"hostname": "s2424", "processid": 3092, "logfile": "/home/saul/projects/FIL3601/logs_saul/logs0/LoggingService9.log"}
+[2025-04-02 01:38:54.803 +0200] [PROCESS] [cadence.virtuoso.ade.loggingservice] - Logging Service stop!!!! {"hostname": "s2424", "processid": 3092, "logfile": "/home/saul/projects/FIL3601/logs_saul/logs0/LoggingService9.log"}

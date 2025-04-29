@@ -6,11 +6,11 @@
 LockStakeVersion               1.1
 LoginName                      saul
 HostName                       s2424.it.kth.se
-ProcessIdentifier              12447
-ProcessCreationTime_UTC        1741169543
-ProcessCreationTime_Readable   Wed Mar  5 11:12:23 2025 CET
+ProcessIdentifier              4693
+ProcessCreationTime_UTC        1745676662
+ProcessCreationTime_Readable   Sat Apr 26 16:11:02 2025 CEST
 AppIdentifier                  /pkg/cadence/installs/IC618/tools.lnx86/dfII/bin/64bit/virtuoso
 OSType                         lnx86
 ReasonForPlacingEditLock       Set lock by hiiLockFile
 FilePathUsedToEditLock         /home/saul/projects/FIL3601/logs_saul/logs0/Job11.log
-TimeEditLocked                 Wed Mar  5 11:12:24 2025 CET
+TimeEditLocked                 Sat Apr 26 16:11:03 2025 CEST

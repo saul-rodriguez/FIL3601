@@ -6,59 +6,62 @@
 
 *Info*    Configuring the session ...
 
-	Library      = DAY6
-	Cell         = ex1
+	Library      = EX1
+	Cell         = current_amplifier_final_tb
 	View         = schematic
 	Simulator    = spectre
 	State Path   = $AXL_SETUPDB_DIR/test_states
-	State Name   = 1k_none_Interactive.45
-	Results DB   = /home/saul/projects/FIL3601/DAY6/ex1/adexl/results/data/Interactive.45.rdb
-	Results Dir  = /home/saul/projects/FIL3601/Sim/DAY6/ex1/adexl/results/data/Interactive.45/1/1k
-	Results Loc  = /home/saul/projects/FIL3601/Sim/DAY6/ex1/adexl/results/data
+	State Name   = AC_NOISE_PZ_TRANS_PSRR_none_Interactive.57
+	Results DB   = /home/saul/projects/FIL3601/EX1/current_amplifier_final_tb/adexl/results/data/Interactive.57.rdb
+	Results Dir  = /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/Interactive.57/1/AC_NOISE_PZ_TRANS_PSRR
+	Results Loc  = /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data
 	Project Dir  = /home/saul/projects/FIL3601/Sim
-	Setup DB loc = /home/saul/projects/FIL3601/DAY6/ex1/adexl
+	Setup DB loc = /home/saul/projects/FIL3601/EX1/current_amplifier_final_tb/adexl
 	File Encoding = 0
 
 
-WARNING (ADE-7017): The Spectre run mode needs to be 'batch' when EM/IR analysis is enabled. Automatically setting the run mode to 'batch'.
 
 *Info*    The auto suspension is disabled.
 
-Loading monte.cxt 
 
 
 
 
 
-*Info*    Run start for Point ID (8 1) on testbench [ 1k ].
+*Info*    Run start for Point ID (4 1) on testbench [
+          AC_NOISE_PZ_TRANS_PSRR ].
 
 Resetting statistical vars
 
 *Info*    Setting parameter values ...
 
-Setting var FREQ = "1k"
-Setting var VIN = "500m"
-Setting var VPULSE = "0"
+Setting var AMP1 = "2u"
+Setting var AMP2 = "0"
+Setting var FREQ1 = "1M"
+Setting var FREQ2 = "50M"
+Setting var IN = "1"
+Setting var IN_DC = "0"
+Setting var IN_PULSE = "0"
+Setting var VDD = "1.8"
+Setting var VDD_PULSE = "0"
 Setting var temperature = "27"
 Setting temp(T) = 27
 
 *Info*    Netlist Directory =
-          /home/saul/projects/FIL3601/Sim/DAY6/ex1/adexl/results/data/Interactive.45/1/1k/netlist
+          /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/Interactive.57/1/AC_NOISE_PZ_TRANS_PSRR/netlist
 
 
 *Info*    Data Directory    =
-          /home/saul/projects/FIL3601/Sim/DAY6/ex1/adexl/results/data/Interactive.45/1/1k
+          /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/Interactive.57/1/AC_NOISE_PZ_TRANS_PSRR
 
 
-*Info*    Creating Netlist for Point ID (8 1)
+*Info*    Creating Netlist for Point ID (4 1)
 
 generate netlist...
-Loading hnlInit.cxt 
-Loading seCore.cxt 
 function ansCdlCompPrim redefined
 function ansCdlCompPrim redefined
-Begin Incremental Netlisting Mar  8 09:23:21 2025
-End netlisting Mar  8 09:23:21 2025
+Begin Incremental Netlisting Apr 26 06:50:50 2025
+End netlisting Apr 26 06:50:50 2025
 
 	The netlist is up to date.
 	Time taken to compare the design with netlist:   0.0s
@@ -66,9 +69,10 @@ End netlisting Mar  8 09:23:21 2025
 compose simulator input file...
       ...successful.
 
-*Info*    Running simulation on testbench [ 1k ] for Point ID (8 1).
+*Info*    Running simulation on testbench [ AC_NOISE_PZ_TRANS_PSRR ]
+          for Point ID (4 1).
 
-Delete psf data in /home/saul/projects/FIL3601/Sim/DAY6/ex1/adexl/results/data/Interactive.45/1/1k/psf.
+Delete psf data in /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/Interactive.57/1/AC_NOISE_PZ_TRANS_PSRR/psf.
 compose simulator input file...
       ...successful.
 start simulator if needed...
@@ -77,14 +81,14 @@ simulate...
 To view the simulator output, right-click on the test name, result 
 name, or any value in the "Results" tab of the Outputs section and 
 choose "Output Log" menu option.
-Loading paraplot.cxt 
 INFO (ADE-3071): Simulation completed successfully.
 reading simulation data...
       ...successful.
 *Info*    Client has finished evaluating ... 
 
 
-*Info*    Run complete for Point ID (8 1) on testbench [ 1k ].
+*Info*    Run complete for Point ID (4 1) on testbench [
+          AC_NOISE_PZ_TRANS_PSRR ].
 
 
 

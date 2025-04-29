@@ -1,0 +1,79 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Sat Apr 26 17:40:38 2025 
+Best design point: 1
+Design specs: 
+	TRAN_PULSE_VDD	corner	PVT_0 - 
+	TRAN_PULSE_VDD	corner	PVT_1 - 
+	TRAN_PULSE_VDD	corner	PVT_2 - 
+	TRAN_PULSE_VDD	corner	PVT_3 - 
+	TRAN_PULSE_VDD	corner	PVT_4 - 
+	TRAN_PULSE_VDD	corner	PVT_5 - 
+	TRAN_PULSE_VDD	corner	PVT_6 - 
+	TRAN_PULSE_VDD	corner	PVT_7 - 
+	TRAN_PULSE_VDD	corner	PVT_8 - 
+	TRAN_PULSE_VDD	corner	PVT_9 - 
+	TRAN_PULSE_VDD	corner	PVT_10 - 
+	TRAN_PULSE_VDD	corner	PVT_11 - 
+	TRAN_PULSE_VDD	corner	PVT_12 - 
+	TRAN_PULSE_VDD	corner	PVT_13 - 
+	TRAN_PULSE_VDD	corner	PVT_14 - 
+	TRAN_PULSE_VDD	corner	PVT_15 - 
+	TRAN_PULSE_VDD	corner	PVT_16 - 
+	TRAN_PULSE_VDD	corner	PVT_17 - 
+	TRAN_PULSE_VDD	corner	PVT_18 - 
+	TRAN_PULSE_VDD	corner	PVT_19 - 
+	TRAN_PULSE_VDD	corner	PVT_20 - 
+	TRAN_PULSE_VDD	corner	PVT_21 - 
+	TRAN_PULSE_VDD	corner	PVT_22 - 
+	TRAN_PULSE_VDD	corner	PVT_23 - 
+	TRAN_PULSE_VDD	corner	PVT_24 - 
+	TRAN_PULSE_VDD	corner	PVT_25 - 
+	TRAN_PULSE_VDD	corner	PVT_26 - 
+	TRAN_PULSE_VDD	corner	PVT_27 - 
+	TRAN_PULSE_VDD	corner	PVT_28 - 
+	TRAN_PULSE_VDD	corner	PVT_29 - 
+	TRAN_PULSE_VDD	corner	PVT_30 - 
+	TRAN_PULSE_VDD	corner	PVT_31 - 
+	TRAN_PULSE_VDD	corner	PVT_32 - 
+	TRAN_PULSE_VDD	corner	PVT_33 - 
+	TRAN_PULSE_VDD	corner	PVT_34 - 
+	TRAN_PULSE_VDD	corner	PVT_35 - 
+	TRAN_PULSE_VDD	corner	PVT_36 - 
+	TRAN_PULSE_VDD	corner	PVT_37 - 
+	TRAN_PULSE_VDD	corner	PVT_38 - 
+	TRAN_PULSE_VDD	corner	PVT_39 - 
+	TRAN_PULSE_VDD	corner	PVT_40 - 
+	TRAN_PULSE_VDD	corner	PVT_41 - 
+	TRAN_PULSE_VDD	corner	PVT_42 - 
+	TRAN_PULSE_VDD	corner	PVT_43 - 
+	TRAN_PULSE_VDD	corner	PVT_44 - 
+	TRAN_PULSE_VDD	corner	PVT_45 - 
+	TRAN_PULSE_VDD	corner	PVT_46 - 
+	TRAN_PULSE_VDD	corner	PVT_47 - 
+	TRAN_PULSE_VDD	corner	PVT_48 - 
+	TRAN_PULSE_VDD	corner	PVT_49 - 
+	TRAN_PULSE_VDD	corner	PVT_50 - 
+	TRAN_PULSE_VDD	corner	PVT_51 - 
+	TRAN_PULSE_VDD	corner	PVT_52 - 
+	TRAN_PULSE_VDD	corner	PVT_53 - 
+	TRAN_PULSE_VDD	corner	PVT_54 - 
+	TRAN_PULSE_VDD	corner	PVT_55 - 
+	TRAN_PULSE_VDD	corner	PVT_56 - 
+	TRAN_PULSE_VDD	corner	PVT_57 - 
+	TRAN_PULSE_VDD	corner	PVT_58 - 
+	TRAN_PULSE_VDD	corner	PVT_59 - 
+	TRAN_PULSE_VDD	corner	PVT_60 - 
+	TRAN_PULSE_VDD	corner	PVT_61 - 
+	TRAN_PULSE_VDD	corner	PVT_62 - 
+	TRAN_PULSE_VDD	corner	PVT_63 - 
+	TRAN_PULSE_VDD	corner	Nominal - 
+Design parameters: 
+	IN		1
+	IN_DC		0
+
+Interactive.101
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.101 completed. 
+Current time: Sat Apr 26 17:41:00 2025 

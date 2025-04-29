@@ -1,0 +1,72 @@
+Starting Monte Carlo Sampling...
+
+Current time: Sat Apr 26 17:54:57 2025 
+
+Variation: All
+Sampling Method: Low-Discrepancy Sequence
+Seed: 
+
+MonteCarlo.0
+Number of points completed: 300
+Number of simulation errors: 300
+MonteCarlo.0 completed. 
+Current time: Sat Apr 26 17:55:46 2025 
+Monte Carlo Sampling yield summary:
+Number of spec values are in this yield data: 16
+AC_NOISE_PZ_TRANS_PSRR	Nominal - 
+	%THD v /OUT; pss (V):	Yield	0%
+		Min 0	Max 0	Mean 0	Number of errors 300
+AC_NOISE_PZ_TRANS_PSRR	Nominal - 
+	Bandwidth_3dB:	Yield	0%
+		Min 0	Max 0	Mean 0	Number of errors 300
+AC_NOISE_PZ_TRANS_PSRR	Nominal - 
+	Gain_dB:	Yield	0%
+		Min 0	Max 0	Mean 0	Number of errors 300
+AC_NOISE_PZ_TRANS_PSRR	Nominal - 
+	PSRR:	Yield	0%
+		Min 0	Max 0	Mean 0	Number of errors 300
+AC_NOISE_PZ_TRANS_PSRR	Nominal - 
+	Poles:	Yield	0%
+		Min 0	Max 0	Mean 0	Number of errors 300
+AC_NOISE_PZ_TRANS_PSRR	Nominal - 
+	Zeros:	Yield	0%
+		Min 0	Max 0	Mean 0	Number of errors 300
+AC_NOISE_PZ_TRANS_PSRR	Nominal - 
+	i /R3/PLUS; pss dB20(I):	Yield	0%
+		Min 0	Max 0	Mean 0	Number of errors 300
+AC_NOISE_PZ_TRANS_PSRR	Nominal - 
+	input noise; A / sqrt(Hz):	Yield	0%
+		Min 0	Max 0	Mean 0	Number of errors 300
+AC_NOISE_PZ_TRANS_PSRR_MC	Nominal - 
+	%THD v /OUT; pss (V):	Yield	0%
+		Min 0	Max 0	Mean 0	Number of errors 300
+AC_NOISE_PZ_TRANS_PSRR_MC	Nominal - 
+	Bandwidth_3dB:	Yield	100%
+		Min 3.17419e+07	Max 3.8744e+07	Mean 3.58208e+07	Number of errors 0
+AC_NOISE_PZ_TRANS_PSRR_MC	Nominal - 
+	Gain_dB:	Yield	0%
+		Min 0	Max 0	Mean 0	Number of errors 0
+AC_NOISE_PZ_TRANS_PSRR_MC	Nominal - 
+	PSRR:	Yield	0%
+		Min 0	Max 0	Mean 0	Number of errors 0
+AC_NOISE_PZ_TRANS_PSRR_MC	Nominal - 
+	Poles:	Yield	0%
+		Min 0	Max 0	Mean 0	Number of errors 300
+AC_NOISE_PZ_TRANS_PSRR_MC	Nominal - 
+	Zeros:	Yield	0%
+		Min 0	Max 0	Mean 0	Number of errors 300
+AC_NOISE_PZ_TRANS_PSRR_MC	Nominal - 
+	i /R3/PLUS; pss dB20(I):	Yield	0%
+		Min 0	Max 0	Mean 0	Number of errors 300
+AC_NOISE_PZ_TRANS_PSRR_MC	Nominal - 
+	input noise; A / sqrt(Hz):	Yield	0%
+		Min 0	Max 0	Mean 0	Number of errors 300
+
+AC_NOISE_PZ_TRANS_PSRR
+	Overall Yield	100%	Number of points passed	300	Total number of points	300
+
+AC_NOISE_PZ_TRANS_PSRR_MC
+	Overall Yield	100%	Number of points passed	300	Total number of points	300
+
+Estimated yield = 100% (300/300), 300 errors
+Estimated yield (No opregions) = 100% (300/300)

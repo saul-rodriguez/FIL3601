@@ -1,0 +1,45 @@
+Starting Monte Carlo Sampling...
+
+Current time: Sat Apr 26 18:44:54 2025 
+
+Variation: All
+Sampling Method: Low-Discrepancy Sequence
+Seed: 
+
+MonteCarlo.1
+Number of points completed: 300
+Number of simulation errors: 300
+MonteCarlo.1 completed. 
+Current time: Sat Apr 26 18:45:25 2025 
+Monte Carlo Sampling yield summary:
+Number of spec values are in this yield data: 8
+AC_NOISE_PZ_TRANS_PSRR	Nominal - 
+	%THD v /OUT; pss (V):	Yield	0%
+		Min 0	Max 0	Mean 0	Number of errors 0
+AC_NOISE_PZ_TRANS_PSRR	Nominal - 
+	Bandwidth_3dB:	Yield	0%
+		Min 0	Max 0	Mean 0	Number of errors 0
+AC_NOISE_PZ_TRANS_PSRR	Nominal - 
+	Gain_dB:	Yield	0%
+		Min 0	Max 0	Mean 0	Number of errors 0
+AC_NOISE_PZ_TRANS_PSRR	Nominal - 
+	PSRR:	Yield	0%
+		Min 0	Max 0	Mean 0	Number of errors 0
+AC_NOISE_PZ_TRANS_PSRR	Nominal - 
+	Poles:	Yield	0%
+		Min 0	Max 0	Mean 0	Number of errors 0
+AC_NOISE_PZ_TRANS_PSRR	Nominal - 
+	Zeros:	Yield	0%
+		Min 0	Max 0	Mean 0	Number of errors 0
+AC_NOISE_PZ_TRANS_PSRR	Nominal - 
+	i /R3/PLUS; pss dB20(I):	Yield	0%
+		Min 0	Max 0	Mean 0	Number of errors 0
+AC_NOISE_PZ_TRANS_PSRR	Nominal - 
+	input noise; A / sqrt(Hz):	Yield	0%
+		Min 0	Max 0	Mean 0	Number of errors 0
+
+AC_NOISE_PZ_TRANS_PSRR
+	Overall Yield	0%	Number of points passed	0	Total number of points	0
+
+Estimated yield = 0% (0/0), 0 errors
+Estimated yield (No opregions) = 0% (0/0)

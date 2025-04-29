@@ -1,14 +1,14 @@
-\# Program start time:     UTC 2025.03.08 08:45:49.859
-\# Local time: CET (UTC+01:00) 2025.03.08 09:45:49.859
+\# Program start time:     UTC 2025.04.26 14:11:15.235
+\# Local time: CEST (UTC+02:00) 2025.04.26 16:11:15.235
 \o Program:		@(#)$CDS: virtuoso version 6.1.8-64b 01/30/2024 20:11 (cpgbld02) $
 \o Hierarchy:		/pkg/cadence/installs/IC618/tools.lnx86/dfII/
 \o Sub version:		sub-version  IC6.1.8-64b.500.35  (64-bit addresses)
-\# Command line:	/pkg/cadence/installs/IC618/tools.lnx86/dfII/bin/64bit/virtuoso -noautostart -mpssession virtuoso20917 -mpshost s2424 -davinciService DaVinciService_20917_1741413705 -log /home/saul/projects/FIL3601/logs_saul/logs0/Job19.log -licenseLockFileName /home/saul/projects/FIL3601/.tmp_saul/.s2424_20917 -interactiveA -interactiveE -interactiveRTT -nostdin -nographE -axlChildIdFlag 19
+\# Command line:	/pkg/cadence/installs/IC618/tools.lnx86/dfII/bin/64bit/virtuoso -noautostart -mpssession virtuoso23927 -mpshost s2424 -davinciService DaVinciService_23927_1745638980 -log /home/saul/projects/FIL3601/logs_saul/logs0/Job19.log -licenseLockFileName /home/saul/projects/FIL3601/.tmp_saul/.s2424_23927 -interactiveA -interactiveE -interactiveRTT -nostdin -nographE -axlChildIdFlag 19
 \# Host name (type):	s2424 (x86_64)
 \# Operating system:	Linux 3.10.0-1160.53.1.el7.x86_64 #1 SMP Fri Jan 14 13:59:45 UTC 2022
 \# Linux /etc/issue:	\S
 \# Linux /etc/issue:	Kernel \r on an \m
-\# X display name (WxH):	:3432 (1024x868)
+\# X display name (WxH):	:1627 (1024x868)
 \# Available geometry:			TL(0:0) BR(1023:867)
 \# X server:			The X.Org Foundation
 \# Depth of Visual (Root):	24 (24)
@@ -18,11 +18,11 @@
 \# 			current id 0x0, current max 0x1ffffa (2097146)
 \# Max data seg size:	     unlimited
 \# Max process size:	     unlimited
-\# Initial sbrk value:	        635 MB
-\# Available memory:	     69,501 MB
+\# Initial sbrk value:	        628 MB
+\# Available memory:	     77,515 MB
 \# System memory:	     96,361 MB
-\# Maximum memory size:	     96,017 MB
-\# Max mem available:	     69,792 MB
+\# Maximum memory size:	     96,023 MB
+\# Max mem available:	     77,805 MB
 \# Initial memory used:	        291 MB
 \#        process size:	      1,888 MB
 \# Thread usage limits (effective/default):	maxthreads 4096/4096 maxload 32.00/32.00
@@ -30,7 +30,7 @@
 \# Window Manager:	other
 \# User Name:		saul
 \o Working Directory:	s2424:/home/saul/projects/FIL3601
-\# Process Id:		12736
+\# Process Id:		5822
 \o 
 \o COPYRIGHT (C) 1992-2024  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
 \o           (C) 1992-2024  UNIX SYSTEMS Laboratories INC.,
@@ -68,19 +68,19 @@
 \o Loading amps.cxt 
 \o Loading adexlCore.cxt 
 \o Loading adexl.cxt 
-\# Memory report: using         420 MB, process size 2,140 MB at UTC 2025.03.08 08:45:52.198
 \o *Info*    Exporting services from client ... 
 \o 
 \o Loading adexlDM.cxt 
 \o Loading cpf.cxt 
 \o Loading cli.cxt 
 \o Loading lp.cxt 
-\o INFO (ELI-00302) Connecting to parent process (session=virtuoso20917, host=s2424). Connection mode is ICRP. Total timeout is 180 seconds. Connection timeout is 90 seconds.
+\o INFO (ELI-00302) Connecting to parent process (session=virtuoso23927, host=s2424). Connection mode is ICRP. Total timeout is 180 seconds. Connection timeout is 90 seconds.
 \o INFO (ELI-00303) Step 1: Connecting to parent. Time spent is 0 seconds.
-\o INFO (ELI-00304) The registration of the child 12736 within 90 seconds is being processed...
+\o INFO (ELI-00304) The registration of the child 5822 within 90 seconds is being processed...
 \o INFO (ELI-00305) The result of registration is true. Time spent is 0 seconds.
 \o INFO (ELI-00308) The connection has ended. Result is true. Total time spent is 0 seconds.
-\# [09:45:49.512505] Configured Lic search path (22.01-s002): 3000@lic08.ug.kth.se
+\# [16:11:15.512377] Configured Lic search path (22.01-s002): 3000@lic08.ug.kth.se
+\# Memory report: using         442 MB, process size 2,169 MB at UTC 2025.04.26 14:11:18.811
 \o Loading .cdsinit for the XH018 X-Fab XKit.
 \o     LOAD xh018_1143 SPECIFIC CALL-BACK ROUTINES
 \o     LOAD ALL AVAILABLE P-CELL FUNCTIONS
@@ -105,7 +105,6 @@
 \o Loading devCheck.cxt 
 \o Loading relXpert.cxt 
 \o Loading vdsil.cxt 
-\# Memory report: using         523 MB, process size 2,249 MB at UTC 2025.03.08 08:45:54.173
 \o Loading hspiceD.cxt 
 \o Loading spectreinl.cxt 
 \o Loading UltraSim.cxt 
@@ -123,7 +122,7 @@
 \p > 
 \# Loading perfDiag...
 \# (PerfDiag): Set GDB path to environment variable 'gdbPath' (gdb).
-\# Performance Diagnostic tool is installed. You can access PerfDiag from CIW Tools or use the shell command 'cdsPerfDiag -p 12736' to open it when Virtuoso freezes.
+\# Performance Diagnostic tool is installed. You can access PerfDiag from CIW Tools or use the shell command 'cdsPerfDiag -p 5822' to open it when Virtuoso freezes.
 \# (PerfDiag): Loading backtrace from /pkg/cadence/installs/IC618/tools/lib/64bit/cdnslibunwind.so
 \o Loading vqp.cxt 
 \o Loading hdlPkg.cxt 
@@ -132,21 +131,23 @@
 \o *Info*    Configuring the session ...
 \o 
 \o Loading simui.cxt 
-\o 	Library      = DAY6
-\o 	Cell         = ex1
+\o 	Library      = EX1
+\o 	Cell         = current_amplifier_final_tb
 \o 	View         = schematic
 \o 	Simulator    = spectre
 \o 	State Path   = $AXL_SETUPDB_DIR/test_states
-\o 	State Name   = 3M_DAY6:ex1:1:1_state_Interactive.49
-\o 	Results DB   = /home/saul/projects/FIL3601/DAY6/ex1/adexl/results/data/Interactive.49.rdb
-\o 	Results Dir  = /home/saul/projects/FIL3601/Sim/DAY6/ex1/adexl/results/data/Interactive.49/1/3M
-\o 	Results Loc  = /home/saul/projects/FIL3601/Sim/DAY6/ex1/adexl/results/data
+\o 	State Name   = AC_NOISE_PZ_TRANS_PSRR_none_Interactive.58
+\o 	Results DB   = /home/saul/projects/FIL3601/EX1/current_amplifier_final_tb/adexl/results/data/Interactive.58.rdb
+\o 	Results Dir  = /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/Interactive.58/6/AC_NOISE_PZ_TRANS_PSRR
+\o 	Results Loc  = /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data
 \o 	Project Dir  = /home/saul/projects/FIL3601/Sim
-\o 	Setup DB loc = /home/saul/projects/FIL3601/DAY6/ex1/adexl
+\o 	Setup DB loc = /home/saul/projects/FIL3601/EX1/current_amplifier_final_tb/adexl
 \o 	File Encoding = 0
 \o 
 \o 
+\# Memory report: using         566 MB, process size 2,299 MB at UTC 2025.04.26 14:11:21.216
 \o WARNING (ADE-7017): The Spectre run mode needs to be 'batch' when EM/IR analysis is enabled. Automatically setting the run mode to 'batch'.
+\o Loading cdf.cxt 
 \o 
 \o *Info*    The auto suspension is disabled.
 \o 
@@ -168,38 +169,44 @@
 \o 
 \o 
 \o 
-\o *Info*    Run start for Point ID (12 1) on testbench [ 3M ].
+\o *Info*    Run start for Point ID (5 13) on testbench [
+\o           AC_NOISE_PZ_TRANS_PSRR ].
 \o 
 \o Resetting statistical vars
 \o 
 \o *Info*    Setting parameter values ...
 \o 
-\o Setting var FREQ = "1M"
-\o Setting var VIN = "500m"
-\o Setting var VPULSE = "0"
-\o Setting var temperature = "27"
-\o Setting temp(T) = 27
+\o Setting var AMP1 = "2u"
+\o Setting var AMP2 = "0"
+\o Setting var FREQ1 = "1M"
+\o Setting var FREQ2 = "50M"
+\o Setting var IN = "1"
+\o Setting var IN_DC = "0"
+\o Setting var IN_PULSE = "0"
+\o Setting var VDD = "1.98"
+\o Setting var VDD_PULSE = "0"
+\o Setting var temperature = "85"
+\o Setting temp(T) = 85
 \o 
 \o *Info*    Netlist Directory =
-\o           /home/saul/projects/FIL3601/Sim/DAY6/ex1/adexl/results/data/Interactive.49/1/3M/netlist
+\o           /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/Interactive.58/13/AC_NOISE_PZ_TRANS_PSRR/netlist
 \o 
 \o 
 \o *Info*    Data Directory    =
-\o           /home/saul/projects/FIL3601/Sim/DAY6/ex1/adexl/results/data/Interactive.49/1/3M
+\o           /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/Interactive.58/13/AC_NOISE_PZ_TRANS_PSRR
 \o 
 \o 
-\o *Info*    Creating Netlist for Point ID (12 1)
+\o *Info*    Creating Netlist for Point ID (5 13)
 \o 
 \o generate netlist...
 \o Loading hnlInit.cxt 
 \o Loading seCore.cxt 
 \o function ansCdlCompPrim redefined
 \o function ansCdlCompPrim redefined
-\# [09:45:57.041330] Periodic Lic check successful
-\# [09:45:57.041337] Feature usage summary:
-\# Memory report: using         648 MB, process size 2,381 MB at UTC 2025.03.08 08:45:57.053
-\o Begin Incremental Netlisting Mar  8 09:45:57 2025
-\o End netlisting Mar  8 09:45:57 2025
+\# [16:11:22.469392] periodic Lic check successful
+\# [16:11:22.469394] Feature usage summary:
+\o Begin Incremental Netlisting Apr 26 16:11:22 2025
+\o End netlisting Apr 26 16:11:22 2025
 \o 
 \o 	The netlist is up to date.
 \o 	Time taken to compare the design with netlist:   0.0s
@@ -207,9 +214,10 @@
 \o compose simulator input file...
 \o       ...successful.
 \o 
-\o *Info*    Running simulation on testbench [ 3M ] for Point ID (12 1).
+\o *Info*    Running simulation on testbench [ AC_NOISE_PZ_TRANS_PSRR ]
+\o           for Point ID (5 13).
 \o 
-\o Delete psf data in /home/saul/projects/FIL3601/Sim/DAY6/ex1/adexl/results/data/Interactive.49/1/3M/psf.
+\o Delete psf data in /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/Interactive.58/13/AC_NOISE_PZ_TRANS_PSRR/psf.
 \o compose simulator input file...
 \o       ...successful.
 \o start simulator if needed...
@@ -219,91 +227,202 @@
 \o name, or any value in the "Results" tab of the Outputs section and 
 \o choose "Output Log" menu option.
 \o Loading paraplot.cxt 
+\# Memory report: using         692 MB, process size 2,475 MB at UTC 2025.04.26 14:11:23.704
 \o INFO (ADE-3071): Simulation completed successfully.
 \o reading simulation data...
 \o       ...successful.
 \o *Info*    Client has finished evaluating ... 
 \o 
+\e *Error* xval: can't handle xval(nil)
+\e 
+\e 
+\e *Error* ("difference" 0 t nil ("*Error* difference: can't handle (100.0 - nil)"))
+\e 
+\e 
+\o ERROR (ADE-2708): Evaluation of output '%THD v /OUT; pss (V)' failed for point:'13' test:'AC_NOISE_PZ_TRANS_PSRR'
+\o 	Expression:'_drplPssHarmThd(vh('pss "/OUT") 1)'
+\o 	because of the following error(s)
+\o 	*Error* difference: can't handle (100.0 - nil).
+\o Ensure that the definition of output is correct.
 \o 
-\o *Info*    Run complete for Point ID (12 1) on testbench [ 3M ].
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/Interactive.58/13/AC_NOISE_PZ_TRANS_PSRR. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/Interactive.58/13/AC_NOISE_PZ_TRANS_PSRR. Use results() for a list of available results.
+\e *Error* 
+\e  Error in locating poles-zeros. Ensure that poles and zeros exist in this simualtion data.
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'Zeros' returned 'nil' for point:'13' test:'AC_NOISE_PZ_TRANS_PSRR'
+\o 	Expression:'pzFrequencyAndRealFilter(getData("zeros" ?result "pz"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/Interactive.58/13/AC_NOISE_PZ_TRANS_PSRR. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/Interactive.58/13/AC_NOISE_PZ_TRANS_PSRR. Use results() for a list of available results.
+\e *Error* 
+\e  Error in locating poles-zeros. Ensure that poles and zeros exist in this simualtion data.
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'Poles' returned 'nil' for point:'13' test:'AC_NOISE_PZ_TRANS_PSRR'
+\o 	Expression:'pzFrequencyAndRealFilter(getData("poles" ?result "pz"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'i /R3/PLUS; pss dB20(I)' returned 'nil' for point:'13' test:'AC_NOISE_PZ_TRANS_PSRR'
+\o 	Expression:'db(ih('pss "/R3/PLUS"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o 
+\o *Info*    Run complete for Point ID (5 13) on testbench [
+\o           AC_NOISE_PZ_TRANS_PSRR ].
 \o 
 \o 
 \o 
 \o 
 \o 
-\# Available memory:         68,647 MB at UTC 2025.03.08 08:46:00.307
-\# Memory report: Maximum memory size now 69,342 MB at UTC 2025.03.08 08:46:00.307
-\# Thread usage report: 38 active threads, active load 1.40 at UTC 2025.03.08 08:46:00.307
-\o Simulation design variables differ from those on the cellView,
-\o they have been saved in the file "/tmp/saved-design-variables".
-\o To save future changes, copy variables to cellView before exiting.
-\o 
-\o 
-\o *Info*    Configuring the session ...
-\o 
-\o 	Library      = DAY6
-\o 	Cell         = ex1
-\o 	View         = schematic
-\o 	Simulator    = spectre
-\o 	State Path   = $AXL_SETUPDB_DIR/test_states
-\o 	State Name   = 3M_DAY6:ex1:1:1_state_Interactive.50
-\o 	Results DB   = /home/saul/projects/FIL3601/DAY6/ex1/adexl/results/data/Interactive.50.rdb
-\o 	Results Dir  = /home/saul/projects/FIL3601/Sim/DAY6/ex1/adexl/results/data/Interactive.50/1/3M
-\o 	Results Loc  = /home/saul/projects/FIL3601/Sim/DAY6/ex1/adexl/results/data
-\o 	Project Dir  = /home/saul/projects/FIL3601/Sim
-\o 	Setup DB loc = /home/saul/projects/FIL3601/DAY6/ex1/adexl
-\o 	File Encoding = 0
-\o 
-\o 
-\o 
-\o *Info*    The auto suspension is disabled.
 \o 
 \o 
 \o 
 \o 
 \o 
-\o 
-\o *Info*    Run start for Point ID (13 1) on testbench [ 3M ].
+\o *Info*    Run start for Point ID (5 26) on testbench [
+\o           AC_NOISE_PZ_TRANS_PSRR ].
 \o 
 \o Resetting statistical vars
 \o 
 \o *Info*    Setting parameter values ...
 \o 
-\o Setting var FREQ = "3M"
-\o Setting var VIN = "500m"
-\o Setting var VPULSE = "0"
-\o Setting var temperature = "27"
-\o Setting temp(T) = 27
+\o Setting var VDD = "1.62"
+\o Setting var temperature = "-20"
+\o Setting temp(T) = -20
 \o 
 \o *Info*    Netlist Directory =
-\o           /home/saul/projects/FIL3601/Sim/DAY6/ex1/adexl/results/data/Interactive.50/1/3M/netlist
+\o           /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/Interactive.58/26/AC_NOISE_PZ_TRANS_PSRR/netlist
 \o 
 \o 
 \o *Info*    Data Directory    =
-\o           /home/saul/projects/FIL3601/Sim/DAY6/ex1/adexl/results/data/Interactive.50/1/3M
+\o           /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/Interactive.58/26/AC_NOISE_PZ_TRANS_PSRR
 \o 
 \o 
-\o *Info*    Creating Netlist for Point ID (13 1)
+\o *Info*    Creating Netlist for Point ID (5 26)
 \o 
 \o generate netlist...
 \o function ansCdlCompPrim redefined
 \o function ansCdlCompPrim redefined
-\o Begin Incremental Netlisting Mar  8 09:48:14 2025
-\o Loading json.cxt 
-\o End netlisting Mar  8 09:48:14 2025
+\o Begin Incremental Netlisting Apr 26 16:11:24 2025
+\o End netlisting Apr 26 16:11:24 2025
 \o 
-\o Netlisting Statistics:
-\o 	Number of components:   16
-\o 
-\o 	Elapsed time:          0.0s
-\o Errors: 0	Warnings: 0
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
 \o       ...successful.
 \o compose simulator input file...
 \o       ...successful.
 \o 
-\o *Info*    Running simulation on testbench [ 3M ] for Point ID (13 1).
+\o *Info*    Running simulation on testbench [ AC_NOISE_PZ_TRANS_PSRR ]
+\o           for Point ID (5 26).
 \o 
-\o Delete psf data in /home/saul/projects/FIL3601/Sim/DAY6/ex1/adexl/results/data/Interactive.50/1/3M/psf.
+\o Delete psf data in /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/Interactive.58/26/AC_NOISE_PZ_TRANS_PSRR/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\# Available memory:         73,648 MB at UTC 2025.04.26 14:11:26.124
+\# Memory report: Maximum memory size now 74,359 MB at UTC 2025.04.26 14:11:26.124
+\# Thread usage report: 38 active threads, active load 1.40 at UTC 2025.04.26 14:11:26.124
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\e *Error* xval: can't handle xval(nil)
+\e 
+\e 
+\e *Error* ("difference" 0 t nil ("*Error* difference: can't handle (100.0 - nil)"))
+\e 
+\e 
+\o ERROR (ADE-2708): Evaluation of output '%THD v /OUT; pss (V)' failed for point:'26' test:'AC_NOISE_PZ_TRANS_PSRR'
+\o 	Expression:'_drplPssHarmThd(vh('pss "/OUT") 1)'
+\o 	because of the following error(s)
+\o 	*Error* difference: can't handle (100.0 - nil).
+\o Ensure that the definition of output is correct.
+\o 
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/Interactive.58/26/AC_NOISE_PZ_TRANS_PSRR. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/Interactive.58/26/AC_NOISE_PZ_TRANS_PSRR. Use results() for a list of available results.
+\e *Error* 
+\e  Error in locating poles-zeros. Ensure that poles and zeros exist in this simualtion data.
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'Zeros' returned 'nil' for point:'26' test:'AC_NOISE_PZ_TRANS_PSRR'
+\o 	Expression:'pzFrequencyAndRealFilter(getData("zeros" ?result "pz"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/Interactive.58/26/AC_NOISE_PZ_TRANS_PSRR. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/Interactive.58/26/AC_NOISE_PZ_TRANS_PSRR. Use results() for a list of available results.
+\e *Error* 
+\e  Error in locating poles-zeros. Ensure that poles and zeros exist in this simualtion data.
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'Poles' returned 'nil' for point:'26' test:'AC_NOISE_PZ_TRANS_PSRR'
+\o 	Expression:'pzFrequencyAndRealFilter(getData("poles" ?result "pz"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'i /R3/PLUS; pss dB20(I)' returned 'nil' for point:'26' test:'AC_NOISE_PZ_TRANS_PSRR'
+\o 	Expression:'db(ih('pss "/R3/PLUS"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o 
+\o *Info*    Run complete for Point ID (5 26) on testbench [
+\o           AC_NOISE_PZ_TRANS_PSRR ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (5 41) on testbench [
+\o           AC_NOISE_PZ_TRANS_PSRR ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var VDD = "1.98"
+\o Setting var temperature = "85"
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/Interactive.58/41/AC_NOISE_PZ_TRANS_PSRR/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/Interactive.58/41/AC_NOISE_PZ_TRANS_PSRR
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (5 41)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Apr 26 16:11:26 2025
+\o End netlisting Apr 26 16:11:26 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ AC_NOISE_PZ_TRANS_PSRR ]
+\o           for Point ID (5 41).
+\o 
+\o Delete psf data in /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/Interactive.58/41/AC_NOISE_PZ_TRANS_PSRR/psf.
 \o compose simulator input file...
 \o       ...successful.
 \o start simulator if needed...
@@ -317,8 +436,244 @@
 \o       ...successful.
 \o *Info*    Client has finished evaluating ... 
 \o 
+\e *Error* xval: can't handle xval(nil)
+\e 
+\e 
+\e *Error* ("difference" 0 t nil ("*Error* difference: can't handle (100.0 - nil)"))
+\e 
+\e 
+\o ERROR (ADE-2708): Evaluation of output '%THD v /OUT; pss (V)' failed for point:'41' test:'AC_NOISE_PZ_TRANS_PSRR'
+\o 	Expression:'_drplPssHarmThd(vh('pss "/OUT") 1)'
+\o 	because of the following error(s)
+\o 	*Error* difference: can't handle (100.0 - nil).
+\o Ensure that the definition of output is correct.
 \o 
-\o *Info*    Run complete for Point ID (13 1) on testbench [ 3M ].
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/Interactive.58/41/AC_NOISE_PZ_TRANS_PSRR. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/Interactive.58/41/AC_NOISE_PZ_TRANS_PSRR. Use results() for a list of available results.
+\e *Error* 
+\e  Error in locating poles-zeros. Ensure that poles and zeros exist in this simualtion data.
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'Zeros' returned 'nil' for point:'41' test:'AC_NOISE_PZ_TRANS_PSRR'
+\o 	Expression:'pzFrequencyAndRealFilter(getData("zeros" ?result "pz"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/Interactive.58/41/AC_NOISE_PZ_TRANS_PSRR. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/Interactive.58/41/AC_NOISE_PZ_TRANS_PSRR. Use results() for a list of available results.
+\e *Error* 
+\e  Error in locating poles-zeros. Ensure that poles and zeros exist in this simualtion data.
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'Poles' returned 'nil' for point:'41' test:'AC_NOISE_PZ_TRANS_PSRR'
+\o 	Expression:'pzFrequencyAndRealFilter(getData("poles" ?result "pz"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'i /R3/PLUS; pss dB20(I)' returned 'nil' for point:'41' test:'AC_NOISE_PZ_TRANS_PSRR'
+\o 	Expression:'db(ih('pss "/R3/PLUS"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o 
+\o *Info*    Run complete for Point ID (5 41) on testbench [
+\o           AC_NOISE_PZ_TRANS_PSRR ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (5 48) on testbench [
+\o           AC_NOISE_PZ_TRANS_PSRR ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "-20"
+\o Setting temp(T) = -20
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/Interactive.58/48/AC_NOISE_PZ_TRANS_PSRR/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/Interactive.58/48/AC_NOISE_PZ_TRANS_PSRR
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (5 48)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Apr 26 16:11:28 2025
+\o End netlisting Apr 26 16:11:28 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ AC_NOISE_PZ_TRANS_PSRR ]
+\o           for Point ID (5 48).
+\o 
+\o Delete psf data in /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/Interactive.58/48/AC_NOISE_PZ_TRANS_PSRR/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\e *Error* xval: can't handle xval(nil)
+\e 
+\e 
+\e *Error* ("difference" 0 t nil ("*Error* difference: can't handle (100.0 - nil)"))
+\e 
+\e 
+\o ERROR (ADE-2708): Evaluation of output '%THD v /OUT; pss (V)' failed for point:'48' test:'AC_NOISE_PZ_TRANS_PSRR'
+\o 	Expression:'_drplPssHarmThd(vh('pss "/OUT") 1)'
+\o 	because of the following error(s)
+\o 	*Error* difference: can't handle (100.0 - nil).
+\o Ensure that the definition of output is correct.
+\o 
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/Interactive.58/48/AC_NOISE_PZ_TRANS_PSRR. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/Interactive.58/48/AC_NOISE_PZ_TRANS_PSRR. Use results() for a list of available results.
+\e *Error* 
+\e  Error in locating poles-zeros. Ensure that poles and zeros exist in this simualtion data.
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'Zeros' returned 'nil' for point:'48' test:'AC_NOISE_PZ_TRANS_PSRR'
+\o 	Expression:'pzFrequencyAndRealFilter(getData("zeros" ?result "pz"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/Interactive.58/48/AC_NOISE_PZ_TRANS_PSRR. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/Interactive.58/48/AC_NOISE_PZ_TRANS_PSRR. Use results() for a list of available results.
+\e *Error* 
+\e  Error in locating poles-zeros. Ensure that poles and zeros exist in this simualtion data.
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'Poles' returned 'nil' for point:'48' test:'AC_NOISE_PZ_TRANS_PSRR'
+\o 	Expression:'pzFrequencyAndRealFilter(getData("poles" ?result "pz"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'i /R3/PLUS; pss dB20(I)' returned 'nil' for point:'48' test:'AC_NOISE_PZ_TRANS_PSRR'
+\o 	Expression:'db(ih('pss "/R3/PLUS"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o 
+\o *Info*    Run complete for Point ID (5 48) on testbench [
+\o           AC_NOISE_PZ_TRANS_PSRR ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (5 61) on testbench [
+\o           AC_NOISE_PZ_TRANS_PSRR ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "85"
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/Interactive.58/61/AC_NOISE_PZ_TRANS_PSRR/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/Interactive.58/61/AC_NOISE_PZ_TRANS_PSRR
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (5 61)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Apr 26 16:11:30 2025
+\o End netlisting Apr 26 16:11:30 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ AC_NOISE_PZ_TRANS_PSRR ]
+\o           for Point ID (5 61).
+\o 
+\o Delete psf data in /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/Interactive.58/61/AC_NOISE_PZ_TRANS_PSRR/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\e *Error* xval: can't handle xval(nil)
+\e 
+\e 
+\e *Error* ("difference" 0 t nil ("*Error* difference: can't handle (100.0 - nil)"))
+\e 
+\e 
+\o ERROR (ADE-2708): Evaluation of output '%THD v /OUT; pss (V)' failed for point:'61' test:'AC_NOISE_PZ_TRANS_PSRR'
+\o 	Expression:'_drplPssHarmThd(vh('pss "/OUT") 1)'
+\o 	because of the following error(s)
+\o 	*Error* difference: can't handle (100.0 - nil).
+\o Ensure that the definition of output is correct.
+\o 
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/Interactive.58/61/AC_NOISE_PZ_TRANS_PSRR. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/Interactive.58/61/AC_NOISE_PZ_TRANS_PSRR. Use results() for a list of available results.
+\e *Error* 
+\e  Error in locating poles-zeros. Ensure that poles and zeros exist in this simualtion data.
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'Zeros' returned 'nil' for point:'61' test:'AC_NOISE_PZ_TRANS_PSRR'
+\o 	Expression:'pzFrequencyAndRealFilter(getData("zeros" ?result "pz"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/Interactive.58/61/AC_NOISE_PZ_TRANS_PSRR. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results pz are not available for /home/saul/projects/FIL3601/Sim/EX1/current_amplifier_final_tb/adexl/results/data/Interactive.58/61/AC_NOISE_PZ_TRANS_PSRR. Use results() for a list of available results.
+\e *Error* 
+\e  Error in locating poles-zeros. Ensure that poles and zeros exist in this simualtion data.
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'Poles' returned 'nil' for point:'61' test:'AC_NOISE_PZ_TRANS_PSRR'
+\o 	Expression:'pzFrequencyAndRealFilter(getData("poles" ?result "pz"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* db: can't handle db(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'i /R3/PLUS; pss dB20(I)' returned 'nil' for point:'61' test:'AC_NOISE_PZ_TRANS_PSRR'
+\o 	Expression:'db(ih('pss "/R3/PLUS"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o 
+\o *Info*    Run complete for Point ID (5 61) on testbench [
+\o           AC_NOISE_PZ_TRANS_PSRR ].
 \o 
 \o 
 \o 
@@ -327,7 +682,8 @@
 \o Simulation design variables differ from those on the cellView,
 \o they have been saved in the file "/tmp/saved-design-variables".
 \o To save future changes, copy variables to cellView before exiting.
-\o 
-\o *Info*    Received signal SIGTERM.
-\o 
-\o 
+\# Lic Summary:
+\# [16:16:35.361472] Cdslmd servers:3000@lic08.ug.kth.se
+\# [16:16:35.361513] Feature usage summary:
+\# Memory report: on exit            710 MB, process size 2,494 MB at UTC 2025.04.26 14:16:35.361
+\# Memory report: peak usage         710 MB, process size 2,494 MB

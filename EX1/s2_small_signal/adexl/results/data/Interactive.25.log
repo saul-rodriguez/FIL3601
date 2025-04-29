@@ -1,0 +1,28 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Fri Apr 25 14:09:02 2025 
+Best design point: 1
+Design specs: 
+	closed_loop	corner	Nominal - 
+	AB	corner	Nominal - 
+Design parameters: 
+	rds1		2.876K
+	cgs1		245.3f
+	cgb1		82.23f
+	cgd1		66.05f
+	cds1		101.5f
+	cdb1		208.8f
+	gm4		11.77m
+	rds4		2.328K
+	cgs4		295.4f
+	cgb4		42.11f
+	cgd4		64.07f
+	cds4		390a
+	cdb4		160.5f
+	gm1_cpy		15.73m
+
+Interactive.25
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.25 completed. 
+Current time: Fri Apr 25 14:09:13 2025 

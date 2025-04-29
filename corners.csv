@@ -1,0 +1,15 @@
+Corner,P,PT,PVT
+Enable,t,t,t
+Temperature,,-20 85,-20 85
+Tags,,,
+VDD,1.8,1.8,1.62 1.98
+Modelfile::/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/config.scs,t default,t default,t default
+Modelfile::/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/param.scs,t 3s,t 3s,t 3s
+Modelfile::/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/bip.scs,t tm,t tm,t tm
+Modelfile::/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/cap.scs,t wp ws,t wp ws,t wp ws
+Modelfile::/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/dio.scs,t tm,t tm,t tm
+Modelfile::/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/mos.scs,t wp ws  wo wz,t wp ws  wo wz,t wp ws  wo wz
+Modelfile::/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/photo.scs,t tm,t tm,t tm
+Modelfile::/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/res.scs,t wp ws,t wp ws,t wp ws
+Modelfile::/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/xh018.scs,f ,f ,f 
+t Test::AC_NOISE_PZ_TRAN,t,t,t

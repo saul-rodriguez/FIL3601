@@ -1,0 +1,19 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Sun Apr 27 00:34:02 2025 
+Best design point: 1
+Design specs: 
+	EX1:s2_bias_1:1	corner	Nominal - 
+	IM2		-73.52
+	IM3		-81.34
+	Gain_dB		Error	No
+	input noise; A / sqrt(Hz)		Error	No
+Design parameters: 
+	IN_DC		0
+	IN		1
+
+Interactive.7
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.7 completed. 
+Current time: Sun Apr 27 00:34:07 2025 
