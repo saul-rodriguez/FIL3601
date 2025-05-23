@@ -1,0 +1,39 @@
+
+// Library name: DAY7
+// Cell name: ex1_small_signal
+// View name: schematic
+I24 (VA1 net12 0) MOS_AC gm=gm4 rds=rds4 cgb=cgb4 cgs=cgs4 cgd=cgd4 \
+        cdb=cdb4 cds=cds4
+I23 (net12 net12 0) MOS_AC gm=gm4 rds=rds4 cgb=cgb4 cgs=cgs4 cgd=cgd4 \
+        cdb=cdb4 cds=cds4
+I20 (VA1 net10 S3) MOS_AC gm=gm1 rds=rds1 cgb=cgb1 cgs=cgs1 cgd=cgd1 \
+        cdb=cdb1 cds=cds1
+I18 (net12 net11 S3) MOS_AC gm=gm1 rds=rds1 cgb=cgb1 cgs=cgs1 cgd=cgd1 \
+        cdb=cdb1 cds=cds1
+I31 (VO1 0 0) MOS_AC gm=gm3 rds=rds3 cgb=cgb3 cgs=cgs3 cgd=cgd3 cdb=cdb3 \
+        cds=cds3
+I29 (VO1 VA1 0) MOS_AC gm=gm2 rds=rds2 cgb=cgb2 cgs=cgs2 cgd=cgd2 cdb=cdb2 \
+        cds=cds2
+V8 (net8 0) vsource mag=1 type=sine
+V6 (net10 0) vsource mag=1 type=sine
+R6 (0 VA2) resistor r=rds4
+R12 (VO2 0) resistor r=rds3
+R11 (VO2 net14) resistor r=180k
+R5 (0 VA2) resistor r=rds1
+R8 (VO1 net11) resistor r=180k
+R7 (VO2 0) resistor r=rds2
+R9 (net11 0) resistor r=20k
+R10 (net14 0) resistor r=20k
+C6 (0 VA2) capacitor c=cds1+cdb1+cgd4 +cdb4
+C7 (VA2 0) capacitor c=cgb2 +cgs2
+C3 (net14 net8) capacitor c=cgb1/2 +cgs1/2
+C2 (net8 VA2) capacitor c=cgd1
+C1 (net14 0) capacitor c=cgd1
+C10 (VO2 0) capacitor c=cds2+cdb2+cgd3+cds3+cdb3
+C13 (VO1 0) capacitor c=1p
+C8 (VA2 VO2) capacitor c=cgd2
+C12 (VO2 net14) capacitor c=60f
+C11 (VO1 net11) capacitor c=75f
+C14 (VO2 0) capacitor c=1p
+G1 (VO2 0 VA2 0) vccs gm=gm2
+G0 (0 VA2 net14 net8) vccs gm=gm1

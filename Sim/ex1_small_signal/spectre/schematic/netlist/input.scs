@@ -1,0 +1,87 @@
+// Generated for: spectre
+// Generated on: May  3 21:58:32 2025
+// Design library name: DAY7
+// Design cell name: ex1_small_signal
+// Design view name: schematic
+simulator lang=spectre
+global 0
+parameters gm3=0.319m rds3=13.043M cgb3=84.34f cgs3=372.5f cgd3=13.22f \
+    cdb3=79.52f cds3=184.79f cdb2=9.65f cds2=0.02f cgb2=3.61f cgd2=3.2f \
+    cgs2=26.9f gm2=0.227m rds2=452599 cdb4=66f cds4=0.77f cgb4=178f \
+    cgd4=25.65f cgs4=317f gm4=97u rds4=2.355M cdb1=32.99f cds1=0.96f \
+    cgb1=35f cgd1=13.2f cgs1=14.9f gm1=0.122m rds1=4.068M
+include "/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/config.scs" section=default
+include "/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/param.scs" section=3s
+include "/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/bip.scs" section=tm
+include "/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/cap.scs" section=tm
+include "/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/dio.scs" section=tm
+include "/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/mos.scs" section=tm
+include "/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/photo.scs" section=tm
+include "/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/res.scs" section=tm
+
+// Library name: DAY2
+// Cell name: MOS_AC
+// View name: schematic
+subckt MOS_AC D G S
+parameters gm rds cgb cgs cgd cdb cds
+    G0 (D S G S) vccs gm=gm
+    R0 (D S) resistor r=rds
+    C6 (G S) capacitor c=cgb
+    C5 (G S) capacitor c=cgs
+    C4 (G D) capacitor c=cgd
+    C3 (D S) capacitor c=cdb
+    C0 (D S) capacitor c=cds
+ends MOS_AC
+// End of subcircuit definition.
+
+// Library name: DAY7
+// Cell name: ex1_small_signal
+// View name: schematic
+I24 (VA1 net12 0) MOS_AC gm=gm4 rds=rds4 cgb=cgb4 cgs=cgs4 cgd=cgd4 \
+        cdb=cdb4 cds=cds4
+I23 (net12 net12 0) MOS_AC gm=gm4 rds=rds4 cgb=cgb4 cgs=cgs4 cgd=cgd4 \
+        cdb=cdb4 cds=cds4
+I20 (VA1 net10 S3) MOS_AC gm=gm1 rds=rds1 cgb=cgb1 cgs=cgs1 cgd=cgd1 \
+        cdb=cdb1 cds=cds1
+I18 (net12 net11 S3) MOS_AC gm=gm1 rds=rds1 cgb=cgb1 cgs=cgs1 cgd=cgd1 \
+        cdb=cdb1 cds=cds1
+I31 (VO1 0 0) MOS_AC gm=gm3 rds=rds3 cgb=cgb3 cgs=cgs3 cgd=cgd3 cdb=cdb3 \
+        cds=cds3
+I29 (VO1 VA1 0) MOS_AC gm=gm2 rds=rds2 cgb=cgb2 cgs=cgs2 cgd=cgd2 cdb=cdb2 \
+        cds=cds2
+V8 (net8 0) vsource mag=1 type=sine
+V6 (net10 0) vsource mag=1 type=sine
+R6 (0 VA2) resistor r=rds4
+R12 (VO2 0) resistor r=rds3
+R11 (VO2 net14) resistor r=180k
+R5 (0 VA2) resistor r=rds1
+R8 (VO1 net11) resistor r=180k
+R7 (VO2 0) resistor r=rds2
+R9 (net11 0) resistor r=20k
+R10 (net14 0) resistor r=20k
+C6 (0 VA2) capacitor c=cds1+cdb1+cgd4 +cdb4
+C7 (VA2 0) capacitor c=cgb2 +cgs2
+C3 (net14 net8) capacitor c=cgb1/2 +cgs1/2
+C2 (net8 VA2) capacitor c=cgd1
+C1 (net14 0) capacitor c=cgd1
+C10 (VO2 0) capacitor c=cds2+cdb2+cgd3+cds3+cdb3
+C13 (VO1 0) capacitor c=1p
+C8 (VA2 VO2) capacitor c=cgd2
+C12 (VO2 net14) capacitor c=60f
+C11 (VO1 net11) capacitor c=75f
+C14 (VO2 0) capacitor c=1p
+G1 (VO2 0 VA2 0) vccs gm=gm2
+G0 (0 VA2 net14 net8) vccs gm=gm1
+simulatorOptions options psfversion="1.4.0" reltol=1e-3 vabstol=1e-6 \
+    iabstol=1e-12 temp=27 tnom=27 scalem=1.0 scale=1.0 gmin=1e-12 rforce=1 \
+    maxnotes=5 maxwarns=5 digits=5 cols=80 pivrel=1e-3 \
+    sensfile="../psf/sens.output" checklimitdest=psf 
+ac ac start=0.01 stop=10G dec=20 annotate=status 
+pz ( VO1 ) pz iprobe=V6 freq=1 
+modelParameter info what=models where=rawfile
+element info what=inst where=rawfile
+outputParameter info what=output where=rawfile
+designParamVals info what=parameters where=rawfile
+primitives info what=primitives where=rawfile
+subckts info what=subckts where=rawfile
+saveOptions options save=allpub

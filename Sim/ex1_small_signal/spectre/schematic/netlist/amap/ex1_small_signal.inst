@@ -1,0 +1,7 @@
+HEADER
+"PSFversion" "1.00"
+"I24n I23n I20n I18n I31n I29n" "MOS_AC"
+"V8n V6n" "analogLib_vsin_spectre"
+"R6n R12n R11n R5n R8n R7n R9n R10n" "analogLib_res_spectre"
+"C6n C7n C3n C2n C1n C10n C13n C8n C12n C11n C14n" "analogLib_cap_spectre"
+"G1n G0n" "analogLib_vccs_spectre"
