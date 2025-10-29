@@ -1,0 +1,22 @@
+sub bulk nwtrm
+METTPL METTPL
+active np_rpdiff p_rpdiff np_rndiff p_rndiff
+cont cont_p1trm_ndiff cont_p1trm_pdiff cont_m1trm_ndiff cont_m1trm_pdiff np_rcont_m1trm_p1trm p_rcont_m1trm_p1trm
+mttrm np_rmttrm p_rmttrm
+m4trm np_rm4trm p_rm4trm
+m3trm np_rm3trm p_rm3trm
+m2trm np_rm2trm p_rm2trm
+m1trm np_rm1trm p_rm1trm
+p1trm np_rp1trm p_rp1trm
+ndiff np_rndiff p_rndiff
+pdiff np_rpdiff p_rpdiff
+nwtrm np_rnwtrm p_rnwtrm
+bulk bulk
+vtpCON np_rvtpCON p_rvtpCON
+vtpcm vtpcm
+capm np_rcapm p_rcapm
+via3CON np_rvia3CON p_rvia3CON
+via2CON np_rvia2CON p_rvia2CON
+via1 np_rvia1 p_rvia1
+ntap ntap
+ptap ptap

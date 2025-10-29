@@ -1,0 +1,27 @@
+-v /opt/pdk/xfab/XKIT/xh018/diglibs/IO_CELLS_JIC3V/v1_0/verilog/v1_0_0/IO_CELLS_JIC3V.v 
+-v /opt/pdk/xfab/XKIT/xh018/diglibs/IO_CELLS_JIC1V8/v1_0/verilog/v1_0_0/IO_CELLS_JIC1V8.v 
+-v /opt/pdk/xfab/XKIT/xh018/diglibs/IO_CELLS_C3V/v1_2/verilog/v1_2_0/IO_CELLS_C3V.v 
+-v /opt/pdk/xfab/XKIT/xh018/diglibs/IO_CELLS_F3V/v2_1/verilog/v2_1_0/IO_CELLS_F3V.v 
+-v /opt/pdk/xfab/XKIT/xh018/diglibs/D_CELLS_3V/v2_1/verilog/v2_1_0/D_CELLS_3V.v 
+-v /opt/pdk/xfab/XKIT/xh018/diglibs/IO_CELLS_JIFC3V/v1_0/verilog/v1_0_0/IO_CELLS_JIFC3V.v 
+-v /opt/pdk/xfab/XKIT/xh018/diglibs/IO_CELLS_FC3V/v1_2/verilog/v1_2_0/IO_CELLS_FC3V.v 
+-v /opt/pdk/xfab/XKIT/xh018/diglibs/D_CELLS_JIHDLL/v3_0/verilog/v3_0_0/D_CELLS_JIHDLL.v 
+-v /opt/pdk/xfab/XKIT/xh018/diglibs/D_CELLS_JIM3V/v2_1/verilog/v2_1_0/D_CELLS_JIM3V.v 
+-v /opt/pdk/xfab/XKIT/xh018/diglibs/D_CELLS_JIHD/v6_0/verilog/v6_0_0/D_CELLS_JIHD.v 
+-v /opt/pdk/xfab/XKIT/xh018/diglibs/IO_CELLS_FC1V8/v1_1/verilog/v1_1_0_1/IO_CELLS_FC1V8.v 
+-v /opt/pdk/xfab/XKIT/xh018/diglibs/D_CELLS_JIHDLVT/v1_0/verilog/v1_0_0/D_CELLS_JIHDLVT.v 
+-v /opt/pdk/xfab/XKIT/xh018/diglibs/D_CELLS_JIHDMV/v3_0/verilog/v3_0_0/D_CELLS_JIHDMV.v 
+-v /opt/pdk/xfab/XKIT/xh018/diglibs/D_CELLS_HDLL/v3_0/verilog/v3_0_0/D_CELLS_HDLL.v 
+-v /opt/pdk/xfab/XKIT/xh018/diglibs/D_CELLS_HDSVT/v3_0/verilog/v3_0_0/D_CELLS_HDSVT.v 
+-v /opt/pdk/xfab/XKIT/xh018/diglibs/IO_CELLS_JIF3V/v1_1/verilog/v1_1_0/IO_CELLS_JIF3V.v 
+-v /opt/pdk/xfab/XKIT/xh018/diglibs/D_CELLS_JIHDSVT/v3_0/verilog/v3_0_0/D_CELLS_JIHDSVT.v 
+-v /opt/pdk/xfab/XKIT/xh018/diglibs/D_CELLS_JI3V/v3_0/verilog/v3_0_0/D_CELLS_JI3V.v 
+-v /opt/pdk/xfab/XKIT/xh018/diglibs/D_CELLS_HDMV/v2_2/verilog/v2_2_0/D_CELLS_HDMV.v 
+-v /opt/pdk/xfab/XKIT/xh018/diglibs/IO_CELLS_JIFC1V8/v1_0/verilog/v1_0_0/IO_CELLS_JIFC1V8.v 
+-v /opt/pdk/xfab/XKIT/xh018/diglibs/IO_CELLS_C1V8/v1_1/verilog/v1_1_0_1/IO_CELLS_C1V8.v 
+-v /opt/pdk/xfab/XKIT/xh018/diglibs/D_CELLS_HDLVT/v1_0/verilog/v1_0_0/D_CELLS_HDLVT.v 
+-v /opt/pdk/xfab/XKIT/xh018/diglibs/IO_CELLS_JI3V/v5_0/verilog/v5_0_0/IO_CELLS_JI3V.v 
+-v /opt/pdk/xfab/XKIT/xh018/diglibs/D_CELLS_HD/v5_0/verilog/v5_0_0/D_CELLS_HD.v 
+-v /opt/pdk/xfab/XKIT/xh018/diglibs/IO_CELLS_3V/v2_2/verilog/v2_2_0/IO_CELLS_3V.v 
+-v /opt/pdk/xfab/XKIT/xh018/diglibs/D_CELLS_M3V/v2_0/verilog/v2_0_0/D_CELLS_M3V.v 
++sdf_nocheck_celltype 

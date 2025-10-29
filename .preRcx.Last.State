@@ -1,0 +1,14 @@
+
+
+vuipreRcxFormTable = '(
+	runName  "opamp1"
+	runDir  "/home/saul/projects/FIL3601/PvsLVS/opamp1/svdb"
+	assuraTech  "/home/saul/projects/FIL3601/pvtech.lib"
+	tech  "XH018_1143"
+	mapFile  ""
+	netProp  5
+	instProp  6
+	devProp  7
+)
+
+

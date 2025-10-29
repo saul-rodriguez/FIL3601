@@ -1,0 +1,71 @@
+INFO (CAPGEN-41199): 
+
+
+Techgen -trans results will be written to directory: /home/saul/projects/FIL3601/PvsLVS/opamp1/svdb/opamp1
+
+WARNING (CAPGEN-41613): layer 'ped12_d' not defined in LVS file
+
+WARNING (CAPGEN-41613): layer 'ped12_b' not defined in LVS file
+
+WARNING (CAPGEN-41613): layer 'ped22_d' not defined in LVS file
+
+WARNING (CAPGEN-41613): layer 'ped22_b' not defined in LVS file
+
+WARNING (CAPGEN-41613): layer 'nedi2_d' not defined in LVS file
+
+WARNING (CAPGEN-41613): layer 'nedi2_b' not defined in LVS file
+
+WARNING (CAPGEN-41613): layer 'nedia2_d' not defined in LVS file
+
+WARNING (CAPGEN-41613): layer 'nedia2_b' not defined in LVS file
+
+INFO (CAPGEN-41737): Lvs connect layers capm capm23f capm2_b capm2_t capm34f capm3_b capm3_m capm3_t capmh capmh23f capmh2_b capmh2_t capmh34f capmh3_b capmh3_m capmh3_t capswm1 capswm2 capswm3 capswp1 davl_c2 df_vlbl dphopin3 hvnwtrm m1_vlbl m2_vlbl m3_vlbl m4_vlbl ml_vlbl mt_vlbl npdct p1_vlbl are not mapped in layer_setup file
+
+INFO (CAPGEN-41804): Lvs stamped by df_vlbl layers anodiff catdiff are not mapped in layer_setup file
+
+INFO (CAPGEN-41804): Lvs stamped by m1trm layers m1aftrm m1atrm m1bftrm m1btrm are not mapped in layer_setup file
+
+INFO (CAPGEN-41804): Lvs stamped by nwtrm layers dphod_c dphod_nw are not mapped in layer_setup file
+
+INFO (CAPGEN-41804): Lvs stamped by p1trm layers dpol_n dpol_p are not mapped in layer_setup file
+
+INFO (CAPGEN-41809):  Lvs connect via bndct npdtap ntap hntap ndftap catdfct catm1ct anodfct ptap are not mapped in layer_setup file.
+
+INFO (ICEMAP-221908): Reading transfer property file: /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/QRC_pvs/v10_0_1/XH018_1143/QRC-Typ/extview.trp
+
+WARNING (ICEMAP-221909): Duplicate model: "dnhpw~#dnhpw" in "/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/QRC_pvs/v10_0_1/XH018_1143/QRC-Typ/extview.trp". First occurrence is used, next occurrences are ignored.
+
+WARNING (ICEMAP-221909): Duplicate model: "dnhpw~#p_dnhpw" in "/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/QRC_pvs/v10_0_1/XH018_1143/QRC-Typ/extview.trp". First occurrence is used, next occurrences are ignored.
+
+*INFO: Reading file "/home/saul/projects/FIL3601/PvsLVS/opamp1/svdb/opamp1/extview.trp" 
+
+WARNING (LBRCXM-617): Unable to obtain 1 license(s) of QTS100 24.10
+
+WARNING (AGDSEXT-30124): The <design>.props file is not available. The CCL option "input_db calibre/pvs/pegasus -device_properties_file <filename>" can be used to specify the .props file. 
+
+INFO (AGDSEXT-30016): 
+setting dbunit 1e-09 1 1e-09
+
+WARNING (AGDSEXT-30078): no capacitor value
+
+WARNING (ADVGN-221986): possible error: no resistor value or parameter present in either spice file or .props file
+
+    *INFO: Executing TRP Version 17.1.0.0
+
+    *INFO: Reading file "/home/saul/projects/FIL3601/PvsLVS/opamp1/svdb/opamp1/extview.trp" 
+
+    Summary for DAY10/opamp1/analog_extracted
+    
+    instance count totals:
+    
+        lib              cell             view                    total
+        PRIMLIB          cmm5t            ivpcell                     1
+        PRIMLIB          mosvc            ivpcell                     2
+        PRIMLIB          nel              ivpcell                   118
+        PRIMLIB          p_cap            auLvs                    5018
+        PRIMLIB          p_dnw            ivpcell                     6
+        PRIMLIB          p_res            auLvs                    2127
+        PRIMLIB          pel              ivpcell                    28
+        PRIMLIB          rpp1k1_3         ivpcell                     1
+    
+    Extracted view creation has completed.

@@ -1,0 +1,19 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.2
+LoginName                      saul
+HostName                       41557@b35621b5a0f6
+ProcessIdentifier              12180
+ProcessCreationTime_UTC        1761553021
+ProcessCreationTime_Readable   Mon Oct 27 08:17:01 2025 UTC
+AppIdentifier                  /opt/tools/cadence/installs/IC618/tools/dfII/bin/64bit/libManager
+OSType                         lnx86
+ReasonForPlacingEditLock       log file
+FilePathUsedToEditLock         /home/saul/projects/FIL3601/libManager.log.4
+TimeEditLocked                 Mon Oct 27 08:17:01 2025 UTC
+ProcessScopeIdentifier         E9SLig_3NkxKdVMhcDMuFJ
+ExpirationTime_UTC             1761639421
+ExpirationTime_Readable        Tue Oct 28 08:17:01 2025 UTC

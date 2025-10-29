@@ -1,0 +1,87 @@
+hnlLastStopCellInfo = '(
+                           ( "PRIMLIB" "mosvc" "auCdl" "392" "1743759221" )
+                          ( "PRIMLIB" "nel" "auCdl" "52" "1743759221" )
+                          ( "PRIMLIB" "cmm5t" "auCdl" "44" "1743759221" )
+                          ( "PRIMLIB" "rpp1k1_3" "auCdl" "49" "1743759221" )
+                          ( "PRIMLIB" "pel" "auCdl" "53" "1743759221" )
+                       )
+hnlLastTopViewWasConfig = 0
+hnlLastMaxNameLength = 60
+hnlLastNamePrefix = "hnl_"
+hnlLastNetNamePrefix = "N"
+hnlLastInstNamePrefix = ""
+hnlLastModelNamePrefix = ""
+hnlLastGlobalNetPrefix = "G"
+hnlLastModulePrefix = "sub"
+hnlLastHierarchyDelimiter = "."
+hnlLastNetlistRevision = "__Revision2"
+hnlLastOptimizeCellGenerationInConfig = nil
+hnlLastMapNetFirstChar = '(
+                            "	"
+                            " "
+                            "$"
+                            ","
+                            "/"
+                            "0"
+                            "1"
+                            "2"
+                            "3"
+                            "4"
+                            "5"
+                            "6"
+                            "7"
+                            "8"
+                            "9"
+                            ":"
+                            ";"
+                            "="
+                          )
+hnlLastMapNetInName = '(
+                            "	"
+                            " "
+                            "$"
+                            ","
+                            "/"
+                            ":"
+                            ";"
+                            "="
+                          )
+hnlLastMapInstFirstChar = '(
+                            "	"
+                            " "
+                            "$"
+                            ","
+                            "/"
+                            "0"
+                            "1"
+                            "2"
+                            "3"
+                            "4"
+                            "5"
+                            "6"
+                            "7"
+                            "8"
+                            "9"
+                            ":"
+                            ";"
+                            "="
+                          )
+hnlLastMapInstInName = '(
+                            "	"
+                            " "
+                            "$"
+                            ","
+                            "/"
+                            ":"
+                            ";"
+                            "="
+                          )
+hnlLastInstNameDifferentFrom = '( )
+hnlLastModelNameDifferentFrom = '( )
+hnlLastNetNameDifferentFrom = '( )
+hnlLastTermNameDifferentFrom = '( )
+hnlLastParamNameDifferentFrom = '( )
+hnlLastLibInfo = '(
+                    ( "DAY10" "1756284365" )
+                  )
+hnlLastDesignVars = '( )

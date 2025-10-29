@@ -1,0 +1,33 @@
+simulator( 'spectre )
+hostMode('distributed)
+
+design(	 "/home/saul/projects/FIL3601/Sim/test/spectre/schematic/netlist/netlist")
+resultsDir( "/home/saul/projects/FIL3601/Sim/test/spectre/schematic" )
+modelFile( 
+    '("/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/config.scs" "default")
+    '("/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/param.scs" "3s")
+    '("/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/bip.scs" "tm")
+    '("/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/cap.scs" "tm")
+    '("/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/dio.scs" "tm")
+    '("/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/mos.scs" "tm")
+    '("/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/photo.scs" "tm")
+    '("/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/res.scs" "tm")
+)
+analysis('dc ?saveOppoint t  )
+desVar(	  "IDS" 1u	)
+desVar(	  "L" 180n	)
+desVar(	  "NF" 1	)
+desVar(	  "VDS" 0.6	)
+desVar(	  "WF" 4u	)
+envOption(
+	'analysisOrder  list("dc") 
+)
+temp( 27 ) 
+;run()
+
+jobList = nil
+
+jobList = append1(jobList run(?host "b83362027a89") )
+
+wait((append1 last(jobList) nil))
+

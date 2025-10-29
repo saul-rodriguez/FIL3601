@@ -1,0 +1,350 @@
+device nel M nel nel ivpcell PRIMLIB D G S B 
+device pel M pel pel ivpcell PRIMLIB D G S B 
+device p_dnw D p_dnw p_dnw ivpcell PRIMLIB PLUS MINUS 
+device rpp1k1_3 R rpp1k1_n rpp1k1_3 ivpcell PRIMLIB PLUS MINUS BULK 
+device cmm5t C cmim cmm5t ivpcell PRIMLIB PLUS MINUS 
+
+recognition ne ngate
+recognition pe pgate
+recognition nel ngate
+recognition nelna ngate
+recognition nesvt ngate
+recognition pel pgate
+recognition pesvt pgate
+recognition nei ngate
+recognition pei pgate
+recognition neli ngate
+recognition peli pgate 
+recognition nelnai ngate
+recognition nesvti ngate
+recognition pesvti pgate
+recognition nei_6 ngate
+recognition nei_a_6 ngate
+recognition nei_m_6 ngate
+recognition neli_6 ngate
+recognition neli_m_6 ngate
+recognition nelnai_6 ngate
+recognition nelnai_m_6 ngate
+recognition nesvti_6 ngate
+recognition nesvti_m_6 ngate
+recognition pe_5 pgate
+recognition pel_5 pgate
+recognition pei_5 pgate
+recognition pei_a_5 pgate
+recognition pei_m_5 pgate
+recognition peli_5 pgate
+recognition peli_m_5 pgate
+recognition pesvt_5 pgate
+recognition pesvti_5 pgate
+recognition pesvti_m_5 pgate
+recognition rnw allres
+recognition rnw_scr allres
+recognition rdn allres
+recognition rdn_g allres
+recognition rdni allres
+recognition rdn_gi allres
+recognition rdn_esdg allres
+recognition rdp allres
+recognition rdp_g allres
+recognition rdpi allres
+recognition rdp_gi allres
+recognition rdp_io_g allres
+recognition rdp_esdg allres
+recognition nnm ngate
+recognition nem ngate
+recognition ndm ngate
+recognition nemlna ngate
+recognition pem pgate
+recognition pemln pgate
+recognition pemlna pgate
+recognition nemi ngate
+recognition ndmi ngate
+recognition nemlna ngate
+recognition pemi pgate
+recognition pemlni pgate
+recognition pemlnai pgate
+recognition nemi_a_6 ngate
+recognition nemi_m_6 ngate
+recognition ndmi_m_6 ngate
+recognition nemlnai_m_6 ngate
+recognition pem_5 pgate
+recognition pemln_5 pgate
+recognition pemlna_5 pgate
+recognition pemi_a_5 pgate
+recognition pemi_m_5 pgate
+recognition pemlni_m_5 pgate
+recognition pemlnai_m_5 pgate
+recognition nemi_6 ngate
+recognition ndmi_6 ngate
+recognition nemlnai_6 ngate
+recognition pemi_5 pgate
+recognition pemlni_5 pgate
+recognition pemlnai_5 pgate
+recognition ndsmiP ngate
+recognition ndsmiE ngate
+recognition nha3m ngate
+recognition nedam_d ngate
+recognition nedam_b ngate
+recognition pedam_d pgate
+recognition pedam_b pgate
+recognition pedama_d pgate
+recognition pedama_b pgate
+recognition nmma_d ngate
+recognition nmmb_d ngate
+recognition nmmc_d ngate
+recognition nmmd_d ngate
+recognition pmma_d pgate
+recognition pmmb_d pgate
+recognition pmmc_d pgate
+recognition nma_d ngate
+recognition nmc_d ngate
+recognition nhhv_d ngate
+recognition nhv_d ngate
+recognition nhhvd_d ngate
+recognition nhvd_d ngate
+recognition pma_d pgate
+recognition pmb_d pgate
+recognition pmc_d pgate
+recognition phhv_d ngate
+recognition phv_d ngate
+recognition nmma_b ngate
+recognition nmmb_b ngate
+recognition nmmc_b ngate
+recognition nmmd_b ngate
+recognition pmma_b pgate
+recognition pmmb_b pgate
+recognition pmmc_b pgate
+recognition nma_b ngate
+recognition nmc_b ngate
+recognition nhhv_b ngate
+recognition nhv_b ngate
+recognition nhhvd_b ngate
+recognition nhvd_b ngate
+recognition pma_b pgate
+recognition pmb_b pgate
+recognition pmc_b pgate
+recognition phhv_b ngate
+recognition phv_b ngate
+recognition nedi2_d ngate
+recognition nedia2_d ngate
+recognition ped12_d pgate
+recognition ped22_d pgate
+recognition nedi2_b ngate
+recognition nedia2_b ngate
+recognition ped12_b pgate
+recognition ped22_b pgate
+recognition mosvc device
+recognition mosvci device
+recognition mosvci_m device
+recognition mosvcim device
+recognition mosvcm device
+recognition mosvcim_m device
+recognition qpva device
+recognition qpvb device
+recognition qpvc device
+recognition qpvascr device
+recognition qpvhscr device
+recognition qpvhbscr device
+recognition qnva device
+recognition qnvb device
+recognition qnvba device
+recognition qnvbb device
+recognition qnvz device
+recognition qnvc device
+recognition qnvca device
+recognition qnvcb device
+recognition qnvam device
+recognition qpvma device
+recognition qpvmb device
+recognition qpvmc device
+recognition rdnwmv allres
+recognition rnwm allres
+recognition rnwm_scr allres
+recognition rdnm allres
+recognition rdnm_g allres
+recognition rdnmi allres
+recognition rdnm_gi allres
+recognition rdpm allres
+recognition rdpm_g allres
+recognition rdpmi allres
+recognition rdpm_gi allres
+recognition rpp1k1_2 polyres
+recognition rpp1k1_s polyres
+recognition rpp1k1_p polyres
+recognition rpp1k1fp polyres
+recognition rpp1k1_n polyres
+recognition rpp1k1_d polyres
+recognition rpp1k1_h polyres
+recognition rpp1k1hn polyres
+recognition rpp1k1fn polyres
+recognition rnp1_2 polyres
+recognition rnp1_s polyres
+recognition rnp1_p polyres
+recognition rnp1fp polyres
+recognition rnp1_n polyres
+recognition rnp1_d polyres
+recognition rnp1_h polyres
+recognition rnp1hn polyres
+recognition rnp1fn polyres
+recognition rpp1_2 polyres
+recognition rpp1_s polyres 
+recognition rpp1_p polyres
+recognition rpp1fp polyres
+recognition rpp1_n polyres
+recognition rpp1_d polyres
+recognition rpp1_h polyres
+recognition rpp1hn polyres
+recognition rpp1fn polyres
+recognition rpp1s_2 polyres
+recognition rpp1s_s polyres
+recognition rpp1s_p polyres
+recognition rpp1sfp polyres
+recognition rpp1s_n polyres
+recognition rpp1s_d polyres
+recognition rpp1s_h polyres
+recognition rpp1shn polyres
+recognition rpp1sfn polyres
+recognition rnp1h_2 polyres
+recognition rnp1h_s polyres
+recognition rnp1h_p polyres
+recognition rnp1hfp polyres
+recognition rnp1h_n polyres
+recognition rnp1h_d polyres
+recognition rnp1h_h polyres
+recognition rnp1hhn polyres
+recognition rnp1hfn polyres
+recognition s_res allres
+recognition pfuse allres
+recognition rp1s_otps device
+recognition d_dn device
+recognition d_dni1 device
+recognition d_dni2 device
+recognition d_dp device
+recognition d_dpi1 device
+recognition d_dpi2 device
+recognition d_dnw device
+recognition d_dhnw device
+recognition d_dhpw device
+recognition d_ddnw device
+recognition d_dipw device
+recognition d_dndf device
+recognition d_dpdwhn device
+recognition d_dwhn device
+recognition dpdd_scr device
+recognition dnpddscr device
+recognition dpp20 device
+recognition dnp20 device
+recognition d_dnhpw device
+recognition d_dnhpwi device
+recognition d_dphnw device
+recognition d_dphnw1 device
+recognition d_dphnw2 device
+recognition d_dpdnw device
+recognition d_dpwhn device
+recognition d_dsb device
+recognition d_dsba device
+recognition d_ddnwa device
+recognition d_ddnwmv device
+recognition d_dipwmv device
+recognition ddscidmv device
+recognition ddpdnwmv device
+recognition d_dnm device
+recognition d_dnnm device
+recognition d_dnmi1 device
+recognition d_dnmi2 device
+recognition d_dnmsci device
+recognition d_dpm device
+recognition d_dpmi1 device
+recognition d_dpmi2 device
+recognition d_dnwm device
+recognition dphoa device
+recognition dphob device
+recognition dphoc device
+recognition dphocfp device
+recognition dphoc0 device
+recognition dphod device
+recognition dphodfp device
+recognition dphod0 device
+recognition dapda device
+recognition dapda0 device
+recognition dspada device
+recognition dspada0 device
+recognition dapb device
+recognition dapb0 device
+recognition dspb device
+recognition dspb0 device
+recognition dspbfep device
+recognition dpol device
+recognition rm1 allres
+recognition rm2 allres
+recognition cpod device
+recognition cpodhv device
+recognition cnnotpaP device
+recognition cnnotpaE device
+recognition d_csf2p device
+recognition cmim device
+recognition cmimh device
+recognition cdmm device
+recognition cdmmh device
+recognition ctmm device
+recognition ctmmh device
+recognition d_cswt3 device
+recognition d_csf3p device
+recognition d_csf3 device
+recognition d_csf3a device
+recognition d_cif3a device
+recognition cmim23f device
+recognition cmimh23f device
+recognition d_cswt4 device
+recognition d_csf4 device
+recognition d_csf4a device
+recognition d_cif4a device
+recognition cmim34f device
+recognition cmimh34f device
+interconnect           	p1trm        POLY1  net
+interconnect           	m1trm        MET1  net
+interconnect           	m2trm        MET2  net
+interconnect            via1         VIA1  net
+interconnect		csf_p1        POLY1  net
+interconnect		csf_m1        MET1  net
+interconnect		csf_m2        MET2  net
+recognition rm3 allres
+interconnect           	m3trm        MET3  net
+interconnect            via2CON		VIA2  net
+interconnect            v2cm		VIA2  net
+interconnect            v2cmh		VIA2  net
+interconnect		csf_m3       MET3  net
+interconnect		v2cm2		VIA2  net
+interconnect		v2cm2		VIA2  net
+recognition rm4 allres
+interconnect           	m4trm        MET4  net
+interconnect            via3CON         VIA3  net
+interconnect            v3cm		VIA3  net
+interconnect            v3cmh		VIA3  net
+interconnect            v3cm2		VIA3  net
+interconnect            v3cmh2		VIA3  net
+interconnect		csf_m4       MET4  net
+interconnect            v2cm3		VIA2  net
+interconnect            v2cmh3		VIA2  net
+interconnect            v3cm3		VIA3  net
+interconnect            v3cmh3		VIA3  net
+interconnect		vtpcm2		VIATP  net
+interconnect		vtpcm2		VIATP  net
+recognition rmtp allres
+interconnect           	mttrm        METTP  net
+interconnect           	vtpCON        VIATP  net
+interconnect           	vtpcm         VIATP  net
+interconnect           	vtpcmh        VIATP  net
+interconnect		csf_mt       METTP  net
+recognition rmtpl allres
+interconnect           mltrm        METTPL  net
+interconnect           viatpl       VIATPL  net
+interconnect           ndiff        nsd  net
+interconnect           pdiff        psd  net
+interconnect            cont        CONT  net
+interconnect           d_dsc        CONT  net
+interconnect           nwtrm        NWELL  net
+interconnect          dnwtrm        DNWELL  net
+interconnect         hvnwtrm        HVNWELL  net
+interconnect          pwitrm        sub  net
+interconnect            bulk        PWELL  net

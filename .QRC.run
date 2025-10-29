@@ -1,0 +1,6 @@
+#!/bin/sh -f
+#--------------------------------------------------------------------------------------
+# THE RUN FILE created by Cadence Extraction Quantus UI Version 24.1.0-p089
+#--------------------------------------------------------------------------------------
+
+quantus  -log_file /home/saul/projects/FIL3601/PvsLVS/opamp1/svdb/qrc.opamp1.log -cmd /home/saul/projects/FIL3601/PvsLVS/opamp1/svdb/qrc.opamp1.ccl 

@@ -1,0 +1,2879 @@
+\# Program start time:     UTC 2025.10.28 06:17:37.913
+\# Local time: UTC (UTC+00:00) 2025.10.28 06:17:37.913
+\o Program:		@(#)$CDS: virtuoso version 6.1.8-64b 09/03/2024 19:11 (sjfhw316) $
+\o Hierarchy:		/opt/tools/cadence/installs/IC618/tools.lnx86/dfII/
+\o Sub version:		sub-version  IC6.1.8-64b.500.36  (64-bit addresses)
+\# Command line:	/opt/tools/cadence/installs/IC618/tools.lnx86/dfII/bin/64bit/virtuoso -noautostart -mpssession virtuosoE9SLig_3NkxKdVMhcDMuFJ_11347 -mpshost 58305@b35621b5a0f6 -davinciService DaVinciService_11548_1761632052 -log /home/saul/projects/FIL3601/logs_saul/logs1/Job1.log2 -licenseLockFileName /home/saul/projects/FIL3601/.tmp_saul/.b35621b5a0f6_11548 -interactiveA -interactiveE -interactiveRTT -nostdin -nographE -axlChildIdFlag 1
+\# Host name (type):	b35621b5a0f6 (x86_64)
+\# Operating system:	Linux 6.10.14-linuxkit #1 SMP PREEMPT_DYNAMIC Tue Apr 15 16:05:22 UTC 2025
+\# Linux /etc/issue:	\S
+\# Linux /etc/issue:	Kernel \r on an \m
+\# X display name (WxH):	:5339 (1024x868)
+\# Available geometry:			TL(0:0) BR(1023:867)
+\# X server:			The X.Org Foundation
+\# Depth of Visual (Root):	24 (24)
+\# Number of Planes Used:	24
+\# X version:		11.0 (vendor release 12011000)
+\# X resource pool:	base 0x400000, mask 0x1fffff (2097151), shift 0
+\# 			current id 0x0, current max 0x1ffffa (2097146)
+\# Max data seg size:	     unlimited
+\# Max process size:	     unlimited
+\# Initial sbrk value:	      1,238 MB
+\# Available memory:	     23,795 MB
+\# System memory:	     28,093 MB
+\# Maximum memory size:	     26,975 MB
+\# Max mem available:	     23,915 MB
+\# Initial memory used:	        120 MB
+\#        process size:	      1,677 MB
+\# Thread usage limits (effective/default):	maxthreads 4294967295/4294967295 maxload 16.00/16.00
+\# Qt version:		5.9.1
+\# Window Manager:	other
+\# User Name:		saul
+\o Working Directory:	b35621b5a0f6:/home/saul/projects/FIL3601
+\# Process Id:		20413
+\# Container Id:	E9SLig_3NkxKdVMhcDMuFJ
+\o 
+\o COPYRIGHT (C) 1992-2024  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
+\o           (C) 1992-2024  UNIX SYSTEMS Laboratories INC.,
+\o                          Reproduced with permission.
+\o 
+\o This Cadence Design Systems program and online documentation are
+\o proprietary/confidential information and may be disclosed/used only
+\o as authorized in a license agreement controlling such use and disclosure.
+\o 
+\o           RESTRICTED RIGHTS NOTICE (SHORT FORM)
+\o Use/reproduction/disclosure is subject to restriction
+\o set forth at FAR 1252.227-19 or its equivalent.
+\o Loading geView.cxt 
+\o Loading menuBuilder.cxt 
+\o Loading schView.cxt 
+\o Loading selectSv.cxt 
+\o Loading pvsui.cxt
+\o Loading wireEdit.cxt 
+\o Loading pte2.cxt 
+\o Loading xlUI.cxt 
+\o Loading auCore.cxt 
+\o Loading vhdl.cxt 
+\o Loading seismic.cxt 
+\o Loading ci.cxt 
+\o Loading ams.cxt 
+\o Loading oasis.cxt 
+\o Loading analog.cxt 
+\o Loading asimenv.cxt 
+\o Loading dal.cxt 
+\o Loading awv.cxt 
+\o Loading socket.cxt 
+\o Loading par.cxt 
+\o Loading alvs.cxt 
+\o Loading caa.cxt 
+\o Loading amps.cxt 
+\o Loading adexlCore.cxt 
+\o Loading adexl.cxt 
+\o *Info*    Exporting services from client ... 
+\o 
+\o Loading adexlDM.cxt 
+\o Loading cpf.cxt 
+\o Loading cli.cxt 
+\o Loading lp.cxt 
+\o INFO (ELI-00302) Connecting to parent process (session=virtuosoE9SLig_3NkxKdVMhcDMuFJ_11347, host=58305@b35621b5a0f6). Connection mode is ICRP. Total timeout is 180 seconds. Connection timeout is 90 seconds.
+\o INFO (ELI-00303) Step 1: Connecting to parent. Time spent is 0 seconds.
+\o INFO (ELI-00304) The registration of the child 20413 within 90 seconds is being processed...
+\o INFO (ELI-00305) The result of registration is true. Time spent is 0 seconds.
+\o INFO (ELI-00308) The connection has ended. Result is true. Total time spent is 0 seconds.
+\# [06:17:37.512449] Configured Lic search path (22.01-s002): 3000@lic08.ug.kth.se
+\# Memory report: using         273 MB, process size 1,960 MB at UTC 2025.10.28 06:17:40.517
+\o Loading .cdsinit for the XH018 X-Fab XKit.
+\o     LOAD xh018_1143 SPECIFIC CALL-BACK ROUTINES
+\o     LOAD ALL AVAILABLE P-CELL FUNCTIONS
+\o ** Info: PDK loadpath is "/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/PDK/IC61/v10_0_3"
+\o Loading XfSktTools.cxt
+\o Loading XfMenu.cxt
+\o Loading XfTechXh018.cxt
+\o Loading XfPcellCore.cxt
+\o function ansiSpicePrintProperties_subcircuit redefined
+\o Loading XfSkillExt.cxt
+\o Initializing library.
+\o Finished Initializing Library .
+\o     Generic PcellKit: 'production' loaded.
+\o     Generic Pcell Skill Tools: 'production' loaded.
+\o Loading Circuit Prospector Setup (XfCircuitProspSetup.il)
+\o     LOAD THE ENVIRONMENT FILE
+\o  --> Setting the required PDK definitions...
+\o     GDSII LAYER MAPPING FILE = "./.xkit/setup/xh018/cadence/PDK/TECH_XH018_1143/strmInOut.layertable"
+\o     GDSII OBJECT MAPPING FILE = "./.xkit/setup/xh018/cadence/PDK/TECH_XH018_1143/strmOutObjects.map"
+\o Use model setup from PDK...
+\o Loading spectrei.cxt 
+\o Loading devCheck.cxt 
+\o Loading relXpert.cxt 
+\o Loading vdsil.cxt 
+\o Loading hspiceD.cxt 
+\o Loading spectreinl.cxt 
+\o Loading UltraSim.cxt 
+\o Loading msgHandler.cxt 
+\o Loading AMSOSS.cxt 
+\o Loading AMS.cxt 
+\o  --> Finished setting the required PDK definitions
+\o  --> Setting the recommended EDA tool defaults...
+\o  --> Finished setting the recommended EDA tool defaults
+\o     LOAD DEFAULT BINDKEYS
+\o Loading viva.cxt 
+\o *Info*    Client has finished starting ... 
+\o 
+\p > 
+\w *WARNING* could not load font "-*-courier-medium-r-*-*-12-*", using font "fixed"
+\# Loading perfDiag...
+\# (PerfDiag): Set GDB path to environment variable 'gdbPath' (gdb).
+\# Performance Diagnostic tool is installed. You can access PerfDiag from CIW Tools or use the shell command 'cdsPerfDiag -p 20413' to open it when Virtuoso freezes.
+\# (PerfDiag): Use backtrace from GLIBC.
+\# Memory report: using         386 MB, process size 2,075 MB at UTC 2025.10.28 06:17:42.030
+\w *WARNING* _perfPstackCheck: Cannot find pstack/gstack. Please setup PATH environment variable to pstack/gstack executable.
+\o     LOAD GENERIC "X-KIT" SKILL CONTEXT "./.xkit/setup/x_all/cadence/xenv/skill/context6/xkit.cxt" 
+\o  - Menu "XKit Utilities" installed to CIW.
+\o     LOAD ".cdsinit_personal" FILE FROM THE WORKING DIRECTORY.
+\o     INFO: To customize this setup, please use the following environment variables:
+\o           CUSTOM_SCRIPT_PATH - should point to the master shell or perl script
+\o                              e.g.:
+\o                              setenv CUSTOM_SCRIPT_PATH /path/to/my/script/LoadMyScripts.csh
+\o           CUSTOM_SKILL_PATH - should point to your master skill load file
+\o                              e.g.:
+\o                              setenv CUSTOM_SKILL_PATH /path/to/my/skill/LoadMySkills.il
+\o  loading default key binding 
+\o  -> END LOAD ".cdsinit" FILE
+\# Available memory:         23,414 MB at UTC 2025.10.28 06:17:47.822
+\# Memory report: Maximum memory size now 23,810 MB at UTC 2025.10.28 06:17:47.822
+\# Thread usage report: 22 active threads, active load 1.40 at UTC 2025.10.28 06:17:47.822
+\o Loading vqp.cxt 
+\o Loading hdlPkg.cxt 
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o Loading simui.cxt 
+\o 	Library      = DAY2
+\o 	Cell         = BIAS_NMOS
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = VDS_SWEEP_VGS_SWEEP:1_state_Interactive.5
+\o 	Results DB   = /home/saul/projects/FIL3601/DAY2/BIAS_NMOS/adexl/results/data/Interactive.5.rdb
+\o 	Results Dir  = /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.5/1/VDS_SWEEP
+\o 	Results Loc  = /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data
+\o 	Project Dir  = /home/saul/projects/FIL3601/Sim
+\o 	Setup DB loc = /home/saul/projects/FIL3601/DAY2/BIAS_NMOS/adexl
+\o 	File Encoding = 0
+\o 
+\o 
+\o WARNING (ADE-7017): The Spectre run mode needs to be 'batch' when EM/IR analysis is enabled. Automatically setting the run mode to 'batch'.
+\o 
+\o *Info*    The auto suspension is disabled.
+\o 
+\o Loading monte.cxt 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (0 1) on testbench [ VDS_SWEEP ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var L = "180n"
+\o Setting var NF = "1"
+\o Setting var VDS = "1"
+\o Setting var VGS = "1m"
+\o Setting var WF = "8u"
+\o Setting var temperature = "27"
+\o Setting temp(T) = 27
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.5/1/VDS_SWEEP/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.5/1/VDS_SWEEP
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (0 1)
+\o 
+\o generate netlist...
+\o Loading hnlInit.cxt 
+\o Loading seCore.cxt 
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\# [06:18:15.141659] Periodic Lic check successful
+\# [06:18:15.141664] Feature usage summary:
+\o Initializing the control file using cp:
+\o     cp /opt/tools/cadence/installs/IC618/tools.lnx86/dfII/etc/si/control.spectre /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.5/1/VDS_SWEEP/netlist/control
+\o Copying Spectre source file 'spectre.inp'
+\o Copying Spectre command file 'spectre.sim'
+\o Begin Incremental Netlisting Oct 28 06:18:15 2025
+\o Loading json.cxt 
+\o End netlisting Oct 28 06:18:15 2025
+\o 
+\o Netlisting Statistics:
+\o 	Number of components:    3
+\o 
+\o 	Elapsed time:          0.0s
+\o Errors: 0	Warnings: 0
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ VDS_SWEEP ] for Point ID
+\o           (0 1).
+\o 
+\o Delete psf data in /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.5/1/VDS_SWEEP/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o Loading paraplot.cxt 
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 1) on testbench [ VDS_SWEEP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (0 2) on testbench [ VDS_SWEEP ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var VGS = "51m"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.5/2/VDS_SWEEP/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.5/2/VDS_SWEEP
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (0 2)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Oct 28 06:18:18 2025
+\o End netlisting Oct 28 06:18:18 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ VDS_SWEEP ] for Point ID
+\o           (0 2).
+\o 
+\o Delete psf data in /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.5/2/VDS_SWEEP/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 2) on testbench [ VDS_SWEEP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (0 3) on testbench [ VDS_SWEEP ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var VGS = "101m"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.5/3/VDS_SWEEP/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.5/3/VDS_SWEEP
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (0 3)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Oct 28 06:18:21 2025
+\o End netlisting Oct 28 06:18:21 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ VDS_SWEEP ] for Point ID
+\o           (0 3).
+\o 
+\o Delete psf data in /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.5/3/VDS_SWEEP/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 3) on testbench [ VDS_SWEEP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (0 4) on testbench [ VDS_SWEEP ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var VGS = "151m"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.5/4/VDS_SWEEP/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.5/4/VDS_SWEEP
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (0 4)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Oct 28 06:18:24 2025
+\o End netlisting Oct 28 06:18:24 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ VDS_SWEEP ] for Point ID
+\o           (0 4).
+\o 
+\o Delete psf data in /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.5/4/VDS_SWEEP/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 4) on testbench [ VDS_SWEEP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (0 5) on testbench [ VDS_SWEEP ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var VGS = "201m"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.5/5/VDS_SWEEP/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.5/5/VDS_SWEEP
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (0 5)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Oct 28 06:18:27 2025
+\o End netlisting Oct 28 06:18:27 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ VDS_SWEEP ] for Point ID
+\o           (0 5).
+\o 
+\o Delete psf data in /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.5/5/VDS_SWEEP/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 5) on testbench [ VDS_SWEEP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (0 6) on testbench [ VDS_SWEEP ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var VGS = "251m"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.5/6/VDS_SWEEP/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.5/6/VDS_SWEEP
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (0 6)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Oct 28 06:18:29 2025
+\o End netlisting Oct 28 06:18:29 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ VDS_SWEEP ] for Point ID
+\o           (0 6).
+\o 
+\o Delete psf data in /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.5/6/VDS_SWEEP/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 6) on testbench [ VDS_SWEEP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (0 7) on testbench [ VDS_SWEEP ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var VGS = "301m"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.5/7/VDS_SWEEP/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.5/7/VDS_SWEEP
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (0 7)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Oct 28 06:18:32 2025
+\o End netlisting Oct 28 06:18:32 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ VDS_SWEEP ] for Point ID
+\o           (0 7).
+\o 
+\o Delete psf data in /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.5/7/VDS_SWEEP/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 7) on testbench [ VDS_SWEEP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (0 8) on testbench [ VDS_SWEEP ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var VGS = "351m"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.5/8/VDS_SWEEP/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.5/8/VDS_SWEEP
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (0 8)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Oct 28 06:18:35 2025
+\o End netlisting Oct 28 06:18:35 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ VDS_SWEEP ] for Point ID
+\o           (0 8).
+\o 
+\o Delete psf data in /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.5/8/VDS_SWEEP/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 8) on testbench [ VDS_SWEEP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (0 9) on testbench [ VDS_SWEEP ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var VGS = "401m"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.5/9/VDS_SWEEP/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.5/9/VDS_SWEEP
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (0 9)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Oct 28 06:18:37 2025
+\o End netlisting Oct 28 06:18:37 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ VDS_SWEEP ] for Point ID
+\o           (0 9).
+\o 
+\o Delete psf data in /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.5/9/VDS_SWEEP/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 9) on testbench [ VDS_SWEEP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (0 10) on testbench [ VDS_SWEEP ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var VGS = "451m"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.5/10/VDS_SWEEP/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.5/10/VDS_SWEEP
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (0 10)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Oct 28 06:18:40 2025
+\o End netlisting Oct 28 06:18:40 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ VDS_SWEEP ] for Point ID
+\o           (0 10).
+\o 
+\o Delete psf data in /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.5/10/VDS_SWEEP/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 10) on testbench [ VDS_SWEEP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (0 11) on testbench [ VDS_SWEEP ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var VGS = "501m"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.5/11/VDS_SWEEP/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.5/11/VDS_SWEEP
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (0 11)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Oct 28 06:18:43 2025
+\o End netlisting Oct 28 06:18:43 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ VDS_SWEEP ] for Point ID
+\o           (0 11).
+\o 
+\o Delete psf data in /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.5/11/VDS_SWEEP/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\# Memory report: Maximum memory size now 23,313 MB at UTC 2025.10.28 06:18:46.363
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 11) on testbench [ VDS_SWEEP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (0 12) on testbench [ VDS_SWEEP ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var VGS = "551m"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.5/12/VDS_SWEEP/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.5/12/VDS_SWEEP
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (0 12)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Oct 28 06:18:46 2025
+\o End netlisting Oct 28 06:18:46 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ VDS_SWEEP ] for Point ID
+\o           (0 12).
+\o 
+\o Delete psf data in /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.5/12/VDS_SWEEP/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 12) on testbench [ VDS_SWEEP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (0 13) on testbench [ VDS_SWEEP ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var VGS = "601m"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.5/13/VDS_SWEEP/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.5/13/VDS_SWEEP
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (0 13)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Oct 28 06:18:50 2025
+\o End netlisting Oct 28 06:18:50 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ VDS_SWEEP ] for Point ID
+\o           (0 13).
+\o 
+\o Delete psf data in /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.5/13/VDS_SWEEP/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 13) on testbench [ VDS_SWEEP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (0 21) on testbench [ VDS_SWEEP ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var VGS = "1.001"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.5/21/VDS_SWEEP/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.5/21/VDS_SWEEP
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (0 21)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Oct 28 06:18:55 2025
+\o End netlisting Oct 28 06:18:55 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ VDS_SWEEP ] for Point ID
+\o           (0 21).
+\o 
+\o Delete psf data in /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.5/21/VDS_SWEEP/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\# Available memory:         20,905 MB at UTC 2025.10.28 06:18:56.321
+\# Memory report: Maximum memory size now 21,375 MB at UTC 2025.10.28 06:18:56.321
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 21) on testbench [ VDS_SWEEP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (0 27) on testbench [ VDS_SWEEP ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var VGS = "1.301"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.5/27/VDS_SWEEP/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.5/27/VDS_SWEEP
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (0 27)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Oct 28 06:18:59 2025
+\o End netlisting Oct 28 06:18:59 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ VDS_SWEEP ] for Point ID
+\o           (0 27).
+\o 
+\o Delete psf data in /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.5/27/VDS_SWEEP/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 27) on testbench [ VDS_SWEEP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (0 34) on testbench [ VDS_SWEEP ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var VGS = "1.651"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.5/34/VDS_SWEEP/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.5/34/VDS_SWEEP
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (0 34)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Oct 28 06:19:04 2025
+\o End netlisting Oct 28 06:19:04 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ VDS_SWEEP ] for Point ID
+\o           (0 34).
+\o 
+\o Delete psf data in /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.5/34/VDS_SWEEP/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\# Memory report: Maximum memory size now 20,672 MB at UTC 2025.10.28 06:19:06.820
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 34) on testbench [ VDS_SWEEP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\# Memory report: Maximum memory size now 21,214 MB at UTC 2025.10.28 06:19:56.820
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = DAY2
+\o 	Cell         = BIAS_NMOS
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = VGS_SWEEP_none_Interactive.6
+\o 	Results DB   = /home/saul/projects/FIL3601/DAY2/BIAS_NMOS/adexl/results/data/Interactive.6.rdb
+\o 	Results Dir  = /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.6/1/VGS_SWEEP
+\o 	Results Loc  = /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data
+\o 	Project Dir  = /home/saul/projects/FIL3601/Sim
+\o 	Setup DB loc = /home/saul/projects/FIL3601/DAY2/BIAS_NMOS/adexl
+\o 	File Encoding = 0
+\o 
+\o 
+\o 
+\o *Info*    The auto suspension is disabled.
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 8) on testbench [ VGS_SWEEP ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var L = "180n"
+\o Setting var NF = "1"
+\o Setting var VDS = "70m"
+\o Setting var VGS = "1"
+\o Setting var WF = "8u"
+\o Setting var temperature = "27"
+\o Setting temp(T) = 27
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.6/8/VGS_SWEEP/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.6/8/VGS_SWEEP
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 8)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Initializing the control file using cp:
+\o     cp /opt/tools/cadence/installs/IC618/tools.lnx86/dfII/etc/si/control.spectre /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.6/8/VGS_SWEEP/netlist/control
+\o Copying Spectre source file 'spectre.inp'
+\o Copying Spectre command file 'spectre.sim'
+\o Begin Incremental Netlisting Oct 28 06:21:08 2025
+\o End netlisting Oct 28 06:21:09 2025
+\o 
+\o Netlisting Statistics:
+\o 	Number of components:    3
+\o 
+\o 	Elapsed time:          1.0s (3.00/s)
+\o Errors: 0	Warnings: 0
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ VGS_SWEEP ] for Point ID
+\o           (1 8).
+\o 
+\o Delete psf data in /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.6/8/VGS_SWEEP/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 8) on testbench [ VGS_SWEEP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 11) on testbench [ VGS_SWEEP ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var VDS = "100m"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.6/11/VGS_SWEEP/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.6/11/VGS_SWEEP
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 11)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Oct 28 06:21:13 2025
+\o End netlisting Oct 28 06:21:13 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ VGS_SWEEP ] for Point ID
+\o           (1 11).
+\o 
+\o Delete psf data in /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.6/11/VGS_SWEEP/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 11) on testbench [ VGS_SWEEP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 19) on testbench [ VGS_SWEEP ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var VDS = "180m"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.6/19/VGS_SWEEP/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.6/19/VGS_SWEEP
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 19)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Oct 28 06:21:18 2025
+\o End netlisting Oct 28 06:21:18 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ VGS_SWEEP ] for Point ID
+\o           (1 19).
+\o 
+\o Delete psf data in /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.6/19/VGS_SWEEP/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 19) on testbench [ VGS_SWEEP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 25) on testbench [ VGS_SWEEP ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var VDS = "240m"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.6/25/VGS_SWEEP/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.6/25/VGS_SWEEP
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 25)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Oct 28 06:21:22 2025
+\o End netlisting Oct 28 06:21:22 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ VGS_SWEEP ] for Point ID
+\o           (1 25).
+\o 
+\o Delete psf data in /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.6/25/VGS_SWEEP/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\# Memory report: Maximum memory size now 20,657 MB at UTC 2025.10.28 06:21:26.482
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 25) on testbench [ VGS_SWEEP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 37) on testbench [ VGS_SWEEP ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var VDS = "360m"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.6/37/VGS_SWEEP/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.6/37/VGS_SWEEP
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 37)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Oct 28 06:21:27 2025
+\o End netlisting Oct 28 06:21:27 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ VGS_SWEEP ] for Point ID
+\o           (1 37).
+\o 
+\o Delete psf data in /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.6/37/VGS_SWEEP/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 37) on testbench [ VGS_SWEEP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 44) on testbench [ VGS_SWEEP ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var VDS = "430m"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.6/44/VGS_SWEEP/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.6/44/VGS_SWEEP
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 44)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Oct 28 06:21:31 2025
+\o End netlisting Oct 28 06:21:31 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ VGS_SWEEP ] for Point ID
+\o           (1 44).
+\o 
+\o Delete psf data in /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.6/44/VGS_SWEEP/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 44) on testbench [ VGS_SWEEP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 51) on testbench [ VGS_SWEEP ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var VDS = "500m"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.6/51/VGS_SWEEP/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.6/51/VGS_SWEEP
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 51)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Oct 28 06:21:36 2025
+\o End netlisting Oct 28 06:21:36 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ VGS_SWEEP ] for Point ID
+\o           (1 51).
+\o 
+\o Delete psf data in /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.6/51/VGS_SWEEP/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 51) on testbench [ VGS_SWEEP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 58) on testbench [ VGS_SWEEP ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var VDS = "570m"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.6/58/VGS_SWEEP/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.6/58/VGS_SWEEP
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 58)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Oct 28 06:21:40 2025
+\o End netlisting Oct 28 06:21:40 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ VGS_SWEEP ] for Point ID
+\o           (1 58).
+\o 
+\o Delete psf data in /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.6/58/VGS_SWEEP/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 58) on testbench [ VGS_SWEEP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 67) on testbench [ VGS_SWEEP ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var VDS = "660m"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.6/67/VGS_SWEEP/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.6/67/VGS_SWEEP
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 67)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Oct 28 06:21:45 2025
+\o End netlisting Oct 28 06:21:45 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ VGS_SWEEP ] for Point ID
+\o           (1 67).
+\o 
+\o Delete psf data in /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.6/67/VGS_SWEEP/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 67) on testbench [ VGS_SWEEP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 75) on testbench [ VGS_SWEEP ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var VDS = "740m"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.6/75/VGS_SWEEP/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.6/75/VGS_SWEEP
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 75)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Oct 28 06:21:49 2025
+\o End netlisting Oct 28 06:21:49 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ VGS_SWEEP ] for Point ID
+\o           (1 75).
+\o 
+\o Delete psf data in /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.6/75/VGS_SWEEP/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 75) on testbench [ VGS_SWEEP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 82) on testbench [ VGS_SWEEP ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var VDS = "810m"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.6/82/VGS_SWEEP/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.6/82/VGS_SWEEP
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 82)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Oct 28 06:21:54 2025
+\o End netlisting Oct 28 06:21:54 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ VGS_SWEEP ] for Point ID
+\o           (1 82).
+\o 
+\o Delete psf data in /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.6/82/VGS_SWEEP/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\# Memory report: Maximum memory size now 20,069 MB at UTC 2025.10.28 06:21:55.819
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 82) on testbench [ VGS_SWEEP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 89) on testbench [ VGS_SWEEP ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var VDS = "880m"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.6/89/VGS_SWEEP/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.6/89/VGS_SWEEP
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 89)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Oct 28 06:21:59 2025
+\o End netlisting Oct 28 06:21:59 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ VGS_SWEEP ] for Point ID
+\o           (1 89).
+\o 
+\o Delete psf data in /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.6/89/VGS_SWEEP/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 89) on testbench [ VGS_SWEEP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 96) on testbench [ VGS_SWEEP ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var VDS = "950m"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.6/96/VGS_SWEEP/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.6/96/VGS_SWEEP
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 96)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Oct 28 06:22:03 2025
+\o End netlisting Oct 28 06:22:03 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ VGS_SWEEP ] for Point ID
+\o           (1 96).
+\o 
+\o Delete psf data in /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.6/96/VGS_SWEEP/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\# Memory report: Maximum memory size now 20,612 MB at UTC 2025.10.28 06:22:05.819
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 96) on testbench [ VGS_SWEEP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 106) on testbench [ VGS_SWEEP ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var VDS = "1.05"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.6/106/VGS_SWEEP/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.6/106/VGS_SWEEP
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 106)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Oct 28 06:22:08 2025
+\o End netlisting Oct 28 06:22:08 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ VGS_SWEEP ] for Point ID
+\o           (1 106).
+\o 
+\o Delete psf data in /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.6/106/VGS_SWEEP/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 106) on testbench [ VGS_SWEEP
+\o           ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 113) on testbench [ VGS_SWEEP ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var VDS = "1.12"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.6/113/VGS_SWEEP/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.6/113/VGS_SWEEP
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 113)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Oct 28 06:22:13 2025
+\o End netlisting Oct 28 06:22:13 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ VGS_SWEEP ] for Point ID
+\o           (1 113).
+\o 
+\o Delete psf data in /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.6/113/VGS_SWEEP/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 113) on testbench [ VGS_SWEEP
+\o           ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 123) on testbench [ VGS_SWEEP ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var VDS = "1.22"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.6/123/VGS_SWEEP/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.6/123/VGS_SWEEP
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 123)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Oct 28 06:22:18 2025
+\o End netlisting Oct 28 06:22:18 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ VGS_SWEEP ] for Point ID
+\o           (1 123).
+\o 
+\o Delete psf data in /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.6/123/VGS_SWEEP/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 123) on testbench [ VGS_SWEEP
+\o           ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 130) on testbench [ VGS_SWEEP ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var VDS = "1.29"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.6/130/VGS_SWEEP/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.6/130/VGS_SWEEP
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 130)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Oct 28 06:22:22 2025
+\o End netlisting Oct 28 06:22:22 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ VGS_SWEEP ] for Point ID
+\o           (1 130).
+\o 
+\o Delete psf data in /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.6/130/VGS_SWEEP/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\# Memory report: Maximum memory size now 20,207 MB at UTC 2025.10.28 06:22:24.819
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 130) on testbench [ VGS_SWEEP
+\o           ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 138) on testbench [ VGS_SWEEP ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var VDS = "1.37"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.6/138/VGS_SWEEP/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.6/138/VGS_SWEEP
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 138)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Oct 28 06:22:27 2025
+\o End netlisting Oct 28 06:22:27 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ VGS_SWEEP ] for Point ID
+\o           (1 138).
+\o 
+\o Delete psf data in /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.6/138/VGS_SWEEP/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 138) on testbench [ VGS_SWEEP
+\o           ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 147) on testbench [ VGS_SWEEP ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var VDS = "1.46"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.6/147/VGS_SWEEP/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.6/147/VGS_SWEEP
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 147)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Oct 28 06:22:32 2025
+\o End netlisting Oct 28 06:22:32 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ VGS_SWEEP ] for Point ID
+\o           (1 147).
+\o 
+\o Delete psf data in /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.6/147/VGS_SWEEP/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 147) on testbench [ VGS_SWEEP
+\o           ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 155) on testbench [ VGS_SWEEP ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var VDS = "1.54"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.6/155/VGS_SWEEP/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.6/155/VGS_SWEEP
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 155)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Oct 28 06:22:36 2025
+\o End netlisting Oct 28 06:22:36 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ VGS_SWEEP ] for Point ID
+\o           (1 155).
+\o 
+\o Delete psf data in /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.6/155/VGS_SWEEP/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 155) on testbench [ VGS_SWEEP
+\o           ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 163) on testbench [ VGS_SWEEP ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var VDS = "1.62"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.6/163/VGS_SWEEP/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.6/163/VGS_SWEEP
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 163)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Oct 28 06:22:41 2025
+\o End netlisting Oct 28 06:22:41 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ VGS_SWEEP ] for Point ID
+\o           (1 163).
+\o 
+\o Delete psf data in /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.6/163/VGS_SWEEP/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 163) on testbench [ VGS_SWEEP
+\o           ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 171) on testbench [ VGS_SWEEP ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var VDS = "1.7"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.6/171/VGS_SWEEP/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.6/171/VGS_SWEEP
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 171)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Oct 28 06:22:46 2025
+\o End netlisting Oct 28 06:22:46 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ VGS_SWEEP ] for Point ID
+\o           (1 171).
+\o 
+\o Delete psf data in /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.6/171/VGS_SWEEP/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 171) on testbench [ VGS_SWEEP
+\o           ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 179) on testbench [ VGS_SWEEP ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var VDS = "1.78"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.6/179/VGS_SWEEP/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.6/179/VGS_SWEEP
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 179)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Oct 28 06:22:51 2025
+\o End netlisting Oct 28 06:22:51 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ VGS_SWEEP ] for Point ID
+\o           (1 179).
+\o 
+\o Delete psf data in /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.6/179/VGS_SWEEP/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 179) on testbench [ VGS_SWEEP
+\o           ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\# Memory report: Maximum memory size now 20,645 MB at UTC 2025.10.28 06:23:13.819
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = DAY2
+\o 	Cell         = BIAS_NMOS
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = VGS_SWEEP_none_Interactive.7
+\o 	Results DB   = /home/saul/projects/FIL3601/DAY2/BIAS_NMOS/adexl/results/data/Interactive.7.rdb
+\o 	Results Dir  = /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.7/1/VGS_SWEEP
+\o 	Results Loc  = /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data
+\o 	Project Dir  = /home/saul/projects/FIL3601/Sim
+\o 	Setup DB loc = /home/saul/projects/FIL3601/DAY2/BIAS_NMOS/adexl
+\o 	File Encoding = 0
+\o 
+\o 
+\o 
+\o *Info*    The auto suspension is disabled.
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (2 8) on testbench [ VGS_SWEEP ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var L = "180n"
+\o Setting var NF = "1"
+\o Setting var VDS = "350m"
+\o Setting var VGS = "1"
+\o Setting var WF = "8u"
+\o Setting var temperature = "27"
+\o Setting temp(T) = 27
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.7/8/VGS_SWEEP/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.7/8/VGS_SWEEP
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (2 8)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Oct 28 06:23:26 2025
+\o End netlisting Oct 28 06:23:26 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ VGS_SWEEP ] for Point ID
+\o           (2 8).
+\o 
+\o Delete psf data in /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.7/8/VGS_SWEEP/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\# Memory report: using         488 MB, process size 2,291 MB at UTC 2025.10.28 06:23:27.293
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (2 8) on testbench [ VGS_SWEEP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (2 14) on testbench [ VGS_SWEEP ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var VDS = "650m"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.7/14/VGS_SWEEP/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.7/14/VGS_SWEEP
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (2 14)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Oct 28 06:23:31 2025
+\o End netlisting Oct 28 06:23:31 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ VGS_SWEEP ] for Point ID
+\o           (2 14).
+\o 
+\o Delete psf data in /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.7/14/VGS_SWEEP/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (2 14) on testbench [ VGS_SWEEP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (2 21) on testbench [ VGS_SWEEP ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var VDS = "1"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.7/21/VGS_SWEEP/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.7/21/VGS_SWEEP
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (2 21)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Oct 28 06:23:35 2025
+\o End netlisting Oct 28 06:23:35 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ VGS_SWEEP ] for Point ID
+\o           (2 21).
+\o 
+\o Delete psf data in /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.7/21/VGS_SWEEP/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (2 21) on testbench [ VGS_SWEEP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (2 25) on testbench [ VGS_SWEEP ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var VDS = "1.2"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.7/25/VGS_SWEEP/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.7/25/VGS_SWEEP
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (2 25)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Oct 28 06:23:39 2025
+\o End netlisting Oct 28 06:23:39 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ VGS_SWEEP ] for Point ID
+\o           (2 25).
+\o 
+\o Delete psf data in /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.7/25/VGS_SWEEP/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (2 25) on testbench [ VGS_SWEEP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (2 35) on testbench [ VGS_SWEEP ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var VDS = "1.7"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.7/35/VGS_SWEEP/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.7/35/VGS_SWEEP
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (2 35)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Oct 28 06:23:44 2025
+\o End netlisting Oct 28 06:23:44 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ VGS_SWEEP ] for Point ID
+\o           (2 35).
+\o 
+\o Delete psf data in /home/saul/projects/FIL3601/Sim/DAY2/BIAS_NMOS/adexl/results/data/Interactive.7/35/VGS_SWEEP/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (2 35) on testbench [ VGS_SWEEP ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o Job 1 timed out after no activity in 300 seconds.
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\o 
+\o *Info*    Received signal SIGTERM.

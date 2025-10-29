@@ -1,0 +1,57 @@
+			*****************************************************
+			**                                                 **
+			**                L V S  R E P O R T               **
+			**                                                 **
+			*****************************************************
+
+
+Report File Name         : opamp1_lvs.sum
+ERC Summary File         : opamp1.sum
+LVS Comparison Report    : opamp1_lvs.sum.cls
+LVS Softchk Report       : opamp1.softchk
+Layout Name              : /home/saul/projects/FIL3601/PvsLVS/opamp1/opamp1.gds ("opamp1")
+User Name                : saul
+Creation Time            : Wed Sep  3 16:39:08 2025
+Current directory        : /home/saul/projects/FIL3601/PvsLVS/opamp1
+PVS Version              : 24.11-s045 Mon Jan 27 22:18:54 PST 2025
+
+
+			*****************************************************
+			**                                                 **
+			**            D E V E X T  R E P O R T             **
+			**                                                 **
+			*****************************************************
+
+
+    LVS_SOFTCHK nwtrm -TYPE CONTACT   Total Result        0 (       0)
+    LVS_SOFTCHK dnwtrm -TYPE CONTACT   Total Result        0 (       0)
+    LVS_SOFTCHK hvnwtrm -TYPE CONTACT   Total Result        0 (       0)
+    LVS_SOFTCHK ndftrm -TYPE CONTACT   Total Result        0 (       0)
+    LVS_SOFTCHK hnw -TYPE CONTACT   Total Result        0 (       0)
+    LVS_SOFTCHK catdiff -TYPE CONTACT   Total Result        0 (       0)
+    LVS_SOFTCHK anodiff -TYPE CONTACT   Total Result        0 (       0)
+    LVS_SOFTCHK pwitrm -TYPE CONTACT   Total Result        0 (       0)
+    LVS_SOFTCHK pdf -TYPE CONTACT   Total Result        0 (       0)
+    LVS_SOFTCHK bulk -TYPE CONTACT   Total Result        0 (       0)
+
+Clean cell list (added by extraction report parser )
+ for cell "MOSVC"
+ for cell "VIA1_C_CDNS_756917543330"
+ for cell "VIA1_C_CDNS_756917543332"
+ for cell "VIA1_C_CDNS_756917543334"
+ for cell "VIA1_C_CDNS_756917543338"
+ for cell "VIA1_C_CDNS_756917543339"
+ for cell "VIA2_C_CDNS_756917543331"
+ for cell "VIA2_C_CDNS_7569175433317"
+ for cell "VIA2_C_CDNS_756917543336"
+ for cell "mosvc_CDNS_7569175433310"
+ for cell "mosvc_CDNS_756917543339"
+ for cell "nel_CDNS_756917543331"
+ for cell "nel_CDNS_756917543332"
+ for cell "nel_CDNS_756917543335"
+ for cell "nel_CDNS_756917543337"
+ for cell "nel_CDNS_756917543338"
+ for cell "opamp1"
+ for cell "pel_CDNS_756917543334"
+ for cell "pel_CDNS_756917543336"
+ for cell "rpp1k1_3_CDNS_756917543330"

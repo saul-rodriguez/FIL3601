@@ -1,0 +1,32 @@
+\o Program:		@(#)$CDS: cdsLibEditor version 6.1.8 - CAT37 04/25/2024 14:36 (csvcm36c-7) $
+\o Sub version:		sub-version  s364 
+\o Arguments:		-cdslib /home/saul/projects/FIL3601/cds.lib -mpssession virtuosoEyuc3TXdfi5Thtae0ZFzUJ_2745 -mpshost 44515@b35621b5a0f6 -mpsversion 6.18 
+\o Working Directory:	b35621b5a0f6:/home/saul/projects/FIL3601
+\o 64-bit offsets
+\a nrSetWindowVisibility(cdsLibEditor "show")
+\o Qt version: 		5.9.1
+\a nrSetCurrentWindow(cdsLibEditor)
+\a nrResizeWindow(cdsLibEditor list(705 318 500 400))
+\a nrSetCurrentWindow(cdsLibEditor)
+\a nrListItemAction(cdsLibEditor->mainTable 0 0)
+\o Active cell: 0 0 "analogLib"
+\a nrResizeWindow(cdsLibEditor list(282 93 500 400))
+\a nrSetCurrentWindow(cdsLibEditor)
+\a nrResizeWindow(cdsLibEditor list(282 93 891 766))
+\a nrListItemAction(cdsLibEditor->mainTable 73 1)
+\o Active cell: 73 1 "/home/saul/projects/FIL3601/TEST"
+\a nrListItemRename(cdsLibEditor->mainTable, 73 1 "./TEST")
+\a nrListItemAction(cdsLibEditor->mainTable 74 0)
+\o Active cell: 74 0 "DAY10"
+\a nrListItemAction(cdsLibEditor->mainTable 74 1)
+\o Active cell: 74 1 "/home/saul/projects/FIL3601/DAY10"
+\a nrListItemRename(cdsLibEditor->mainTable, 74 1 "./DAY10")
+\a nrListItemAction(cdsLibEditor->mainTable 75 0)
+\o Active cell: 75 0 "LAB1"
+\a nrListItemAction(cdsLibEditor->mainTable 75 1)
+\o Active cell: 75 1 "/home/saul/projects/FIL3601/LAB1"
+\a nrListItemRename(cdsLibEditor->mainTable, 75 1 "./LAB1")
+\a nrListItemAction(cdsLibEditor->mainTable 76 0)
+\o Active cell: 76 0 ""
+\a cdsLibEditor->fileSaveButton->value = t
+\a exit(0)

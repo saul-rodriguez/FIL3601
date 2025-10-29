@@ -1,0 +1,126 @@
+********************************************************************************
+Product   : Virtuoso(R) XStream Out
+Program   : @(#)$CDS: strmout version 6.1.8-64b 09/03/2024 18:58 (sjfhw317) $
+          : sub-version  IC6.1.8-64b.500.36 
+Started at: 29-Sep-2025  19:34:34
+User Name : saul
+Host Name : b35621b5a0f6
+Directory : /home/saul/projects/FIL3601
+CADENCE Design Systems, Inc.
+********************************************************************************
+Info: Cellview Rev Num:99,  Tech Rev Num:59
+
+
+                       Individual Cell Statistics - Basic Objects
+---------------------------------------------------------------------------------------------------------------------------------------
+Library/Cell/View               Instance Array   Polygon  Rect   Path   PathSeg   Text   TextDisplay   Line   Dot   Arc   Donut   Ellipse 
+---------------------------------------------------------------------------------------------------------------------------------------
+TECH_XH018/VIA2_C/layout        0        0       0        182    0      0         0      0             0      0     0     0       0       
+DAY10/opamp1/layout             0        0       2        8854   533    539       122    8             0      0     0     0       0       
+TECH_XH018/VIA3_C/layout        0        0       0        10     0      0         0      0             0      0     0     0       0       
+TECH_XH018/VIA2_C/layout        0        0       0        11     0      0         0      0             0      0     0     0       0       
+TECH_XH018/VIA2_C/layout        0        0       0        5      0      0         0      0             0      0     0     0       0       
+TECH_XH018/VIA2_C/layout        0        0       0        8      0      0         0      0             0      0     0     0       0       
+TECH_XH018/VIA3_C/layout        0        0       0        11     0      0         0      0             0      0     0     0       0       
+TECH_XH018/VIA1_C/layout        0        0       0        18     0      0         0      0             0      0     0     0       0       
+TECH_XH018/VIA2_C/layout        0        0       0        23     0      0         0      0             0      0     0     0       0       
+TECH_XH018/VIA2_C/layout        0        0       0        10     0      0         0      0             0      0     0     0       0       
+TECH_XH018/VIA2_C/layout        0        0       0        11     0      0         0      0             0      0     0     0       0       
+TECH_XH018/VIA1_C/layout        0        0       0        5      0      0         0      0             0      0     0     0       0       
+TECH_XH018/VIATP_C/layout       0        0       0        6      0      0         0      0             0      0     0     0       0       
+TECH_XH018/VIA1_C/layout        0        0       0        3      0      0         0      0             0      0     0     0       0       
+TECH_XH018/VIA1_C/layout        0        0       0        4      0      0         0      0             0      0     0     0       0       
+TECH_XH018/P1_C/layout          0        0       0        6      0      0         0      0             0      0     0     0       0       
+TECH_XH018/VIA1_C/layout        0        0       0        23     0      0         0      0             0      0     0     0       0       
+TECH_XH018/VIA1_C/layout        0        0       0        14     0      0         0      0             0      0     0     0       0       
+TECH_XH018/VIA1_C/layout        0        0       0        10     0      0         0      0             0      0     0     0       0       
+TECH_XH018/VIA1_C/layout        0        0       0        182    0      0         0      0             0      0     0     0       0       
+---------------------------------------------------------------------------------------------------------------------------------------
+
+                       Individual Cell Statistics - Advanced Objects
+---------------------------------------------------------------------------------------------------------------------------------------
+Library/Cell/View               PRBdy    OtherBdy   AreaBlkg   LayerBlkg  AreaHalo   Row   Marker   CustVia   StdVia    CdsGenVia
+---------------------------------------------------------------------------------------------------------------------------------------
+TECH_XH018/VIA2_C/layout        0        0          0          0          0          0     0        0         0         0        
+DAY10/opamp1/layout             1        0          0          0          0          0     0        0         402       0        
+TECH_XH018/VIA3_C/layout        0        0          0          0          0          0     0        0         0         0        
+TECH_XH018/VIA2_C/layout        0        0          0          0          0          0     0        0         0         0        
+TECH_XH018/VIA2_C/layout        0        0          0          0          0          0     0        0         0         0        
+TECH_XH018/VIA2_C/layout        0        0          0          0          0          0     0        0         0         0        
+TECH_XH018/VIA3_C/layout        0        0          0          0          0          0     0        0         0         0        
+TECH_XH018/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
+TECH_XH018/VIA2_C/layout        0        0          0          0          0          0     0        0         0         0        
+TECH_XH018/VIA2_C/layout        0        0          0          0          0          0     0        0         0         0        
+TECH_XH018/VIA2_C/layout        0        0          0          0          0          0     0        0         0         0        
+TECH_XH018/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
+TECH_XH018/VIATP_C/layout       0        0          0          0          0          0     0        0         0         0        
+TECH_XH018/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
+TECH_XH018/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
+TECH_XH018/P1_C/layout          0        0          0          0          0          0     0        0         0         0        
+TECH_XH018/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
+TECH_XH018/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
+TECH_XH018/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
+TECH_XH018/VIA1_C/layout        0        0          0          0          0          0     0        0         0         0        
+---------------------------------------------------------------------------------------------------------------------------------------
+
+                       Statistics of Layers 
+---------------------------------------------------------------------------------------------------------------------------------------
+Cadence         Cadence         Stream  Stream   
+Layer           Purpose         Layer   Datatype  Polygon  Rect     Path     Text     TextDisplay   Line Dot Arc Donut Ellipse Pathseg
+---------------------------------------------------------------------------------------------------------------------------------------
+CAPM            drawing         47      0         0        1        0        0        0             0    0   0   0     0      0      
+DIFF            drawing         3       0         0        415      8        0        0             0    0   0   0     0      0      
+MET2            drawing         18      0         0        25       0        0        0             0    0   0   0     0      60     
+VIA3            drawing         29      0         0        17       0        0        0             0    0   0   0     0      0      
+NIMP            drawing         8       0         0        196      4        0        0             0    0   0   0     0      0      
+MET1            VLABEL          16      15        0        0        0        0        1             0    0   0   0     0      0      
+POLY1           drawing         13      0         0        614      119      0        0             0    0   0   0     0      1      
+MET1            TEXT            16      3         0        1        0        0        0             0    0   0   0     0      0      
+MET3            TEXT            28      3         0        1        0        0        0             0    0   0   0     0      0      
+MET1            drawing         16      0         0        22       394      0        0             0    0   0   0     0      443    
+METTP           drawing         33      0         0        4        0        0        0             0    0   0   0     0      1      
+MET3            drawing         28      0         0        10       0        0        1             0    0   0   0     0      33     
+MET4            drawing         31      0         0        5        0        0        0             0    0   0   0     0      1      
+SBLK            drawing         34      0         1        0        0        0        0             0    0   0   0     0      0      
+MET2            VLABEL          18      15        0        0        0        0        6             0    0   0   0     0      0      
+LVT             drawing         39      0         0        117      0        0        0             0    0   0   0     0      0      
+VIA2            drawing         27      0         0        236      0        0        0             0    0   0   0     0      0      
+VIA1            drawing         17      0         0        243      0        0        0             0    0   0   0     0      0      
+VIATP           drawing         51      0         0        147      0        0        0             0    0   0   0     0      0      
+POLY1           VERIFICATION    13      5         0        0        0        1        0             0    0   0   0     0      0      
+CONT            drawing         15      0         0        7264     0        0        0             0    0   0   0     0      0      
+text            drawing         230     0         0        0        0        121      0             0    0   0   0     0      0      
+PIMP            drawing         7       0         0        46       4        0        0             0    0   0   0     0      0      
+MET2            TEXT            18      3         0        4        0        0        0             0    0   0   0     0      0      
+NWELL           drawing         2       0         0        28       4        0        0             0    0   0   0     0      0      
+MRES            drawing         42      0         1        0        0        0        0             0    0   0   0     0      0      
+---------------------------------------------------------------------------------------------------------------------------------------
+
+Summary of Objects Translated:
+	Scalar Instances:		0
+	Array Instances:		0
+	Polygons:			2
+	Paths:				533
+	Rectangles:			9396
+	Lines:				0
+	Arcs:				0
+	Donuts:				0
+	Dots:				0
+	Ellipses:			0
+	Boundaries:			1
+	Area Blockages:			0
+	Layer Blockages:		0
+	Area Halos:			0
+	Markers:			0
+	Rows:				0
+	Standard Vias:			402
+	Custom Vias:			0
+	CdsGen Vias:			0
+	Pathsegs:			539
+	Text:				122
+	TextDisplay:		8
+	Cells:				20
+Design Libraries: 
+
+DEFINE TECH_XH018	/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/PDK/IC61/v10_0_3/TECH_XH018_1143
+DEFINE DAY10	/home/saul/projects/FIL3601/DAY10

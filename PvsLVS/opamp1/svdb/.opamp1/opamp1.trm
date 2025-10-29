@@ -1,0 +1,6 @@
+;| version 1
+element mos[nel] nel ndiff[D] p1trm[G] ndiff[S] bulk[B]
+element mos[pel] pel pdiff[D] p1trm[G] pdiff[S] nwtrm[B]
+element diode[p_dnw] p_0dnw bulk[POS] nwtrm[NEG]
+element res[rpp1k1_3] rpp1k1_0n p1trm[POS] p1trm[NEG] nwtrm[SUB]
+element cap[cmm5t] cmim capm[POS] m4trm[NEG]

@@ -1,0 +1,21 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Fri Mar  7 07:31:14 2025 
+Best design point: 1
+Design specs: 
+	DAY6:ex2:1	corner	Nominal - 
+	GQ		-10.41
+	GP		-10.57
+	GM		-10.21
+	ep		-15.71m
+	em		18.99m
+	DAY6:ex2:2	corner	Nominal - 
+Design parameters: 
+	VIN2		0
+	VIN		0
+
+Interactive.16
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.16 completed. 
+Current time: Fri Mar  7 07:31:21 2025 

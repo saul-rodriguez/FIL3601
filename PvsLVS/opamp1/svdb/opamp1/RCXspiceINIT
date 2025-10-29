@@ -1,0 +1,489 @@
+CAPGENOPTS="-techdir /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/QRC_pvs/v10_0_1/XH018_1143/QRC-Typ -inc /home/saul/projects/FIL3601/PvsLVS/opamp1/svdb/opamp1/opamp1.ilf -lvs /home/saul/projects/FIL3601/PvsLVS/opamp1/svdb/opamp1/opamp1.xcn -lvsvia -p2lvs /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/QRC_pvs/v10_0_1/XH018_1143/QRC-Typ/qrcTechFile -sd -reseqn -sw3d -length_units meters -cap_unit 1 -p POLY1,gate,active -p POLY1,GateLayers:nhv_d+nhvd_d+nmc_d+nhv_b+nhvd_b+nmc_b+phv_d+pmc_d+nedi2_d+nedia2_d+ped12_d+ped22_d+nedi2_b+nedia2_b+ped12_b+ped22_b,active -M p_cap -genericMos nei_6,D,G,S:AS=AS,AD=AD,PS=PS,PD=PD,NRD=nrd,NRS=nrs -genericMos nei_m_6,D,G,S:AS=AS,AD=AD,PS=PS,PD=PD,NRD=nrd,NRS=nrs -genericMos neli_6,D,G,S:AS=AS,AD=AD,PS=PS,PD=PD,NRD=nrd,NRS=nrs -genericMos neli_m_6,D,G,S:AS=AS,AD=AD,PS=PS,PD=PD,NRD=nrd,NRS=nrs -genericMos nelnai_6,D,G,S:AS=AS,AD=AD,PS=PS,PD=PD,NRD=nrd,NRS=nrs -genericMos nelnai_m_6,D,G,S:AS=AS,AD=AD,PS=PS,PD=PD,NRD=nrd,NRS=nrs -genericMos nesvti_6,D,G,S:AS=AS,AD=AD,PS=PS,PD=PD,NRD=nrd,NRS=nrs -genericMos nesvti_m_6,D,G,S:AS=AS,AD=AD,PS=PS,PD=PD,NRD=nrd,NRS=nrs -genericMos pe_5,D,G,S:AS=AS,AD=AD,PS=PS,PD=PD,NRD=nrd,NRS=nrs -genericMos pel_5,D,G,S:AS=AS,AD=AD,PS=PS,PD=PD,NRD=nrd,NRS=nrs -genericMos pei_5,D,G,S:AS=AS,AD=AD,PS=PS,PD=PD,NRD=nrd,NRS=nrs -genericMos pei_m_5,D,G,S:AS=AS,AD=AD,PS=PS,PD=PD,NRD=nrd,NRS=nrs -genericMos peli_5,D,G,S:AS=AS,AD=AD,PS=PS,PD=PD,NRD=nrd,NRS=nrs -genericMos peli_m_5,D,G,S:AS=AS,AD=AD,PS=PS,PD=PD,NRD=nrd,NRS=nrs -genericMos pesvt_5,D,G,S:AS=AS,AD=AD,PS=PS,PD=PD,NRD=nrd,NRS=nrs -genericMos pesvti_5,D,G,S:AS=AS,AD=AD,PS=PS,PD=PD,NRD=nrd,NRS=nrs -genericMos pesvti_m_5,D,G,S:AS=AS,AD=AD,PS=PS,PD=PD,NRD=nrd,NRS=nrs -genericMos nemi_6,D,G,S:AS=AS,AD=AD,PS=PS,PD=PD,NRD=nrd,NRS=nrs -genericMos ndmi_6,D,G,S:AS=AS,AD=AD,PS=PS,PD=PD,NRD=nrd,NRS=nrs -genericMos nemlnai_6,D,G,S:AS=AS,AD=AD,PS=PS,PD=PD,NRD=nrd,NRS=nrs -genericMos pemi_5,D,G,S:AS=AS,AD=AD,PS=PS,PD=PD,NRD=nrd,NRS=nrs -genericMos pemlni_5,D,G,S:AS=AS,AD=AD,PS=PS,PD=PD,NRD=nrd,NRS=nrs -genericMos pemlnai_5,D,G,S:AS=AS,AD=AD,PS=PS,PD=PD,NRD=nrd,NRS=nrs -genericMos nemi_m_6,D,G,S:AS=AS,AD=AD,PS=PS,PD=PD,NRD=nrd,NRS=nrs -genericMos ndmi_m_6,D,G,S:AS=AS,AD=AD,PS=PS,PD=PD,NRD=nrd,NRS=nrs -genericMos nemlnai_m_6,D,G,S:AS=AS,AD=AD,PS=PS,PD=PD,NRD=nrd,NRS=nrs -genericMos pem_5,D,G,S:AS=AS,AD=AD,PS=PS,PD=PD,NRD=nrd,NRS=nrs -genericMos pemln_5,D,G,S:AS=AS,AD=AD,PS=PS,PD=PD,NRD=nrd,NRS=nrs -genericMos pemi_m_5,D,G,S:AS=AS,AD=AD,PS=PS,PD=PD,NRD=nrd,NRS=nrs -genericMos pemlni_m_5,D,G,S:AS=AS,AD=AD,PS=PS,PD=PD,NRD=nrd,NRS=nrs -genericMos pemlnai_m_5,D,G,S:AS=AS,AD=AD,PS=PS,PD=PD,NRD=nrd,NRS=nrs -extract_mos_diffusion_res_by_device pe,pel,pesvt,peli,pei,pesvti,ne,nel,nelna,nesvt,nei,neli,nelnai,nesvti,nnm,nem,ndm,nemlna,pem,pemln,pemlna,nemi,ndmi,nemlna,pemi,pemlni,pemlnai,ndsmiP,ndsmiE,nma_d,nma_b,pma_d,pma_b,pe_5,pel_5,pei_5,pei_m_5,peli_5,peli_m_5,pesvt_5,pesvti_5,pesvti_m_5,pem_5,pemln_5,pemi_5,pemi_m_5,pemlni_5,pemlni_m_5,pemlnai_5,pemlnai_m_5,nei_6,nei_m_6,neli_6,neli_m_6,nelnai_6,nelnai_m_6,nesvti_6,nesvti_m_6,nemi_6,nemi_m_6,ndmi_6,ndmi_m_6,nemlnai_6,nemlnai_m_6 -dsub nwtrm,dnwtrm,hnw,pwitrm,pdf,hvnwtrm,ndftrm,bulk -genericMos pma_b,D,G,S:NRD=nrd,NRS=nrs -blocking phv_b:0.01,POLY1,active,sub -blocking phhv_b:0.01,POLY1,active,sub -blocking pmc_b:0.01,POLY1,active,sub -blocking pmmc_b:0.01,POLY1,active,sub -blocking pmma_b:0.01,POLY1,active,sub -blocking pedam_d:0.01,POLY1,active,sub -blocking pedam_b:0.01,POLY1,active,sub -blocking nedam_d:0.01,POLY1,active,sub -blocking nedam_b:0.01,POLY1,active,sub -blocking pedama_d:0.01,POLY1,active,sub -blocking pedama_b:0.01,POLY1,active,sub -blocking mosvc:0.01,POLY1,active,sub -blocking mosvci:0.01,POLY1,active,sub -blocking mosvci_m:0.01,POLY1,active,sub -blocking mosvcm:0.01,POLY1,active,sub -blocking mosvcim_m:0.01,POLY1,active,sub -blocking mosvcim:0.01,POLY1,active,sub -blocking cpod:0.01,POLY1,active,sub -blocking cpodhv:0.01,POLY1,active,sub -blocking nha3m:0.01,POLY1,active,sub -blocking cnnotpaE:0.01,POLY1,active,sub -blocking cnnotpaP:0.01,POLY1,active,sub -blocking d_csf2p,POLY1,MET1,MET2 -blocking cmim23f,MET2,MET3 -blocking cmimh23f,MET2,MET3 -blocking d_cswt3,POLY1,MET1,MET2,MET3 -blocking d_csf3p,POLY1,MET1,MET2,MET3 -blocking d_csf3,MET1,MET2,MET3 -blocking d_csf3a,MET1,MET2,MET3 -blocking d_cif3a,MET1,MET2,MET3 -blocking cmim34f,MET3,MET4 -blocking cmimh34f,MET3,MET4 -blocking cdmm,MET2,MET3,MET4 -blocking cdmmh,MET2,MET3,MET4 -blocking d_cswt4,POLY1,MET1,MET2,MET3,MET4 -blocking d_csf4,MET1,MET2,MET3,MET4 -blocking d_csf4a,MET1,MET2,MET3,MET4 -blocking d_cif4a,MET1,MET2,MET3,MET4 -blocking cmim,MET4,METTP -blocking cmimh,MET4,METTP -blocking ctmm,MET2,MET3,MET4,METTP -blocking ctmmh,MET2,MET3,MET4,METTP -blocking d_csft5,MET1,MET2,MET3,MET4,METTP -blocking d_csft5a,MET1,MET2,MET3,MET4,METTP -blocking d_cift5a,MET1,MET2,MET3,MET4,METTP -split_hv_mos ped12_d,ped1,50,5,mtot:pwitrm,pdiff:cont -split_hv_mos ped12_b,ped1,50,5,mtot:pwitrm,pdiff:cont -split_hv_mos ped22_d,ped2,50,5,mtot:pwitrm,pdiff:cont -split_hv_mos ped22_b,ped2,50,5,mtot:pwitrm,pdiff:cont -split_hv_mos nedi2_d,nedi,50,5,mtot:dnwtrm,ndiff:cont -split_hv_mos nedi2_b,nedi,50,5,mtot:dnwtrm,ndiff:cont -split_hv_mos nedia2_d,nedia,50,5,mtot:dnwtrm,ndiff:cont -split_hv_mos nedia2_b,nedia,50,5,mtot:dnwtrm,ndiff:cont /home/saul/projects/FIL3601/PvsLVS/opamp1/svdb/opamp1"
+RINTERCONNECT="mltrm mttrm m4trm m3trm m2trm m1trm p1trm"
+PROCESSEROSION="- - - - - - - - -"
+#!/bin/sh
+# This file was generated by:
+#
+#	Techgen -trans version 24.1.0 Linux 64 bit - (Wed Dec 18 09:06:09 PST 2024)	Wed Sep  3 16:39:58 2025
+#
+#------------------------------------------
+# BEGIN: Initializations
+#
+# net file
+#
+NETFILE="net_1"
+#
+#
+# resistive interconnect variables.  Some of this information is from
+# the process file:
+#       RINTERPROCESS - process layers for which R will be extracted
+#       RINTERHEIGHT - height (thickness) of RINTERPROCESS layers
+#       RINTERFILL - grow/shrink amount for RINTERPROCESS layers
+#       RINTERBIAS - bias of RINTERPROCESS layers
+#       RINTERRES     - sheet resistance of process layers
+#       RINTERRANGE  - separation range for 2d capacitance extraction
+#       RINTERSEP     - maximum separation for 2d capacitance extraction
+#       RTHRESHSEP    - 'infinity' threshhold.  Conductors separated
+#                       by this distance are treated as if isolated
+# and some from extraction:
+#       RINTERCONNECT - extraction layers which correspond to RINTERPROCESS 
+#                       layers
+# and some from the user
+#       RNAMEPREFIX   - resistor name prefixes (these will appear in the dspf)
+#       RPROCESSTC    -process layer temperature coefficient TC1,TC2 
+#
+# The resistive interconnect variables correspond by position, so they must
+# all have the same number of elements.  They must also be in top-down process
+# order.
+#
+RINTERPROCESS="METTPL METTP MET4 MET3 MET2 MET1 POLY1"
+RINTERHEIGHT="3.11 0.985 0.565 0.565 0.565 0.565 0.2"
+RINTERFILL="3.999 0.679 0.419 0.419 0.419 0.344 0.339"
+RINTERBIAS="0 -0.06 -0.02 -0.02 -0.02 -0.01 0.015"
+RINTERRES="0.0101 0.031 0.074 0.074 0.074 0.077 7.5"
+RINTERRANGE="25 9.2 5.6 5.6 2.8 2.3 2.5"
+RINTERSEP="25 9.2 5.6 5.6 2.8 2.3 2.5"
+RTHRESHSEP="25.001 9.201 5.601 5.601 2.801 2.301 2.501"
+RMODELNAME="METTPL METTP MET4 MET3 MET2 MET1 POLY1"
+RNAMEPREFIX="a b c d e f g"
+RPROCESSTC="0.0038,0 0.0032,0 0.0032,0 0.0034,0 0.0034,0 0.0034,0 0.00292,0.00000095"
+DVBCONNECT=
+DVBPROCESS=
+LVSNAMES="rpp1k1_n p_dnw"
+QRCNAMES="rpp1k1_0n p_0dnw"
+#
+# RTEXT - contains the text layers which appeared in the extraction
+#         and apply to the RINTERCONNECT layers. Each entry must have the form:
+#
+#               text-layer-name,inter-connect-layer-name
+#
+#         interconnect-layer-names must appear in the list specified for 
+#         RINTERCONNECT
+# RTEXTI- contains text layers and corresponding indices into the RINTERCONNECT
+#         list. Indices are determined from right to left.  The rightmost
+#         RINTERCONNECT layer has an index of 1.
+# NRTEXT - text layers attaching to non-resitive layers.
+#
+RTEXT="text_m1trm,m1trm text_m2trm,m2trm text_m3trm,m3trm"
+RTEXTI="text_m1trm,2 text_m2trm,3 text_m3trm,4"
+NRTEXT=
+#
+# MARKERLAYERS - non-extracted LVS layers.
+MARKERLAYERS=
+# MAPPEDMARKERLAYERS - mapped marker layers.
+MAPPEDMARKERLAYERS=
+#
+# RVIAS - contains the via layers and the interconnect layers to which they
+#         apply. Each entry must have the form:
+#
+#               via-layer-name,interconnect-layer1,interconnect-layer2
+#
+#         interconnect layers must appear in TINTEREXT
+# SRVIAS - list of via names
+# RVIAR - contains via resistance.  A dash indicates no resistance.
+#         this list must correspond to the RVIAS list
+# DAVIAS - contains vias for which the array_vias feature should be disabled.
+# ARRAYVIASPACING - contains via,value pairs for the array_vias feature.
+# VIAUNITAREA - contains via,value pairs for the via_unit_area feature.
+# VIATC - contains via,value1,value2  pairs for the TC1,TC2 feature.
+#
+BVIAS="capswp1_p1trm_butt,capswp1,p1trm capswm1_m1trm_butt,capswm1,m1trm capswm2_m2trm_butt,capswm2,m2trm capswm3_m3trm_butt,capswm3,m3trm ml_0vlbl_mltrm_butt,ml_0vlbl,mltrm mt_0vlbl_mttrm_butt,mt_0vlbl,mttrm m4_0vlbl_m4trm_butt,m4_0vlbl,m4trm m3_0vlbl_m3trm_butt,m3_0vlbl,m3trm m2_0vlbl_m2trm_butt,m2_0vlbl,m2trm m1_0vlbl_m1trm_butt,m1_0vlbl,m1trm df_0vlbl_ndiff_butt,df_0vlbl,ndiff df_0vlbl_pdiff_butt,df_0vlbl,pdiff p1_0vlbl_p1trm_butt,p1_0vlbl,p1trm df_0vlbl_bndiff_butt,df_0vlbl,bndiff ndiff_davl_0c2_butt,ndiff,davl_0c2"
+RVIAS="capswp1_p1trm_ovia,capswp1,p1trm capswp1_capswp1_p1trm_butt_ovia,capswp1,capswp1_p1trm_butt p1trm_capswp1_p1trm_butt_ovia,p1trm,capswp1_p1trm_butt capswm1_m1trm_ovia,capswm1,m1trm capswm1_capswm1_m1trm_butt_ovia,capswm1,capswm1_m1trm_butt m1trm_capswm1_m1trm_butt_ovia,m1trm,capswm1_m1trm_butt capswm2_m2trm_ovia,capswm2,m2trm capswm2_capswm2_m2trm_butt_ovia,capswm2,capswm2_m2trm_butt m2trm_capswm2_m2trm_butt_ovia,m2trm,capswm2_m2trm_butt capswm3_m3trm_ovia,capswm3,m3trm capswm3_capswm3_m3trm_butt_ovia,capswm3,capswm3_m3trm_butt m3trm_capswm3_m3trm_butt_ovia,m3trm,capswm3_m3trm_butt dphopin3_dphopin3_ovia,dphopin3,dphopin3 ml_0vlbl_mltrm_ovia,ml_0vlbl,mltrm ml_0vlbl_ml_0vlbl_mltrm_butt_ovia,ml_0vlbl,ml_0vlbl_mltrm_butt mltrm_ml_0vlbl_mltrm_butt_ovia,mltrm,ml_0vlbl_mltrm_butt viatpl,mltrm,mttrm mt_0vlbl_mttrm_ovia,mt_0vlbl,mttrm mt_0vlbl_mt_0vlbl_mttrm_butt_ovia,mt_0vlbl,mt_0vlbl_mttrm_butt mttrm_mt_0vlbl_mttrm_butt_ovia,mttrm,mt_0vlbl_mttrm_butt vtpCON,mttrm,m4trm vtpcm,mttrm,capm vtpcmh,mttrm,capmh vtpcm3,mttrm,capm3_0t vtpcmh3,mttrm,capmh3_0t via3CON,m4trm,m3trm v3cm3,m4trm,capm3_0m v3cmh3,m4trm,capmh3_0m v3cm2,m4trm,capm2_0t v3cmh2,m4trm,capmh2_0t v3cm,m4trm,capm34f v3cmh,m4trm,capmh34f via2CON,m3trm,m2trm v2cm3,m3trm,capm3_0b v2cmh3,m3trm,capmh3_0b v2cm2,m3trm,capm2_0b v2cmh2,m3trm,capmh2_0b v2cm,m3trm,capm23f v2cmh,m3trm,capmh23f m4_0vlbl_m4trm_ovia,m4_0vlbl,m4trm m4_0vlbl_m4_0vlbl_m4trm_butt_ovia,m4_0vlbl,m4_0vlbl_m4trm_butt m4trm_m4_0vlbl_m4trm_butt_ovia,m4trm,m4_0vlbl_m4trm_butt m3_0vlbl_m3trm_ovia,m3_0vlbl,m3trm m3_0vlbl_m3_0vlbl_m3trm_butt_ovia,m3_0vlbl,m3_0vlbl_m3trm_butt m3trm_m3_0vlbl_m3trm_butt_ovia,m3trm,m3_0vlbl_m3trm_butt via1,m2trm,m1trm m2_0vlbl_m2trm_ovia,m2_0vlbl,m2trm m2_0vlbl_m2_0vlbl_m2trm_butt_ovia,m2_0vlbl,m2_0vlbl_m2trm_butt m2trm_m2_0vlbl_m2trm_butt_ovia,m2trm,m2_0vlbl_m2trm_butt cont,m1trm,p1trm cont,m1trm,pdiff cont,m1trm,ndiff cont,p1trm,pdiff cont,p1trm,ndiff m1_0vlbl_m1trm_ovia,m1_0vlbl,m1trm m1_0vlbl_m1_0vlbl_m1trm_butt_ovia,m1_0vlbl,m1_0vlbl_m1trm_butt m1trm_m1_0vlbl_m1trm_butt_ovia,m1trm,m1_0vlbl_m1trm_butt df_0vlbl_ndiff_ovia,df_0vlbl,ndiff df_0vlbl_df_0vlbl_ndiff_butt_ovia,df_0vlbl,df_0vlbl_ndiff_butt ndiff_df_0vlbl_ndiff_butt_ovia,ndiff,df_0vlbl_ndiff_butt df_0vlbl_pdiff_ovia,df_0vlbl,pdiff df_0vlbl_df_0vlbl_pdiff_butt_ovia,df_0vlbl,df_0vlbl_pdiff_butt pdiff_df_0vlbl_pdiff_butt_ovia,pdiff,df_0vlbl_pdiff_butt p1_0vlbl_p1trm_ovia,p1_0vlbl,p1trm p1_0vlbl_p1_0vlbl_p1trm_butt_ovia,p1_0vlbl,p1_0vlbl_p1trm_butt p1trm_p1_0vlbl_p1trm_butt_ovia,p1trm,p1_0vlbl_p1trm_butt bndct,ndiff,bndiff df_0vlbl_bndiff_ovia,df_0vlbl,bndiff df_0vlbl_df_0vlbl_bndiff_butt_ovia,df_0vlbl,df_0vlbl_bndiff_butt bndiff_df_0vlbl_bndiff_butt_ovia,bndiff,df_0vlbl_bndiff_butt ndiff_davl_0c2_ovia,ndiff,davl_0c2 ndiff_ndiff_davl_0c2_butt_ovia,ndiff,ndiff_davl_0c2_butt davl_0c2_ndiff_davl_0c2_butt_ovia,davl_0c2,ndiff_davl_0c2_butt npdtap,ndiff,npdct npdtap,pdiff,npdct d_0dsc,m1trm,d_0dsdf ntap,ndiff,nwtrm hntap,ndiff,hvnwtrm ndftap,ndiff,ndftrm catdfct,ndiff,catdiff catm1ct,m1trm,catdiff catdiff_df_0vlbl_ovia,catdiff,df_0vlbl anodfct,pdiff,anodiff anodiff_df_0vlbl_ovia,anodiff,df_0vlbl ptap,pdiff,bulk dphod_0c_nwtrm_ovia,dphod_0c,nwtrm dphod_0nw_nwtrm_ovia,dphod_0nw,nwtrm dpol_0p_p1trm_ovia,dpol_0p,p1trm dpol_0n_p1trm_ovia,dpol_0n,p1trm m1atrm_m1trm_ovia,m1atrm,m1trm m1btrm_m1trm_ovia,m1btrm,m1trm m1aftrm_m1trm_ovia,m1aftrm,m1trm m1bftrm_m1trm_ovia,m1bftrm,m1trm"
+SRVIAS="capswp1_p1trm_ovia capswp1_capswp1_p1trm_butt_ovia p1trm_capswp1_p1trm_butt_ovia capswm1_m1trm_ovia capswm1_capswm1_m1trm_butt_ovia m1trm_capswm1_m1trm_butt_ovia capswm2_m2trm_ovia capswm2_capswm2_m2trm_butt_ovia m2trm_capswm2_m2trm_butt_ovia capswm3_m3trm_ovia capswm3_capswm3_m3trm_butt_ovia m3trm_capswm3_m3trm_butt_ovia dphopin3_dphopin3_ovia ml_0vlbl_mltrm_ovia ml_0vlbl_ml_0vlbl_mltrm_butt_ovia mltrm_ml_0vlbl_mltrm_butt_ovia viatpl mt_0vlbl_mttrm_ovia mt_0vlbl_mt_0vlbl_mttrm_butt_ovia mttrm_mt_0vlbl_mttrm_butt_ovia vtpCON vtpcm vtpcmh vtpcm3 vtpcmh3 via3CON v3cm3 v3cmh3 v3cm2 v3cmh2 v3cm v3cmh via2CON v2cm3 v2cmh3 v2cm2 v2cmh2 v2cm v2cmh m4_0vlbl_m4trm_ovia m4_0vlbl_m4_0vlbl_m4trm_butt_ovia m4trm_m4_0vlbl_m4trm_butt_ovia m3_0vlbl_m3trm_ovia m3_0vlbl_m3_0vlbl_m3trm_butt_ovia m3trm_m3_0vlbl_m3trm_butt_ovia via1 m2_0vlbl_m2trm_ovia m2_0vlbl_m2_0vlbl_m2trm_butt_ovia m2trm_m2_0vlbl_m2trm_butt_ovia cont_m1trm_p1trm cont_m1trm_pdiff cont_m1trm_ndiff cont_p1trm_pdiff cont_p1trm_ndiff m1_0vlbl_m1trm_ovia m1_0vlbl_m1_0vlbl_m1trm_butt_ovia m1trm_m1_0vlbl_m1trm_butt_ovia df_0vlbl_ndiff_ovia df_0vlbl_df_0vlbl_ndiff_butt_ovia ndiff_df_0vlbl_ndiff_butt_ovia df_0vlbl_pdiff_ovia df_0vlbl_df_0vlbl_pdiff_butt_ovia pdiff_df_0vlbl_pdiff_butt_ovia p1_0vlbl_p1trm_ovia p1_0vlbl_p1_0vlbl_p1trm_butt_ovia p1trm_p1_0vlbl_p1trm_butt_ovia bndct df_0vlbl_bndiff_ovia df_0vlbl_df_0vlbl_bndiff_butt_ovia bndiff_df_0vlbl_bndiff_butt_ovia ndiff_davl_0c2_ovia ndiff_ndiff_davl_0c2_butt_ovia davl_0c2_ndiff_davl_0c2_butt_ovia npdtap_ndiff_npdct npdtap_pdiff_npdct d_0dsc ntap hntap ndftap catdfct catm1ct catdiff_df_0vlbl_ovia anodfct anodiff_df_0vlbl_ovia ptap dphod_0c_nwtrm_ovia dphod_0nw_nwtrm_ovia dpol_0p_p1trm_ovia dpol_0n_p1trm_ovia m1atrm_m1trm_ovia m1btrm_m1trm_ovia m1aftrm_m1trm_ovia m1bftrm_m1trm_ovia"
+RSOFTVIAS=
+RVIAR="- - - - - - - - - - - - - - - - 1.2 - - - 2 2 2 2 2 4.5 4.5 4.5 4.5 4.5 4.5 4.5 4.5 4.5 4.5 4.5 4.5 4.5 4.5 - - - - - - 4.5 - - - 7.5 7.5 7.5 7.5 7.5 - - - - - - - - - - - - - - - - - - - - - 7.5 - - - - - - - - - - - - - - - - -"
+DAVIAS=
+ARRAYVIASPACING=
+VIAUNITAREA=
+VIATC="- - - - - - - - - - - - - - - - 0.00135,0 - - - 0.00135,0 0.00135,0 0.00135,0 0.00135,0 0.00135,0 0.0011,0 0.0011,0 0.0011,0 0.0011,0 0.0011,0 0.0011,0 0.0011,0 0.0011,0 0.0011,0 0.0011,0 0.0011,0 0.0011,0 0.0011,0 0.0011,0 - - - - - - 0.0011,0 - - - 0.00215,0 0.00215,0 0.00215,0 0.00215,0 0.00215,0 - - - - - - - - - - - - - - - - - - - - - 0.00215,0 - - - - - - - - - - - - - - - - -"
+VIAUAVAL="- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -"
+EXTRVIAS="- - - - - - - - - - - - - - - - viatpl - - - vtpCON vtpcm vtpcmh vtpcm3 vtpcmh3 via3CON v3cm3 v3cmh3 v3cm2 v3cmh2 v3cm v3cmh via2CON v2cm3 v2cmh3 v2cm2 v2cmh2 v2cm v2cmh - - - - - - via1 - - - cont cont cont cont cont - - - - - - - - - - - - bndct - - - - - - npdtap npdtap d_0dsc ntap hntap ndftap catdfct catm1ct - anodfct - ptap - - - - - - - -"
+#
+# REXVIASI - Vias which connect one or more resistive layers and corresponding
+#            indices into the RINTERCONNECT list.  Indices are determined from
+#            right to left.  The rightmost RINTERCONNECT layer's index is 1.
+#
+REXVIASI="capswm1_m1trm_ovia,2 capswm2_m2trm_ovia,3 capswm3_m3trm_ovia,4 capswp1_p1trm_ovia,1 catm1ct,2 cont_m1trm_ndiff,2,t cont_m1trm_p1trm,1,2,t cont_m1trm_pdiff,2,t cont_p1trm_ndiff,1,t cont_p1trm_pdiff,1,t d_0dsc,2,t dpol_0n_p1trm_ovia,1 dpol_0p_p1trm_ovia,1 m1_0vlbl_m1trm_ovia,2 m1aftrm_m1trm_ovia,2 m1atrm_m1trm_ovia,2 m1bftrm_m1trm_ovia,2 m1btrm_m1trm_ovia,2 m1trm_capswm1_m1trm_butt_ovia,2 m1trm_m1_0vlbl_m1trm_butt_ovia,2 m2_0vlbl_m2trm_ovia,3 m2trm_capswm2_m2trm_butt_ovia,3 m2trm_m2_0vlbl_m2trm_butt_ovia,3 m3_0vlbl_m3trm_ovia,4 m3trm_capswm3_m3trm_butt_ovia,4 m3trm_m3_0vlbl_m3trm_butt_ovia,4 m4_0vlbl_m4trm_ovia,5 m4trm_m4_0vlbl_m4trm_butt_ovia,5 ml_0vlbl_mltrm_ovia,7 mltrm_ml_0vlbl_mltrm_butt_ovia,7 mt_0vlbl_mttrm_ovia,6 mttrm_mt_0vlbl_mttrm_butt_ovia,6 p1_0vlbl_p1trm_ovia,1 p1trm_capswp1_p1trm_butt_ovia,1 p1trm_p1_0vlbl_p1trm_butt_ovia,1 v2cm,4,t v2cm2,4,t v2cm3,4,t v2cmh,4,t v2cmh2,4,t v2cmh3,4,t v3cm,5,t v3cm2,5,t v3cm3,5,t v3cmh,5,t v3cmh2,5,t v3cmh3,5,t via1,2,3,t via2CON,3,4,t via3CON,4,5,t viatpl,6,7,t vtpCON,5,6,t vtpcm,6,t vtpcm3,6,t vtpcmh,6,t vtpcmh3,6,t"
+# NEBULAVIAS - Vias which take part in nebula cap extraction and the
+#              corresponding indices into the TINTEREXT list.
+NEBULAVIAS="viatpl,8,9 vtpCON,7,8 via3CON,6,7 via2CON,5,6 via1,4,5 cont_m1trm_p1trm,3,4 cont_m1trm_pdiff,2,4 cont_m1trm_ndiff,2,4 cont_p1trm_pdiff,2,3 cont_p1trm_ndiff,2,3 d_0dsc,2,4"
+NEBULAEXTVIAS="viatpl vtpCON via3CON via2CON via1 cont cont cont cont cont d_0dsc"
+# PGDBVIAS - Vias which take part in rcx2pgdb and the
+#              corresponding indices into the RINTERPROCESS list.
+PGDBVIAS="viatpl:1:2 vtpCON:2:3 via3CON:3:4 via2CON:4:5 via1:5:6 cont:6:7 cont:6:8 cont:7:8 d_0dsc:6:8"
+HV_MOS=
+PLANARMOSGATE=
+PLANARMOSDIFF=
+PLANARMOSLAYER=
+FINFETMOSGATE=
+FINFETMOSDIFF=
+FINFETMOSLAYER=
+HUBRIDGATE=
+HYBRIDDIFF=
+HYBRIDLAYER=
+CONTACTPROLVS="CONT,cont CONT,cont CONT,d_0dsc VIA1,via1 VIA2,via2CON VIA2,v2cm2 VIA2,v2cm3 VIA2,v2cmh2 VIA2,v2cmh3 VIA2,v2cm VIA2,v2cmh VIA3,via3CON VIA3,v3cm2 VIA3,v3cm3 VIA3,v3cmh2 VIA3,v3cmh3 VIA3,v3cm VIA3,v3cmh VIATP,vtpCON VIATP,vtpcm VIATP,vtpcmh VIATP,vtpcm3 VIATP,vtpcmh3 VIATPL,viatpl"
+PGDBCONTACTPROLVS="CONT,cont CONT,cont CONT,d_0dsc VIA1,via1 VIA2,via2CON VIA2,v2cm2 VIA2,v2cm3 VIA2,v2cmh2 VIA2,v2cmh3 VIA2,v2cm VIA2,v2cmh VIA3,via3CON VIA3,v3cm2 VIA3,v3cm3 VIA3,v3cmh2 VIA3,v3cmh3 VIA3,v3cm VIA3,v3cmh VIATP,vtpCON VIATP,vtpcm VIATP,vtpcmh VIATP,vtpcm3 VIATP,vtpcmh3 VIATPL,viatpl"
+MULTIUSECONTACTS=" npdtap"
+#
+# ALLWIRES - list of connectable layers
+#
+ALLWIRES="anodiff bndiff bulk capm capm23f capm2_0b capm2_0t capm34f capm3_0b capm3_0m capm3_0t capmh capmh23f capmh2_0b capmh2_0t capmh34f capmh3_0b capmh3_0m capmh3_0t capswm1 capswm1_m1trm_butt capswm2 capswm2_m2trm_butt capswm3 capswm3_m3trm_butt capswp1 capswp1_p1trm_butt catdiff d_0dsdf davl_0c2 df_0vlbl df_0vlbl_bndiff_butt df_0vlbl_ndiff_butt df_0vlbl_pdiff_butt dphod_0c dphod_0nw dphopin3 dpol_0n dpol_0p hvnwtrm m1_0vlbl m1_0vlbl_m1trm_butt m1aftrm m1atrm m1bftrm m1btrm m1trm m2_0vlbl m2_0vlbl_m2trm_butt m2trm m3_0vlbl m3_0vlbl_m3trm_butt m3trm m4_0vlbl m4_0vlbl_m4trm_butt m4trm ml_0vlbl ml_0vlbl_mltrm_butt mltrm mt_0vlbl mt_0vlbl_mttrm_butt mttrm ndftrm ndiff ndiff_davl_0c2_butt npdct nwtrm p1_0vlbl p1_0vlbl_p1trm_butt p1trm pdiff"
+#
+# NRINTERCONNECT - connectable layers which are non-resistive
+# NRINTERPROCESS - non-resistive connectable layers grouped according to common process mapping layers
+#
+NRINTERCONNECT="anodiff bndiff bulk capm capm23f capm2_0b capm2_0t capm34f capm3_0b capm3_0m capm3_0t capmh capmh23f capmh2_0b capmh2_0t capmh34f capmh3_0b capmh3_0m capmh3_0t capswm1 capswm1_m1trm_butt capswm2 capswm2_m2trm_butt capswm3 capswm3_m3trm_butt capswp1 capswp1_p1trm_butt catdiff d_0dsdf davl_0c2 df_0vlbl df_0vlbl_bndiff_butt df_0vlbl_ndiff_butt df_0vlbl_pdiff_butt dphod_0c dphod_0nw dphopin3 dpol_0n dpol_0p hvnwtrm m1_0vlbl m1_0vlbl_m1trm_butt m1aftrm m1atrm m1bftrm m1btrm m2_0vlbl m2_0vlbl_m2trm_butt m3_0vlbl m3_0vlbl_m3trm_butt m4_0vlbl m4_0vlbl_m4trm_butt ml_0vlbl ml_0vlbl_mltrm_butt mt_0vlbl mt_0vlbl_mttrm_butt ndftrm ndiff ndiff_davl_0c2_butt npdct nwtrm p1_0vlbl p1_0vlbl_p1trm_butt pdiff"
+NRINTERPROCESS="anodiff ndiff,pdiff,bndiff,d_0dsdf pwitrm,hnw,pdf,dnwtrm,ndftrm,nwtrm,bulk capm capm23f capm2_0b capm2_0t capm34f capm3_0b capm3_0m capm3_0t capmh capmh23f capmh2_0b capmh2_0t capmh34f capmh3_0b capmh3_0m capmh3_0t capswm1 capswm1_m1trm_butt capswm2 capswm2_m2trm_butt capswm3 capswm3_m3trm_butt capswp1 capswp1_p1trm_butt catdiff davl_0c2 df_0vlbl df_0vlbl_bndiff_butt df_0vlbl_ndiff_butt df_0vlbl_pdiff_butt dphod_0c dphod_0nw dphopin3 dpol_0n dpol_0p hvnwtrm m1_0vlbl m1_0vlbl_m1trm_butt m1aftrm m1atrm m1bftrm m1btrm m2_0vlbl m2_0vlbl_m2trm_butt m3_0vlbl m3_0vlbl_m3trm_butt m4_0vlbl m4_0vlbl_m4trm_butt ml_0vlbl ml_0vlbl_mltrm_butt mt_0vlbl mt_0vlbl_mttrm_butt ndiff_davl_0c2_butt npdct p1_0vlbl p1_0vlbl_p1trm_butt"
+#
+# RRVIAS - vias which connect a pair of resistive layers
+# NRVIAS - vias which connect one resistive and one non-resistive layer and
+#          the non-resistive layer.
+# NNVIASI - vias which connect a pair of non-resistive layers and corresponding
+#          indices into the NRINTERPROCESS list.  Indices are determined from
+#          left to right.  The leftmost NRINTERPROCESS layer's index is 1
+# NNSOFTVIASI - vias which sconnect a pair of non-resistive layers and
+#          corresponding indices into the NRINTERPROCESS list.
+#
+RRVIAS="cont_m1trm_p1trm,m1trm,p1trm via1,m2trm,m1trm via2CON,m3trm,m2trm via3CON,m4trm,m3trm viatpl,mltrm,mttrm vtpCON,mttrm,m4trm"
+NRVIAS="capswm1_m1trm_ovia,capswm1 capswm2_m2trm_ovia,capswm2 capswm3_m3trm_ovia,capswm3 capswp1_p1trm_ovia,capswp1 catm1ct,catdiff cont_m1trm_ndiff,ndiff cont_m1trm_pdiff,pdiff cont_p1trm_ndiff,ndiff cont_p1trm_pdiff,pdiff d_0dsc,d_0dsdf dpol_0n_p1trm_ovia,dpol_0n dpol_0p_p1trm_ovia,dpol_0p m1_0vlbl_m1trm_ovia,m1_0vlbl m1aftrm_m1trm_ovia,m1aftrm m1atrm_m1trm_ovia,m1atrm m1bftrm_m1trm_ovia,m1bftrm m1btrm_m1trm_ovia,m1btrm m1trm_capswm1_m1trm_butt_ovia,capswm1_m1trm_butt m1trm_m1_0vlbl_m1trm_butt_ovia,m1_0vlbl_m1trm_butt m2_0vlbl_m2trm_ovia,m2_0vlbl m2trm_capswm2_m2trm_butt_ovia,capswm2_m2trm_butt m2trm_m2_0vlbl_m2trm_butt_ovia,m2_0vlbl_m2trm_butt m3_0vlbl_m3trm_ovia,m3_0vlbl m3trm_capswm3_m3trm_butt_ovia,capswm3_m3trm_butt m3trm_m3_0vlbl_m3trm_butt_ovia,m3_0vlbl_m3trm_butt m4_0vlbl_m4trm_ovia,m4_0vlbl m4trm_m4_0vlbl_m4trm_butt_ovia,m4_0vlbl_m4trm_butt ml_0vlbl_mltrm_ovia,ml_0vlbl mltrm_ml_0vlbl_mltrm_butt_ovia,ml_0vlbl_mltrm_butt mt_0vlbl_mttrm_ovia,mt_0vlbl mttrm_mt_0vlbl_mttrm_butt_ovia,mt_0vlbl_mttrm_butt p1_0vlbl_p1trm_ovia,p1_0vlbl p1trm_capswp1_p1trm_butt_ovia,capswp1_p1trm_butt p1trm_p1_0vlbl_p1trm_butt_ovia,p1_0vlbl_p1trm_butt v2cm,capm23f v2cm2,capm2_0b v2cm3,capm3_0b v2cmh,capmh23f v2cmh2,capmh2_0b v2cmh3,capmh3_0b v3cm,capm34f v3cm2,capm2_0t v3cm3,capm3_0m v3cmh,capmh34f v3cmh2,capmh2_0t v3cmh3,capmh3_0m vtpcm,capm vtpcm3,capm3_0t vtpcmh,capmh vtpcmh3,capmh3_0t"
+NNVIASI="anodfct,3,1 anodiff_df_0vlbl_ovia,1,39 bndct,2,4 bndiff_df_0vlbl_bndiff_butt_ovia,4,40 capswm1_capswm1_m1trm_butt_ovia,29,30 capswm2_capswm2_m2trm_butt_ovia,31,32 capswm3_capswm3_m3trm_butt_ovia,33,34 capswp1_capswp1_p1trm_butt_ovia,35,36 catdfct,2,37 catdiff_df_0vlbl_ovia,37,39 davl_0c2_ndiff_davl_0c2_butt_ovia,38,65 df_0vlbl_bndiff_ovia,39,4 df_0vlbl_df_0vlbl_bndiff_butt_ovia,39,40 df_0vlbl_df_0vlbl_ndiff_butt_ovia,39,41 df_0vlbl_df_0vlbl_pdiff_butt_ovia,39,42 df_0vlbl_ndiff_ovia,39,2 df_0vlbl_pdiff_ovia,39,3 dphod_0c_nwtrm_ovia,43,11 dphod_0nw_nwtrm_ovia,44,11 hntap,2,48 m1_0vlbl_m1_0vlbl_m1trm_butt_ovia,49,50 m2_0vlbl_m2_0vlbl_m2trm_butt_ovia,55,56 m3_0vlbl_m3_0vlbl_m3trm_butt_ovia,57,58 m4_0vlbl_m4_0vlbl_m4trm_butt_ovia,59,60 ml_0vlbl_ml_0vlbl_mltrm_butt_ovia,61,62 mt_0vlbl_mt_0vlbl_mttrm_butt_ovia,63,64 ndftap,2,10 ndiff_davl_0c2_ovia,2,38 ndiff_df_0vlbl_ndiff_butt_ovia,2,41 ndiff_ndiff_davl_0c2_butt_ovia,2,65 npdtap_ndiff_npdct,2,66 npdtap_pdiff_npdct,3,66 ntap,2,11 p1_0vlbl_p1_0vlbl_p1trm_butt_ovia,67,68 pdiff_df_0vlbl_pdiff_butt_ovia,3,42 ptap,3,12"
+NNSOFTVIASI=
+#
+# ACRVIAS - vias for which contact resistance is considered under ?addExplicitVias
+# ACRMODEL - model names corresponding to ACRVIAS
+# ACRPREFIX - prefices corresponding to ACRVIAS
+# ACRVAL - resistance values corresponding to ACRVIAS
+# TACRVIAS - vias for which contact resistance is always considered
+# ACRSNARESISTOR - vias which are also substrate contacts
+ACRVIAS="viatpl vtpCON vtpcm vtpcmh vtpcm3 vtpcmh3 via3CON v3cm3 v3cmh3 v3cm2 v3cmh2 v3cm v3cmh via2CON v2cm3 v2cmh3 v2cm2 v2cmh2 v2cm v2cmh via1 cont d_0dsc"
+ACRMODEL="viatpl vtpCON vtpcm vtpcmh vtpcm3 vtpcmh3 via3CON v3cm3 v3cmh3 v3cm2 v3cmh2 v3cm v3cmh via2CON v2cm3 v2cmh3 v2cm2 v2cmh2 v2cm v2cmh via1 cont d_dsc"
+ACRLVSMODEL="viatpl vtpCON vtpcm vtpcmh vtpcm3 vtpcmh3 via3CON v3cm3 v3cmh3 v3cm2 v3cmh2 v3cm v3cmh via2CON v2cm3 v2cmh3 v2cm2 v2cmh2 v2cm v2cmh via1 cont d_dsc"
+ACRPREFIX="h i j k l m n o p q r s t u v w x y z ab bb cb db"
+ACRVAL="1.2 2 2 2 2 2 4.5 4.5 4.5 4.5 4.5 4.5 4.5 4.5 4.5 4.5 4.5 4.5 4.5 4.5 4.5 7.5 7.5"
+TACRVIAS=
+ACRSNARESISTOR="- - - - - - - - - - - - - - - - - - - - - snaresistor snaresistor"
+#
+# TINTEREXT - the set of interconnect layers which correspond to the layers 
+#             specified in the process file
+#
+TINTEREXT="mltrm mttrm m4trm m3trm m2trm m1trm p1trm ndiff,pdiff,bndiff,d_0dsdf pwitrm,hnw,pdf,dnwtrm,ndftrm,nwtrm,bulk"
+#
+# SPROCESS - list of layers which are defined as substrate in the process file
+#	     (must be in top-down order)
+# SINTEREXT -list of extraction layers which correspond to the ${SPROCESS}
+#            layers.  The number of elements in the SPROCESS and SINTEREXT
+#            lists must be the same
+#
+SPROCESS="active sub"
+SINTEREXT="ndiff,pdiff,bndiff,d_0dsdf pwitrm,hnw,pdf,dnwtrm,ndftrm,nwtrm,bulk"
+#
+# NRPROCESS - non resistive process layers (other than substrate)
+# NRINTEREXT -non resistive extraction layers (other than substrate)
+# NRINTERRANGE -non resistive separation range for 2d capacitance extraction
+# NRINTERSEP -non resistive maximum separation for 2d capacitance extraction
+# NRTHRESHSEP-non resistive 'infinity' threshhold.  Conductors separated
+#             by this distance are treated as if isolated
+#
+NRPROCESS=
+NRINTEREXT=
+NRINTERRANGE=
+NRINTERSEP=
+NRTHRESHSEP=
+#
+# TPROCESS - list of layers defined in the process file (must be in top-down
+#            order)
+# PROCESSGROWAMT-process layer grow amount (must be positive & less than 1/2
+#            the minimum design rule separation for the layer)
+# PROCESSMINWIDTH-process layer minimum width
+# PROCESSMINWIDTH-process layer minimum width
+# PROCESSMAXWIDTH-process layer maximum width
+# PROCESSEROSION-process layer erosion specification
+# PROCESSTOPHEIGHT-process layer top-height specification (top height including
+#         metal thickness,relative to deepmost substrate assuming all metal lyrs
+#         are present; max possible height in case of non-planar dielectrics
+# PROCESSTHICKNESS-process layer thickness (similar to RINTERHEIGHT, covers all proc lyrs)
+# TOTALHEIGHT-height of non-substrate process layers and dielectrics
+#
+TPROCESS="METTPL METTP MET4 MET3 MET2 MET1 POLY1 active sub"
+PROCESSGROWAMT="- - - - - - - - -"
+PROCESSMINWIDTH="3 0.44 0.28 0.28 0.28 0.23 0.18 - -"
+PROCESSMAXWIDTH="30 4.4 2.8 2.8 2.8 2.3 1.8 - -"
+LOADINGEFFECT="- - - - - - - - -"
+PROCESSTOPHEIGHT="12.285 8.185 6.2 4.785 3.37 1.955 0.6 0.4 0.4"
+PROCESSTHICKNESS="3.11 0.985 0.565 0.565 0.565 0.565 0.2 0.005 0.4"
+TOTALHEIGHT="11.885"
+PSEUDOLAYER=
+#
+# STMPLAYERS - extraction layers which are used to stamp the layers in STMPTERMS
+# STMPTERMS - extraction layers which get stamped with net info
+#          each entry must have the form terminal-layer,stamping-layer
+# STMPTYPES - either single (1) or multi (2) stamp type
+# STMPOELAYERS - other ext_layers
+#
+STMPLAYERS="pwitrm hnw pdf dnwtrm dntap hnwtap pwitap pdftap"
+STMPTYPES="2 2 2 2 1 1 1 1"
+STMPTERMS="dntap,ndiff dnwtrm,dntap hnwtap,ndiff hnw,hnwtap pwitap,pdiff pwitrm,pwitap pdftap,pdiff pdf,pdftap"
+STMPOELAYERS="- - - -"
+#
+# 3d capacitance variables. Capacitance will be modeled for pairs of layers
+# specified here.
+#
+# PROCESSCOMB - list of pairs, each entry must have the form: layer1,layer2
+#	        and the members of each pair must be specified in top down
+#	        order.  This information is extracted from the process file
+# PROCESSCOMBRANGE - separation range between pairs specified in the PROCESSCOMB list.
+# PROCESSCOMBSEP - separation between pairs specified in the PROCESSCOMB list.
+#	        This information is also extracted from the process file
+#
+PROCESSCOMB="POLY1,MET1 POLY1,MET2 MET1,MET2 MET1,MET3 MET2,MET3 MET2,MET4 MET3,MET4 MET3,METTP MET4,METTP MET4,METTPL METTP,METTPL"
+PROCESSCOMBRANGE="0.69 0.75 0.69 0.69 0.84 0.84 0.84 0.84 0.84 0.84 1.38"
+PROCESSCOMBSEP="2.5 2.8 2.8 5.6 5.6 5.6 5.6 9.2 9.2 25 25"
+#
+# SUBRESISTIVE list of ext layers - substrate and others which should not short 
+SUBRESISTIVE="pwitrm hnw pdf dnwtrm ndftrm nwtrm bulk dphopin3 dphod_0c dphod_0nw"
+# VARIATIONPARAMETERS - variation file contents for simulating process parameter variations. 
+#
+VARIATIONPARAM=
+#
+# VIA Layers info from ICT file - vialayer,toplayer,botlayer,min_width,min_spacing 
+# "-" if not available for min_width or min_spacing. 
+VIAPROCOMB="CONT,MET1,active,-,- CONT,MET1,POLY1,-,- VIA1,MET2,MET1,-,- VIA2,MET3,MET2,-,- VIA3,MET4,MET3,-,- VIATP,METTP,MET4,-,- VIATPL,METTPL,METTP,-,-"
+#
+# VIA Layers area resistance from ICT file. Same index order as in VIAPROCOMB 
+# Multiple R values of the same layer are comma separated 
+RVIAPROVAL="- - - - - - -"
+#
+# VIA Layers area resistance from ICT file. Same index order as in VIAPROCOMB 
+# Multiple area values of the same layer are comma separated 
+RVIAPROAREA="- - - - - - -"
+#
+# VIA Layers contact resistance from ICT file. Same index order as in VIAPROCOMB 
+# Single R value. 
+# Mutually exclusive of the area resistance VIAPROVAL/VIAPROAREA at the same index. 
+RVIAPROCONT="7.5 7.5 4.5 4.5 4.5 2 1.2"
+#
+# Gate specifications. (See capgen -p[a])
+#
+# PGATE - process gate layers
+# EXTGATE - extraction gate layers.  MOS and LDD device layers specified
+#           in the process to extraction mapping file
+#
+PGATE="POLY1"
+EXTGATE=""
+#
+# Gate capacitance blocking
+#
+# POLYGATES - gate,poly,diff layer triplets specified in capgen -p options
+#
+POLYGATES="GateLayers:,POLY1,active"
+#
+# Cap mask layer specifications. (See capgen -c)
+#
+# EXTMASK - extraction mask layers.  These layers are from the -c file
+#           and act as filters to avoid counting again capacitance which
+#           has already been included in the various canonical devices
+#           Note: number of EXTMASK + EXTGATE + TPROCESS layers may not
+#           exceed 16
+#
+EXTMASK=
+#
+# PAD specifications
+#
+PADDEV=
+PADTERM=
+#
+# MOSFET Device specifications
+#
+MOSDEV="nel pel"
+MOSSRCDRN="ndiff pdiff"
+MOSGATE="p1trm p1trm"
+MOSSUB="bulk nwtrm"
+MOSTYPE="nel pel"
+MOSMODEL="nel pel"
+MOSDF2MODEL="- -"
+MOSLDDDIFFCONTS=
+#
+# LDD Device specifications
+#
+LDDDEV=
+LDDDRN=
+LDDSRC=
+LDDGATE=
+LDDGATEO=
+LDDSUB=
+LDDTYPE=
+LDDMODEL=
+LDDDF2MODEL=
+#
+# MOS model file (for ADVGEN)
+#
+MOSMODELFILE=
+#
+# BJT Device specifications
+#
+BJTDEV=
+BJTCOL=
+BJTBASE=
+BJTEMIT=
+BJTSUB=
+BJTTYPE=
+BJTMODEL=
+BJTDF2MODEL=
+BJTMF=
+#
+# RESISTOR Device specifications
+#
+RESDEV="rpp1k1_0n"
+RESTERM="p1trm"
+RESTERM2="-"
+RESTERMO="p1trm"
+RESTERM2O="-"
+RESSUB="nwtrm"
+RESTYPE="rpp1k1_3"
+RESMODEL="rpp1k1_3"
+RESDF2MODEL="-"
+RESPARAM="1"
+#
+# RES model file (for ADVGEN)
+#
+RESMODELFILE=
+#
+# CAP Device specifications
+#
+CAPDEV="cmim"
+CAPTERM1="capm"
+CAPTERM1O="capm"
+CAPTERM2="m4trm"
+CAPTERM2O="m4trm"
+CAPACONST="-"
+CAPSUB="-"
+CAPSUBO="-"
+CAPTYPE="cmm5t"
+CAPMODEL="cmm5t"
+CAPDF2MODEL="-"
+CAPPARAM="1"
+CAPMF=
+#
+# DIODE Device specifications
+#
+DIODEV="p_0dnw"
+DIOTERM1="bulk"
+DIOTERM1O="bulk"
+DIOTERM2="nwtrm"
+DIOTERM2O="nwtrm"
+DIOSUB="-"
+DIOTYPE="p_dnw"
+DIOMODEL="dnw"
+DIODF2MODEL="-"
+DIOPARAM="1"
+DIOMF=
+#
+# GENERIC Device specifications
+#
+GENDEV="mosvc"
+GENDEVMODEL="mosvc"
+GENDEVDF2MODEL="-"
+GENTERMS="p1trm,nwtrm,bulk"
+GENTERMSO="p1trm,nwtrm,bulk"
+GENMOS=
+GENMOSSRC=
+GENMOSDRN=
+GENMOSGATE=
+GENMOSSUB=
+GENMOSSUB2=
+GENMOSTYPE=
+GENCDEV=
+GENCTERMS=
+GENCTERMSO=
+GENCCONST=
+GENRDEV=
+GENRTERMS=
+GENRTERMSO=
+GENRCONST=
+VIARESISTOR=
+RONLYSHORTINGLAYERS=
+PHOTONICLYRS=
+#
+# Capgen pax command and .so files
+#
+COEFF="Y"
+CAPCMD="${RCXBIN}/pxfcfQwI00s"
+CAPSO="${RCXBIN}/cap64.so"
+LVSFILE="${RCXBIN}/lvsfile"
+#
+# Do not modify the following flags
+#
+CAP_SW3D="Y"
+CAP_CN3D="N"
+#
+# If CAP_CORRECTION=Y, material which forms
+# canonical capacitors was included in parasitic
+# extraction (subtract canonical capacitance from
+# parasitic capacitance to avoid double counting)
+#
+CAP_CORRECTION="N"
+RESMODELNAME="Y"
+NO_CAP_CORRECTION="N"
+CANONICAL_RES_CAPS="N"
+FIN_STRETCHING_OFF="Y"
+EXTRACT_MOS_DIFFUSION_AP_NW="N"
+AP_SCALE_FACTOR=
+TEMP_REFERENCE="27"
+CDL="N"
+NEWPATTERN="Y"
+NEBULASCALE=
+#
+# MOS/LDD devices for which model param NRD,NRS desired
+EXTRACT_MOS_DIFF_RES_BY_DEV="pel nel"
+#
+# Variables for virtual metal fill
+VMFCONN=
+VMFFSEP=
+VMFLAYERS=
+VMFSSEPMAX=
+VMFSSEPMIN=
+VMFTYPE=
+VMFWIDTH=
+#
+CONFORMAL="N"
+#
+LENGTH_UNITS="meters"
+BLOCKINGLAYERS="mosvc:0.01,POLY1,active,sub cmim,MET4,METTP"
+LEXCLUDE="POLY1"
+LINCLUDE="MET1,MET2,MET3,MET4,METTP,METTPL"
+CFITABLE="N"
+COLORICT=
+COLORNO=
+COLOREXT=
+# List of same R, same map to ict layers 
+MERGELAYERS=
+MERGELAYERSF=
+PROAIRGAPS=
+EXTAIRGAPS=
+MODELPM="p_cap"
+DSUBLAYERS="nwtrm dnwtrm hnw pwitrm pdf hvnwtrm ndftrm bulk"
+CAPS2DVERSION="* caps2d version: 10"
+QRCTECHFILEVERSION="CADENCE TECHFILE FORMAT  (RC) (BASE) 20.1.2-p025 2024/8/23,8:1:1/8/23,8:1:1"
+# DEVTERM list of layers to be device terminal
+DEVTERM="ndiff pdiff p1trm bulk nwtrm capm m4trm"
+#
+STAMPSTMTS="dntap:ndiff dnwtrm:dntap catdiff:df_0vlbl hnwtap:ndiff hnw:hnwtap pwitap:pdiff pwitrm:pwitap pdftap:pdiff pdf:pdftap anodiff:df_0vlbl dphod_0c:nwtrm dphod_0nw:nwtrm dpol_0p:p1trm dpol_0n:p1trm m1atrm:m1trm m1btrm:m1trm m1aftrm:m1trm m1bftrm:m1trm"
+# VIAOVERHANGEDGEDEF - vialayer[,0|1].
+#                      Corresponds to a via layer's overhang_edge_definition in ICT file.
+#                      No top and bot means overhang_dependent_via is not defined for
+#                      that via layer at all.
+VIAOVERHANGEDGEDEF="CONT CONT VIA1 VIA2 VIA3 VIATP VIATPL"
+ICTPRESENT="Y"
+# topmost diffusion layer in ict
+DIFFUSIONSUB="active"
+CONTACTTOPBOT=
+RMPROCLAYERS="sub active POLY1 teos ild MET1 imd1 imd1_teos MET2 imd2 imd2_teos MET3 imd3 imd3_teos MET4 imdt imdt_teos METTP imdtl imdtl_teos METTPL imdtl_teos_1 pass1 pass2 air"
+RMEXTLAYERS="pwitrm hnw pdf dnwtrm ndftrm nwtrm bulk ndiff pdiff bndiff d_0dsdf p1trm teos ild m1trm imd1 imd1_teos m2trm imd2 imd2_teos m3trm imd3 imd3_teos m4trm imdt imdt_teos mttrm imdtl imdtl_teos mltrm imdtl_teos_1 pass1 pass2 air"
+SPLITHVMOS=
+#
+# CAPGENOPTS - command-line options used to generate the run-specific
+#              RCXspiceINIT/RCXdspfINIT data files
+#
+#
+# END: Initializations
+#------------------------------------------

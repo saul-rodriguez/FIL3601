@@ -1,0 +1,37 @@
+# XXXX: Net Cross Reference (nxf) (File format 1)
+# XXXX: Layout Primary opamp1
+# XXXX: End of header.
+% MOSVC 3 mosvc 3 
+0 G 0 G
+0 NW 0 NW
+0 SB 0 SB
+% MN 4 MN 4 
+0 D 0 D
+0 G 0 G
+0 S 0 S
+0 B 0 B
+% C 2 C 2 
+0 PLUS 0 PLUS
+0 MINUS 0 MINUS
+% R 3 R 3 
+0 PLUS 0 PLUS
+0 MINUS 0 MINUS
+0 B 0 B
+% MP 4 MP 4 
+0 D 0 D
+0 G 0 G
+0 S 0 S
+0 B 0 B
+% opamp1 6 opamp1 6 
+0 5 0 A
+0 3 0 D
+0 4 0 B
+0 2 0 C
+0 7 0 net5
+0 12 0 net6
+0 BIAS 0 BIAS
+0 GNDA 0 GNDA
+0 INN 0 INN
+0 INP 0 INP
+0 OUT 0 OUT
+0 VDDA 0 VDDA

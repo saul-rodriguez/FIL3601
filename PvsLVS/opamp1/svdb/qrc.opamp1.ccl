@@ -1,0 +1,54 @@
+#--------------------------------------------------------------------------------------
+# OPTION COMMAND FILE created by Cadence Extraction Quantus UI Version 24.1.0-p089
+#--------------------------------------------------------------------------------------
+
+capacitance \
+	 -decoupling_factor 1.0 \
+	 -ground_net "GNDA"
+extract \
+	 -selection "all" \
+	 -type "rc_coupled"
+extraction_setup \
+	 -array_vias_spacing auto \
+	 -split_via_by_unit_area false \
+	 -max_fracture_length infinite \
+	 -max_fracture_length_unit "MICRONS" \
+	 -net_name_space "LAYOUT"
+filter_coupling_cap \
+	 -coupling_cap_threshold_absolute 0.01 \
+	 -coupling_cap_threshold_relative 0.001
+filter_res \
+	 -merge_parallel_res false \
+	 -min_res 0.001
+input_db -type pvs \
+	 -design_cell_name "opamp1 layout DAY10" \
+	 -run_name "opamp1" \
+	 -directory_name "/home/saul/projects/FIL3601/PvsLVS/opamp1/svdb" \
+	 -format "DFII" \
+	 -library_definitions_file "/home/saul/projects/FIL3601/cds.lib"
+mos_diffusion_parameter_extraction \
+	 -res "fast"
+output_db -type extracted_view \
+	 -cap_component "p_cap auLvs PRIMLIB" \
+	 -cap_property_name "c" \
+	 -enable_cellview_check true \
+	 -device_finger_delimiter "@" \
+	 -cdl_out_map_directory \
+		"/home/saul/projects/FIL3601/PvsLVS/opamp1" \
+	 -include_cap_model "false" \
+	 -include_parasitic_cap_model "false" \
+	 -include_res_model "false" \
+	 -include_parasitic_res_model "comment" \
+	 -res_component "p_res auLvs PRIMLIB" \
+	 -res_property_name "r" \
+	 -view_name "analog_extracted"
+output_setup \
+	 -directory_name "/home/saul/projects/FIL3601/PvsLVS/opamp1/svdb" \
+	 -temporary_directory_name "opamp1"
+process_technology \
+	 -technology_corner \
+		"default" \
+	 -technology_library_file "/home/saul/projects/FIL3601/pvtech.lib" \
+	 -technology_name "XH018_1143" \
+	 -temperature \
+		27.0

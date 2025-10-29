@@ -1,0 +1,77 @@
+;| version 1
+text text_m1trm attach m1trm
+text text_m2trm attach m2trm
+text text_m3trm attach m3trm
+connect capswp1 p1trm
+connect capswm1 m1trm
+connect capswm2 m2trm
+connect capswm3 m3trm
+connect dphopin3 dphopin3 by dphopin3
+connect ml_0vlbl mltrm
+connect mltrm mttrm by viatpl
+connect mt_0vlbl mttrm
+connect mttrm m4trm by vtpCON
+connect mttrm capm by vtpcm
+connect mttrm capmh by vtpcmh
+connect mttrm capm3_0t by vtpcm3
+connect mttrm capmh3_0t by vtpcmh3
+connect m4trm m3trm by via3CON
+connect m4trm capm3_0m by v3cm3
+connect m4trm capmh3_0m by v3cmh3
+connect m4trm capm2_0t by v3cm2
+connect m4trm capmh2_0t by v3cmh2
+connect m4trm capm34f by v3cm
+connect m4trm capmh34f by v3cmh
+connect m3trm m2trm by via2CON
+connect m3trm capm3_0b by v2cm3
+connect m3trm capmh3_0b by v2cmh3
+connect m3trm capm2_0b by v2cm2
+connect m3trm capmh2_0b by v2cmh2
+connect m3trm capm23f by v2cm
+connect m3trm capmh23f by v2cmh
+connect m4_0vlbl m4trm
+connect m3_0vlbl m3trm
+connect m2trm m1trm by via1
+connect m2_0vlbl m2trm
+connect m1trm p1trm ndiff pdiff by cont
+connect m1_0vlbl m1trm
+connect df_0vlbl ndiff
+connect df_0vlbl pdiff
+connect p1_0vlbl p1trm
+connect ndiff bndiff by bndct
+connect df_0vlbl bndiff
+connect ndiff davl_0c2
+connect ndiff npdct by npdtap
+connect pdiff npdct by npdtap
+sconnect m1trm d_0dsdf by d_0dsc
+sconnect ndiff nwtrm by ntap
+sconnect ndiff dnwtrm by dntap
+sconnect ndiff hvnwtrm by hntap
+sconnect ndiff ndftrm by ndftap
+sconnect ndiff catdiff by catdfct
+sconnect m1trm catdiff by catm1ct
+stamp catdiff by df_0vlbl
+sconnect ndiff hnw by hnwtap
+sconnect pdiff pwitrm by pwitap
+sconnect pdiff pdf by pdftap
+sconnect pdiff anodiff by anodfct
+stamp anodiff by df_0vlbl
+sconnect pdiff bulk by ptap
+stamp dphod_0c by nwtrm
+stamp dphod_0nw by nwtrm
+stamp dpol_0p by p1trm
+stamp dpol_0n by p1trm
+stamp m1atrm by m1trm
+stamp m1btrm by m1trm
+stamp m1aftrm by m1trm
+stamp m1bftrm by m1trm
+model = mos[nel],nel
+element mos[nel] nel p1trm ndiff bulk
+model = mos[pel],pel
+element mos[pel] pel p1trm pdiff nwtrm
+model = diode[p_dnw],dnw
+element diode[p_dnw] p_0dnw bulk nwtrm
+model = res[rpp1k1_3],rpp1k1_3
+element res[rpp1k1_3] rpp1k1_0n p1trm nwtrm
+model = cap[cmm5t],cmm5t
+element cap[cmm5t] cmim capm m4trm

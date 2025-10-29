@@ -1,0 +1,12 @@
+#trp_version_1
+#!force_model_overwrite
+model: nel nel
+pmExclude: m="1" ng="1" wtot=w
+model: pel pel
+pmExclude: m="1" ng="1" wtot=w
+model: dnw p_dnw
+pmExclude: m="1" w="*****" l="*****"
+model: rpp1k1_3 rpp1k1_3
+pmExclude: r="*****" rstrip="*****" rtot="****" strips="1" lstrip=l m="1"
+model: cmm5t cmm5t
+pmExclude: m="1" w="****" l="****" c="****" ctot="****"

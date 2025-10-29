@@ -1,0 +1,84 @@
+********************************************************************************
+Product   : Virtuoso(R) XStream Out
+Program   : @(#)$CDS: strmout version 6.1.8-64b 09/03/2024 18:58 (sjfhw317) $
+          : sub-version  IC6.1.8-64b.500.36 
+Started at: 29-Sep-2025  19:34:34
+User Name : saul
+Host Name : b35621b5a0f6
+Directory : /home/saul/projects/FIL3601
+CADENCE Design Systems, Inc.
+********************************************************************************
+Info: Cellview Rev Num:99,  Tech Rev Num:59
+
+INFO (XSTRM-217): Reading the layer map file, ./.xkit/setup/xh018/cadence/PDK/TECH_XH018_1143/strmInOut.layertable
+INFO (XSTRM-217): Reading the object map file, ./.xkit/setup/xh018/cadence/PDK/TECH_XH018_1143/strmOutObjects.map
+INFO (XSTRM-274): To improve performance of flattening Pcell instances the preserving Pcell pins is not done during XStream Out. This is because preserving Pcell pins is not required as the value 'geometry' or 'ignore' is specified for the Convert Pin To option.
+INFO (XSTRM-162): You have not used the '-viaMap' option. If the OpenAccess design has native oaVia instances, use the '-viaMap' option for preserving oaVia instances in a XStream Out - XStream In round trip. Using the '-viaMap' option improves performance and VM usage of applications using the Streamed-In design.
+
+Summary of Options :
+library                                 DAY10
+strmFile                                /home/saul/projects/FIL3601/STREAM/opamp.gds
+topCell                                 opamp1
+view                                    layout
+logFile                                 xstreamOut.log
+summaryFile                             xstreamOut.sum
+hierDepth                               32
+layerMap                                ./.xkit/setup/xh018/cadence/PDK/TECH_XH018_1143/strmInOut.layertable
+objectMap                                ./.xkit/setup/xh018/cadence/PDK/TECH_XH018_1143/strmOutObjects.map
+userSkillFile                           ./.xkit/setup/xh018/cadence/PDK/skill/thesSdl.il
+case                                    Preserve
+convertDot                              ignore
+pathToPolygon
+flattenPcells
+outputDir                               .
+diagonalPathToPolygon
+
+INFO (XSTRM-223): 1. Translating stdVia TECH_XH018/VIA1_C/layout as STRUCTURE VIA1_C_CDNS_759174474540.
+INFO (XSTRM-223): 2. Translating stdVia TECH_XH018/VIA2_C/layout as STRUCTURE VIA2_C_CDNS_759174474541.
+INFO (XSTRM-223): 3. Translating stdVia TECH_XH018/VIA1_C/layout as STRUCTURE VIA1_C_CDNS_759174474542.
+INFO (XSTRM-223): 4. Translating stdVia TECH_XH018/VIA2_C/layout as STRUCTURE VIA2_C_CDNS_759174474543.
+INFO (XSTRM-223): 5. Translating stdVia TECH_XH018/VIA1_C/layout as STRUCTURE VIA1_C_CDNS_759174474544.
+INFO (XSTRM-223): 6. Translating stdVia TECH_XH018/P1_C/layout as STRUCTURE P1_C_CDNS_759174474545.
+INFO (XSTRM-223): 7. Translating stdVia TECH_XH018/VIA2_C/layout as STRUCTURE VIA2_C_CDNS_759174474546.
+INFO (XSTRM-223): 8. Translating stdVia TECH_XH018/VIA1_C/layout as STRUCTURE VIA1_C_CDNS_759174474547.
+INFO (XSTRM-223): 9. Translating stdVia TECH_XH018/VIA1_C/layout as STRUCTURE VIA1_C_CDNS_759174474548.
+INFO (XSTRM-223): 10. Translating stdVia TECH_XH018/VIA1_C/layout as STRUCTURE VIA1_C_CDNS_759174474549.
+INFO (XSTRM-223): 11. Translating stdVia TECH_XH018/VIA1_C/layout as STRUCTURE VIA1_C_CDNS_7591744745410.
+INFO (XSTRM-223): 12. Translating stdVia TECH_XH018/VIA2_C/layout as STRUCTURE VIA2_C_CDNS_7591744745411.
+INFO (XSTRM-223): 13. Translating stdVia TECH_XH018/VIA1_C/layout as STRUCTURE VIA1_C_CDNS_7591744745412.
+INFO (XSTRM-223): 14. Translating stdVia TECH_XH018/VIA2_C/layout as STRUCTURE VIA2_C_CDNS_7591744745413.
+INFO (XSTRM-223): 15. Translating stdVia TECH_XH018/VIA3_C/layout as STRUCTURE VIA3_C_CDNS_7591744745414.
+INFO (XSTRM-223): 16. Translating stdVia TECH_XH018/VIA2_C/layout as STRUCTURE VIA2_C_CDNS_7591744745415.
+INFO (XSTRM-223): 17. Translating stdVia TECH_XH018/VIATP_C/layout as STRUCTURE VIATP_C_CDNS_7591744745416.
+INFO (XSTRM-223): 18. Translating stdVia TECH_XH018/VIA2_C/layout as STRUCTURE VIA2_C_CDNS_7591744745417.
+INFO (XSTRM-223): 19. Translating stdVia TECH_XH018/VIA3_C/layout as STRUCTURE VIA3_C_CDNS_7591744745418.
+INFO (XSTRM-223): 20. Translating cellView DAY10/opamp1/layout as STRUCTURE opamp1.
+WARNING (XSTRM-154): The object map file does not contain any mapping for the OpenAccess object 'Marker' and the sub-object 'info'. Therefore, these objects in the design will not be translated. To enable the translation of these objects in the Stream file, provide a valid mapping in the object map file.
+
+Summary of Objects Translated:
+	Scalar Instances:                       0
+	Array Instances:                        0
+	Polygons:                               2
+	Paths:                                  533
+	Rectangles:                             9396
+	Lines:                                  0
+	Arcs:                                   0
+	Donuts:                                 0
+	Dots:                                   0
+	Ellipses:                               0
+	Boundaries:                             1
+	Area Blockages:                         0
+	Layer Blockages:                        0
+	Area Halos:                             0
+	Markers:                                0
+	Rows:                                   0
+	Standard Vias                           402
+	Custom Vias:                            0
+	CdsGen Vias:                            0
+	Pathsegs:                               539
+	Text:                                   122
+	TextDisplay:                            8
+	Cells:                                  20
+
+Elapsed Time: 0.4s   User Time: 0.1s   CPU Time: 0.1s   Peak VM: 18068KB
+INFO (XSTRM-234): Translation completed. '0' error(s) and '1' warning(s) found.

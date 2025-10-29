@@ -1,0 +1,17 @@
+
+/opt/tools/cadence/installs/PVS241/tools.lnx86/pvs/bin/64bit/edbToEcdb Output Summary
+========================================================================
+
+Delete EDB      : N
+EDB Library dir : opamp1_57864.db
+ECDB dir        : ./
+Top Cell        : opamp1
+CDL netlist     : /home/saul/projects/FIL3601/PvsLVS/opamp1/svdb/opamp1.net
+Layer map file  : /home/saul/projects/FIL3601/PvsLVS/opamp1/svdb/opamp1.ecdbmap
+Text map file   : /home/saul/projects/FIL3601/PvsLVS/opamp1/svdb/opamp1.ports
+Dependency map  : opamp1.lmap.perc
+Lvs file        : /home/saul/projects/FIL3601/PvsLVS/opamp1/svdb/opamp1.lvsfile
+Float net file  : .opamp1.info.softchk
+threads         : 32
+debug           : 0
+Source Library  : opamp1_57864

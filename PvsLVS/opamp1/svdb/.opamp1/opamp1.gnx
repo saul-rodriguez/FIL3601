@@ -1,0 +1,35 @@
+#4                               
+MN: MN
+= D D
+= G G
+= S S
+= B B
+#2                               
+C: C
+= PLUS PLUS
+= MINUS MINUS
+#3                               
+R: R
+= PLUS PLUS
+= MINUS MINUS
+= B B
+#4                               
+MP: MP
+= D D
+= G G
+= S S
+= B B
+#12                              
+opamp1: opamp1
+= A 5
+= D 3
+= B 4
+= C 2
+= net5 7
+= net6 12
+= BIAS BIAS
+= GNDA GNDA
+= INN INN
+= INP INP
+= OUT OUT
+= VDDA VDDA

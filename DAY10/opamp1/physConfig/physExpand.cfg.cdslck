@@ -1,0 +1,19 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.2
+LoginName                      saul
+HostName                       43891@b35621b5a0f6
+ProcessIdentifier              617
+ProcessCreationTime_UTC        1757320909
+ProcessCreationTime_Readable   Mon Sep  8 08:41:49 2025 UTC
+AppIdentifier                  /opt/tools/cadence/installs/IC618/tools/dfII/bin/64bit/virtuoso
+OSType                         lnx86
+ReasonForPlacingEditLock       
+FilePathUsedToEditLock         /home/saul/projects/FIL3601/DAY10/opamp1/physConfig/physExpand.cfg
+TimeEditLocked                 Mon Sep  8 08:42:39 2025 UTC
+ProcessScopeIdentifier         ErLNBptXweyt5QWO0yJPkJ
+ExpirationTime_UTC             1757407359
+ExpirationTime_Readable        Tue Sep  9 08:42:39 2025 UTC

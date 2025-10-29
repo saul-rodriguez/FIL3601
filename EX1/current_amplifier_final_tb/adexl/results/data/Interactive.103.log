@@ -1,0 +1,15 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Sat Apr 26 17:51:07 2025 
+Best design point: 1
+Design specs: 
+	AC_NOISE_PZ_TRANS_PSRR	corner	Nominal - 
+Design parameters: 
+	IN		1
+	IN_DC		0
+
+Interactive.103
+Number of points completed: 1
+Number of simulation errors: 1
+Interactive.103 completed. 
+Current time: Sat Apr 26 17:51:15 2025 

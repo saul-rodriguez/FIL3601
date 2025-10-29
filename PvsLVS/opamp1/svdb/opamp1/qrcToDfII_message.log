@@ -1,0 +1,764 @@
+Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.04s.
+INFO (LBCLV-5347): spice2db warning: Duplicate dev "MM13" in cell "opamp1" renamed "MM13@1"
+
+INFO (LBCLV-5347): spice2db warning: Duplicate dev "MM13" in cell "opamp1" renamed "MM13@2"
+
+INFO (LBCLV-5347): spice2db warning: Duplicate dev "MM13" in cell "opamp1" renamed "MM13@3"
+
+INFO (LBCLV-5347): spice2db warning: Duplicate dev "MM13" in cell "opamp1" renamed "MM13@4"
+
+INFO (LBCLV-5347): spice2db warning: Duplicate dev "MM13" in cell "opamp1" renamed "MM13@5"
+
+INFO (LBCLV-5347): spice2db warning: Duplicate dev "MM13" in cell "opamp1" renamed "MM13@6"
+
+INFO (LBCLV-5347): spice2db warning: Duplicate dev "MM13" in cell "opamp1" renamed "MM13@7"
+
+INFO (LBCLV-5347): spice2db warning: Duplicate dev "MM13" in cell "opamp1" renamed "MM13@8"
+
+INFO (LBCLV-5347): spice2db warning: Duplicate dev "MM13" in cell "opamp1" renamed "MM13@9"
+
+INFO (LBCLV-5347): spice2db warning: Duplicate dev "MM13" in cell "opamp1" renamed "MM13@10"
+
+device nel M nel nel ivpcell PRIMLIB D G S B 
+** Info: PDK loadpath is "/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/PDK/IC61/v10_0_3"
+Loading XfSktTools.cxt
+Loading XfMenu.cxt
+Loading XfTechXh018.cxt
+Loading XfPcellCore.cxt
+function ansiSpicePrintProperties_subcircuit redefined
+Loading XfSkillExt.cxt
+Initializing library.
+Finished Initializing Library .
+    Generic PcellKit: 'production' loaded.
+    Generic Pcell Skill Tools: 'production' loaded.
+Loading Circuit Prospector Setup (XfCircuitProspSetup.il)
+device pel M pel pel ivpcell PRIMLIB D G S B 
+device MOSVC X mosvc mosvc ivpcell PRIMLIB G NW SB 
+device p_dnw D p_dnw p_dnw ivpcell PRIMLIB PLUS MINUS 
+device rpp1k1_3 R rpp1k1_n rpp1k1_3 ivpcell PRIMLIB PLUS MINUS BULK 
+device cmm5t C cmim cmm5t ivpcell PRIMLIB PLUS MINUS 
+Loading CDLOUT map files for /home/saul/projects/FIL3601/PvsLVS/opamp1
+
+Creating extracted view for opamp1
+
+INFO (LBCLV-5763): spice2db warning: No reference for dev "X440/D1" in subckt opamp1 renamed "X440/D1_unmatched"
+
+INFO (LBCLV-5763): spice2db warning: No reference for dev "D0" in subckt opamp1 renamed "D0_unmatched"
+
+INFO (LBCLV-5763): spice2db warning: No reference for dev "D1" in subckt opamp1 renamed "D1_unmatched"
+
+INFO (LBCLV-5763): spice2db warning: No reference for dev "D2" in subckt opamp1 renamed "D2_unmatched"
+
+INFO (LBCLV-5763): spice2db warning: No reference for dev "X439/D1" in subckt opamp1 renamed "X439/D1_unmatched"
+
+INFO (LBCLV-5763): spice2db warning: No reference for dev "D3" in subckt opamp1 renamed "D3_unmatched"
+
+Express Pcell license has been checked out for the Express Pcell feature.
+Save recognition layer ne
+Layer ne has 0 shapes.
+Save recognition layer pe
+Layer pe has 0 shapes.
+Save recognition layer nel
+Layer nel has 118 shapes.
+Save recognition layer nelna
+Layer nelna has 0 shapes.
+Save recognition layer nesvt
+Layer nesvt has 0 shapes.
+Save recognition layer pel
+Layer pel has 28 shapes.
+Save recognition layer pesvt
+Layer pesvt has 0 shapes.
+Save recognition layer nei
+Layer nei has 0 shapes.
+Save recognition layer pei
+Layer pei has 0 shapes.
+Save recognition layer neli
+Layer neli has 0 shapes.
+Save recognition layer peli
+Layer peli has 0 shapes.
+Save recognition layer nelnai
+Layer nelnai has 0 shapes.
+Save recognition layer nesvti
+Layer nesvti has 0 shapes.
+Save recognition layer pesvti
+Layer pesvti has 0 shapes.
+Save recognition layer nei_6
+Layer nei_6 has 0 shapes.
+Save recognition layer nei_a_6
+Layer nei_a_6 has 0 shapes.
+Save recognition layer nei_m_6
+Layer nei_m_6 has 0 shapes.
+Save recognition layer neli_6
+Layer neli_6 has 0 shapes.
+Save recognition layer neli_m_6
+Layer neli_m_6 has 0 shapes.
+Save recognition layer nelnai_6
+Layer nelnai_6 has 0 shapes.
+Save recognition layer nelnai_m_6
+Layer nelnai_m_6 has 0 shapes.
+Save recognition layer nesvti_6
+Layer nesvti_6 has 0 shapes.
+Save recognition layer nesvti_m_6
+Layer nesvti_m_6 has 0 shapes.
+Save recognition layer pe_5
+Layer pe_5 has 0 shapes.
+Save recognition layer pel_5
+Layer pel_5 has 0 shapes.
+Save recognition layer pei_5
+Layer pei_5 has 0 shapes.
+Save recognition layer pei_a_5
+Layer pei_a_5 has 0 shapes.
+Save recognition layer pei_m_5
+Layer pei_m_5 has 0 shapes.
+Save recognition layer peli_5
+Layer peli_5 has 0 shapes.
+Save recognition layer peli_m_5
+Layer peli_m_5 has 0 shapes.
+Save recognition layer pesvt_5
+Layer pesvt_5 has 0 shapes.
+Save recognition layer pesvti_5
+Layer pesvti_5 has 0 shapes.
+Save recognition layer pesvti_m_5
+Layer pesvti_m_5 has 0 shapes.
+Save recognition layer rnw
+Layer rnw has 0 shapes.
+Save recognition layer rnw_scr
+Layer rnw_scr has 0 shapes.
+Save recognition layer rdn
+Layer rdn has 0 shapes.
+Save recognition layer rdn_g
+Layer rdn_g has 0 shapes.
+Save recognition layer rdni
+Layer rdni has 0 shapes.
+Save recognition layer rdn_gi
+Layer rdn_gi has 0 shapes.
+Save recognition layer rdn_esdg
+Layer rdn_esdg has 0 shapes.
+Save recognition layer rdp
+Layer rdp has 0 shapes.
+Save recognition layer rdp_g
+Layer rdp_g has 0 shapes.
+Save recognition layer rdpi
+Layer rdpi has 0 shapes.
+Save recognition layer rdp_gi
+Layer rdp_gi has 0 shapes.
+Save recognition layer rdp_io_g
+Layer rdp_io_g has 0 shapes.
+Save recognition layer rdp_esdg
+Layer rdp_esdg has 0 shapes.
+Save recognition layer nnm
+Layer nnm has 0 shapes.
+Save recognition layer nem
+Layer nem has 0 shapes.
+Save recognition layer ndm
+Layer ndm has 0 shapes.
+Save recognition layer nemlna
+Layer nemlna has 0 shapes.
+Save recognition layer pem
+Layer pem has 0 shapes.
+Save recognition layer pemln
+Layer pemln has 0 shapes.
+Save recognition layer pemlna
+Layer pemlna has 0 shapes.
+Save recognition layer nemi
+Layer nemi has 0 shapes.
+Save recognition layer ndmi
+Layer ndmi has 0 shapes.
+Save recognition layer nemlna
+Layer nemlna has 0 shapes.
+Save recognition layer pemi
+Layer pemi has 0 shapes.
+Save recognition layer pemlni
+Layer pemlni has 0 shapes.
+Save recognition layer pemlnai
+Layer pemlnai has 0 shapes.
+Save recognition layer nemi_a_6
+Layer nemi_a_6 has 0 shapes.
+Save recognition layer nemi_m_6
+Layer nemi_m_6 has 0 shapes.
+Save recognition layer ndmi_m_6
+Layer ndmi_m_6 has 0 shapes.
+Save recognition layer nemlnai_m_6
+Layer nemlnai_m_6 has 0 shapes.
+Save recognition layer pem_5
+Layer pem_5 has 0 shapes.
+Save recognition layer pemln_5
+Layer pemln_5 has 0 shapes.
+Save recognition layer pemlna_5
+Layer pemlna_5 has 0 shapes.
+Save recognition layer pemi_a_5
+Layer pemi_a_5 has 0 shapes.
+Save recognition layer pemi_m_5
+Layer pemi_m_5 has 0 shapes.
+Save recognition layer pemlni_m_5
+Layer pemlni_m_5 has 0 shapes.
+Save recognition layer pemlnai_m_5
+Layer pemlnai_m_5 has 0 shapes.
+Save recognition layer nemi_6
+Layer nemi_6 has 0 shapes.
+Save recognition layer ndmi_6
+Layer ndmi_6 has 0 shapes.
+Save recognition layer nemlnai_6
+Layer nemlnai_6 has 0 shapes.
+Save recognition layer pemi_5
+Layer pemi_5 has 0 shapes.
+Save recognition layer pemlni_5
+Layer pemlni_5 has 0 shapes.
+Save recognition layer pemlnai_5
+Layer pemlnai_5 has 0 shapes.
+Save recognition layer ndsmiP
+Layer ndsmiP has 0 shapes.
+Save recognition layer ndsmiE
+Layer ndsmiE has 0 shapes.
+Save recognition layer nha3m
+Layer nha3m has 0 shapes.
+Save recognition layer nedam_d
+Layer nedam_d has 0 shapes.
+Save recognition layer nedam_b
+Layer nedam_b has 0 shapes.
+Save recognition layer pedam_d
+Layer pedam_d has 0 shapes.
+Save recognition layer pedam_b
+Layer pedam_b has 0 shapes.
+Save recognition layer pedama_d
+Layer pedama_d has 0 shapes.
+Save recognition layer pedama_b
+Layer pedama_b has 0 shapes.
+Save recognition layer nmma_d
+Layer nmma_d has 0 shapes.
+Save recognition layer nmmb_d
+Layer nmmb_d has 0 shapes.
+Save recognition layer nmmc_d
+Layer nmmc_d has 0 shapes.
+Save recognition layer nmmd_d
+Layer nmmd_d has 0 shapes.
+Save recognition layer pmma_d
+Layer pmma_d has 0 shapes.
+Save recognition layer pmmb_d
+Layer pmmb_d has 0 shapes.
+Save recognition layer pmmc_d
+Layer pmmc_d has 0 shapes.
+Save recognition layer nma_d
+Layer nma_d has 0 shapes.
+Save recognition layer nmc_d
+Layer nmc_d has 0 shapes.
+Save recognition layer nhhv_d
+Layer nhhv_d has 0 shapes.
+Save recognition layer nhv_d
+Layer nhv_d has 0 shapes.
+Save recognition layer nhhvd_d
+Layer nhhvd_d has 0 shapes.
+Save recognition layer nhvd_d
+Layer nhvd_d has 0 shapes.
+Save recognition layer pma_d
+Layer pma_d has 0 shapes.
+Save recognition layer pmb_d
+Layer pmb_d has 0 shapes.
+Save recognition layer pmc_d
+Layer pmc_d has 0 shapes.
+Save recognition layer phhv_d
+Layer phhv_d has 0 shapes.
+Save recognition layer phv_d
+Layer phv_d has 0 shapes.
+Save recognition layer nmma_b
+Layer nmma_b has 0 shapes.
+Save recognition layer nmmb_b
+Layer nmmb_b has 0 shapes.
+Save recognition layer nmmc_b
+Layer nmmc_b has 0 shapes.
+Save recognition layer nmmd_b
+Layer nmmd_b has 0 shapes.
+Save recognition layer pmma_b
+Layer pmma_b has 0 shapes.
+Save recognition layer pmmb_b
+Layer pmmb_b has 0 shapes.
+Save recognition layer pmmc_b
+Layer pmmc_b has 0 shapes.
+Save recognition layer nma_b
+Layer nma_b has 0 shapes.
+Save recognition layer nmc_b
+Layer nmc_b has 0 shapes.
+Save recognition layer nhhv_b
+Layer nhhv_b has 0 shapes.
+Save recognition layer nhv_b
+Layer nhv_b has 0 shapes.
+Save recognition layer nhhvd_b
+Layer nhhvd_b has 0 shapes.
+Save recognition layer nhvd_b
+Layer nhvd_b has 0 shapes.
+Save recognition layer pma_b
+Layer pma_b has 0 shapes.
+Save recognition layer pmb_b
+Layer pmb_b has 0 shapes.
+Save recognition layer pmc_b
+Layer pmc_b has 0 shapes.
+Save recognition layer phhv_b
+Layer phhv_b has 0 shapes.
+Save recognition layer phv_b
+Layer phv_b has 0 shapes.
+Save recognition layer nedi2_d
+Layer nedi2_d has 0 shapes.
+Save recognition layer nedia2_d
+Layer nedia2_d has 0 shapes.
+Save recognition layer ped12_d
+Layer ped12_d has 0 shapes.
+Save recognition layer ped22_d
+Layer ped22_d has 0 shapes.
+Save recognition layer nedi2_b
+Layer nedi2_b has 0 shapes.
+Save recognition layer nedia2_b
+Layer nedia2_b has 0 shapes.
+Save recognition layer ped12_b
+Layer ped12_b has 0 shapes.
+Save recognition layer ped22_b
+Layer ped22_b has 0 shapes.
+Save recognition layer mosvc
+Layer mosvc has 2 shapes.
+Save recognition layer mosvci
+Layer mosvci has 0 shapes.
+Save recognition layer mosvci_m
+Layer mosvci_m has 0 shapes.
+Save recognition layer mosvcim
+Layer mosvcim has 0 shapes.
+Save recognition layer mosvcm
+Layer mosvcm has 0 shapes.
+Save recognition layer mosvcim_m
+Layer mosvcim_m has 0 shapes.
+Save recognition layer qpva
+Layer qpva has 0 shapes.
+Save recognition layer qpvb
+Layer qpvb has 0 shapes.
+Save recognition layer qpvc
+Layer qpvc has 0 shapes.
+Save recognition layer qpvascr
+Layer qpvascr has 0 shapes.
+Save recognition layer qpvhscr
+Layer qpvhscr has 0 shapes.
+Save recognition layer qpvhbscr
+Layer qpvhbscr has 0 shapes.
+Save recognition layer qnva
+Layer qnva has 0 shapes.
+Save recognition layer qnvb
+Layer qnvb has 0 shapes.
+Save recognition layer qnvba
+Layer qnvba has 0 shapes.
+Save recognition layer qnvbb
+Layer qnvbb has 0 shapes.
+Save recognition layer qnvz
+Layer qnvz has 0 shapes.
+Save recognition layer qnvc
+Layer qnvc has 0 shapes.
+Save recognition layer qnvca
+Layer qnvca has 0 shapes.
+Save recognition layer qnvcb
+Layer qnvcb has 0 shapes.
+Save recognition layer qnvam
+Layer qnvam has 0 shapes.
+Save recognition layer qpvma
+Layer qpvma has 0 shapes.
+Save recognition layer qpvmb
+Layer qpvmb has 0 shapes.
+Save recognition layer qpvmc
+Layer qpvmc has 0 shapes.
+Save recognition layer rdnwmv
+Layer rdnwmv has 0 shapes.
+Save recognition layer rnwm
+Layer rnwm has 0 shapes.
+Save recognition layer rnwm_scr
+Layer rnwm_scr has 0 shapes.
+Save recognition layer rdnm
+Layer rdnm has 0 shapes.
+Save recognition layer rdnm_g
+Layer rdnm_g has 0 shapes.
+Save recognition layer rdnmi
+Layer rdnmi has 0 shapes.
+Save recognition layer rdnm_gi
+Layer rdnm_gi has 0 shapes.
+Save recognition layer rdpm
+Layer rdpm has 0 shapes.
+Save recognition layer rdpm_g
+Layer rdpm_g has 0 shapes.
+Save recognition layer rdpmi
+Layer rdpmi has 0 shapes.
+Save recognition layer rdpm_gi
+Layer rdpm_gi has 0 shapes.
+Save recognition layer rpp1k1_2
+Layer rpp1k1_2 has 0 shapes.
+Save recognition layer rpp1k1_s
+Layer rpp1k1_s has 0 shapes.
+Save recognition layer rpp1k1_p
+Layer rpp1k1_p has 0 shapes.
+Save recognition layer rpp1k1fp
+Layer rpp1k1fp has 0 shapes.
+Save recognition layer rpp1k1_n
+Layer rpp1k1_n has 1 shapes.
+Save recognition layer rpp1k1_d
+Layer rpp1k1_d has 0 shapes.
+Save recognition layer rpp1k1_h
+Layer rpp1k1_h has 0 shapes.
+Save recognition layer rpp1k1hn
+Layer rpp1k1hn has 0 shapes.
+Save recognition layer rpp1k1fn
+Layer rpp1k1fn has 0 shapes.
+Save recognition layer rnp1_2
+Layer rnp1_2 has 0 shapes.
+Save recognition layer rnp1_s
+Layer rnp1_s has 0 shapes.
+Save recognition layer rnp1_p
+Layer rnp1_p has 0 shapes.
+Save recognition layer rnp1fp
+Layer rnp1fp has 0 shapes.
+Save recognition layer rnp1_n
+Layer rnp1_n has 0 shapes.
+Save recognition layer rnp1_d
+Layer rnp1_d has 0 shapes.
+Save recognition layer rnp1_h
+Layer rnp1_h has 0 shapes.
+Save recognition layer rnp1hn
+Layer rnp1hn has 0 shapes.
+Save recognition layer rnp1fn
+Layer rnp1fn has 0 shapes.
+Save recognition layer rpp1_2
+Layer rpp1_2 has 0 shapes.
+Save recognition layer rpp1_s
+Layer rpp1_s has 0 shapes.
+Save recognition layer rpp1_p
+Layer rpp1_p has 0 shapes.
+Save recognition layer rpp1fp
+Layer rpp1fp has 0 shapes.
+Save recognition layer rpp1_n
+Layer rpp1_n has 0 shapes.
+Save recognition layer rpp1_d
+Layer rpp1_d has 0 shapes.
+Save recognition layer rpp1_h
+Layer rpp1_h has 0 shapes.
+Save recognition layer rpp1hn
+Layer rpp1hn has 0 shapes.
+Save recognition layer rpp1fn
+Layer rpp1fn has 0 shapes.
+Save recognition layer rpp1s_2
+Layer rpp1s_2 has 0 shapes.
+Save recognition layer rpp1s_s
+Layer rpp1s_s has 0 shapes.
+Save recognition layer rpp1s_p
+Layer rpp1s_p has 0 shapes.
+Save recognition layer rpp1sfp
+Layer rpp1sfp has 0 shapes.
+Save recognition layer rpp1s_n
+Layer rpp1s_n has 0 shapes.
+Save recognition layer rpp1s_d
+Layer rpp1s_d has 0 shapes.
+Save recognition layer rpp1s_h
+Layer rpp1s_h has 0 shapes.
+Save recognition layer rpp1shn
+Layer rpp1shn has 0 shapes.
+Save recognition layer rpp1sfn
+Layer rpp1sfn has 0 shapes.
+Save recognition layer rnp1h_2
+Layer rnp1h_2 has 0 shapes.
+Save recognition layer rnp1h_s
+Layer rnp1h_s has 0 shapes.
+Save recognition layer rnp1h_p
+Layer rnp1h_p has 0 shapes.
+Save recognition layer rnp1hfp
+Layer rnp1hfp has 0 shapes.
+Save recognition layer rnp1h_n
+Layer rnp1h_n has 0 shapes.
+Save recognition layer rnp1h_d
+Layer rnp1h_d has 0 shapes.
+Save recognition layer rnp1h_h
+Layer rnp1h_h has 0 shapes.
+Save recognition layer rnp1hhn
+Layer rnp1hhn has 0 shapes.
+Save recognition layer rnp1hfn
+Layer rnp1hfn has 0 shapes.
+Save recognition layer s_res
+Layer s_res has 0 shapes.
+Save recognition layer pfuse
+Layer pfuse has 0 shapes.
+Save recognition layer rp1s_otps
+Layer rp1s_otps has 0 shapes.
+Save recognition layer d_dn
+Layer d_dn has 0 shapes.
+Save recognition layer d_dni1
+Layer d_dni1 has 0 shapes.
+Save recognition layer d_dni2
+Layer d_dni2 has 0 shapes.
+Save recognition layer d_dp
+Layer d_dp has 0 shapes.
+Save recognition layer d_dpi1
+Layer d_dpi1 has 0 shapes.
+Save recognition layer d_dpi2
+Layer d_dpi2 has 0 shapes.
+Save recognition layer d_dnw
+Layer d_dnw has 0 shapes.
+Save recognition layer d_dhnw
+Layer d_dhnw has 0 shapes.
+Save recognition layer d_dhpw
+Layer d_dhpw has 0 shapes.
+Save recognition layer d_ddnw
+Layer d_ddnw has 0 shapes.
+Save recognition layer d_dipw
+Layer d_dipw has 0 shapes.
+Save recognition layer d_dndf
+Layer d_dndf has 0 shapes.
+Save recognition layer d_dpdwhn
+Layer d_dpdwhn has 0 shapes.
+Save recognition layer d_dwhn
+Layer d_dwhn has 0 shapes.
+Save recognition layer dpdd_scr
+Layer dpdd_scr has 0 shapes.
+Save recognition layer dnpddscr
+Layer dnpddscr has 0 shapes.
+Save recognition layer dpp20
+Layer dpp20 has 0 shapes.
+Save recognition layer dnp20
+Layer dnp20 has 0 shapes.
+Save recognition layer d_dnhpw
+Layer d_dnhpw has 0 shapes.
+Save recognition layer d_dnhpwi
+Layer d_dnhpwi has 0 shapes.
+Save recognition layer d_dphnw
+Layer d_dphnw has 0 shapes.
+Save recognition layer d_dphnw1
+Layer d_dphnw1 has 0 shapes.
+Save recognition layer d_dphnw2
+Layer d_dphnw2 has 0 shapes.
+Save recognition layer d_dpdnw
+Layer d_dpdnw has 0 shapes.
+Save recognition layer d_dpwhn
+Layer d_dpwhn has 0 shapes.
+Save recognition layer d_dsb
+Layer d_dsb has 0 shapes.
+Save recognition layer d_dsba
+Layer d_dsba has 0 shapes.
+Save recognition layer d_ddnwa
+Layer d_ddnwa has 0 shapes.
+Save recognition layer d_ddnwmv
+Layer d_ddnwmv has 0 shapes.
+Save recognition layer d_dipwmv
+Layer d_dipwmv has 0 shapes.
+Save recognition layer ddscidmv
+Layer ddscidmv has 0 shapes.
+Save recognition layer ddpdnwmv
+Layer ddpdnwmv has 0 shapes.
+Save recognition layer d_dnm
+Layer d_dnm has 0 shapes.
+Save recognition layer d_dnnm
+Layer d_dnnm has 0 shapes.
+Save recognition layer d_dnmi1
+Layer d_dnmi1 has 0 shapes.
+Save recognition layer d_dnmi2
+Layer d_dnmi2 has 0 shapes.
+Save recognition layer d_dnmsci
+Layer d_dnmsci has 0 shapes.
+Save recognition layer d_dpm
+Layer d_dpm has 0 shapes.
+Save recognition layer d_dpmi1
+Layer d_dpmi1 has 0 shapes.
+Save recognition layer d_dpmi2
+Layer d_dpmi2 has 0 shapes.
+Save recognition layer d_dnwm
+Layer d_dnwm has 0 shapes.
+Save recognition layer dphoa
+Layer dphoa has 0 shapes.
+Save recognition layer dphob
+Layer dphob has 0 shapes.
+Save recognition layer dphoc
+Layer dphoc has 0 shapes.
+Save recognition layer dphocfp
+Layer dphocfp has 0 shapes.
+Save recognition layer dphoc0
+Layer dphoc0 has 0 shapes.
+Save recognition layer dphod
+Layer dphod has 0 shapes.
+Save recognition layer dphodfp
+Layer dphodfp has 0 shapes.
+Save recognition layer dphod0
+Layer dphod0 has 0 shapes.
+Save recognition layer dapda
+Layer dapda has 0 shapes.
+Save recognition layer dapda0
+Layer dapda0 has 0 shapes.
+Save recognition layer dspada
+Layer dspada has 0 shapes.
+Save recognition layer dspada0
+Layer dspada0 has 0 shapes.
+Save recognition layer dapb
+Layer dapb has 0 shapes.
+Save recognition layer dapb0
+Layer dapb0 has 0 shapes.
+Save recognition layer dspb
+Layer dspb has 0 shapes.
+Save recognition layer dspb0
+Layer dspb0 has 0 shapes.
+Save recognition layer dspbfep
+Layer dspbfep has 0 shapes.
+Save recognition layer dpol
+Layer dpol has 0 shapes.
+Save recognition layer rm1
+Layer rm1 has 0 shapes.
+Save recognition layer rm2
+Layer rm2 has 0 shapes.
+Save recognition layer cpod
+Layer cpod has 0 shapes.
+Save recognition layer cpodhv
+Layer cpodhv has 0 shapes.
+Save recognition layer cnnotpaP
+Layer cnnotpaP has 0 shapes.
+Save recognition layer cnnotpaE
+Layer cnnotpaE has 0 shapes.
+Save recognition layer d_csf2p
+Layer d_csf2p has 0 shapes.
+Save recognition layer cmim
+Layer cmim has 1 shapes.
+Save recognition layer cmimh
+Layer cmimh has 0 shapes.
+Save recognition layer cdmm
+Layer cdmm has 0 shapes.
+Save recognition layer cdmmh
+Layer cdmmh has 0 shapes.
+Save recognition layer ctmm
+Layer ctmm has 0 shapes.
+Save recognition layer ctmmh
+Layer ctmmh has 0 shapes.
+Save recognition layer d_cswt3
+Layer d_cswt3 has 0 shapes.
+Save recognition layer d_csf3p
+Layer d_csf3p has 0 shapes.
+Save recognition layer d_csf3
+Layer d_csf3 has 0 shapes.
+Save recognition layer d_csf3a
+Layer d_csf3a has 0 shapes.
+Save recognition layer d_cif3a
+Layer d_cif3a has 0 shapes.
+Save recognition layer cmim23f
+Layer cmim23f has 0 shapes.
+Save recognition layer cmimh23f
+Layer cmimh23f has 0 shapes.
+Save recognition layer d_cswt4
+Layer d_cswt4 has 0 shapes.
+Save recognition layer d_csf4
+Layer d_csf4 has 0 shapes.
+Save recognition layer d_csf4a
+Layer d_csf4a has 0 shapes.
+Save recognition layer d_cif4a
+Layer d_cif4a has 0 shapes.
+Save recognition layer cmim34f
+Layer cmim34f has 0 shapes.
+Save recognition layer cmimh34f
+Layer cmimh34f has 0 shapes.
+Copying layer p1trm
+Layer p1trm has 268 shapes.
+Copying layer m1trm
+Layer m1trm has 1079 shapes.
+Copying layer m2trm
+Layer m2trm has 373 shapes.
+Copying layer via1
+Layer via1 has 1046 shapes.
+Copying layer csf_p1
+Layer csf_p1 has 0 shapes.
+Copying layer csf_m1
+Layer csf_m1 has 0 shapes.
+Copying layer csf_m2
+Layer csf_m2 has 0 shapes.
+Save recognition layer rm3
+Layer rm3 has 0 shapes.
+Copying layer m3trm
+Layer m3trm has 55 shapes.
+Copying layer via2CON
+Layer via2CON has 560 shapes.
+Copying layer v2cm
+Layer v2cm has 0 shapes.
+Copying layer v2cmh
+Layer v2cmh has 0 shapes.
+Copying layer csf_m3
+Layer csf_m3 has 0 shapes.
+Copying layer v2cm2
+Layer v2cm2 has 0 shapes.
+Copying layer v2cm2
+Layer v2cm2 has 0 shapes.
+Save recognition layer rm4
+Layer rm4 has 0 shapes.
+Copying layer m4trm
+Layer m4trm has 4 shapes.
+Copying layer via3CON
+Layer via3CON has 17 shapes.
+Copying layer v3cm
+Layer v3cm has 0 shapes.
+Copying layer v3cmh
+Layer v3cmh has 0 shapes.
+Copying layer v3cm2
+Layer v3cm2 has 0 shapes.
+Copying layer v3cmh2
+Layer v3cmh2 has 0 shapes.
+Copying layer csf_m4
+Layer csf_m4 has 0 shapes.
+Copying layer v2cm3
+Layer v2cm3 has 0 shapes.
+Copying layer v2cmh3
+Layer v2cmh3 has 0 shapes.
+Copying layer v3cm3
+Layer v3cm3 has 0 shapes.
+Copying layer v3cmh3
+Layer v3cmh3 has 0 shapes.
+Copying layer vtpcm2
+Layer vtpcm2 has 0 shapes.
+Copying layer vtpcm2
+Layer vtpcm2 has 0 shapes.
+Save recognition layer rmtp
+Layer rmtp has 0 shapes.
+Copying layer mttrm
+Layer mttrm has 8 shapes.
+Copying layer vtpCON
+Layer vtpCON has 4 shapes.
+Copying layer vtpcm
+Layer vtpcm has 143 shapes.
+Copying layer vtpcmh
+Layer vtpcmh has 0 shapes.
+Copying layer csf_mt
+Layer csf_mt has 0 shapes.
+Save recognition layer rmtpl
+Layer rmtpl has 0 shapes.
+Copying layer mltrm
+Layer mltrm has 0 shapes.
+Copying layer viatpl
+Layer viatpl has 0 shapes.
+Copying layer ndiff
+Layer ndiff has 222 shapes.
+Copying layer pdiff
+Layer pdiff has 53 shapes.
+Copying layer cont
+Layer cont has 7264 shapes.
+Copying layer d_dsc
+Layer d_dsc has 0 shapes.
+Copying layer nwtrm
+Layer nwtrm has 6 shapes.
+Copying layer dnwtrm
+Layer dnwtrm has 0 shapes.
+Copying layer hvnwtrm
+Layer hvnwtrm has 0 shapes.
+Copying layer pwitrm
+Layer pwitrm has 0 shapes.
+Copying layer bulk
+Layer bulk has 1 shapes.
+Transfer property, if applicable, will be applied for DAY10/opamp1/analog_extracted
+*INFO: Executing TRP Version 17.1.0.0
+*INFO: Reading file "/home/saul/projects/FIL3601/PvsLVS/opamp1/svdb/opamp1/extview.trp" 
+
+
+Summary for DAY10/opamp1/analog_extracted
+
+instance count totals:
+
+    lib              cell             view                    total
+    PRIMLIB          cmm5t            ivpcell                     1
+    PRIMLIB          mosvc            ivpcell                     2
+    PRIMLIB          nel              ivpcell                   118
+    PRIMLIB          p_cap            auLvs                    5018
+    PRIMLIB          p_dnw            ivpcell                     6
+    PRIMLIB          p_res            auLvs                    2127
+    PRIMLIB          pel              ivpcell                    28
+    PRIMLIB          rpp1k1_3         ivpcell                     1
+
+Extracted view creation has completed.

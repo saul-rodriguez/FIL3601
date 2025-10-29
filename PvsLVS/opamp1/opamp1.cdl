@@ -1,0 +1,68 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  DAY10
+* Top Cell Name: opamp1
+* View Name:     schematic
+* Netlisted on:  Sep  3 16:39:04 2025
+************************************************************************
+
+*.BIPOLAR
+*.RESI = 2000 
+*.RESVAL
+*.CAPVAL
+*.DIOPERI
+*.DIOAREA
+*.EQUATION
+*.LDD
+*.SCALE METER
+.PARAM
+
+
+
+************************************************************************
+* Library Name: DAY10
+* Cell Name:    opamp1
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT opamp1 BIAS GNDA INN INP OUT VDDA
+*.PININFO BIAS:I INN:I INP:I OUT:O GNDA:B VDDA:B
+XC2 BIAS GNDA GNDA / mosvc W=18u L=10u M=1.0 par1=1.0
+XC1 VDDA GNDA GNDA / mosvc W=8u L=10u M=1.0 par1=1.0
+MM13 GNDA GNDA GNDA GNDA NEL W=1u L=2u M=28.0 AD=4.8e-13 AS=4.8e-13 
++ PD=2.96e-06 PS=2.96e-06 NRD=0.27 NRS=0.27
+MM12 GNDA GNDA GNDA GNDA NEL W=10u L=2u M=6.0 AD=4.8e-12 AS=4.8e-12 
++ PD=2.096e-05 PS=2.096e-05 NRD=0.027 NRS=0.027
+MM10 GNDA GNDA GNDA GNDA NEL W=10u L=1u M=4.0 AD=4.8e-12 AS=4.8e-12 
++ PD=2.096e-05 PS=2.096e-05 NRD=0.027 NRS=0.027
+MM8 BIAS BIAS A GNDA NEL W=5u L=250.0n M=8.0 AD=1.35e-12 AS=1.6125e-12 
++ PD=5.54e-06 PS=6.895e-06 NRD=0.054 NRS=0.054
+MM1 D INN B GNDA NEL W=10u L=1u M=10.0 AD=4.8e-12 AS=4.8e-12 PD=2.096e-05 
++ PS=2.096e-05 NRD=0.027 NRS=0.027
+MM0 C INP B GNDA NEL W=10u L=1u M=10.0 AD=4.8e-12 AS=4.8e-12 PD=2.096e-05 
++ PS=2.096e-05 NRD=0.027 NRS=0.027
+MM9 B BIAS net5 GNDA NEL W=5u L=250.0n M=16.0 AD=1.35e-12 AS=1.48125e-12 
++ PD=5.54e-06 PS=6.2175e-06 NRD=0.054 NRS=0.054
+MM7 A A GNDA GNDA NEL W=10u L=2u M=2.0 AD=4.8e-12 AS=4.8e-12 PD=2.096e-05 
++ PS=2.096e-05 NRD=0.027 NRS=0.027
+MM6 OUT A GNDA GNDA NEL W=10u L=2u M=30.0 AD=4.8e-12 AS=4.8e-12 PD=2.096e-05 
++ PS=2.096e-05 NRD=0.027 NRS=0.027
+MM2 net5 A GNDA GNDA NEL W=10u L=2u M=4.0 AD=4.8e-12 AS=4.8e-12 PD=2.096e-05 
++ PS=2.096e-05 NRD=0.027 NRS=0.027
+CC0 net6 OUT $[CMM5T] area=7.5e-10 perimeter=110.00000u M=1
+RR0 net6 C 61.3905K $SUB=VDDA $[RPP1K1_3] $W=2u $L=124.48u M=1
+MM5 OUT C VDDA VDDA PEL W=2.5u L=500n M=8.0 AD=6.75e-13 AS=8.0625e-13 
++ PD=3.04e-06 PS=3.77e-06 NRD=0.108 NRS=0.108
+MM4 C D VDDA VDDA PEL W=10u L=2u M=8.0 AD=4.8e-12 AS=4.8e-12 PD=2.096e-05 
++ PS=2.096e-05 NRD=0.027 NRS=0.027
+MM3 D D VDDA VDDA PEL W=10u L=2u M=8.0 AD=4.8e-12 AS=4.8e-12 PD=2.096e-05 
++ PS=2.096e-05 NRD=0.027 NRS=0.027
+MM11 VDDA VDDA VDDA VDDA PEL W=10u L=2u M=4.0 AD=4.8e-12 AS=4.8e-12 
++ PD=2.096e-05 PS=2.096e-05 NRD=0.027 NRS=0.027
+.ENDS
+
+
+.SUBCKT mosvc G NW SB 
+*.PININFO  G:B NW:B SB:B
+.ENDS

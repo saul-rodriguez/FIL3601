@@ -1,0 +1,19 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Fri Feb 14 00:06:03 2025 
+Best design point: 8
+Design specs: 
+	DAY2:FT:1	corner	Nominal - 
+	ft		205.5M
+Design parameters: 
+	L		180n
+	NF		1
+	VDS		900m
+	WF		10u
+	IDS		501.2n
+
+Interactive.2
+Number of points completed: 51
+Number of simulation errors: 0
+Interactive.2 completed. 
+Current time: Fri Feb 14 00:06:13 2025 

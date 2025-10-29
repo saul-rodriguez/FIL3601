@@ -1,0 +1,20 @@
+###################################################################
+# Copyright        : (c) All Rights Reserved                      #
+# Company          : X-FAB Global Services GmbH                   #
+# Address          : Haarbergstr. 67, 99097 Erfurt, Germany       #
+###################################################################
+# Object Type   # Sub-Type       # LayerName      # Gds   # Type  #
+###################################################################
+layerBlockage    routing          LOCKED           20      10     
+layerBlockage    routing          LOCKED1          73      10     
+layerBlockage    routing          LOCKED2          74      10     
+layerBlockage    routing          LOCKED3          40      10     
+layerBlockage    routing          LOCKED4          41      10     
+layerBlockage    routing          MET1             16      10     
+layerBlockage    routing          MET2             18      10     
+layerBlockage    routing          MET3             28      10     
+layerBlockage    routing          MET4             31      10     
+layerBlockage    routing          METTP            33      10     
+layerBlockage    routing          METTPL           35      10     
+Boundary         PR                                190     0      
+Boundary         Snap                              190     10     

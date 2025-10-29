@@ -1,0 +1,112 @@
+Device_Table 1000
+0 0 1 Wed Sep  3 16:39:08 2025
+6
+Device Entry 0
+0 0 20 Wed Sep  3 16:39:08 2025
+nel
+MOS
+MN
+nel
+XM
+(null)
+4
+G p1trm 0
+S ndiff 1
+D ndiff 1
+B bulk 0
+1
+ndif2
+6
+w
+l
+as
+ad
+ps
+pd
+Device Entry 1
+0 0 20 Wed Sep  3 16:39:08 2025
+pel
+MOS
+MP
+pel
+XM
+(null)
+4
+G p1trm 0
+S pdiff 1
+D pdiff 1
+B nwtrm 0
+1
+pdif2
+6
+w
+l
+as
+ad
+ps
+pd
+Device Entry 2
+0 0 15 Wed Sep  3 16:39:08 2025
+mosvc
+USER
+MOSVC
+(null)
+XM
+mosvc
+3
+G p1trm 0
+NW nwtrm 0
+SB bulk 0
+1
+ndif
+2
+w
+l
+Device Entry 3
+0 0 15 Wed Sep  3 16:39:08 2025
+p_dnw
+DIODE
+D
+p_dnw
+XD_
+dnw
+2
+POS bulk 0
+NEG nwtrm 0
+1
+anwell
+3
+A
+P
+PERIMETER
+Device Entry 4
+0 0 14 Wed Sep  3 16:39:08 2025
+rpp1k1_n
+RESISTOR
+R
+rpp1k1_3
+XR
+(null)
+3
+POS p1trm 1
+NEG p1trm 1
+SUB nwtrm 0
+0
+2
+w
+l
+Device Entry 5
+0 0 13 Wed Sep  3 16:39:08 2025
+cmim
+CAPACITOR
+C
+cmm5t
+XC
+(null)
+2
+POS capm 0
+NEG m4trm 0
+0
+2
+AREA
+PERIMETER

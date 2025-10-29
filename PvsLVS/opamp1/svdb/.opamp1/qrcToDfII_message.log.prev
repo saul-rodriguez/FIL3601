@@ -1,0 +1,21 @@
+Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.07s.
+device nel M nel nel ivpcell PRIMLIB D G S B 
+** Info: PDK loadpath is "/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/PDK/IC61/v10_0_3"
+Loading XfSktTools.cxt
+Loading XfMenu.cxt
+Loading XfTechXh018.cxt
+Loading XfPcellCore.cxt
+function ansiSpicePrintProperties_subcircuit redefined
+Loading XfSkillExt.cxt
+Initializing library.
+Finished Initializing Library .
+    Generic PcellKit: 'production' loaded.
+    Generic Pcell Skill Tools: 'production' loaded.
+Loading Circuit Prospector Setup (XfCircuitProspSetup.il)
+device pel M pel pel ivpcell PRIMLIB D G S B 
+device p_dnw D p_dnw p_dnw ivpcell PRIMLIB PLUS MINUS 
+device rpp1k1_3 R rpp1k1_n rpp1k1_3 ivpcell PRIMLIB PLUS MINUS BULK 
+device cmm5t C cmim cmm5t ivpcell PRIMLIB PLUS MINUS 
+
+All device symbols for the extracted view are present.
+

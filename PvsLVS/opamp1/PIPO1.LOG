@@ -1,0 +1,95 @@
+********************************************************************************
+Product   : Virtuoso(R) XStream Out
+Program   : @(#)$CDS: strmout version 6.1.8-64b 09/03/2024 18:58 (sjfhw317) $
+          : sub-version  IC6.1.8-64b.500.36 
+Started at: 03-Sep-2025  16:39:03
+User Name : saul
+Host Name : b35621b5a0f6
+Directory : /home/saul/projects/FIL3601
+CADENCE Design Systems, Inc.
+********************************************************************************
+Info: Cellview Rev Num:99,  Tech Rev Num:59
+
+WARNING (XSTRM-20): Output Stream file '/home/saul/projects/FIL3601/PvsLVS/opamp1/opamp1.gds' already exists. It will be overwritten.
+INFO (XSTRM-217): Reading the layer map file, /home/saul/projects/FIL3601/.xkit/setup/xh018/cadence/PDK/TECH_XH018_1143/strmInOut.layertable
+INFO (XSTRM-217): Reading the object map file, /home/saul/projects/FIL3601/.xkit/setup/xh018/cadence/PDK/TECH_XH018_1143/strmOutObjects.map
+INFO (XSTRM-162): You have not used the '-viaMap' option. If the OpenAccess design has native oaVia instances, use the '-viaMap' option for preserving oaVia instances in a XStream Out - XStream In round trip. Using the '-viaMap' option improves performance and VM usage of applications using the Streamed-In design.
+
+Summary of Options :
+library                                 DAY10
+strmFile                                /home/saul/projects/FIL3601/PvsLVS/opamp1/opamp1.gds
+topCell                                 opamp1
+view                                    layout
+runDir                                  /home/saul/projects/FIL3601/PvsLVS/opamp1
+logFile                                 /home/saul/projects/FIL3601/PvsLVS/opamp1/PIPO1.LOG
+techLib                                 TECH_XH018
+hierDepth                               32
+maxVertices                             2048
+layerMap                                /home/saul/projects/FIL3601/.xkit/setup/xh018/cadence/PDK/TECH_XH018_1143/strmInOut.layertable
+objectMap                                /home/saul/projects/FIL3601/.xkit/setup/xh018/cadence/PDK/TECH_XH018_1143/strmOutObjects.map
+userSkillFile                           /home/saul/projects/FIL3601/PvsLVS/opamp1/strmout.il
+labelDepth                              32
+case                                    Preserve
+convertDot                              node
+convertPin                              geometryAndText
+
+INFO (XSTRM-223): 1. Translating stdVia TECH_XH018/VIA1_C/layout as STRUCTURE VIA1_C_CDNS_756917543330.
+INFO (XSTRM-223): 2. Translating stdVia TECH_XH018/VIA2_C/layout as STRUCTURE VIA2_C_CDNS_756917543331.
+INFO (XSTRM-223): 3. Translating stdVia TECH_XH018/VIA1_C/layout as STRUCTURE VIA1_C_CDNS_756917543332.
+INFO (XSTRM-223): 4. Translating stdVia TECH_XH018/VIA2_C/layout as STRUCTURE VIA2_C_CDNS_756917543333.
+INFO (XSTRM-223): 5. Translating stdVia TECH_XH018/VIA1_C/layout as STRUCTURE VIA1_C_CDNS_756917543334.
+INFO (XSTRM-223): 6. Translating stdVia TECH_XH018/P1_C/layout as STRUCTURE P1_C_CDNS_756917543335.
+INFO (XSTRM-223): 7. Translating stdVia TECH_XH018/VIA2_C/layout as STRUCTURE VIA2_C_CDNS_756917543336.
+INFO (XSTRM-223): 8. Translating stdVia TECH_XH018/VIA1_C/layout as STRUCTURE VIA1_C_CDNS_756917543337.
+INFO (XSTRM-223): 9. Translating stdVia TECH_XH018/VIA1_C/layout as STRUCTURE VIA1_C_CDNS_756917543338.
+INFO (XSTRM-223): 10. Translating stdVia TECH_XH018/VIA1_C/layout as STRUCTURE VIA1_C_CDNS_756917543339.
+INFO (XSTRM-223): 11. Translating stdVia TECH_XH018/VIA1_C/layout as STRUCTURE VIA1_C_CDNS_7569175433310.
+INFO (XSTRM-223): 12. Translating stdVia TECH_XH018/VIA2_C/layout as STRUCTURE VIA2_C_CDNS_7569175433311.
+INFO (XSTRM-223): 13. Translating stdVia TECH_XH018/VIA1_C/layout as STRUCTURE VIA1_C_CDNS_7569175433312.
+INFO (XSTRM-223): 14. Translating stdVia TECH_XH018/VIA2_C/layout as STRUCTURE VIA2_C_CDNS_7569175433313.
+INFO (XSTRM-223): 15. Translating stdVia TECH_XH018/VIA3_C/layout as STRUCTURE VIA3_C_CDNS_7569175433314.
+INFO (XSTRM-223): 16. Translating stdVia TECH_XH018/VIA2_C/layout as STRUCTURE VIA2_C_CDNS_7569175433315.
+INFO (XSTRM-223): 17. Translating stdVia TECH_XH018/VIATP_C/layout as STRUCTURE VIATP_C_CDNS_7569175433316.
+INFO (XSTRM-223): 18. Translating stdVia TECH_XH018/VIA2_C/layout as STRUCTURE VIA2_C_CDNS_7569175433317.
+INFO (XSTRM-223): 19. Translating stdVia TECH_XH018/VIA3_C/layout as STRUCTURE VIA3_C_CDNS_7569175433318.
+INFO (XSTRM-223): 20. Translating cellView PRIMLIB/rpp1k1_3/layout as STRUCTURE rpp1k1_3_CDNS_756917543330.
+INFO (XSTRM-223): 21. Translating cellView PRIMLIB/nel/layout as STRUCTURE nel_CDNS_756917543331.
+INFO (XSTRM-223): 22. Translating cellView PRIMLIB/nel/layout as STRUCTURE nel_CDNS_756917543332.
+INFO (XSTRM-223): 23. Translating cellView PRIMLIB/cmm5t/layout as STRUCTURE cmm5t_CDNS_756917543333.
+INFO (XSTRM-223): 24. Translating cellView PRIMLIB/pel/layout as STRUCTURE pel_CDNS_756917543334.
+INFO (XSTRM-223): 25. Translating cellView PRIMLIB/nel/layout as STRUCTURE nel_CDNS_756917543335.
+INFO (XSTRM-223): 26. Translating cellView PRIMLIB/pel/layout as STRUCTURE pel_CDNS_756917543336.
+INFO (XSTRM-223): 27. Translating cellView PRIMLIB/nel/layout as STRUCTURE nel_CDNS_756917543337.
+INFO (XSTRM-223): 28. Translating cellView PRIMLIB/nel/layout as STRUCTURE nel_CDNS_756917543338.
+INFO (XSTRM-223): 29. Translating cellView PRIMLIB/mosvc/layout as STRUCTURE mosvc_CDNS_756917543339.
+INFO (XSTRM-223): 30. Translating cellView PRIMLIB/mosvc/layout as STRUCTURE mosvc_CDNS_7569175433310.
+INFO (XSTRM-223): 31. Translating cellView DAY10/opamp1/layout as STRUCTURE opamp1.
+WARNING (XSTRM-154): The object map file does not contain any mapping for the OpenAccess object 'Marker' and the sub-object 'info'. Therefore, these objects in the design will not be translated. To enable the translation of these objects in the Stream file, provide a valid mapping in the object map file.
+
+Summary of Objects Translated:
+	Scalar Instances:                       121
+	Array Instances:                        0
+	Polygons:                               2
+	Paths:                                  93
+	Rectangles:                             4289
+	Lines:                                  0
+	Arcs:                                   0
+	Donuts:                                 0
+	Dots:                                   0
+	Ellipses:                               0
+	Boundaries:                             1
+	Area Blockages:                         0
+	Layer Blockages:                        0
+	Area Halos:                             0
+	Markers:                                0
+	Rows:                                   0
+	Standard Vias                           402
+	Custom Vias:                            0
+	CdsGen Vias:                            0
+	Pathsegs:                               539
+	Text:                                   12
+	TextDisplay:                            8
+	Cells:                                  31
+
+Elapsed Time: 0.2s   User Time: 0.1s   CPU Time: 0.1s   Peak VM: 17788KB
+INFO (XSTRM-234): Translation completed. '0' error(s) and '2' warning(s) found.

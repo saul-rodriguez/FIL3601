@@ -1,0 +1,17 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Fri Apr 25 16:16:01 2025 
+Best design point: 1
+Design specs: 
+	EX1:s2_bias_1:1	corner	Nominal - 
+	IM2		-73.52
+	IM3		-81.34
+Design parameters: 
+	IN_DC		0
+	IN		1
+
+Interactive.5
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.5 completed. 
+Current time: Fri Apr 25 16:16:06 2025 
