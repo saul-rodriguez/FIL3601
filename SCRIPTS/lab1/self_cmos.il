@@ -10,8 +10,8 @@ createNetlist
 resultsDir( "/home/saul/projects/FIL3601/Sim/SELF_CMOS/spectre/schematic" )
 
 
-load("SCRIPTS/day2/models.il")
-load("SCRIPTS/day2/global.il")
+load("SCRIPTS/lab1/models.il")
+load("SCRIPTS/lab1/global.il")
 
 analysis('dc ?saveOppoint t  )
 desVar(	  "IDSP" IDS4	)
@@ -35,7 +35,7 @@ temp( 27 )
 jobList = nil
 
 ; starting first job
-jobList = append1( jobList run( ?host "b35621b5a0f6" ) )
+jobList = append1( jobList run( ?host "680bb75d07d9" ) )
 
 ; wait for all the jobs to complete
 wait((append1 last(jobList) nil))

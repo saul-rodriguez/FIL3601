@@ -1,0 +1,18 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "SELF_CMOS"
+  repList "spectre cmos_sch cmos.sch schematic veriloga"
+  stopList "spectre"
+  globalList "gnd!"
+  hierDelim "."
+  netlistDir "/home/saul/projects/FIL3601/Sim/SELF_CMOS/spectre/schematic/netlist"
+ )
+( net
+( "gnd!" "0" )
+ )
+( model
+( "LAB1/SELF_CMOS/schematic" "SELF_CMOS" )
+ )
+( "SELF_CMOS" "ihnl/cds0/map" )
+ )

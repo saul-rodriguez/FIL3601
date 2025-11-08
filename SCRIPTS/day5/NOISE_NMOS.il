@@ -1,4 +1,8 @@
 simulator( 'spectre )
+/*ADDED ONLY FOR DOCKER STARTS HERE*/
+hostMode( 'distributed )
+/*ADDED ONLY FOR DOCKER ENDS HERE*/
+
 ;design(	 "/home/saul/projects/FIL3601/Sim/NOISE_NMOS/spectre/schematic/netlist/netlist")
 
 design("DAY5" "NOISE_NMOS" "schematic")
@@ -22,7 +26,18 @@ envOption(
 	'analysisOrder  list("noise") 
 )
 temp( 27 ) 
-run()
+
+/*ADDED ONLY FOR DOCKER STARTS HERE*/
+;run()
+jobList = nil
+
+; starting first job
+jobList = append1( jobList run( ?host "950e82c38b16" ) )
+
+; wait for all the jobs to complete
+wait((append1 last(jobList) nil))
+
+/*ADDED ONLY FOR DOCKER ENDS HERE*/
 
 input_noise = getData("in" ?result "noise")
 plot( input_noise ?expr '( "input noise; V / sqrt(Hz)" ) )

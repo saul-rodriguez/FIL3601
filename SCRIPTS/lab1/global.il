@@ -1,11 +1,11 @@
 /* Global definitions */
 
 ; ** NMOS1 **
-VDS1 = 0.5
+VDS1 = 0.9
 IDS1 = 10u
-L1 = 0.18u
+L1 = 1.0u
 WF1 = 8u
-NF1 = 4
+NF1 = 10
 
 ; ** NMOS2 **
 VDS2 = 0.6
@@ -13,7 +13,6 @@ IDS2 = 1u
 L2 = 0.18u
 WF2 = 1u
 NF2 = 10
-
 
 ; ** NMOS3 **
 VDS3 = 0.6
@@ -24,10 +23,10 @@ NF3 = 10
 
 ; ** PMOS1 **
 VDS4 = 0.6
-IDS4 = 15u
+IDS4 = 20u
 L4 = 0.25u
 WF4 = 10u
-NF4 = 20
+NF4 = 10
 
 ; ** PMOS2 **
 VDS5 = 0.5

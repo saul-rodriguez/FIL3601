@@ -1,0 +1,144 @@
+\# Program start time:     UTC 2025.10.31 10:15:58.245
+\# Local time: UTC (UTC+00:00) 2025.10.31 10:15:58.245
+\o Program:		@(#)$CDS: virtuoso version 6.1.8-64b 09/03/2024 19:11 (sjfhw316) $
+\o Hierarchy:		/opt/tools/cadence/installs/IC618/tools.lnx86/dfII/
+\o Sub version:		sub-version  IC6.1.8-64b.500.36  (64-bit addresses)
+\# Command line:	/opt/tools/cadence/installs/IC618/tools.lnx86/dfII/bin/64bit/virtuoso -noautostart -mpssession virtuosoEGuttopzqophIAVef71fuK_59052 -mpshost 44905@b35621b5a0f6 -davinciService DaVinciService_59254_1761898847 -log /home/saul/projects/FIL3601/logs_saul/logs2/Job14.log -licenseLockFileName /home/saul/projects/FIL3601/.tmp_saul/.b35621b5a0f6_59254 -interactiveA -interactiveE -interactiveRTT -nostdin -nographE -axlChildIdFlag 14
+\# Host name (type):	b35621b5a0f6 (x86_64)
+\# Operating system:	Linux 6.10.14-linuxkit #1 SMP PREEMPT_DYNAMIC Tue Oct 14 07:34:37 UTC 2025
+\# Linux /etc/issue:	\S
+\# Linux /etc/issue:	Kernel \r on an \m
+\# X display name (WxH):	:8263 (1024x868)
+\# Available geometry:			TL(0:0) BR(1023:867)
+\# X server:			The X.Org Foundation
+\# Depth of Visual (Root):	24 (24)
+\# Number of Planes Used:	24
+\# X version:		11.0 (vendor release 12011000)
+\# X resource pool:	base 0x400000, mask 0x1fffff (2097151), shift 0
+\# 			current id 0x0, current max 0x1ffffa (2097146)
+\# Max data seg size:	     unlimited
+\# Max process size:	     unlimited
+\# Initial sbrk value:	      1,577 MB
+\# Available memory:	     23,693 MB
+\# System memory:	     28,093 MB
+\# Maximum memory size:	     26,637 MB
+\# Max mem available:	     23,813 MB
+\# Initial memory used:	        120 MB
+\#        process size:	      1,677 MB
+\# Thread usage limits (effective/default):	maxthreads 4294967295/4294967295 maxload 16.00/16.00
+\# Qt version:		5.9.1
+\# Window Manager:	other
+\# User Name:		saul
+\o Working Directory:	b35621b5a0f6:/home/saul/projects/FIL3601
+\# Process Id:		70734
+\# Container Id:	EGuttopzqophIAVef71fuK
+\o 
+\o COPYRIGHT (C) 1992-2024  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
+\o           (C) 1992-2024  UNIX SYSTEMS Laboratories INC.,
+\o                          Reproduced with permission.
+\o 
+\o This Cadence Design Systems program and online documentation are
+\o proprietary/confidential information and may be disclosed/used only
+\o as authorized in a license agreement controlling such use and disclosure.
+\o 
+\o           RESTRICTED RIGHTS NOTICE (SHORT FORM)
+\o Use/reproduction/disclosure is subject to restriction
+\o set forth at FAR 1252.227-19 or its equivalent.
+\o Loading geView.cxt 
+\o Loading menuBuilder.cxt 
+\o Loading schView.cxt 
+\o Loading selectSv.cxt 
+\o Loading pvsui.cxt
+\o Loading wireEdit.cxt 
+\o Loading pte2.cxt 
+\o Loading xlUI.cxt 
+\o Loading auCore.cxt 
+\o Loading vhdl.cxt 
+\o Loading seismic.cxt 
+\o Loading ci.cxt 
+\o Loading ams.cxt 
+\o Loading oasis.cxt 
+\o Loading analog.cxt 
+\o Loading asimenv.cxt 
+\o Loading dal.cxt 
+\o Loading awv.cxt 
+\o Loading socket.cxt 
+\o Loading par.cxt 
+\o Loading alvs.cxt 
+\o Loading caa.cxt 
+\o Loading amps.cxt 
+\o Loading adexlCore.cxt 
+\o Loading adexl.cxt 
+\o *Info*    Exporting services from client ... 
+\o 
+\o Loading adexlDM.cxt 
+\o Loading cpf.cxt 
+\o Loading cli.cxt 
+\o Loading lp.cxt 
+\o INFO (ELI-00302) Connecting to parent process (session=virtuosoEGuttopzqophIAVef71fuK_59052, host=44905@b35621b5a0f6). Connection mode is ICRP. Total timeout is 180 seconds. Connection timeout is 90 seconds.
+\o INFO (ELI-00303) Step 1: Connecting to parent. Time spent is 0 seconds.
+\o INFO (ELI-00304) The registration of the child 70734 within 90 seconds is being processed...
+\o INFO (ELI-00305) The result of registration is true. Time spent is 0 seconds.
+\o INFO (ELI-00308) The connection has ended. Result is true. Total time spent is 0 seconds.
+\# [10:15:58.512417] Configured Lic search path (22.01-s002): 3000@lic08.ug.kth.se
+\# Memory report: using         273 MB, process size 1,960 MB at UTC 2025.10.31 10:16:01.476
+\o Loading .cdsinit for the XH018 X-Fab XKit.
+\o     LOAD xh018_1143 SPECIFIC CALL-BACK ROUTINES
+\o     LOAD ALL AVAILABLE P-CELL FUNCTIONS
+\o ** Info: PDK loadpath is "/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/PDK/IC61/v10_0_3"
+\o Loading XfSktTools.cxt
+\o Loading XfMenu.cxt
+\o Loading XfTechXh018.cxt
+\o Loading XfPcellCore.cxt
+\o function ansiSpicePrintProperties_subcircuit redefined
+\o Loading XfSkillExt.cxt
+\o Initializing library.
+\o Finished Initializing Library .
+\o     Generic PcellKit: 'production' loaded.
+\o     Generic Pcell Skill Tools: 'production' loaded.
+\o Loading Circuit Prospector Setup (XfCircuitProspSetup.il)
+\o     LOAD THE ENVIRONMENT FILE
+\o  --> Setting the required PDK definitions...
+\o     GDSII LAYER MAPPING FILE = "./.xkit/setup/xh018/cadence/PDK/TECH_XH018_1143/strmInOut.layertable"
+\o     GDSII OBJECT MAPPING FILE = "./.xkit/setup/xh018/cadence/PDK/TECH_XH018_1143/strmOutObjects.map"
+\o Use model setup from PDK...
+\o Loading spectrei.cxt 
+\o Loading devCheck.cxt 
+\o Loading relXpert.cxt 
+\o Loading vdsil.cxt 
+\o Loading hspiceD.cxt 
+\o Loading spectreinl.cxt 
+\o Loading UltraSim.cxt 
+\o Loading msgHandler.cxt 
+\o Loading AMSOSS.cxt 
+\o Loading AMS.cxt 
+\o  --> Finished setting the required PDK definitions
+\o  --> Setting the recommended EDA tool defaults...
+\o  --> Finished setting the recommended EDA tool defaults
+\o     LOAD DEFAULT BINDKEYS
+\o Loading viva.cxt 
+\o *Info*    Client has finished starting ... 
+\o 
+\p > 
+\w *WARNING* could not load font "-*-courier-medium-r-*-*-12-*", using font "fixed"
+\# Loading perfDiag...
+\# (PerfDiag): Set GDB path to environment variable 'gdbPath' (gdb).
+\# Performance Diagnostic tool is installed. You can access PerfDiag from CIW Tools or use the shell command 'cdsPerfDiag -p 70734' to open it when Virtuoso freezes.
+\# (PerfDiag): Use backtrace from GLIBC.
+\w *WARNING* _perfPstackCheck: Cannot find pstack/gstack. Please setup PATH environment variable to pstack/gstack executable.
+\o     LOAD GENERIC "X-KIT" SKILL CONTEXT "./.xkit/setup/x_all/cadence/xenv/skill/context6/xkit.cxt" 
+\o  - Menu "XKit Utilities" installed to CIW.
+\# Memory report: using         396 MB, process size 2,086 MB at UTC 2025.10.31 10:16:03.149
+\o     LOAD ".cdsinit_personal" FILE FROM THE WORKING DIRECTORY.
+\o     INFO: To customize this setup, please use the following environment variables:
+\o           CUSTOM_SCRIPT_PATH - should point to the master shell or perl script
+\o                              e.g.:
+\o                              setenv CUSTOM_SCRIPT_PATH /path/to/my/script/LoadMyScripts.csh
+\o           CUSTOM_SKILL_PATH - should point to your master skill load file
+\o                              e.g.:
+\o                              setenv CUSTOM_SKILL_PATH /path/to/my/skill/LoadMySkills.il
+\o  loading default key binding 
+\o  -> END LOAD ".cdsinit" FILE
+\# Available memory:         22,786 MB at UTC 2025.10.31 10:16:08.856
+\# Memory report: Maximum memory size now 23,182 MB at UTC 2025.10.31 10:16:08.856
+\# Thread usage report: 22 active threads, active load 1.40 at UTC 2025.10.31 10:16:08.856

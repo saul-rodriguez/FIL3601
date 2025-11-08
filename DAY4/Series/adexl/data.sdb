@@ -196,8 +196,8 @@
 				<dependentTests>
 					<dependentTest enabled="1">Af</dependentTest>
 					<dependentTest enabled="1">Asymptotic</dependentTest>
-					<dependentTest enabled="1">LoopGain</dependentTest>
 					<dependentTest enabled="1">rootlocus</dependentTest>
+					<dependentTest enabled="1">LoopGain</dependentTest>
 				</dependentTests>
 			</var>
 			<var>cds1
@@ -205,8 +205,8 @@
 				<dependentTests>
 					<dependentTest enabled="1">Af</dependentTest>
 					<dependentTest enabled="1">Asymptotic</dependentTest>
-					<dependentTest enabled="1">LoopGain</dependentTest>
 					<dependentTest enabled="1">rootlocus</dependentTest>
+					<dependentTest enabled="1">LoopGain</dependentTest>
 				</dependentTests>
 			</var>
 			<var>cgb1
@@ -214,8 +214,8 @@
 				<dependentTests>
 					<dependentTest enabled="1">Af</dependentTest>
 					<dependentTest enabled="1">Asymptotic</dependentTest>
-					<dependentTest enabled="1">LoopGain</dependentTest>
 					<dependentTest enabled="1">rootlocus</dependentTest>
+					<dependentTest enabled="1">LoopGain</dependentTest>
 				</dependentTests>
 			</var>
 			<var>cgd1
@@ -223,8 +223,8 @@
 				<dependentTests>
 					<dependentTest enabled="1">Af</dependentTest>
 					<dependentTest enabled="1">Asymptotic</dependentTest>
-					<dependentTest enabled="1">LoopGain</dependentTest>
 					<dependentTest enabled="1">rootlocus</dependentTest>
+					<dependentTest enabled="1">LoopGain</dependentTest>
 				</dependentTests>
 			</var>
 			<var>cgs1
@@ -232,8 +232,8 @@
 				<dependentTests>
 					<dependentTest enabled="1">Af</dependentTest>
 					<dependentTest enabled="1">Asymptotic</dependentTest>
-					<dependentTest enabled="1">LoopGain</dependentTest>
 					<dependentTest enabled="1">rootlocus</dependentTest>
+					<dependentTest enabled="1">LoopGain</dependentTest>
 				</dependentTests>
 			</var>
 			<var enabled="0">gm1
@@ -241,8 +241,8 @@
 				<dependentTests>
 					<dependentTest enabled="0">Af</dependentTest>
 					<dependentTest enabled="1">Asymptotic</dependentTest>
-					<dependentTest enabled="0">LoopGain</dependentTest>
 					<dependentTest enabled="0">rootlocus</dependentTest>
+					<dependentTest enabled="0">LoopGain</dependentTest>
 				</dependentTests>
 			</var>
 			<var>rds1
@@ -250,8 +250,8 @@
 				<dependentTests>
 					<dependentTest enabled="1">Af</dependentTest>
 					<dependentTest enabled="1">Asymptotic</dependentTest>
-					<dependentTest enabled="1">LoopGain</dependentTest>
 					<dependentTest enabled="1">rootlocus</dependentTest>
+					<dependentTest enabled="1">LoopGain</dependentTest>
 				</dependentTests>
 			</var>
 			<var enabled="0">VIN
@@ -259,8 +259,8 @@
 				<dependentTests>
 					<dependentTest enabled="1">Af</dependentTest>
 					<dependentTest enabled="1">Asymptotic</dependentTest>
-					<dependentTest enabled="0">LoopGain</dependentTest>
 					<dependentTest enabled="1">rootlocus</dependentTest>
+					<dependentTest enabled="0">LoopGain</dependentTest>
 				</dependentTests>
 			</var>
 			<var enabled="0">IT
@@ -268,15 +268,15 @@
 				<dependentTests>
 					<dependentTest enabled="0" omitted="0">Af</dependentTest>
 					<dependentTest omitted="0">Asymptotic</dependentTest>
-					<dependentTest enabled="0">LoopGain</dependentTest>
 					<dependentTest enabled="0">rootlocus</dependentTest>
+					<dependentTest enabled="0">LoopGain</dependentTest>
 				</dependentTests>
 			</var>
 			<var>gm
 				<value>0.227m</value>
 				<dependentTests>
-					<dependentTest omitted="0">LoopGain</dependentTest>
 					<dependentTest enabled="1">rootlocus</dependentTest>
+					<dependentTest enabled="1">LoopGain</dependentTest>
 				</dependentTests>
 			</var>
 		</vars>
@@ -308,10 +308,14 @@
 			</plottingoption>
 		</plottingoptions>
 		<jobpolicyname>ADE XL Default</jobpolicyname>
-		<disabledtests></disabledtests>
+		<disabledtests>
+			<test>Af</test>
+			<test>Asymptotic</test>
+			<test>rootlocus</test>
+		</disabledtests>
 	</active>
 	<history>History
-		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.18
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.28
 			<checkpoint>
 				<corners>
 					<corner enabled="1">_default</corner>
@@ -345,7 +349,7 @@
 								<value>$AXL_SETUPDB_DIR/test_states</value>
 							</option>
 							<option>state
-								<value>Af_none_Interactive.18</value>
+								<value>Af_none_Interactive.28</value>
 							</option>
 						</tooloptions>
 						<origoptions>
@@ -379,7 +383,7 @@
 								<value>spectre</value>
 							</option>
 							<option>state
-								<value>Asymptotic_Af:1_state_Interactive.18</value>
+								<value>Asymptotic_Af:1_state_Interactive.28</value>
 							</option>
 							<option>view
 								<value>schematic</value>
@@ -424,7 +428,7 @@
 								<value>spectre</value>
 							</option>
 							<option>state
-								<value>LoopGain_Af:1_state_Interactive.18</value>
+								<value>LoopGain_Af:1_state_Interactive.28</value>
 							</option>
 							<option>view
 								<value>schematic</value>
@@ -473,7 +477,338 @@
 								<value>spectre</value>
 							</option>
 							<option>state
-								<value>rootlocus_Af:1_state_Interactive.18</value>
+								<value>rootlocus_Af:1_state_Interactive.28</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</tooloptions>
+						<prerunscript>0</prerunscript>
+						<origoptions>
+							<option>cell
+								<value>Series</value>
+							</option>
+							<option>lib
+								<value>DAY4</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>Af:1_state</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var>cdb1
+						<value>160f</value>
+						<dependentTests>
+							<dependentTest enabled="1">Af</dependentTest>
+							<dependentTest enabled="1">Asymptotic</dependentTest>
+							<dependentTest enabled="1">LoopGain</dependentTest>
+							<dependentTest enabled="1">rootlocus</dependentTest>
+						</dependentTests>
+					</var>
+					<var>cds1
+						<value>46.01f</value>
+						<dependentTests>
+							<dependentTest enabled="1">Af</dependentTest>
+							<dependentTest enabled="1">Asymptotic</dependentTest>
+							<dependentTest enabled="1">LoopGain</dependentTest>
+							<dependentTest enabled="1">rootlocus</dependentTest>
+						</dependentTests>
+					</var>
+					<var>cgb1
+						<value>160.37f</value>
+						<dependentTests>
+							<dependentTest enabled="1">Af</dependentTest>
+							<dependentTest enabled="1">Asymptotic</dependentTest>
+							<dependentTest enabled="1">LoopGain</dependentTest>
+							<dependentTest enabled="1">rootlocus</dependentTest>
+						</dependentTests>
+					</var>
+					<var>cgd1
+						<value>26.40f</value>
+						<dependentTests>
+							<dependentTest enabled="1">Af</dependentTest>
+							<dependentTest enabled="1">Asymptotic</dependentTest>
+							<dependentTest enabled="1">LoopGain</dependentTest>
+							<dependentTest enabled="1">rootlocus</dependentTest>
+						</dependentTests>
+					</var>
+					<var>cgs1
+						<value>112.78f</value>
+						<dependentTests>
+							<dependentTest enabled="1">Af</dependentTest>
+							<dependentTest enabled="1">Asymptotic</dependentTest>
+							<dependentTest enabled="1">LoopGain</dependentTest>
+							<dependentTest enabled="1">rootlocus</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">gm1
+						<value>0.227m</value>
+						<dependentTests>
+							<dependentTest enabled="0">Af</dependentTest>
+							<dependentTest enabled="1">Asymptotic</dependentTest>
+							<dependentTest enabled="0">LoopGain</dependentTest>
+							<dependentTest enabled="0">rootlocus</dependentTest>
+						</dependentTests>
+					</var>
+					<var>rds1
+						<value>23893065.17</value>
+						<dependentTests>
+							<dependentTest enabled="1">Af</dependentTest>
+							<dependentTest enabled="1">Asymptotic</dependentTest>
+							<dependentTest enabled="1">LoopGain</dependentTest>
+							<dependentTest enabled="1">rootlocus</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">VIN
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="1">Af</dependentTest>
+							<dependentTest enabled="1">Asymptotic</dependentTest>
+							<dependentTest enabled="0">LoopGain</dependentTest>
+							<dependentTest enabled="1">rootlocus</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">IT
+						<value>1</value>
+						<dependentTests>
+							<dependentTest enabled="0" omitted="0">Af</dependentTest>
+							<dependentTest omitted="0">Asymptotic</dependentTest>
+							<dependentTest enabled="0">LoopGain</dependentTest>
+							<dependentTest enabled="0">rootlocus</dependentTest>
+						</dependentTests>
+					</var>
+					<var>gm
+						<value>0.227m</value>
+						<dependentTests>
+							<dependentTest omitted="0">LoopGain</dependentTest>
+							<dependentTest enabled="1">rootlocus</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottingmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>distributedplot_enabled
+						<value>no</value>
+					</plottingoption>
+				</plottingoptions>
+				<jobpolicyname>ADE XL Default</jobpolicyname>
+				<disabledtests></disabledtests>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Oct 31 08:26:43 2025</timestamp>
+			<uuid>{5dfa7b3c-736d-42ce-a183-9d27ba05ff02}</uuid>
+			<resultsname>/home/saul/projects/FIL3601/DAY4/Series/adexl/results/data/Interactive.28.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.28.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/b35621b5a0f6_saul_082643175</localpsfdir>
+			<psfdir>/home/saul/projects/FIL3601/Sim/DAY4/Series/adexl/results/data/Interactive.28</psfdir>
+			<simdir>$AXL_PROJECT_DIR/DAY4/Series/adexl/results/data/Interactive.28</simdir>
+			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
+			<runlog>/home/saul/projects/FIL3601/DAY4/Series/adexl/results/data/Interactive.28.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.28.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.29
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test enabled="1">Af
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>Series</value>
+							</option>
+							<option>lib
+								<value>DAY4</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>Af_none_Interactive.29</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>Series</value>
+							</option>
+							<option>lib
+								<value>DAY4</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+					<test enabled="1">Asymptotic
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>Series</value>
+							</option>
+							<option>lib
+								<value>DAY4</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>Asymptotic_Af:1_state_Interactive.29</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</tooloptions>
+						<prerunscript>0</prerunscript>
+						<origoptions>
+							<option>cell
+								<value>Series</value>
+							</option>
+							<option>lib
+								<value>DAY4</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>Af:1_state</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+						<outputs></outputs>
+					</test>
+					<test enabled="1">LoopGain
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>Series</value>
+							</option>
+							<option>lib
+								<value>DAY4</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>LoopGain_Af:1_state_Interactive.29</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</tooloptions>
+						<prerunscript>0</prerunscript>
+						<origoptions>
+							<option>cell
+								<value>Series</value>
+							</option>
+							<option>lib
+								<value>DAY4</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>Af:1_state</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+						<outputs>
+							<output>AB
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+					</test>
+					<test enabled="1">rootlocus
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>Series</value>
+							</option>
+							<option>lib
+								<value>DAY4</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>rootlocus_Af:1_state_Interactive.29</value>
 							</option>
 							<option>view
 								<value>schematic</value>
@@ -621,32 +956,2376 @@
 				</plottingoptions>
 				<jobpolicyname>ADE XL Default</jobpolicyname>
 				<disabledtests>
+					<test>Asymptotic</test>
+					<test>LoopGain</test>
+					<test>rootlocus</test>
+				</disabledtests>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Oct 31 08:36:02 2025</timestamp>
+			<uuid>{86f7d1fc-a94a-462b-b154-942527b421f3}</uuid>
+			<resultsname>/home/saul/projects/FIL3601/DAY4/Series/adexl/results/data/Interactive.29.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.29.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/b35621b5a0f6_saul_083602882</localpsfdir>
+			<psfdir>/home/saul/projects/FIL3601/Sim/DAY4/Series/adexl/results/data/Interactive.29</psfdir>
+			<simdir>$AXL_PROJECT_DIR/DAY4/Series/adexl/results/data/Interactive.29</simdir>
+			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
+			<runlog>/home/saul/projects/FIL3601/DAY4/Series/adexl/results/data/Interactive.29.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.29.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.30
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test enabled="1">Af
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>Series</value>
+							</option>
+							<option>lib
+								<value>DAY4</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>Af_none_Interactive.30</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>Series</value>
+							</option>
+							<option>lib
+								<value>DAY4</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+					<test enabled="1">Asymptotic
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>Series</value>
+							</option>
+							<option>lib
+								<value>DAY4</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>Asymptotic_Af:1_state_Interactive.30</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</tooloptions>
+						<prerunscript>0</prerunscript>
+						<origoptions>
+							<option>cell
+								<value>Series</value>
+							</option>
+							<option>lib
+								<value>DAY4</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>Af:1_state</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+						<outputs></outputs>
+					</test>
+					<test enabled="1">LoopGain
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>Series</value>
+							</option>
+							<option>lib
+								<value>DAY4</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>LoopGain_Af:1_state_Interactive.30</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</tooloptions>
+						<prerunscript>0</prerunscript>
+						<origoptions>
+							<option>cell
+								<value>Series</value>
+							</option>
+							<option>lib
+								<value>DAY4</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>Af:1_state</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+						<outputs>
+							<output>AB
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+					</test>
+					<test enabled="1">rootlocus
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>Series</value>
+							</option>
+							<option>lib
+								<value>DAY4</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>rootlocus_Af:1_state_Interactive.30</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</tooloptions>
+						<prerunscript>0</prerunscript>
+						<origoptions>
+							<option>cell
+								<value>Series</value>
+							</option>
+							<option>lib
+								<value>DAY4</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>Af:1_state</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var>cdb1
+						<value>160f</value>
+						<dependentTests>
+							<dependentTest enabled="1">Af</dependentTest>
+							<dependentTest enabled="1">Asymptotic</dependentTest>
+							<dependentTest enabled="1">LoopGain</dependentTest>
+							<dependentTest enabled="1">rootlocus</dependentTest>
+						</dependentTests>
+					</var>
+					<var>cds1
+						<value>46.01f</value>
+						<dependentTests>
+							<dependentTest enabled="1">Af</dependentTest>
+							<dependentTest enabled="1">Asymptotic</dependentTest>
+							<dependentTest enabled="1">LoopGain</dependentTest>
+							<dependentTest enabled="1">rootlocus</dependentTest>
+						</dependentTests>
+					</var>
+					<var>cgb1
+						<value>160.37f</value>
+						<dependentTests>
+							<dependentTest enabled="1">Af</dependentTest>
+							<dependentTest enabled="1">Asymptotic</dependentTest>
+							<dependentTest enabled="1">LoopGain</dependentTest>
+							<dependentTest enabled="1">rootlocus</dependentTest>
+						</dependentTests>
+					</var>
+					<var>cgd1
+						<value>26.40f</value>
+						<dependentTests>
+							<dependentTest enabled="1">Af</dependentTest>
+							<dependentTest enabled="1">Asymptotic</dependentTest>
+							<dependentTest enabled="1">LoopGain</dependentTest>
+							<dependentTest enabled="1">rootlocus</dependentTest>
+						</dependentTests>
+					</var>
+					<var>cgs1
+						<value>112.78f</value>
+						<dependentTests>
+							<dependentTest enabled="1">Af</dependentTest>
+							<dependentTest enabled="1">Asymptotic</dependentTest>
+							<dependentTest enabled="1">LoopGain</dependentTest>
+							<dependentTest enabled="1">rootlocus</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">gm1
+						<value>0.227m</value>
+						<dependentTests>
+							<dependentTest enabled="0">Af</dependentTest>
+							<dependentTest enabled="1">Asymptotic</dependentTest>
+							<dependentTest enabled="0">LoopGain</dependentTest>
+							<dependentTest enabled="0">rootlocus</dependentTest>
+						</dependentTests>
+					</var>
+					<var>rds1
+						<value>23893065.17</value>
+						<dependentTests>
+							<dependentTest enabled="1">Af</dependentTest>
+							<dependentTest enabled="1">Asymptotic</dependentTest>
+							<dependentTest enabled="1">LoopGain</dependentTest>
+							<dependentTest enabled="1">rootlocus</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">VIN
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="1">Af</dependentTest>
+							<dependentTest enabled="1">Asymptotic</dependentTest>
+							<dependentTest enabled="0">LoopGain</dependentTest>
+							<dependentTest enabled="1">rootlocus</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">IT
+						<value>1</value>
+						<dependentTests>
+							<dependentTest enabled="0" omitted="0">Af</dependentTest>
+							<dependentTest omitted="0">Asymptotic</dependentTest>
+							<dependentTest enabled="0">LoopGain</dependentTest>
+							<dependentTest enabled="0">rootlocus</dependentTest>
+						</dependentTests>
+					</var>
+					<var>gm
+						<value>0.227m</value>
+						<dependentTests>
+							<dependentTest omitted="0">LoopGain</dependentTest>
+							<dependentTest enabled="1">rootlocus</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottingmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>distributedplot_enabled
+						<value>no</value>
+					</plottingoption>
+				</plottingoptions>
+				<jobpolicyname>ADE XL Default</jobpolicyname>
+				<disabledtests></disabledtests>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Oct 31 08:36:18 2025</timestamp>
+			<uuid>{07acb4b5-ad06-4bef-944c-aabd9f76e2fc}</uuid>
+			<resultsname>/home/saul/projects/FIL3601/DAY4/Series/adexl/results/data/Interactive.30.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.30.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/b35621b5a0f6_saul_083618137</localpsfdir>
+			<psfdir>/home/saul/projects/FIL3601/Sim/DAY4/Series/adexl/results/data/Interactive.30</psfdir>
+			<simdir>$AXL_PROJECT_DIR/DAY4/Series/adexl/results/data/Interactive.30</simdir>
+			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
+			<runlog>/home/saul/projects/FIL3601/DAY4/Series/adexl/results/data/Interactive.30.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.30.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.31
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test enabled="1">Af
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>Series</value>
+							</option>
+							<option>lib
+								<value>DAY4</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>Af_none_Interactive.31</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>Series</value>
+							</option>
+							<option>lib
+								<value>DAY4</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+					<test enabled="1">Asymptotic
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>Series</value>
+							</option>
+							<option>lib
+								<value>DAY4</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>Asymptotic_Af:1_state_Interactive.31</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</tooloptions>
+						<prerunscript>0</prerunscript>
+						<origoptions>
+							<option>cell
+								<value>Series</value>
+							</option>
+							<option>lib
+								<value>DAY4</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>Af:1_state</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+						<outputs></outputs>
+					</test>
+					<test enabled="1">LoopGain
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>Series</value>
+							</option>
+							<option>lib
+								<value>DAY4</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>LoopGain_Af:1_state_Interactive.31</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</tooloptions>
+						<prerunscript>0</prerunscript>
+						<origoptions>
+							<option>cell
+								<value>Series</value>
+							</option>
+							<option>lib
+								<value>DAY4</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>Af:1_state</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+						<outputs>
+							<output>AB
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+					</test>
+					<test enabled="1">rootlocus
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>Series</value>
+							</option>
+							<option>lib
+								<value>DAY4</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>rootlocus_Af:1_state_Interactive.31</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</tooloptions>
+						<prerunscript>0</prerunscript>
+						<origoptions>
+							<option>cell
+								<value>Series</value>
+							</option>
+							<option>lib
+								<value>DAY4</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>Af:1_state</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var>cdb1
+						<value>160f</value>
+						<dependentTests>
+							<dependentTest enabled="1">Af</dependentTest>
+							<dependentTest enabled="1">Asymptotic</dependentTest>
+							<dependentTest enabled="1">LoopGain</dependentTest>
+							<dependentTest enabled="1">rootlocus</dependentTest>
+						</dependentTests>
+					</var>
+					<var>cds1
+						<value>46.01f</value>
+						<dependentTests>
+							<dependentTest enabled="1">Af</dependentTest>
+							<dependentTest enabled="1">Asymptotic</dependentTest>
+							<dependentTest enabled="1">LoopGain</dependentTest>
+							<dependentTest enabled="1">rootlocus</dependentTest>
+						</dependentTests>
+					</var>
+					<var>cgb1
+						<value>160.37f</value>
+						<dependentTests>
+							<dependentTest enabled="1">Af</dependentTest>
+							<dependentTest enabled="1">Asymptotic</dependentTest>
+							<dependentTest enabled="1">LoopGain</dependentTest>
+							<dependentTest enabled="1">rootlocus</dependentTest>
+						</dependentTests>
+					</var>
+					<var>cgd1
+						<value>26.40f</value>
+						<dependentTests>
+							<dependentTest enabled="1">Af</dependentTest>
+							<dependentTest enabled="1">Asymptotic</dependentTest>
+							<dependentTest enabled="1">LoopGain</dependentTest>
+							<dependentTest enabled="1">rootlocus</dependentTest>
+						</dependentTests>
+					</var>
+					<var>cgs1
+						<value>112.78f</value>
+						<dependentTests>
+							<dependentTest enabled="1">Af</dependentTest>
+							<dependentTest enabled="1">Asymptotic</dependentTest>
+							<dependentTest enabled="1">LoopGain</dependentTest>
+							<dependentTest enabled="1">rootlocus</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">gm1
+						<value>0.227m</value>
+						<dependentTests>
+							<dependentTest enabled="0">Af</dependentTest>
+							<dependentTest enabled="1">Asymptotic</dependentTest>
+							<dependentTest enabled="0">LoopGain</dependentTest>
+							<dependentTest enabled="0">rootlocus</dependentTest>
+						</dependentTests>
+					</var>
+					<var>rds1
+						<value>23893065.17</value>
+						<dependentTests>
+							<dependentTest enabled="1">Af</dependentTest>
+							<dependentTest enabled="1">Asymptotic</dependentTest>
+							<dependentTest enabled="1">LoopGain</dependentTest>
+							<dependentTest enabled="1">rootlocus</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">VIN
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="1">Af</dependentTest>
+							<dependentTest enabled="1">Asymptotic</dependentTest>
+							<dependentTest enabled="0">LoopGain</dependentTest>
+							<dependentTest enabled="1">rootlocus</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">IT
+						<value>1</value>
+						<dependentTests>
+							<dependentTest enabled="0" omitted="0">Af</dependentTest>
+							<dependentTest omitted="0">Asymptotic</dependentTest>
+							<dependentTest enabled="0">LoopGain</dependentTest>
+							<dependentTest enabled="0">rootlocus</dependentTest>
+						</dependentTests>
+					</var>
+					<var>gm
+						<value>0.227m</value>
+						<dependentTests>
+							<dependentTest omitted="0">LoopGain</dependentTest>
+							<dependentTest enabled="1">rootlocus</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottingmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>distributedplot_enabled
+						<value>no</value>
+					</plottingoption>
+				</plottingoptions>
+				<jobpolicyname>ADE XL Default</jobpolicyname>
+				<disabledtests>
+					<test>Asymptotic</test>
+					<test>LoopGain</test>
+					<test>rootlocus</test>
+				</disabledtests>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Oct 31 10:17:09 2025</timestamp>
+			<uuid>{cbaa2152-e246-4b95-b34b-b5d37e9c8a86}</uuid>
+			<resultsname>/home/saul/projects/FIL3601/DAY4/Series/adexl/results/data/Interactive.31.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.31.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/b35621b5a0f6_saul_101709312</localpsfdir>
+			<psfdir>/home/saul/projects/FIL3601/Sim/DAY4/Series/adexl/results/data/Interactive.31</psfdir>
+			<simdir>$AXL_PROJECT_DIR/DAY4/Series/adexl/results/data/Interactive.31</simdir>
+			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
+			<runlog>/home/saul/projects/FIL3601/DAY4/Series/adexl/results/data/Interactive.31.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.31.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.32
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test enabled="1">Af
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>Series</value>
+							</option>
+							<option>lib
+								<value>DAY4</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>Af_none_Interactive.32</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>Series</value>
+							</option>
+							<option>lib
+								<value>DAY4</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+					<test enabled="1">Asymptotic
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>Series</value>
+							</option>
+							<option>lib
+								<value>DAY4</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>Asymptotic_Af:1_state_Interactive.32</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</tooloptions>
+						<prerunscript>0</prerunscript>
+						<origoptions>
+							<option>cell
+								<value>Series</value>
+							</option>
+							<option>lib
+								<value>DAY4</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>Af:1_state</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+						<outputs></outputs>
+					</test>
+					<test enabled="1">LoopGain
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>Series</value>
+							</option>
+							<option>lib
+								<value>DAY4</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>LoopGain_Af:1_state_Interactive.32</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</tooloptions>
+						<prerunscript>0</prerunscript>
+						<origoptions>
+							<option>cell
+								<value>Series</value>
+							</option>
+							<option>lib
+								<value>DAY4</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>Af:1_state</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+						<outputs>
+							<output>AB
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+					</test>
+					<test enabled="1">rootlocus
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>Series</value>
+							</option>
+							<option>lib
+								<value>DAY4</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>rootlocus_Af:1_state_Interactive.32</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</tooloptions>
+						<prerunscript>0</prerunscript>
+						<origoptions>
+							<option>cell
+								<value>Series</value>
+							</option>
+							<option>lib
+								<value>DAY4</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>Af:1_state</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var>cdb1
+						<value>160f</value>
+						<dependentTests>
+							<dependentTest enabled="1">Af</dependentTest>
+							<dependentTest enabled="1">Asymptotic</dependentTest>
+							<dependentTest enabled="1">LoopGain</dependentTest>
+							<dependentTest enabled="1">rootlocus</dependentTest>
+						</dependentTests>
+					</var>
+					<var>cds1
+						<value>46.01f</value>
+						<dependentTests>
+							<dependentTest enabled="1">Af</dependentTest>
+							<dependentTest enabled="1">Asymptotic</dependentTest>
+							<dependentTest enabled="1">LoopGain</dependentTest>
+							<dependentTest enabled="1">rootlocus</dependentTest>
+						</dependentTests>
+					</var>
+					<var>cgb1
+						<value>160.37f</value>
+						<dependentTests>
+							<dependentTest enabled="1">Af</dependentTest>
+							<dependentTest enabled="1">Asymptotic</dependentTest>
+							<dependentTest enabled="1">LoopGain</dependentTest>
+							<dependentTest enabled="1">rootlocus</dependentTest>
+						</dependentTests>
+					</var>
+					<var>cgd1
+						<value>26.40f</value>
+						<dependentTests>
+							<dependentTest enabled="1">Af</dependentTest>
+							<dependentTest enabled="1">Asymptotic</dependentTest>
+							<dependentTest enabled="1">LoopGain</dependentTest>
+							<dependentTest enabled="1">rootlocus</dependentTest>
+						</dependentTests>
+					</var>
+					<var>cgs1
+						<value>112.78f</value>
+						<dependentTests>
+							<dependentTest enabled="1">Af</dependentTest>
+							<dependentTest enabled="1">Asymptotic</dependentTest>
+							<dependentTest enabled="1">LoopGain</dependentTest>
+							<dependentTest enabled="1">rootlocus</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">gm1
+						<value>0.227m</value>
+						<dependentTests>
+							<dependentTest enabled="0">Af</dependentTest>
+							<dependentTest enabled="1">Asymptotic</dependentTest>
+							<dependentTest enabled="0">LoopGain</dependentTest>
+							<dependentTest enabled="0">rootlocus</dependentTest>
+						</dependentTests>
+					</var>
+					<var>rds1
+						<value>23893065.17</value>
+						<dependentTests>
+							<dependentTest enabled="1">Af</dependentTest>
+							<dependentTest enabled="1">Asymptotic</dependentTest>
+							<dependentTest enabled="1">LoopGain</dependentTest>
+							<dependentTest enabled="1">rootlocus</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">VIN
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="1">Af</dependentTest>
+							<dependentTest enabled="1">Asymptotic</dependentTest>
+							<dependentTest enabled="0">LoopGain</dependentTest>
+							<dependentTest enabled="1">rootlocus</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">IT
+						<value>1</value>
+						<dependentTests>
+							<dependentTest enabled="0" omitted="0">Af</dependentTest>
+							<dependentTest omitted="0">Asymptotic</dependentTest>
+							<dependentTest enabled="0">LoopGain</dependentTest>
+							<dependentTest enabled="0">rootlocus</dependentTest>
+						</dependentTests>
+					</var>
+					<var>gm
+						<value>0.227m</value>
+						<dependentTests>
+							<dependentTest omitted="0">LoopGain</dependentTest>
+							<dependentTest enabled="1">rootlocus</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottingmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>distributedplot_enabled
+						<value>no</value>
+					</plottingoption>
+				</plottingoptions>
+				<jobpolicyname>ADE XL Default</jobpolicyname>
+				<disabledtests>
+					<test>LoopGain</test>
+					<test>rootlocus</test>
+					<test>Af</test>
+				</disabledtests>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Oct 31 10:20:44 2025</timestamp>
+			<uuid>{2ae03370-1ad7-41d4-915e-89a35d2069de}</uuid>
+			<resultsname>/home/saul/projects/FIL3601/DAY4/Series/adexl/results/data/Interactive.32.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.32.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/b35621b5a0f6_saul_102044789</localpsfdir>
+			<psfdir>/home/saul/projects/FIL3601/Sim/DAY4/Series/adexl/results/data/Interactive.32</psfdir>
+			<simdir>$AXL_PROJECT_DIR/DAY4/Series/adexl/results/data/Interactive.32</simdir>
+			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
+			<runlog>/home/saul/projects/FIL3601/DAY4/Series/adexl/results/data/Interactive.32.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.32.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.33
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test enabled="1">Af
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>Series</value>
+							</option>
+							<option>lib
+								<value>DAY4</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>Af_none_Interactive.33</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>Series</value>
+							</option>
+							<option>lib
+								<value>DAY4</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+					<test enabled="1">Asymptotic
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>Series</value>
+							</option>
+							<option>lib
+								<value>DAY4</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>Asymptotic_Af:1_state_Interactive.33</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</tooloptions>
+						<prerunscript>0</prerunscript>
+						<origoptions>
+							<option>cell
+								<value>Series</value>
+							</option>
+							<option>lib
+								<value>DAY4</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>Af:1_state</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+						<outputs></outputs>
+					</test>
+					<test enabled="1">LoopGain
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>Series</value>
+							</option>
+							<option>lib
+								<value>DAY4</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>LoopGain_Af:1_state_Interactive.33</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</tooloptions>
+						<prerunscript>0</prerunscript>
+						<origoptions>
+							<option>cell
+								<value>Series</value>
+							</option>
+							<option>lib
+								<value>DAY4</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>Af:1_state</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+						<outputs>
+							<output>AB
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+					</test>
+					<test enabled="1">rootlocus
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>Series</value>
+							</option>
+							<option>lib
+								<value>DAY4</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>rootlocus_Af:1_state_Interactive.33</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</tooloptions>
+						<prerunscript>0</prerunscript>
+						<origoptions>
+							<option>cell
+								<value>Series</value>
+							</option>
+							<option>lib
+								<value>DAY4</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>Af:1_state</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var>cdb1
+						<value>160f</value>
+						<dependentTests>
+							<dependentTest enabled="1">Af</dependentTest>
+							<dependentTest enabled="1">Asymptotic</dependentTest>
+							<dependentTest enabled="1">LoopGain</dependentTest>
+							<dependentTest enabled="1">rootlocus</dependentTest>
+						</dependentTests>
+					</var>
+					<var>cds1
+						<value>46.01f</value>
+						<dependentTests>
+							<dependentTest enabled="1">Af</dependentTest>
+							<dependentTest enabled="1">Asymptotic</dependentTest>
+							<dependentTest enabled="1">LoopGain</dependentTest>
+							<dependentTest enabled="1">rootlocus</dependentTest>
+						</dependentTests>
+					</var>
+					<var>cgb1
+						<value>160.37f</value>
+						<dependentTests>
+							<dependentTest enabled="1">Af</dependentTest>
+							<dependentTest enabled="1">Asymptotic</dependentTest>
+							<dependentTest enabled="1">LoopGain</dependentTest>
+							<dependentTest enabled="1">rootlocus</dependentTest>
+						</dependentTests>
+					</var>
+					<var>cgd1
+						<value>26.40f</value>
+						<dependentTests>
+							<dependentTest enabled="1">Af</dependentTest>
+							<dependentTest enabled="1">Asymptotic</dependentTest>
+							<dependentTest enabled="1">LoopGain</dependentTest>
+							<dependentTest enabled="1">rootlocus</dependentTest>
+						</dependentTests>
+					</var>
+					<var>cgs1
+						<value>112.78f</value>
+						<dependentTests>
+							<dependentTest enabled="1">Af</dependentTest>
+							<dependentTest enabled="1">Asymptotic</dependentTest>
+							<dependentTest enabled="1">LoopGain</dependentTest>
+							<dependentTest enabled="1">rootlocus</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">gm1
+						<value>0.227m</value>
+						<dependentTests>
+							<dependentTest enabled="0">Af</dependentTest>
+							<dependentTest enabled="1">Asymptotic</dependentTest>
+							<dependentTest enabled="0">LoopGain</dependentTest>
+							<dependentTest enabled="0">rootlocus</dependentTest>
+						</dependentTests>
+					</var>
+					<var>rds1
+						<value>23893065.17</value>
+						<dependentTests>
+							<dependentTest enabled="1">Af</dependentTest>
+							<dependentTest enabled="1">Asymptotic</dependentTest>
+							<dependentTest enabled="1">LoopGain</dependentTest>
+							<dependentTest enabled="1">rootlocus</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">VIN
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="1">Af</dependentTest>
+							<dependentTest enabled="1">Asymptotic</dependentTest>
+							<dependentTest enabled="0">LoopGain</dependentTest>
+							<dependentTest enabled="1">rootlocus</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">IT
+						<value>1</value>
+						<dependentTests>
+							<dependentTest enabled="0" omitted="0">Af</dependentTest>
+							<dependentTest omitted="0">Asymptotic</dependentTest>
+							<dependentTest enabled="0">LoopGain</dependentTest>
+							<dependentTest enabled="0">rootlocus</dependentTest>
+						</dependentTests>
+					</var>
+					<var>gm
+						<value>0.227m</value>
+						<dependentTests>
+							<dependentTest omitted="0">LoopGain</dependentTest>
+							<dependentTest enabled="1">rootlocus</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottingmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>distributedplot_enabled
+						<value>no</value>
+					</plottingoption>
+				</plottingoptions>
+				<jobpolicyname>ADE XL Default</jobpolicyname>
+				<disabledtests>
+					<test>rootlocus</test>
+					<test>Af</test>
+					<test>Asymptotic</test>
+				</disabledtests>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Oct 31 10:23:54 2025</timestamp>
+			<uuid>{3181d383-4067-45a5-a941-dd6969fe47b7}</uuid>
+			<resultsname>/home/saul/projects/FIL3601/DAY4/Series/adexl/results/data/Interactive.33.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.33.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/b35621b5a0f6_saul_102354633</localpsfdir>
+			<psfdir>/home/saul/projects/FIL3601/Sim/DAY4/Series/adexl/results/data/Interactive.33</psfdir>
+			<simdir>$AXL_PROJECT_DIR/DAY4/Series/adexl/results/data/Interactive.33</simdir>
+			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
+			<runlog>/home/saul/projects/FIL3601/DAY4/Series/adexl/results/data/Interactive.33.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.33.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.34
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test enabled="1">Af
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>Series</value>
+							</option>
+							<option>lib
+								<value>DAY4</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>Af_none_Interactive.34</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>Series</value>
+							</option>
+							<option>lib
+								<value>DAY4</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+					<test enabled="1">Asymptotic
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>Series</value>
+							</option>
+							<option>lib
+								<value>DAY4</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>Asymptotic_Af:1_state_Interactive.34</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</tooloptions>
+						<prerunscript>0</prerunscript>
+						<origoptions>
+							<option>cell
+								<value>Series</value>
+							</option>
+							<option>lib
+								<value>DAY4</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>Af:1_state</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+						<outputs></outputs>
+					</test>
+					<test enabled="1">LoopGain
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>Series</value>
+							</option>
+							<option>lib
+								<value>DAY4</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>LoopGain_Af:1_state_Interactive.34</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</tooloptions>
+						<prerunscript>0</prerunscript>
+						<origoptions>
+							<option>cell
+								<value>Series</value>
+							</option>
+							<option>lib
+								<value>DAY4</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>Af:1_state</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+						<outputs>
+							<output>AB
+								<evalType>point</evalType>
+							</output>
+							<output>AB_new
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+					</test>
+					<test enabled="1">rootlocus
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>Series</value>
+							</option>
+							<option>lib
+								<value>DAY4</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>rootlocus_Af:1_state_Interactive.34</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</tooloptions>
+						<prerunscript>0</prerunscript>
+						<origoptions>
+							<option>cell
+								<value>Series</value>
+							</option>
+							<option>lib
+								<value>DAY4</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>Af:1_state</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var>cdb1
+						<value>160f</value>
+						<dependentTests>
+							<dependentTest enabled="1">Af</dependentTest>
+							<dependentTest enabled="1">Asymptotic</dependentTest>
+							<dependentTest enabled="1">rootlocus</dependentTest>
+							<dependentTest enabled="1">LoopGain</dependentTest>
+						</dependentTests>
+					</var>
+					<var>cds1
+						<value>46.01f</value>
+						<dependentTests>
+							<dependentTest enabled="1">Af</dependentTest>
+							<dependentTest enabled="1">Asymptotic</dependentTest>
+							<dependentTest enabled="1">rootlocus</dependentTest>
+							<dependentTest enabled="1">LoopGain</dependentTest>
+						</dependentTests>
+					</var>
+					<var>cgb1
+						<value>160.37f</value>
+						<dependentTests>
+							<dependentTest enabled="1">Af</dependentTest>
+							<dependentTest enabled="1">Asymptotic</dependentTest>
+							<dependentTest enabled="1">rootlocus</dependentTest>
+							<dependentTest enabled="1">LoopGain</dependentTest>
+						</dependentTests>
+					</var>
+					<var>cgd1
+						<value>26.40f</value>
+						<dependentTests>
+							<dependentTest enabled="1">Af</dependentTest>
+							<dependentTest enabled="1">Asymptotic</dependentTest>
+							<dependentTest enabled="1">rootlocus</dependentTest>
+							<dependentTest enabled="1">LoopGain</dependentTest>
+						</dependentTests>
+					</var>
+					<var>cgs1
+						<value>112.78f</value>
+						<dependentTests>
+							<dependentTest enabled="1">Af</dependentTest>
+							<dependentTest enabled="1">Asymptotic</dependentTest>
+							<dependentTest enabled="1">rootlocus</dependentTest>
+							<dependentTest enabled="1">LoopGain</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">gm1
+						<value>0.227m</value>
+						<dependentTests>
+							<dependentTest enabled="0">Af</dependentTest>
+							<dependentTest enabled="1">Asymptotic</dependentTest>
+							<dependentTest enabled="0">rootlocus</dependentTest>
+							<dependentTest enabled="0">LoopGain</dependentTest>
+						</dependentTests>
+					</var>
+					<var>rds1
+						<value>23893065.17</value>
+						<dependentTests>
+							<dependentTest enabled="1">Af</dependentTest>
+							<dependentTest enabled="1">Asymptotic</dependentTest>
+							<dependentTest enabled="1">rootlocus</dependentTest>
+							<dependentTest enabled="1">LoopGain</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">VIN
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="1">Af</dependentTest>
+							<dependentTest enabled="1">Asymptotic</dependentTest>
+							<dependentTest enabled="1">rootlocus</dependentTest>
+							<dependentTest enabled="0">LoopGain</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">IT
+						<value>1</value>
+						<dependentTests>
+							<dependentTest enabled="0" omitted="0">Af</dependentTest>
+							<dependentTest omitted="0">Asymptotic</dependentTest>
+							<dependentTest enabled="0">rootlocus</dependentTest>
+							<dependentTest enabled="0">LoopGain</dependentTest>
+						</dependentTests>
+					</var>
+					<var>gm
+						<value>0.227m</value>
+						<dependentTests>
+							<dependentTest enabled="1">rootlocus</dependentTest>
+							<dependentTest enabled="1">LoopGain</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottingmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>distributedplot_enabled
+						<value>no</value>
+					</plottingoption>
+				</plottingoptions>
+				<jobpolicyname>ADE XL Default</jobpolicyname>
+				<disabledtests>
+					<test>rootlocus</test>
+					<test>Af</test>
+					<test>Asymptotic</test>
+				</disabledtests>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Oct 31 10:29:16 2025</timestamp>
+			<uuid>{2b4cb05d-400e-4638-80ad-a70c595ef293}</uuid>
+			<resultsname>/home/saul/projects/FIL3601/DAY4/Series/adexl/results/data/Interactive.34.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.34.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/b35621b5a0f6_saul_102916187</localpsfdir>
+			<psfdir>/home/saul/projects/FIL3601/Sim/DAY4/Series/adexl/results/data/Interactive.34</psfdir>
+			<simdir>$AXL_PROJECT_DIR/DAY4/Series/adexl/results/data/Interactive.34</simdir>
+			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
+			<runlog>/home/saul/projects/FIL3601/DAY4/Series/adexl/results/data/Interactive.34.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.34.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.35
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test enabled="1">Af
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>Series</value>
+							</option>
+							<option>lib
+								<value>DAY4</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>Af_none_Interactive.35</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>Series</value>
+							</option>
+							<option>lib
+								<value>DAY4</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+					<test enabled="1">Asymptotic
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>Series</value>
+							</option>
+							<option>lib
+								<value>DAY4</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>Asymptotic_Af:1_state_Interactive.35</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</tooloptions>
+						<prerunscript>0</prerunscript>
+						<origoptions>
+							<option>cell
+								<value>Series</value>
+							</option>
+							<option>lib
+								<value>DAY4</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>Af:1_state</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+						<outputs></outputs>
+					</test>
+					<test enabled="1">LoopGain
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>Series</value>
+							</option>
+							<option>lib
+								<value>DAY4</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>LoopGain_Af:1_state_Interactive.35</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</tooloptions>
+						<prerunscript>0</prerunscript>
+						<origoptions>
+							<option>cell
+								<value>Series</value>
+							</option>
+							<option>lib
+								<value>DAY4</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>Af:1_state</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+						<outputs>
+							<output>AB
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+					</test>
+					<test enabled="1">rootlocus
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>Series</value>
+							</option>
+							<option>lib
+								<value>DAY4</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>rootlocus_Af:1_state_Interactive.35</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</tooloptions>
+						<prerunscript>0</prerunscript>
+						<origoptions>
+							<option>cell
+								<value>Series</value>
+							</option>
+							<option>lib
+								<value>DAY4</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>Af:1_state</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var>cdb1
+						<value>160f</value>
+						<dependentTests>
+							<dependentTest enabled="1">Af</dependentTest>
+							<dependentTest enabled="1">Asymptotic</dependentTest>
+							<dependentTest enabled="1">rootlocus</dependentTest>
+							<dependentTest enabled="1">LoopGain</dependentTest>
+						</dependentTests>
+					</var>
+					<var>cds1
+						<value>46.01f</value>
+						<dependentTests>
+							<dependentTest enabled="1">Af</dependentTest>
+							<dependentTest enabled="1">Asymptotic</dependentTest>
+							<dependentTest enabled="1">rootlocus</dependentTest>
+							<dependentTest enabled="1">LoopGain</dependentTest>
+						</dependentTests>
+					</var>
+					<var>cgb1
+						<value>160.37f</value>
+						<dependentTests>
+							<dependentTest enabled="1">Af</dependentTest>
+							<dependentTest enabled="1">Asymptotic</dependentTest>
+							<dependentTest enabled="1">rootlocus</dependentTest>
+							<dependentTest enabled="1">LoopGain</dependentTest>
+						</dependentTests>
+					</var>
+					<var>cgd1
+						<value>26.40f</value>
+						<dependentTests>
+							<dependentTest enabled="1">Af</dependentTest>
+							<dependentTest enabled="1">Asymptotic</dependentTest>
+							<dependentTest enabled="1">rootlocus</dependentTest>
+							<dependentTest enabled="1">LoopGain</dependentTest>
+						</dependentTests>
+					</var>
+					<var>cgs1
+						<value>112.78f</value>
+						<dependentTests>
+							<dependentTest enabled="1">Af</dependentTest>
+							<dependentTest enabled="1">Asymptotic</dependentTest>
+							<dependentTest enabled="1">rootlocus</dependentTest>
+							<dependentTest enabled="1">LoopGain</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">gm1
+						<value>0.227m</value>
+						<dependentTests>
+							<dependentTest enabled="0">Af</dependentTest>
+							<dependentTest enabled="1">Asymptotic</dependentTest>
+							<dependentTest enabled="0">rootlocus</dependentTest>
+							<dependentTest enabled="0">LoopGain</dependentTest>
+						</dependentTests>
+					</var>
+					<var>rds1
+						<value>23893065.17</value>
+						<dependentTests>
+							<dependentTest enabled="1">Af</dependentTest>
+							<dependentTest enabled="1">Asymptotic</dependentTest>
+							<dependentTest enabled="1">rootlocus</dependentTest>
+							<dependentTest enabled="1">LoopGain</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">VIN
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="1">Af</dependentTest>
+							<dependentTest enabled="1">Asymptotic</dependentTest>
+							<dependentTest enabled="1">rootlocus</dependentTest>
+							<dependentTest enabled="0">LoopGain</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">IT
+						<value>1</value>
+						<dependentTests>
+							<dependentTest enabled="0" omitted="0">Af</dependentTest>
+							<dependentTest omitted="0">Asymptotic</dependentTest>
+							<dependentTest enabled="0">rootlocus</dependentTest>
+							<dependentTest enabled="0">LoopGain</dependentTest>
+						</dependentTests>
+					</var>
+					<var>gm
+						<value>0.227m</value>
+						<dependentTests>
+							<dependentTest enabled="1">rootlocus</dependentTest>
+							<dependentTest enabled="1">LoopGain</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottingmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>distributedplot_enabled
+						<value>no</value>
+					</plottingoption>
+				</plottingoptions>
+				<jobpolicyname>ADE XL Default</jobpolicyname>
+				<disabledtests>
+					<test>rootlocus</test>
+					<test>Af</test>
+					<test>Asymptotic</test>
+				</disabledtests>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Oct 31 10:29:44 2025</timestamp>
+			<uuid>{38221c93-aeae-408b-87be-01e9879509f0}</uuid>
+			<resultsname>/home/saul/projects/FIL3601/DAY4/Series/adexl/results/data/Interactive.35.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.35.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/b35621b5a0f6_saul_102944673</localpsfdir>
+			<psfdir>/home/saul/projects/FIL3601/Sim/DAY4/Series/adexl/results/data/Interactive.35</psfdir>
+			<simdir>$AXL_PROJECT_DIR/DAY4/Series/adexl/results/data/Interactive.35</simdir>
+			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
+			<runlog>/home/saul/projects/FIL3601/DAY4/Series/adexl/results/data/Interactive.35.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.35.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.36
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test enabled="1">Af
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>Series</value>
+							</option>
+							<option>lib
+								<value>DAY4</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>Af_none_Interactive.36</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>Series</value>
+							</option>
+							<option>lib
+								<value>DAY4</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+					<test enabled="1">Asymptotic
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>Series</value>
+							</option>
+							<option>lib
+								<value>DAY4</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>Asymptotic_Af:1_state_Interactive.36</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</tooloptions>
+						<prerunscript>0</prerunscript>
+						<origoptions>
+							<option>cell
+								<value>Series</value>
+							</option>
+							<option>lib
+								<value>DAY4</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>Af:1_state</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+						<outputs></outputs>
+					</test>
+					<test enabled="1">LoopGain
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>Series</value>
+							</option>
+							<option>lib
+								<value>DAY4</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>LoopGain_Af:1_state_Interactive.36</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</tooloptions>
+						<prerunscript>0</prerunscript>
+						<origoptions>
+							<option>cell
+								<value>Series</value>
+							</option>
+							<option>lib
+								<value>DAY4</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>Af:1_state</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+						<outputs>
+							<output>AB
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+					</test>
+					<test enabled="1">rootlocus
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>Series</value>
+							</option>
+							<option>lib
+								<value>DAY4</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>rootlocus_Af:1_state_Interactive.36</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</tooloptions>
+						<prerunscript>0</prerunscript>
+						<origoptions>
+							<option>cell
+								<value>Series</value>
+							</option>
+							<option>lib
+								<value>DAY4</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>Af:1_state</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var>cdb1
+						<value>160f</value>
+						<dependentTests>
+							<dependentTest enabled="1">Af</dependentTest>
+							<dependentTest enabled="1">Asymptotic</dependentTest>
+							<dependentTest enabled="1">rootlocus</dependentTest>
+							<dependentTest enabled="1">LoopGain</dependentTest>
+						</dependentTests>
+					</var>
+					<var>cds1
+						<value>46.01f</value>
+						<dependentTests>
+							<dependentTest enabled="1">Af</dependentTest>
+							<dependentTest enabled="1">Asymptotic</dependentTest>
+							<dependentTest enabled="1">rootlocus</dependentTest>
+							<dependentTest enabled="1">LoopGain</dependentTest>
+						</dependentTests>
+					</var>
+					<var>cgb1
+						<value>160.37f</value>
+						<dependentTests>
+							<dependentTest enabled="1">Af</dependentTest>
+							<dependentTest enabled="1">Asymptotic</dependentTest>
+							<dependentTest enabled="1">rootlocus</dependentTest>
+							<dependentTest enabled="1">LoopGain</dependentTest>
+						</dependentTests>
+					</var>
+					<var>cgd1
+						<value>26.40f</value>
+						<dependentTests>
+							<dependentTest enabled="1">Af</dependentTest>
+							<dependentTest enabled="1">Asymptotic</dependentTest>
+							<dependentTest enabled="1">rootlocus</dependentTest>
+							<dependentTest enabled="1">LoopGain</dependentTest>
+						</dependentTests>
+					</var>
+					<var>cgs1
+						<value>112.78f</value>
+						<dependentTests>
+							<dependentTest enabled="1">Af</dependentTest>
+							<dependentTest enabled="1">Asymptotic</dependentTest>
+							<dependentTest enabled="1">rootlocus</dependentTest>
+							<dependentTest enabled="1">LoopGain</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">gm1
+						<value>0.227m</value>
+						<dependentTests>
+							<dependentTest enabled="0">Af</dependentTest>
+							<dependentTest enabled="1">Asymptotic</dependentTest>
+							<dependentTest enabled="0">rootlocus</dependentTest>
+							<dependentTest enabled="0">LoopGain</dependentTest>
+						</dependentTests>
+					</var>
+					<var>rds1
+						<value>23893065.17</value>
+						<dependentTests>
+							<dependentTest enabled="1">Af</dependentTest>
+							<dependentTest enabled="1">Asymptotic</dependentTest>
+							<dependentTest enabled="1">rootlocus</dependentTest>
+							<dependentTest enabled="1">LoopGain</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">VIN
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="1">Af</dependentTest>
+							<dependentTest enabled="1">Asymptotic</dependentTest>
+							<dependentTest enabled="1">rootlocus</dependentTest>
+							<dependentTest enabled="0">LoopGain</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">IT
+						<value>1</value>
+						<dependentTests>
+							<dependentTest enabled="0" omitted="0">Af</dependentTest>
+							<dependentTest omitted="0">Asymptotic</dependentTest>
+							<dependentTest enabled="0">rootlocus</dependentTest>
+							<dependentTest enabled="0">LoopGain</dependentTest>
+						</dependentTests>
+					</var>
+					<var>gm
+						<value>0.227m</value>
+						<dependentTests>
+							<dependentTest enabled="1">rootlocus</dependentTest>
+							<dependentTest enabled="1">LoopGain</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottingmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>distributedplot_enabled
+						<value>no</value>
+					</plottingoption>
+				</plottingoptions>
+				<jobpolicyname>ADE XL Default</jobpolicyname>
+				<disabledtests>
 					<test>Af</test>
 					<test>Asymptotic</test>
 					<test>LoopGain</test>
 				</disabledtests>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Feb 20 09:05:43 2025</timestamp>
-			<uuid>{10f7cec3-9dd4-460c-a54e-ed805b69f360}</uuid>
-			<resultsname>/home/saul/projects/FIL3601/DAY4/Series/adexl/results/data/Interactive.18.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.18.rdb</simresults>
+			<timestamp>Oct 31 10:31:28 2025</timestamp>
+			<uuid>{6deb343c-8dec-4c60-b385-044529363ca4}</uuid>
+			<resultsname>/home/saul/projects/FIL3601/DAY4/Series/adexl/results/data/Interactive.36.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.36.rdb</simresults>
 			<rawdatadelstrategy>SaveAll
 				<simdatasavemode>All</simdatasavemode>
 			</rawdatadelstrategy>
 			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/s2424_saul_090543815</localpsfdir>
-			<psfdir>/home/saul/projects/FIL3601/Sim/DAY4/Series/adexl/results/data/Interactive.18</psfdir>
-			<simdir>$AXL_PROJECT_DIR/DAY4/Series/adexl/results/data/Interactive.18</simdir>
+			<localpsfdir>/tmp/b35621b5a0f6_saul_103128550</localpsfdir>
+			<psfdir>/home/saul/projects/FIL3601/Sim/DAY4/Series/adexl/results/data/Interactive.36</psfdir>
+			<simdir>$AXL_PROJECT_DIR/DAY4/Series/adexl/results/data/Interactive.36</simdir>
 			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
-			<runlog>/home/saul/projects/FIL3601/DAY4/Series/adexl/results/data/Interactive.18.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.18.log</runlogfile>
+			<runlog>/home/saul/projects/FIL3601/DAY4/Series/adexl/results/data/Interactive.36.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.36.log</runlogfile>
 			<schematicpoint></schematicpoint>
 			<test>all</test>
 		</historyentry>
-		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.19
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.37
 			<checkpoint>
 				<corners>
 					<corner enabled="1">_default</corner>
@@ -680,7 +3359,7 @@
 								<value>$AXL_SETUPDB_DIR/test_states</value>
 							</option>
 							<option>state
-								<value>Af_none_Interactive.19</value>
+								<value>Af_none_Interactive.37</value>
 							</option>
 						</tooloptions>
 						<origoptions>
@@ -714,7 +3393,7 @@
 								<value>spectre</value>
 							</option>
 							<option>state
-								<value>Asymptotic_Af:1_state_Interactive.19</value>
+								<value>Asymptotic_Af:1_state_Interactive.37</value>
 							</option>
 							<option>view
 								<value>schematic</value>
@@ -759,7 +3438,7 @@
 								<value>spectre</value>
 							</option>
 							<option>state
-								<value>LoopGain_Af:1_state_Interactive.19</value>
+								<value>LoopGain_Af:1_state_Interactive.37</value>
 							</option>
 							<option>view
 								<value>schematic</value>
@@ -808,7 +3487,7 @@
 								<value>spectre</value>
 							</option>
 							<option>state
-								<value>rootlocus_Af:1_state_Interactive.19</value>
+								<value>rootlocus_Af:1_state_Interactive.37</value>
 							</option>
 							<option>view
 								<value>schematic</value>
@@ -843,8 +3522,8 @@
 						<dependentTests>
 							<dependentTest enabled="1">Af</dependentTest>
 							<dependentTest enabled="1">Asymptotic</dependentTest>
-							<dependentTest enabled="1">LoopGain</dependentTest>
 							<dependentTest enabled="1">rootlocus</dependentTest>
+							<dependentTest enabled="1">LoopGain</dependentTest>
 						</dependentTests>
 					</var>
 					<var>cds1
@@ -852,8 +3531,8 @@
 						<dependentTests>
 							<dependentTest enabled="1">Af</dependentTest>
 							<dependentTest enabled="1">Asymptotic</dependentTest>
-							<dependentTest enabled="1">LoopGain</dependentTest>
 							<dependentTest enabled="1">rootlocus</dependentTest>
+							<dependentTest enabled="1">LoopGain</dependentTest>
 						</dependentTests>
 					</var>
 					<var>cgb1
@@ -861,8 +3540,8 @@
 						<dependentTests>
 							<dependentTest enabled="1">Af</dependentTest>
 							<dependentTest enabled="1">Asymptotic</dependentTest>
-							<dependentTest enabled="1">LoopGain</dependentTest>
 							<dependentTest enabled="1">rootlocus</dependentTest>
+							<dependentTest enabled="1">LoopGain</dependentTest>
 						</dependentTests>
 					</var>
 					<var>cgd1
@@ -870,8 +3549,8 @@
 						<dependentTests>
 							<dependentTest enabled="1">Af</dependentTest>
 							<dependentTest enabled="1">Asymptotic</dependentTest>
-							<dependentTest enabled="1">LoopGain</dependentTest>
 							<dependentTest enabled="1">rootlocus</dependentTest>
+							<dependentTest enabled="1">LoopGain</dependentTest>
 						</dependentTests>
 					</var>
 					<var>cgs1
@@ -879,8 +3558,8 @@
 						<dependentTests>
 							<dependentTest enabled="1">Af</dependentTest>
 							<dependentTest enabled="1">Asymptotic</dependentTest>
-							<dependentTest enabled="1">LoopGain</dependentTest>
 							<dependentTest enabled="1">rootlocus</dependentTest>
+							<dependentTest enabled="1">LoopGain</dependentTest>
 						</dependentTests>
 					</var>
 					<var enabled="0">gm1
@@ -888,8 +3567,8 @@
 						<dependentTests>
 							<dependentTest enabled="0">Af</dependentTest>
 							<dependentTest enabled="1">Asymptotic</dependentTest>
-							<dependentTest enabled="0">LoopGain</dependentTest>
 							<dependentTest enabled="0">rootlocus</dependentTest>
+							<dependentTest enabled="0">LoopGain</dependentTest>
 						</dependentTests>
 					</var>
 					<var>rds1
@@ -897,8 +3576,8 @@
 						<dependentTests>
 							<dependentTest enabled="1">Af</dependentTest>
 							<dependentTest enabled="1">Asymptotic</dependentTest>
-							<dependentTest enabled="1">LoopGain</dependentTest>
 							<dependentTest enabled="1">rootlocus</dependentTest>
+							<dependentTest enabled="1">LoopGain</dependentTest>
 						</dependentTests>
 					</var>
 					<var enabled="0">VIN
@@ -906,8 +3585,8 @@
 						<dependentTests>
 							<dependentTest enabled="1">Af</dependentTest>
 							<dependentTest enabled="1">Asymptotic</dependentTest>
-							<dependentTest enabled="0">LoopGain</dependentTest>
 							<dependentTest enabled="1">rootlocus</dependentTest>
+							<dependentTest enabled="0">LoopGain</dependentTest>
 						</dependentTests>
 					</var>
 					<var enabled="0">IT
@@ -915,15 +3594,15 @@
 						<dependentTests>
 							<dependentTest enabled="0" omitted="0">Af</dependentTest>
 							<dependentTest omitted="0">Asymptotic</dependentTest>
-							<dependentTest enabled="0">LoopGain</dependentTest>
 							<dependentTest enabled="0">rootlocus</dependentTest>
+							<dependentTest enabled="0">LoopGain</dependentTest>
 						</dependentTests>
 					</var>
 					<var>gm
 						<value>0.227m</value>
 						<dependentTests>
-							<dependentTest omitted="0">LoopGain</dependentTest>
 							<dependentTest enabled="1">rootlocus</dependentTest>
+							<dependentTest enabled="1">LoopGain</dependentTest>
 						</dependentTests>
 					</var>
 				</vars>
@@ -955,2673 +3634,29 @@
 					</plottingoption>
 				</plottingoptions>
 				<jobpolicyname>ADE XL Default</jobpolicyname>
-				<disabledtests></disabledtests>
+				<disabledtests>
+					<test>Af</test>
+					<test>Asymptotic</test>
+					<test>rootlocus</test>
+				</disabledtests>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Feb 20 09:06:39 2025</timestamp>
-			<uuid>{618a9ea5-4114-4cf2-a02c-9793b30670d3}</uuid>
-			<resultsname>/home/saul/projects/FIL3601/DAY4/Series/adexl/results/data/Interactive.19.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.19.rdb</simresults>
+			<timestamp>Oct 31 10:34:05 2025</timestamp>
+			<uuid>{5442f6f3-af27-40a4-9738-65012c2ad606}</uuid>
+			<resultsname>/home/saul/projects/FIL3601/DAY4/Series/adexl/results/data/Interactive.37.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.37.rdb</simresults>
 			<rawdatadelstrategy>SaveAll
 				<simdatasavemode>All</simdatasavemode>
 			</rawdatadelstrategy>
 			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/s2424_saul_090639261</localpsfdir>
-			<psfdir>/home/saul/projects/FIL3601/Sim/DAY4/Series/adexl/results/data/Interactive.19</psfdir>
-			<simdir>$AXL_PROJECT_DIR/DAY4/Series/adexl/results/data/Interactive.19</simdir>
+			<localpsfdir>/tmp/b35621b5a0f6_saul_103405377</localpsfdir>
+			<psfdir>/home/saul/projects/FIL3601/Sim/DAY4/Series/adexl/results/data/Interactive.37</psfdir>
+			<simdir>$AXL_PROJECT_DIR/DAY4/Series/adexl/results/data/Interactive.37</simdir>
 			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
-			<runlog>/home/saul/projects/FIL3601/DAY4/Series/adexl/results/data/Interactive.19.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.19.log</runlogfile>
-			<schematicpoint></schematicpoint>
-			<test>all</test>
-		</historyentry>
-		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.20
-			<checkpoint>
-				<corners>
-					<corner enabled="1">_default</corner>
-				</corners>
-				<extensions>
-					<extension>Parasitics
-						<callback>_parSetupDBExtensionCB</callback>
-						<iconvalue></iconvalue>
-						<icontype></icontype>
-					</extension>
-				</extensions>
-				<currentmode>Single Run, Sweeps and Corners</currentmode>
-				<overwritehistory>0</overwritehistory>
-				<tests>
-					<test enabled="1">Af
-						<tool>ADE</tool>
-						<tooloptions>
-							<option>cell
-								<value>Series</value>
-							</option>
-							<option>lib
-								<value>DAY4</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>state
-								<value>Af_none_Interactive.20</value>
-							</option>
-						</tooloptions>
-						<origoptions>
-							<option>cell
-								<value>Series</value>
-							</option>
-							<option>lib
-								<value>DAY4</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</origoptions>
-					</test>
-					<test enabled="1">Asymptotic
-						<tool>ADE</tool>
-						<tooloptions>
-							<option>cell
-								<value>Series</value>
-							</option>
-							<option>lib
-								<value>DAY4</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>state
-								<value>Asymptotic_Af:1_state_Interactive.20</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</tooloptions>
-						<prerunscript>0</prerunscript>
-						<origoptions>
-							<option>cell
-								<value>Series</value>
-							</option>
-							<option>lib
-								<value>DAY4</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>state
-								<value>Af:1_state</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</origoptions>
-						<outputs></outputs>
-					</test>
-					<test enabled="1">LoopGain
-						<tool>ADE</tool>
-						<tooloptions>
-							<option>cell
-								<value>Series</value>
-							</option>
-							<option>lib
-								<value>DAY4</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>state
-								<value>LoopGain_Af:1_state_Interactive.20</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</tooloptions>
-						<prerunscript>0</prerunscript>
-						<origoptions>
-							<option>cell
-								<value>Series</value>
-							</option>
-							<option>lib
-								<value>DAY4</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>state
-								<value>Af:1_state</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</origoptions>
-						<outputs>
-							<output>AB
-								<evalType>point</evalType>
-							</output>
-						</outputs>
-					</test>
-					<test enabled="1">rootlocus
-						<tool>ADE</tool>
-						<tooloptions>
-							<option>cell
-								<value>Series</value>
-							</option>
-							<option>lib
-								<value>DAY4</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>state
-								<value>rootlocus_Af:1_state_Interactive.20</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</tooloptions>
-						<prerunscript>0</prerunscript>
-						<origoptions>
-							<option>cell
-								<value>Series</value>
-							</option>
-							<option>lib
-								<value>DAY4</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>state
-								<value>Af:1_state</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</origoptions>
-					</test>
-				</tests>
-				<vars>
-					<var>cdb1
-						<value>160f</value>
-						<dependentTests>
-							<dependentTest enabled="1">Af</dependentTest>
-							<dependentTest enabled="1">Asymptotic</dependentTest>
-							<dependentTest enabled="1">LoopGain</dependentTest>
-							<dependentTest enabled="1">rootlocus</dependentTest>
-						</dependentTests>
-					</var>
-					<var>cds1
-						<value>46.01f</value>
-						<dependentTests>
-							<dependentTest enabled="1">Af</dependentTest>
-							<dependentTest enabled="1">Asymptotic</dependentTest>
-							<dependentTest enabled="1">LoopGain</dependentTest>
-							<dependentTest enabled="1">rootlocus</dependentTest>
-						</dependentTests>
-					</var>
-					<var>cgb1
-						<value>160.37f</value>
-						<dependentTests>
-							<dependentTest enabled="1">Af</dependentTest>
-							<dependentTest enabled="1">Asymptotic</dependentTest>
-							<dependentTest enabled="1">LoopGain</dependentTest>
-							<dependentTest enabled="1">rootlocus</dependentTest>
-						</dependentTests>
-					</var>
-					<var>cgd1
-						<value>26.40f</value>
-						<dependentTests>
-							<dependentTest enabled="1">Af</dependentTest>
-							<dependentTest enabled="1">Asymptotic</dependentTest>
-							<dependentTest enabled="1">LoopGain</dependentTest>
-							<dependentTest enabled="1">rootlocus</dependentTest>
-						</dependentTests>
-					</var>
-					<var>cgs1
-						<value>112.78f</value>
-						<dependentTests>
-							<dependentTest enabled="1">Af</dependentTest>
-							<dependentTest enabled="1">Asymptotic</dependentTest>
-							<dependentTest enabled="1">LoopGain</dependentTest>
-							<dependentTest enabled="1">rootlocus</dependentTest>
-						</dependentTests>
-					</var>
-					<var enabled="0">gm1
-						<value>0.227m</value>
-						<dependentTests>
-							<dependentTest enabled="0">Af</dependentTest>
-							<dependentTest enabled="1">Asymptotic</dependentTest>
-							<dependentTest enabled="0">LoopGain</dependentTest>
-							<dependentTest enabled="0">rootlocus</dependentTest>
-						</dependentTests>
-					</var>
-					<var>rds1
-						<value>23893065.17</value>
-						<dependentTests>
-							<dependentTest enabled="1">Af</dependentTest>
-							<dependentTest enabled="1">Asymptotic</dependentTest>
-							<dependentTest enabled="1">LoopGain</dependentTest>
-							<dependentTest enabled="1">rootlocus</dependentTest>
-						</dependentTests>
-					</var>
-					<var enabled="0">VIN
-						<value>0</value>
-						<dependentTests>
-							<dependentTest enabled="1">Af</dependentTest>
-							<dependentTest enabled="1">Asymptotic</dependentTest>
-							<dependentTest enabled="0">LoopGain</dependentTest>
-							<dependentTest enabled="1">rootlocus</dependentTest>
-						</dependentTests>
-					</var>
-					<var enabled="0">IT
-						<value>1</value>
-						<dependentTests>
-							<dependentTest enabled="0" omitted="0">Af</dependentTest>
-							<dependentTest omitted="0">Asymptotic</dependentTest>
-							<dependentTest enabled="0">LoopGain</dependentTest>
-							<dependentTest enabled="0">rootlocus</dependentTest>
-						</dependentTests>
-					</var>
-					<var>gm
-						<value>0.227m</value>
-						<dependentTests>
-							<dependentTest omitted="0">LoopGain</dependentTest>
-							<dependentTest enabled="1">rootlocus</dependentTest>
-						</dependentTests>
-					</var>
-				</vars>
-				<overwritehistoryname>Interactive.0</overwritehistoryname>
-				<plottingoptions>
-					<plottingoption>plottingmode
-						<value>Replace</value>
-					</plottingoption>
-					<plottingoption>plottype
-						<value>None</value>
-					</plottingoption>
-					<plottingoption>usewaveformtemplate
-						<value>no</value>
-					</plottingoption>
-					<plottingoption>useMaestroPlottingTemplate
-						<value>yes</value>
-					</plottingoption>
-					<plottingoption>waveformtemplate
-						<value></value>
-					</plottingoption>
-					<plottingoption>allplottingtemplates
-						<value></value>
-					</plottingoption>
-					<plottingoption>defaultplottingtemplate
-						<value></value>
-					</plottingoption>
-					<plottingoption>distributedplot_enabled
-						<value>no</value>
-					</plottingoption>
-				</plottingoptions>
-				<jobpolicyname>ADE XL Default</jobpolicyname>
-				<disabledtests></disabledtests>
-				<sortVariableValues>0</sortVariableValues>
-			</checkpoint>
-			<timestamp>Feb 20 09:07:47 2025</timestamp>
-			<uuid>{af4d08f6-495b-4415-8519-175db283c67e}</uuid>
-			<resultsname>/home/saul/projects/FIL3601/DAY4/Series/adexl/results/data/Interactive.20.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.20.rdb</simresults>
-			<rawdatadelstrategy>SaveAll
-				<simdatasavemode>All</simdatasavemode>
-			</rawdatadelstrategy>
-			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
-			<netlistdelstrategy>SaveAll</netlistdelstrategy>
-			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/s2424_saul_090747986</localpsfdir>
-			<psfdir>/home/saul/projects/FIL3601/Sim/DAY4/Series/adexl/results/data/Interactive.20</psfdir>
-			<simdir>$AXL_PROJECT_DIR/DAY4/Series/adexl/results/data/Interactive.20</simdir>
-			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
-			<runlog>/home/saul/projects/FIL3601/DAY4/Series/adexl/results/data/Interactive.20.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.20.log</runlogfile>
-			<schematicpoint></schematicpoint>
-			<test>all</test>
-		</historyentry>
-		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.21
-			<checkpoint>
-				<corners>
-					<corner enabled="1">_default</corner>
-				</corners>
-				<extensions>
-					<extension>Parasitics
-						<callback>_parSetupDBExtensionCB</callback>
-						<iconvalue></iconvalue>
-						<icontype></icontype>
-					</extension>
-				</extensions>
-				<currentmode>Single Run, Sweeps and Corners</currentmode>
-				<overwritehistory>0</overwritehistory>
-				<tests>
-					<test enabled="1">Af
-						<tool>ADE</tool>
-						<tooloptions>
-							<option>cell
-								<value>Series</value>
-							</option>
-							<option>lib
-								<value>DAY4</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>state
-								<value>Af_none_Interactive.21</value>
-							</option>
-						</tooloptions>
-						<origoptions>
-							<option>cell
-								<value>Series</value>
-							</option>
-							<option>lib
-								<value>DAY4</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</origoptions>
-					</test>
-					<test enabled="1">Asymptotic
-						<tool>ADE</tool>
-						<tooloptions>
-							<option>cell
-								<value>Series</value>
-							</option>
-							<option>lib
-								<value>DAY4</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>state
-								<value>Asymptotic_Af:1_state_Interactive.21</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</tooloptions>
-						<prerunscript>0</prerunscript>
-						<origoptions>
-							<option>cell
-								<value>Series</value>
-							</option>
-							<option>lib
-								<value>DAY4</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>state
-								<value>Af:1_state</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</origoptions>
-						<outputs></outputs>
-					</test>
-					<test enabled="1">LoopGain
-						<tool>ADE</tool>
-						<tooloptions>
-							<option>cell
-								<value>Series</value>
-							</option>
-							<option>lib
-								<value>DAY4</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>state
-								<value>LoopGain_Af:1_state_Interactive.21</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</tooloptions>
-						<prerunscript>0</prerunscript>
-						<origoptions>
-							<option>cell
-								<value>Series</value>
-							</option>
-							<option>lib
-								<value>DAY4</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>state
-								<value>Af:1_state</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</origoptions>
-						<outputs>
-							<output>AB
-								<evalType>point</evalType>
-							</output>
-						</outputs>
-					</test>
-					<test enabled="1">rootlocus
-						<tool>ADE</tool>
-						<tooloptions>
-							<option>cell
-								<value>Series</value>
-							</option>
-							<option>lib
-								<value>DAY4</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>state
-								<value>rootlocus_Af:1_state_Interactive.21</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</tooloptions>
-						<prerunscript>0</prerunscript>
-						<origoptions>
-							<option>cell
-								<value>Series</value>
-							</option>
-							<option>lib
-								<value>DAY4</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>state
-								<value>Af:1_state</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</origoptions>
-					</test>
-				</tests>
-				<vars>
-					<var>cdb1
-						<value>160f</value>
-						<dependentTests>
-							<dependentTest enabled="1">Af</dependentTest>
-							<dependentTest enabled="1">Asymptotic</dependentTest>
-							<dependentTest enabled="1">LoopGain</dependentTest>
-							<dependentTest enabled="1">rootlocus</dependentTest>
-						</dependentTests>
-					</var>
-					<var>cds1
-						<value>46.01f</value>
-						<dependentTests>
-							<dependentTest enabled="1">Af</dependentTest>
-							<dependentTest enabled="1">Asymptotic</dependentTest>
-							<dependentTest enabled="1">LoopGain</dependentTest>
-							<dependentTest enabled="1">rootlocus</dependentTest>
-						</dependentTests>
-					</var>
-					<var>cgb1
-						<value>160.37f</value>
-						<dependentTests>
-							<dependentTest enabled="1">Af</dependentTest>
-							<dependentTest enabled="1">Asymptotic</dependentTest>
-							<dependentTest enabled="1">LoopGain</dependentTest>
-							<dependentTest enabled="1">rootlocus</dependentTest>
-						</dependentTests>
-					</var>
-					<var>cgd1
-						<value>26.40f</value>
-						<dependentTests>
-							<dependentTest enabled="1">Af</dependentTest>
-							<dependentTest enabled="1">Asymptotic</dependentTest>
-							<dependentTest enabled="1">LoopGain</dependentTest>
-							<dependentTest enabled="1">rootlocus</dependentTest>
-						</dependentTests>
-					</var>
-					<var>cgs1
-						<value>112.78f</value>
-						<dependentTests>
-							<dependentTest enabled="1">Af</dependentTest>
-							<dependentTest enabled="1">Asymptotic</dependentTest>
-							<dependentTest enabled="1">LoopGain</dependentTest>
-							<dependentTest enabled="1">rootlocus</dependentTest>
-						</dependentTests>
-					</var>
-					<var enabled="0">gm1
-						<value>0.227m</value>
-						<dependentTests>
-							<dependentTest enabled="0">Af</dependentTest>
-							<dependentTest enabled="1">Asymptotic</dependentTest>
-							<dependentTest enabled="0">LoopGain</dependentTest>
-							<dependentTest enabled="0">rootlocus</dependentTest>
-						</dependentTests>
-					</var>
-					<var>rds1
-						<value>23893065.17</value>
-						<dependentTests>
-							<dependentTest enabled="1">Af</dependentTest>
-							<dependentTest enabled="1">Asymptotic</dependentTest>
-							<dependentTest enabled="1">LoopGain</dependentTest>
-							<dependentTest enabled="1">rootlocus</dependentTest>
-						</dependentTests>
-					</var>
-					<var enabled="0">VIN
-						<value>0</value>
-						<dependentTests>
-							<dependentTest enabled="1">Af</dependentTest>
-							<dependentTest enabled="1">Asymptotic</dependentTest>
-							<dependentTest enabled="0">LoopGain</dependentTest>
-							<dependentTest enabled="1">rootlocus</dependentTest>
-						</dependentTests>
-					</var>
-					<var enabled="0">IT
-						<value>1</value>
-						<dependentTests>
-							<dependentTest enabled="0" omitted="0">Af</dependentTest>
-							<dependentTest omitted="0">Asymptotic</dependentTest>
-							<dependentTest enabled="0">LoopGain</dependentTest>
-							<dependentTest enabled="0">rootlocus</dependentTest>
-						</dependentTests>
-					</var>
-					<var>gm
-						<value>0.227m</value>
-						<dependentTests>
-							<dependentTest omitted="0">LoopGain</dependentTest>
-							<dependentTest enabled="1">rootlocus</dependentTest>
-						</dependentTests>
-					</var>
-				</vars>
-				<overwritehistoryname>Interactive.0</overwritehistoryname>
-				<plottingoptions>
-					<plottingoption>plottingmode
-						<value>Replace</value>
-					</plottingoption>
-					<plottingoption>plottype
-						<value>None</value>
-					</plottingoption>
-					<plottingoption>usewaveformtemplate
-						<value>no</value>
-					</plottingoption>
-					<plottingoption>useMaestroPlottingTemplate
-						<value>yes</value>
-					</plottingoption>
-					<plottingoption>waveformtemplate
-						<value></value>
-					</plottingoption>
-					<plottingoption>allplottingtemplates
-						<value></value>
-					</plottingoption>
-					<plottingoption>defaultplottingtemplate
-						<value></value>
-					</plottingoption>
-					<plottingoption>distributedplot_enabled
-						<value>no</value>
-					</plottingoption>
-				</plottingoptions>
-				<jobpolicyname>ADE XL Default</jobpolicyname>
-				<disabledtests></disabledtests>
-				<sortVariableValues>0</sortVariableValues>
-			</checkpoint>
-			<timestamp>Feb 20 09:12:54 2025</timestamp>
-			<uuid>{d65cce0b-d4dd-4672-bff4-c08b0b8f8e98}</uuid>
-			<resultsname>/home/saul/projects/FIL3601/DAY4/Series/adexl/results/data/Interactive.21.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.21.rdb</simresults>
-			<rawdatadelstrategy>SaveAll
-				<simdatasavemode>All</simdatasavemode>
-			</rawdatadelstrategy>
-			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
-			<netlistdelstrategy>SaveAll</netlistdelstrategy>
-			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/s2424_saul_091254116</localpsfdir>
-			<psfdir>/home/saul/projects/FIL3601/Sim/DAY4/Series/adexl/results/data/Interactive.21</psfdir>
-			<simdir>$AXL_PROJECT_DIR/DAY4/Series/adexl/results/data/Interactive.21</simdir>
-			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
-			<runlog>/home/saul/projects/FIL3601/DAY4/Series/adexl/results/data/Interactive.21.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.21.log</runlogfile>
-			<schematicpoint></schematicpoint>
-			<test>all</test>
-		</historyentry>
-		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.22
-			<checkpoint>
-				<corners>
-					<corner enabled="1">_default</corner>
-				</corners>
-				<extensions>
-					<extension>Parasitics
-						<callback>_parSetupDBExtensionCB</callback>
-						<iconvalue></iconvalue>
-						<icontype></icontype>
-					</extension>
-				</extensions>
-				<currentmode>Single Run, Sweeps and Corners</currentmode>
-				<overwritehistory>0</overwritehistory>
-				<tests>
-					<test enabled="1">Af
-						<tool>ADE</tool>
-						<tooloptions>
-							<option>cell
-								<value>Series</value>
-							</option>
-							<option>lib
-								<value>DAY4</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>state
-								<value>Af_none_Interactive.22</value>
-							</option>
-						</tooloptions>
-						<origoptions>
-							<option>cell
-								<value>Series</value>
-							</option>
-							<option>lib
-								<value>DAY4</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</origoptions>
-					</test>
-					<test enabled="1">Asymptotic
-						<tool>ADE</tool>
-						<tooloptions>
-							<option>cell
-								<value>Series</value>
-							</option>
-							<option>lib
-								<value>DAY4</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>state
-								<value>Asymptotic_Af:1_state_Interactive.22</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</tooloptions>
-						<prerunscript>0</prerunscript>
-						<origoptions>
-							<option>cell
-								<value>Series</value>
-							</option>
-							<option>lib
-								<value>DAY4</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>state
-								<value>Af:1_state</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</origoptions>
-						<outputs></outputs>
-					</test>
-					<test enabled="1">LoopGain
-						<tool>ADE</tool>
-						<tooloptions>
-							<option>cell
-								<value>Series</value>
-							</option>
-							<option>lib
-								<value>DAY4</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>state
-								<value>LoopGain_Af:1_state_Interactive.22</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</tooloptions>
-						<prerunscript>0</prerunscript>
-						<origoptions>
-							<option>cell
-								<value>Series</value>
-							</option>
-							<option>lib
-								<value>DAY4</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>state
-								<value>Af:1_state</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</origoptions>
-						<outputs>
-							<output>AB
-								<evalType>point</evalType>
-							</output>
-						</outputs>
-					</test>
-					<test enabled="1">rootlocus
-						<tool>ADE</tool>
-						<tooloptions>
-							<option>cell
-								<value>Series</value>
-							</option>
-							<option>lib
-								<value>DAY4</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>state
-								<value>rootlocus_Af:1_state_Interactive.22</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</tooloptions>
-						<prerunscript>0</prerunscript>
-						<origoptions>
-							<option>cell
-								<value>Series</value>
-							</option>
-							<option>lib
-								<value>DAY4</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>state
-								<value>Af:1_state</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</origoptions>
-					</test>
-				</tests>
-				<vars>
-					<var>cdb1
-						<value>160f</value>
-						<dependentTests>
-							<dependentTest enabled="1">Af</dependentTest>
-							<dependentTest enabled="1">Asymptotic</dependentTest>
-							<dependentTest enabled="1">LoopGain</dependentTest>
-							<dependentTest enabled="1">rootlocus</dependentTest>
-						</dependentTests>
-					</var>
-					<var>cds1
-						<value>46.01f</value>
-						<dependentTests>
-							<dependentTest enabled="1">Af</dependentTest>
-							<dependentTest enabled="1">Asymptotic</dependentTest>
-							<dependentTest enabled="1">LoopGain</dependentTest>
-							<dependentTest enabled="1">rootlocus</dependentTest>
-						</dependentTests>
-					</var>
-					<var>cgb1
-						<value>160.37f</value>
-						<dependentTests>
-							<dependentTest enabled="1">Af</dependentTest>
-							<dependentTest enabled="1">Asymptotic</dependentTest>
-							<dependentTest enabled="1">LoopGain</dependentTest>
-							<dependentTest enabled="1">rootlocus</dependentTest>
-						</dependentTests>
-					</var>
-					<var>cgd1
-						<value>126.40f</value>
-						<dependentTests>
-							<dependentTest enabled="1">Af</dependentTest>
-							<dependentTest enabled="1">Asymptotic</dependentTest>
-							<dependentTest enabled="1">LoopGain</dependentTest>
-							<dependentTest enabled="1">rootlocus</dependentTest>
-						</dependentTests>
-					</var>
-					<var>cgs1
-						<value>112.78f</value>
-						<dependentTests>
-							<dependentTest enabled="1">Af</dependentTest>
-							<dependentTest enabled="1">Asymptotic</dependentTest>
-							<dependentTest enabled="1">LoopGain</dependentTest>
-							<dependentTest enabled="1">rootlocus</dependentTest>
-						</dependentTests>
-					</var>
-					<var enabled="0">gm1
-						<value>0.227m</value>
-						<dependentTests>
-							<dependentTest enabled="0">Af</dependentTest>
-							<dependentTest enabled="1">Asymptotic</dependentTest>
-							<dependentTest enabled="0">LoopGain</dependentTest>
-							<dependentTest enabled="0">rootlocus</dependentTest>
-						</dependentTests>
-					</var>
-					<var>rds1
-						<value>23893065.17</value>
-						<dependentTests>
-							<dependentTest enabled="1">Af</dependentTest>
-							<dependentTest enabled="1">Asymptotic</dependentTest>
-							<dependentTest enabled="1">LoopGain</dependentTest>
-							<dependentTest enabled="1">rootlocus</dependentTest>
-						</dependentTests>
-					</var>
-					<var enabled="0">VIN
-						<value>0</value>
-						<dependentTests>
-							<dependentTest enabled="1">Af</dependentTest>
-							<dependentTest enabled="1">Asymptotic</dependentTest>
-							<dependentTest enabled="0">LoopGain</dependentTest>
-							<dependentTest enabled="1">rootlocus</dependentTest>
-						</dependentTests>
-					</var>
-					<var enabled="0">IT
-						<value>1</value>
-						<dependentTests>
-							<dependentTest enabled="0" omitted="0">Af</dependentTest>
-							<dependentTest omitted="0">Asymptotic</dependentTest>
-							<dependentTest enabled="0">LoopGain</dependentTest>
-							<dependentTest enabled="0">rootlocus</dependentTest>
-						</dependentTests>
-					</var>
-					<var>gm
-						<value>0.227m</value>
-						<dependentTests>
-							<dependentTest omitted="0">LoopGain</dependentTest>
-							<dependentTest enabled="1">rootlocus</dependentTest>
-						</dependentTests>
-					</var>
-				</vars>
-				<overwritehistoryname>Interactive.0</overwritehistoryname>
-				<plottingoptions>
-					<plottingoption>plottingmode
-						<value>Replace</value>
-					</plottingoption>
-					<plottingoption>plottype
-						<value>None</value>
-					</plottingoption>
-					<plottingoption>usewaveformtemplate
-						<value>no</value>
-					</plottingoption>
-					<plottingoption>useMaestroPlottingTemplate
-						<value>yes</value>
-					</plottingoption>
-					<plottingoption>waveformtemplate
-						<value></value>
-					</plottingoption>
-					<plottingoption>allplottingtemplates
-						<value></value>
-					</plottingoption>
-					<plottingoption>defaultplottingtemplate
-						<value></value>
-					</plottingoption>
-					<plottingoption>distributedplot_enabled
-						<value>no</value>
-					</plottingoption>
-				</plottingoptions>
-				<jobpolicyname>ADE XL Default</jobpolicyname>
-				<disabledtests></disabledtests>
-				<sortVariableValues>0</sortVariableValues>
-			</checkpoint>
-			<timestamp>Feb 20 09:22:12 2025</timestamp>
-			<uuid>{1d964426-0fb1-4a8a-94c6-79923857dd62}</uuid>
-			<resultsname>/home/saul/projects/FIL3601/DAY4/Series/adexl/results/data/Interactive.22.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.22.rdb</simresults>
-			<rawdatadelstrategy>SaveAll
-				<simdatasavemode>All</simdatasavemode>
-			</rawdatadelstrategy>
-			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
-			<netlistdelstrategy>SaveAll</netlistdelstrategy>
-			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/s2424_saul_092212136</localpsfdir>
-			<psfdir>/home/saul/projects/FIL3601/Sim/DAY4/Series/adexl/results/data/Interactive.22</psfdir>
-			<simdir>$AXL_PROJECT_DIR/DAY4/Series/adexl/results/data/Interactive.22</simdir>
-			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
-			<runlog>/home/saul/projects/FIL3601/DAY4/Series/adexl/results/data/Interactive.22.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.22.log</runlogfile>
-			<schematicpoint></schematicpoint>
-			<test>all</test>
-		</historyentry>
-		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.23
-			<checkpoint>
-				<corners>
-					<corner enabled="1">_default</corner>
-				</corners>
-				<extensions>
-					<extension>Parasitics
-						<callback>_parSetupDBExtensionCB</callback>
-						<iconvalue></iconvalue>
-						<icontype></icontype>
-					</extension>
-				</extensions>
-				<currentmode>Single Run, Sweeps and Corners</currentmode>
-				<overwritehistory>0</overwritehistory>
-				<tests>
-					<test enabled="1">Af
-						<tool>ADE</tool>
-						<tooloptions>
-							<option>cell
-								<value>Series</value>
-							</option>
-							<option>lib
-								<value>DAY4</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>state
-								<value>Af_none_Interactive.23</value>
-							</option>
-						</tooloptions>
-						<origoptions>
-							<option>cell
-								<value>Series</value>
-							</option>
-							<option>lib
-								<value>DAY4</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</origoptions>
-					</test>
-					<test enabled="1">Asymptotic
-						<tool>ADE</tool>
-						<tooloptions>
-							<option>cell
-								<value>Series</value>
-							</option>
-							<option>lib
-								<value>DAY4</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>state
-								<value>Asymptotic_Af:1_state_Interactive.23</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</tooloptions>
-						<prerunscript>0</prerunscript>
-						<origoptions>
-							<option>cell
-								<value>Series</value>
-							</option>
-							<option>lib
-								<value>DAY4</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>state
-								<value>Af:1_state</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</origoptions>
-						<outputs></outputs>
-					</test>
-					<test enabled="1">LoopGain
-						<tool>ADE</tool>
-						<tooloptions>
-							<option>cell
-								<value>Series</value>
-							</option>
-							<option>lib
-								<value>DAY4</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>state
-								<value>LoopGain_Af:1_state_Interactive.23</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</tooloptions>
-						<prerunscript>0</prerunscript>
-						<origoptions>
-							<option>cell
-								<value>Series</value>
-							</option>
-							<option>lib
-								<value>DAY4</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>state
-								<value>Af:1_state</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</origoptions>
-						<outputs>
-							<output>AB
-								<evalType>point</evalType>
-							</output>
-						</outputs>
-					</test>
-					<test enabled="1">rootlocus
-						<tool>ADE</tool>
-						<tooloptions>
-							<option>cell
-								<value>Series</value>
-							</option>
-							<option>lib
-								<value>DAY4</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>state
-								<value>rootlocus_Af:1_state_Interactive.23</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</tooloptions>
-						<prerunscript>0</prerunscript>
-						<origoptions>
-							<option>cell
-								<value>Series</value>
-							</option>
-							<option>lib
-								<value>DAY4</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>state
-								<value>Af:1_state</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</origoptions>
-					</test>
-				</tests>
-				<vars>
-					<var>cdb1
-						<value>160f</value>
-						<dependentTests>
-							<dependentTest enabled="1">Af</dependentTest>
-							<dependentTest enabled="1">Asymptotic</dependentTest>
-							<dependentTest enabled="1">LoopGain</dependentTest>
-							<dependentTest enabled="1">rootlocus</dependentTest>
-						</dependentTests>
-					</var>
-					<var>cds1
-						<value>46.01f</value>
-						<dependentTests>
-							<dependentTest enabled="1">Af</dependentTest>
-							<dependentTest enabled="1">Asymptotic</dependentTest>
-							<dependentTest enabled="1">LoopGain</dependentTest>
-							<dependentTest enabled="1">rootlocus</dependentTest>
-						</dependentTests>
-					</var>
-					<var>cgb1
-						<value>160.37f</value>
-						<dependentTests>
-							<dependentTest enabled="1">Af</dependentTest>
-							<dependentTest enabled="1">Asymptotic</dependentTest>
-							<dependentTest enabled="1">LoopGain</dependentTest>
-							<dependentTest enabled="1">rootlocus</dependentTest>
-						</dependentTests>
-					</var>
-					<var>cgd1
-						<value>26.40f</value>
-						<dependentTests>
-							<dependentTest enabled="1">Af</dependentTest>
-							<dependentTest enabled="1">Asymptotic</dependentTest>
-							<dependentTest enabled="1">LoopGain</dependentTest>
-							<dependentTest enabled="1">rootlocus</dependentTest>
-						</dependentTests>
-					</var>
-					<var>cgs1
-						<value>112.78f</value>
-						<dependentTests>
-							<dependentTest enabled="1">Af</dependentTest>
-							<dependentTest enabled="1">Asymptotic</dependentTest>
-							<dependentTest enabled="1">LoopGain</dependentTest>
-							<dependentTest enabled="1">rootlocus</dependentTest>
-						</dependentTests>
-					</var>
-					<var enabled="0">gm1
-						<value>0.227m</value>
-						<dependentTests>
-							<dependentTest enabled="0">Af</dependentTest>
-							<dependentTest enabled="1">Asymptotic</dependentTest>
-							<dependentTest enabled="0">LoopGain</dependentTest>
-							<dependentTest enabled="0">rootlocus</dependentTest>
-						</dependentTests>
-					</var>
-					<var>rds1
-						<value>23893065.17</value>
-						<dependentTests>
-							<dependentTest enabled="1">Af</dependentTest>
-							<dependentTest enabled="1">Asymptotic</dependentTest>
-							<dependentTest enabled="1">LoopGain</dependentTest>
-							<dependentTest enabled="1">rootlocus</dependentTest>
-						</dependentTests>
-					</var>
-					<var enabled="0">VIN
-						<value>0</value>
-						<dependentTests>
-							<dependentTest enabled="1">Af</dependentTest>
-							<dependentTest enabled="1">Asymptotic</dependentTest>
-							<dependentTest enabled="0">LoopGain</dependentTest>
-							<dependentTest enabled="1">rootlocus</dependentTest>
-						</dependentTests>
-					</var>
-					<var enabled="0">IT
-						<value>1</value>
-						<dependentTests>
-							<dependentTest enabled="0" omitted="0">Af</dependentTest>
-							<dependentTest omitted="0">Asymptotic</dependentTest>
-							<dependentTest enabled="0">LoopGain</dependentTest>
-							<dependentTest enabled="0">rootlocus</dependentTest>
-						</dependentTests>
-					</var>
-					<var>gm
-						<value>0.227m</value>
-						<dependentTests>
-							<dependentTest omitted="0">LoopGain</dependentTest>
-							<dependentTest enabled="1">rootlocus</dependentTest>
-						</dependentTests>
-					</var>
-				</vars>
-				<overwritehistoryname>Interactive.0</overwritehistoryname>
-				<plottingoptions>
-					<plottingoption>plottingmode
-						<value>Replace</value>
-					</plottingoption>
-					<plottingoption>plottype
-						<value>None</value>
-					</plottingoption>
-					<plottingoption>usewaveformtemplate
-						<value>no</value>
-					</plottingoption>
-					<plottingoption>useMaestroPlottingTemplate
-						<value>yes</value>
-					</plottingoption>
-					<plottingoption>waveformtemplate
-						<value></value>
-					</plottingoption>
-					<plottingoption>allplottingtemplates
-						<value></value>
-					</plottingoption>
-					<plottingoption>defaultplottingtemplate
-						<value></value>
-					</plottingoption>
-					<plottingoption>distributedplot_enabled
-						<value>no</value>
-					</plottingoption>
-				</plottingoptions>
-				<jobpolicyname>ADE XL Default</jobpolicyname>
-				<disabledtests></disabledtests>
-				<sortVariableValues>0</sortVariableValues>
-			</checkpoint>
-			<timestamp>Feb 20 09:23:12 2025</timestamp>
-			<uuid>{712359fb-9016-4179-91b5-61c8b15415d3}</uuid>
-			<resultsname>/home/saul/projects/FIL3601/DAY4/Series/adexl/results/data/Interactive.23.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.23.rdb</simresults>
-			<rawdatadelstrategy>SaveAll
-				<simdatasavemode>All</simdatasavemode>
-			</rawdatadelstrategy>
-			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
-			<netlistdelstrategy>SaveAll</netlistdelstrategy>
-			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/s2424_saul_092312163</localpsfdir>
-			<psfdir>/home/saul/projects/FIL3601/Sim/DAY4/Series/adexl/results/data/Interactive.23</psfdir>
-			<simdir>$AXL_PROJECT_DIR/DAY4/Series/adexl/results/data/Interactive.23</simdir>
-			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
-			<runlog>/home/saul/projects/FIL3601/DAY4/Series/adexl/results/data/Interactive.23.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.23.log</runlogfile>
-			<schematicpoint></schematicpoint>
-			<test>all</test>
-		</historyentry>
-		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.24
-			<checkpoint>
-				<corners>
-					<corner enabled="1">_default</corner>
-				</corners>
-				<extensions>
-					<extension>Parasitics
-						<callback>_parSetupDBExtensionCB</callback>
-						<iconvalue></iconvalue>
-						<icontype></icontype>
-					</extension>
-				</extensions>
-				<currentmode>Single Run, Sweeps and Corners</currentmode>
-				<overwritehistory>0</overwritehistory>
-				<tests>
-					<test enabled="1">Af
-						<tool>ADE</tool>
-						<tooloptions>
-							<option>cell
-								<value>Series</value>
-							</option>
-							<option>lib
-								<value>DAY4</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>state
-								<value>Af_none_Interactive.24</value>
-							</option>
-						</tooloptions>
-						<origoptions>
-							<option>cell
-								<value>Series</value>
-							</option>
-							<option>lib
-								<value>DAY4</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</origoptions>
-					</test>
-					<test enabled="1">Asymptotic
-						<tool>ADE</tool>
-						<tooloptions>
-							<option>cell
-								<value>Series</value>
-							</option>
-							<option>lib
-								<value>DAY4</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>state
-								<value>Asymptotic_Af:1_state_Interactive.24</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</tooloptions>
-						<prerunscript>0</prerunscript>
-						<origoptions>
-							<option>cell
-								<value>Series</value>
-							</option>
-							<option>lib
-								<value>DAY4</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>state
-								<value>Af:1_state</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</origoptions>
-						<outputs></outputs>
-					</test>
-					<test enabled="1">LoopGain
-						<tool>ADE</tool>
-						<tooloptions>
-							<option>cell
-								<value>Series</value>
-							</option>
-							<option>lib
-								<value>DAY4</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>state
-								<value>LoopGain_Af:1_state_Interactive.24</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</tooloptions>
-						<prerunscript>0</prerunscript>
-						<origoptions>
-							<option>cell
-								<value>Series</value>
-							</option>
-							<option>lib
-								<value>DAY4</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>state
-								<value>Af:1_state</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</origoptions>
-						<outputs>
-							<output>AB
-								<evalType>point</evalType>
-							</output>
-						</outputs>
-					</test>
-					<test enabled="1">rootlocus
-						<tool>ADE</tool>
-						<tooloptions>
-							<option>cell
-								<value>Series</value>
-							</option>
-							<option>lib
-								<value>DAY4</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>state
-								<value>rootlocus_Af:1_state_Interactive.24</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</tooloptions>
-						<prerunscript>0</prerunscript>
-						<origoptions>
-							<option>cell
-								<value>Series</value>
-							</option>
-							<option>lib
-								<value>DAY4</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>state
-								<value>Af:1_state</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</origoptions>
-					</test>
-				</tests>
-				<vars>
-					<var>cdb1
-						<value>160f</value>
-						<dependentTests>
-							<dependentTest enabled="1">Af</dependentTest>
-							<dependentTest enabled="1">Asymptotic</dependentTest>
-							<dependentTest enabled="1">LoopGain</dependentTest>
-							<dependentTest enabled="1">rootlocus</dependentTest>
-						</dependentTests>
-					</var>
-					<var>cds1
-						<value>46.01f</value>
-						<dependentTests>
-							<dependentTest enabled="1">Af</dependentTest>
-							<dependentTest enabled="1">Asymptotic</dependentTest>
-							<dependentTest enabled="1">LoopGain</dependentTest>
-							<dependentTest enabled="1">rootlocus</dependentTest>
-						</dependentTests>
-					</var>
-					<var>cgb1
-						<value>160.37f</value>
-						<dependentTests>
-							<dependentTest enabled="1">Af</dependentTest>
-							<dependentTest enabled="1">Asymptotic</dependentTest>
-							<dependentTest enabled="1">LoopGain</dependentTest>
-							<dependentTest enabled="1">rootlocus</dependentTest>
-						</dependentTests>
-					</var>
-					<var>cgd1
-						<value>26.40f</value>
-						<dependentTests>
-							<dependentTest enabled="1">Af</dependentTest>
-							<dependentTest enabled="1">Asymptotic</dependentTest>
-							<dependentTest enabled="1">LoopGain</dependentTest>
-							<dependentTest enabled="1">rootlocus</dependentTest>
-						</dependentTests>
-					</var>
-					<var>cgs1
-						<value>112.78f</value>
-						<dependentTests>
-							<dependentTest enabled="1">Af</dependentTest>
-							<dependentTest enabled="1">Asymptotic</dependentTest>
-							<dependentTest enabled="1">LoopGain</dependentTest>
-							<dependentTest enabled="1">rootlocus</dependentTest>
-						</dependentTests>
-					</var>
-					<var enabled="0">gm1
-						<value>0.227m</value>
-						<dependentTests>
-							<dependentTest enabled="0">Af</dependentTest>
-							<dependentTest enabled="1">Asymptotic</dependentTest>
-							<dependentTest enabled="0">LoopGain</dependentTest>
-							<dependentTest enabled="0">rootlocus</dependentTest>
-						</dependentTests>
-					</var>
-					<var>rds1
-						<value>23893065.17</value>
-						<dependentTests>
-							<dependentTest enabled="1">Af</dependentTest>
-							<dependentTest enabled="1">Asymptotic</dependentTest>
-							<dependentTest enabled="1">LoopGain</dependentTest>
-							<dependentTest enabled="1">rootlocus</dependentTest>
-						</dependentTests>
-					</var>
-					<var enabled="0">VIN
-						<value>0</value>
-						<dependentTests>
-							<dependentTest enabled="1">Af</dependentTest>
-							<dependentTest enabled="1">Asymptotic</dependentTest>
-							<dependentTest enabled="0">LoopGain</dependentTest>
-							<dependentTest enabled="1">rootlocus</dependentTest>
-						</dependentTests>
-					</var>
-					<var enabled="0">IT
-						<value>1</value>
-						<dependentTests>
-							<dependentTest enabled="0" omitted="0">Af</dependentTest>
-							<dependentTest omitted="0">Asymptotic</dependentTest>
-							<dependentTest enabled="0">LoopGain</dependentTest>
-							<dependentTest enabled="0">rootlocus</dependentTest>
-						</dependentTests>
-					</var>
-					<var>gm
-						<value>0.227m</value>
-						<dependentTests>
-							<dependentTest omitted="0">LoopGain</dependentTest>
-							<dependentTest enabled="1">rootlocus</dependentTest>
-						</dependentTests>
-					</var>
-				</vars>
-				<overwritehistoryname>Interactive.0</overwritehistoryname>
-				<plottingoptions>
-					<plottingoption>plottingmode
-						<value>Replace</value>
-					</plottingoption>
-					<plottingoption>plottype
-						<value>None</value>
-					</plottingoption>
-					<plottingoption>usewaveformtemplate
-						<value>no</value>
-					</plottingoption>
-					<plottingoption>useMaestroPlottingTemplate
-						<value>yes</value>
-					</plottingoption>
-					<plottingoption>waveformtemplate
-						<value></value>
-					</plottingoption>
-					<plottingoption>allplottingtemplates
-						<value></value>
-					</plottingoption>
-					<plottingoption>defaultplottingtemplate
-						<value></value>
-					</plottingoption>
-					<plottingoption>distributedplot_enabled
-						<value>no</value>
-					</plottingoption>
-				</plottingoptions>
-				<jobpolicyname>ADE XL Default</jobpolicyname>
-				<disabledtests></disabledtests>
-				<sortVariableValues>0</sortVariableValues>
-			</checkpoint>
-			<timestamp>Feb 20 09:28:23 2025</timestamp>
-			<uuid>{7dc15a07-d013-4610-b411-bce476ea2380}</uuid>
-			<resultsname>/home/saul/projects/FIL3601/DAY4/Series/adexl/results/data/Interactive.24.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.24.rdb</simresults>
-			<rawdatadelstrategy>SaveAll
-				<simdatasavemode>All</simdatasavemode>
-			</rawdatadelstrategy>
-			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
-			<netlistdelstrategy>SaveAll</netlistdelstrategy>
-			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/s2424_saul_092823248</localpsfdir>
-			<psfdir>/home/saul/projects/FIL3601/Sim/DAY4/Series/adexl/results/data/Interactive.24</psfdir>
-			<simdir>$AXL_PROJECT_DIR/DAY4/Series/adexl/results/data/Interactive.24</simdir>
-			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
-			<runlog>/home/saul/projects/FIL3601/DAY4/Series/adexl/results/data/Interactive.24.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.24.log</runlogfile>
-			<schematicpoint></schematicpoint>
-			<test>all</test>
-		</historyentry>
-		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.25
-			<checkpoint>
-				<corners>
-					<corner enabled="1">_default</corner>
-				</corners>
-				<extensions>
-					<extension>Parasitics
-						<callback>_parSetupDBExtensionCB</callback>
-						<iconvalue></iconvalue>
-						<icontype></icontype>
-					</extension>
-				</extensions>
-				<currentmode>Single Run, Sweeps and Corners</currentmode>
-				<overwritehistory>0</overwritehistory>
-				<tests>
-					<test enabled="1">Af
-						<tool>ADE</tool>
-						<tooloptions>
-							<option>cell
-								<value>Series</value>
-							</option>
-							<option>lib
-								<value>DAY4</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>state
-								<value>Af_none_Interactive.25</value>
-							</option>
-						</tooloptions>
-						<origoptions>
-							<option>cell
-								<value>Series</value>
-							</option>
-							<option>lib
-								<value>DAY4</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</origoptions>
-					</test>
-					<test enabled="1">Asymptotic
-						<tool>ADE</tool>
-						<tooloptions>
-							<option>cell
-								<value>Series</value>
-							</option>
-							<option>lib
-								<value>DAY4</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>state
-								<value>Asymptotic_Af:1_state_Interactive.25</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</tooloptions>
-						<prerunscript>0</prerunscript>
-						<origoptions>
-							<option>cell
-								<value>Series</value>
-							</option>
-							<option>lib
-								<value>DAY4</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>state
-								<value>Af:1_state</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</origoptions>
-						<outputs></outputs>
-					</test>
-					<test enabled="1">LoopGain
-						<tool>ADE</tool>
-						<tooloptions>
-							<option>cell
-								<value>Series</value>
-							</option>
-							<option>lib
-								<value>DAY4</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>state
-								<value>LoopGain_Af:1_state_Interactive.25</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</tooloptions>
-						<prerunscript>0</prerunscript>
-						<origoptions>
-							<option>cell
-								<value>Series</value>
-							</option>
-							<option>lib
-								<value>DAY4</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>state
-								<value>Af:1_state</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</origoptions>
-						<outputs>
-							<output>AB
-								<evalType>point</evalType>
-							</output>
-						</outputs>
-					</test>
-					<test enabled="1">rootlocus
-						<tool>ADE</tool>
-						<tooloptions>
-							<option>cell
-								<value>Series</value>
-							</option>
-							<option>lib
-								<value>DAY4</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>state
-								<value>rootlocus_Af:1_state_Interactive.25</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</tooloptions>
-						<prerunscript>0</prerunscript>
-						<origoptions>
-							<option>cell
-								<value>Series</value>
-							</option>
-							<option>lib
-								<value>DAY4</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>state
-								<value>Af:1_state</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</origoptions>
-					</test>
-				</tests>
-				<vars>
-					<var>cdb1
-						<value>160f</value>
-						<dependentTests>
-							<dependentTest enabled="1">Af</dependentTest>
-							<dependentTest enabled="1">Asymptotic</dependentTest>
-							<dependentTest enabled="1">LoopGain</dependentTest>
-							<dependentTest enabled="1">rootlocus</dependentTest>
-						</dependentTests>
-					</var>
-					<var>cds1
-						<value>46.01f</value>
-						<dependentTests>
-							<dependentTest enabled="1">Af</dependentTest>
-							<dependentTest enabled="1">Asymptotic</dependentTest>
-							<dependentTest enabled="1">LoopGain</dependentTest>
-							<dependentTest enabled="1">rootlocus</dependentTest>
-						</dependentTests>
-					</var>
-					<var>cgb1
-						<value>160.37f</value>
-						<dependentTests>
-							<dependentTest enabled="1">Af</dependentTest>
-							<dependentTest enabled="1">Asymptotic</dependentTest>
-							<dependentTest enabled="1">LoopGain</dependentTest>
-							<dependentTest enabled="1">rootlocus</dependentTest>
-						</dependentTests>
-					</var>
-					<var>cgd1
-						<value>26.40f</value>
-						<dependentTests>
-							<dependentTest enabled="1">Af</dependentTest>
-							<dependentTest enabled="1">Asymptotic</dependentTest>
-							<dependentTest enabled="1">LoopGain</dependentTest>
-							<dependentTest enabled="1">rootlocus</dependentTest>
-						</dependentTests>
-					</var>
-					<var>cgs1
-						<value>112.78f</value>
-						<dependentTests>
-							<dependentTest enabled="1">Af</dependentTest>
-							<dependentTest enabled="1">Asymptotic</dependentTest>
-							<dependentTest enabled="1">LoopGain</dependentTest>
-							<dependentTest enabled="1">rootlocus</dependentTest>
-						</dependentTests>
-					</var>
-					<var enabled="0">gm1
-						<value>0.227m</value>
-						<dependentTests>
-							<dependentTest enabled="0">Af</dependentTest>
-							<dependentTest enabled="1">Asymptotic</dependentTest>
-							<dependentTest enabled="0">LoopGain</dependentTest>
-							<dependentTest enabled="0">rootlocus</dependentTest>
-						</dependentTests>
-					</var>
-					<var>rds1
-						<value>23893065.17</value>
-						<dependentTests>
-							<dependentTest enabled="1">Af</dependentTest>
-							<dependentTest enabled="1">Asymptotic</dependentTest>
-							<dependentTest enabled="1">LoopGain</dependentTest>
-							<dependentTest enabled="1">rootlocus</dependentTest>
-						</dependentTests>
-					</var>
-					<var enabled="0">VIN
-						<value>0</value>
-						<dependentTests>
-							<dependentTest enabled="1">Af</dependentTest>
-							<dependentTest enabled="1">Asymptotic</dependentTest>
-							<dependentTest enabled="0">LoopGain</dependentTest>
-							<dependentTest enabled="1">rootlocus</dependentTest>
-						</dependentTests>
-					</var>
-					<var enabled="0">IT
-						<value>1</value>
-						<dependentTests>
-							<dependentTest enabled="0" omitted="0">Af</dependentTest>
-							<dependentTest omitted="0">Asymptotic</dependentTest>
-							<dependentTest enabled="0">LoopGain</dependentTest>
-							<dependentTest enabled="0">rootlocus</dependentTest>
-						</dependentTests>
-					</var>
-					<var>gm
-						<value>0.227m</value>
-						<dependentTests>
-							<dependentTest omitted="0">LoopGain</dependentTest>
-							<dependentTest enabled="1">rootlocus</dependentTest>
-						</dependentTests>
-					</var>
-				</vars>
-				<overwritehistoryname>Interactive.0</overwritehistoryname>
-				<plottingoptions>
-					<plottingoption>plottingmode
-						<value>Replace</value>
-					</plottingoption>
-					<plottingoption>plottype
-						<value>None</value>
-					</plottingoption>
-					<plottingoption>usewaveformtemplate
-						<value>no</value>
-					</plottingoption>
-					<plottingoption>useMaestroPlottingTemplate
-						<value>yes</value>
-					</plottingoption>
-					<plottingoption>waveformtemplate
-						<value></value>
-					</plottingoption>
-					<plottingoption>allplottingtemplates
-						<value></value>
-					</plottingoption>
-					<plottingoption>defaultplottingtemplate
-						<value></value>
-					</plottingoption>
-					<plottingoption>distributedplot_enabled
-						<value>no</value>
-					</plottingoption>
-				</plottingoptions>
-				<jobpolicyname>ADE XL Default</jobpolicyname>
-				<disabledtests></disabledtests>
-				<sortVariableValues>0</sortVariableValues>
-			</checkpoint>
-			<timestamp>Feb 20 09:43:33 2025</timestamp>
-			<uuid>{7f3ac7cf-c8c1-4d27-ae9a-c7c54797838b}</uuid>
-			<resultsname>/home/saul/projects/FIL3601/DAY4/Series/adexl/results/data/Interactive.25.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.25.rdb</simresults>
-			<rawdatadelstrategy>SaveAll
-				<simdatasavemode>All</simdatasavemode>
-			</rawdatadelstrategy>
-			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
-			<netlistdelstrategy>SaveAll</netlistdelstrategy>
-			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/s2424_saul_094333128</localpsfdir>
-			<psfdir>/home/saul/projects/FIL3601/Sim/DAY4/Series/adexl/results/data/Interactive.25</psfdir>
-			<simdir>$AXL_PROJECT_DIR/DAY4/Series/adexl/results/data/Interactive.25</simdir>
-			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
-			<runlog>/home/saul/projects/FIL3601/DAY4/Series/adexl/results/data/Interactive.25.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.25.log</runlogfile>
-			<schematicpoint></schematicpoint>
-			<test>all</test>
-		</historyentry>
-		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.26
-			<checkpoint>
-				<corners>
-					<corner enabled="1">_default</corner>
-				</corners>
-				<extensions>
-					<extension>Parasitics
-						<callback>_parSetupDBExtensionCB</callback>
-						<iconvalue></iconvalue>
-						<icontype></icontype>
-					</extension>
-				</extensions>
-				<currentmode>Single Run, Sweeps and Corners</currentmode>
-				<overwritehistory>0</overwritehistory>
-				<tests>
-					<test enabled="1">Af
-						<tool>ADE</tool>
-						<tooloptions>
-							<option>cell
-								<value>Series</value>
-							</option>
-							<option>lib
-								<value>DAY4</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>state
-								<value>Af_none_Interactive.26</value>
-							</option>
-						</tooloptions>
-						<origoptions>
-							<option>cell
-								<value>Series</value>
-							</option>
-							<option>lib
-								<value>DAY4</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</origoptions>
-					</test>
-					<test enabled="1">Asymptotic
-						<tool>ADE</tool>
-						<tooloptions>
-							<option>cell
-								<value>Series</value>
-							</option>
-							<option>lib
-								<value>DAY4</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>state
-								<value>Asymptotic_Af:1_state_Interactive.26</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</tooloptions>
-						<prerunscript>0</prerunscript>
-						<origoptions>
-							<option>cell
-								<value>Series</value>
-							</option>
-							<option>lib
-								<value>DAY4</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>state
-								<value>Af:1_state</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</origoptions>
-						<outputs></outputs>
-					</test>
-					<test enabled="1">LoopGain
-						<tool>ADE</tool>
-						<tooloptions>
-							<option>cell
-								<value>Series</value>
-							</option>
-							<option>lib
-								<value>DAY4</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>state
-								<value>LoopGain_Af:1_state_Interactive.26</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</tooloptions>
-						<prerunscript>0</prerunscript>
-						<origoptions>
-							<option>cell
-								<value>Series</value>
-							</option>
-							<option>lib
-								<value>DAY4</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>state
-								<value>Af:1_state</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</origoptions>
-						<outputs>
-							<output>AB
-								<evalType>point</evalType>
-							</output>
-						</outputs>
-					</test>
-					<test enabled="1">rootlocus
-						<tool>ADE</tool>
-						<tooloptions>
-							<option>cell
-								<value>Series</value>
-							</option>
-							<option>lib
-								<value>DAY4</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>state
-								<value>rootlocus_Af:1_state_Interactive.26</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</tooloptions>
-						<prerunscript>0</prerunscript>
-						<origoptions>
-							<option>cell
-								<value>Series</value>
-							</option>
-							<option>lib
-								<value>DAY4</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>state
-								<value>Af:1_state</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</origoptions>
-					</test>
-				</tests>
-				<vars>
-					<var>cdb1
-						<value>160f</value>
-						<dependentTests>
-							<dependentTest enabled="1">Af</dependentTest>
-							<dependentTest enabled="1">Asymptotic</dependentTest>
-							<dependentTest enabled="1">LoopGain</dependentTest>
-							<dependentTest enabled="1">rootlocus</dependentTest>
-						</dependentTests>
-					</var>
-					<var>cds1
-						<value>46.01f</value>
-						<dependentTests>
-							<dependentTest enabled="1">Af</dependentTest>
-							<dependentTest enabled="1">Asymptotic</dependentTest>
-							<dependentTest enabled="1">LoopGain</dependentTest>
-							<dependentTest enabled="1">rootlocus</dependentTest>
-						</dependentTests>
-					</var>
-					<var>cgb1
-						<value>160.37f</value>
-						<dependentTests>
-							<dependentTest enabled="1">Af</dependentTest>
-							<dependentTest enabled="1">Asymptotic</dependentTest>
-							<dependentTest enabled="1">LoopGain</dependentTest>
-							<dependentTest enabled="1">rootlocus</dependentTest>
-						</dependentTests>
-					</var>
-					<var>cgd1
-						<value>26.40f</value>
-						<dependentTests>
-							<dependentTest enabled="1">Af</dependentTest>
-							<dependentTest enabled="1">Asymptotic</dependentTest>
-							<dependentTest enabled="1">LoopGain</dependentTest>
-							<dependentTest enabled="1">rootlocus</dependentTest>
-						</dependentTests>
-					</var>
-					<var>cgs1
-						<value>112.78f</value>
-						<dependentTests>
-							<dependentTest enabled="1">Af</dependentTest>
-							<dependentTest enabled="1">Asymptotic</dependentTest>
-							<dependentTest enabled="1">LoopGain</dependentTest>
-							<dependentTest enabled="1">rootlocus</dependentTest>
-						</dependentTests>
-					</var>
-					<var enabled="0">gm1
-						<value>0.227m</value>
-						<dependentTests>
-							<dependentTest enabled="0">Af</dependentTest>
-							<dependentTest enabled="1">Asymptotic</dependentTest>
-							<dependentTest enabled="0">LoopGain</dependentTest>
-							<dependentTest enabled="0">rootlocus</dependentTest>
-						</dependentTests>
-					</var>
-					<var>rds1
-						<value>23893065.17</value>
-						<dependentTests>
-							<dependentTest enabled="1">Af</dependentTest>
-							<dependentTest enabled="1">Asymptotic</dependentTest>
-							<dependentTest enabled="1">LoopGain</dependentTest>
-							<dependentTest enabled="1">rootlocus</dependentTest>
-						</dependentTests>
-					</var>
-					<var enabled="0">VIN
-						<value>0</value>
-						<dependentTests>
-							<dependentTest enabled="1">Af</dependentTest>
-							<dependentTest enabled="1">Asymptotic</dependentTest>
-							<dependentTest enabled="0">LoopGain</dependentTest>
-							<dependentTest enabled="1">rootlocus</dependentTest>
-						</dependentTests>
-					</var>
-					<var enabled="0">IT
-						<value>1</value>
-						<dependentTests>
-							<dependentTest enabled="0" omitted="0">Af</dependentTest>
-							<dependentTest omitted="0">Asymptotic</dependentTest>
-							<dependentTest enabled="0">LoopGain</dependentTest>
-							<dependentTest enabled="0">rootlocus</dependentTest>
-						</dependentTests>
-					</var>
-					<var>gm
-						<value>0.227m</value>
-						<dependentTests>
-							<dependentTest omitted="0">LoopGain</dependentTest>
-							<dependentTest enabled="1">rootlocus</dependentTest>
-						</dependentTests>
-					</var>
-				</vars>
-				<overwritehistoryname>Interactive.0</overwritehistoryname>
-				<plottingoptions>
-					<plottingoption>plottingmode
-						<value>Replace</value>
-					</plottingoption>
-					<plottingoption>plottype
-						<value>None</value>
-					</plottingoption>
-					<plottingoption>usewaveformtemplate
-						<value>no</value>
-					</plottingoption>
-					<plottingoption>useMaestroPlottingTemplate
-						<value>yes</value>
-					</plottingoption>
-					<plottingoption>waveformtemplate
-						<value></value>
-					</plottingoption>
-					<plottingoption>allplottingtemplates
-						<value></value>
-					</plottingoption>
-					<plottingoption>defaultplottingtemplate
-						<value></value>
-					</plottingoption>
-					<plottingoption>distributedplot_enabled
-						<value>no</value>
-					</plottingoption>
-				</plottingoptions>
-				<jobpolicyname>ADE XL Default</jobpolicyname>
-				<disabledtests></disabledtests>
-				<sortVariableValues>0</sortVariableValues>
-			</checkpoint>
-			<timestamp>Feb 20 09:44:11 2025</timestamp>
-			<uuid>{2dfe5fa1-75b4-409b-acb4-2b3a323b7fb1}</uuid>
-			<resultsname>/home/saul/projects/FIL3601/DAY4/Series/adexl/results/data/Interactive.26.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.26.rdb</simresults>
-			<rawdatadelstrategy>SaveAll
-				<simdatasavemode>All</simdatasavemode>
-			</rawdatadelstrategy>
-			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
-			<netlistdelstrategy>SaveAll</netlistdelstrategy>
-			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/s2424_saul_094411498</localpsfdir>
-			<psfdir>/home/saul/projects/FIL3601/Sim/DAY4/Series/adexl/results/data/Interactive.26</psfdir>
-			<simdir>$AXL_PROJECT_DIR/DAY4/Series/adexl/results/data/Interactive.26</simdir>
-			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
-			<runlog>/home/saul/projects/FIL3601/DAY4/Series/adexl/results/data/Interactive.26.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.26.log</runlogfile>
-			<schematicpoint></schematicpoint>
-			<test>all</test>
-		</historyentry>
-		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.27
-			<checkpoint>
-				<corners>
-					<corner enabled="1">_default</corner>
-				</corners>
-				<extensions>
-					<extension>Parasitics
-						<callback>_parSetupDBExtensionCB</callback>
-						<iconvalue></iconvalue>
-						<icontype></icontype>
-					</extension>
-				</extensions>
-				<currentmode>Single Run, Sweeps and Corners</currentmode>
-				<overwritehistory>0</overwritehistory>
-				<tests>
-					<test enabled="1">Af
-						<tool>ADE</tool>
-						<tooloptions>
-							<option>cell
-								<value>Series</value>
-							</option>
-							<option>lib
-								<value>DAY4</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>state
-								<value>Af_none_Interactive.27</value>
-							</option>
-						</tooloptions>
-						<origoptions>
-							<option>cell
-								<value>Series</value>
-							</option>
-							<option>lib
-								<value>DAY4</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</origoptions>
-					</test>
-					<test enabled="1">Asymptotic
-						<tool>ADE</tool>
-						<tooloptions>
-							<option>cell
-								<value>Series</value>
-							</option>
-							<option>lib
-								<value>DAY4</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>state
-								<value>Asymptotic_Af:1_state_Interactive.27</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</tooloptions>
-						<prerunscript>0</prerunscript>
-						<origoptions>
-							<option>cell
-								<value>Series</value>
-							</option>
-							<option>lib
-								<value>DAY4</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>state
-								<value>Af:1_state</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</origoptions>
-						<outputs></outputs>
-					</test>
-					<test enabled="1">LoopGain
-						<tool>ADE</tool>
-						<tooloptions>
-							<option>cell
-								<value>Series</value>
-							</option>
-							<option>lib
-								<value>DAY4</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>state
-								<value>LoopGain_Af:1_state_Interactive.27</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</tooloptions>
-						<prerunscript>0</prerunscript>
-						<origoptions>
-							<option>cell
-								<value>Series</value>
-							</option>
-							<option>lib
-								<value>DAY4</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>state
-								<value>Af:1_state</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</origoptions>
-						<outputs>
-							<output>AB
-								<evalType>point</evalType>
-							</output>
-						</outputs>
-					</test>
-					<test enabled="1">rootlocus
-						<tool>ADE</tool>
-						<tooloptions>
-							<option>cell
-								<value>Series</value>
-							</option>
-							<option>lib
-								<value>DAY4</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>state
-								<value>rootlocus_Af:1_state_Interactive.27</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</tooloptions>
-						<prerunscript>0</prerunscript>
-						<origoptions>
-							<option>cell
-								<value>Series</value>
-							</option>
-							<option>lib
-								<value>DAY4</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>state
-								<value>Af:1_state</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</origoptions>
-					</test>
-				</tests>
-				<vars>
-					<var>cdb1
-						<value>160f</value>
-						<dependentTests>
-							<dependentTest enabled="1">Af</dependentTest>
-							<dependentTest enabled="1">Asymptotic</dependentTest>
-							<dependentTest enabled="1">LoopGain</dependentTest>
-							<dependentTest enabled="1">rootlocus</dependentTest>
-						</dependentTests>
-					</var>
-					<var>cds1
-						<value>46.01f</value>
-						<dependentTests>
-							<dependentTest enabled="1">Af</dependentTest>
-							<dependentTest enabled="1">Asymptotic</dependentTest>
-							<dependentTest enabled="1">LoopGain</dependentTest>
-							<dependentTest enabled="1">rootlocus</dependentTest>
-						</dependentTests>
-					</var>
-					<var>cgb1
-						<value>160.37f</value>
-						<dependentTests>
-							<dependentTest enabled="1">Af</dependentTest>
-							<dependentTest enabled="1">Asymptotic</dependentTest>
-							<dependentTest enabled="1">LoopGain</dependentTest>
-							<dependentTest enabled="1">rootlocus</dependentTest>
-						</dependentTests>
-					</var>
-					<var>cgd1
-						<value>26.40f</value>
-						<dependentTests>
-							<dependentTest enabled="1">Af</dependentTest>
-							<dependentTest enabled="1">Asymptotic</dependentTest>
-							<dependentTest enabled="1">LoopGain</dependentTest>
-							<dependentTest enabled="1">rootlocus</dependentTest>
-						</dependentTests>
-					</var>
-					<var>cgs1
-						<value>112.78f</value>
-						<dependentTests>
-							<dependentTest enabled="1">Af</dependentTest>
-							<dependentTest enabled="1">Asymptotic</dependentTest>
-							<dependentTest enabled="1">LoopGain</dependentTest>
-							<dependentTest enabled="1">rootlocus</dependentTest>
-						</dependentTests>
-					</var>
-					<var enabled="0">gm1
-						<value>0.227m</value>
-						<dependentTests>
-							<dependentTest enabled="0">Af</dependentTest>
-							<dependentTest enabled="1">Asymptotic</dependentTest>
-							<dependentTest enabled="0">LoopGain</dependentTest>
-							<dependentTest enabled="0">rootlocus</dependentTest>
-						</dependentTests>
-					</var>
-					<var>rds1
-						<value>23893065.17</value>
-						<dependentTests>
-							<dependentTest enabled="1">Af</dependentTest>
-							<dependentTest enabled="1">Asymptotic</dependentTest>
-							<dependentTest enabled="1">LoopGain</dependentTest>
-							<dependentTest enabled="1">rootlocus</dependentTest>
-						</dependentTests>
-					</var>
-					<var enabled="0">VIN
-						<value>0</value>
-						<dependentTests>
-							<dependentTest enabled="1">Af</dependentTest>
-							<dependentTest enabled="1">Asymptotic</dependentTest>
-							<dependentTest enabled="0">LoopGain</dependentTest>
-							<dependentTest enabled="1">rootlocus</dependentTest>
-						</dependentTests>
-					</var>
-					<var enabled="0">IT
-						<value>1</value>
-						<dependentTests>
-							<dependentTest enabled="0" omitted="0">Af</dependentTest>
-							<dependentTest omitted="0">Asymptotic</dependentTest>
-							<dependentTest enabled="0">LoopGain</dependentTest>
-							<dependentTest enabled="0">rootlocus</dependentTest>
-						</dependentTests>
-					</var>
-					<var>gm
-						<value>0.227m</value>
-						<dependentTests>
-							<dependentTest omitted="0">LoopGain</dependentTest>
-							<dependentTest enabled="1">rootlocus</dependentTest>
-						</dependentTests>
-					</var>
-				</vars>
-				<overwritehistoryname>Interactive.0</overwritehistoryname>
-				<plottingoptions>
-					<plottingoption>plottingmode
-						<value>Replace</value>
-					</plottingoption>
-					<plottingoption>plottype
-						<value>None</value>
-					</plottingoption>
-					<plottingoption>usewaveformtemplate
-						<value>no</value>
-					</plottingoption>
-					<plottingoption>useMaestroPlottingTemplate
-						<value>yes</value>
-					</plottingoption>
-					<plottingoption>waveformtemplate
-						<value></value>
-					</plottingoption>
-					<plottingoption>allplottingtemplates
-						<value></value>
-					</plottingoption>
-					<plottingoption>defaultplottingtemplate
-						<value></value>
-					</plottingoption>
-					<plottingoption>distributedplot_enabled
-						<value>no</value>
-					</plottingoption>
-				</plottingoptions>
-				<jobpolicyname>ADE XL Default</jobpolicyname>
-				<disabledtests></disabledtests>
-				<sortVariableValues>0</sortVariableValues>
-			</checkpoint>
-			<timestamp>Feb 21 14:02:38 2025</timestamp>
-			<uuid>{adc927f8-2a4c-4be7-a197-2e7a25f05e9f}</uuid>
-			<resultsname>/home/saul/projects/FIL3601/DAY4/Series/adexl/results/data/Interactive.27.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.27.rdb</simresults>
-			<rawdatadelstrategy>SaveAll
-				<simdatasavemode>All</simdatasavemode>
-			</rawdatadelstrategy>
-			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
-			<netlistdelstrategy>SaveAll</netlistdelstrategy>
-			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/s2424_saul_140238468</localpsfdir>
-			<psfdir>/home/saul/projects/FIL3601/Sim/DAY4/Series/adexl/results/data/Interactive.27</psfdir>
-			<simdir>$AXL_PROJECT_DIR/DAY4/Series/adexl/results/data/Interactive.27</simdir>
-			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
-			<runlog>/home/saul/projects/FIL3601/DAY4/Series/adexl/results/data/Interactive.27.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.27.log</runlogfile>
+			<runlog>/home/saul/projects/FIL3601/DAY4/Series/adexl/results/data/Interactive.37.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.37.log</runlogfile>
 			<schematicpoint></schematicpoint>
 			<test>all</test>
 		</historyentry>
