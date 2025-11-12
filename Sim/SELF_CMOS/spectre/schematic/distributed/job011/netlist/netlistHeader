@@ -1,0 +1,7 @@
+// Generated for: spectre
+// Generated on: Nov 12 11:04:57 2025
+// Design library name: LAB1
+// Design cell name: SELF_CMOS
+// Design view name: schematic
+simulator lang=spectre
+global 0

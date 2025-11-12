@@ -1,0 +1,18 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "NOISE_NMOS"
+  repList "spectre cmos_sch cmos.sch schematic veriloga"
+  stopList "spectre"
+  globalList "gnd!"
+  hierDelim "."
+  netlistDir "/home/saul/projects/FIL3601/Sim/LAB2/NOISE_NMOS/adexl/results/data/Interactive.11/1/NoiseVoltage/netlist"
+ )
+( net
+( "gnd!" "0" )
+ )
+( model
+( "DAY5/NOISE_NMOS/schematic" "NOISE_NMOS" )
+ )
+( "NOISE_NMOS" "ihnl/cds0/map" )
+ )

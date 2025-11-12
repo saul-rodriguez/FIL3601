@@ -1,0 +1,103 @@
+*Info*    Exporting services from client ... 
+
+*Info*    Client has finished starting ... 
+
+
+
+*Info*    Configuring the session ...
+
+	Library      = LAB2
+	Cell         = transimpedance
+	View         = schematic
+	Simulator    = spectre
+	State Path   = $AXL_SETUPDB_DIR/test_states
+	State Name   = LAB2:transimpedance:1_none_Interactive.17
+	Results DB   = /home/saul/projects/FIL3601/LAB2/transimpedance/adexl/results/data/Interactive.17.rdb
+	Results Dir  = /home/saul/projects/FIL3601/Sim/LAB2/transimpedance/adexl/results/data/Interactive.17/1/LAB2:transimpedance:1
+	Results Loc  = /home/saul/projects/FIL3601/Sim/LAB2/transimpedance/adexl/results/data
+	Project Dir  = /home/saul/projects/FIL3601/Sim
+	Setup DB loc = /home/saul/projects/FIL3601/LAB2/transimpedance/adexl
+	File Encoding = 0
+
+
+
+*Info*    The auto suspension is disabled.
+
+
+
+
+
+
+*Info*    Run start for Point ID (11 1) on testbench [
+          LAB2:transimpedance:1 ].
+
+Resetting statistical vars
+
+*Info*    Setting parameter values ...
+
+Setting var IDS = "100u"
+Setting var L = "1u"
+Setting var NF = "40"
+Setting var VDS = "0.9"
+Setting var VGS = "0.4142"
+Setting var WF = "8u"
+Setting var temperature = "27"
+Setting temp(T) = 27
+
+*Info*    Netlist Directory =
+          /home/saul/projects/FIL3601/Sim/LAB2/transimpedance/adexl/results/data/Interactive.17/1/LAB2:transimpedance:1/netlist
+
+
+*Info*    Data Directory    =
+          /home/saul/projects/FIL3601/Sim/LAB2/transimpedance/adexl/results/data/Interactive.17/1/LAB2:transimpedance:1
+
+
+*Info*    Creating Netlist for Point ID (11 1)
+
+generate netlist...
+function ansCdlCompPrim redefined
+function ansCdlCompPrim redefined
+Begin Incremental Netlisting Nov 12 11:19:06 2025
+End netlisting Nov 12 11:19:06 2025
+
+	The netlist is up to date.
+	Time taken to compare the design with netlist:   0.0s
+      ...successful.
+compose simulator input file...
+      ...successful.
+
+*Info*    Running simulation on testbench [ LAB2:transimpedance:1 ]
+          for Point ID (11 1).
+
+Delete psf data in /home/saul/projects/FIL3601/Sim/LAB2/transimpedance/adexl/results/data/Interactive.17/1/LAB2:transimpedance:1/psf.
+compose simulator input file...
+      ...successful.
+start simulator if needed...
+      ...successful.
+simulate...
+To view the simulator output, right-click on the test name, result 
+name, or any value in the "Results" tab of the Outputs section and 
+choose "Output Log" menu option.
+INFO (ADE-3071): Simulation completed successfully.
+reading simulation data...
+      ...successful.
+*Info*    Client has finished evaluating ... 
+
+ERROR (ADE-1600): Cannot find an active session named .
+You can only modify an ADE session that is active.
+Perhaps the session name was misspelled or has not yet been created.	
+Verify the session name matches an existing ADE session.
+
+QuickPlot: error writing data to aggregate database
+QuickPlot: ("error" 0 t nil ("*Error* error: Cannot find an active session named ." nil))
+Error in writing quick plot waveform, pointId [(11 1)] testName ["LAB2:transimpedance:1"]
+*Info*    Run complete for Point ID (11 1) on testbench [
+          LAB2:transimpedance:1 ].
+
+
+
+
+
+Simulation design variables differ from those on the cellView,
+they have been saved in the file "/tmp/saved-design-variables".
+To save future changes, copy variables to cellView before exiting.

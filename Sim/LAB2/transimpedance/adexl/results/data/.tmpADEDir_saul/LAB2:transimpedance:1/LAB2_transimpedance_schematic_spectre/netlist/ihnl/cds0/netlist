@@ -1,0 +1,19 @@
+
+// Library name: LAB2
+// Cell name: transimpedance
+// View name: schematic
+V0 (net2 net3) vsource dc=VDS type=dc
+V1 (net1 net5) vsource dc=VGS type=dc
+M1 (net2 net1 0 0) nel w=WF l=L as=(int(((NF)-1)/2.0 )*5.4e-07+((int((NF)/2.0)-(NF)/2.0<-0.1)?1:2)*4.8e-07)*(WF)/(NF) \
+         ad=(int((NF)/2.0 )*5.4e-07+(((int((NF)/2.0)-(NF)/2.0<-0.1)?1:0)*4.8e-07))*(WF)/(NF) \
+         ps=(int(((NF)-1)/2.0 )*2*(5.4e-07+(WF))+((int((NF)/2)-(NF)/2.0<-0.1)?1:2)*2*(4.8e-07+(WF)))/(NF) \
+         pd=(int((NF)/2.0 )*2*(5.4e-07+(WF))+((int((NF)/2.0)-(NF)/2.0<-0.1)?1:0)*2*(4.8e-07+(WF)))/(NF) \
+         nrs=2.7e-07/(WF) nrd=2.7e-07/(WF) m=(1)*(NF) par1=(1)*(NF) \
+        xf_subext=0
+I5 (0 net2) isource dc=IDS type=dc
+E0 (VOUT 0 net3 0) vcvs gain=1000
+R0 (net5 0) resistor r=100k
+R1 (net5 VOUT) resistor r=1M
+I1 (0 net5) isource mag=1 type=sine
+C1 (VOUT 0) capacitor c=1p
+C0 (net5 0) capacitor c=4p

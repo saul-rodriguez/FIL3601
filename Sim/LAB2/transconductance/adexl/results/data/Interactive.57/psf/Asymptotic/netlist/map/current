@@ -1,0 +1,20 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "transconductance"
+  repList "spectre cmos_sch cmos.sch schematic veriloga"
+  stopList "spectre"
+  globalList "gnd!"
+  hierDelim "."
+  netlistDir "/home/saul/projects/FIL3601/Sim/LAB2/transconductance/adexl/results/data/Interactive.57/1/Asymptotic/netlist"
+ )
+( net
+( "gnd!" "0" )
+ )
+( model
+( "DAY2/MOS_AC/schematic" "MOS_AC" )
+( "LAB2/transconductance/schematic" "transconductance" )
+ )
+( "MOS_AC" "ihnl/cds0/map" )
+( "transconductance" "ihnl/cds1/map" )
+ )

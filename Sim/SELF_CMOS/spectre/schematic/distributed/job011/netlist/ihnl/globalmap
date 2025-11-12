@@ -1,0 +1,19 @@
+CADENCE IHNL11140
+$model
+LAB1/SELF_CMOS/schematic SELF_CMOS
+$endmodel
+$net
+gnd! 0
+$endnet
+$param
+VDSP VDSP
+L L
+WF WF
+IDSP IDSP
+NF NF
+LP LP
+IDS IDS
+WFP WFP
+VDS VDS
+NFP NFP
+$endparam

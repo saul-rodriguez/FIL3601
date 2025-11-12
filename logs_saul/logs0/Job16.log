@@ -1,14 +1,14 @@
-\# Program start time:     UTC 2025.09.12 19:46:52.029
-\# Local time: UTC (UTC+00:00) 2025.09.12 19:46:52.029
+\# Program start time:     UTC 2025.11.12 10:34:46.195
+\# Local time: UTC (UTC+00:00) 2025.11.12 10:34:46.195
 \o Program:		@(#)$CDS: virtuoso version 6.1.8-64b 09/03/2024 19:11 (sjfhw316) $
 \o Hierarchy:		/opt/tools/cadence/installs/IC618/tools.lnx86/dfII/
 \o Sub version:		sub-version  IC6.1.8-64b.500.36  (64-bit addresses)
-\# Command line:	/opt/tools/cadence/installs/IC618/tools.lnx86/dfII/bin/64bit/virtuoso -noautostart -mpssession virtuosoE5e_it2n4J2dGFsXPnfojK_5001 -mpshost 46343@b35621b5a0f6 -davinciService DaVinciService_5201_1757704217 -log /home/saul/projects/FIL3601/logs_saul/logs0/Job16.log -licenseLockFileName /home/saul/projects/FIL3601/.tmp_saul/.b35621b5a0f6_5201 -interactiveA -interactiveE -interactiveRTT -nostdin -nographE -axlChildIdFlag 16
-\# Host name (type):	b35621b5a0f6 (x86_64)
-\# Operating system:	Linux 6.10.14-linuxkit #1 SMP PREEMPT_DYNAMIC Tue Apr 15 16:05:22 UTC 2025
+\# Command line:	/opt/tools/cadence/installs/IC618/tools.lnx86/dfII/bin/64bit/virtuoso -noautostart -mpssession virtuosoE-j_qwT7ZgHRQ5oxU9NotI_1036 -mpshost 53901@edatools -davinciService DaVinciService_1236_1762869915 -log /home/saul/projects/FIL3601/logs_saul/logs0/Job16.log -licenseLockFileName /home/saul/projects/FIL3601/.tmp_saul/.edatools_1236 -interactiveA -interactiveE -interactiveRTT -nostdin -nographE -axlChildIdFlag 16
+\# Host name (type):	edatools (x86_64)
+\# Operating system:	Linux 6.10.14-linuxkit #1 SMP PREEMPT_DYNAMIC Tue Oct 14 07:34:37 UTC 2025
 \# Linux /etc/issue:	\S
 \# Linux /etc/issue:	Kernel \r on an \m
-\# X display name (WxH):	:1706 (1024x868)
+\# X display name (WxH):	:5238 (1024x868)
 \# Available geometry:			TL(0:0) BR(1023:867)
 \# X server:			The X.Org Foundation
 \# Depth of Visual (Root):	24 (24)
@@ -18,20 +18,20 @@
 \# 			current id 0x0, current max 0x1ffffa (2097146)
 \# Max data seg size:	     unlimited
 \# Max process size:	     unlimited
-\# Initial sbrk value:	        703 MB
-\# Available memory:	     22,692 MB
+\# Initial sbrk value:	      1,356 MB
+\# Available memory:	     23,293 MB
 \# System memory:	     28,093 MB
-\# Maximum memory size:	     27,510 MB
-\# Max mem available:	     22,813 MB
+\# Maximum memory size:	     26,858 MB
+\# Max mem available:	     23,413 MB
 \# Initial memory used:	        120 MB
 \#        process size:	      1,677 MB
 \# Thread usage limits (effective/default):	maxthreads 4294967295/4294967295 maxload 16.00/16.00
 \# Qt version:		5.9.1
 \# Window Manager:	other
 \# User Name:		saul
-\o Working Directory:	b35621b5a0f6:/home/saul/projects/FIL3601
-\# Process Id:		18155
-\# Container Id:	E5e_it2n4J2dGFsXPnfojK
+\o Working Directory:	edatools:/home/saul/projects/FIL3601
+\# Process Id:		15715
+\# Container Id:	E-j_qwT7ZgHRQ5oxU9NotI
 \o 
 \o COPYRIGHT (C) 1992-2024  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
 \o           (C) 1992-2024  UNIX SYSTEMS Laboratories INC.,
@@ -68,7 +68,7 @@
 \o Loading caa.cxt 
 \o Loading amps.cxt 
 \o Loading adexlCore.cxt 
-\# Memory report: using         233 MB, process size 1,878 MB at UTC 2025.09.12 19:46:55.177
+\# Memory report: using         233 MB, process size 1,878 MB at UTC 2025.11.12 10:34:57.175
 \o Loading adexl.cxt 
 \o *Info*    Exporting services from client ... 
 \o 
@@ -76,12 +76,15 @@
 \o Loading cpf.cxt 
 \o Loading cli.cxt 
 \o Loading lp.cxt 
-\o INFO (ELI-00302) Connecting to parent process (session=virtuosoE5e_it2n4J2dGFsXPnfojK_5001, host=46343@b35621b5a0f6). Connection mode is ICRP. Total timeout is 180 seconds. Connection timeout is 90 seconds.
+\# Available memory:         21,937 MB at UTC 2025.11.12 10:34:58.486
+\# Memory report: Maximum memory size now 22,194 MB at UTC 2025.11.12 10:34:58.486
+\# Thread usage report: 21 active threads, active load 1.40 at UTC 2025.11.12 10:34:58.486
+\o INFO (ELI-00302) Connecting to parent process (session=virtuosoE-j_qwT7ZgHRQ5oxU9NotI_1036, host=53901@edatools). Connection mode is ICRP. Total timeout is 180 seconds. Connection timeout is 90 seconds.
 \o INFO (ELI-00303) Step 1: Connecting to parent. Time spent is 0 seconds.
-\o INFO (ELI-00304) The registration of the child 18155 within 90 seconds is being processed...
-\o INFO (ELI-00305) The result of registration is true. Time spent is 0 seconds.
-\o INFO (ELI-00308) The connection has ended. Result is true. Total time spent is 0 seconds.
-\# [19:46:52.512473] Configured Lic search path (22.01-s002): 3000@lic08.ug.kth.se
+\o INFO (ELI-00304) The registration of the child 15715 within 90 seconds is being processed...
+\o INFO (ELI-00305) The result of registration is true. Time spent is 1 seconds.
+\o INFO (ELI-00308) The connection has ended. Result is true. Total time spent is 2 seconds.
+\# [10:34:48.512417] Configured Lic search path (22.01-s002): 3000@lic08.ug.kth.se
 \o Loading .cdsinit for the XH018 X-Fab XKit.
 \o     LOAD xh018_1143 SPECIFIC CALL-BACK ROUTINES
 \o     LOAD ALL AVAILABLE P-CELL FUNCTIONS
@@ -106,7 +109,7 @@
 \o Loading devCheck.cxt 
 \o Loading relXpert.cxt 
 \o Loading vdsil.cxt 
-\# Memory report: using         354 MB, process size 2,042 MB at UTC 2025.09.12 19:46:57.199
+\# Memory report: using         354 MB, process size 2,041 MB at UTC 2025.11.12 10:35:00.296
 \o Loading hspiceD.cxt 
 \o Loading spectreinl.cxt 
 \o Loading UltraSim.cxt 
@@ -124,31 +127,27 @@
 \w *WARNING* could not load font "-*-courier-medium-r-*-*-12-*", using font "fixed"
 \# Loading perfDiag...
 \# (PerfDiag): Set GDB path to environment variable 'gdbPath' (gdb).
-\# Performance Diagnostic tool is installed. You can access PerfDiag from CIW Tools or use the shell command 'cdsPerfDiag -p 18155' to open it when Virtuoso freezes.
+\# Performance Diagnostic tool is installed. You can access PerfDiag from CIW Tools or use the shell command 'cdsPerfDiag -p 15715' to open it when Virtuoso freezes.
 \# (PerfDiag): Use backtrace from GLIBC.
 \w *WARNING* _perfPstackCheck: Cannot find pstack/gstack. Please setup PATH environment variable to pstack/gstack executable.
 \o Loading vqp.cxt 
 \o Loading hdlPkg.cxt 
+\o Loading simui.cxt 
 \o 
 \o 
 \o *Info*    Configuring the session ...
 \o 
-\o Loading simui.cxt 
-\o 	Library      = EX1
-\o 	Cell         = s1_feedback
+\o 	Library      = LAB1
+\o 	Cell         = GM_ID
 \o 	View         = schematic
+\o 	Netlist  	  = nil
 \o 	Simulator    = spectre
 \o 	State Path   = $AXL_SETUPDB_DIR/test_states
-\o 	State Name   = EX1:s1_feedback_MC_EX1:s1_feedback:1:1_state_MonteCarlo.1
-\o 	Results DB   = /home/saul/projects/FIL3601/EX1/s1_feedback/adexl/results/data/MonteCarlo.1.rdb
-\o 	Results Dir  = /home/saul/projects/FIL3601/Sim/EX1/s1_feedback/adexl/results/data/MonteCarlo.1/1/EX1:s1_feedback_MC
-\o 	Results Loc  = /home/saul/projects/FIL3601/Sim/EX1/s1_feedback/adexl/results/data
-\o 	Project Dir  = /home/saul/projects/FIL3601/Sim
-\o 	Setup DB loc = /home/saul/projects/FIL3601/EX1/s1_feedback/adexl
-\o 	File Encoding = 0
+\o 	State Name   = DAY2:GM_ID:1_DAY2:GM_ID:1_Nov_12_10_34_41_2025_Ocean.42
+\o 	Results DB   = /home/saul/projects/FIL3601/LAB1/GM_ID/adexl/results/data/Ocean.42.rdb
+\o 	Setup DB loc = /home/saul/projects/FIL3601/LAB1/GM_ID/adexl
 \o 
 \o 
-\o WARNING (ADE-7017): The Spectre run mode needs to be 'batch' when EM/IR analysis is enabled. Automatically setting the run mode to 'batch'.
 \o 
 \o *Info*    The auto suspension is disabled.
 \o 
@@ -170,35 +169,306 @@
 \o 
 \o 
 \o 
-\o *Info*    Run start for Point ID (2 229) on testbench [
-\o           EX1:s1_feedback_MC ].
+\o *Info*    Run start for Point ID (0 4) on testbench [ DAY2:GM_ID:1 ].
 \o 
 \o Resetting statistical vars
 \o 
 \o *Info*    Setting parameter values ...
 \o 
-\o Setting var temperature = "80.0"
-\o Setting temp(T) = 80.0
+\o Setting var IDS = "1.995262315n"
+\o Setting var L = "180e-9"
+\o Setting var NF = "4"
+\o Setting var VDS = "0.5"
+\o Setting var WF = "8e-6"
+\o Setting var temperature = "27"
+\o Setting temp(T) = 27
 \o 
 \o *Info*    Netlist Directory =
-\o           /home/saul/projects/FIL3601/Sim/EX1/s1_feedback/adexl/results/data/MonteCarlo.1/229/EX1:s1_feedback_MC/groupRunDataDir/netlist
+\o           /home/saul/projects/FIL3601/Sim/LAB1/GM_ID/adexl/results/data/Ocean.42/4/DAY2:GM_ID:1/netlist
 \o 
 \o 
 \o *Info*    Data Directory    =
-\o           /home/saul/projects/FIL3601/Sim/EX1/s1_feedback/adexl/results/data/MonteCarlo.1/229/EX1:s1_feedback_MC/groupRunDataDir
+\o           /home/saul/projects/FIL3601/Sim/LAB1/GM_ID/adexl/results/data/Ocean.42/4/DAY2:GM_ID:1
 \o 
 \o 
-\o *Info*    Creating Netlist for Point ID (2 229)
+\o *Info*    Creating Netlist for Point ID (0 4)
 \o 
 \o generate netlist...
 \o Loading hnlInit.cxt 
 \o Loading seCore.cxt 
 \o function ansCdlCompPrim redefined
 \o function ansCdlCompPrim redefined
-\# [19:47:00.006489] periodic Lic check successful
-\# [19:47:00.006491] Feature usage summary:
-\o Begin Incremental Netlisting Sep 12 19:47:00 2025
-\o End netlisting Sep 12 19:47:00 2025
+\# [10:35:02.433265] Periodic Lic check successful
+\# [10:35:02.433266] Feature usage summary:
+\o Begin Incremental Netlisting Nov 12 10:35:02 2025
+\o End netlisting Nov 12 10:35:02 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ DAY2:GM_ID:1 ] for Point
+\o           ID (0 4).
+\o 
+\o Delete psf data in /home/saul/projects/FIL3601/Sim/LAB1/GM_ID/adexl/results/data/Ocean.42/4/DAY2:GM_ID:1/psf.
+\o simulate...
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 4) on testbench [ DAY2:GM_ID:1
+\o           ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (0 9) on testbench [ DAY2:GM_ID:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var IDS = "6.309573445n"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/FIL3601/Sim/LAB1/GM_ID/adexl/results/data/Ocean.42/9/DAY2:GM_ID:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/FIL3601/Sim/LAB1/GM_ID/adexl/results/data/Ocean.42/9/DAY2:GM_ID:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (0 9)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Nov 12 10:35:07 2025
+\o End netlisting Nov 12 10:35:07 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ DAY2:GM_ID:1 ] for Point
+\o           ID (0 9).
+\o 
+\o Delete psf data in /home/saul/projects/FIL3601/Sim/LAB1/GM_ID/adexl/results/data/Ocean.42/9/DAY2:GM_ID:1/psf.
+\o simulate...
+\# Memory report: Maximum memory size now 20,947 MB at UTC 2025.11.12 10:35:08.184
+\# Thread usage report: 22 active threads, active load 1.40 at UTC 2025.11.12 10:35:08.184
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 9) on testbench [ DAY2:GM_ID:1
+\o           ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (0 20) on testbench [ DAY2:GM_ID:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var IDS = "79.43282347n"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/FIL3601/Sim/LAB1/GM_ID/adexl/results/data/Ocean.42/20/DAY2:GM_ID:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/FIL3601/Sim/LAB1/GM_ID/adexl/results/data/Ocean.42/20/DAY2:GM_ID:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (0 20)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Nov 12 10:35:11 2025
+\o End netlisting Nov 12 10:35:11 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ DAY2:GM_ID:1 ] for Point
+\o           ID (0 20).
+\o 
+\o Delete psf data in /home/saul/projects/FIL3601/Sim/LAB1/GM_ID/adexl/results/data/Ocean.42/20/DAY2:GM_ID:1/psf.
+\o simulate...
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 20) on testbench [
+\o           DAY2:GM_ID:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (0 25) on testbench [ DAY2:GM_ID:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var IDS = "251.1886432n"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/FIL3601/Sim/LAB1/GM_ID/adexl/results/data/Ocean.42/25/DAY2:GM_ID:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/FIL3601/Sim/LAB1/GM_ID/adexl/results/data/Ocean.42/25/DAY2:GM_ID:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (0 25)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Nov 12 10:35:15 2025
+\o End netlisting Nov 12 10:35:15 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ DAY2:GM_ID:1 ] for Point
+\o           ID (0 25).
+\o 
+\o Delete psf data in /home/saul/projects/FIL3601/Sim/LAB1/GM_ID/adexl/results/data/Ocean.42/25/DAY2:GM_ID:1/psf.
+\o simulate...
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 25) on testbench [
+\o           DAY2:GM_ID:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (0 37) on testbench [ DAY2:GM_ID:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var IDS = "3.981071706u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/FIL3601/Sim/LAB1/GM_ID/adexl/results/data/Ocean.42/37/DAY2:GM_ID:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/FIL3601/Sim/LAB1/GM_ID/adexl/results/data/Ocean.42/37/DAY2:GM_ID:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (0 37)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Nov 12 10:35:20 2025
+\o End netlisting Nov 12 10:35:20 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ DAY2:GM_ID:1 ] for Point
+\o           ID (0 37).
+\o 
+\o Delete psf data in /home/saul/projects/FIL3601/Sim/LAB1/GM_ID/adexl/results/data/Ocean.42/37/DAY2:GM_ID:1/psf.
+\o simulate...
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 37) on testbench [
+\o           DAY2:GM_ID:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (0 44) on testbench [ DAY2:GM_ID:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var IDS = "19.95262315u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/FIL3601/Sim/LAB1/GM_ID/adexl/results/data/Ocean.42/44/DAY2:GM_ID:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/FIL3601/Sim/LAB1/GM_ID/adexl/results/data/Ocean.42/44/DAY2:GM_ID:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (0 44)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Nov 12 10:35:25 2025
+\o End netlisting Nov 12 10:35:25 2025
 \o 
 \o 	The netlist is up to date.
 \o 	Time taken to compare the design with netlist:   1.0s
@@ -206,425 +476,25 @@
 \o compose simulator input file...
 \o       ...successful.
 \o 
-\o *Info*    Running simulation on testbench [ EX1:s1_feedback_MC ] for
-\o           Point ID (2 229).
+\o *Info*    Running simulation on testbench [ DAY2:GM_ID:1 ] for Point
+\o           ID (0 44).
 \o 
-\o *Info*    Spectre controlMode is set "batch" due to monte carlo run.
-\o 
-\o Delete psf data in /home/saul/projects/FIL3601/Sim/EX1/s1_feedback/adexl/results/data/MonteCarlo.1/229/EX1:s1_feedback_MC/groupRunDataDir/psf.
-\o generate netlist...
-\o function ansCdlCompPrim redefined
-\o function ansCdlCompPrim redefined
-\o Begin Incremental Netlisting Sep 12 19:47:00 2025
-\o End netlisting Sep 12 19:47:00 2025
-\o 
-\o 	The netlist is up to date.
-\o 	Time taken to compare the design with netlist:   0.0s
-\o       ...successful.
-\o compose simulator input file...
-\o       ...successful.
-\o start simulator if needed...
-\o       ...successful.
+\o Delete psf data in /home/saul/projects/FIL3601/Sim/LAB1/GM_ID/adexl/results/data/Ocean.42/44/DAY2:GM_ID:1/psf.
 \o simulate...
-\o To view the simulator output, right-click on the test name, result 
-\o name, or any value in the "Results" tab of the Outputs section and 
-\o choose "Output Log" menu option.
-\o Loading paraplot.cxt 
-\# Available memory:         20,633 MB at UTC 2025.09.12 19:47:02.392
-\# Memory report: Maximum memory size now 21,091 MB at UTC 2025.09.12 19:47:02.392
-\# Thread usage report: 22 active threads, active load 1.40 at UTC 2025.09.12 19:47:02.392
-\# Memory report: using         458 MB, process size 2,261 MB at UTC 2025.09.12 19:47:02.392
-\# Memory report: Maximum memory size now 20,212 MB at UTC 2025.09.12 19:47:16.520
-\o *Info*    Client has finished evaluating ... 
-\o 
-\o 
-\o *Info*    Run complete for Point ID (2 229) on testbench [
-\o           EX1:s1_feedback_MC ].
-\o 
-\o 
-\o 
-\o 
-\o 
-\o *Info*    Client has finished evaluating ... 
-\o 
-\o 
-\o *Info*    Run complete for Point ID (2 230) on testbench [
-\o           EX1:s1_feedback_MC ].
-\o 
-\o 
-\o 
-\o 
-\o 
-\o *Info*    Client has finished evaluating ... 
-\o 
-\o 
-\o *Info*    Run complete for Point ID (2 231) on testbench [
-\o           EX1:s1_feedback_MC ].
-\o 
-\o 
-\o 
-\o 
-\o 
-\o *Info*    Client has finished evaluating ... 
-\o 
-\o 
-\o *Info*    Run complete for Point ID (2 232) on testbench [
-\o           EX1:s1_feedback_MC ].
-\o 
-\o 
-\o 
-\o 
-\o 
-\o *Info*    Client has finished evaluating ... 
-\o 
-\o 
-\o *Info*    Run complete for Point ID (2 233) on testbench [
-\o           EX1:s1_feedback_MC ].
-\o 
-\o 
-\o 
-\o 
-\o 
-\o *Info*    Client has finished evaluating ... 
-\o 
-\o 
-\o *Info*    Run complete for Point ID (2 234) on testbench [
-\o           EX1:s1_feedback_MC ].
-\o 
-\o 
-\o 
-\o 
-\o 
+\# Available memory:         19,856 MB at UTC 2025.11.12 10:35:28.334
+\# Memory report: Maximum memory size now 20,303 MB at UTC 2025.11.12 10:35:28.334
 \o INFO (ADE-3071): Simulation completed successfully.
 \o reading simulation data...
 \o       ...successful.
 \o *Info*    Client has finished evaluating ... 
 \o 
 \o 
-\o *Info*    Run complete for Point ID (2 235) on testbench [
-\o           EX1:s1_feedback_MC ].
+\o *Info*    Run complete for Point ID (0 44) on testbench [
+\o           DAY2:GM_ID:1 ].
 \o 
 \o 
 \o 
 \o 
 \o 
-\o *Info*    Client has finished evaluating ... 
 \o 
-\o 
-\o *Info*    Run complete for Point ID (2 236) on testbench [
-\o           EX1:s1_feedback_MC ].
-\o 
-\o 
-\o 
-\o 
-\o 
-\o *Info*    Client has finished evaluating ... 
-\o 
-\o 
-\o *Info*    Run complete for Point ID (2 237) on testbench [
-\o           EX1:s1_feedback_MC ].
-\o 
-\o 
-\o 
-\o 
-\o 
-\o *Info*    Client has finished evaluating ... 
-\o 
-\o 
-\o *Info*    Run complete for Point ID (2 238) on testbench [
-\o           EX1:s1_feedback_MC ].
-\o 
-\o 
-\o 
-\o 
-\o 
-\o *Info*    Client has finished evaluating ... 
-\o 
-\o 
-\o *Info*    Run complete for Point ID (2 239) on testbench [
-\o           EX1:s1_feedback_MC ].
-\o 
-\o 
-\o 
-\o 
-\o 
-\o *Info*    Client has finished evaluating ... 
-\o 
-\o 
-\o *Info*    Run complete for Point ID (2 240) on testbench [
-\o           EX1:s1_feedback_MC ].
-\o 
-\o 
-\o 
-\o 
-\o 
-\o *Info*    Client has finished evaluating ... 
-\o 
-\o 
-\o *Info*    Run complete for Point ID (2 241) on testbench [
-\o           EX1:s1_feedback_MC ].
-\o 
-\o 
-\o 
-\o 
-\o 
-\o *Info*    Client has finished evaluating ... 
-\o 
-\o 
-\o *Info*    Run complete for Point ID (2 242) on testbench [
-\o           EX1:s1_feedback_MC ].
-\o 
-\o 
-\o 
-\o 
-\o 
-\o *Info*    Client has finished evaluating ... 
-\o 
-\o 
-\o *Info*    Run complete for Point ID (2 243) on testbench [
-\o           EX1:s1_feedback_MC ].
-\o 
-\o 
-\o 
-\o 
-\o 
-\o *Info*    Client has finished evaluating ... 
-\o 
-\o 
-\o *Info*    Run complete for Point ID (2 244) on testbench [
-\o           EX1:s1_feedback_MC ].
-\o 
-\o 
-\o 
-\o 
-\o 
-\o *Info*    Client has finished evaluating ... 
-\o 
-\o 
-\o *Info*    Run complete for Point ID (2 245) on testbench [
-\o           EX1:s1_feedback_MC ].
-\o 
-\o 
-\o 
-\o 
-\o 
-\o *Info*    Client has finished evaluating ... 
-\o 
-\o 
-\o *Info*    Run complete for Point ID (2 246) on testbench [
-\o           EX1:s1_feedback_MC ].
-\o 
-\o 
-\o 
-\o 
-\o 
-\o *Info*    Client has finished evaluating ... 
-\o 
-\o 
-\o *Info*    Run complete for Point ID (2 247) on testbench [
-\o           EX1:s1_feedback_MC ].
-\o 
-\o 
-\o 
-\o 
-\o 
-\o *Info*    Client has finished evaluating ... 
-\o 
-\o 
-\o *Info*    Run complete for Point ID (2 248) on testbench [
-\o           EX1:s1_feedback_MC ].
-\o 
-\o 
-\o 
-\o 
-\o 
-\o *Info*    Client has finished evaluating ... 
-\o 
-\o 
-\o *Info*    Run complete for Point ID (2 249) on testbench [
-\o           EX1:s1_feedback_MC ].
-\o 
-\o 
-\o 
-\o 
-\o 
-\o *Info*    Client has finished evaluating ... 
-\o 
-\o 
-\o *Info*    Run complete for Point ID (2 250) on testbench [
-\o           EX1:s1_feedback_MC ].
-\o 
-\o 
-\o 
-\o 
-\o 
-\o *Info*    Client has finished evaluating ... 
-\o 
-\o 
-\o *Info*    Run complete for Point ID (2 251) on testbench [
-\o           EX1:s1_feedback_MC ].
-\o 
-\o 
-\o 
-\o 
-\o 
-\o *Info*    Client has finished evaluating ... 
-\o 
-\o 
-\o *Info*    Run complete for Point ID (2 252) on testbench [
-\o           EX1:s1_feedback_MC ].
-\o 
-\o 
-\o 
-\o 
-\o 
-\o *Info*    Client has finished evaluating ... 
-\o 
-\o 
-\o *Info*    Run complete for Point ID (2 253) on testbench [
-\o           EX1:s1_feedback_MC ].
-\o 
-\o 
-\o 
-\o 
-\o 
-\o *Info*    Client has finished evaluating ... 
-\o 
-\o 
-\o *Info*    Run complete for Point ID (2 254) on testbench [
-\o           EX1:s1_feedback_MC ].
-\o 
-\o 
-\o 
-\o 
-\o 
-\o *Info*    Client has finished evaluating ... 
-\o 
-\o 
-\o *Info*    Run complete for Point ID (2 255) on testbench [
-\o           EX1:s1_feedback_MC ].
-\o 
-\o 
-\o 
-\o 
-\o 
-\o *Info*    Client has finished evaluating ... 
-\o 
-\o 
-\o *Info*    Run complete for Point ID (2 256) on testbench [
-\o           EX1:s1_feedback_MC ].
-\o 
-\o 
-\o 
-\o 
-\o 
-\o *Info*    Client has finished evaluating ... 
-\o 
-\o 
-\o *Info*    Run complete for Point ID (2 257) on testbench [
-\o           EX1:s1_feedback_MC ].
-\o 
-\o 
-\o 
-\o 
-\o 
-\o *Info*    Client has finished evaluating ... 
-\o 
-\o 
-\o *Info*    Run complete for Point ID (2 258) on testbench [
-\o           EX1:s1_feedback_MC ].
-\o 
-\o 
-\o 
-\o 
-\o 
-\o *Info*    Client has finished evaluating ... 
-\o 
-\o 
-\o *Info*    Run complete for Point ID (2 259) on testbench [
-\o           EX1:s1_feedback_MC ].
-\o 
-\o 
-\o 
-\o 
-\o 
-\o *Info*    Client has finished evaluating ... 
-\o 
-\o 
-\o *Info*    Run complete for Point ID (2 260) on testbench [
-\o           EX1:s1_feedback_MC ].
-\o 
-\o 
-\o 
-\o 
-\o 
-\o *Info*    Client has finished evaluating ... 
-\o 
-\o 
-\o *Info*    Run complete for Point ID (2 261) on testbench [
-\o           EX1:s1_feedback_MC ].
-\o 
-\o 
-\o 
-\o 
-\o 
-\o *Info*    Client has finished evaluating ... 
-\o 
-\o 
-\o *Info*    Run complete for Point ID (2 262) on testbench [
-\o           EX1:s1_feedback_MC ].
-\o 
-\o 
-\o 
-\o 
-\o 
-\o *Info*    Client has finished evaluating ... 
-\o 
-\o 
-\o *Info*    Run complete for Point ID (2 263) on testbench [
-\o           EX1:s1_feedback_MC ].
-\o 
-\o 
-\o 
-\o 
-\o 
-\o *Info*    Client has finished evaluating ... 
-\o 
-\o 
-\o *Info*    Run complete for Point ID (2 264) on testbench [
-\o           EX1:s1_feedback_MC ].
-\o 
-\o 
-\o 
-\o 
-\o 
-\# Memory report: Maximum memory size now 20,897 MB at UTC 2025.09.12 19:47:36.063
-\o *Info*    Client has finished evaluating ... 
-\o 
-\o 
-\o *Info*    Run complete for Point ID (2 265) on testbench [
-\o           EX1:s1_feedback_MC ].
-\o 
-\o 
-\o 
-\o 
-\o 
-\o *Info*    Client has finished evaluating ... 
-\o 
-\o 
-\o *Info*    Run complete for Point ID (2 266) on testbench [
-\o           EX1:s1_feedback_MC ].
-\o 
-\o 
-\o 
-\o 
-\o 
-\o *Info*    Monte Carlo Simulation completed successfully...
-\o Simulation design variables differ from those on the cellView,
-\o they have been saved in the file "/tmp/saved-design-variables".
-\o To save future changes, copy variables to cellView before exiting.
-\# Lic Summary:
-\# [19:52:39.437515] Cdslmd servers:3000@lic08.ug.kth.se
-\# [19:52:39.437786] Feature usage summary:
-\# Memory report: on exit            464 MB, process size 2,267 MB at UTC 2025.09.12 19:52:39.438
-\# Memory report: peak usage         464 MB, process size 2,267 MB
+\o *Info*    Received signal SIGTERM.

@@ -1,0 +1,12 @@
+
+// Library name: LAB2
+// Cell name: transconductance
+// View name: schematic
+IPRB0 (VOUT net2) iprobe
+R2 (net1 VG) resistor r=1
+R1 (net2 0) resistor r=1k
+R0 (VS 0) resistor r=10k
+V0 (net1 0) vsource mag=VIN type=sine
+I4 (VS VOUT) isource mag=IT type=sine
+I0 (VOUT VG VS) MOS_AC _par0=gm1 rds=rds1 cgb=cgb1 cgs=cgs1 cgd=cgd1 \
+        cdb=cdb1 cds=cds1

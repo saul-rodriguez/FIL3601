@@ -1,0 +1,7 @@
+// Generated for: spectre
+// Design Netlist Generated on: Nov 12 09:59:02 2025
+// Design library name: LAB2
+// Design cell name: transimpedance
+// Design view name: schematic
+simulator lang=spectre
+global 0

@@ -1,0 +1,1786 @@
+HEADER
+"PSFversion" "1.00"
+"simulator" "spectre"
+"version" "24.1.0.288.isr5"
+"date" "10:35:28 AM, Wed Nov 12, 2025"
+"design" "// Generated for: spectre"
+"analysis type" "info.subckts"
+"analysis name" "subckts"
+"analysis description" "Circuit Information"
+"xVecSorted" "unknown"
+"tolerance.relative" 1.000000000000000e-03
+TYPE
+"subckt" STRUCT(
+"subckt_file" STRING *
+"subckt_params" STRING *
+"subckt_terminals" STRING *
+"subckt_instances" STRING *
+) PROP(
+"key" "sub"
+)
+VALUE
+"cmm4" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/cap/cmm4.scs 22"
+""
+""
+""
+)
+"dpdnw" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/dio/dpdnw.scs 22"
+""
+""
+""
+)
+"cmmh5t" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/cap/cmmh5t.scs 22"
+""
+""
+""
+)
+"ne3i_6" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/mos/ne3i_6.scs 34"
+""
+""
+""
+)
+"rnp1h" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/res/rnp1h.scs 24"
+""
+""
+""
+)
+"pe3ln" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/mos/pe3ln.scs 25"
+""
+""
+""
+)
+"csft4" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/cap/csft4.scs 20"
+""
+""
+""
+)
+"dpdnwmv" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/dio/dpdnwmv.scs 22"
+""
+""
+""
+)
+"jf_nmma" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/mos/jf_nmma.scs 16"
+""
+""
+""
+)
+"nhhv" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/mos/nhhv.scs 24"
+""
+""
+""
+)
+"ne3lna" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/mos/ne3lna.scs 25"
+""
+""
+""
+)
+"nhvd_bjt" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/mos/nhvd_bjt.scs 25"
+""
+""
+""
+)
+"dnp20" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/dio/dnp20.scs 29"
+""
+""
+""
+)
+"csft5a" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/cap/csft5a.scs 20"
+""
+""
+""
+)
+"pmmc_bjt" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/mos/pmmc_bjt.scs 24"
+""
+""
+""
+)
+"ddnw" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/dio/ddnw.scs 22"
+""
+""
+""
+)
+"dp" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/dio/dp.scs 22"
+""
+""
+""
+)
+"ne3lnai_6" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/mos/ne3lnai_6.scs 25"
+""
+""
+""
+)
+"nhv_bjt" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/mos/nhv_bjt.scs 24"
+""
+""
+""
+)
+"dn3" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/dio/dn3.scs 22"
+""
+""
+""
+)
+"nd3" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/mos/nd3.scs 24"
+""
+""
+""
+)
+"dipdnwmv" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/dio/dipdnwmv.scs 22"
+""
+""
+""
+)
+"dspbfep" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/photo/dspbfep.scs 20"
+""
+""
+""
+)
+"dphod0" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/photo/dphod0.scs 30"
+""
+""
+""
+)
+"rpp1k1_3" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/res/rpp1k1_3.scs 24"
+""
+""
+""
+)
+"dphoc" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/photo/dphoc.scs 26"
+""
+""
+""
+)
+"pmmc" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/mos/pmmc.scs 24"
+""
+""
+""
+)
+"rm5" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/res/rm5.scs 25"
+""
+""
+""
+)
+"dpwhn" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/dio/dpwhn.scs 22"
+""
+""
+""
+)
+"pmc" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/mos/pmc.scs 24"
+""
+""
+""
+)
+"csandwt3" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/cap/csandwt3.scs 23"
+""
+""
+""
+)
+"ne3i" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/mos/ne3i.scs 22"
+""
+""
+""
+)
+"rdn3" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/res/rdn3.scs 24"
+""
+""
+""
+)
+"rdp_esd" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/res/rdp_esd.scs 24"
+""
+""
+""
+)
+"rm4" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/res/rm4.scs 25"
+""
+""
+""
+)
+"pe3ln_5" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/mos/pe3ln_5.scs 25"
+""
+""
+""
+)
+"nedia" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/mos/nedia.scs 32"
+""
+""
+""
+)
+"nelna" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/mos/nelna.scs 25"
+""
+""
+""
+)
+"nmmc_bjt" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/mos/nmmc_bjt.scs 24"
+""
+""
+""
+)
+"pesvti_5" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/mos/pesvti_5.scs 25"
+""
+""
+""
+)
+"csf5" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/cap/csf5.scs 20"
+""
+""
+""
+)
+"pel" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/mos/pel.scs 22"
+""
+""
+""
+)
+"pesvti_m_5" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/mos/pesvti_m_5.scs 25"
+""
+""
+""
+)
+"dnw" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/dio/dnw.scs 22"
+""
+""
+""
+)
+"cpod_i" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/cap/cpod_i.scs 22"
+""
+""
+""
+)
+"mosvci" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/cap/mosvci.scs 27"
+""
+""
+""
+)
+"neli" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/mos/neli.scs 22"
+""
+""
+""
+)
+"qnl_pf" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/bip/qnl_pf.scs 21"
+""
+""
+""
+)
+"dnhpw" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/dio/dnhpw.scs 22"
+""
+""
+""
+)
+"dphocfp_cat" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/photo/dphocfp_cat.scs 24"
+""
+""
+""
+)
+"nei" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/mos/nei.scs 22"
+""
+""
+""
+)
+"rpp1s" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/res/rpp1s.scs 24"
+""
+""
+""
+)
+"nmma" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/mos/nmma.scs 21"
+""
+""
+""
+)
+"csft6a" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/cap/csft6a.scs 20"
+""
+""
+""
+)
+"qpvc3" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/bip/qpvc3.scs 21"
+""
+""
+""
+)
+"rdp3" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/res/rdp3.scs 24"
+""
+""
+""
+)
+"qpv_pf" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/bip/qpv_pf.scs 21"
+""
+""
+""
+)
+"dsba" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/dio/dsba.scs 20"
+""
+""
+""
+)
+"pei_m_5" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/mos/pei_m_5.scs 33"
+""
+""
+""
+)
+"cmmh6t" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/cap/cmmh6t.scs 22"
+""
+""
+""
+)
+"pe3lni_5" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/mos/pe3lni_5.scs 25"
+""
+""
+""
+)
+"neli_m_6" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/mos/neli_m_6.scs 34"
+""
+""
+""
+)
+"cif4a" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/cap/cif4a.scs 20"
+""
+""
+""
+)
+"pei_5" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/mos/pei_5.scs 33"
+""
+""
+""
+)
+"dapda" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/photo/dapda.scs 26"
+""
+""
+""
+)
+"dphod0_an1" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/photo/dphod0_an1.scs 24"
+""
+""
+""
+)
+"ctmm5t" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/cap/ctmm5t.scs 22"
+""
+""
+""
+)
+"nedia_bjt" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/mos/nedia_bjt.scs 32"
+""
+""
+""
+)
+"cmm4t" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/cap/cmm4t.scs 22"
+""
+""
+""
+)
+"qpl_pb" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/bip/qpl_pb.scs 21"
+""
+""
+""
+)
+"qpvc" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/bip/qpvc.scs 21"
+""
+""
+""
+)
+"pesvt_5" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/mos/pesvt_5.scs 25"
+""
+""
+""
+)
+"dbn" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/dio/dbn.scs 22"
+""
+""
+""
+)
+"qpl_pc" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/bip/qpl_pc.scs 21"
+""
+""
+""
+)
+"tag_25v" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/cap/tag_25v.scs 20"
+""
+""
+""
+)
+"ne3i_a_6" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/mos/ne3i_a_6.scs 34"
+""
+""
+""
+)
+"dphnw" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/dio/dphnw.scs 22"
+""
+""
+""
+)
+"dhpw" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/dio/dhpw.scs 22"
+""
+""
+""
+)
+"cpodhv_i" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/cap/cpodhv_i.scs 22"
+""
+""
+""
+)
+"dnw3" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/dio/dnw3.scs 22"
+""
+""
+""
+)
+"pe3" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/mos/pe3.scs 22"
+""
+""
+""
+)
+"qnl_pd" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/bip/qnl_pd.scs 21"
+""
+""
+""
+)
+"ctmmh5t" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/cap/ctmmh5t.scs 22"
+""
+""
+""
+)
+"nedi" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/mos/nedi.scs 31"
+""
+""
+""
+)
+"nelnai_m_6" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/mos/nelnai_m_6.scs 25"
+""
+""
+""
+)
+"pmc_bjt" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/mos/pmc_bjt.scs 24"
+""
+""
+""
+)
+"dnhpwa" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/dio/dnhpwa.scs 22"
+""
+""
+""
+)
+"peli" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/mos/peli.scs 22"
+""
+""
+""
+)
+"rpp1s_3" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/res/rpp1s_3.scs 24"
+""
+""
+""
+)
+"pe3lnai_5" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/mos/pe3lnai_5.scs 25"
+""
+""
+""
+)
+"qnvba" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/bip/qnvba.scs 29"
+""
+""
+""
+)
+"pesvti" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/mos/pesvti.scs 25"
+""
+""
+""
+)
+"dapb" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/photo/dapb.scs 20"
+""
+""
+""
+)
+"qpvhscr" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/bip/qpvhscr.scs 26"
+""
+""
+""
+)
+"mosvci_m" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/cap/mosvci_m.scs 27"
+""
+""
+""
+)
+"pfuse" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/res/pfuse.scs 23"
+""
+""
+""
+)
+"nei_a_6" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/mos/nei_a_6.scs 34"
+""
+""
+""
+)
+"pe3lni" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/mos/pe3lni.scs 25"
+""
+""
+""
+)
+"dspada_cat" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/photo/dspada_cat.scs 22"
+""
+""
+""
+)
+"dn3dpl" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/dio/dn3dpl.scs 22"
+""
+""
+""
+)
+"dspb_jun" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/photo/dspb_jun.scs 22"
+""
+""
+""
+)
+"qpvascr" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/bip/qpvascr.scs 26"
+""
+""
+""
+)
+"nmmc" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/mos/nmmc.scs 24"
+""
+""
+""
+)
+"dspb_trig" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/photo/dspb_trig.scs 22"
+""
+""
+""
+)
+"nei_m_6" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/mos/nei_m_6.scs 34"
+""
+""
+""
+)
+"cmm3" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/cap/cmm3.scs 22"
+""
+""
+""
+)
+"dphod" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/photo/dphod.scs 29"
+""
+""
+""
+)
+"rm1" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/res/rm1.scs 25"
+""
+""
+""
+)
+"nd3i" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/mos/nd3i.scs 24"
+""
+""
+""
+)
+"rdp_io" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/res/rdp_io.scs 24"
+""
+""
+""
+)
+"nesvti" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/mos/nesvti.scs 25"
+""
+""
+""
+)
+"nesvti_m_6" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/mos/nesvti_m_6.scs 25"
+""
+""
+""
+)
+"mosvc3i_m" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/cap/mosvc3i_m.scs 27"
+""
+""
+""
+)
+"qpl_pd" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/bip/qpl_pd.scs 21"
+""
+""
+""
+)
+"mosvc" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/cap/mosvc.scs 22"
+""
+""
+""
+)
+"cmmh4" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/cap/cmmh4.scs 22"
+""
+""
+""
+)
+"nelnai_6" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/mos/nelnai_6.scs 25"
+""
+""
+""
+)
+"csf5a" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/cap/csf5a.scs 20"
+""
+""
+""
+)
+"ped2_bjt" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/mos/ped2_bjt.scs 31"
+""
+""
+""
+)
+"dnn3" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/dio/dnn3.scs 22"
+""
+""
+""
+)
+"ne" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/mos/ne.scs 22"
+""
+""
+""
+)
+"peli_5" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/mos/peli_5.scs 33"
+""
+""
+""
+)
+"s_res" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/res/s_res.scs 25"
+""
+""
+""
+)
+"ddnwmv" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/dio/ddnwmv.scs 22"
+""
+""
+""
+)
+"ne3i_m_6" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/mos/ne3i_m_6.scs 34"
+""
+""
+""
+)
+"csf4" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/cap/csf4.scs 20"
+""
+""
+""
+)
+"dhnw" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/dio/dhnw.scs 22"
+""
+""
+""
+)
+"dipdnw" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/dio/dipdnw.scs 22"
+""
+""
+""
+)
+"dapda_cat" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/photo/dapda_cat.scs 22"
+""
+""
+""
+)
+"dapb_jun" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/photo/dapb_jun.scs 22"
+""
+""
+""
+)
+"dphod0_an2" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/photo/dphod0_an2.scs 24"
+""
+""
+""
+)
+"rmtp" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/res/rmtp.scs 25"
+""
+""
+""
+)
+"nhv" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/mos/nhv.scs 24"
+""
+""
+""
+)
+"pe3lna" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/mos/pe3lna.scs 25"
+""
+""
+""
+)
+"pel_5" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/mos/pel_5.scs 33"
+""
+""
+""
+)
+"phhv" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/mos/phhv.scs 24"
+""
+""
+""
+)
+"cif3a" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/cap/cif3a.scs 20"
+""
+""
+""
+)
+"qpva3" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/bip/qpva3.scs 21"
+""
+""
+""
+)
+"nn3" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/mos/nn3.scs 25"
+""
+""
+""
+)
+"ped2" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/mos/ped2.scs 31"
+""
+""
+""
+)
+"nhhvd_bjt" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/mos/nhhvd_bjt.scs 25"
+""
+""
+""
+)
+"qnvbb" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/bip/qnvbb.scs 29"
+""
+""
+""
+)
+"nedi_bjt" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/mos/nedi_bjt.scs 31"
+""
+""
+""
+)
+"dspb" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/photo/dspb.scs 20"
+""
+""
+""
+)
+"nhhv_bjt" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/mos/nhhv_bjt.scs 24"
+""
+""
+""
+)
+"rm2" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/res/rm2.scs 25"
+""
+""
+""
+)
+"qnl_pc" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/bip/qnl_pc.scs 21"
+""
+""
+""
+)
+"rnw" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/res/rnw.scs 24"
+""
+""
+""
+)
+"dphodfp_an1" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/photo/dphodfp_an1.scs 24"
+""
+""
+""
+)
+"pe3i" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/mos/pe3i.scs 22"
+""
+""
+""
+)
+"cdmmh4t" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/cap/cdmmh4t.scs 22"
+""
+""
+""
+)
+"dpol" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/dio/dpol.scs 20"
+""
+""
+""
+)
+"csf2p" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/cap/csf2p.scs 20"
+""
+""
+""
+)
+"qnvc" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/bip/qnvc.scs 29"
+""
+""
+""
+)
+"rpp1_3" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/res/rpp1_3.scs 24"
+""
+""
+""
+)
+"qnvca" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/bip/qnvca.scs 29"
+""
+""
+""
+)
+"rpp1k1" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/res/rpp1k1.scs 24"
+""
+""
+""
+)
+"qpv_pb" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/bip/qpv_pb.scs 21"
+""
+""
+""
+)
+"cmmh4t" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/cap/cmmh4t.scs 22"
+""
+""
+""
+)
+"phv" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/mos/phv.scs 24"
+""
+""
+""
+)
+"dpdddnw" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/dio/dpdddnw.scs 22"
+""
+""
+""
+)
+"dphnwa" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/dio/dphnwa.scs 22"
+""
+""
+""
+)
+"cpod" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/cap/cpod.scs 22"
+""
+""
+""
+)
+"dphoc0_cat" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/photo/dphoc0_cat.scs 24"
+""
+""
+""
+)
+"phhv_bjt" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/mos/phhv_bjt.scs 24"
+""
+""
+""
+)
+"dspb0" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/photo/dspb0.scs 20"
+""
+""
+""
+)
+"ne3" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/mos/ne3.scs 22"
+""
+""
+""
+)
+"pmma" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/mos/pmma.scs 21"
+""
+""
+""
+)
+"dphob" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/photo/dphob.scs 21"
+""
+""
+""
+)
+"dn" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/dio/dn.scs 22"
+""
+""
+""
+)
+"pe3lni_m_5" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/mos/pe3lni_m_5.scs 25"
+""
+""
+""
+)
+"pe3i_5" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/mos/pe3i_5.scs 33"
+""
+""
+""
+)
+"qnva" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/bip/qnva.scs 27"
+""
+""
+""
+)
+"csft6" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/cap/csft6.scs 20"
+""
+""
+""
+)
+"qpl_pf" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/bip/qpl_pf.scs 21"
+""
+""
+""
+)
+"csf3a" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/cap/csf3a.scs 20"
+""
+""
+""
+)
+"dphod_an2" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/photo/dphod_an2.scs 24"
+""
+""
+""
+)
+"mosvc3" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/cap/mosvc3.scs 22"
+""
+""
+""
+)
+"nei_6" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/mos/nei_6.scs 34"
+""
+""
+""
+)
+"csandwt5" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/cap/csandwt5.scs 23"
+""
+""
+""
+)
+"jf_pmma" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/mos/jf_pmma.scs 16"
+""
+""
+""
+)
+"rmtpl" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/res/rmtpl.scs 25"
+""
+""
+""
+)
+"dphoc_cat" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/photo/dphoc_cat.scs 23"
+""
+""
+""
+)
+"phv_bjt" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/mos/phv_bjt.scs 24"
+""
+""
+""
+)
+"rdn_esd" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/res/rdn_esd.scs 24"
+""
+""
+""
+)
+"dndf" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/dio/dndf.scs 22"
+""
+""
+""
+)
+"csf4a" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/cap/csf4a.scs 20"
+""
+""
+""
+)
+"rnw3_scr" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/res/rnw3_scr.scs 24"
+""
+""
+""
+)
+"dsb" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/dio/dsb.scs 26"
+""
+""
+""
+)
+"rnw_scr" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/res/rnw_scr.scs 24"
+""
+""
+""
+)
+"qpl_pe" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/bip/qpl_pe.scs 21"
+""
+""
+""
+)
+"qnl_pb" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/bip/qnl_pb.scs 21"
+""
+""
+""
+)
+"dphod_an1" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/photo/dphod_an1.scs 24"
+""
+""
+""
+)
+"qnl_pa" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/bip/qnl_pa.scs 21"
+""
+""
+""
+)
+"dpdd_scr" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/dio/dpdd_scr.scs 23"
+""
+""
+""
+)
+"mosvc3i" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/cap/mosvc3i.scs 27"
+""
+""
+""
+)
+"qpvb3" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/bip/qpvb3.scs 21"
+""
+""
+""
+)
+"pmma_bjt" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/mos/pmma_bjt.scs 21"
+""
+""
+""
+)
+"cif5a" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/cap/cif5a.scs 20"
+""
+""
+""
+)
+"peli_m_5" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/mos/peli_m_5.scs 33"
+""
+""
+""
+)
+"qpvhbscr" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/bip/qpvhbscr.scs 26"
+""
+""
+""
+)
+"csft5" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/cap/csft5.scs 20"
+""
+""
+""
+)
+"nmma_bjt" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/mos/nmma_bjt.scs 21"
+""
+""
+""
+)
+"qpv_pe" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/bip/qpv_pe.scs 21"
+""
+""
+""
+)
+"tag_60v" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/cap/tag_60v.scs 20"
+""
+""
+""
+)
+"cift6a" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/cap/cift6a.scs 20"
+""
+""
+""
+)
+"csf3" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/cap/csf3.scs 20"
+""
+""
+""
+)
+"ctmm5" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/cap/ctmm5.scs 22"
+""
+""
+""
+)
+"dphoa" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/photo/dphoa.scs 21"
+""
+""
+""
+)
+"dapb0_jun" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/photo/dapb0_jun.scs 22"
+""
+""
+""
+)
+"nel" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/mos/nel.scs 22"
+"psl wcd_au0 ad nrs nrsl xf_subext as par1 pd w adl ps nrdl l wcd_avt asl nrd pdl"
+"d g s b"
+"M0"
+)
+"nd3i_6" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/mos/nd3i_6.scs 24"
+""
+""
+""
+)
+"nmmd_bjt" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/mos/nmmd_bjt.scs 24"
+""
+""
+""
+)
+"cdmm4t" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/cap/cdmm4t.scs 22"
+""
+""
+""
+)
+"pei_a_5" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/mos/pei_a_5.scs 33"
+""
+""
+""
+)
+"dphocfp" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/photo/dphocfp.scs 28"
+""
+""
+""
+)
+"dscidnwmv" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/dio/dscidnwmv.scs 22"
+""
+""
+""
+)
+"dwhn" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/dio/dwhn.scs 22"
+""
+""
+""
+)
+"nma" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/mos/nma.scs 23"
+""
+""
+""
+)
+"qnvb" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/bip/qnvb.scs 29"
+""
+""
+""
+)
+"cdmmh4" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/cap/cdmmh4.scs 22"
+""
+""
+""
+)
+"cift4a" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/cap/cift4a.scs 20"
+""
+""
+""
+)
+"dnpdd_scr" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/dio/dnpdd_scr.scs 23"
+""
+""
+""
+)
+"qpvb" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/bip/qpvb.scs 21"
+""
+""
+""
+)
+"neli_6" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/mos/neli_6.scs 34"
+""
+""
+""
+)
+"ped" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/mos/ped.scs 31"
+""
+""
+""
+)
+"rdn" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/res/rdn.scs 24"
+""
+""
+""
+)
+"csandwt4" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/cap/csandwt4.scs 23"
+""
+""
+""
+)
+"pe3lnai_m_5" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/mos/pe3lnai_m_5.scs 25"
+""
+""
+""
+)
+"nelnai" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/mos/nelnai.scs 25"
+""
+""
+""
+)
+"nmmd" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/mos/nmmd.scs 24"
+""
+""
+""
+)
+"dn3sci" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/dio/dn3sci.scs 22"
+""
+""
+""
+)
+"dpdwhn" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/dio/dpdwhn.scs 22"
+""
+""
+""
+)
+"dspada0" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/photo/dspada0.scs 26"
+""
+""
+""
+)
+"dapda0" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/photo/dapda0.scs 26"
+""
+""
+""
+)
+"pma_bjt" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/mos/pma_bjt.scs 23"
+""
+""
+""
+)
+"nd3i_m_6" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/mos/nd3i_m_6.scs 24"
+""
+""
+""
+)
+"pe" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/mos/pe.scs 22"
+""
+""
+""
+)
+"pe_5" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/mos/pe_5.scs 33"
+""
+""
+""
+)
+"rnp1" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/res/rnp1.scs 24"
+""
+""
+""
+)
+"dspb0_jun" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/photo/dspb0_jun.scs 22"
+""
+""
+""
+)
+"nhhvd" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/mos/nhhvd.scs 25"
+""
+""
+""
+)
+"cift5a" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/cap/cift5a.scs 20"
+""
+""
+""
+)
+"pe3i_a_5" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/mos/pe3i_a_5.scs 33"
+""
+""
+""
+)
+"pesvt" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/mos/pesvt.scs 25"
+""
+""
+""
+)
+"qpv_pa" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/bip/qpv_pa.scs 21"
+""
+""
+""
+)
+"dp3" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/dio/dp3.scs 22"
+""
+""
+""
+)
+"ne3lnai" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/mos/ne3lnai.scs 25"
+""
+""
+""
+)
+"cdmm4" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/cap/cdmm4.scs 22"
+""
+""
+""
+)
+"rm3" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/res/rm3.scs 25"
+""
+""
+""
+)
+"rnp1h_3" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/res/rnp1h_3.scs 24"
+""
+""
+""
+)
+"rdp" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/res/rdp.scs 24"
+""
+""
+""
+)
+"dpp20" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/dio/dpp20.scs 30"
+""
+""
+""
+)
+"nhvd" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/mos/nhvd.scs 25"
+""
+""
+""
+)
+"cmmh3" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/cap/cmmh3.scs 22"
+""
+""
+""
+)
+"pe3lna_5" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/mos/pe3lna_5.scs 25"
+""
+""
+""
+)
+"ctmmh5" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/cap/ctmmh5.scs 22"
+""
+""
+""
+)
+"dpndf" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/dio/dpndf.scs 22"
+""
+""
+""
+)
+"nmc" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/mos/nmc.scs 24"
+""
+""
+""
+)
+"qnvcb" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/bip/qnvcb.scs 29"
+""
+""
+""
+)
+"dspada" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/photo/dspada.scs 26"
+""
+""
+""
+)
+"ddnwa" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/dio/ddnwa.scs 22"
+""
+""
+""
+)
+"pei" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/mos/pei.scs 22"
+""
+""
+""
+)
+"cpodhv" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/cap/cpodhv.scs 22"
+""
+""
+""
+)
+"pmb" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/mos/pmb.scs 23"
+""
+""
+""
+)
+"qnl_pe" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/bip/qnl_pe.scs 21"
+""
+""
+""
+)
+"dphoc0" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/photo/dphoc0.scs 28"
+""
+""
+""
+)
+"nmc_bjt" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/mos/nmc_bjt.scs 24"
+""
+""
+""
+)
+"rnw3" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/res/rnw3.scs 24"
+""
+""
+""
+)
+"ped_bjt" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/mos/ped_bjt.scs 31"
+""
+""
+""
+)
+"qpl_pa" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/bip/qpl_pa.scs 21"
+""
+""
+""
+)
+"qpva" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/bip/qpva.scs 21"
+""
+""
+""
+)
+"rpp1" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/res/rpp1.scs 24"
+""
+""
+""
+)
+"csf3p" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/cap/csf3p.scs 20"
+""
+""
+""
+)
+"pe3i_m_5" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/mos/pe3i_m_5.scs 33"
+""
+""
+""
+)
+"dapb_trig" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/photo/dapb_trig.scs 22"
+""
+""
+""
+)
+"rdnwmv" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/res/rdnwmv.scs 24"
+""
+""
+""
+)
+"nesvti_6" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/mos/nesvti_6.scs 25"
+""
+""
+""
+)
+"rnp1_3" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/res/rnp1_3.scs 24"
+""
+""
+""
+)
+"qpv_pc" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/bip/qpv_pc.scs 21"
+""
+""
+""
+)
+"dapb0" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/photo/dapb0.scs 20"
+""
+""
+""
+)
+"pma" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/mos/pma.scs 23"
+""
+""
+""
+)
+"csft4a" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/cap/csft4a.scs 20"
+""
+""
+""
+)
+"nma_bjt" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/mos/nma_bjt.scs 23"
+""
+""
+""
+)
+"pe3_5" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/mos/pe3_5.scs 33"
+""
+""
+""
+)
+"ddpldnw" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/dio/ddpldnw.scs 22"
+""
+""
+""
+)
+"ne3lnai_m_6" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/mos/ne3lnai_m_6.scs 25"
+""
+""
+""
+)
+"nesvt" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/mos/nesvt.scs 25"
+""
+""
+""
+)
+"dphodfp" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/photo/dphodfp.scs 30"
+""
+""
+""
+)
+"cmm5t" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/cap/cmm5t.scs 22"
+""
+""
+""
+)
+"qpv_pd" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/bip/qpv_pd.scs 21"
+""
+""
+""
+)
+"pe3lnai" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/mos/pe3lnai.scs 25"
+""
+""
+""
+)
+"cmm6t" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/cap/cmm6t.scs 22"
+""
+""
+""
+)
+"dphodfp_an2" "subckt" (
+"/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/./models/photo/dphodfp_an2.scs 24"
+""
+""
+""
+)
+END

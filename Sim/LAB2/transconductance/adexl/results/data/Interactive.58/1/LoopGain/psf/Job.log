@@ -1,0 +1,77 @@
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (13 1) on testbench [ LoopGain ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var IT = "1"
+\o Setting var VIN = "0"
+\o Setting var cdb1 = "77.36f"
+\o Setting var cds1 = "45.47f"
+\o Setting var cgb1 = "160.82f"
+\o Setting var cgd1 = "0"
+\o Setting var cgs1 = "111.69f"
+\o Setting var gm = "0.227m"
+\o Setting var gm1 = "0"
+\o Setting var rds1 = "23885929.34"
+\o Setting var temperature = "27"
+\o Setting temp(T) = 27
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/FIL3601/Sim/LAB2/transconductance/adexl/results/data/Interactive.58/1/LoopGain/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/FIL3601/Sim/LAB2/transconductance/adexl/results/data/Interactive.58/1/LoopGain
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (13 1)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Nov  9 15:40:40 2025
+\o End netlisting Nov  9 15:40:40 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ LoopGain ] for Point ID
+\o           (13 1).
+\o 
+\o Delete psf data in /home/saul/projects/FIL3601/Sim/LAB2/transconductance/adexl/results/data/Interactive.58/1/LoopGain/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\e *Error* 
+\e  Error in locating poles-zeros. Ensure that poles and zeros exist in this simualtion data.
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'Zeros' returned 'nil' for point:'1' test:'LoopGain'
+\o 	Expression:'pzFrequencyAndRealFilter(getData("zeros" ?result "pz"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o 
+\o *Info*    Run complete for Point ID (13 1) on testbench [ LoopGain ].
+\o 
+\o 
+\o 
+\o 
+\o 

@@ -1,0 +1,1 @@
+{"hierarchy":{"top_level":1,"1":{"insts":{"V1":2,"E0":5,"I0":3,"M0":4}}},"modelMap":{"vsource":[2],"isource":[3],"nel":[4],"vcvs":[5]},"cellviews":[["LAB1","GM_ID","schematic"],["analogLib","vdc","spectre"],["analogLib","idc","spectre"],["PRIMLIB","nel","spectre"],["analogLib","vcvs","spectre"]]}

@@ -1,0 +1,9 @@
+    G0 (D S G S) vccs gm=_par0
+    R0 (D S) resistor r=rds
+    C6 (G S) capacitor c=cgb
+    C5 (G S) capacitor c=cgs
+    C4 (G D) capacitor c=cgd
+    C3 (D S) capacitor c=cdb
+    C0 (D S) capacitor c=cds
+ends MOS_AC
+// End of subcircuit definition.

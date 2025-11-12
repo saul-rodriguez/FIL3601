@@ -12,13 +12,18 @@ ocnxlMaxJobFail( 20 )
 ocnxlBeginTest("DAY2:GM_ID:1")
 simulator( 'spectre )
 design( "LAB1" "GM_ID" "schematic")
+createNetlist
 
-
-load("SCRIPTS/day2/models.il")
-load("SCRIPTS/day2/global.il")
+load("SCRIPTS/lab1/models.il")
+load("SCRIPTS/lab1/global.il")
 
 
 analysis('dc ?saveOppoint t  )
+;desVar(	  "IDS" 100u	)
+;desVar(	  "L" 1u	)
+;desVar(	  "NF" 10	)
+;desVar(	  "VDS" 0.9	)
+;desVar(	  "WF" 8u	)
 desVar(	  "IDS" IDS1	)
 desVar(	  "L" L1	)
 desVar(	  "NF" NF1	)
@@ -32,7 +37,11 @@ ocnxlOutputExpr( "pv(\"M0.m1\" \"gm\" ?result \"dcOpInfo\")" ?name "gm" ?plot t 
 ocnxlEndTest() ; "DAY2:GM_ID:1"
 
 ;====================== Sweeps setup ===========================================
-ocnxlSweepVar("IDS" "{From/To}Decade:1n:10:100u{From/To}")
+ocnxlSweepVar("IDS" "{From/To}Decade:1n:10:500u{From/To}")
+;ocnxlSweepVar("L" "1u")
+;ocnxlSweepVar("NF" "10")
+;ocnxlSweepVar("VDS" "0.9")
+;ocnxlSweepVar("WF" "8u")
 ocnxlSweepVar("L" "L1")
 ocnxlSweepVar("NF" "NF1")
 ocnxlSweepVar("VDS" "VDS1")
@@ -54,7 +63,7 @@ ocnxlJobSetup( '(
 	"jobruntype" "ICRP"
 	"estimatecpuvalue" ""
 	"estimatememoryvalue" ""
-	"jobhostname" "b35621b5a0f6"
+	"jobhostname" "edatools"
 	"lingertimeout" "300"
 	"maxjobs" "8"
 	"name" "ADE XL Default"
@@ -67,6 +76,7 @@ ocnxlJobSetup( '(
 	"starttimeout" "300"
 	"usesameprocess" "1"
 ) )
+
 
 ;====================== Disabled items =========================================
 

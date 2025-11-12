@@ -1,0 +1,1700 @@
+
+Spectre (R) Circuit Simulator
+Version 24.1.0.288.isr5 64bit -- 3 Apr 2025
+Copyright (C) 1989-2025 Cadence Design Systems, Inc. All rights reserved worldwide. Cadence and Spectre are registered trademarks of Cadence Design Systems, Inc. All others are the property of their respective holders.
+
+Includes RSA BSAFE(R) Cryptographic or Security Protocol Software from RSA Security, Inc.
+
+User: saul   Host: 680bb75d07d9   HostID: 11AC0200   PID: 43489
+Memory  available: 23.1581 GB  physical: 27.3104 GB
+Linux   : Rocky Linux release 8.10 (Green Obsidian)
+CPU Type: 11th Gen Intel(R) Core(TM) i7-11700K @ 3.60GHz
+All processors running at 3600.0 MHz
+        Socket: Processors
+        0:       0,  1,  2,  3,  4,  5,  6,  7,  8,  9
+                10, 11, 12, 13, 14, 15
+        
+System load averages (1min, 5min, 15min) : 4.9 %, 4.0 %, 6.1 %
+HPC is enabled
+
+
+Simulating `input.scs' on 680bb75d07d9 at 3:37:02 PM, Sun Nov 9, 2025 (process id: 43489).
+Current working directory: /home/saul/projects/FIL3601/Sim/LAB2/transconductance/adexl/results/data/Interactive.56/1/rootlocus/netlist
+Command line:
+    /opt/tools/cadence/installs/SPECTRE241/tools/bin/spectre -64  \
+        input.scs +escchars +log ../psf/spectre.out -format psfxl -raw  \
+        ../psf +aps +mt +lqtimeout 900 -maxw 5 -maxn 5 -env ade  \
+        -ahdllibdir  \
+        /home/saul/projects/FIL3601/Sim/LAB2/transconductance/adexl/results/data/Interactive.56/sharedData/Job23/ahdl/input.ahdlSimDB  \
+        +logstatus  \
+        +adespetkn=0001089D13A302B663E41FB550AF0DF415A679A322D5069144BF588C12F604E07EF416DC01A319B562BB63D303EF45A645A31CD83DCC27BF60A95AB311C34F925CCF79D15D9175FF34980CBD6B9974D334982B841BA441B756AF27D01BFB47E70EA079D12DF874D3349879D118F874D3349810C1ADE2C1C95D88000036AD
+
+Simulation Id: 1uvX18T1Sl2zK5hW
+Licensing Information:
+[15:37:02.188817] Configured Lic search path (24.01-s002): 3000@lic08.ug.kth.se
+
+Licensing Information:
+[15:37:02.028898] Periodic Lic check successful
+
+Loading /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/cmi/lib/64bit/5.0/libinfineon_sh.so ...
+Loading /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/cmi/lib/64bit/5.0/libphilips_I_sh.so ...
+Loading /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/cmi/lib/64bit/5.0/libphilips_sh.so ...
+Loading /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/cmi/lib/64bit/5.0/libsparam_sh.so ...
+Loading /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/cmi/lib/64bit/5.0/libstmodels_sh.so ...
+Reading file:  /home/saul/projects/FIL3601/Sim/LAB2/transconductance/adexl/results/data/Interactive.56/1/rootlocus/netlist/input.scs
+Reading file:  /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/etc/configs/spectre.cfg
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/config.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/param.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/bip.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/bip/tm_bip.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/bip/qpva.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/bip/qpvb.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/bip/qpvc.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/bip/qpva3.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/bip/qpvb3.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/bip/qpvc3.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/bip/qnva.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/bip/qnvb.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/bip/qnvba.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/bip/qnvbb.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/bip/qnvc.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/bip/qnvca.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/bip/qnvcb.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/bip/qpvhscr.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/bip/qpvascr.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/bip/qpvhbscr.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/bip/qpv_pa.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/bip/qpv_pb.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/bip/qpv_pc.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/bip/qpv_pd.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/bip/qpv_pe.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/bip/qpv_pf.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/bip/qpl_pa.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/bip/qpl_pb.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/bip/qpl_pc.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/bip/qpl_pd.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/bip/qpl_pe.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/bip/qpl_pf.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/bip/qnl_pa.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/bip/qnl_pb.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/bip/qnl_pc.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/bip/qnl_pd.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/bip/qnl_pe.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/bip/qnl_pf.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/cap.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/tm_cap.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/csandwt3.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/csandwt4.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/csandwt5.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/csf2p.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/csf3p.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/csf3.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/csf4.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/csf5.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/csft4.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/csft5.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/csft6.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/csf3a.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/csf4a.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/csf5a.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/csft4a.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/csft5a.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/csft6a.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/cif3a.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/cif4a.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/cif5a.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/cift4a.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/cift5a.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/cift6a.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/cmm3.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/cmm4t.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/cmm4.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/cmm5t.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/cmm6t.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/cdmm4.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/cdmm4t.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/ctmm5.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/ctmm5t.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/cmmh3.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/cmmh4t.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/cmmh4.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/cmmh5t.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/cmmh6t.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/cdmmh4.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/cdmmh4t.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/ctmmh5.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/ctmmh5t.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/mosvc.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/mosvc_pmos.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/mosvci.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/mosvci_nmos.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/mosvci_m.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/mosvc3.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/mosvc3_pmos.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/mosvc3i.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/mosvc3i_nmos.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/mosvc3i_m.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/cpod.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/cpod_i.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/cpodhv.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/cpodhv_i.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/cp1sub.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/cp1suba.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/cp1subp.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/tag_25v.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/tag_60v.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/dio.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/dio/tm_dio.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/dio/dn.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/dio/dp.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/dio/dnw.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/dio/dn3.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/dio/dnn3.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/dio/dp3.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/dio/dnw3.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/dio/ddnwmv.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/dio/dpdnwmv.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/dio/dipdnwmv.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/dio/ddnw.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/dio/ddnwa.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/dio/dpdnw.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/dio/dipdnw.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/dio/dnhpw.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/dio/dnhpwa.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/dio/dphnw.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/dio/dphnwa.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/dio/dhpw.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/dio/dhnw.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/dio/dndf.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/dio/dpdwhn.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/dio/dwhn.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/dio/dpwhn.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/dio/dpndf.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/dio/dpdddnw.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/dio/ddpldnw.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/dio/dn3dpl.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/dio/dbn.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/dio/dpol.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/dio/dnpdd_scr.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/dio/dpdd_scr.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/dio/dsb.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/dio/dsba.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/dio/dsba_qp1.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/dio/dnp20.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/dio/dpp20.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/dio/dn3sci.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/dio/dscidnwmv.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/mos.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/tm_mos.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/ne.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/nei.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/nei_6.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/nei_m_6.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/nei_a_6.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/pe.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/pe_5.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/pei.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/pei_5.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/pei_m_5.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/pei_a_5.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/nel.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/neli.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/neli_6.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/neli_m_6.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/pel.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/pel_5.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/peli.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/peli_5.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/peli_m_5.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/nn3.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/ne3.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/ne3i.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/ne3i_6.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/ne3i_m_6.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/ne3i_a_6.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/pe3.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/pe3_5.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/pe3i.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/pe3i_5.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/pe3i_m_5.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/pe3i_a_5.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/pe3ln.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/pe3ln_5.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/pe3lni.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/pe3lni_5.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/pe3lni_m_5.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/nd3.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/nd3_mos1.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/nd3_mos2.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/nd3i.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/nd3i_mos1.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/nd3i_mos2.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/nd3i_6.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/nd3i_m_6.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/nelna.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/nelnai.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/nelnai_6.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/nelnai_m_6.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/ne3lna.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/ne3lnai.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/ne3lnai_6.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/ne3lnai_m_6.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/pe3lna.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/pe3lna_5.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/pe3lnai.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/pe3lnai_5.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/pe3lnai_m_5.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/nmma.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/jf_nmma.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/nmma_bjt.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/pmma.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/jf_pmma.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/pmma_bjt.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/nedi.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/nedi_bjt.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/nedia.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/nedia_bjt.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/ped2.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/ped2_bjt.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/ped.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/ped_bjt.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/nhv.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/nhv_mos2.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/nhv_bjt.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/nhhv.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/nhhv_mos2.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/nhhv_bjt.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/nmmc.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/nmmc_mos2.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/nmmc_bjt.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/nmmd.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/nmmd_mos2.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/nmmd_bjt.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/nmc.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/nmc_mos2.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/nmc_bjt.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/nma.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/nma_bjt.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/phv.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/phv_mos2.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/phv_bjt.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/phhv.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/phhv_mos2.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/phhv_bjt.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/pmc.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/pmc_mos2.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/pmc_bjt.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/pmmc.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/pmmc_mos2.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/pmmc_bjt.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/pma.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/pma_bjt.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/pmb.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/nesvt.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/nesvti.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/nesvti_6.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/nesvti_m_6.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/pesvt.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/pesvt_5.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/pesvti.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/pesvti_5.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/pesvti_m_5.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/nhvd.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/nhvd_bjt.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/nhhvd.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/nhhvd_bjt.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/photo.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/photo/tm_pho.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/photo/dphoa.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/photo/dpho.va
+Reading link:  /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/etc/ahdl/constants.h
+Reading file:  /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/etc/ahdl/constants.vams
+Reading link:  /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/etc/ahdl/discipline.h
+Reading file:  /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/etc/ahdl/disciplines.vams
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/photo/dphob.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/photo/dphoc.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/photo/iphoto_uv.va
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/photo/dphoc_cat.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/photo/dphoc0.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/photo/dphoc0_cat.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/photo/dphocfp.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/photo/dphocfp_cat.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/photo/dphod.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/photo/dphod_an1.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/photo/dphod_an2.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/photo/dphod0.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/photo/dphod0_an1.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/photo/dphod0_an2.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/photo/dphodfp.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/photo/dphodfp_an1.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/photo/dphodfp_an2.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/photo/dspada0.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/photo/ispad.va
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/photo/dapb.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/photo/iphoto_apd_trig.va
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/photo/dapb_jun.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/photo/dapb_trig.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/photo/dapb0.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/photo/dapb0_jun.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/photo/dspb.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/photo/ispad_trig.va
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/photo/dspb_jun.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/photo/dspb_trig.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/photo/dspb0.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/photo/dspb0_jun.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/photo/dspbfep.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/photo/dapda.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/photo/iphoto_apd.va
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/photo/dapda_cat.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/photo/dapda0.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/photo/dspada.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/photo/dspada_cat.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/res.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/res/tm_res.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/res/rdn.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/res/rdn_esd.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/res/rdp.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/res/rdp_io.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/res/rdp_esd.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/res/rnw.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/res/rnw_scr.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/res/rdn3.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/res/rdp3.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/res/rnw3.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/res/rnw3_scr.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/res/rdnwmv.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/res/rnp1.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/res/rnp1_3.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/res/rpp1.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/res/rpp1_3.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/res/rpp1s.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/res/rpp1s_3.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/res/rnp1h.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/res/rnp1h_3.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/res/rpp1k1.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/res/rpp1k1_3.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/res/rctdn.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/res/rctdp.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/res/rctp1.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/res/rsildn.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/res/rsildp.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/res/rsilnp1.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/res/rsilpp1.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/res/rsbdn.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/res/rsbdp.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/res/rsbdn3.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/res/rsbdp3.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/res/rsbnp1.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/res/rsbpp1.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/res/rsbpp1k1.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/res/rm1.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/res/rm2.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/res/rm3.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/res/rm4.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/res/rm5.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/res/rmtp.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/res/rmtpl.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/res/pfuse.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/res/s_res.scs
+Time for NDB Parsing: CPU = 176.338 ms, elapsed = 504.242 ms.
+Time accumulated: CPU = 311.424 ms, elapsed = 504.243 ms.
+Peak resident memory used = 203 Mbytes.
+
+Time for Elaboration: CPU = 13.09 ms, elapsed = 13.5009 ms.
+Time accumulated: CPU = 324.607 ms, elapsed = 517.89 ms.
+Peak resident memory used = 214 Mbytes.
+
+
+Notice from spectre during hierarchy flattening.
+    The value 'psf' specified for the 'checklimitdest' option will no longer be supported in future releases. Use 'spectre -h' to see other recommended values for the 'checklimitdest' option.
+
+
+Time for EDB Visiting: CPU = 517 us, elapsed = 550.985 us.
+Time accumulated: CPU = 325.24 ms, elapsed = 520.44 ms.
+Peak resident memory used = 215 Mbytes.
+
+
+Notice from spectre during initial setup.
+    Multithreading is disabled due to the size of the design being too small.
+
+
+Netlist title:
+        // Point Netlist Generated on: Nov  9 15:36:59 2025
+
+
+Global user options:
+         psfversion = 1.4.0
+            vabstol = 1e-06
+            iabstol = 1e-12
+               temp = 27
+               gmin = 1e-12
+             rforce = 1
+           maxnotes = 5
+           maxwarns = 5
+             digits = 5
+               cols = 80
+             pivrel = 0.001
+           sensfile = ../psf/sens.output
+     checklimitdest = psf
+               save = allpub
+             reltol = 0.001
+               tnom = 27
+             scalem = 1
+              scale = 1
+
+Scoped user options:
+
+Circuit inventory:
+              nodes 5
+          capacitor 5     
+             iprobe 1     
+            isource 1     
+           resistor 4     
+               vccs 1     
+            vsource 1     
+
+Analysis and control statement inventory:
+               info 6     
+                 pz 1     
+
+Output statements:
+             .probe 0     
+           .measure 0     
+               save 0     
+
+
+Notice from spectre during initial setup.
+    APS enabled.
+
+Time for parsing: CPU = 1.449 ms, elapsed = 8.18515 ms.
+Time accumulated: CPU = 326.76 ms, elapsed = 528.757 ms.
+Peak resident memory used = 217 Mbytes.
+
+~~~~~~~~~~~~~~~~~~~~~~
+Pre-Simulation Summary
+~~~~~~~~~~~~~~~~~~~~~~
+   -   (APS) Multi-threading. The recommended number of threads is 1, consider adding +mt=1 on command line.
+~~~~~~~~~~~~~~~~~~~~~~
+
+**************************************
+PZ Analysis `pz': gm1 = (0 -> 227e-06)
+**************************************
+Convergence achieved in 2 iterations.
+DC simulation time: CPU = 263 us, elapsed = 476.122 us.
+
+Opening the PSF file ../psf/pz.pz ...
+
+0              0.00% 
+Convergence achieved in 2 iterations.
+DC simulation time: CPU = 64 us, elapsed = 80.8239 us.
+                      Poles (Hz)
+
+           Real                       Imaginary                 Qfactor
+
+   1   -4.01964e+06                  0.00000e+00              5.00000e-01 
+   2   -7.17022e+08                  0.00000e+00              5.00000e-01 
+
+                      Zeros (Hz)
+                      at I(IPRB0:in)/V0
+
+           Real                       Imaginary                 Qfactor
+
+   1    0.00000e+00                  0.00000e+00              nan         
+   2   -1.00226e+06                  0.00000e+00              5.00000e-01 
+
+Constant factor =  4.97512e-04
+
+DC gain =  2.75350e-14
+
+
+4.54e-06       2.00% 
+Convergence achieved in 2 iterations.
+DC simulation time: CPU = 115 us, elapsed = 131.845 us.
+                      Poles (Hz)
+
+           Real                       Imaginary                 Qfactor
+
+   1   -5.84824e+06                  0.00000e+00              5.00000e-01 
+   2   -7.15627e+08                  0.00000e+00              5.00000e-01 
+
+                      Zeros (Hz)
+                      at I(IPRB0:in)/V0
+
+           Real                       Imaginary                 Qfactor
+
+   1    4.44946e+06                  0.00000e+00              -5.00000e-01
+   2   -5.88615e+06                  0.00000e+00              5.00000e-01 
+
+Constant factor =  4.97512e-04
+
+DC gain =  3.11337e-06
+
+.
+9.08e-06       4.00% 
+Convergence achieved in 2 iterations.
+DC simulation time: CPU = 66 us, elapsed = 109.911 us.
+                      Poles (Hz)
+
+           Real                       Imaginary                 Qfactor
+
+   1   -7.68406e+06                  0.00000e+00              5.00000e-01 
+   2   -7.14226e+08                  0.00000e+00              5.00000e-01 
+
+                      Zeros (Hz)
+                      at I(IPRB0:in)/V0
+
+           Real                       Imaginary                 Qfactor
+
+   1    6.36209e+06                  0.00000e+00              -5.00000e-01
+   2   -8.23321e+06                  0.00000e+00              5.00000e-01 
+
+Constant factor =  4.97512e-04
+
+DC gain =  4.74839e-06
+
+...
+13.62e-06      6.00% 
+Convergence achieved in 2 iterations.
+DC simulation time: CPU = 63 us, elapsed = 77.0092 us.
+                      Poles (Hz)
+
+           Real                       Imaginary                 Qfactor
+
+   1   -9.52720e+06                  0.00000e+00              5.00000e-01 
+   2   -7.12817e+08                  0.00000e+00              5.00000e-01 
+
+                      Zeros (Hz)
+                      at I(IPRB0:in)/V0
+
+           Real                       Imaginary                 Qfactor
+
+   1    7.78587e+06                  0.00000e+00              -5.00000e-01
+   2   -1.00914e+07                  0.00000e+00              5.00000e-01 
+
+Constant factor =  4.97512e-04
+
+DC gain =  5.75600e-06
+
+....
+18.16e-06      8.00% 
+Convergence achieved in 2 iterations.
+DC simulation time: CPU = 52 us, elapsed = 67.9493 us.
+                      Poles (Hz)
+
+           Real                       Imaginary                 Qfactor
+
+   1   -1.13778e+07                  0.00000e+00              5.00000e-01 
+   2   -7.11401e+08                  0.00000e+00              5.00000e-01 
+
+                      Zeros (Hz)
+                      at I(IPRB0:in)/V0
+
+           Real                       Imaginary                 Qfactor
+
+   1    8.95656e+06                  0.00000e+00              -5.00000e-01
+   2   -1.16965e+07                  0.00000e+00              5.00000e-01 
+
+Constant factor =  4.97512e-04
+
+DC gain =  6.43919e-06
+
+......
+22.7e-06      10.00% 
+Convergence achieved in 2 iterations.
+DC simulation time: CPU = 91 us, elapsed = 108.004 us.
+                      Poles (Hz)
+
+           Real                       Imaginary                 Qfactor
+
+   1   -1.32358e+07                  0.00000e+00              5.00000e-01 
+   2   -7.09978e+08                  0.00000e+00              5.00000e-01 
+
+                      Zeros (Hz)
+                      at I(IPRB0:in)/V0
+
+           Real                       Imaginary                 Qfactor
+
+   1    9.96572e+06                  0.00000e+00              -5.00000e-01
+   2   -1.31401e+07                  0.00000e+00              5.00000e-01 
+
+Constant factor =  4.97512e-04
+
+DC gain =  6.93293e-06
+
+......9
+27.24e-06     12.00% 
+Convergence achieved in 2 iterations.
+DC simulation time: CPU = 51 us, elapsed = 66.9956 us.
+                      Poles (Hz)
+
+           Real                       Imaginary                 Qfactor
+
+   1   -1.51015e+07                  0.00000e+00              5.00000e-01 
+   2   -7.08546e+08                  0.00000e+00              5.00000e-01 
+
+                      Zeros (Hz)
+                      at I(IPRB0:in)/V0
+
+           Real                       Imaginary                 Qfactor
+
+   1    1.08604e+07                  0.00000e+00              -5.00000e-01
+   2   -1.44692e+07                  0.00000e+00              5.00000e-01 
+
+Constant factor =  4.97512e-04
+
+DC gain =  7.30642e-06
+
+......9.
+31.78e-06     14.00% 
+Convergence achieved in 2 iterations.
+DC simulation time: CPU = 49 us, elapsed = 65.0883 us.
+                      Poles (Hz)
+
+           Real                       Imaginary                 Qfactor
+
+   1   -1.69750e+07                  0.00000e+00              5.00000e-01 
+   2   -7.07107e+08                  0.00000e+00              5.00000e-01 
+
+                      Zeros (Hz)
+                      at I(IPRB0:in)/V0
+
+           Real                       Imaginary                 Qfactor
+
+   1    1.16684e+07                  0.00000e+00              -5.00000e-01
+   2   -1.57117e+07                  0.00000e+00              5.00000e-01 
+
+Constant factor =  4.97512e-04
+
+DC gain =  7.59882e-06
+
+......9...
+36.32e-06     16.00% 
+Convergence achieved in 2 iterations.
+DC simulation time: CPU = 48 us, elapsed = 65.0883 us.
+                      Poles (Hz)
+
+           Real                       Imaginary                 Qfactor
+
+   1   -1.88563e+07                  0.00000e+00              5.00000e-01 
+   2   -7.05660e+08                  0.00000e+00              5.00000e-01 
+
+                      Zeros (Hz)
+                      at I(IPRB0:in)/V0
+
+           Real                       Imaginary                 Qfactor
+
+   1    1.24081e+07                  0.00000e+00              -5.00000e-01
+   2   -1.68858e+07                  0.00000e+00              5.00000e-01 
+
+Constant factor =  4.97512e-04
+
+DC gain =  7.83395e-06
+
+......9....
+40.86e-06     18.00% 
+Convergence achieved in 2 iterations.
+DC simulation time: CPU = 47 us, elapsed = 71.0487 us.
+                      Poles (Hz)
+
+           Real                       Imaginary                 Qfactor
+
+   1   -2.07455e+07                  0.00000e+00              5.00000e-01 
+   2   -7.04206e+08                  0.00000e+00              5.00000e-01 
+
+                      Zeros (Hz)
+                      at I(IPRB0:in)/V0
+
+           Real                       Imaginary                 Qfactor
+
+   1    1.30920e+07                  0.00000e+00              -5.00000e-01
+   2   -1.80042e+07                  0.00000e+00              5.00000e-01 
+
+Constant factor =  4.97512e-04
+
+DC gain =  8.02714e-06
+
+......9......
+45.4e-06      20.00% 
+Convergence achieved in 2 iterations.
+DC simulation time: CPU = 59 us, elapsed = 72.9561 us.
+                      Poles (Hz)
+
+           Real                       Imaginary                 Qfactor
+
+   1   -2.26429e+07                  0.00000e+00              5.00000e-01 
+   2   -7.02743e+08                  0.00000e+00              5.00000e-01 
+
+                      Zeros (Hz)
+                      at I(IPRB0:in)/V0
+
+           Real                       Imaginary                 Qfactor
+
+   1    1.37294e+07                  0.00000e+00              -5.00000e-01
+   2   -1.90760e+07                  0.00000e+00              5.00000e-01 
+
+Constant factor =  4.97512e-04
+
+DC gain =  8.18870e-06
+
+......9......8
+49.94e-06     22.00% 
+Convergence achieved in 2 iterations.
+DC simulation time: CPU = 70 us, elapsed = 85.8307 us.
+                      Poles (Hz)
+
+           Real                       Imaginary                 Qfactor
+
+   1   -2.45484e+07                  0.00000e+00              5.00000e-01 
+   2   -7.01272e+08                  0.00000e+00              5.00000e-01 
+
+                      Zeros (Hz)
+                      at I(IPRB0:in)/V0
+
+           Real                       Imaginary                 Qfactor
+
+   1    1.43271e+07                  0.00000e+00              -5.00000e-01
+   2   -2.01082e+07                  0.00000e+00              5.00000e-01 
+
+Constant factor =  4.97512e-04
+
+DC gain =  8.32579e-06
+
+......9......8.
+54.48e-06     24.00% 
+Convergence achieved in 2 iterations.
+DC simulation time: CPU = 101 us, elapsed = 118.017 us.
+                      Poles (Hz)
+
+           Real                       Imaginary                 Qfactor
+
+   1   -2.64623e+07                  0.00000e+00              5.00000e-01 
+   2   -6.99792e+08                  0.00000e+00              5.00000e-01 
+
+                      Zeros (Hz)
+                      at I(IPRB0:in)/V0
+
+           Real                       Imaginary                 Qfactor
+
+   1    1.48906e+07                  0.00000e+00              -5.00000e-01
+   2   -2.11061e+07                  0.00000e+00              5.00000e-01 
+
+Constant factor =  4.97512e-04
+
+DC gain =  8.44359e-06
+
+......9......8...
+59.02e-06     26.00% 
+Convergence achieved in 2 iterations.
+DC simulation time: CPU = 68 us, elapsed = 83.9233 us.
+                      Poles (Hz)
+
+           Real                       Imaginary                 Qfactor
+
+   1   -2.83846e+07                  0.00000e+00              5.00000e-01 
+   2   -6.98304e+08                  0.00000e+00              5.00000e-01 
+
+                      Zeros (Hz)
+                      at I(IPRB0:in)/V0
+
+           Real                       Imaginary                 Qfactor
+
+   1    1.54241e+07                  0.00000e+00              -5.00000e-01
+   2   -2.20740e+07                  0.00000e+00              5.00000e-01 
+
+Constant factor =  4.97512e-04
+
+DC gain =  8.54591e-06
+
+......9......8....
+63.56e-06     28.00% 
+Convergence achieved in 2 iterations.
+DC simulation time: CPU = 74 us, elapsed = 83.9233 us.
+                      Poles (Hz)
+
+           Real                       Imaginary                 Qfactor
+
+   1   -3.03155e+07                  0.00000e+00              5.00000e-01 
+   2   -6.96808e+08                  0.00000e+00              5.00000e-01 
+
+                      Zeros (Hz)
+                      at I(IPRB0:in)/V0
+
+           Real                       Imaginary                 Qfactor
+
+   1    1.59311e+07                  0.00000e+00              -5.00000e-01
+   2   -2.30155e+07                  0.00000e+00              5.00000e-01 
+
+Constant factor =  4.97512e-04
+
+DC gain =  8.63560e-06
+
+......9......8......
+68.1e-06      30.00% 
+Convergence achieved in 2 iterations.
+DC simulation time: CPU = 56 us, elapsed = 72.9561 us.
+                      Poles (Hz)
+
+           Real                       Imaginary                 Qfactor
+
+   1   -3.22552e+07                  0.00000e+00              5.00000e-01 
+   2   -6.95303e+08                  0.00000e+00              5.00000e-01 
+
+                      Zeros (Hz)
+                      at I(IPRB0:in)/V0
+
+           Real                       Imaginary                 Qfactor
+
+   1    1.64145e+07                  0.00000e+00              -5.00000e-01
+   2   -2.39333e+07                  0.00000e+00              5.00000e-01 
+
+Constant factor =  4.97512e-04
+
+DC gain =  8.71487e-06
+
+......9......8......7
+72.64e-06     32.00% 
+Convergence achieved in 2 iterations.
+DC simulation time: CPU = 79 us, elapsed = 2.80118 ms.
+                      Poles (Hz)
+
+           Real                       Imaginary                 Qfactor
+
+   1   -3.42036e+07                  0.00000e+00              5.00000e-01 
+   2   -6.93789e+08                  0.00000e+00              5.00000e-01 
+
+                      Zeros (Hz)
+                      at I(IPRB0:in)/V0
+
+           Real                       Imaginary                 Qfactor
+
+   1    1.68766e+07                  0.00000e+00              -5.00000e-01
+   2   -2.48298e+07                  0.00000e+00              5.00000e-01 
+
+Constant factor =  4.97512e-04
+
+DC gain =  8.78544e-06
+
+......9......8......7.
+77.18e-06     34.00% 
+Convergence achieved in 2 iterations.
+DC simulation time: CPU = 87 us, elapsed = 103.951 us.
+                      Poles (Hz)
+
+           Real                       Imaginary                 Qfactor
+
+   1   -3.61611e+07                  0.00000e+00              5.00000e-01 
+   2   -6.92266e+08                  0.00000e+00              5.00000e-01 
+
+                      Zeros (Hz)
+                      at I(IPRB0:in)/V0
+
+           Real                       Imaginary                 Qfactor
+
+   1    1.73195e+07                  0.00000e+00              -5.00000e-01
+   2   -2.57071e+07                  0.00000e+00              5.00000e-01 
+
+Constant factor =  4.97512e-04
+
+DC gain =  8.84866e-06
+
+......9......8......7...
+81.72e-06     36.00% 
+Convergence achieved in 2 iterations.
+DC simulation time: CPU = 94 us, elapsed = 1.82891 ms.
+                      Poles (Hz)
+
+           Real                       Imaginary                 Qfactor
+
+   1   -3.81277e+07                  0.00000e+00              5.00000e-01 
+   2   -6.90733e+08                  0.00000e+00              5.00000e-01 
+
+                      Zeros (Hz)
+                      at I(IPRB0:in)/V0
+
+           Real                       Imaginary                 Qfactor
+
+   1    1.77448e+07                  0.00000e+00              -5.00000e-01
+   2   -2.65669e+07                  0.00000e+00              5.00000e-01 
+
+Constant factor =  4.97512e-04
+
+DC gain =  8.90562e-06
+
+......9......8......7....
+86.26e-06     38.00% 
+Convergence achieved in 2 iterations.
+DC simulation time: CPU = 64 us, elapsed = 77.9629 us.
+                      Poles (Hz)
+
+           Real                       Imaginary                 Qfactor
+
+   1   -4.01036e+07                  0.00000e+00              5.00000e-01 
+   2   -6.89192e+08                  0.00000e+00              5.00000e-01 
+
+                      Zeros (Hz)
+                      at I(IPRB0:in)/V0
+
+           Real                       Imaginary                 Qfactor
+
+   1    1.81541e+07                  0.00000e+00              -5.00000e-01
+   2   -2.74106e+07                  0.00000e+00              5.00000e-01 
+
+Constant factor =  4.97512e-04
+
+DC gain =  8.95721e-06
+
+......9......8......7......
+90.8e-06      40.00% 
+Convergence achieved in 2 iterations.
+DC simulation time: CPU = 73 us, elapsed = 1.8909 ms.
+                      Poles (Hz)
+
+           Real                       Imaginary                 Qfactor
+
+   1   -4.20889e+07                  0.00000e+00              5.00000e-01 
+   2   -6.87641e+08                  0.00000e+00              5.00000e-01 
+
+                      Zeros (Hz)
+                      at I(IPRB0:in)/V0
+
+           Real                       Imaginary                 Qfactor
+
+   1    1.85486e+07                  0.00000e+00              -5.00000e-01
+   2   -2.82395e+07                  0.00000e+00              5.00000e-01 
+
+Constant factor =  4.97512e-04
+
+DC gain =  9.00416e-06
+
+......9......8......7......6
+95.34e-06     42.00% 
+Convergence achieved in 2 iterations.
+DC simulation time: CPU = 74 us, elapsed = 87.9765 us.
+                      Poles (Hz)
+
+           Real                       Imaginary                 Qfactor
+
+   1   -4.40838e+07                  0.00000e+00              5.00000e-01 
+   2   -6.86081e+08                  0.00000e+00              5.00000e-01 
+
+                      Zeros (Hz)
+                      at I(IPRB0:in)/V0
+
+           Real                       Imaginary                 Qfactor
+
+   1    1.89295e+07                  0.00000e+00              -5.00000e-01
+   2   -2.90549e+07                  0.00000e+00              5.00000e-01 
+
+Constant factor =  4.97512e-04
+
+DC gain =  9.04706e-06
+
+......9......8......7......6.
+99.88e-06     44.00% 
+Convergence achieved in 2 iterations.
+DC simulation time: CPU = 67 us, elapsed = 1.70708 ms.
+                      Poles (Hz)
+
+           Real                       Imaginary                 Qfactor
+
+   1   -4.60885e+07                  0.00000e+00              5.00000e-01 
+   2   -6.84510e+08                  0.00000e+00              5.00000e-01 
+
+                      Zeros (Hz)
+                      at I(IPRB0:in)/V0
+
+           Real                       Imaginary                 Qfactor
+
+   1    1.92978e+07                  0.00000e+00              -5.00000e-01
+   2   -2.98576e+07                  0.00000e+00              5.00000e-01 
+
+Constant factor =  4.97512e-04
+
+DC gain =  9.08642e-06
+
+......9......8......7......6...
+104.42e-06    46.00% 
+Convergence achieved in 2 iterations.
+DC simulation time: CPU = 69 us, elapsed = 1.43003 ms.
+                      Poles (Hz)
+
+           Real                       Imaginary                 Qfactor
+
+   1   -4.81031e+07                  0.00000e+00              5.00000e-01 
+   2   -6.82930e+08                  0.00000e+00              5.00000e-01 
+
+                      Zeros (Hz)
+                      at I(IPRB0:in)/V0
+
+           Real                       Imaginary                 Qfactor
+
+   1    1.96543e+07                  0.00000e+00              -5.00000e-01
+   2   -3.06485e+07                  0.00000e+00              5.00000e-01 
+
+Constant factor =  4.97512e-04
+
+DC gain =  9.12266e-06
+
+......9......8......7......6....
+108.96e-06    48.00% 
+Convergence achieved in 2 iterations.
+DC simulation time: CPU = 67 us, elapsed = 107.05 us.
+                      Poles (Hz)
+
+           Real                       Imaginary                 Qfactor
+
+   1   -5.01278e+07                  0.00000e+00              5.00000e-01 
+   2   -6.81340e+08                  0.00000e+00              5.00000e-01 
+
+                      Zeros (Hz)
+                      at I(IPRB0:in)/V0
+
+           Real                       Imaginary                 Qfactor
+
+   1    1.99998e+07                  0.00000e+00              -5.00000e-01
+   2   -3.14285e+07                  0.00000e+00              5.00000e-01 
+
+Constant factor =  4.97512e-04
+
+DC gain =  9.15613e-06
+
+......9......8......7......6......
+113.5e-06     50.00% 
+Convergence achieved in 2 iterations.
+DC simulation time: CPU = 88 us, elapsed = 1.302 ms.
+                      Poles (Hz)
+
+           Real                       Imaginary                 Qfactor
+
+   1   -5.21627e+07                  0.00000e+00              5.00000e-01 
+   2   -6.79739e+08                  0.00000e+00              5.00000e-01 
+
+                      Zeros (Hz)
+                      at I(IPRB0:in)/V0
+
+           Real                       Imaginary                 Qfactor
+
+   1    2.03351e+07                  0.00000e+00              -5.00000e-01
+   2   -3.21982e+07                  0.00000e+00              5.00000e-01 
+
+Constant factor =  4.97512e-04
+
+DC gain =  9.18714e-06
+
+......9......8......7......6......5
+118.04e-06    52.00% 
+Convergence achieved in 2 iterations.
+DC simulation time: CPU = 82 us, elapsed = 99.1821 us.
+                      Poles (Hz)
+
+           Real                       Imaginary                 Qfactor
+
+   1   -5.42081e+07                  0.00000e+00              5.00000e-01 
+   2   -6.78128e+08                  0.00000e+00              5.00000e-01 
+
+                      Zeros (Hz)
+                      at I(IPRB0:in)/V0
+
+           Real                       Imaginary                 Qfactor
+
+   1    2.06608e+07                  0.00000e+00              -5.00000e-01
+   2   -3.29583e+07                  0.00000e+00              5.00000e-01 
+
+Constant factor =  4.97512e-04
+
+DC gain =  9.21595e-06
+
+......9......8......7......6......5.
+122.58e-06    54.00% 
+Convergence achieved in 2 iterations.
+DC simulation time: CPU = 80 us, elapsed = 92.0296 us.
+                      Poles (Hz)
+
+           Real                       Imaginary                 Qfactor
+
+   1   -5.62641e+07                  0.00000e+00              5.00000e-01 
+   2   -6.76507e+08                  0.00000e+00              5.00000e-01 
+
+                      Zeros (Hz)
+                      at I(IPRB0:in)/V0
+
+           Real                       Imaginary                 Qfactor
+
+   1    2.09774e+07                  0.00000e+00              -5.00000e-01
+   2   -3.37094e+07                  0.00000e+00              5.00000e-01 
+
+Constant factor =  4.97512e-04
+
+DC gain =  9.24279e-06
+
+......9......8......7......6......5...
+127.12e-06    56.00% 
+Convergence achieved in 2 iterations.
+DC simulation time: CPU = 82 us, elapsed = 107.05 us.
+                      Poles (Hz)
+
+           Real                       Imaginary                 Qfactor
+
+   1   -5.83309e+07                  0.00000e+00              5.00000e-01 
+   2   -6.74875e+08                  0.00000e+00              5.00000e-01 
+
+                      Zeros (Hz)
+                      at I(IPRB0:in)/V0
+
+           Real                       Imaginary                 Qfactor
+
+   1    2.12855e+07                  0.00000e+00              -5.00000e-01
+   2   -3.44519e+07                  0.00000e+00              5.00000e-01 
+
+Constant factor =  4.97512e-04
+
+DC gain =  9.26785e-06
+
+......9......8......7......6......5....
+131.66e-06    58.00% 
+Convergence achieved in 2 iterations.
+DC simulation time: CPU = 75 us, elapsed = 92.0296 us.
+                      Poles (Hz)
+
+           Real                       Imaginary                 Qfactor
+
+   1   -6.04087e+07                  0.00000e+00              5.00000e-01 
+   2   -6.73231e+08                  0.00000e+00              5.00000e-01 
+
+                      Zeros (Hz)
+                      at I(IPRB0:in)/V0
+
+           Real                       Imaginary                 Qfactor
+
+   1    2.15855e+07                  0.00000e+00              -5.00000e-01
+   2   -3.51863e+07                  0.00000e+00              5.00000e-01 
+
+Constant factor =  4.97512e-04
+
+DC gain =  9.29131e-06
+
+......9......8......7......6......5......
+136.2e-06     60.00% 
+Convergence achieved in 2 iterations.
+DC simulation time: CPU = 72 us, elapsed = 96.0827 us.
+                      Poles (Hz)
+
+           Real                       Imaginary                 Qfactor
+
+   1   -6.24977e+07                  0.00000e+00              5.00000e-01 
+   2   -6.71577e+08                  0.00000e+00              5.00000e-01 
+
+                      Zeros (Hz)
+                      at I(IPRB0:in)/V0
+
+           Real                       Imaginary                 Qfactor
+
+   1    2.18779e+07                  0.00000e+00              -5.00000e-01
+   2   -3.59132e+07                  0.00000e+00              5.00000e-01 
+
+Constant factor =  4.97512e-04
+
+DC gain =  9.31331e-06
+
+......9......8......7......6......5......4
+140.74e-06    62.00% 
+Convergence achieved in 2 iterations.
+DC simulation time: CPU = 66 us, elapsed = 81.0623 us.
+                      Poles (Hz)
+
+           Real                       Imaginary                 Qfactor
+
+   1   -6.45982e+07                  0.00000e+00              5.00000e-01 
+   2   -6.69910e+08                  0.00000e+00              5.00000e-01 
+
+                      Zeros (Hz)
+                      at I(IPRB0:in)/V0
+
+           Real                       Imaginary                 Qfactor
+
+   1    2.21631e+07                  0.00000e+00              -5.00000e-01
+   2   -3.66328e+07                  0.00000e+00              5.00000e-01 
+
+Constant factor =  4.97512e-04
+
+DC gain =  9.33399e-06
+
+......9......8......7......6......5......4.
+145.28e-06    64.00% 
+Convergence achieved in 2 iterations.
+DC simulation time: CPU = 64 us, elapsed = 87.0228 us.
+                      Poles (Hz)
+
+           Real                       Imaginary                 Qfactor
+
+   1   -6.67103e+07                  0.00000e+00              5.00000e-01 
+   2   -6.68233e+08                  0.00000e+00              5.00000e-01 
+
+                      Zeros (Hz)
+                      at I(IPRB0:in)/V0
+
+           Real                       Imaginary                 Qfactor
+
+   1    2.24414e+07                  0.00000e+00              -5.00000e-01
+   2   -3.73455e+07                  0.00000e+00              5.00000e-01 
+
+Constant factor =  4.97512e-04
+
+DC gain =  9.35346e-06
+
+......9......8......7......6......5......4...
+149.82e-06    66.00% 
+Convergence achieved in 2 iterations.
+DC simulation time: CPU = 69 us, elapsed = 89.1685 us.
+                      Poles (Hz)
+
+           Real                       Imaginary                 Qfactor
+
+   1   -6.88342e+07                  0.00000e+00              5.00000e-01 
+   2   -6.66543e+08                  0.00000e+00              5.00000e-01 
+
+                      Zeros (Hz)
+                      at I(IPRB0:in)/V0
+
+           Real                       Imaginary                 Qfactor
+
+   1    2.27132e+07                  0.00000e+00              -5.00000e-01
+   2   -3.80517e+07                  0.00000e+00              5.00000e-01 
+
+Constant factor =  4.97512e-04
+
+DC gain =  9.37182e-06
+
+......9......8......7......6......5......4....
+154.36e-06    68.00% 
+Convergence achieved in 2 iterations.
+DC simulation time: CPU = 84 us, elapsed = 101.089 us.
+                      Poles (Hz)
+
+           Real                       Imaginary                 Qfactor
+
+   1   -7.09703e+07                  0.00000e+00              5.00000e-01 
+   2   -6.64842e+08                  0.00000e+00              5.00000e-01 
+
+                      Zeros (Hz)
+                      at I(IPRB0:in)/V0
+
+           Real                       Imaginary                 Qfactor
+
+   1    2.29788e+07                  0.00000e+00              -5.00000e-01
+   2   -3.87517e+07                  0.00000e+00              5.00000e-01 
+
+Constant factor =  4.97512e-04
+
+DC gain =  9.38916e-06
+
+......9......8......7......6......5......4......
+158.9e-06     70.00% 
+Convergence achieved in 2 iterations.
+DC simulation time: CPU = 86 us, elapsed = 124.931 us.
+                      Poles (Hz)
+
+           Real                       Imaginary                 Qfactor
+
+   1   -7.31186e+07                  0.00000e+00              5.00000e-01 
+   2   -6.63128e+08                  0.00000e+00              5.00000e-01 
+
+                      Zeros (Hz)
+                      at I(IPRB0:in)/V0
+
+           Real                       Imaginary                 Qfactor
+
+   1    2.32384e+07                  0.00000e+00              -5.00000e-01
+   2   -3.94458e+07                  0.00000e+00              5.00000e-01 
+
+Constant factor =  4.97512e-04
+
+DC gain =  9.40558e-06
+
+......9......8......7......6......5......4......3
+163.44e-06    72.00% 
+Convergence achieved in 2 iterations.
+DC simulation time: CPU = 63 us, elapsed = 85.1154 us.
+                      Poles (Hz)
+
+           Real                       Imaginary                 Qfactor
+
+   1   -7.52795e+07                  0.00000e+00              5.00000e-01 
+   2   -6.61401e+08                  0.00000e+00              5.00000e-01 
+
+                      Zeros (Hz)
+                      at I(IPRB0:in)/V0
+
+           Real                       Imaginary                 Qfactor
+
+   1    2.34924e+07                  0.00000e+00              -5.00000e-01
+   2   -4.01342e+07                  0.00000e+00              5.00000e-01 
+
+Constant factor =  4.97512e-04
+
+DC gain =  9.42113e-06
+
+......9......8......7......6......5......4......3.
+167.98e-06    74.00% 
+Convergence achieved in 2 iterations.
+DC simulation time: CPU = 53 us, elapsed = 63.8962 us.
+                      Poles (Hz)
+
+           Real                       Imaginary                 Qfactor
+
+   1   -7.74533e+07                  0.00000e+00              5.00000e-01 
+   2   -6.59662e+08                  0.00000e+00              5.00000e-01 
+
+                      Zeros (Hz)
+                      at I(IPRB0:in)/V0
+
+           Real                       Imaginary                 Qfactor
+
+   1    2.37409e+07                  0.00000e+00              -5.00000e-01
+   2   -4.08172e+07                  0.00000e+00              5.00000e-01 
+
+Constant factor =  4.97512e-04
+
+DC gain =  9.43590e-06
+
+......9......8......7......6......5......4......3...
+172.52e-06    76.00% 
+Convergence achieved in 2 iterations.
+DC simulation time: CPU = 61 us, elapsed = 77.9629 us.
+                      Poles (Hz)
+
+           Real                       Imaginary                 Qfactor
+
+   1   -7.96401e+07                  0.00000e+00              5.00000e-01 
+   2   -6.57910e+08                  0.00000e+00              5.00000e-01 
+
+                      Zeros (Hz)
+                      at I(IPRB0:in)/V0
+
+           Real                       Imaginary                 Qfactor
+
+   1    2.39843e+07                  0.00000e+00              -5.00000e-01
+   2   -4.14950e+07                  0.00000e+00              5.00000e-01 
+
+Constant factor =  4.97512e-04
+
+DC gain =  9.44993e-06
+
+......9......8......7......6......5......4......3....
+177.06e-06    78.00% 
+Convergence achieved in 2 iterations.
+DC simulation time: CPU = 89 us, elapsed = 100.136 us.
+                      Poles (Hz)
+
+           Real                       Imaginary                 Qfactor
+
+   1   -8.18402e+07                  0.00000e+00              5.00000e-01 
+   2   -6.56144e+08                  0.00000e+00              5.00000e-01 
+
+                      Zeros (Hz)
+                      at I(IPRB0:in)/V0
+
+           Real                       Imaginary                 Qfactor
+
+   1    2.42227e+07                  0.00000e+00              -5.00000e-01
+   2   -4.21678e+07                  0.00000e+00              5.00000e-01 
+
+Constant factor =  4.97512e-04
+
+DC gain =  9.46327e-06
+
+......9......8......7......6......5......4......3......
+181.6e-06     80.00% 
+Convergence achieved in 2 iterations.
+DC simulation time: CPU = 65 us, elapsed = 84.1618 us.
+                      Poles (Hz)
+
+           Real                       Imaginary                 Qfactor
+
+   1   -8.40540e+07                  0.00000e+00              5.00000e-01 
+   2   -6.54365e+08                  0.00000e+00              5.00000e-01 
+
+                      Zeros (Hz)
+                      at I(IPRB0:in)/V0
+
+           Real                       Imaginary                 Qfactor
+
+   1    2.44563e+07                  0.00000e+00              -5.00000e-01
+   2   -4.28359e+07                  0.00000e+00              5.00000e-01 
+
+Constant factor =  4.97512e-04
+
+DC gain =  9.47599e-06
+
+......9......8......7......6......5......4......3......2
+186.14e-06    82.00% 
+Convergence achieved in 2 iterations.
+DC simulation time: CPU = 56 us, elapsed = 72.0024 us.
+                      Poles (Hz)
+
+           Real                       Imaginary                 Qfactor
+
+   1   -8.62817e+07                  0.00000e+00              5.00000e-01 
+   2   -6.52571e+08                  0.00000e+00              5.00000e-01 
+
+                      Zeros (Hz)
+                      at I(IPRB0:in)/V0
+
+           Real                       Imaginary                 Qfactor
+
+   1    2.46854e+07                  0.00000e+00              -5.00000e-01
+   2   -4.34994e+07                  0.00000e+00              5.00000e-01 
+
+Constant factor =  4.97512e-04
+
+DC gain =  9.48811e-06
+
+......9......8......7......6......5......4......3......2.
+190.68e-06    84.00% 
+Convergence achieved in 2 iterations.
+DC simulation time: CPU = 52 us, elapsed = 63.8962 us.
+                      Poles (Hz)
+
+           Real                       Imaginary                 Qfactor
+
+   1   -8.85236e+07                  0.00000e+00              5.00000e-01 
+   2   -6.50764e+08                  0.00000e+00              5.00000e-01 
+
+                      Zeros (Hz)
+                      at I(IPRB0:in)/V0
+
+           Real                       Imaginary                 Qfactor
+
+   1    2.49100e+07                  0.00000e+00              -5.00000e-01
+   2   -4.41585e+07                  0.00000e+00              5.00000e-01 
+
+Constant factor =  4.97512e-04
+
+DC gain =  9.49969e-06
+
+......9......8......7......6......5......4......3......2...
+195.22e-06    86.00% 
+Convergence achieved in 2 iterations.
+DC simulation time: CPU = 54 us, elapsed = 71.0487 us.
+                      Poles (Hz)
+
+           Real                       Imaginary                 Qfactor
+
+   1   -9.07800e+07                  0.00000e+00              5.00000e-01 
+   2   -6.48942e+08                  0.00000e+00              5.00000e-01 
+
+                      Zeros (Hz)
+                      at I(IPRB0:in)/V0
+
+           Real                       Imaginary                 Qfactor
+
+   1    2.51304e+07                  0.00000e+00              -5.00000e-01
+   2   -4.48133e+07                  0.00000e+00              5.00000e-01 
+
+Constant factor =  4.97512e-04
+
+DC gain =  9.51076e-06
+
+......9......8......7......6......5......4......3......2....
+199.76e-06    88.00% 
+Convergence achieved in 2 iterations.
+DC simulation time: CPU = 74 us, elapsed = 87.9765 us.
+                      Poles (Hz)
+
+           Real                       Imaginary                 Qfactor
+
+   1   -9.30513e+07                  0.00000e+00              5.00000e-01 
+   2   -6.47105e+08                  0.00000e+00              5.00000e-01 
+
+                      Zeros (Hz)
+                      at I(IPRB0:in)/V0
+
+           Real                       Imaginary                 Qfactor
+
+   1    2.53468e+07                  0.00000e+00              -5.00000e-01
+   2   -4.54641e+07                  0.00000e+00              5.00000e-01 
+
+Constant factor =  4.97512e-04
+
+DC gain =  9.52135e-06
+
+......9......8......7......6......5......4......3......2......
+204.3e-06     90.00% 
+Convergence achieved in 2 iterations.
+DC simulation time: CPU = 63 us, elapsed = 97.99 us.
+                      Poles (Hz)
+
+           Real                       Imaginary                 Qfactor
+
+   1   -9.53377e+07                  0.00000e+00              5.00000e-01 
+   2   -6.45253e+08                  0.00000e+00              5.00000e-01 
+
+                      Zeros (Hz)
+                      at I(IPRB0:in)/V0
+
+           Real                       Imaginary                 Qfactor
+
+   1    2.55592e+07                  0.00000e+00              -5.00000e-01
+   2   -4.61109e+07                  0.00000e+00              5.00000e-01 
+
+Constant factor =  4.97512e-04
+
+DC gain =  9.53148e-06
+
+......9......8......7......6......5......4......3......2......1
+208.84e-06    92.00% 
+Convergence achieved in 2 iterations.
+DC simulation time: CPU = 66 us, elapsed = 80.8239 us.
+                      Poles (Hz)
+
+           Real                       Imaginary                 Qfactor
+
+   1   -9.76397e+07                  0.00000e+00              5.00000e-01 
+   2   -6.43386e+08                  0.00000e+00              5.00000e-01 
+
+                      Zeros (Hz)
+                      at I(IPRB0:in)/V0
+
+           Real                       Imaginary                 Qfactor
+
+   1    2.57678e+07                  0.00000e+00              -5.00000e-01
+   2   -4.67540e+07                  0.00000e+00              5.00000e-01 
+
+Constant factor =  4.97512e-04
+
+DC gain =  9.54120e-06
+
+......9......8......7......6......5......4......3......2......1.
+213.38e-06    94.00% 
+Convergence achieved in 2 iterations.
+DC simulation time: CPU = 69 us, elapsed = 1.62697 ms.
+                      Poles (Hz)
+
+           Real                       Imaginary                 Qfactor
+
+   1   -9.99575e+07                  0.00000e+00              5.00000e-01 
+   2   -6.41502e+08                  0.00000e+00              5.00000e-01 
+
+                      Zeros (Hz)
+                      at I(IPRB0:in)/V0
+
+           Real                       Imaginary                 Qfactor
+
+   1    2.59728e+07                  0.00000e+00              -5.00000e-01
+   2   -4.73934e+07                  0.00000e+00              5.00000e-01 
+
+Constant factor =  4.97512e-04
+
+DC gain =  9.55052e-06
+
+......9......8......7......6......5......4......3......2......1...
+217.92e-06    96.00% 
+Convergence achieved in 2 iterations.
+DC simulation time: CPU = 67 us, elapsed = 76.0555 us.
+                      Poles (Hz)
+
+           Real                       Imaginary                 Qfactor
+
+   1   -1.02292e+08                  0.00000e+00              5.00000e-01 
+   2   -6.39603e+08                  0.00000e+00              5.00000e-01 
+
+                      Zeros (Hz)
+                      at I(IPRB0:in)/V0
+
+           Real                       Imaginary                 Qfactor
+
+   1    2.61742e+07                  0.00000e+00              -5.00000e-01
+   2   -4.80293e+07                  0.00000e+00              5.00000e-01 
+
+Constant factor =  4.97512e-04
+
+DC gain =  9.55948e-06
+
+......9......8......7......6......5......4......3......2......1....
+222.46e-06    98.00% 
+Convergence achieved in 2 iterations.
+DC simulation time: CPU = 53 us, elapsed = 62.9425 us.
+                      Poles (Hz)
+
+           Real                       Imaginary                 Qfactor
+
+   1   -1.04642e+08                  0.00000e+00              5.00000e-01 
+   2   -6.37686e+08                  0.00000e+00              5.00000e-01 
+
+                      Zeros (Hz)
+                      at I(IPRB0:in)/V0
+
+           Real                       Imaginary                 Qfactor
+
+   1    2.63723e+07                  0.00000e+00              -5.00000e-01
+   2   -4.86617e+07                  0.00000e+00              5.00000e-01 
+
+Constant factor =  4.97512e-04
+
+DC gain =  9.56808e-06
+
+......9......8......7......6......5......4......3......2......1......
+227e-06      100.00% 
+Convergence achieved in 2 iterations.
+DC simulation time: CPU = 48 us, elapsed = 58.8894 us.
+                      Poles (Hz)
+
+           Real                       Imaginary                 Qfactor
+
+   1   -1.07010e+08                  0.00000e+00              5.00000e-01 
+   2   -6.35753e+08                  0.00000e+00              5.00000e-01 
+
+                      Zeros (Hz)
+                      at I(IPRB0:in)/V0
+
+           Real                       Imaginary                 Qfactor
+
+   1    2.65670e+07                  0.00000e+00              -5.00000e-01
+   2   -4.92909e+07                  0.00000e+00              5.00000e-01 
+
+Constant factor =  4.97512e-04
+
+DC gain =  9.57635e-06
+
+......9......8......7......6......5......4......3......2......1......0
+Accumulated DC solution time =            29.8316 ms.
+Intrinsic pz analysis time =              165.541 ms.
+Total time required for pz analysis `pz': CPU = 46.896 ms, elapsed = 195.429 ms, util. = 24%.
+Time accumulated: CPU = 381.252 ms, elapsed = 735.597 ms.
+Peak resident memory used = 217 Mbytes.
+
+modelParameter: writing model parameter values to rawfile.
+
+Opening the PSF file ../psf/modelParameter.info ...
+element: writing instance parameter values to rawfile.
+
+Opening the PSF file ../psf/element.info ...
+outputParameter: writing output parameter values to rawfile.
+
+Opening the PSF file ../psf/outputParameter.info ...
+designParamVals: writing netlist parameters to rawfile.
+
+Opening the PSFASCII file ../psf/designParamVals.info ...
+primitives: writing primitives to rawfile.
+
+Opening the PSFASCII file ../psf/primitives.info.primitives ...
+subckts: writing subcircuits to rawfile.
+
+Opening the PSFASCII file ../psf/subckts.info.subckts ...
+Licensing Information:
+Lic Summary:
+[15:37:03.032674] Cdslmd servers:3000@lic08.ug.kth.se
+[15:37:03.032723] Feature usage summary:
+[15:37:03.032723] Virtuoso_Multi_mode_Simulation
+
+
+Aggregate audit (3:37:03 PM, Sun Nov 9, 2025):
+Time used: CPU = 393 ms, elapsed = 790 ms, util. = 49.8%.
+Time spent in licensing: elapsed = 86.8 ms, percentage of total = 11%.
+Peak memory used = 223 Mbytes.
+Simulation started at: 3:37:02 PM, Sun Nov 9, 2025, ended at: 3:37:03 PM, Sun Nov 9, 2025, with elapsed time (wall clock): 790 ms.
+spectre completes with 0 errors, 0 warnings, and 4 notices.
+
+
+********* LOG ENDS **************
+**                             **

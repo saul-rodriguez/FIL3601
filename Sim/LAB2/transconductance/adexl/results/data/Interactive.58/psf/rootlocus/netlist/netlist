@@ -1,0 +1,27 @@
+
+// Library name: DAY2
+// Cell name: MOS_AC
+// View name: schematic
+subckt MOS_AC D G S
+parameters _par0 rds cgb cgs cgd cdb cds
+    G0 (D S G S) vccs gm=_par0
+    R0 (D S) resistor r=rds
+    C6 (G S) capacitor c=cgb
+    C5 (G S) capacitor c=cgs
+    C4 (G D) capacitor c=cgd
+    C3 (D S) capacitor c=cdb
+    C0 (D S) capacitor c=cds
+ends MOS_AC
+// End of subcircuit definition.
+
+// Library name: LAB2
+// Cell name: transconductance
+// View name: schematic
+IPRB0 (VOUT net2) iprobe
+R2 (net1 VG) resistor r=1e3
+R1 (net2 0) resistor r=1k
+R0 (VS 0) resistor r=100e3
+V0 (net1 0) vsource mag=VIN type=sine
+I4 (VS VOUT) isource mag=IT type=sine
+I0 (VOUT VG VS) MOS_AC _par0=gm1 rds=rds1 cgb=cgb1 cgs=cgs1 cgd=cgd1 \
+        cdb=cdb1 cds=cds1

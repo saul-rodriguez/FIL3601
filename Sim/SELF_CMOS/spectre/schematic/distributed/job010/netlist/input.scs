@@ -1,11 +1,11 @@
 // Generated for: spectre
-// Generated on: Nov  8 02:58:06 2025
+// Generated on: Nov 12 10:51:13 2025
 // Design library name: LAB1
 // Design cell name: SELF_CMOS
 // Design view name: schematic
 simulator lang=spectre
 global 0
-parameters VDSP=0.6 VDS=0.9 IDSP=2e-05 IDS=1e-05 WF=8e-06 L=1e-06 NF=10 \
+parameters VDSP=0.6 VDS=0.9 IDSP=2e-05 IDS=0.0001 WF=8e-06 L=1e-06 NF=10 \
     WFP=1e-05 LP=2.5e-07 NFP=10
 include "/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/config.scs" section=default
 include "/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/param.scs" section=3s

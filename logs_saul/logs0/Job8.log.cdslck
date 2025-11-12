@@ -5,15 +5,15 @@
 #
 LockStakeVersion               1.2
 LoginName                      saul
-HostName                       38107@b35621b5a0f6
-ProcessIdentifier              9995
-ProcessCreationTime_UTC        1757704508
-ProcessCreationTime_Readable   Fri Sep 12 19:15:08 2025 UTC
+HostName                       34831@edatools
+ProcessIdentifier              11592
+ProcessCreationTime_UTC        1762941978
+ProcessCreationTime_Readable   Wed Nov 12 10:06:18 2025 UTC
 AppIdentifier                  /opt/tools/cadence/installs/IC618/tools.lnx86/dfII/bin/64bit/virtuoso
 OSType                         lnx86
 ReasonForPlacingEditLock       Set lock by hiiLockFile
 FilePathUsedToEditLock         /home/saul/projects/FIL3601/logs_saul/logs0/Job8.log
-TimeEditLocked                 Fri Sep 12 19:15:09 2025 UTC
-ProcessScopeIdentifier         E5e_it2n4J2dGFsXPnfojK
-ExpirationTime_UTC             1757790909
-ExpirationTime_Readable        Sat Sep 13 19:15:09 2025 UTC
+TimeEditLocked                 Wed Nov 12 10:06:18 2025 UTC
+ProcessScopeIdentifier         E-j_qwT7ZgHRQ5oxU9NotI
+ExpirationTime_UTC             1763028378
+ExpirationTime_Readable        Thu Nov 13 10:06:18 2025 UTC

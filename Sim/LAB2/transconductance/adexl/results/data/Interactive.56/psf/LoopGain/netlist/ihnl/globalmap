@@ -1,0 +1,21 @@
+CADENCE IHNL11140
+$model
+LAB2/transconductance/schematic transconductance
+DAY2/MOS_AC/schematic MOS_AC
+$endmodel
+$net
+gnd! 0
+$endnet
+$param
+cgs1 cgs1
+gm1 gm1
+temperature temperature
+IT IT
+gm gm
+cdb1 cdb1
+cgd1 cgd1
+cgb1 cgb1
+rds1 rds1
+cds1 cds1
+VIN VIN
+$endparam

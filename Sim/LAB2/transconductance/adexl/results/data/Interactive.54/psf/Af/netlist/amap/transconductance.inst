@@ -1,0 +1,7 @@
+HEADER
+"PSFversion" "1.00"
+"IPRB0n" "analogLib_iprobe_spectre"
+"R2n R1n R0n" "analogLib_res_spectre"
+"V0n" "analogLib_vsin_spectre"
+"I4n" "analogLib_isin_spectre"
+"I0n" "MOS_AC"

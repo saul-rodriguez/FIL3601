@@ -1,0 +1,811 @@
+
+Spectre (R) Circuit Simulator
+Version 24.1.0.288.isr5 64bit -- 3 Apr 2025
+Copyright (C) 1989-2025 Cadence Design Systems, Inc. All rights reserved worldwide. Cadence and Spectre are registered trademarks of Cadence Design Systems, Inc. All others are the property of their respective holders.
+
+Includes RSA BSAFE(R) Cryptographic or Security Protocol Software from RSA Security, Inc.
+
+User: saul   Host: edatools   HostID: 11AC0200   PID: 6222
+Memory  available: 24.9158 GB  physical: 27.3104 GB
+Linux   : Rocky Linux release 8.10 (Green Obsidian)
+CPU Type: 11th Gen Intel(R) Core(TM) i7-11700K @ 3.60GHz
+All processors running at 3600.0 MHz
+        Socket: Processors
+        0:       0,  1,  2,  3,  4,  5,  6,  7,  8,  9
+                10, 11, 12, 13, 14, 15
+        
+System load averages (1min, 5min, 15min) : 3.6 %, 3.1 %, 2.8 %
+HPC is enabled
+
+
+Simulating `input.scs' on edatools at 2:05:44 PM, Tue Nov 11, 2025 (process id: 6222).
+Current working directory: /home/saul/projects/FIL3601/Sim/DAY5/EXAMPLE/adexl/results/data/Interactive.11/1/DAY5:EXAMPLE:1/netlist
+Command line:
+    /opt/tools/cadence/installs/SPECTRE241/tools/bin/spectre -64  \
+        input.scs +escchars +log ../psf/spectre.out -format psfxl -raw  \
+        ../psf +aps +mt +lqtimeout 900 -maxw 5 -maxn 5 -env ade  \
+        -ahdllibdir  \
+        /home/saul/projects/FIL3601/Sim/DAY5/EXAMPLE/adexl/results/data/Interactive.11/sharedData/CDS/ahdl/input.ahdlSimDB  \
+        +logstatus  \
+        +adespetkn=0001089D13A302B663E41FB550AF0DF415A679A322D5069144BF588C12F604E07EF416DC01A319B562BB63D356F110B845A365C23AC319815BE178B157F14F9252AC79D15D9175FF34980CBD6B9974D3349877CA11EF18A05BF743E336C85AE30EAA79D118F874D3349879D118F874D3349810C25A4D36665D8B00003641
+
+Simulation Id: dkOisjoymRtHgTf4
+Licensing Information:
+[14:05:44.188817] Configured Lic search path (24.01-s002): 3000@lic08.ug.kth.se
+
+Licensing Information:
+[14:05:45.058514] Periodic Lic check successful
+
+Loading /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/cmi/lib/64bit/5.0/libinfineon_sh.so ...
+Loading /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/cmi/lib/64bit/5.0/libphilips_I_sh.so ...
+Loading /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/cmi/lib/64bit/5.0/libphilips_sh.so ...
+Loading /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/cmi/lib/64bit/5.0/libsparam_sh.so ...
+Loading /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/cmi/lib/64bit/5.0/libstmodels_sh.so ...
+Reading file:  /home/saul/projects/FIL3601/Sim/DAY5/EXAMPLE/adexl/results/data/Interactive.11/1/DAY5:EXAMPLE:1/netlist/input.scs
+Reading file:  /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/etc/configs/spectre.cfg
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/config.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/param.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/bip.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/bip/tm_bip.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/bip/qpva.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/bip/qpvb.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/bip/qpvc.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/bip/qpva3.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/bip/qpvb3.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/bip/qpvc3.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/bip/qnva.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/bip/qnvb.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/bip/qnvba.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/bip/qnvbb.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/bip/qnvc.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/bip/qnvca.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/bip/qnvcb.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/bip/qpvhscr.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/bip/qpvascr.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/bip/qpvhbscr.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/bip/qpv_pa.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/bip/qpv_pb.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/bip/qpv_pc.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/bip/qpv_pd.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/bip/qpv_pe.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/bip/qpv_pf.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/bip/qpl_pa.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/bip/qpl_pb.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/bip/qpl_pc.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/bip/qpl_pd.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/bip/qpl_pe.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/bip/qpl_pf.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/bip/qnl_pa.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/bip/qnl_pb.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/bip/qnl_pc.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/bip/qnl_pd.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/bip/qnl_pe.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/bip/qnl_pf.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/cap.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/tm_cap.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/csandwt3.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/csandwt4.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/csandwt5.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/csf2p.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/csf3p.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/csf3.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/csf4.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/csf5.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/csft4.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/csft5.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/csft6.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/csf3a.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/csf4a.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/csf5a.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/csft4a.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/csft5a.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/csft6a.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/cif3a.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/cif4a.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/cif5a.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/cift4a.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/cift5a.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/cift6a.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/cmm3.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/cmm4t.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/cmm4.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/cmm5t.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/cmm6t.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/cdmm4.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/cdmm4t.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/ctmm5.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/ctmm5t.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/cmmh3.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/cmmh4t.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/cmmh4.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/cmmh5t.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/cmmh6t.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/cdmmh4.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/cdmmh4t.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/ctmmh5.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/ctmmh5t.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/mosvc.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/mosvc_pmos.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/mosvci.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/mosvci_nmos.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/mosvci_m.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/mosvc3.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/mosvc3_pmos.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/mosvc3i.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/mosvc3i_nmos.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/mosvc3i_m.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/cpod.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/cpod_i.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/cpodhv.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/cpodhv_i.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/cp1sub.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/cp1suba.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/cp1subp.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/tag_25v.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/cap/tag_60v.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/dio.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/dio/tm_dio.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/dio/dn.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/dio/dp.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/dio/dnw.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/dio/dn3.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/dio/dnn3.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/dio/dp3.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/dio/dnw3.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/dio/ddnwmv.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/dio/dpdnwmv.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/dio/dipdnwmv.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/dio/ddnw.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/dio/ddnwa.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/dio/dpdnw.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/dio/dipdnw.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/dio/dnhpw.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/dio/dnhpwa.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/dio/dphnw.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/dio/dphnwa.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/dio/dhpw.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/dio/dhnw.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/dio/dndf.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/dio/dpdwhn.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/dio/dwhn.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/dio/dpwhn.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/dio/dpndf.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/dio/dpdddnw.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/dio/ddpldnw.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/dio/dn3dpl.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/dio/dbn.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/dio/dpol.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/dio/dnpdd_scr.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/dio/dpdd_scr.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/dio/dsb.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/dio/dsba.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/dio/dsba_qp1.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/dio/dnp20.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/dio/dpp20.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/dio/dn3sci.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/dio/dscidnwmv.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/mos.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/tm_mos.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/ne.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/nei.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/nei_6.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/nei_m_6.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/nei_a_6.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/pe.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/pe_5.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/pei.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/pei_5.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/pei_m_5.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/pei_a_5.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/nel.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/neli.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/neli_6.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/neli_m_6.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/pel.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/pel_5.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/peli.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/peli_5.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/peli_m_5.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/nn3.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/ne3.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/ne3i.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/ne3i_6.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/ne3i_m_6.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/ne3i_a_6.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/pe3.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/pe3_5.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/pe3i.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/pe3i_5.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/pe3i_m_5.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/pe3i_a_5.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/pe3ln.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/pe3ln_5.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/pe3lni.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/pe3lni_5.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/pe3lni_m_5.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/nd3.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/nd3_mos1.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/nd3_mos2.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/nd3i.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/nd3i_mos1.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/nd3i_mos2.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/nd3i_6.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/nd3i_m_6.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/nelna.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/nelnai.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/nelnai_6.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/nelnai_m_6.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/ne3lna.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/ne3lnai.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/ne3lnai_6.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/ne3lnai_m_6.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/pe3lna.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/pe3lna_5.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/pe3lnai.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/pe3lnai_5.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/pe3lnai_m_5.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/nmma.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/jf_nmma.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/nmma_bjt.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/pmma.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/jf_pmma.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/pmma_bjt.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/nedi.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/nedi_bjt.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/nedia.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/nedia_bjt.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/ped2.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/ped2_bjt.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/ped.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/ped_bjt.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/nhv.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/nhv_mos2.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/nhv_bjt.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/nhhv.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/nhhv_mos2.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/nhhv_bjt.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/nmmc.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/nmmc_mos2.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/nmmc_bjt.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/nmmd.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/nmmd_mos2.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/nmmd_bjt.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/nmc.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/nmc_mos2.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/nmc_bjt.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/nma.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/nma_bjt.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/phv.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/phv_mos2.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/phv_bjt.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/phhv.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/phhv_mos2.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/phhv_bjt.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/pmc.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/pmc_mos2.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/pmc_bjt.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/pmmc.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/pmmc_mos2.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/pmmc_bjt.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/pma.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/pma_bjt.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/pmb.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/nesvt.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/nesvti.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/nesvti_6.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/nesvti_m_6.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/pesvt.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/pesvt_5.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/pesvti.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/pesvti_5.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/pesvti_m_5.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/nhvd.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/nhvd_bjt.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/nhhvd.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/mos/nhhvd_bjt.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/photo.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/photo/tm_pho.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/photo/dphoa.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/photo/dpho.va
+Reading link:  /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/etc/ahdl/discipline.h
+Reading file:  /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/etc/ahdl/disciplines.vams
+Reading link:  /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/etc/ahdl/constants.h
+Reading file:  /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/etc/ahdl/constants.vams
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/photo/dphob.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/photo/dphoc.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/photo/iphoto_uv.va
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/photo/dphoc_cat.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/photo/dphoc0.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/photo/dphoc0_cat.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/photo/dphocfp.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/photo/dphocfp_cat.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/photo/dphod.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/photo/dphod_an1.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/photo/dphod_an2.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/photo/dphod0.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/photo/dphod0_an1.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/photo/dphod0_an2.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/photo/dphodfp.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/photo/dphodfp_an1.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/photo/dphodfp_an2.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/photo/dspada0.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/photo/ispad.va
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/photo/dapb.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/photo/iphoto_apd_trig.va
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/photo/dapb_jun.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/photo/dapb_trig.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/photo/dapb0.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/photo/dapb0_jun.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/photo/dspb.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/photo/ispad_trig.va
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/photo/dspb_jun.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/photo/dspb_trig.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/photo/dspb0.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/photo/dspb0_jun.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/photo/dspbfep.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/photo/dapda.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/photo/iphoto_apd.va
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/photo/dapda_cat.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/photo/dapda0.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/photo/dspada.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/photo/dspada_cat.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/res.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/res/tm_res.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/res/rdn.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/res/rdn_esd.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/res/rdp.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/res/rdp_io.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/res/rdp_esd.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/res/rnw.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/res/rnw_scr.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/res/rdn3.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/res/rdp3.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/res/rnw3.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/res/rnw3_scr.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/res/rdnwmv.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/res/rnp1.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/res/rnp1_3.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/res/rpp1.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/res/rpp1_3.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/res/rpp1s.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/res/rpp1s_3.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/res/rnp1h.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/res/rnp1h_3.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/res/rpp1k1.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/res/rpp1k1_3.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/res/rctdn.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/res/rctdp.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/res/rctp1.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/res/rsildn.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/res/rsildp.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/res/rsilnp1.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/res/rsilpp1.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/res/rsbdn.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/res/rsbdp.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/res/rsbdn3.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/res/rsbdp3.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/res/rsbnp1.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/res/rsbpp1.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/res/rsbpp1k1.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/res/rm1.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/res/rm2.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/res/rm3.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/res/rm4.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/res/rm5.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/res/rmtp.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/res/rmtpl.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/res/pfuse.scs
+Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/res/s_res.scs
+Time for NDB Parsing: CPU = 307.484 ms, elapsed = 1.37185 s.
+Time accumulated: CPU = 506.035 ms, elapsed = 1.37186 s.
+Peak resident memory used = 204 Mbytes.
+
+Time for Elaboration: CPU = 17.636 ms, elapsed = 41.5661 ms.
+Time accumulated: CPU = 523.768 ms, elapsed = 1.41357 s.
+Peak resident memory used = 214 Mbytes.
+
+
+Notice from spectre during hierarchy flattening.
+    The value 'psf' specified for the 'checklimitdest' option will no longer be supported in future releases. Use 'spectre -h' to see other recommended values for the 'checklimitdest' option.
+
+
+Time for EDB Visiting: CPU = 1.157 ms, elapsed = 7.03597 ms.
+Time accumulated: CPU = 525.018 ms, elapsed = 1.42076 s.
+Peak resident memory used = 216 Mbytes.
+
+
+Notice from spectre during initial setup.
+    Multithreading is disabled due to the size of the design being too small.
+
+
+Netlist title:
+        // Point Netlist Generated on: Nov 11 14:05:41 2025
+
+
+Global user options:
+         psfversion = 1.4.0
+            vabstol = 1e-06
+            iabstol = 1e-12
+               temp = 27
+               gmin = 1e-12
+             rforce = 1
+           maxnotes = 5
+           maxwarns = 5
+             digits = 5
+               cols = 80
+             pivrel = 0.001
+           sensfile = ../psf/sens.output
+     checklimitdest = psf
+               save = allpub
+             reltol = 0.001
+               tnom = 27
+             scalem = 1
+              scale = 1
+
+Scoped user options:
+
+Circuit inventory:
+              nodes 6
+            bsim3v3 1     
+           inductor 1     
+             iprobe 1     
+            isource 1     
+           resistor 1     
+            vsource 3     
+
+Analysis and control statement inventory:
+                 dc 1     
+               info 7     
+              noise 1     
+
+Output statements:
+             .probe 0     
+           .measure 0     
+               save 0     
+
+
+Notice from spectre during initial setup.
+    APS enabled.
+
+Time for parsing: CPU = 3.21 ms, elapsed = 29.242 ms.
+Time accumulated: CPU = 528.302 ms, elapsed = 1.45012 s.
+Peak resident memory used = 219 Mbytes.
+
+~~~~~~~~~~~~~~~~~~~~~~
+Pre-Simulation Summary
+~~~~~~~~~~~~~~~~~~~~~~
+   -   (APS) Multi-threading. The recommended number of threads is 1, consider adding +mt=1 on command line.
+~~~~~~~~~~~~~~~~~~~~~~
+
+******************
+DC Analysis `dcOp'
+******************
+
+Opening the PSF file ../psf/dcOp.dc ...
+Important parameter values:
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 27 C
+    tnom = 27 C
+    tempeffects = all
+    gmindc = 1 pS
+    rabsshort = 1 mOhm
+
+Maximum value achieved for any signal of each quantity: 
+V: V(net2) = 900 mV
+I: I(V0:p) = 10.96 nA
+Convergence achieved in 2 iterations.
+DC simulation time: CPU = 2.613 ms, elapsed = 19.8929 ms.
+Total time required for dc analysis `dcOp': CPU = 2.739 ms, elapsed = 21.2681 ms, util. = 12.9%.
+Time accumulated: CPU = 537.168 ms, elapsed = 1.48433 s.
+Peak resident memory used = 222 Mbytes.
+
+dcOpInfo: writing operating point information to rawfile.
+
+Opening the PSF file ../psf/dcOpInfo.info ...
+
+**************************************************
+Noise Analysis `noise': freq = (10 mHz -> 100 GHz)
+**************************************************
+
+Notice from spectre during Noise analysis `noise'.
+    Operating points will not be recomputed: the circuit and conditions were not changed since previous analysis.
+
+
+Opening the PSF file ../psf/noise.noise ...
+    noise: freq = 22.39 mHz   (2.69 %), step = 2.435 mHz    (385 m%)
+    noise: freq = 25.12 mHz   (3.08 %), step = 2.732 mHz    (385 m%)
+    noise: freq = 28.18 mHz   (3.46 %), step = 3.065 mHz    (385 m%)
+    noise: freq = 31.62 mHz   (3.85 %), step = 3.439 mHz    (385 m%)
+    noise: freq = 35.48 mHz   (4.23 %), step = 3.859 mHz    (385 m%)
+    noise: freq = 39.81 mHz   (4.62 %), step = 4.329 mHz    (385 m%)
+    noise: freq = 44.67 mHz      (5 %), step = 4.858 mHz    (385 m%)
+    noise: freq = 50.12 mHz   (5.38 %), step = 5.45 mHz     (385 m%)
+    noise: freq = 56.23 mHz   (5.77 %), step = 6.115 mHz    (385 m%)
+    noise: freq = 63.1 mHz    (6.15 %), step = 6.862 mHz    (385 m%)
+    noise: freq = 70.79 mHz   (6.54 %), step = 7.699 mHz    (385 m%)
+    noise: freq = 79.43 mHz   (6.92 %), step = 8.638 mHz    (385 m%)
+    noise: freq = 89.13 mHz   (7.31 %), step = 9.692 mHz    (385 m%)
+    noise: freq = 100 mHz     (7.69 %), step = 10.87 mHz    (385 m%)
+    noise: freq = 112.2 mHz   (8.08 %), step = 12.2 mHz     (385 m%)
+    noise: freq = 125.9 mHz   (8.46 %), step = 13.69 mHz    (385 m%)
+    noise: freq = 141.3 mHz   (8.85 %), step = 15.36 mHz    (385 m%)
+    noise: freq = 158.5 mHz   (9.23 %), step = 17.24 mHz    (385 m%)
+    noise: freq = 177.8 mHz   (9.62 %), step = 19.34 mHz    (385 m%)
+    noise: freq = 199.5 mHz     (10 %), step = 21.7 mHz     (385 m%)
+    noise: freq = 223.9 mHz   (10.4 %), step = 24.35 mHz    (385 m%)
+    noise: freq = 251.2 mHz   (10.8 %), step = 27.32 mHz    (385 m%)
+    noise: freq = 281.8 mHz   (11.2 %), step = 30.65 mHz    (385 m%)
+    noise: freq = 316.2 mHz   (11.5 %), step = 34.39 mHz    (385 m%)
+    noise: freq = 354.8 mHz   (11.9 %), step = 38.59 mHz    (385 m%)
+    noise: freq = 398.1 mHz   (12.3 %), step = 43.29 mHz    (385 m%)
+    noise: freq = 446.7 mHz   (12.7 %), step = 48.58 mHz    (385 m%)
+    noise: freq = 501.2 mHz   (13.1 %), step = 54.5 mHz     (385 m%)
+    noise: freq = 562.3 mHz   (13.5 %), step = 61.15 mHz    (385 m%)
+    noise: freq = 631 mHz     (13.8 %), step = 68.62 mHz    (385 m%)
+    noise: freq = 707.9 mHz   (14.2 %), step = 76.99 mHz    (385 m%)
+    noise: freq = 794.3 mHz   (14.6 %), step = 86.38 mHz    (385 m%)
+    noise: freq = 891.3 mHz     (15 %), step = 96.92 mHz    (385 m%)
+    noise: freq = 1 Hz        (15.4 %), step = 108.7 mHz    (385 m%)
+    noise: freq = 1.122 Hz    (15.8 %), step = 122 mHz      (385 m%)
+    noise: freq = 1.259 Hz    (16.2 %), step = 136.9 mHz    (385 m%)
+    noise: freq = 1.413 Hz    (16.5 %), step = 153.6 mHz    (385 m%)
+    noise: freq = 1.585 Hz    (16.9 %), step = 172.4 mHz    (385 m%)
+    noise: freq = 1.778 Hz    (17.3 %), step = 193.4 mHz    (385 m%)
+    noise: freq = 1.995 Hz    (17.7 %), step = 217 mHz      (385 m%)
+    noise: freq = 2.239 Hz    (18.1 %), step = 243.5 mHz    (385 m%)
+    noise: freq = 2.512 Hz    (18.5 %), step = 273.2 mHz    (385 m%)
+    noise: freq = 2.818 Hz    (18.8 %), step = 306.5 mHz    (385 m%)
+    noise: freq = 3.162 Hz    (19.2 %), step = 343.9 mHz    (385 m%)
+    noise: freq = 3.548 Hz    (19.6 %), step = 385.9 mHz    (385 m%)
+    noise: freq = 3.981 Hz      (20 %), step = 432.9 mHz    (385 m%)
+    noise: freq = 4.467 Hz    (20.4 %), step = 485.8 mHz    (385 m%)
+    noise: freq = 5.012 Hz    (20.8 %), step = 545 mHz      (385 m%)
+    noise: freq = 5.623 Hz    (21.2 %), step = 611.5 mHz    (385 m%)
+    noise: freq = 6.31 Hz     (21.5 %), step = 686.2 mHz    (385 m%)
+    noise: freq = 7.079 Hz    (21.9 %), step = 769.9 mHz    (385 m%)
+    noise: freq = 7.943 Hz    (22.3 %), step = 863.8 mHz    (385 m%)
+    noise: freq = 8.913 Hz    (22.7 %), step = 969.2 mHz    (385 m%)
+    noise: freq = 10 Hz       (23.1 %), step = 1.087 Hz     (385 m%)
+    noise: freq = 11.22 Hz    (23.5 %), step = 1.22 Hz      (385 m%)
+    noise: freq = 12.59 Hz    (23.8 %), step = 1.369 Hz     (385 m%)
+    noise: freq = 14.13 Hz    (24.2 %), step = 1.536 Hz     (385 m%)
+    noise: freq = 15.85 Hz    (24.6 %), step = 1.724 Hz     (385 m%)
+    noise: freq = 17.78 Hz      (25 %), step = 1.934 Hz     (385 m%)
+    noise: freq = 19.95 Hz    (25.4 %), step = 2.17 Hz      (385 m%)
+    noise: freq = 22.39 Hz    (25.8 %), step = 2.435 Hz     (385 m%)
+    noise: freq = 25.12 Hz    (26.2 %), step = 2.732 Hz     (385 m%)
+    noise: freq = 28.18 Hz    (26.5 %), step = 3.065 Hz     (385 m%)
+    noise: freq = 31.62 Hz    (26.9 %), step = 3.439 Hz     (385 m%)
+    noise: freq = 35.48 Hz    (27.3 %), step = 3.859 Hz     (385 m%)
+    noise: freq = 39.81 Hz    (27.7 %), step = 4.329 Hz     (385 m%)
+    noise: freq = 44.67 Hz    (28.1 %), step = 4.858 Hz     (385 m%)
+    noise: freq = 50.12 Hz    (28.5 %), step = 5.45 Hz      (385 m%)
+    noise: freq = 56.23 Hz    (28.8 %), step = 6.115 Hz     (385 m%)
+    noise: freq = 63.1 Hz     (29.2 %), step = 6.862 Hz     (385 m%)
+    noise: freq = 70.79 Hz    (29.6 %), step = 7.699 Hz     (385 m%)
+    noise: freq = 79.43 Hz      (30 %), step = 8.638 Hz     (385 m%)
+    noise: freq = 89.13 Hz    (30.4 %), step = 9.692 Hz     (385 m%)
+    noise: freq = 100 Hz      (30.8 %), step = 10.87 Hz     (385 m%)
+    noise: freq = 112.2 Hz    (31.2 %), step = 12.2 Hz      (385 m%)
+    noise: freq = 125.9 Hz    (31.5 %), step = 13.69 Hz     (385 m%)
+    noise: freq = 141.3 Hz    (31.9 %), step = 15.36 Hz     (385 m%)
+    noise: freq = 158.5 Hz    (32.3 %), step = 17.24 Hz     (385 m%)
+    noise: freq = 177.8 Hz    (32.7 %), step = 19.34 Hz     (385 m%)
+    noise: freq = 199.5 Hz    (33.1 %), step = 21.7 Hz      (385 m%)
+    noise: freq = 223.9 Hz    (33.5 %), step = 24.35 Hz     (385 m%)
+    noise: freq = 251.2 Hz    (33.8 %), step = 27.32 Hz     (385 m%)
+    noise: freq = 281.8 Hz    (34.2 %), step = 30.65 Hz     (385 m%)
+    noise: freq = 316.2 Hz    (34.6 %), step = 34.39 Hz     (385 m%)
+    noise: freq = 354.8 Hz      (35 %), step = 38.59 Hz     (385 m%)
+    noise: freq = 398.1 Hz    (35.4 %), step = 43.29 Hz     (385 m%)
+    noise: freq = 446.7 Hz    (35.8 %), step = 48.58 Hz     (385 m%)
+    noise: freq = 501.2 Hz    (36.2 %), step = 54.5 Hz      (385 m%)
+    noise: freq = 562.3 Hz    (36.5 %), step = 61.15 Hz     (385 m%)
+    noise: freq = 631 Hz      (36.9 %), step = 68.62 Hz     (385 m%)
+    noise: freq = 707.9 Hz    (37.3 %), step = 76.99 Hz     (385 m%)
+    noise: freq = 794.3 Hz    (37.7 %), step = 86.38 Hz     (385 m%)
+    noise: freq = 891.3 Hz    (38.1 %), step = 96.92 Hz     (385 m%)
+    noise: freq = 1 kHz       (38.5 %), step = 108.7 Hz     (385 m%)
+    noise: freq = 1.122 kHz   (38.8 %), step = 122 Hz       (385 m%)
+    noise: freq = 1.259 kHz   (39.2 %), step = 136.9 Hz     (385 m%)
+    noise: freq = 1.413 kHz   (39.6 %), step = 153.6 Hz     (385 m%)
+    noise: freq = 1.585 kHz     (40 %), step = 172.4 Hz     (385 m%)
+    noise: freq = 1.778 kHz   (40.4 %), step = 193.4 Hz     (385 m%)
+    noise: freq = 1.995 kHz   (40.8 %), step = 217 Hz       (385 m%)
+    noise: freq = 2.239 kHz   (41.2 %), step = 243.5 Hz     (385 m%)
+    noise: freq = 2.512 kHz   (41.5 %), step = 273.2 Hz     (385 m%)
+    noise: freq = 2.818 kHz   (41.9 %), step = 306.5 Hz     (385 m%)
+    noise: freq = 3.162 kHz   (42.3 %), step = 343.9 Hz     (385 m%)
+    noise: freq = 3.548 kHz   (42.7 %), step = 385.9 Hz     (385 m%)
+    noise: freq = 3.981 kHz   (43.1 %), step = 432.9 Hz     (385 m%)
+    noise: freq = 4.467 kHz   (43.5 %), step = 485.8 Hz     (385 m%)
+    noise: freq = 5.012 kHz   (43.8 %), step = 545 Hz       (385 m%)
+    noise: freq = 5.623 kHz   (44.2 %), step = 611.5 Hz     (385 m%)
+    noise: freq = 6.31 kHz    (44.6 %), step = 686.2 Hz     (385 m%)
+    noise: freq = 7.079 kHz     (45 %), step = 769.9 Hz     (385 m%)
+    noise: freq = 7.943 kHz   (45.4 %), step = 863.8 Hz     (385 m%)
+    noise: freq = 8.913 kHz   (45.8 %), step = 969.2 Hz     (385 m%)
+    noise: freq = 10 kHz      (46.2 %), step = 1.087 kHz    (385 m%)
+    noise: freq = 11.22 kHz   (46.5 %), step = 1.22 kHz     (385 m%)
+    noise: freq = 12.59 kHz   (46.9 %), step = 1.369 kHz    (385 m%)
+    noise: freq = 14.13 kHz   (47.3 %), step = 1.536 kHz    (385 m%)
+    noise: freq = 15.85 kHz   (47.7 %), step = 1.724 kHz    (385 m%)
+    noise: freq = 17.78 kHz   (48.1 %), step = 1.934 kHz    (385 m%)
+    noise: freq = 19.95 kHz   (48.5 %), step = 2.17 kHz     (385 m%)
+    noise: freq = 22.39 kHz   (48.8 %), step = 2.435 kHz    (385 m%)
+    noise: freq = 25.12 kHz   (49.2 %), step = 2.732 kHz    (385 m%)
+    noise: freq = 28.18 kHz   (49.6 %), step = 3.065 kHz    (385 m%)
+    noise: freq = 31.62 kHz     (50 %), step = 3.439 kHz    (385 m%)
+    noise: freq = 35.48 kHz   (50.4 %), step = 3.859 kHz    (385 m%)
+    noise: freq = 39.81 kHz   (50.8 %), step = 4.329 kHz    (385 m%)
+    noise: freq = 44.67 kHz   (51.2 %), step = 4.858 kHz    (385 m%)
+    noise: freq = 50.12 kHz   (51.5 %), step = 5.45 kHz     (385 m%)
+    noise: freq = 56.23 kHz   (51.9 %), step = 6.115 kHz    (385 m%)
+    noise: freq = 63.1 kHz    (52.3 %), step = 6.862 kHz    (385 m%)
+    noise: freq = 70.79 kHz   (52.7 %), step = 7.699 kHz    (385 m%)
+    noise: freq = 79.43 kHz   (53.1 %), step = 8.638 kHz    (385 m%)
+    noise: freq = 89.13 kHz   (53.5 %), step = 9.692 kHz    (385 m%)
+    noise: freq = 100 kHz     (53.8 %), step = 10.87 kHz    (385 m%)
+    noise: freq = 112.2 kHz   (54.2 %), step = 12.2 kHz     (385 m%)
+    noise: freq = 125.9 kHz   (54.6 %), step = 13.69 kHz    (385 m%)
+    noise: freq = 141.3 kHz     (55 %), step = 15.36 kHz    (385 m%)
+    noise: freq = 158.5 kHz   (55.4 %), step = 17.24 kHz    (385 m%)
+    noise: freq = 177.8 kHz   (55.8 %), step = 19.34 kHz    (385 m%)
+    noise: freq = 199.5 kHz   (56.2 %), step = 21.7 kHz     (385 m%)
+    noise: freq = 223.9 kHz   (56.5 %), step = 24.35 kHz    (385 m%)
+    noise: freq = 251.2 kHz   (56.9 %), step = 27.32 kHz    (385 m%)
+    noise: freq = 281.8 kHz   (57.3 %), step = 30.65 kHz    (385 m%)
+    noise: freq = 316.2 kHz   (57.7 %), step = 34.39 kHz    (385 m%)
+    noise: freq = 354.8 kHz   (58.1 %), step = 38.59 kHz    (385 m%)
+    noise: freq = 398.1 kHz   (58.5 %), step = 43.29 kHz    (385 m%)
+    noise: freq = 446.7 kHz   (58.8 %), step = 48.58 kHz    (385 m%)
+    noise: freq = 501.2 kHz   (59.2 %), step = 54.5 kHz     (385 m%)
+    noise: freq = 562.3 kHz   (59.6 %), step = 61.15 kHz    (385 m%)
+    noise: freq = 631 kHz       (60 %), step = 68.62 kHz    (385 m%)
+    noise: freq = 707.9 kHz   (60.4 %), step = 76.99 kHz    (385 m%)
+    noise: freq = 794.3 kHz   (60.8 %), step = 86.38 kHz    (385 m%)
+    noise: freq = 891.3 kHz   (61.2 %), step = 96.92 kHz    (385 m%)
+    noise: freq = 1 MHz       (61.5 %), step = 108.7 kHz    (385 m%)
+    noise: freq = 1.122 MHz   (61.9 %), step = 122 kHz      (385 m%)
+    noise: freq = 1.259 MHz   (62.3 %), step = 136.9 kHz    (385 m%)
+    noise: freq = 1.413 MHz   (62.7 %), step = 153.6 kHz    (385 m%)
+    noise: freq = 1.585 MHz   (63.1 %), step = 172.4 kHz    (385 m%)
+    noise: freq = 1.778 MHz   (63.5 %), step = 193.4 kHz    (385 m%)
+    noise: freq = 1.995 MHz   (63.8 %), step = 217 kHz      (385 m%)
+    noise: freq = 2.239 MHz   (64.2 %), step = 243.5 kHz    (385 m%)
+    noise: freq = 2.512 MHz   (64.6 %), step = 273.2 kHz    (385 m%)
+    noise: freq = 2.818 MHz     (65 %), step = 306.5 kHz    (385 m%)
+    noise: freq = 3.162 MHz   (65.4 %), step = 343.9 kHz    (385 m%)
+    noise: freq = 3.548 MHz   (65.8 %), step = 385.9 kHz    (385 m%)
+    noise: freq = 3.981 MHz   (66.2 %), step = 432.9 kHz    (385 m%)
+    noise: freq = 4.467 MHz   (66.5 %), step = 485.8 kHz    (385 m%)
+    noise: freq = 5.012 MHz   (66.9 %), step = 545 kHz      (385 m%)
+    noise: freq = 5.623 MHz   (67.3 %), step = 611.5 kHz    (385 m%)
+    noise: freq = 6.31 MHz    (67.7 %), step = 686.2 kHz    (385 m%)
+    noise: freq = 7.079 MHz   (68.1 %), step = 769.9 kHz    (385 m%)
+    noise: freq = 7.943 MHz   (68.5 %), step = 863.8 kHz    (385 m%)
+    noise: freq = 8.913 MHz   (68.8 %), step = 969.2 kHz    (385 m%)
+    noise: freq = 10 MHz      (69.2 %), step = 1.087 MHz    (385 m%)
+    noise: freq = 11.22 MHz   (69.6 %), step = 1.22 MHz     (385 m%)
+    noise: freq = 12.59 MHz     (70 %), step = 1.369 MHz    (385 m%)
+    noise: freq = 14.13 MHz   (70.4 %), step = 1.536 MHz    (385 m%)
+    noise: freq = 15.85 MHz   (70.8 %), step = 1.724 MHz    (385 m%)
+    noise: freq = 17.78 MHz   (71.2 %), step = 1.934 MHz    (385 m%)
+    noise: freq = 19.95 MHz   (71.5 %), step = 2.17 MHz     (385 m%)
+    noise: freq = 22.39 MHz   (71.9 %), step = 2.435 MHz    (385 m%)
+    noise: freq = 25.12 MHz   (72.3 %), step = 2.732 MHz    (385 m%)
+    noise: freq = 28.18 MHz   (72.7 %), step = 3.065 MHz    (385 m%)
+    noise: freq = 31.62 MHz   (73.1 %), step = 3.439 MHz    (385 m%)
+    noise: freq = 35.48 MHz   (73.5 %), step = 3.859 MHz    (385 m%)
+    noise: freq = 39.81 MHz   (73.8 %), step = 4.329 MHz    (385 m%)
+    noise: freq = 44.67 MHz   (74.2 %), step = 4.858 MHz    (385 m%)
+    noise: freq = 50.12 MHz   (74.6 %), step = 5.45 MHz     (385 m%)
+    noise: freq = 56.23 MHz     (75 %), step = 6.115 MHz    (385 m%)
+    noise: freq = 63.1 MHz    (75.4 %), step = 6.862 MHz    (385 m%)
+    noise: freq = 70.79 MHz   (75.8 %), step = 7.699 MHz    (385 m%)
+    noise: freq = 79.43 MHz   (76.2 %), step = 8.638 MHz    (385 m%)
+    noise: freq = 89.13 MHz   (76.5 %), step = 9.692 MHz    (385 m%)
+    noise: freq = 100 MHz     (76.9 %), step = 10.87 MHz    (385 m%)
+    noise: freq = 112.2 MHz   (77.3 %), step = 12.2 MHz     (385 m%)
+    noise: freq = 125.9 MHz   (77.7 %), step = 13.69 MHz    (385 m%)
+    noise: freq = 141.3 MHz   (78.1 %), step = 15.36 MHz    (385 m%)
+    noise: freq = 158.5 MHz   (78.5 %), step = 17.24 MHz    (385 m%)
+    noise: freq = 177.8 MHz   (78.8 %), step = 19.34 MHz    (385 m%)
+    noise: freq = 199.5 MHz   (79.2 %), step = 21.7 MHz     (385 m%)
+    noise: freq = 223.9 MHz   (79.6 %), step = 24.35 MHz    (385 m%)
+    noise: freq = 251.2 MHz     (80 %), step = 27.32 MHz    (385 m%)
+    noise: freq = 281.8 MHz   (80.4 %), step = 30.65 MHz    (385 m%)
+    noise: freq = 316.2 MHz   (80.8 %), step = 34.39 MHz    (385 m%)
+    noise: freq = 354.8 MHz   (81.2 %), step = 38.59 MHz    (385 m%)
+    noise: freq = 398.1 MHz   (81.5 %), step = 43.29 MHz    (385 m%)
+    noise: freq = 446.7 MHz   (81.9 %), step = 48.58 MHz    (385 m%)
+    noise: freq = 501.2 MHz   (82.3 %), step = 54.5 MHz     (385 m%)
+    noise: freq = 562.3 MHz   (82.7 %), step = 61.15 MHz    (385 m%)
+    noise: freq = 631 MHz     (83.1 %), step = 68.62 MHz    (385 m%)
+    noise: freq = 707.9 MHz   (83.5 %), step = 76.99 MHz    (385 m%)
+    noise: freq = 794.3 MHz   (83.8 %), step = 86.38 MHz    (385 m%)
+    noise: freq = 891.3 MHz   (84.2 %), step = 96.92 MHz    (385 m%)
+    noise: freq = 1 GHz       (84.6 %), step = 108.7 MHz    (385 m%)
+    noise: freq = 1.122 GHz     (85 %), step = 122 MHz      (385 m%)
+    noise: freq = 1.259 GHz   (85.4 %), step = 136.9 MHz    (385 m%)
+    noise: freq = 1.413 GHz   (85.8 %), step = 153.6 MHz    (385 m%)
+    noise: freq = 1.585 GHz   (86.2 %), step = 172.4 MHz    (385 m%)
+    noise: freq = 1.778 GHz   (86.5 %), step = 193.4 MHz    (385 m%)
+    noise: freq = 1.995 GHz   (86.9 %), step = 217 MHz      (385 m%)
+    noise: freq = 2.239 GHz   (87.3 %), step = 243.5 MHz    (385 m%)
+    noise: freq = 2.512 GHz   (87.7 %), step = 273.2 MHz    (385 m%)
+    noise: freq = 2.818 GHz   (88.1 %), step = 306.5 MHz    (385 m%)
+    noise: freq = 3.162 GHz   (88.5 %), step = 343.9 MHz    (385 m%)
+    noise: freq = 3.548 GHz   (88.8 %), step = 385.9 MHz    (385 m%)
+    noise: freq = 3.981 GHz   (89.2 %), step = 432.9 MHz    (385 m%)
+    noise: freq = 4.467 GHz   (89.6 %), step = 485.8 MHz    (385 m%)
+    noise: freq = 5.012 GHz     (90 %), step = 545 MHz      (385 m%)
+    noise: freq = 5.623 GHz   (90.4 %), step = 611.5 MHz    (385 m%)
+    noise: freq = 6.31 GHz    (90.8 %), step = 686.2 MHz    (385 m%)
+    noise: freq = 7.079 GHz   (91.2 %), step = 769.9 MHz    (385 m%)
+    noise: freq = 7.943 GHz   (91.5 %), step = 863.8 MHz    (385 m%)
+    noise: freq = 8.913 GHz   (91.9 %), step = 969.2 MHz    (385 m%)
+    noise: freq = 10 GHz      (92.3 %), step = 1.087 GHz    (385 m%)
+    noise: freq = 11.22 GHz   (92.7 %), step = 1.22 GHz     (385 m%)
+    noise: freq = 12.59 GHz   (93.1 %), step = 1.369 GHz    (385 m%)
+    noise: freq = 14.13 GHz   (93.5 %), step = 1.536 GHz    (385 m%)
+    noise: freq = 15.85 GHz   (93.8 %), step = 1.724 GHz    (385 m%)
+    noise: freq = 17.78 GHz   (94.2 %), step = 1.934 GHz    (385 m%)
+    noise: freq = 19.95 GHz   (94.6 %), step = 2.17 GHz     (385 m%)
+    noise: freq = 22.39 GHz     (95 %), step = 2.435 GHz    (385 m%)
+    noise: freq = 25.12 GHz   (95.4 %), step = 2.732 GHz    (385 m%)
+    noise: freq = 28.18 GHz   (95.8 %), step = 3.065 GHz    (385 m%)
+    noise: freq = 31.62 GHz   (96.2 %), step = 3.439 GHz    (385 m%)
+    noise: freq = 35.48 GHz   (96.5 %), step = 3.859 GHz    (385 m%)
+    noise: freq = 39.81 GHz   (96.9 %), step = 4.329 GHz    (385 m%)
+    noise: freq = 44.67 GHz   (97.3 %), step = 4.858 GHz    (385 m%)
+    noise: freq = 50.12 GHz   (97.7 %), step = 5.45 GHz     (385 m%)
+    noise: freq = 56.23 GHz   (98.1 %), step = 6.115 GHz    (385 m%)
+    noise: freq = 63.1 GHz    (98.5 %), step = 6.862 GHz    (385 m%)
+    noise: freq = 70.79 GHz   (98.8 %), step = 7.699 GHz    (385 m%)
+    noise: freq = 79.43 GHz   (99.2 %), step = 8.638 GHz    (385 m%)
+    noise: freq = 89.13 GHz   (99.6 %), step = 9.692 GHz    (385 m%)
+    noise: freq = 100 GHz      (100 %), step = 10.87 GHz    (385 m%)
+Accumulated DC solution time =            123.024 us.
+Intrinsic noise analysis time =              105.609 ms.
+Total time required for noise analysis `noise': CPU = 7.252 ms, elapsed = 105.788 ms, util. = 6.86%.
+Time accumulated: CPU = 546.337 ms, elapsed = 1.60441 s.
+Peak resident memory used = 223 Mbytes.
+
+modelParameter: writing model parameter values to rawfile.
+
+Opening the PSF file ../psf/modelParameter.info ...
+element: writing instance parameter values to rawfile.
+
+Opening the PSF file ../psf/element.info ...
+outputParameter: writing output parameter values to rawfile.
+
+Opening the PSF file ../psf/outputParameter.info ...
+designParamVals: writing netlist parameters to rawfile.
+
+Opening the PSFASCII file ../psf/designParamVals.info ...
+primitives: writing primitives to rawfile.
+
+Opening the PSFASCII file ../psf/primitives.info.primitives ...
+subckts: writing subcircuits to rawfile.
+
+Opening the PSFASCII file ../psf/subckts.info.subckts ...
+Licensing Information:
+Lic Summary:
+[14:05:46.234051] Cdslmd servers:3000@lic08.ug.kth.se
+[14:05:46.234098] Feature usage summary:
+[14:05:46.234098] Virtuoso_Multi_mode_Simulation
+
+
+Aggregate audit (2:05:46 PM, Tue Nov 11, 2025):
+Time used: CPU = 561 ms, elapsed = 1.69 s, util. = 33.2%.
+Time spent in licensing: elapsed = 282 ms, percentage of total = 16.7%.
+Peak memory used = 225 Mbytes.
+Simulation started at: 2:05:44 PM, Tue Nov 11, 2025, ended at: 2:05:46 PM, Tue Nov 11, 2025, with elapsed time (wall clock): 1.69 s.
+spectre completes with 0 errors, 0 warnings, and 5 notices.
+
+
+********* LOG ENDS **************
+**                             **

@@ -1,0 +1,2 @@
+parameters temperature=27 IT=1 cdb1=773.6f cds1=454.7f cgb1=160.82f \
+    cgd1=24.60f cgs1=111.69f gm1=0 rds1=23885929.34 VIN=0 gm=0.227m

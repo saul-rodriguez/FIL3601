@@ -1,4 +1,4 @@
-(envOpts analysisOrder) ("ac" "pz")
+(envOpts analysisOrder) ("ac" "pz" "dcmatch" "stb" "tran" "envlp" "dc" "lf" "noise" "xf" "sp" "pss" "pac" "pstb" "pnoise" "pxf" "psp" "qpss" "qpac" "qpnoise" "qpxf" "qpsp" "hb" "hbac" "hbstb" "hbnoise" "hbxf" "sens" "acmatch")
 (envOpts autoDisplay) t
 (envOpts bus_delimiter) ""
 (envOpts case_sensitive) "false"

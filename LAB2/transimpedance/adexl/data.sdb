@@ -54,31 +54,31 @@
 		</tests>
 		<vars>
 			<var>IDS
-				<value>10u</value>
+				<value>100u</value>
 				<dependentTests>
 					<dependentTest omitted="0">LAB2:transimpedance:1</dependentTest>
 				</dependentTests>
 			</var>
 			<var>L
-				<value>0.18u</value>
+				<value>1u</value>
 				<dependentTests>
 					<dependentTest omitted="0">LAB2:transimpedance:1</dependentTest>
 				</dependentTests>
 			</var>
 			<var>NF
-				<value>4</value>
+				<value>40</value>
 				<dependentTests>
 					<dependentTest omitted="0">LAB2:transimpedance:1</dependentTest>
 				</dependentTests>
 			</var>
 			<var>VDS
-				<value>0.5</value>
+				<value>0.9</value>
 				<dependentTests>
 					<dependentTest omitted="0">LAB2:transimpedance:1</dependentTest>
 				</dependentTests>
 			</var>
 			<var>VGS
-				<value>0.29948</value>
+				<value>0.4142</value>
 				<dependentTests>
 					<dependentTest omitted="0">LAB2:transimpedance:1</dependentTest>
 				</dependentTests>
@@ -119,7 +119,7 @@
 		</plottingoptions>
 	</active>
 	<history>History
-		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.0
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.8
 			<checkpoint>
 				<corners>
 					<corner enabled="1">_default</corner>
@@ -153,7 +153,7 @@
 								<value>$AXL_SETUPDB_DIR/test_states</value>
 							</option>
 							<option>state
-								<value>LAB2:transimpedance:1_none_Interactive.0</value>
+								<value>LAB2:transimpedance:1_none_Interactive.8</value>
 							</option>
 						</tooloptions>
 						<origoptions>
@@ -239,26 +239,26 @@
 				</plottingoptions>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Nov 5 10:04:50 2025</timestamp>
-			<uuid>{91f1bb7b-f334-4ab3-94eb-2057deb04455}</uuid>
-			<resultsname>/home/saul/projects/FIL3601/LAB2/transimpedance/adexl/results/data/Interactive.0.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.0.rdb</simresults>
+			<timestamp>Nov 12 10:25:55 2025</timestamp>
+			<uuid>{9640c280-c8b3-4d5e-b13f-d4c794e9abda}</uuid>
+			<resultsname>/home/saul/projects/FIL3601/LAB2/transimpedance/adexl/results/data/Interactive.8.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.8.rdb</simresults>
 			<rawdatadelstrategy>SaveAll
 				<simdatasavemode>All</simdatasavemode>
 			</rawdatadelstrategy>
 			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/950e82c38b16_saul_100450284</localpsfdir>
-			<psfdir>/home/saul/projects/FIL3601/Sim/LAB2/transimpedance/adexl/results/data/Interactive.0</psfdir>
-			<simdir>$AXL_PROJECT_DIR/LAB2/transimpedance/adexl/results/data/Interactive.0</simdir>
+			<localpsfdir>/tmp/edatools_saul_102555152</localpsfdir>
+			<psfdir>/home/saul/projects/FIL3601/Sim/LAB2/transimpedance/adexl/results/data/Interactive.8</psfdir>
+			<simdir>$AXL_PROJECT_DIR/LAB2/transimpedance/adexl/results/data/Interactive.8</simdir>
 			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
-			<runlog>/home/saul/projects/FIL3601/LAB2/transimpedance/adexl/results/data/Interactive.0.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.0.log</runlogfile>
+			<runlog>/home/saul/projects/FIL3601/LAB2/transimpedance/adexl/results/data/Interactive.8.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.8.log</runlogfile>
 			<schematicpoint></schematicpoint>
 			<test>all</test>
 		</historyentry>
-		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.1
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.9
 			<checkpoint>
 				<corners>
 					<corner enabled="1">_default</corner>
@@ -292,7 +292,7 @@
 								<value>$AXL_SETUPDB_DIR/test_states</value>
 							</option>
 							<option>state
-								<value>LAB2:transimpedance:1_none_Interactive.1</value>
+								<value>LAB2:transimpedance:1_none_Interactive.9</value>
 							</option>
 						</tooloptions>
 						<origoptions>
@@ -319,25 +319,25 @@
 						</dependentTests>
 					</var>
 					<var>L
-						<value>0.18u</value>
+						<value>1u</value>
 						<dependentTests>
 							<dependentTest omitted="0">LAB2:transimpedance:1</dependentTest>
 						</dependentTests>
 					</var>
 					<var>NF
-						<value>4</value>
+						<value>10</value>
 						<dependentTests>
 							<dependentTest omitted="0">LAB2:transimpedance:1</dependentTest>
 						</dependentTests>
 					</var>
 					<var>VDS
-						<value>0.5</value>
+						<value>0.9</value>
 						<dependentTests>
 							<dependentTest omitted="0">LAB2:transimpedance:1</dependentTest>
 						</dependentTests>
 					</var>
 					<var>VGS
-						<value>0.29948</value>
+						<value>0.37167</value>
 						<dependentTests>
 							<dependentTest omitted="0">LAB2:transimpedance:1</dependentTest>
 						</dependentTests>
@@ -378,26 +378,26 @@
 				</plottingoptions>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Nov 5 10:06:20 2025</timestamp>
-			<uuid>{65c38abc-6146-41de-a88a-27807e85be15}</uuid>
-			<resultsname>/home/saul/projects/FIL3601/LAB2/transimpedance/adexl/results/data/Interactive.1.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.1.rdb</simresults>
+			<timestamp>Nov 12 10:29:01 2025</timestamp>
+			<uuid>{3a2f0935-9672-48fa-9b07-cadb9ce3636b}</uuid>
+			<resultsname>/home/saul/projects/FIL3601/LAB2/transimpedance/adexl/results/data/Interactive.9.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.9.rdb</simresults>
 			<rawdatadelstrategy>SaveAll
 				<simdatasavemode>All</simdatasavemode>
 			</rawdatadelstrategy>
 			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/950e82c38b16_saul_100620278</localpsfdir>
-			<psfdir>/home/saul/projects/FIL3601/Sim/LAB2/transimpedance/adexl/results/data/Interactive.1</psfdir>
-			<simdir>$AXL_PROJECT_DIR/LAB2/transimpedance/adexl/results/data/Interactive.1</simdir>
+			<localpsfdir>/tmp/edatools_saul_102901113</localpsfdir>
+			<psfdir>/home/saul/projects/FIL3601/Sim/LAB2/transimpedance/adexl/results/data/Interactive.9</psfdir>
+			<simdir>$AXL_PROJECT_DIR/LAB2/transimpedance/adexl/results/data/Interactive.9</simdir>
 			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
-			<runlog>/home/saul/projects/FIL3601/LAB2/transimpedance/adexl/results/data/Interactive.1.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.1.log</runlogfile>
+			<runlog>/home/saul/projects/FIL3601/LAB2/transimpedance/adexl/results/data/Interactive.9.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.9.log</runlogfile>
 			<schematicpoint></schematicpoint>
 			<test>all</test>
 		</historyentry>
-		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.2
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.10
 			<checkpoint>
 				<corners>
 					<corner enabled="1">_default</corner>
@@ -431,7 +431,7 @@
 								<value>$AXL_SETUPDB_DIR/test_states</value>
 							</option>
 							<option>state
-								<value>LAB2:transimpedance:1_none_Interactive.2</value>
+								<value>LAB2:transimpedance:1_none_Interactive.10</value>
 							</option>
 						</tooloptions>
 						<origoptions>
@@ -458,25 +458,25 @@
 						</dependentTests>
 					</var>
 					<var>L
-						<value>0.18u</value>
+						<value>1u</value>
 						<dependentTests>
 							<dependentTest omitted="0">LAB2:transimpedance:1</dependentTest>
 						</dependentTests>
 					</var>
 					<var>NF
-						<value>4</value>
+						<value>10</value>
 						<dependentTests>
 							<dependentTest omitted="0">LAB2:transimpedance:1</dependentTest>
 						</dependentTests>
 					</var>
 					<var>VDS
-						<value>0.5</value>
+						<value>0.9</value>
 						<dependentTests>
 							<dependentTest omitted="0">LAB2:transimpedance:1</dependentTest>
 						</dependentTests>
 					</var>
 					<var>VGS
-						<value>0.29948</value>
+						<value>0.4931</value>
 						<dependentTests>
 							<dependentTest omitted="0">LAB2:transimpedance:1</dependentTest>
 						</dependentTests>
@@ -517,26 +517,26 @@
 				</plottingoptions>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Nov 5 10:08:30 2025</timestamp>
-			<uuid>{b2122ed0-d6f1-4ecd-8646-3d276527cf09}</uuid>
-			<resultsname>/home/saul/projects/FIL3601/LAB2/transimpedance/adexl/results/data/Interactive.2.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.2.rdb</simresults>
+			<timestamp>Nov 12 10:40:58 2025</timestamp>
+			<uuid>{5b065590-c919-42c4-98fa-cf0bf6f690e1}</uuid>
+			<resultsname>/home/saul/projects/FIL3601/LAB2/transimpedance/adexl/results/data/Interactive.10.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.10.rdb</simresults>
 			<rawdatadelstrategy>SaveAll
 				<simdatasavemode>All</simdatasavemode>
 			</rawdatadelstrategy>
 			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/950e82c38b16_saul_100830063</localpsfdir>
-			<psfdir>/home/saul/projects/FIL3601/Sim/LAB2/transimpedance/adexl/results/data/Interactive.2</psfdir>
-			<simdir>$AXL_PROJECT_DIR/LAB2/transimpedance/adexl/results/data/Interactive.2</simdir>
+			<localpsfdir>/tmp/edatools_saul_104058239</localpsfdir>
+			<psfdir>/home/saul/projects/FIL3601/Sim/LAB2/transimpedance/adexl/results/data/Interactive.10</psfdir>
+			<simdir>$AXL_PROJECT_DIR/LAB2/transimpedance/adexl/results/data/Interactive.10</simdir>
 			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
-			<runlog>/home/saul/projects/FIL3601/LAB2/transimpedance/adexl/results/data/Interactive.2.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.2.log</runlogfile>
+			<runlog>/home/saul/projects/FIL3601/LAB2/transimpedance/adexl/results/data/Interactive.10.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.10.log</runlogfile>
 			<schematicpoint></schematicpoint>
 			<test>all</test>
 		</historyentry>
-		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.3
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.11
 			<checkpoint>
 				<corners>
 					<corner enabled="1">_default</corner>
@@ -570,7 +570,7 @@
 								<value>$AXL_SETUPDB_DIR/test_states</value>
 							</option>
 							<option>state
-								<value>LAB2:transimpedance:1_none_Interactive.3</value>
+								<value>LAB2:transimpedance:1_none_Interactive.11</value>
 							</option>
 						</tooloptions>
 						<origoptions>
@@ -591,31 +591,31 @@
 				</tests>
 				<vars>
 					<var>IDS
-						<value>10u</value>
+						<value>100u</value>
 						<dependentTests>
 							<dependentTest omitted="0">LAB2:transimpedance:1</dependentTest>
 						</dependentTests>
 					</var>
 					<var>L
-						<value>0.18u</value>
+						<value>1u</value>
 						<dependentTests>
 							<dependentTest omitted="0">LAB2:transimpedance:1</dependentTest>
 						</dependentTests>
 					</var>
 					<var>NF
-						<value>4</value>
+						<value>10</value>
 						<dependentTests>
 							<dependentTest omitted="0">LAB2:transimpedance:1</dependentTest>
 						</dependentTests>
 					</var>
 					<var>VDS
-						<value>0.5</value>
+						<value>0.9</value>
 						<dependentTests>
 							<dependentTest omitted="0">LAB2:transimpedance:1</dependentTest>
 						</dependentTests>
 					</var>
 					<var>VGS
-						<value>0.29948</value>
+						<value>0.4931</value>
 						<dependentTests>
 							<dependentTest omitted="0">LAB2:transimpedance:1</dependentTest>
 						</dependentTests>
@@ -656,26 +656,26 @@
 				</plottingoptions>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Nov 5 10:09:38 2025</timestamp>
-			<uuid>{d1396a93-c066-4278-a0a2-d5a50b620d04}</uuid>
-			<resultsname>/home/saul/projects/FIL3601/LAB2/transimpedance/adexl/results/data/Interactive.3.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.3.rdb</simresults>
+			<timestamp>Nov 12 10:41:10 2025</timestamp>
+			<uuid>{48748162-4ea8-4f18-aa7b-f7b6dd5d716a}</uuid>
+			<resultsname>/home/saul/projects/FIL3601/LAB2/transimpedance/adexl/results/data/Interactive.11.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.11.rdb</simresults>
 			<rawdatadelstrategy>SaveAll
 				<simdatasavemode>All</simdatasavemode>
 			</rawdatadelstrategy>
 			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/950e82c38b16_saul_100938510</localpsfdir>
-			<psfdir>/home/saul/projects/FIL3601/Sim/LAB2/transimpedance/adexl/results/data/Interactive.3</psfdir>
-			<simdir>$AXL_PROJECT_DIR/LAB2/transimpedance/adexl/results/data/Interactive.3</simdir>
+			<localpsfdir>/tmp/edatools_saul_104110535</localpsfdir>
+			<psfdir>/home/saul/projects/FIL3601/Sim/LAB2/transimpedance/adexl/results/data/Interactive.11</psfdir>
+			<simdir>$AXL_PROJECT_DIR/LAB2/transimpedance/adexl/results/data/Interactive.11</simdir>
 			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
-			<runlog>/home/saul/projects/FIL3601/LAB2/transimpedance/adexl/results/data/Interactive.3.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.3.log</runlogfile>
+			<runlog>/home/saul/projects/FIL3601/LAB2/transimpedance/adexl/results/data/Interactive.11.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.11.log</runlogfile>
 			<schematicpoint></schematicpoint>
 			<test>all</test>
 		</historyentry>
-		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.4
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.12
 			<checkpoint>
 				<corners>
 					<corner enabled="1">_default</corner>
@@ -709,7 +709,7 @@
 								<value>$AXL_SETUPDB_DIR/test_states</value>
 							</option>
 							<option>state
-								<value>LAB2:transimpedance:1_none_Interactive.4</value>
+								<value>LAB2:transimpedance:1_none_Interactive.12</value>
 							</option>
 						</tooloptions>
 						<origoptions>
@@ -730,31 +730,31 @@
 				</tests>
 				<vars>
 					<var>IDS
-						<value>10u</value>
+						<value>120u</value>
 						<dependentTests>
 							<dependentTest omitted="0">LAB2:transimpedance:1</dependentTest>
 						</dependentTests>
 					</var>
 					<var>L
-						<value>0.18u</value>
+						<value>1u</value>
 						<dependentTests>
 							<dependentTest omitted="0">LAB2:transimpedance:1</dependentTest>
 						</dependentTests>
 					</var>
 					<var>NF
-						<value>4</value>
+						<value>10</value>
 						<dependentTests>
 							<dependentTest omitted="0">LAB2:transimpedance:1</dependentTest>
 						</dependentTests>
 					</var>
 					<var>VDS
-						<value>0.5</value>
+						<value>0.9</value>
 						<dependentTests>
 							<dependentTest omitted="0">LAB2:transimpedance:1</dependentTest>
 						</dependentTests>
 					</var>
 					<var>VGS
-						<value>0.29948</value>
+						<value>0.5059</value>
 						<dependentTests>
 							<dependentTest omitted="0">LAB2:transimpedance:1</dependentTest>
 						</dependentTests>
@@ -795,26 +795,26 @@
 				</plottingoptions>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Nov 5 10:11:14 2025</timestamp>
-			<uuid>{2d54f08d-2836-498f-bc4e-06f7df79c4a7}</uuid>
-			<resultsname>/home/saul/projects/FIL3601/LAB2/transimpedance/adexl/results/data/Interactive.4.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.4.rdb</simresults>
+			<timestamp>Nov 12 10:44:39 2025</timestamp>
+			<uuid>{b087be08-7cad-4e5c-9ae2-a7ac9cac317c}</uuid>
+			<resultsname>/home/saul/projects/FIL3601/LAB2/transimpedance/adexl/results/data/Interactive.12.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.12.rdb</simresults>
 			<rawdatadelstrategy>SaveAll
 				<simdatasavemode>All</simdatasavemode>
 			</rawdatadelstrategy>
 			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/950e82c38b16_saul_101114130</localpsfdir>
-			<psfdir>/home/saul/projects/FIL3601/Sim/LAB2/transimpedance/adexl/results/data/Interactive.4</psfdir>
-			<simdir>$AXL_PROJECT_DIR/LAB2/transimpedance/adexl/results/data/Interactive.4</simdir>
+			<localpsfdir>/tmp/edatools_saul_104439747</localpsfdir>
+			<psfdir>/home/saul/projects/FIL3601/Sim/LAB2/transimpedance/adexl/results/data/Interactive.12</psfdir>
+			<simdir>$AXL_PROJECT_DIR/LAB2/transimpedance/adexl/results/data/Interactive.12</simdir>
 			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
-			<runlog>/home/saul/projects/FIL3601/LAB2/transimpedance/adexl/results/data/Interactive.4.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.4.log</runlogfile>
+			<runlog>/home/saul/projects/FIL3601/LAB2/transimpedance/adexl/results/data/Interactive.12.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.12.log</runlogfile>
 			<schematicpoint></schematicpoint>
 			<test>all</test>
 		</historyentry>
-		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.5
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.13
 			<checkpoint>
 				<corners>
 					<corner enabled="1">_default</corner>
@@ -848,7 +848,7 @@
 								<value>$AXL_SETUPDB_DIR/test_states</value>
 							</option>
 							<option>state
-								<value>LAB2:transimpedance:1_none_Interactive.5</value>
+								<value>LAB2:transimpedance:1_none_Interactive.13</value>
 							</option>
 						</tooloptions>
 						<origoptions>
@@ -869,31 +869,31 @@
 				</tests>
 				<vars>
 					<var>IDS
-						<value>10u</value>
+						<value>100u</value>
 						<dependentTests>
 							<dependentTest omitted="0">LAB2:transimpedance:1</dependentTest>
 						</dependentTests>
 					</var>
 					<var>L
-						<value>0.18u</value>
+						<value>1u</value>
 						<dependentTests>
 							<dependentTest omitted="0">LAB2:transimpedance:1</dependentTest>
 						</dependentTests>
 					</var>
 					<var>NF
-						<value>4</value>
+						<value>10</value>
 						<dependentTests>
 							<dependentTest omitted="0">LAB2:transimpedance:1</dependentTest>
 						</dependentTests>
 					</var>
 					<var>VDS
-						<value>0.5</value>
+						<value>0.9</value>
 						<dependentTests>
 							<dependentTest omitted="0">LAB2:transimpedance:1</dependentTest>
 						</dependentTests>
 					</var>
 					<var>VGS
-						<value>0.29948</value>
+						<value>0.4142</value>
 						<dependentTests>
 							<dependentTest omitted="0">LAB2:transimpedance:1</dependentTest>
 						</dependentTests>
@@ -934,22 +934,578 @@
 				</plottingoptions>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Nov 5 10:13:19 2025</timestamp>
-			<uuid>{0e085129-7801-4b7a-b107-63b809006047}</uuid>
-			<resultsname>/home/saul/projects/FIL3601/LAB2/transimpedance/adexl/results/data/Interactive.5.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.5.rdb</simresults>
+			<timestamp>Nov 12 11:16:19 2025</timestamp>
+			<uuid>{a8db7ffe-c685-4316-8758-9bc2a512f6c8}</uuid>
+			<resultsname>/home/saul/projects/FIL3601/LAB2/transimpedance/adexl/results/data/Interactive.13.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.13.rdb</simresults>
 			<rawdatadelstrategy>SaveAll
 				<simdatasavemode>All</simdatasavemode>
 			</rawdatadelstrategy>
 			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/950e82c38b16_saul_101319564</localpsfdir>
-			<psfdir>/home/saul/projects/FIL3601/Sim/LAB2/transimpedance/adexl/results/data/Interactive.5</psfdir>
-			<simdir>$AXL_PROJECT_DIR/LAB2/transimpedance/adexl/results/data/Interactive.5</simdir>
+			<localpsfdir>/tmp/edatools_saul_111619780</localpsfdir>
+			<psfdir>/home/saul/projects/FIL3601/Sim/LAB2/transimpedance/adexl/results/data/Interactive.13</psfdir>
+			<simdir>$AXL_PROJECT_DIR/LAB2/transimpedance/adexl/results/data/Interactive.13</simdir>
 			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
-			<runlog>/home/saul/projects/FIL3601/LAB2/transimpedance/adexl/results/data/Interactive.5.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.5.log</runlogfile>
+			<runlog>/home/saul/projects/FIL3601/LAB2/transimpedance/adexl/results/data/Interactive.13.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.13.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.14
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test>LAB2:transimpedance:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>transimpedance</value>
+							</option>
+							<option>lib
+								<value>LAB2</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>LAB2:transimpedance:1_none_Interactive.14</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>transimpedance</value>
+							</option>
+							<option>lib
+								<value>LAB2</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var>IDS
+						<value>100u</value>
+						<dependentTests>
+							<dependentTest omitted="0">LAB2:transimpedance:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>L
+						<value>1u</value>
+						<dependentTests>
+							<dependentTest omitted="0">LAB2:transimpedance:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>NF
+						<value>10</value>
+						<dependentTests>
+							<dependentTest omitted="0">LAB2:transimpedance:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VDS
+						<value>0.9</value>
+						<dependentTests>
+							<dependentTest omitted="0">LAB2:transimpedance:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VGS
+						<value>0.4142</value>
+						<dependentTests>
+							<dependentTest omitted="0">LAB2:transimpedance:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>WF
+						<value>8u</value>
+						<dependentTests>
+							<dependentTest omitted="0">LAB2:transimpedance:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottingmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>distributedplot_enabled
+						<value>no</value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Nov 12 11:16:43 2025</timestamp>
+			<uuid>{a6cfa598-d7ce-4b6a-9a05-8bdc42355cbe}</uuid>
+			<resultsname>/home/saul/projects/FIL3601/LAB2/transimpedance/adexl/results/data/Interactive.14.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.14.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/edatools_saul_111643419</localpsfdir>
+			<psfdir>/home/saul/projects/FIL3601/Sim/LAB2/transimpedance/adexl/results/data/Interactive.14</psfdir>
+			<simdir>$AXL_PROJECT_DIR/LAB2/transimpedance/adexl/results/data/Interactive.14</simdir>
+			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
+			<runlog>/home/saul/projects/FIL3601/LAB2/transimpedance/adexl/results/data/Interactive.14.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.14.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.15
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test>LAB2:transimpedance:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>transimpedance</value>
+							</option>
+							<option>lib
+								<value>LAB2</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>LAB2:transimpedance:1_none_Interactive.15</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>transimpedance</value>
+							</option>
+							<option>lib
+								<value>LAB2</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var>IDS
+						<value>100u</value>
+						<dependentTests>
+							<dependentTest omitted="0">LAB2:transimpedance:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>L
+						<value>1u</value>
+						<dependentTests>
+							<dependentTest omitted="0">LAB2:transimpedance:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>NF
+						<value>40</value>
+						<dependentTests>
+							<dependentTest omitted="0">LAB2:transimpedance:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VDS
+						<value>0.9</value>
+						<dependentTests>
+							<dependentTest omitted="0">LAB2:transimpedance:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VGS
+						<value>0.4142</value>
+						<dependentTests>
+							<dependentTest omitted="0">LAB2:transimpedance:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>WF
+						<value>8u</value>
+						<dependentTests>
+							<dependentTest omitted="0">LAB2:transimpedance:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottingmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>distributedplot_enabled
+						<value>no</value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Nov 12 11:18:30 2025</timestamp>
+			<uuid>{7b2727ab-786a-4db7-83db-4cf6af265270}</uuid>
+			<resultsname>/home/saul/projects/FIL3601/LAB2/transimpedance/adexl/results/data/Interactive.15.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.15.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/edatools_saul_111830555</localpsfdir>
+			<psfdir>/home/saul/projects/FIL3601/Sim/LAB2/transimpedance/adexl/results/data/Interactive.15</psfdir>
+			<simdir>$AXL_PROJECT_DIR/LAB2/transimpedance/adexl/results/data/Interactive.15</simdir>
+			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
+			<runlog>/home/saul/projects/FIL3601/LAB2/transimpedance/adexl/results/data/Interactive.15.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.15.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.16
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test>LAB2:transimpedance:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>transimpedance</value>
+							</option>
+							<option>lib
+								<value>LAB2</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>LAB2:transimpedance:1_none_Interactive.16</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>transimpedance</value>
+							</option>
+							<option>lib
+								<value>LAB2</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var>IDS
+						<value>100u</value>
+						<dependentTests>
+							<dependentTest omitted="0">LAB2:transimpedance:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>L
+						<value>1u</value>
+						<dependentTests>
+							<dependentTest omitted="0">LAB2:transimpedance:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>NF
+						<value>40</value>
+						<dependentTests>
+							<dependentTest omitted="0">LAB2:transimpedance:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VDS
+						<value>0.9</value>
+						<dependentTests>
+							<dependentTest omitted="0">LAB2:transimpedance:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VGS
+						<value>0.4142</value>
+						<dependentTests>
+							<dependentTest omitted="0">LAB2:transimpedance:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>WF
+						<value>8u</value>
+						<dependentTests>
+							<dependentTest omitted="0">LAB2:transimpedance:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottingmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>distributedplot_enabled
+						<value>no</value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Nov 12 11:18:44 2025</timestamp>
+			<uuid>{eb5b0512-d856-4374-a91d-7fe8e8efba9c}</uuid>
+			<resultsname>/home/saul/projects/FIL3601/LAB2/transimpedance/adexl/results/data/Interactive.16.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.16.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/edatools_saul_111845061</localpsfdir>
+			<psfdir>/home/saul/projects/FIL3601/Sim/LAB2/transimpedance/adexl/results/data/Interactive.16</psfdir>
+			<simdir>$AXL_PROJECT_DIR/LAB2/transimpedance/adexl/results/data/Interactive.16</simdir>
+			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
+			<runlog>/home/saul/projects/FIL3601/LAB2/transimpedance/adexl/results/data/Interactive.16.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.16.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.17
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test>LAB2:transimpedance:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>transimpedance</value>
+							</option>
+							<option>lib
+								<value>LAB2</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>LAB2:transimpedance:1_none_Interactive.17</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>transimpedance</value>
+							</option>
+							<option>lib
+								<value>LAB2</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var>IDS
+						<value>100u</value>
+						<dependentTests>
+							<dependentTest omitted="0">LAB2:transimpedance:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>L
+						<value>1u</value>
+						<dependentTests>
+							<dependentTest omitted="0">LAB2:transimpedance:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>NF
+						<value>40</value>
+						<dependentTests>
+							<dependentTest omitted="0">LAB2:transimpedance:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VDS
+						<value>0.9</value>
+						<dependentTests>
+							<dependentTest omitted="0">LAB2:transimpedance:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VGS
+						<value>0.4142</value>
+						<dependentTests>
+							<dependentTest omitted="0">LAB2:transimpedance:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>WF
+						<value>8u</value>
+						<dependentTests>
+							<dependentTest omitted="0">LAB2:transimpedance:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottingmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>distributedplot_enabled
+						<value>no</value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Nov 12 11:19:04 2025</timestamp>
+			<uuid>{079aa872-29bd-4561-932a-1b2c5d7a0666}</uuid>
+			<resultsname>/home/saul/projects/FIL3601/LAB2/transimpedance/adexl/results/data/Interactive.17.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.17.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/edatools_saul_111904496</localpsfdir>
+			<psfdir>/home/saul/projects/FIL3601/Sim/LAB2/transimpedance/adexl/results/data/Interactive.17</psfdir>
+			<simdir>$AXL_PROJECT_DIR/LAB2/transimpedance/adexl/results/data/Interactive.17</simdir>
+			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
+			<runlog>/home/saul/projects/FIL3601/LAB2/transimpedance/adexl/results/data/Interactive.17.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.17.log</runlogfile>
 			<schematicpoint></schematicpoint>
 			<test>all</test>
 		</historyentry>

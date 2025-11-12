@@ -1,2 +1,2 @@
-parameters WF=8e-06 VDS=0.9 NF=1 L=1.8e-07 IDS=1e-05 NFP=2 LP=2e-06 \
-    WFP=4e-06 IDSP=1e-05 VDSP=0.8
+parameters VDSP=0.6 VDS=0.9 IDSP=2e-05 IDS=0.0001 WF=8e-06 L=1e-06 NF=20 \
+    WFP=1e-05 LP=2.5e-07 NFP=10

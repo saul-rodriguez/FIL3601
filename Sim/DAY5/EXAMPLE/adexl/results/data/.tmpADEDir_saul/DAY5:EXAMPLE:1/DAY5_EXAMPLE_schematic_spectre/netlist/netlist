@@ -1,0 +1,17 @@
+
+// Library name: DAY5
+// Cell name: EXAMPLE
+// View name: schematic
+M1 (net2 net4 0 0) nel w=WF l=L as=(int(((NF)-1)/2.0 )*5.4e-07+((int((NF)/2.0)-(NF)/2.0<-0.1)?1:2)*4.8e-07)*(WF)/(NF) \
+         ad=(int((NF)/2.0 )*5.4e-07+(((int((NF)/2.0)-(NF)/2.0<-0.1)?1:0)*4.8e-07))*(WF)/(NF) \
+         ps=(int(((NF)-1)/2.0 )*2*(5.4e-07+(WF))+((int((NF)/2)-(NF)/2.0<-0.1)?1:2)*2*(4.8e-07+(WF)))/(NF) \
+         pd=(int((NF)/2.0 )*2*(5.4e-07+(WF))+((int((NF)/2.0)-(NF)/2.0<-0.1)?1:0)*2*(4.8e-07+(WF)))/(NF) \
+         nrs=2.7e-07/(WF) nrd=2.7e-07/(WF) m=(1)*(NF) par1=(1)*(NF) \
+        xf_subext=0
+I5 (0 net2) isource dc=IDS type=dc
+V1 (net4 net5) vsource dc=VGS type=dc
+V0 (net2 net3) vsource dc=VDS type=dc
+IPRB0 (0 net3) iprobe
+L0 (net6 net5) inductor l=2u
+R0 (net7 net6) resistor r=500
+V2 (net7 0) vsource mag=1 type=sine

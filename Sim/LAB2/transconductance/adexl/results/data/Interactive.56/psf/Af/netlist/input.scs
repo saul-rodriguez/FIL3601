@@ -1,0 +1,59 @@
+// Point Netlist Generated on: Nov  9 15:36:59 2025
+// Generated for: spectre
+// Design Netlist Generated on: Nov  9 15:36:59 2025
+// Design library name: LAB2
+// Design cell name: transconductance
+// Design view name: schematic
+simulator lang=spectre
+global 0
+parameters temperature=27 gm=0.227m IT=0 cdb1=77.36f cds1=45.47f \
+    cgb1=160.82f cgd1=26.40f cgs1=111.69f gm1=0.227m rds1=23885929.34 VIN=1
+include "/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/config.scs" section=default
+include "/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/param.scs" section=3s
+include "/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/bip.scs" section=tm
+include "/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/cap.scs" section=tm
+include "/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/dio.scs" section=tm
+include "/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/mos.scs" section=tm
+include "/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/photo.scs" section=tm
+include "/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/res.scs" section=tm
+
+// Library name: DAY2
+// Cell name: MOS_AC
+// View name: schematic
+subckt MOS_AC D G S
+parameters _par0 rds cgb cgs cgd cdb cds
+    G0 (D S G S) vccs gm=_par0
+    R0 (D S) resistor r=rds
+    C6 (G S) capacitor c=cgb
+    C5 (G S) capacitor c=cgs
+    C4 (G D) capacitor c=cgd
+    C3 (D S) capacitor c=cdb
+    C0 (D S) capacitor c=cds
+ends MOS_AC
+// End of subcircuit definition.
+
+// Library name: LAB2
+// Cell name: transconductance
+// View name: schematic
+IPRB0 (VOUT net2) iprobe
+R2 (net1 VG) resistor r=1e3
+R1 (net2 0) resistor r=1k
+R0 (VS 0) resistor r=100e3
+V0 (net1 0) vsource mag=VIN type=sine
+I4 (VS VOUT) isource mag=IT type=sine
+I0 (VOUT VG VS) MOS_AC _par0=gm1 rds=rds1 cgb=cgb1 cgs=cgs1 cgd=cgd1 \
+        cdb=cdb1 cds=cds1
+simulatorOptions options psfversion="1.4.0" reltol=1e-3 vabstol=1e-6 \
+    iabstol=1e-12 temp=27 tnom=27 scalem=1.0 scale=1.0 gmin=1e-12 rforce=1 \
+    maxnotes=5 maxwarns=5 digits=5 cols=80 pivrel=1e-3 \
+    sensfile="../psf/sens.output" checklimitdest=psf 
+ac ac start=0.01 stop=10G dec=20 annotate=status 
+pz pz oprobe=IPRB0 iprobe=V0 freq=1 porti=1 
+modelParameter info what=models where=rawfile
+element info what=inst where=rawfile
+outputParameter info what=output where=rawfile
+designParamVals info what=parameters where=rawfile
+primitives info what=primitives where=rawfile
+subckts info what=subckts where=rawfile
+save R1:1 
+saveOptions options save=selected

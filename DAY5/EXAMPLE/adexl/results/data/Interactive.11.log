@@ -1,0 +1,19 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Tue Nov 11 14:05:40 2025 
+Best design point: 1
+Design specs: 
+	DAY5:EXAMPLE:1	corner	Nominal - 
+Design parameters: 
+	IDS		10u
+	L		1u
+	NF		8
+	VDS		900m
+	VGS		372.3m
+	WF		10u
+
+Interactive.11
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.11 completed. 
+Current time: Tue Nov 11 14:05:46 2025 

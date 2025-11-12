@@ -1,0 +1,16 @@
+CADENCE IHNL11140
+$model
+LAB2/transimpedance/schematic transimpedance
+$endmodel
+$net
+gnd! 0
+$endnet
+$param
+L L
+VGS VGS
+WF WF
+temperature temperature
+NF NF
+IDS IDS
+VDS VDS
+$endparam

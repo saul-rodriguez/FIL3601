@@ -5,8 +5,8 @@ Copyright (C) 1989-2025 Cadence Design Systems, Inc. All rights reserved worldwi
 
 Includes RSA BSAFE(R) Cryptographic or Security Protocol Software from RSA Security, Inc.
 
-User: saul   Host: 680bb75d07d9   HostID: 11AC0200   PID: 7503
-Memory  available: 25.1729 GB  physical: 27.3104 GB
+User: saul   Host: edatools   HostID: 11AC0200   PID: 37297
+Memory  available: 24.6912 GB  physical: 27.3104 GB
 Linux   : Rocky Linux release 8.10 (Green Obsidian)
 CPU Type: 11th Gen Intel(R) Core(TM) i7-11700K @ 3.60GHz
 All processors running at 3600.0 MHz
@@ -14,11 +14,11 @@ All processors running at 3600.0 MHz
         0:       0,  1,  2,  3,  4,  5,  6,  7,  8,  9
                 10, 11, 12, 13, 14, 15
         
-System load averages (1min, 5min, 15min) : 5.2 %, 4.6 %, 4.1 %
+System load averages (1min, 5min, 15min) : 4.9 %, 6.8 %, 6.4 %
 HPC is enabled
 
 
-Simulating `input.scs' on 680bb75d07d9 at 2:58:09 AM, Sat Nov 8, 2025 (process id: 7503).
+Simulating `input.scs' on edatools at 10:51:16 AM, Wed Nov 12, 2025 (process id: 37297).
 Current working directory: /home/saul/projects/FIL3601/Sim/SELF_CMOS/spectre/schematic/distributed/job010/netlist
 Command line:
     /opt/tools/cadence/installs/SPECTRE241/tools/bin/spectre -64  \
@@ -27,10 +27,10 @@ Command line:
         +adespetkn=adespe
 
 Licensing Information:
-[02:58:09.188865] Configured Lic search path (24.01-s002): 3000@lic08.ug.kth.se
+[10:51:16.188785] Configured Lic search path (24.01-s002): 3000@lic08.ug.kth.se
 
 Licensing Information:
-[02:58:09.293051] Periodic Lic check successful
+[10:51:17.153986] Periodic Lic check successful
 
 Loading /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/cmi/lib/64bit/5.0/libinfineon_sh.so ...
 Loading /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/cmi/lib/64bit/5.0/libphilips_I_sh.so ...
@@ -303,10 +303,10 @@ Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/phot
 Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/photo/tm_pho.scs
 Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/photo/dphoa.scs
 Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/photo/dpho.va
-Reading link:  /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/etc/ahdl/discipline.h
-Reading file:  /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/etc/ahdl/disciplines.vams
 Reading link:  /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/etc/ahdl/constants.h
 Reading file:  /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/etc/ahdl/constants.vams
+Reading link:  /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/etc/ahdl/discipline.h
+Reading file:  /opt/tools/cadence/installs/SPECTRE241/tools.lnx86/spectre/etc/ahdl/disciplines.vams
 Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/photo/dphob.scs
 Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/photo/dphoc.scs
 Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/photo/iphoto_uv.va
@@ -392,22 +392,22 @@ Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/mode
 Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/res/rmtpl.scs
 Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/res/pfuse.scs
 Reading file:  /opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/models/res/s_res.scs
-Time for NDB Parsing: CPU = 267.861 ms, elapsed = 833.889 ms.
-Time accumulated: CPU = 416.646 ms, elapsed = 833.89 ms.
-Peak resident memory used = 202 Mbytes.
+Time for NDB Parsing: CPU = 191.904 ms, elapsed = 650.382 ms.
+Time accumulated: CPU = 346.907 ms, elapsed = 650.383 ms.
+Peak resident memory used = 205 Mbytes.
 
-Time for Elaboration: CPU = 13.247 ms, elapsed = 14.2751 ms.
-Time accumulated: CPU = 429.971 ms, elapsed = 848.297 ms.
-Peak resident memory used = 212 Mbytes.
+Time for Elaboration: CPU = 14.243 ms, elapsed = 15.4161 ms.
+Time accumulated: CPU = 361.249 ms, elapsed = 665.952 ms.
+Peak resident memory used = 215 Mbytes.
 
 
 Notice from spectre during hierarchy flattening.
     The value 'psf' specified for the 'checklimitdest' option will no longer be supported in future releases. Use 'spectre -h' to see other recommended values for the 'checklimitdest' option.
 
 
-Time for EDB Visiting: CPU = 664 us, elapsed = 895.023 us.
-Time accumulated: CPU = 430.723 ms, elapsed = 849.366 ms.
-Peak resident memory used = 214 Mbytes.
+Time for EDB Visiting: CPU = 812 us, elapsed = 1.10102 ms.
+Time accumulated: CPU = 362.158 ms, elapsed = 667.201 ms.
+Peak resident memory used = 217 Mbytes.
 
 
 Notice from spectre during initial setup.
@@ -460,9 +460,9 @@ Output statements:
 Notice from spectre during initial setup.
     APS enabled.
 
-Time for parsing: CPU = 1.834 ms, elapsed = 7.52306 ms.
-Time accumulated: CPU = 432.614 ms, elapsed = 857.021 ms.
-Peak resident memory used = 217 Mbytes.
+Time for parsing: CPU = 1.977 ms, elapsed = 7.38001 ms.
+Time accumulated: CPU = 364.194 ms, elapsed = 674.678 ms.
+Peak resident memory used = 221 Mbytes.
 
 ~~~~~~~~~~~~~~~~~~~~~~
 Pre-Simulation Summary
@@ -489,10 +489,10 @@ Maximum value achieved for any signal of each quantity:
 V: V(net3) = 1.8 V
 I: I(V2:p) = 34.47e-24 A
 Convergence achieved in 11 iterations.
-DC simulation time: CPU = 1.638 ms, elapsed = 6.17695 ms.
-Total time required for dc analysis `dcOp': CPU = 1.707 ms, elapsed = 6.29592 ms, util. = 27.1%.
-Time accumulated: CPU = 441.195 ms, elapsed = 874.164 ms.
-Peak resident memory used = 220 Mbytes.
+DC simulation time: CPU = 1.771 ms, elapsed = 6.23083 ms.
+Total time required for dc analysis `dcOp': CPU = 1.843 ms, elapsed = 6.3591 ms, util. = 29%.
+Time accumulated: CPU = 373.685 ms, elapsed = 692.664 ms.
+Peak resident memory used = 223 Mbytes.
 
 dcOpInfo: writing operating point information to rawfile.
 
@@ -517,14 +517,14 @@ subckts: writing subcircuits to rawfile.
 Opening the PSFASCII file ../psf/subckts.info.subckts ...
 Licensing Information:
 Lic Summary:
-[02:58:10.293048] Cdslmd servers:3000@lic08.ug.kth.se
-[02:58:10.293090] Feature usage summary:
-[02:58:10.293091] Virtuoso_Multi_mode_Simulation
+[10:51:17.466776] Cdslmd servers:3000@lic08.ug.kth.se
+[10:51:17.466825] Feature usage summary:
+[10:51:17.466826] Virtuoso_Multi_mode_Simulation
 
 
-Aggregate audit (2:58:10 AM, Sat Nov 8, 2025):
-Time used: CPU = 455 ms, elapsed = 942 ms, util. = 48.3%.
-Time spent in licensing: elapsed = 291 ms, percentage of total = 30.9%.
-Peak memory used = 222 Mbytes.
-Simulation started at: 2:58:09 AM, Sat Nov 8, 2025, ended at: 2:58:10 AM, Sat Nov 8, 2025, with elapsed time (wall clock): 942 ms.
+Aggregate audit (10:51:17 AM, Wed Nov 12, 2025):
+Time used: CPU = 388 ms, elapsed = 756 ms, util. = 51.3%.
+Time spent in licensing: elapsed = 259 ms, percentage of total = 34.3%.
+Peak memory used = 226 Mbytes.
+Simulation started at: 10:51:16 AM, Wed Nov 12, 2025, ended at: 10:51:17 AM, Wed Nov 12, 2025, with elapsed time (wall clock): 756 ms.
 spectre completes with 0 errors, 0 warnings, and 4 notices.

@@ -1,0 +1,14 @@
+CADENCE IHNL11140
+$model
+LAB1/GM_ID/schematic GM_ID
+$endmodel
+$net
+gnd! 0
+$endnet
+$param
+L L
+WF WF
+NF NF
+IDS IDS
+VDS VDS
+$endparam

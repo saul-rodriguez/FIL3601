@@ -1,0 +1,7 @@
+// Generated for: spectre
+// Design Netlist Generated on: Nov  9 16:56:05 2025
+// Design library name: LAB1
+// Design cell name: GM_ID
+// Design view name: schematic
+simulator lang=spectre
+global 0

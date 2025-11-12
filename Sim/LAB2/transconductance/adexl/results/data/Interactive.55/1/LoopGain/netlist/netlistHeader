@@ -1,0 +1,7 @@
+// Generated for: spectre
+// Design Netlist Generated on: Nov  9 15:21:52 2025
+// Design library name: LAB2
+// Design cell name: transconductance
+// Design view name: schematic
+simulator lang=spectre
+global 0

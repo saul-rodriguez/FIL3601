@@ -54,24 +54,27 @@
 					<output>av
 						<evalType>point</evalType>
 					</output>
+					<output>id
+						<evalType>point</evalType>
+					</output>
 				</outputs>
 			</test>
 		</tests>
 		<vars>
 			<var>IDS
-				<value>{From/To}Decade:1n:10:100u{From/To}</value>
+				<value>{From/To}Decade:1n:10:150u{From/To}</value>
 				<dependentTests>
 					<dependentTest enabled="1" omitted="0">DAY2:GM_ID:1</dependentTest>
 				</dependentTests>
 			</var>
 			<var>L
-				<value>500n</value>
+				<value>1u</value>
 				<dependentTests>
 					<dependentTest enabled="1" omitted="0">DAY2:GM_ID:1</dependentTest>
 				</dependentTests>
 			</var>
 			<var>NF
-				<value>1</value>
+				<value>10</value>
 				<dependentTests>
 					<dependentTest enabled="1" omitted="0">DAY2:GM_ID:1</dependentTest>
 				</dependentTests>
@@ -132,7 +135,7 @@
 		</extensions>
 	</active>
 	<history>History
-		<historyentry assemblerOrExplorer="adexl" roOrView="view">Ocean.32
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Ocean.41
 			<checkpoint>
 				<tests>
 					<test>DAY2:GM_ID:1
@@ -142,7 +145,7 @@
 								<value>GM_ID</value>
 							</option>
 							<option>lib
-								<value>DAY2</value>
+								<value>LAB1</value>
 							</option>
 							<option>path
 								<value>$AXL_SETUPDB_DIR/test_states</value>
@@ -151,7 +154,7 @@
 								<value>spectre</value>
 							</option>
 							<option>state
-								<value>DAY2:GM_ID:1_DAY2:GM_ID:1_Oct_22_17_35_57_2025_Ocean.32</value>
+								<value>DAY2:GM_ID:1_DAY2:GM_ID:1_Nov__9_16_59_21_2025_Ocean.41</value>
 							</option>
 							<option>view
 								<value>schematic</value>
@@ -162,7 +165,7 @@
 								<value>GM_ID</value>
 							</option>
 							<option>lib
-								<value>DAY2</value>
+								<value>LAB1</value>
 							</option>
 							<option>path
 								<value>$AXL_SETUPDB_DIR/test_states</value>
@@ -171,7 +174,7 @@
 								<value>spectre</value>
 							</option>
 							<option>state
-								<value>DAY2:GM_ID:1_Oct_22_17_35_57_2025</value>
+								<value>DAY2:GM_ID:1_Nov__9_16_59_21_2025</value>
 							</option>
 							<option>view
 								<value>schematic</value>
@@ -181,7 +184,7 @@
 				</tests>
 				<vars>
 					<var>IDS
-						<value>{From/To}Decade:10n:10:10m{From/To}</value>
+						<value>{From/To}Decade:1n:10:100u{From/To}</value>
 						<dependentTests>
 							<dependentTest omitted="0">DAY2:GM_ID:1</dependentTest>
 						</dependentTests>
@@ -220,7 +223,7 @@
 				<allsweepsenabled>1</allsweepsenabled>
 				<currentmode>Single Run, Sweeps and Corners</currentmode>
 				<overwritehistory>0</overwritehistory>
-				<overwritehistoryname>Ocean.32</overwritehistoryname>
+				<overwritehistoryname>Ocean.41</overwritehistoryname>
 				<plottingoptions>
 					<plottingoption>plottingmode
 						<value>Replace</value>
@@ -249,22 +252,22 @@
 				</plottingoptions>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Oct 22 17:36:01 2025</timestamp>
-			<uuid>{52db20af-b89d-4f98-b548-8b13cc1c7cc7}</uuid>
-			<resultsname></resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/data/Ocean.32.rdb</simresults>
+			<timestamp>Nov 9 16:59:23 2025</timestamp>
+			<uuid>{3ab9b703-c944-4a6f-9496-baa52bd93b87}</uuid>
+			<resultsname>/home/saul/projects/FIL3601/LAB1/GM_ID/adexl/results/data/Ocean.41.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Ocean.41.rdb</simresults>
 			<rawdatadelstrategy>SaveAll
 				<simdatasavemode>All</simdatasavemode>
 			</rawdatadelstrategy>
 			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/b35621b5a0f6_saul_173601305</localpsfdir>
-			<psfdir></psfdir>
-			<simdir></simdir>
+			<localpsfdir>/tmp/edatools_saul_165923845</localpsfdir>
+			<psfdir>/home/saul/projects/FIL3601/Sim/LAB1/GM_ID/adexl/results/data/Ocean.41</psfdir>
+			<simdir>$AXL_PROJECT_DIR/LAB1/GM_ID/adexl/results/data/Ocean.41</simdir>
 			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
-			<runlog></runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/data/Ocean.32.log</runlogfile>
+			<runlog>/home/saul/projects/FIL3601/LAB1/GM_ID/adexl/results/data/Ocean.41.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Ocean.41.log</runlogfile>
 			<schematicpoint>
 				<vars>
 					<var>IDS
@@ -274,29 +277,29 @@
 			</schematicpoint>
 			<test>all</test>
 		</historyentry>
-		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.9
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Ocean.42
 			<checkpoint>
 				<tests>
 					<test>DAY2:GM_ID:1
-						<tool>ADE</tool>
+						<tool>OCEAN</tool>
 						<tooloptions>
 							<option>cell
 								<value>GM_ID</value>
 							</option>
 							<option>lib
-								<value>DAY2</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>view
-								<value>schematic</value>
+								<value>LAB1</value>
 							</option>
 							<option>path
 								<value>$AXL_SETUPDB_DIR/test_states</value>
 							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
 							<option>state
-								<value>DAY2:GM_ID:1_none_Interactive.9</value>
+								<value>DAY2:GM_ID:1_DAY2:GM_ID:1_Nov_12_10_34_41_2025_Ocean.42</value>
+							</option>
+							<option>view
+								<value>schematic</value>
 							</option>
 						</tooloptions>
 						<origoptions>
@@ -304,32 +307,21 @@
 								<value>GM_ID</value>
 							</option>
 							<option>lib
-								<value>DAY2</value>
+								<value>LAB1</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
 							</option>
 							<option>sim
 								<value>spectre</value>
+							</option>
+							<option>state
+								<value>DAY2:GM_ID:1_Nov_12_10_34_41_2025</value>
 							</option>
 							<option>view
 								<value>schematic</value>
 							</option>
 						</origoptions>
-						<outputs>
-							<output>ids
-								<evalType>point</evalType>
-							</output>
-							<output>gm
-								<evalType>point</evalType>
-							</output>
-							<output>ft
-								<evalType>point</evalType>
-							</output>
-							<output>gm_id
-								<evalType>point</evalType>
-							</output>
-							<output>av
-								<evalType>point</evalType>
-							</output>
-						</outputs>
 					</test>
 				</tests>
 				<vars>
@@ -340,37 +332,40 @@
 						</dependentTests>
 					</var>
 					<var>L
-						<value>500n</value>
+						<value>L1</value>
 						<dependentTests>
 							<dependentTest omitted="0">DAY2:GM_ID:1</dependentTest>
 						</dependentTests>
 					</var>
 					<var>NF
-						<value>1</value>
+						<value>NF1</value>
 						<dependentTests>
 							<dependentTest omitted="0">DAY2:GM_ID:1</dependentTest>
 						</dependentTests>
 					</var>
 					<var>VDS
-						<value>0.9</value>
+						<value>VDS1</value>
 						<dependentTests>
 							<dependentTest omitted="0">DAY2:GM_ID:1</dependentTest>
 						</dependentTests>
 					</var>
 					<var>WF
-						<value>8u</value>
+						<value>WF1</value>
 						<dependentTests>
 							<dependentTest omitted="0">DAY2:GM_ID:1</dependentTest>
 						</dependentTests>
 					</var>
 				</vars>
-				<jobpolicyname>ADE XL Default</jobpolicyname>
+				<checksasserts netlist="0"></checksasserts>
+				<jobpolicyname></jobpolicyname>
 				<corners>
 					<corner enabled="1">_default</corner>
 				</corners>
+				<allcornersenabled>1</allcornersenabled>
+				<allsweepsenabled>1</allsweepsenabled>
 				<currentmode>Single Run, Sweeps and Corners</currentmode>
 				<overwritehistory>0</overwritehistory>
-				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<overwritehistoryname>Ocean.42</overwritehistoryname>
 				<plottingoptions>
 					<plottingoption>plottingmode
 						<value>Replace</value>
@@ -397,41 +392,318 @@
 						<value>no</value>
 					</plottingoption>
 				</plottingoptions>
-				<extensions>
-					<extension>Parasitics
-						<callback>_parSetupDBExtensionCB</callback>
-						<iconvalue></iconvalue>
-						<icontype></icontype>
-					</extension>
-				</extensions>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Oct 23 06:06:52 2025</timestamp>
-			<uuid>{3d30a62b-fa76-4a00-9e13-7a0489093b06}</uuid>
-			<resultsname>/home/saul/projects/FIL3601/LAB1/GM_ID/adexl/results/data/Interactive.9.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.9.rdb</simresults>
+			<timestamp>Nov 12 10:34:43 2025</timestamp>
+			<uuid>{814b6ebd-f83d-43bb-a0a3-d759d7058f28}</uuid>
+			<resultsname>/home/saul/projects/FIL3601/LAB1/GM_ID/adexl/results/data/Ocean.42.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Ocean.42.rdb</simresults>
 			<rawdatadelstrategy>SaveAll
 				<simdatasavemode>All</simdatasavemode>
 			</rawdatadelstrategy>
 			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/b35621b5a0f6_saul_060652655</localpsfdir>
-			<psfdir>/home/saul/projects/FIL3601/Sim/LAB1/GM_ID/adexl/results/data/Interactive.9</psfdir>
-			<simdir>$AXL_PROJECT_DIR/LAB1/GM_ID/adexl/results/data/Interactive.9</simdir>
+			<localpsfdir>/tmp/edatools_saul_103443617</localpsfdir>
+			<psfdir>/home/saul/projects/FIL3601/Sim/LAB1/GM_ID/adexl/results/data/Ocean.42</psfdir>
+			<simdir>$AXL_PROJECT_DIR/LAB1/GM_ID/adexl/results/data/Ocean.42</simdir>
 			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
-			<runlog>/home/saul/projects/FIL3601/LAB1/GM_ID/adexl/results/data/Interactive.9.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.9.log</runlogfile>
+			<runlog>/home/saul/projects/FIL3601/LAB1/GM_ID/adexl/results/data/Ocean.42.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Ocean.42.log</runlogfile>
 			<schematicpoint>
 				<vars>
 					<var>IDS
-						<value>1u</value>
+						<value>1e-05</value>
 					</var>
 				</vars>
 			</schematicpoint>
 			<test>all</test>
 		</historyentry>
-		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.10
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Ocean.43
+			<checkpoint>
+				<tests>
+					<test>DAY2:GM_ID:1
+						<tool>OCEAN</tool>
+						<tooloptions>
+							<option>cell
+								<value>GM_ID</value>
+							</option>
+							<option>lib
+								<value>LAB1</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>DAY2:GM_ID:1_DAY2:GM_ID:1_Nov_12_10_37_08_2025_Ocean.43</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>GM_ID</value>
+							</option>
+							<option>lib
+								<value>LAB1</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>DAY2:GM_ID:1_Nov_12_10_37_08_2025</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var>IDS
+						<value>{From/To}Decade:1n:10:5000u{From/To}</value>
+						<dependentTests>
+							<dependentTest omitted="0">DAY2:GM_ID:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>L
+						<value>L1</value>
+						<dependentTests>
+							<dependentTest omitted="0">DAY2:GM_ID:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>NF
+						<value>NF1</value>
+						<dependentTests>
+							<dependentTest omitted="0">DAY2:GM_ID:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VDS
+						<value>VDS1</value>
+						<dependentTests>
+							<dependentTest omitted="0">DAY2:GM_ID:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>WF
+						<value>WF1</value>
+						<dependentTests>
+							<dependentTest omitted="0">DAY2:GM_ID:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<checksasserts netlist="0"></checksasserts>
+				<jobpolicyname></jobpolicyname>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<allcornersenabled>1</allcornersenabled>
+				<allsweepsenabled>1</allsweepsenabled>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<overwritehistoryname>Ocean.43</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottingmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>distributedplot_enabled
+						<value>no</value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Nov 12 10:37:11 2025</timestamp>
+			<uuid>{edf51331-4ef1-4abe-9930-4f20556318e4}</uuid>
+			<resultsname>/home/saul/projects/FIL3601/LAB1/GM_ID/adexl/results/data/Ocean.43.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Ocean.43.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/edatools_saul_103711260</localpsfdir>
+			<psfdir>/home/saul/projects/FIL3601/Sim/LAB1/GM_ID/adexl/results/data/Ocean.43</psfdir>
+			<simdir>$AXL_PROJECT_DIR/LAB1/GM_ID/adexl/results/data/Ocean.43</simdir>
+			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
+			<runlog>/home/saul/projects/FIL3601/LAB1/GM_ID/adexl/results/data/Ocean.43.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Ocean.43.log</runlogfile>
+			<schematicpoint>
+				<vars>
+					<var>IDS
+						<value>1e-05</value>
+					</var>
+				</vars>
+			</schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Ocean.44
+			<checkpoint>
+				<tests>
+					<test>DAY2:GM_ID:1
+						<tool>OCEAN</tool>
+						<tooloptions>
+							<option>cell
+								<value>GM_ID</value>
+							</option>
+							<option>lib
+								<value>LAB1</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>DAY2:GM_ID:1_DAY2:GM_ID:1_Nov_12_10_47_38_2025_Ocean.44</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>GM_ID</value>
+							</option>
+							<option>lib
+								<value>LAB1</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>DAY2:GM_ID:1_Nov_12_10_47_38_2025</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var>IDS
+						<value>{From/To}Decade:1n:10:5000u{From/To}</value>
+						<dependentTests>
+							<dependentTest omitted="0">DAY2:GM_ID:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>L
+						<value>L1</value>
+						<dependentTests>
+							<dependentTest omitted="0">DAY2:GM_ID:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>NF
+						<value>NF1</value>
+						<dependentTests>
+							<dependentTest omitted="0">DAY2:GM_ID:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VDS
+						<value>VDS1</value>
+						<dependentTests>
+							<dependentTest omitted="0">DAY2:GM_ID:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>WF
+						<value>WF1</value>
+						<dependentTests>
+							<dependentTest omitted="0">DAY2:GM_ID:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<checksasserts netlist="0"></checksasserts>
+				<jobpolicyname></jobpolicyname>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<allcornersenabled>1</allcornersenabled>
+				<allsweepsenabled>1</allsweepsenabled>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<overwritehistoryname>Ocean.44</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottingmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>distributedplot_enabled
+						<value>no</value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Nov 12 10:47:40 2025</timestamp>
+			<uuid>{b2d9b60e-d583-4ebb-a395-3a125e0d457d}</uuid>
+			<resultsname>/home/saul/projects/FIL3601/LAB1/GM_ID/adexl/results/data/Ocean.44.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Ocean.44.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/edatools_saul_104740571</localpsfdir>
+			<psfdir>/home/saul/projects/FIL3601/Sim/LAB1/GM_ID/adexl/results/data/Ocean.44</psfdir>
+			<simdir>$AXL_PROJECT_DIR/LAB1/GM_ID/adexl/results/data/Ocean.44</simdir>
+			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
+			<runlog>/home/saul/projects/FIL3601/LAB1/GM_ID/adexl/results/data/Ocean.44.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Ocean.44.log</runlogfile>
+			<schematicpoint>
+				<vars>
+					<var>IDS
+						<value>1e-05</value>
+					</var>
+				</vars>
+			</schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.0
 			<checkpoint>
 				<tests>
 					<test>DAY2:GM_ID:1
@@ -453,7 +725,7 @@
 								<value>$AXL_SETUPDB_DIR/test_states</value>
 							</option>
 							<option>state
-								<value>DAY2:GM_ID:1_none_Interactive.10</value>
+								<value>DAY2:GM_ID:1_none_Interactive.0</value>
 							</option>
 						</tooloptions>
 						<origoptions>
@@ -491,19 +763,19 @@
 				</tests>
 				<vars>
 					<var>IDS
-						<value>{From/To}Decade:1n:10:100u{From/To}</value>
+						<value>{From/To}Decade:1n:10:150u{From/To}</value>
 						<dependentTests>
 							<dependentTest enabled="1" omitted="0">DAY2:GM_ID:1</dependentTest>
 						</dependentTests>
 					</var>
 					<var>L
-						<value>500n</value>
+						<value>1u</value>
 						<dependentTests>
 							<dependentTest enabled="1" omitted="0">DAY2:GM_ID:1</dependentTest>
 						</dependentTests>
 					</var>
 					<var>NF
-						<value>1</value>
+						<value>10</value>
 						<dependentTests>
 							<dependentTest enabled="1" omitted="0">DAY2:GM_ID:1</dependentTest>
 						</dependentTests>
@@ -554,32 +826,32 @@
 						<value>no</value>
 					</plottingoption>
 				</plottingoptions>
-				<extensions>
-					<extension>Parasitics
-						<callback>_parSetupDBExtensionCB</callback>
-						<iconvalue></iconvalue>
-						<icontype></icontype>
-					</extension>
-				</extensions>
 				<distributeoptions></distributeoptions>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Oct 23 06:08:23 2025</timestamp>
-			<uuid>{590f668b-6a89-4986-ad88-2657ec132e9f}</uuid>
-			<resultsname>/home/saul/projects/FIL3601/LAB1/GM_ID/adexl/results/data/Interactive.10.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.10.rdb</simresults>
+			<timestamp>Nov 12 10:55:01 2025</timestamp>
+			<uuid>{ae33e0c3-720d-4675-9936-a10495f87105}</uuid>
+			<resultsname>/home/saul/projects/FIL3601/LAB1/GM_ID/adexl/results/data/Interactive.0.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.0.rdb</simresults>
 			<rawdatadelstrategy>SaveAll
 				<simdatasavemode>All</simdatasavemode>
 			</rawdatadelstrategy>
 			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/b35621b5a0f6_saul_060823372</localpsfdir>
-			<psfdir>/home/saul/projects/FIL3601/Sim/LAB1/GM_ID/adexl/results/data/Interactive.10</psfdir>
-			<simdir>$AXL_PROJECT_DIR/LAB1/GM_ID/adexl/results/data/Interactive.10</simdir>
+			<localpsfdir>/tmp/edatools_saul_105501224</localpsfdir>
+			<psfdir>/home/saul/projects/FIL3601/Sim/LAB1/GM_ID/adexl/results/data/Interactive.0</psfdir>
+			<simdir>$AXL_PROJECT_DIR/LAB1/GM_ID/adexl/results/data/Interactive.0</simdir>
 			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
-			<runlog>/home/saul/projects/FIL3601/LAB1/GM_ID/adexl/results/data/Interactive.10.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.10.log</runlogfile>
+			<runlog>/home/saul/projects/FIL3601/LAB1/GM_ID/adexl/results/data/Interactive.0.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.0.log</runlogfile>
 			<schematicpoint>
 				<vars>
 					<var>IDS
@@ -589,7 +861,7 @@
 			</schematicpoint>
 			<test>all</test>
 		</historyentry>
-		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.11
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.1
 			<checkpoint>
 				<tests>
 					<test>DAY2:GM_ID:1
@@ -611,7 +883,7 @@
 								<value>$AXL_SETUPDB_DIR/test_states</value>
 							</option>
 							<option>state
-								<value>DAY2:GM_ID:1_none_Interactive.11</value>
+								<value>DAY2:GM_ID:1_none_Interactive.1</value>
 							</option>
 						</tooloptions>
 						<origoptions>
@@ -644,24 +916,27 @@
 							<output>av
 								<evalType>point</evalType>
 							</output>
+							<output>id
+								<evalType>point</evalType>
+							</output>
 						</outputs>
 					</test>
 				</tests>
 				<vars>
 					<var>IDS
-						<value>{From/To}Decade:1n:10:100u{From/To}</value>
+						<value>{From/To}Decade:1n:10:150u{From/To}</value>
 						<dependentTests>
 							<dependentTest enabled="1" omitted="0">DAY2:GM_ID:1</dependentTest>
 						</dependentTests>
 					</var>
 					<var>L
-						<value>500n</value>
+						<value>1u</value>
 						<dependentTests>
 							<dependentTest enabled="1" omitted="0">DAY2:GM_ID:1</dependentTest>
 						</dependentTests>
 					</var>
 					<var>NF
-						<value>1</value>
+						<value>10</value>
 						<dependentTests>
 							<dependentTest enabled="1" omitted="0">DAY2:GM_ID:1</dependentTest>
 						</dependentTests>
@@ -712,6 +987,7 @@
 						<value>no</value>
 					</plottingoption>
 				</plottingoptions>
+				<distributeoptions></distributeoptions>
 				<extensions>
 					<extension>Parasitics
 						<callback>_parSetupDBExtensionCB</callback>
@@ -719,25 +995,24 @@
 						<icontype></icontype>
 					</extension>
 				</extensions>
-				<distributeoptions></distributeoptions>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Oct 23 06:10:29 2025</timestamp>
-			<uuid>{268dcd34-5cda-4073-a732-c824b3bcba2f}</uuid>
-			<resultsname>/home/saul/projects/FIL3601/LAB1/GM_ID/adexl/results/data/Interactive.11.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.11.rdb</simresults>
+			<timestamp>Nov 12 10:58:09 2025</timestamp>
+			<uuid>{d021dacf-98f1-4a11-a244-813cade7a58b}</uuid>
+			<resultsname>/home/saul/projects/FIL3601/LAB1/GM_ID/adexl/results/data/Interactive.1.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.1.rdb</simresults>
 			<rawdatadelstrategy>SaveAll
 				<simdatasavemode>All</simdatasavemode>
 			</rawdatadelstrategy>
 			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/b35621b5a0f6_saul_061029568</localpsfdir>
-			<psfdir>/home/saul/projects/FIL3601/Sim/LAB1/GM_ID/adexl/results/data/Interactive.11</psfdir>
-			<simdir>$AXL_PROJECT_DIR/LAB1/GM_ID/adexl/results/data/Interactive.11</simdir>
+			<localpsfdir>/tmp/edatools_saul_105809615</localpsfdir>
+			<psfdir>/home/saul/projects/FIL3601/Sim/LAB1/GM_ID/adexl/results/data/Interactive.1</psfdir>
+			<simdir>$AXL_PROJECT_DIR/LAB1/GM_ID/adexl/results/data/Interactive.1</simdir>
 			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
-			<runlog>/home/saul/projects/FIL3601/LAB1/GM_ID/adexl/results/data/Interactive.11.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.11.log</runlogfile>
+			<runlog>/home/saul/projects/FIL3601/LAB1/GM_ID/adexl/results/data/Interactive.1.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.1.log</runlogfile>
 			<schematicpoint>
 				<vars>
 					<var>IDS
@@ -747,7 +1022,7 @@
 			</schematicpoint>
 			<test>all</test>
 		</historyentry>
-		<historyentry assemblerOrExplorer="adexl" roOrView="view">Ocean.33
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Ocean.45
 			<checkpoint>
 				<tests>
 					<test>DAY2:GM_ID:1
@@ -766,7 +1041,7 @@
 								<value>spectre</value>
 							</option>
 							<option>state
-								<value>DAY2:GM_ID:1_DAY2:GM_ID:1_Oct_23_06_12_46_2025_Ocean.33</value>
+								<value>DAY2:GM_ID:1_DAY2:GM_ID:1_Nov_12_11_02_44_2025_Ocean.45</value>
 							</option>
 							<option>view
 								<value>schematic</value>
@@ -786,7 +1061,7 @@
 								<value>spectre</value>
 							</option>
 							<option>state
-								<value>DAY2:GM_ID:1_Oct_23_06_12_46_2025</value>
+								<value>DAY2:GM_ID:1_Nov_12_11_02_44_2025</value>
 							</option>
 							<option>view
 								<value>schematic</value>
@@ -796,19 +1071,19 @@
 				</tests>
 				<vars>
 					<var>IDS
-						<value>{From/To}Decade:1n:10:100u{From/To}</value>
+						<value>{From/To}Decade:1n:10:5000u{From/To}</value>
 						<dependentTests>
 							<dependentTest omitted="0">DAY2:GM_ID:1</dependentTest>
 						</dependentTests>
 					</var>
 					<var>L
-						<value>500n</value>
+						<value>1u</value>
 						<dependentTests>
 							<dependentTest omitted="0">DAY2:GM_ID:1</dependentTest>
 						</dependentTests>
 					</var>
 					<var>NF
-						<value>1</value>
+						<value>10</value>
 						<dependentTests>
 							<dependentTest omitted="0">DAY2:GM_ID:1</dependentTest>
 						</dependentTests>
@@ -835,7 +1110,7 @@
 				<allsweepsenabled>1</allsweepsenabled>
 				<currentmode>Single Run, Sweeps and Corners</currentmode>
 				<overwritehistory>0</overwritehistory>
-				<overwritehistoryname>Ocean.33</overwritehistoryname>
+				<overwritehistoryname>Ocean.45</overwritehistoryname>
 				<plottingoptions>
 					<plottingoption>plottingmode
 						<value>Replace</value>
@@ -864,32 +1139,32 @@
 				</plottingoptions>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Oct 23 06:12:49 2025</timestamp>
-			<uuid>{fd479f50-02ca-4c67-8deb-2dfc3dcadcbb}</uuid>
-			<resultsname>/home/saul/projects/FIL3601/LAB1/GM_ID/adexl/results/data/Ocean.33.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/data/Ocean.33.rdb</simresults>
+			<timestamp>Nov 12 11:02:48 2025</timestamp>
+			<uuid>{f069b5e9-3fac-469b-8277-9c460e1e7c79}</uuid>
+			<resultsname>/home/saul/projects/FIL3601/LAB1/GM_ID/adexl/results/data/Ocean.45.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Ocean.45.rdb</simresults>
 			<rawdatadelstrategy>SaveAll
 				<simdatasavemode>All</simdatasavemode>
 			</rawdatadelstrategy>
 			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/b35621b5a0f6_saul_061249764</localpsfdir>
-			<psfdir>/home/saul/projects/FIL3601/Sim/LAB1/GM_ID/adexl/results/data/Ocean.33</psfdir>
-			<simdir>$AXL_PROJECT_DIR/LAB1/GM_ID/adexl/results/data/Ocean.33</simdir>
+			<localpsfdir>/tmp/edatools_saul_110248453</localpsfdir>
+			<psfdir>/home/saul/projects/FIL3601/Sim/LAB1/GM_ID/adexl/results/data/Ocean.45</psfdir>
+			<simdir>$AXL_PROJECT_DIR/LAB1/GM_ID/adexl/results/data/Ocean.45</simdir>
 			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
-			<runlog>/home/saul/projects/FIL3601/LAB1/GM_ID/adexl/results/data/Ocean.33.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/data/Ocean.33.log</runlogfile>
+			<runlog>/home/saul/projects/FIL3601/LAB1/GM_ID/adexl/results/data/Ocean.45.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Ocean.45.log</runlogfile>
 			<schematicpoint>
 				<vars>
 					<var>IDS
-						<value>1e-06</value>
+						<value>0.0001</value>
 					</var>
 				</vars>
 			</schematicpoint>
 			<test>all</test>
 		</historyentry>
-		<historyentry assemblerOrExplorer="adexl" roOrView="view">Ocean.34
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Ocean.46
 			<checkpoint>
 				<tests>
 					<test>DAY2:GM_ID:1
@@ -908,7 +1183,7 @@
 								<value>spectre</value>
 							</option>
 							<option>state
-								<value>DAY2:GM_ID:1_DAY2:GM_ID:1_Oct_23_06_19_03_2025_Ocean.34</value>
+								<value>DAY2:GM_ID:1_DAY2:GM_ID:1_Nov_12_11_05_45_2025_Ocean.46</value>
 							</option>
 							<option>view
 								<value>schematic</value>
@@ -928,7 +1203,7 @@
 								<value>spectre</value>
 							</option>
 							<option>state
-								<value>DAY2:GM_ID:1_Oct_23_06_19_03_2025</value>
+								<value>DAY2:GM_ID:1_Nov_12_11_05_45_2025</value>
 							</option>
 							<option>view
 								<value>schematic</value>
@@ -937,32 +1212,32 @@
 					</test>
 				</tests>
 				<vars>
-					<var>IDS
-						<value>{From/To}Decade:1n:10:100u{From/To}</value>
+					<var>NF
+						<value>10</value>
 						<dependentTests>
 							<dependentTest omitted="0">DAY2:GM_ID:1</dependentTest>
 						</dependentTests>
 					</var>
 					<var>L
-						<value>L1</value>
-						<dependentTests>
-							<dependentTest omitted="0">DAY2:GM_ID:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>NF
-						<value>NF1</value>
-						<dependentTests>
-							<dependentTest omitted="0">DAY2:GM_ID:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>VDS
-						<value>VDS1</value>
+						<value>1u</value>
 						<dependentTests>
 							<dependentTest omitted="0">DAY2:GM_ID:1</dependentTest>
 						</dependentTests>
 					</var>
 					<var>WF
-						<value>WF1</value>
+						<value>8u</value>
+						<dependentTests>
+							<dependentTest omitted="0">DAY2:GM_ID:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>IDS
+						<value>{From/To}Decade:1n:10:500u{From/To}</value>
+						<dependentTests>
+							<dependentTest omitted="0">DAY2:GM_ID:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VDS
+						<value>0.9</value>
 						<dependentTests>
 							<dependentTest omitted="0">DAY2:GM_ID:1</dependentTest>
 						</dependentTests>
@@ -977,7 +1252,7 @@
 				<allsweepsenabled>1</allsweepsenabled>
 				<currentmode>Single Run, Sweeps and Corners</currentmode>
 				<overwritehistory>0</overwritehistory>
-				<overwritehistoryname>Ocean.34</overwritehistoryname>
+				<overwritehistoryname>Ocean.46</overwritehistoryname>
 				<plottingoptions>
 					<plottingoption>plottingmode
 						<value>Replace</value>
@@ -1006,32 +1281,32 @@
 				</plottingoptions>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Oct 23 06:19:07 2025</timestamp>
-			<uuid>{4d278b6c-9379-4bf7-b7b5-74b1f8abb68d}</uuid>
-			<resultsname>/home/saul/projects/FIL3601/LAB1/GM_ID/adexl/results/data/Ocean.34.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/data/Ocean.34.rdb</simresults>
+			<timestamp>Nov 12 11:05:50 2025</timestamp>
+			<uuid>{7b446324-7b73-41b2-9b8d-53fc843107fe}</uuid>
+			<resultsname>/home/saul/projects/FIL3601/LAB1/GM_ID/adexl/results/data/Ocean.46.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Ocean.46.rdb</simresults>
 			<rawdatadelstrategy>SaveAll
 				<simdatasavemode>All</simdatasavemode>
 			</rawdatadelstrategy>
 			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/b35621b5a0f6_saul_061907461</localpsfdir>
-			<psfdir>/home/saul/projects/FIL3601/Sim/LAB1/GM_ID/adexl/results/data/Ocean.34</psfdir>
-			<simdir>$AXL_PROJECT_DIR/LAB1/GM_ID/adexl/results/data/Ocean.34</simdir>
+			<localpsfdir>/tmp/edatools_saul_110550050</localpsfdir>
+			<psfdir>/home/saul/projects/FIL3601/Sim/LAB1/GM_ID/adexl/results/data/Ocean.46</psfdir>
+			<simdir>$AXL_PROJECT_DIR/LAB1/GM_ID/adexl/results/data/Ocean.46</simdir>
 			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
-			<runlog>/home/saul/projects/FIL3601/LAB1/GM_ID/adexl/results/data/Ocean.34.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/data/Ocean.34.log</runlogfile>
+			<runlog>/home/saul/projects/FIL3601/LAB1/GM_ID/adexl/results/data/Ocean.46.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Ocean.46.log</runlogfile>
 			<schematicpoint>
 				<vars>
 					<var>IDS
-						<value>1e-05</value>
+						<value>0.0001</value>
 					</var>
 				</vars>
 			</schematicpoint>
 			<test>all</test>
 		</historyentry>
-		<historyentry assemblerOrExplorer="adexl" roOrView="view">Ocean.35
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Ocean.47
 			<checkpoint>
 				<tests>
 					<test>DAY2:GM_ID:1
@@ -1050,7 +1325,7 @@
 								<value>spectre</value>
 							</option>
 							<option>state
-								<value>DAY2:GM_ID:1_DAY2:GM_ID:1_Oct_23_06_29_55_2025_Ocean.35</value>
+								<value>DAY2:GM_ID:1_DAY2:GM_ID:1_Nov_12_11_09_45_2025_Ocean.47</value>
 							</option>
 							<option>view
 								<value>schematic</value>
@@ -1070,7 +1345,7 @@
 								<value>spectre</value>
 							</option>
 							<option>state
-								<value>DAY2:GM_ID:1_Oct_23_06_29_55_2025</value>
+								<value>DAY2:GM_ID:1_Nov_12_11_09_45_2025</value>
 							</option>
 							<option>view
 								<value>schematic</value>
@@ -1079,8 +1354,8 @@
 					</test>
 				</tests>
 				<vars>
-					<var>IDS
-						<value>{From/To}Decade:1n:10:100u{From/To}</value>
+					<var>NF
+						<value>NF1</value>
 						<dependentTests>
 							<dependentTest omitted="0">DAY2:GM_ID:1</dependentTest>
 						</dependentTests>
@@ -1091,20 +1366,20 @@
 							<dependentTest omitted="0">DAY2:GM_ID:1</dependentTest>
 						</dependentTests>
 					</var>
-					<var>NF
-						<value>NF1</value>
+					<var>WF
+						<value>WF1</value>
+						<dependentTests>
+							<dependentTest omitted="0">DAY2:GM_ID:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>IDS
+						<value>{From/To}Decade:1n:10:500u{From/To}</value>
 						<dependentTests>
 							<dependentTest omitted="0">DAY2:GM_ID:1</dependentTest>
 						</dependentTests>
 					</var>
 					<var>VDS
 						<value>VDS1</value>
-						<dependentTests>
-							<dependentTest omitted="0">DAY2:GM_ID:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>WF
-						<value>WF1</value>
 						<dependentTests>
 							<dependentTest omitted="0">DAY2:GM_ID:1</dependentTest>
 						</dependentTests>
@@ -1119,7 +1394,7 @@
 				<allsweepsenabled>1</allsweepsenabled>
 				<currentmode>Single Run, Sweeps and Corners</currentmode>
 				<overwritehistory>0</overwritehistory>
-				<overwritehistoryname>Ocean.35</overwritehistoryname>
+				<overwritehistoryname>Ocean.47</overwritehistoryname>
 				<plottingoptions>
 					<plottingoption>plottingmode
 						<value>Replace</value>
@@ -1148,32 +1423,32 @@
 				</plottingoptions>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Oct 23 06:29:58 2025</timestamp>
-			<uuid>{b8ade064-a6ba-49b3-a456-9c92cb38ed4c}</uuid>
-			<resultsname>/home/saul/projects/FIL3601/LAB1/GM_ID/adexl/results/data/Ocean.35.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/data/Ocean.35.rdb</simresults>
+			<timestamp>Nov 12 11:09:49 2025</timestamp>
+			<uuid>{9038ed31-978a-4c08-95fc-4b4ab2a08570}</uuid>
+			<resultsname>/home/saul/projects/FIL3601/LAB1/GM_ID/adexl/results/data/Ocean.47.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Ocean.47.rdb</simresults>
 			<rawdatadelstrategy>SaveAll
 				<simdatasavemode>All</simdatasavemode>
 			</rawdatadelstrategy>
 			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/b35621b5a0f6_saul_062958639</localpsfdir>
-			<psfdir>/home/saul/projects/FIL3601/Sim/LAB1/GM_ID/adexl/results/data/Ocean.35</psfdir>
-			<simdir>$AXL_PROJECT_DIR/LAB1/GM_ID/adexl/results/data/Ocean.35</simdir>
+			<localpsfdir>/tmp/edatools_saul_110949433</localpsfdir>
+			<psfdir>/home/saul/projects/FIL3601/Sim/LAB1/GM_ID/adexl/results/data/Ocean.47</psfdir>
+			<simdir>$AXL_PROJECT_DIR/LAB1/GM_ID/adexl/results/data/Ocean.47</simdir>
 			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
-			<runlog>/home/saul/projects/FIL3601/LAB1/GM_ID/adexl/results/data/Ocean.35.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/data/Ocean.35.log</runlogfile>
+			<runlog>/home/saul/projects/FIL3601/LAB1/GM_ID/adexl/results/data/Ocean.47.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Ocean.47.log</runlogfile>
 			<schematicpoint>
 				<vars>
 					<var>IDS
-						<value>1e-05</value>
+						<value>0.000165</value>
 					</var>
 				</vars>
 			</schematicpoint>
 			<test>all</test>
 		</historyentry>
-		<historyentry assemblerOrExplorer="adexl" roOrView="view">Ocean.36
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Ocean.48
 			<checkpoint>
 				<tests>
 					<test>DAY2:GM_ID:1
@@ -1192,7 +1467,7 @@
 								<value>spectre</value>
 							</option>
 							<option>state
-								<value>DAY2:GM_ID:1_DAY2:GM_ID:1_Oct_23_06_33_30_2025_Ocean.36</value>
+								<value>DAY2:GM_ID:1_DAY2:GM_ID:1_Nov_12_11_14_01_2025_Ocean.48</value>
 							</option>
 							<option>view
 								<value>schematic</value>
@@ -1212,7 +1487,7 @@
 								<value>spectre</value>
 							</option>
 							<option>state
-								<value>DAY2:GM_ID:1_Oct_23_06_33_30_2025</value>
+								<value>DAY2:GM_ID:1_Nov_12_11_14_01_2025</value>
 							</option>
 							<option>view
 								<value>schematic</value>
@@ -1221,8 +1496,8 @@
 					</test>
 				</tests>
 				<vars>
-					<var>IDS
-						<value>{From/To}Decade:1n:10:100u{From/To}</value>
+					<var>NF
+						<value>NF1</value>
 						<dependentTests>
 							<dependentTest omitted="0">DAY2:GM_ID:1</dependentTest>
 						</dependentTests>
@@ -1233,20 +1508,20 @@
 							<dependentTest omitted="0">DAY2:GM_ID:1</dependentTest>
 						</dependentTests>
 					</var>
-					<var>NF
-						<value>NF1</value>
+					<var>WF
+						<value>WF1</value>
+						<dependentTests>
+							<dependentTest omitted="0">DAY2:GM_ID:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>IDS
+						<value>{From/To}Decade:1n:10:500u{From/To}</value>
 						<dependentTests>
 							<dependentTest omitted="0">DAY2:GM_ID:1</dependentTest>
 						</dependentTests>
 					</var>
 					<var>VDS
 						<value>VDS1</value>
-						<dependentTests>
-							<dependentTest omitted="0">DAY2:GM_ID:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>WF
-						<value>WF1</value>
 						<dependentTests>
 							<dependentTest omitted="0">DAY2:GM_ID:1</dependentTest>
 						</dependentTests>
@@ -1261,7 +1536,7 @@
 				<allsweepsenabled>1</allsweepsenabled>
 				<currentmode>Single Run, Sweeps and Corners</currentmode>
 				<overwritehistory>0</overwritehistory>
-				<overwritehistoryname>Ocean.36</overwritehistoryname>
+				<overwritehistoryname>Ocean.48</overwritehistoryname>
 				<plottingoptions>
 					<plottingoption>plottingmode
 						<value>Replace</value>
@@ -1290,310 +1565,26 @@
 				</plottingoptions>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Oct 23 06:33:34 2025</timestamp>
-			<uuid>{a4167e82-882e-4295-a51a-a6f4f66a2939}</uuid>
-			<resultsname>/home/saul/projects/FIL3601/LAB1/GM_ID/adexl/results/data/Ocean.36.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/data/Ocean.36.rdb</simresults>
+			<timestamp>Nov 12 11:14:06 2025</timestamp>
+			<uuid>{64cd50c2-8959-4bed-8717-4bb2b82f6112}</uuid>
+			<resultsname>/home/saul/projects/FIL3601/LAB1/GM_ID/adexl/results/data/Ocean.48.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Ocean.48.rdb</simresults>
 			<rawdatadelstrategy>SaveAll
 				<simdatasavemode>All</simdatasavemode>
 			</rawdatadelstrategy>
 			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/b35621b5a0f6_saul_063334042</localpsfdir>
-			<psfdir>/home/saul/projects/FIL3601/Sim/LAB1/GM_ID/adexl/results/data/Ocean.36</psfdir>
-			<simdir>$AXL_PROJECT_DIR/LAB1/GM_ID/adexl/results/data/Ocean.36</simdir>
+			<localpsfdir>/tmp/edatools_saul_111406188</localpsfdir>
+			<psfdir>/home/saul/projects/FIL3601/Sim/LAB1/GM_ID/adexl/results/data/Ocean.48</psfdir>
+			<simdir>$AXL_PROJECT_DIR/LAB1/GM_ID/adexl/results/data/Ocean.48</simdir>
 			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
-			<runlog>/home/saul/projects/FIL3601/LAB1/GM_ID/adexl/results/data/Ocean.36.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/data/Ocean.36.log</runlogfile>
+			<runlog>/home/saul/projects/FIL3601/LAB1/GM_ID/adexl/results/data/Ocean.48.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Ocean.48.log</runlogfile>
 			<schematicpoint>
 				<vars>
 					<var>IDS
-						<value>1e-05</value>
-					</var>
-				</vars>
-			</schematicpoint>
-			<test>all</test>
-		</historyentry>
-		<historyentry assemblerOrExplorer="adexl" roOrView="view">Ocean.37
-			<checkpoint>
-				<tests>
-					<test>DAY2:GM_ID:1
-						<tool>OCEAN</tool>
-						<tooloptions>
-							<option>cell
-								<value>GM_ID</value>
-							</option>
-							<option>lib
-								<value>LAB1</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>state
-								<value>DAY2:GM_ID:1_DAY2:GM_ID:1_Oct_28_07_48_56_2025_Ocean.37</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</tooloptions>
-						<origoptions>
-							<option>cell
-								<value>GM_ID</value>
-							</option>
-							<option>lib
-								<value>LAB1</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>state
-								<value>DAY2:GM_ID:1_Oct_28_07_48_56_2025</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</origoptions>
-					</test>
-				</tests>
-				<vars>
-					<var>IDS
-						<value>{From/To}Decade:1n:10:100u{From/To}</value>
-						<dependentTests>
-							<dependentTest omitted="0">DAY2:GM_ID:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>L
-						<value>L1</value>
-						<dependentTests>
-							<dependentTest omitted="0">DAY2:GM_ID:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>NF
-						<value>NF1</value>
-						<dependentTests>
-							<dependentTest omitted="0">DAY2:GM_ID:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>VDS
-						<value>VDS1</value>
-						<dependentTests>
-							<dependentTest omitted="0">DAY2:GM_ID:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>WF
-						<value>WF1</value>
-						<dependentTests>
-							<dependentTest omitted="0">DAY2:GM_ID:1</dependentTest>
-						</dependentTests>
-					</var>
-				</vars>
-				<checksasserts netlist="0"></checksasserts>
-				<jobpolicyname></jobpolicyname>
-				<corners>
-					<corner enabled="1">_default</corner>
-				</corners>
-				<allcornersenabled>1</allcornersenabled>
-				<allsweepsenabled>1</allsweepsenabled>
-				<currentmode>Single Run, Sweeps and Corners</currentmode>
-				<overwritehistory>0</overwritehistory>
-				<overwritehistoryname>Ocean.37</overwritehistoryname>
-				<plottingoptions>
-					<plottingoption>plottingmode
-						<value>Replace</value>
-					</plottingoption>
-					<plottingoption>plottype
-						<value>None</value>
-					</plottingoption>
-					<plottingoption>usewaveformtemplate
-						<value>no</value>
-					</plottingoption>
-					<plottingoption>useMaestroPlottingTemplate
-						<value>yes</value>
-					</plottingoption>
-					<plottingoption>waveformtemplate
-						<value></value>
-					</plottingoption>
-					<plottingoption>allplottingtemplates
-						<value></value>
-					</plottingoption>
-					<plottingoption>defaultplottingtemplate
-						<value></value>
-					</plottingoption>
-					<plottingoption>distributedplot_enabled
-						<value>no</value>
-					</plottingoption>
-				</plottingoptions>
-				<sortVariableValues>0</sortVariableValues>
-			</checkpoint>
-			<timestamp>Oct 28 07:48:59 2025</timestamp>
-			<uuid>{f8f080ee-2cca-478d-9763-4b3ce4f70083}</uuid>
-			<resultsname>/home/saul/projects/FIL3601/LAB1/GM_ID/adexl/results/data/Ocean.37.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/data/Ocean.37.rdb</simresults>
-			<rawdatadelstrategy>SaveAll
-				<simdatasavemode>All</simdatasavemode>
-			</rawdatadelstrategy>
-			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
-			<netlistdelstrategy>SaveAll</netlistdelstrategy>
-			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/b35621b5a0f6_saul_074859897</localpsfdir>
-			<psfdir>/home/saul/projects/FIL3601/Sim/LAB1/GM_ID/adexl/results/data/Ocean.37</psfdir>
-			<simdir>$AXL_PROJECT_DIR/LAB1/GM_ID/adexl/results/data/Ocean.37</simdir>
-			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
-			<runlog>/home/saul/projects/FIL3601/LAB1/GM_ID/adexl/results/data/Ocean.37.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/data/Ocean.37.log</runlogfile>
-			<schematicpoint>
-				<vars>
-					<var>IDS
-						<value>1e-05</value>
-					</var>
-				</vars>
-			</schematicpoint>
-			<test>all</test>
-		</historyentry>
-		<historyentry assemblerOrExplorer="adexl" roOrView="view">Ocean.38
-			<checkpoint>
-				<tests>
-					<test>DAY2:GM_ID:1
-						<tool>OCEAN</tool>
-						<tooloptions>
-							<option>cell
-								<value>GM_ID</value>
-							</option>
-							<option>lib
-								<value>LAB1</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>state
-								<value>DAY2:GM_ID:1_DAY2:GM_ID:1_Oct_28_08_02_18_2025_Ocean.38</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</tooloptions>
-						<origoptions>
-							<option>cell
-								<value>GM_ID</value>
-							</option>
-							<option>lib
-								<value>LAB1</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>state
-								<value>DAY2:GM_ID:1_Oct_28_08_02_18_2025</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</origoptions>
-					</test>
-				</tests>
-				<vars>
-					<var>IDS
-						<value>{From/To}Decade:1n:10:100u{From/To}</value>
-						<dependentTests>
-							<dependentTest omitted="0">DAY2:GM_ID:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>L
-						<value>L1</value>
-						<dependentTests>
-							<dependentTest omitted="0">DAY2:GM_ID:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>NF
-						<value>NF1</value>
-						<dependentTests>
-							<dependentTest omitted="0">DAY2:GM_ID:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>VDS
-						<value>VDS1</value>
-						<dependentTests>
-							<dependentTest omitted="0">DAY2:GM_ID:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>WF
-						<value>WF1</value>
-						<dependentTests>
-							<dependentTest omitted="0">DAY2:GM_ID:1</dependentTest>
-						</dependentTests>
-					</var>
-				</vars>
-				<checksasserts netlist="0"></checksasserts>
-				<jobpolicyname></jobpolicyname>
-				<corners>
-					<corner enabled="1">_default</corner>
-				</corners>
-				<allcornersenabled>1</allcornersenabled>
-				<allsweepsenabled>1</allsweepsenabled>
-				<currentmode>Single Run, Sweeps and Corners</currentmode>
-				<overwritehistory>0</overwritehistory>
-				<overwritehistoryname>Ocean.38</overwritehistoryname>
-				<plottingoptions>
-					<plottingoption>plottingmode
-						<value>Replace</value>
-					</plottingoption>
-					<plottingoption>plottype
-						<value>None</value>
-					</plottingoption>
-					<plottingoption>usewaveformtemplate
-						<value>no</value>
-					</plottingoption>
-					<plottingoption>useMaestroPlottingTemplate
-						<value>yes</value>
-					</plottingoption>
-					<plottingoption>waveformtemplate
-						<value></value>
-					</plottingoption>
-					<plottingoption>allplottingtemplates
-						<value></value>
-					</plottingoption>
-					<plottingoption>defaultplottingtemplate
-						<value></value>
-					</plottingoption>
-					<plottingoption>distributedplot_enabled
-						<value>no</value>
-					</plottingoption>
-				</plottingoptions>
-				<sortVariableValues>0</sortVariableValues>
-			</checkpoint>
-			<timestamp>Oct 28 08:02:22 2025</timestamp>
-			<uuid>{fe6f3abc-fc8c-4466-8a75-ffafa03b703e}</uuid>
-			<resultsname>/home/saul/projects/FIL3601/LAB1/GM_ID/adexl/results/data/Ocean.38.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/data/Ocean.38.rdb</simresults>
-			<rawdatadelstrategy>SaveAll
-				<simdatasavemode>All</simdatasavemode>
-			</rawdatadelstrategy>
-			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
-			<netlistdelstrategy>SaveAll</netlistdelstrategy>
-			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/b35621b5a0f6_saul_080222491</localpsfdir>
-			<psfdir>/home/saul/projects/FIL3601/Sim/LAB1/GM_ID/adexl/results/data/Ocean.38</psfdir>
-			<simdir>$AXL_PROJECT_DIR/LAB1/GM_ID/adexl/results/data/Ocean.38</simdir>
-			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
-			<runlog>/home/saul/projects/FIL3601/LAB1/GM_ID/adexl/results/data/Ocean.38.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/data/Ocean.38.log</runlogfile>
-			<schematicpoint>
-				<vars>
-					<var>IDS
-						<value>1e-05</value>
+						<value>0.000165</value>
 					</var>
 				</vars>
 			</schematicpoint>
