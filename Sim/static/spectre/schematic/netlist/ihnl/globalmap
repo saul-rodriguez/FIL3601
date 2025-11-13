@@ -1,0 +1,17 @@
+CADENCE IHNL11140
+$model
+LAB3/static/schematic static
+$endmodel
+$net
+gnd! 0
+$endnet
+$param
+L L
+VGS VGS
+WF WF
+IS IS
+NF NF
+IDS IDS
+V0 V0
+VDS VDS
+$endparam

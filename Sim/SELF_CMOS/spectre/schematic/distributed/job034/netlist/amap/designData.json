@@ -1,0 +1,1 @@
+{"hierarchy":{"top_level":1,"1":{"insts":{"V2":2,"V1":2,"E0":5,"I0":3,"V0":2,"I2":3,"M0":4,"E1":5,"M1":6}}},"modelMap":{"pel":[6],"vsource":[2],"isource":[3],"nel":[4],"vcvs":[5]},"cellviews":[["LAB1","SELF_CMOS","schematic"],["analogLib","vdc","spectre"],["analogLib","idc","spectre"],["PRIMLIB","nel","spectre"],["analogLib","vcvs","spectre"],["PRIMLIB","pel","spectre"]]}

@@ -1,0 +1,7 @@
+// Generated for: spectre
+// Generated on: Nov 12 13:25:26 2025
+// Design library name: LAB2
+// Design cell name: NOISE_NMOS
+// Design view name: schematic
+simulator lang=spectre
+global 0

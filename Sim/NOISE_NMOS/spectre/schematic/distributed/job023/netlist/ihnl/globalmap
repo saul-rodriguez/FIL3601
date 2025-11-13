@@ -1,0 +1,14 @@
+CADENCE IHNL11140
+$model
+LAB2/NOISE_NMOS/schematic NOISE_NMOS
+$endmodel
+$net
+gnd! 0
+$endnet
+$param
+L L
+WF WF
+NF NF
+IDS IDS
+VDS VDS
+$endparam

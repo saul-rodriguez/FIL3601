@@ -54,7 +54,7 @@
 		</tests>
 		<vars>
 			<var>IDS
-				<value>100u</value>
+				<value>170u</value>
 				<dependentTests>
 					<dependentTest omitted="0">LAB2:transimpedance:1</dependentTest>
 				</dependentTests>
@@ -66,7 +66,7 @@
 				</dependentTests>
 			</var>
 			<var>NF
-				<value>40</value>
+				<value>80</value>
 				<dependentTests>
 					<dependentTest omitted="0">LAB2:transimpedance:1</dependentTest>
 				</dependentTests>
@@ -78,7 +78,7 @@
 				</dependentTests>
 			</var>
 			<var>VGS
-				<value>0.4142</value>
+				<value>0.4063</value>
 				<dependentTests>
 					<dependentTest omitted="0">LAB2:transimpedance:1</dependentTest>
 				</dependentTests>
@@ -119,145 +119,6 @@
 		</plottingoptions>
 	</active>
 	<history>History
-		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.8
-			<checkpoint>
-				<corners>
-					<corner enabled="1">_default</corner>
-				</corners>
-				<extensions>
-					<extension>Parasitics
-						<callback>_parSetupDBExtensionCB</callback>
-						<iconvalue></iconvalue>
-						<icontype></icontype>
-					</extension>
-				</extensions>
-				<currentmode>Single Run, Sweeps and Corners</currentmode>
-				<overwritehistory>0</overwritehistory>
-				<tests>
-					<test>LAB2:transimpedance:1
-						<tool>ADE</tool>
-						<tooloptions>
-							<option>cell
-								<value>transimpedance</value>
-							</option>
-							<option>lib
-								<value>LAB2</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>state
-								<value>LAB2:transimpedance:1_none_Interactive.8</value>
-							</option>
-						</tooloptions>
-						<origoptions>
-							<option>cell
-								<value>transimpedance</value>
-							</option>
-							<option>lib
-								<value>LAB2</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</origoptions>
-					</test>
-				</tests>
-				<vars>
-					<var>IDS
-						<value>10u</value>
-						<dependentTests>
-							<dependentTest omitted="0">LAB2:transimpedance:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>L
-						<value>0.18u</value>
-						<dependentTests>
-							<dependentTest omitted="0">LAB2:transimpedance:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>NF
-						<value>4</value>
-						<dependentTests>
-							<dependentTest omitted="0">LAB2:transimpedance:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>VDS
-						<value>0.5</value>
-						<dependentTests>
-							<dependentTest omitted="0">LAB2:transimpedance:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>VGS
-						<value>0.29948</value>
-						<dependentTests>
-							<dependentTest omitted="0">LAB2:transimpedance:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>WF
-						<value>8u</value>
-						<dependentTests>
-							<dependentTest omitted="0">LAB2:transimpedance:1</dependentTest>
-						</dependentTests>
-					</var>
-				</vars>
-				<overwritehistoryname>Interactive.0</overwritehistoryname>
-				<plottingoptions>
-					<plottingoption>plottingmode
-						<value>Replace</value>
-					</plottingoption>
-					<plottingoption>plottype
-						<value>None</value>
-					</plottingoption>
-					<plottingoption>usewaveformtemplate
-						<value>no</value>
-					</plottingoption>
-					<plottingoption>useMaestroPlottingTemplate
-						<value>yes</value>
-					</plottingoption>
-					<plottingoption>waveformtemplate
-						<value></value>
-					</plottingoption>
-					<plottingoption>allplottingtemplates
-						<value></value>
-					</plottingoption>
-					<plottingoption>defaultplottingtemplate
-						<value></value>
-					</plottingoption>
-					<plottingoption>distributedplot_enabled
-						<value>no</value>
-					</plottingoption>
-				</plottingoptions>
-				<sortVariableValues>0</sortVariableValues>
-			</checkpoint>
-			<timestamp>Nov 12 10:25:55 2025</timestamp>
-			<uuid>{9640c280-c8b3-4d5e-b13f-d4c794e9abda}</uuid>
-			<resultsname>/home/saul/projects/FIL3601/LAB2/transimpedance/adexl/results/data/Interactive.8.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.8.rdb</simresults>
-			<rawdatadelstrategy>SaveAll
-				<simdatasavemode>All</simdatasavemode>
-			</rawdatadelstrategy>
-			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
-			<netlistdelstrategy>SaveAll</netlistdelstrategy>
-			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/edatools_saul_102555152</localpsfdir>
-			<psfdir>/home/saul/projects/FIL3601/Sim/LAB2/transimpedance/adexl/results/data/Interactive.8</psfdir>
-			<simdir>$AXL_PROJECT_DIR/LAB2/transimpedance/adexl/results/data/Interactive.8</simdir>
-			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
-			<runlog>/home/saul/projects/FIL3601/LAB2/transimpedance/adexl/results/data/Interactive.8.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.8.log</runlogfile>
-			<schematicpoint></schematicpoint>
-			<test>all</test>
-		</historyentry>
 		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.9
 			<checkpoint>
 				<corners>
@@ -1506,6 +1367,145 @@
 			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
 			<runlog>/home/saul/projects/FIL3601/LAB2/transimpedance/adexl/results/data/Interactive.17.log</runlog>
 			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.17.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.18
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test>LAB2:transimpedance:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>transimpedance</value>
+							</option>
+							<option>lib
+								<value>LAB2</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>LAB2:transimpedance:1_none_Interactive.18</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>transimpedance</value>
+							</option>
+							<option>lib
+								<value>LAB2</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var>IDS
+						<value>170u</value>
+						<dependentTests>
+							<dependentTest omitted="0">LAB2:transimpedance:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>L
+						<value>1u</value>
+						<dependentTests>
+							<dependentTest omitted="0">LAB2:transimpedance:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>NF
+						<value>80</value>
+						<dependentTests>
+							<dependentTest omitted="0">LAB2:transimpedance:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VDS
+						<value>0.9</value>
+						<dependentTests>
+							<dependentTest omitted="0">LAB2:transimpedance:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VGS
+						<value>0.4063</value>
+						<dependentTests>
+							<dependentTest omitted="0">LAB2:transimpedance:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>WF
+						<value>8u</value>
+						<dependentTests>
+							<dependentTest omitted="0">LAB2:transimpedance:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottingmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>distributedplot_enabled
+						<value>no</value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Nov 12 13:49:18 2025</timestamp>
+			<uuid>{3747106b-b451-48b2-9215-6a68f44a5adf}</uuid>
+			<resultsname>/home/saul/projects/FIL3601/LAB2/transimpedance/adexl/results/data/Interactive.18.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.18.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/edatools_saul_134918813</localpsfdir>
+			<psfdir>/home/saul/projects/FIL3601/Sim/LAB2/transimpedance/adexl/results/data/Interactive.18</psfdir>
+			<simdir>$AXL_PROJECT_DIR/LAB2/transimpedance/adexl/results/data/Interactive.18</simdir>
+			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
+			<runlog>/home/saul/projects/FIL3601/LAB2/transimpedance/adexl/results/data/Interactive.18.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.18.log</runlogfile>
 			<schematicpoint></schematicpoint>
 			<test>all</test>
 		</historyentry>

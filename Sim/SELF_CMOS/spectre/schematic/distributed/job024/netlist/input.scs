@@ -1,0 +1,52 @@
+// Generated for: spectre
+// Generated on: Nov 12 11:15:54 2025
+// Design library name: LAB1
+// Design cell name: SELF_CMOS
+// Design view name: schematic
+simulator lang=spectre
+global 0
+parameters WF=8e-06 VDS=0.9 NF=80 L=1e-06 IDS=0.0001 WFP=1e-05 VDSP=0.6 \
+    NFP=10 LP=2.5e-07 IDSP=2e-05
+include "/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/config.scs" section=default
+include "/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/param.scs" section=3s
+include "/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/bip.scs" section=tm
+include "/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/cap.scs" section=tm
+include "/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/dio.scs" section=tm
+include "/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/mos.scs" section=tm
+include "/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/photo.scs" section=tm
+include "/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/res.scs" section=tm
+
+// Library name: LAB1
+// Cell name: SELF_CMOS
+// View name: schematic
+V2 (net3 0) vsource dc=1.8 type=dc
+V0 (net5 net2) vsource dc=VDSP type=dc
+V1 (net1 0) vsource dc=VDS type=dc
+I2 (net2 net3) isource dc=IDSP type=dc
+I0 (0 D) isource dc=IDS type=dc
+M0 (D G 0 0) nel w=WF l=L as=(int(((NF)-1)/2.0 )*5.4e-07+((int((NF)/2.0)-(NF)/2.0<-0.1)?1:2)*4.8e-07)*(WF)/(NF) \
+         ad=(int((NF)/2.0 )*5.4e-07+(((int((NF)/2.0)-(NF)/2.0<-0.1)?1:0)*4.8e-07))*(WF)/(NF) \
+         ps=(int(((NF)-1)/2.0 )*2*(5.4e-07+(WF))+((int((NF)/2)-(NF)/2.0<-0.1)?1:2)*2*(4.8e-07+(WF)))/(NF) \
+         pd=(int((NF)/2.0 )*2*(5.4e-07+(WF))+((int((NF)/2.0)-(NF)/2.0<-0.1)?1:0)*2*(4.8e-07+(WF)))/(NF) \
+         nrs=2.7e-07/(WF) nrd=2.7e-07/(WF) m=(1)*(NF) par1=(1)*(NF) \
+        xf_subext=0
+E1 (net4 net3 net5 net3) vcvs gain=1000
+E0 (G 0 D net1) vcvs gain=1000
+M1 (net2 net4 net3 net3) pel w=WFP l=LP as=(int(((NFP)-1)/2.0 )*5.4e-07+((int((NFP)/2.0)-(NFP)/2.0<-0.1)?1:2)*4.8e-07)*(WFP)/(NFP) \
+         ad=(int((NFP)/2.0 )*5.4e-07+(((int((NFP)/2.0)-(NFP)/2.0<-0.1)?1:0)*4.8e-07))*(WFP)/(NFP) \
+         ps=(int(((NFP)-1)/2.0 )*2*(5.4e-07+(WFP))+((int((NFP)/2)-(NFP)/2.0<-0.1)?1:2)*2*(4.8e-07+(WFP)))/(NFP) \
+         pd=(int((NFP)/2.0 )*2*(5.4e-07+(WFP))+((int((NFP)/2.0)-(NFP)/2.0<-0.1)?1:0)*2*(4.8e-07+(WFP)))/(NFP) \
+         nrs=2.7e-07/(WFP) nrd=2.7e-07/(WFP) m=(1)*(NFP) par1=(1)*(NFP)
+simulatorOptions options psfversion="1.4.0" reltol=1e-3 vabstol=1e-6 \
+    iabstol=1e-12 temp=27 tnom=27 scalem=1.0 scale=1.0 gmin=1e-12 rforce=1 \
+    maxnotes=5 maxwarns=5 digits=5 cols=80 pivrel=1e-3 \
+    sensfile="../psf/sens.output" checklimitdest=psf 
+dcOp dc write="spectre.dc" maxiters=150 maxsteps=10000 annotate=status
+dcOpInfo info what=oppoint where=rawfile
+modelParameter info what=models where=rawfile
+element info what=inst where=rawfile
+outputParameter info what=output where=rawfile
+designParamVals info what=parameters where=rawfile
+primitives info what=primitives where=rawfile
+subckts info what=subckts where=rawfile
+saveOptions options save=allpub

@@ -1,0 +1,35 @@
+
+// Library name: LAB2
+// Cell name: NOISE_NMOS
+// View name: schematic
+V0 (net015 0) vsource dc=VDS type=dc
+V1 (net8 0) vsource dc=VDS type=dc
+I5 (0 net09) isource dc=IDS type=dc
+I0 (0 net024) isource dc=IDS type=dc
+E1 (net016 0 net08 net015) vcvs gain=1000
+E0 (net9 0 net03 net8) vcvs gain=1000
+C4 (net05 net021) capacitor c=1
+C3 (net08 0) capacitor c=1
+C2 (net013 net09) capacitor c=1
+C1 (net5 net024) capacitor c=1
+C0 (net03 0) capacitor c=1
+R3 (net09 net08) resistor r=10M
+R2 (net024 net03) resistor r=10M
+R1 (net05 net016) resistor r=100M isnoisy=no
+R0 (net04 net9) resistor r=100M isnoisy=no
+IPRB1 (0 net013) iprobe
+IPRB0 (0 net5) iprobe
+I6 (0 net04) isource mag=1 type=sine
+V2 (net021 0) vsource mag=1 type=sine
+M1 (net09 net05 0 0) nel w=WF l=L as=(int(((NF)-1)/2.0 )*5.4e-07+((int((NF)/2.0)-(NF)/2.0<-0.1)?1:2)*4.8e-07)*(WF)/(NF) \
+         ad=(int((NF)/2.0 )*5.4e-07+(((int((NF)/2.0)-(NF)/2.0<-0.1)?1:0)*4.8e-07))*(WF)/(NF) \
+         ps=(int(((NF)-1)/2.0 )*2*(5.4e-07+(WF))+((int((NF)/2)-(NF)/2.0<-0.1)?1:2)*2*(4.8e-07+(WF)))/(NF) \
+         pd=(int((NF)/2.0 )*2*(5.4e-07+(WF))+((int((NF)/2.0)-(NF)/2.0<-0.1)?1:0)*2*(4.8e-07+(WF)))/(NF) \
+         nrs=2.7e-07/(WF) nrd=2.7e-07/(WF) m=(1)*(NF) par1=(1)*(NF) \
+        xf_subext=0
+M0 (net024 net04 0 0) nel w=WF l=L as=(int(((NF)-1)/2.0 )*5.4e-07+((int((NF)/2.0)-(NF)/2.0<-0.1)?1:2)*4.8e-07)*(WF)/(NF) \
+         ad=(int((NF)/2.0 )*5.4e-07+(((int((NF)/2.0)-(NF)/2.0<-0.1)?1:0)*4.8e-07))*(WF)/(NF) \
+         ps=(int(((NF)-1)/2.0 )*2*(5.4e-07+(WF))+((int((NF)/2)-(NF)/2.0<-0.1)?1:2)*2*(4.8e-07+(WF)))/(NF) \
+         pd=(int((NF)/2.0 )*2*(5.4e-07+(WF))+((int((NF)/2.0)-(NF)/2.0<-0.1)?1:0)*2*(4.8e-07+(WF)))/(NF) \
+         nrs=2.7e-07/(WF) nrd=2.7e-07/(WF) m=(1)*(NF) par1=(1)*(NF) \
+        xf_subext=0

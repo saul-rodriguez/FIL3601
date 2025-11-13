@@ -5,7 +5,7 @@ hostMode( 'distributed )
 
 ;design(	 "/home/saul/projects/FIL3601/Sim/SELF_CMOS/spectre/schematic/netlist/netlist")
 design("LAB1" "SELF_CMOS" "schematic")
-createNetlist
+;createNetlist
 
 resultsDir( "/home/saul/projects/FIL3601/Sim/SELF_CMOS/spectre/schematic" )
 

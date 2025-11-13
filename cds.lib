@@ -1,4 +1,4 @@
-# File Created by  at Sat Nov  8 00:43:19 2025
+# File Created by  at Thu Nov 13 19:10:23 2025
 # assisted by CdsLibEditor
 # ------------------------------------------------------------------------------
 # XKIT library definition files
@@ -37,3 +37,4 @@ DEFINE TEST ./TEST
 DEFINE DAY10 ./DAY10
 DEFINE LAB1 ./LAB1
 DEFINE LAB2 ./LAB2
+DEFINE LAB3 ./LAB3

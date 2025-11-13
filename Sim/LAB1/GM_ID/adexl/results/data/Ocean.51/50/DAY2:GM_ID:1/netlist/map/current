@@ -1,0 +1,18 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "GM_ID"
+  repList "spectre cmos_sch cmos.sch schematic veriloga"
+  stopList "spectre"
+  globalList "gnd!"
+  hierDelim "."
+  netlistDir "/home/saul/projects/FIL3601/Sim/LAB1/GM_ID/adexl/results/data/Ocean.51/50/DAY2:GM_ID:1/netlist"
+ )
+( net
+( "gnd!" "0" )
+ )
+( model
+( "LAB1/GM_ID/schematic" "GM_ID" )
+ )
+( "GM_ID" "ihnl/cds0/map" )
+ )

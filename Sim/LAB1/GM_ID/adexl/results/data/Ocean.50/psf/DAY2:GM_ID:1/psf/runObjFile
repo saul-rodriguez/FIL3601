@@ -1,0 +1,877 @@
+HEADER
+"PSFversion" "1.00"
+"Run Generator" "drlRun rev. 1.0"
+"Run Time Stamp" "Nov 12 13:31:48 2025"
+"date" "Nov 12 13:31:49 2025"
+"simulator" "spectre"
+"netlistDir" "../netlist"
+"axlParamFlag" "true"
+ "externalSweepVariableCount" 1
+TYPE
+"runObject" STRUCT(
+"logName" ARRAY( * ) STRING *
+"parent" STRING *
+"sweepVariable" ARRAY( * ) STRING *
+) PROP( "key" "runObject" )
+VALUE
+"Root" "runObject" (
+("")
+""
+("IDS")
+)
+"IDS=1e-09" "runObject" (
+(
+"../../../1/DAY2:GM_ID:1/psf/logFile"
+"../../../1/DAY2:GM_ID:1/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 1
+"netlistDir" "../../../1/DAY2:GM_ID:1/netlist"
+"dataDir" "../../../1/DAY2:GM_ID:1"
+ "IDS" 1.000000e-09
+)
+
+"IDS=1.258925412e-09" "runObject" (
+(
+"../../../2/DAY2:GM_ID:1/psf/logFile"
+"../../../2/DAY2:GM_ID:1/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 2
+"netlistDir" "../../../2/DAY2:GM_ID:1/netlist"
+"dataDir" "../../../2/DAY2:GM_ID:1"
+ "IDS" 1.258925e-09
+)
+
+"IDS=1.584893192e-09" "runObject" (
+(
+"../../../3/DAY2:GM_ID:1/psf/logFile"
+"../../../3/DAY2:GM_ID:1/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 3
+"netlistDir" "../../../3/DAY2:GM_ID:1/netlist"
+"dataDir" "../../../3/DAY2:GM_ID:1"
+ "IDS" 1.584893e-09
+)
+
+"IDS=1.995262315e-09" "runObject" (
+(
+"../../../4/DAY2:GM_ID:1/psf/logFile"
+"../../../4/DAY2:GM_ID:1/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 4
+"netlistDir" "../../../4/DAY2:GM_ID:1/netlist"
+"dataDir" "../../../4/DAY2:GM_ID:1"
+ "IDS" 1.995262e-09
+)
+
+"IDS=2.511886432e-09" "runObject" (
+(
+"../../../5/DAY2:GM_ID:1/psf/logFile"
+"../../../5/DAY2:GM_ID:1/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 5
+"netlistDir" "../../../5/DAY2:GM_ID:1/netlist"
+"dataDir" "../../../5/DAY2:GM_ID:1"
+ "IDS" 2.511886e-09
+)
+
+"IDS=3.16227766e-09" "runObject" (
+(
+"../../../6/DAY2:GM_ID:1/psf/logFile"
+"../../../6/DAY2:GM_ID:1/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 6
+"netlistDir" "../../../6/DAY2:GM_ID:1/netlist"
+"dataDir" "../../../6/DAY2:GM_ID:1"
+ "IDS" 3.162278e-09
+)
+
+"IDS=3.981071706e-09" "runObject" (
+(
+"../../../7/DAY2:GM_ID:1/psf/logFile"
+"../../../7/DAY2:GM_ID:1/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 7
+"netlistDir" "../../../7/DAY2:GM_ID:1/netlist"
+"dataDir" "../../../7/DAY2:GM_ID:1"
+ "IDS" 3.981072e-09
+)
+
+"IDS=5.011872336e-09" "runObject" (
+(
+"../../../8/DAY2:GM_ID:1/psf/logFile"
+"../../../8/DAY2:GM_ID:1/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 8
+"netlistDir" "../../../8/DAY2:GM_ID:1/netlist"
+"dataDir" "../../../8/DAY2:GM_ID:1"
+ "IDS" 5.011872e-09
+)
+
+"IDS=6.309573445000001e-09" "runObject" (
+(
+"../../../9/DAY2:GM_ID:1/psf/logFile"
+"../../../9/DAY2:GM_ID:1/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 9
+"netlistDir" "../../../9/DAY2:GM_ID:1/netlist"
+"dataDir" "../../../9/DAY2:GM_ID:1"
+ "IDS" 6.309573e-09
+)
+
+"IDS=7.943282347000001e-09" "runObject" (
+(
+"../../../10/DAY2:GM_ID:1/psf/logFile"
+"../../../10/DAY2:GM_ID:1/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 10
+"netlistDir" "../../../10/DAY2:GM_ID:1/netlist"
+"dataDir" "../../../10/DAY2:GM_ID:1"
+ "IDS" 7.943282e-09
+)
+
+"IDS=1e-08" "runObject" (
+(
+"../../../11/DAY2:GM_ID:1/psf/logFile"
+"../../../11/DAY2:GM_ID:1/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 11
+"netlistDir" "../../../11/DAY2:GM_ID:1/netlist"
+"dataDir" "../../../11/DAY2:GM_ID:1"
+ "IDS" 1.000000e-08
+)
+
+"IDS=1.258925412e-08" "runObject" (
+(
+"../../../12/DAY2:GM_ID:1/psf/logFile"
+"../../../12/DAY2:GM_ID:1/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 12
+"netlistDir" "../../../12/DAY2:GM_ID:1/netlist"
+"dataDir" "../../../12/DAY2:GM_ID:1"
+ "IDS" 1.258925e-08
+)
+
+"IDS=1.584893192e-08" "runObject" (
+(
+"../../../13/DAY2:GM_ID:1/psf/logFile"
+"../../../13/DAY2:GM_ID:1/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 13
+"netlistDir" "../../../13/DAY2:GM_ID:1/netlist"
+"dataDir" "../../../13/DAY2:GM_ID:1"
+ "IDS" 1.584893e-08
+)
+
+"IDS=1.995262315e-08" "runObject" (
+(
+"../../../14/DAY2:GM_ID:1/psf/logFile"
+"../../../14/DAY2:GM_ID:1/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 14
+"netlistDir" "../../../14/DAY2:GM_ID:1/netlist"
+"dataDir" "../../../14/DAY2:GM_ID:1"
+ "IDS" 1.995262e-08
+)
+
+"IDS=2.511886432e-08" "runObject" (
+(
+"../../../15/DAY2:GM_ID:1/psf/logFile"
+"../../../15/DAY2:GM_ID:1/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 15
+"netlistDir" "../../../15/DAY2:GM_ID:1/netlist"
+"dataDir" "../../../15/DAY2:GM_ID:1"
+ "IDS" 2.511886e-08
+)
+
+"IDS=3.16227766e-08" "runObject" (
+(
+"../../../16/DAY2:GM_ID:1/psf/logFile"
+"../../../16/DAY2:GM_ID:1/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 16
+"netlistDir" "../../../16/DAY2:GM_ID:1/netlist"
+"dataDir" "../../../16/DAY2:GM_ID:1"
+ "IDS" 3.162278e-08
+)
+
+"IDS=3.981071706000001e-08" "runObject" (
+(
+"../../../17/DAY2:GM_ID:1/psf/logFile"
+"../../../17/DAY2:GM_ID:1/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 17
+"netlistDir" "../../../17/DAY2:GM_ID:1/netlist"
+"dataDir" "../../../17/DAY2:GM_ID:1"
+ "IDS" 3.981072e-08
+)
+
+"IDS=5.011872336e-08" "runObject" (
+(
+"../../../18/DAY2:GM_ID:1/psf/logFile"
+"../../../18/DAY2:GM_ID:1/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 18
+"netlistDir" "../../../18/DAY2:GM_ID:1/netlist"
+"dataDir" "../../../18/DAY2:GM_ID:1"
+ "IDS" 5.011872e-08
+)
+
+"IDS=6.309573445e-08" "runObject" (
+(
+"../../../19/DAY2:GM_ID:1/psf/logFile"
+"../../../19/DAY2:GM_ID:1/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 19
+"netlistDir" "../../../19/DAY2:GM_ID:1/netlist"
+"dataDir" "../../../19/DAY2:GM_ID:1"
+ "IDS" 6.309573e-08
+)
+
+"IDS=7.943282347e-08" "runObject" (
+(
+"../../../20/DAY2:GM_ID:1/psf/logFile"
+"../../../20/DAY2:GM_ID:1/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 20
+"netlistDir" "../../../20/DAY2:GM_ID:1/netlist"
+"dataDir" "../../../20/DAY2:GM_ID:1"
+ "IDS" 7.943282e-08
+)
+
+"IDS=1e-07" "runObject" (
+(
+"../../../21/DAY2:GM_ID:1/psf/logFile"
+"../../../21/DAY2:GM_ID:1/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 21
+"netlistDir" "../../../21/DAY2:GM_ID:1/netlist"
+"dataDir" "../../../21/DAY2:GM_ID:1"
+ "IDS" 1.000000e-07
+)
+
+"IDS=1.258925412e-07" "runObject" (
+(
+"../../../22/DAY2:GM_ID:1/psf/logFile"
+"../../../22/DAY2:GM_ID:1/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 22
+"netlistDir" "../../../22/DAY2:GM_ID:1/netlist"
+"dataDir" "../../../22/DAY2:GM_ID:1"
+ "IDS" 1.258925e-07
+)
+
+"IDS=1.584893192e-07" "runObject" (
+(
+"../../../23/DAY2:GM_ID:1/psf/logFile"
+"../../../23/DAY2:GM_ID:1/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 23
+"netlistDir" "../../../23/DAY2:GM_ID:1/netlist"
+"dataDir" "../../../23/DAY2:GM_ID:1"
+ "IDS" 1.584893e-07
+)
+
+"IDS=1.995262315e-07" "runObject" (
+(
+"../../../24/DAY2:GM_ID:1/psf/logFile"
+"../../../24/DAY2:GM_ID:1/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 24
+"netlistDir" "../../../24/DAY2:GM_ID:1/netlist"
+"dataDir" "../../../24/DAY2:GM_ID:1"
+ "IDS" 1.995262e-07
+)
+
+"IDS=2.511886432e-07" "runObject" (
+(
+"../../../25/DAY2:GM_ID:1/psf/logFile"
+"../../../25/DAY2:GM_ID:1/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 25
+"netlistDir" "../../../25/DAY2:GM_ID:1/netlist"
+"dataDir" "../../../25/DAY2:GM_ID:1"
+ "IDS" 2.511886e-07
+)
+
+"IDS=3.16227766e-07" "runObject" (
+(
+"../../../26/DAY2:GM_ID:1/psf/logFile"
+"../../../26/DAY2:GM_ID:1/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 26
+"netlistDir" "../../../26/DAY2:GM_ID:1/netlist"
+"dataDir" "../../../26/DAY2:GM_ID:1"
+ "IDS" 3.162278e-07
+)
+
+"IDS=3.981071706e-07" "runObject" (
+(
+"../../../27/DAY2:GM_ID:1/psf/logFile"
+"../../../27/DAY2:GM_ID:1/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 27
+"netlistDir" "../../../27/DAY2:GM_ID:1/netlist"
+"dataDir" "../../../27/DAY2:GM_ID:1"
+ "IDS" 3.981072e-07
+)
+
+"IDS=5.011872336e-07" "runObject" (
+(
+"../../../28/DAY2:GM_ID:1/psf/logFile"
+"../../../28/DAY2:GM_ID:1/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 28
+"netlistDir" "../../../28/DAY2:GM_ID:1/netlist"
+"dataDir" "../../../28/DAY2:GM_ID:1"
+ "IDS" 5.011872e-07
+)
+
+"IDS=6.309573445e-07" "runObject" (
+(
+"../../../29/DAY2:GM_ID:1/psf/logFile"
+"../../../29/DAY2:GM_ID:1/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 29
+"netlistDir" "../../../29/DAY2:GM_ID:1/netlist"
+"dataDir" "../../../29/DAY2:GM_ID:1"
+ "IDS" 6.309573e-07
+)
+
+"IDS=7.943282347000001e-07" "runObject" (
+(
+"../../../30/DAY2:GM_ID:1/psf/logFile"
+"../../../30/DAY2:GM_ID:1/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 30
+"netlistDir" "../../../30/DAY2:GM_ID:1/netlist"
+"dataDir" "../../../30/DAY2:GM_ID:1"
+ "IDS" 7.943282e-07
+)
+
+"IDS=1e-06" "runObject" (
+(
+"../../../31/DAY2:GM_ID:1/psf/logFile"
+"../../../31/DAY2:GM_ID:1/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 31
+"netlistDir" "../../../31/DAY2:GM_ID:1/netlist"
+"dataDir" "../../../31/DAY2:GM_ID:1"
+ "IDS" 1.000000e-06
+)
+
+"IDS=1.258925412e-06" "runObject" (
+(
+"../../../32/DAY2:GM_ID:1/psf/logFile"
+"../../../32/DAY2:GM_ID:1/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 32
+"netlistDir" "../../../32/DAY2:GM_ID:1/netlist"
+"dataDir" "../../../32/DAY2:GM_ID:1"
+ "IDS" 1.258925e-06
+)
+
+"IDS=1.584893192e-06" "runObject" (
+(
+"../../../33/DAY2:GM_ID:1/psf/logFile"
+"../../../33/DAY2:GM_ID:1/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 33
+"netlistDir" "../../../33/DAY2:GM_ID:1/netlist"
+"dataDir" "../../../33/DAY2:GM_ID:1"
+ "IDS" 1.584893e-06
+)
+
+"IDS=1.995262315e-06" "runObject" (
+(
+"../../../34/DAY2:GM_ID:1/psf/logFile"
+"../../../34/DAY2:GM_ID:1/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 34
+"netlistDir" "../../../34/DAY2:GM_ID:1/netlist"
+"dataDir" "../../../34/DAY2:GM_ID:1"
+ "IDS" 1.995262e-06
+)
+
+"IDS=2.511886432e-06" "runObject" (
+(
+"../../../35/DAY2:GM_ID:1/psf/logFile"
+"../../../35/DAY2:GM_ID:1/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 35
+"netlistDir" "../../../35/DAY2:GM_ID:1/netlist"
+"dataDir" "../../../35/DAY2:GM_ID:1"
+ "IDS" 2.511886e-06
+)
+
+"IDS=3.16227766e-06" "runObject" (
+(
+"../../../36/DAY2:GM_ID:1/psf/logFile"
+"../../../36/DAY2:GM_ID:1/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 36
+"netlistDir" "../../../36/DAY2:GM_ID:1/netlist"
+"dataDir" "../../../36/DAY2:GM_ID:1"
+ "IDS" 3.162278e-06
+)
+
+"IDS=3.981071706e-06" "runObject" (
+(
+"../../../37/DAY2:GM_ID:1/psf/logFile"
+"../../../37/DAY2:GM_ID:1/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 37
+"netlistDir" "../../../37/DAY2:GM_ID:1/netlist"
+"dataDir" "../../../37/DAY2:GM_ID:1"
+ "IDS" 3.981072e-06
+)
+
+"IDS=5.011872336e-06" "runObject" (
+(
+"../../../38/DAY2:GM_ID:1/psf/logFile"
+"../../../38/DAY2:GM_ID:1/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 38
+"netlistDir" "../../../38/DAY2:GM_ID:1/netlist"
+"dataDir" "../../../38/DAY2:GM_ID:1"
+ "IDS" 5.011872e-06
+)
+
+"IDS=6.309573445e-06" "runObject" (
+(
+"../../../39/DAY2:GM_ID:1/psf/logFile"
+"../../../39/DAY2:GM_ID:1/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 39
+"netlistDir" "../../../39/DAY2:GM_ID:1/netlist"
+"dataDir" "../../../39/DAY2:GM_ID:1"
+ "IDS" 6.309573e-06
+)
+
+"IDS=7.943282346999999e-06" "runObject" (
+(
+"../../../40/DAY2:GM_ID:1/psf/logFile"
+"../../../40/DAY2:GM_ID:1/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 40
+"netlistDir" "../../../40/DAY2:GM_ID:1/netlist"
+"dataDir" "../../../40/DAY2:GM_ID:1"
+ "IDS" 7.943282e-06
+)
+
+"IDS=9.999999999999999e-06" "runObject" (
+(
+"../../../41/DAY2:GM_ID:1/psf/logFile"
+"../../../41/DAY2:GM_ID:1/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 41
+"netlistDir" "../../../41/DAY2:GM_ID:1/netlist"
+"dataDir" "../../../41/DAY2:GM_ID:1"
+ "IDS" 1.000000e-05
+)
+
+"IDS=1.258925412e-05" "runObject" (
+(
+"../../../42/DAY2:GM_ID:1/psf/logFile"
+"../../../42/DAY2:GM_ID:1/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 42
+"netlistDir" "../../../42/DAY2:GM_ID:1/netlist"
+"dataDir" "../../../42/DAY2:GM_ID:1"
+ "IDS" 1.258925e-05
+)
+
+"IDS=1.584893192e-05" "runObject" (
+(
+"../../../43/DAY2:GM_ID:1/psf/logFile"
+"../../../43/DAY2:GM_ID:1/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 43
+"netlistDir" "../../../43/DAY2:GM_ID:1/netlist"
+"dataDir" "../../../43/DAY2:GM_ID:1"
+ "IDS" 1.584893e-05
+)
+
+"IDS=1.995262315e-05" "runObject" (
+(
+"../../../44/DAY2:GM_ID:1/psf/logFile"
+"../../../44/DAY2:GM_ID:1/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 44
+"netlistDir" "../../../44/DAY2:GM_ID:1/netlist"
+"dataDir" "../../../44/DAY2:GM_ID:1"
+ "IDS" 1.995262e-05
+)
+
+"IDS=2.511886432e-05" "runObject" (
+(
+"../../../45/DAY2:GM_ID:1/psf/logFile"
+"../../../45/DAY2:GM_ID:1/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 45
+"netlistDir" "../../../45/DAY2:GM_ID:1/netlist"
+"dataDir" "../../../45/DAY2:GM_ID:1"
+ "IDS" 2.511886e-05
+)
+
+"IDS=3.16227766e-05" "runObject" (
+(
+"../../../46/DAY2:GM_ID:1/psf/logFile"
+"../../../46/DAY2:GM_ID:1/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 46
+"netlistDir" "../../../46/DAY2:GM_ID:1/netlist"
+"dataDir" "../../../46/DAY2:GM_ID:1"
+ "IDS" 3.162278e-05
+)
+
+"IDS=3.981071706e-05" "runObject" (
+(
+"../../../47/DAY2:GM_ID:1/psf/logFile"
+"../../../47/DAY2:GM_ID:1/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 47
+"netlistDir" "../../../47/DAY2:GM_ID:1/netlist"
+"dataDir" "../../../47/DAY2:GM_ID:1"
+ "IDS" 3.981072e-05
+)
+
+"IDS=5.011872336e-05" "runObject" (
+(
+"../../../48/DAY2:GM_ID:1/psf/logFile"
+"../../../48/DAY2:GM_ID:1/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 48
+"netlistDir" "../../../48/DAY2:GM_ID:1/netlist"
+"dataDir" "../../../48/DAY2:GM_ID:1"
+ "IDS" 5.011872e-05
+)
+
+"IDS=6.309573444999999e-05" "runObject" (
+(
+"../../../49/DAY2:GM_ID:1/psf/logFile"
+"../../../49/DAY2:GM_ID:1/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 49
+"netlistDir" "../../../49/DAY2:GM_ID:1/netlist"
+"dataDir" "../../../49/DAY2:GM_ID:1"
+ "IDS" 6.309573e-05
+)
+
+"IDS=7.943282347e-05" "runObject" (
+(
+"../../../50/DAY2:GM_ID:1/psf/logFile"
+"../../../50/DAY2:GM_ID:1/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 50
+"netlistDir" "../../../50/DAY2:GM_ID:1/netlist"
+"dataDir" "../../../50/DAY2:GM_ID:1"
+ "IDS" 7.943282e-05
+)
+
+"IDS=9.999999999999999e-05" "runObject" (
+(
+"../../../51/DAY2:GM_ID:1/psf/logFile"
+"../../../51/DAY2:GM_ID:1/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 51
+"netlistDir" "../../../51/DAY2:GM_ID:1/netlist"
+"dataDir" "../../../51/DAY2:GM_ID:1"
+ "IDS" 1.000000e-04
+)
+
+"IDS=0.0001258925412" "runObject" (
+(
+"../../../52/DAY2:GM_ID:1/psf/logFile"
+"../../../52/DAY2:GM_ID:1/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 52
+"netlistDir" "../../../52/DAY2:GM_ID:1/netlist"
+"dataDir" "../../../52/DAY2:GM_ID:1"
+ "IDS" 1.258925e-04
+)
+
+"IDS=0.0001584893192" "runObject" (
+(
+"../../../53/DAY2:GM_ID:1/psf/logFile"
+"../../../53/DAY2:GM_ID:1/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 53
+"netlistDir" "../../../53/DAY2:GM_ID:1/netlist"
+"dataDir" "../../../53/DAY2:GM_ID:1"
+ "IDS" 1.584893e-04
+)
+
+"IDS=0.0001995262315" "runObject" (
+(
+"../../../54/DAY2:GM_ID:1/psf/logFile"
+"../../../54/DAY2:GM_ID:1/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 54
+"netlistDir" "../../../54/DAY2:GM_ID:1/netlist"
+"dataDir" "../../../54/DAY2:GM_ID:1"
+ "IDS" 1.995262e-04
+)
+
+"IDS=0.0002511886432" "runObject" (
+(
+"../../../55/DAY2:GM_ID:1/psf/logFile"
+"../../../55/DAY2:GM_ID:1/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 55
+"netlistDir" "../../../55/DAY2:GM_ID:1/netlist"
+"dataDir" "../../../55/DAY2:GM_ID:1"
+ "IDS" 2.511886e-04
+)
+
+"IDS=0.000316227766" "runObject" (
+(
+"../../../56/DAY2:GM_ID:1/psf/logFile"
+"../../../56/DAY2:GM_ID:1/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 56
+"netlistDir" "../../../56/DAY2:GM_ID:1/netlist"
+"dataDir" "../../../56/DAY2:GM_ID:1"
+ "IDS" 3.162278e-04
+)
+
+"IDS=0.0003981071706" "runObject" (
+(
+"../../../57/DAY2:GM_ID:1/psf/logFile"
+"../../../57/DAY2:GM_ID:1/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 57
+"netlistDir" "../../../57/DAY2:GM_ID:1/netlist"
+"dataDir" "../../../57/DAY2:GM_ID:1"
+ "IDS" 3.981072e-04
+)
+
+END

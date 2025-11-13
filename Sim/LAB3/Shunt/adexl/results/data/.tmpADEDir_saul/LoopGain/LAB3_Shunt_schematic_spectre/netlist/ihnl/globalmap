@@ -1,0 +1,28 @@
+CADENCE IHNL11140
+$model
+LAB3/Shunt/schematic Shunt
+DAY2/MOS_AC/schematic MOS_AC
+$endmodel
+$net
+gnd! 0
+$endnet
+$param
+cgs2 cgs2
+cgb2 cgb2
+cgs1 cgs1
+gm1 gm1
+temperature temperature
+IT IT
+cds2 cds2
+gm gm
+IS IS
+rds2 rds2
+cdb1 cdb1
+cgd1 cgd1
+cdb2 cdb2
+cgb1 cgb1
+cgd2 cgd2
+rds1 rds1
+cds1 cds1
+gm2 gm2
+$endparam

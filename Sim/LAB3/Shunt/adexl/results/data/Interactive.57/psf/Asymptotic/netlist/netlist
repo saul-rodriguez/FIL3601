@@ -1,0 +1,32 @@
+
+// Library name: DAY2
+// Cell name: MOS_AC
+// View name: schematic
+subckt MOS_AC D G S
+parameters _par0 rds cgb cgs cgd cdb cds
+    G0 (D S G S) vccs gm=_par0
+    R0 (D S) resistor r=rds
+    C6 (G S) capacitor c=cgb
+    C5 (G S) capacitor c=cgs
+    C4 (G D) capacitor c=cgd
+    C3 (D S) capacitor c=cdb
+    C0 (D S) capacitor c=cds
+ends MOS_AC
+// End of subcircuit definition.
+
+// Library name: LAB3
+// Cell name: Shunt
+// View name: schematic
+R2 (0 VG) resistor r=100k
+R0 (VG VOUT) resistor r=1M
+C2 (VG VOUT) capacitor c=20f
+C1 (VG 0) capacitor c=2p
+C0 (VOUT 0) capacitor c=100f
+I5 (0 VG) isource mag=IS type=sine
+I4 (net3 0) isource mag=IT type=sine
+I10 (VOUT net3 0) MOS_AC _par0=gm2 rds=rds2 cgb=cgb2 cgs=cgs2 cgd=cgd2 \
+        cdb=cdb2 cds=cds2
+I8 (net3 0 net2) MOS_AC _par0=gm1 rds=rds1 cgb=cgb1 cgs=cgs1 cgd=cgd1 \
+        cdb=cdb1 cds=cds1
+I0 (0 VG net2) MOS_AC _par0=gm1 rds=rds1 cgb=cgb1 cgs=cgs1 cgd=cgd1 \
+        cdb=cdb1 cds=cds1

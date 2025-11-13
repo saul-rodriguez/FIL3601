@@ -1,0 +1,64 @@
+// Point Netlist Generated on: Nov 13 09:56:31 2025
+// Generated for: spectre
+// Design Netlist Generated on: Nov 13 09:56:31 2025
+// Design library name: LAB3
+// Design cell name: Shunt
+// Design view name: schematic
+simulator lang=spectre
+global 0
+parameters temperature=27 cdb2=36.3f cds2=0 cgb2=36.3f cgd2=25.6f \
+    cgs2=28.61f gm2=0.2291m rds2=200823 IS=1 IT=0 cdb1=160f cds1=46.01f \
+    cgb1=160.37f cgd1=26.40f cgs1=112.78f gm1=1000 rds1=23893065.17
+include "/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/config.scs" section=default
+include "/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/param.scs" section=3s
+include "/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/bip.scs" section=tm
+include "/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/cap.scs" section=tm
+include "/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/dio.scs" section=tm
+include "/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/mos.scs" section=tm
+include "/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/photo.scs" section=tm
+include "/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/res.scs" section=tm
+
+// Library name: DAY2
+// Cell name: MOS_AC
+// View name: schematic
+subckt MOS_AC D G S
+parameters _par0 rds cgb cgs cgd cdb cds
+    G0 (D S G S) vccs gm=_par0
+    R0 (D S) resistor r=rds
+    C6 (G S) capacitor c=cgb
+    C5 (G S) capacitor c=cgs
+    C4 (G D) capacitor c=cgd
+    C3 (D S) capacitor c=cdb
+    C0 (D S) capacitor c=cds
+ends MOS_AC
+// End of subcircuit definition.
+
+// Library name: LAB3
+// Cell name: Shunt
+// View name: schematic
+R2 (0 VG) resistor r=100k
+R0 (VG VOUT) resistor r=1M
+C2 (VG VOUT) capacitor c=15f
+C1 (VG 0) capacitor c=2p
+C0 (VOUT 0) capacitor c=100f
+I5 (0 VG) isource mag=IS type=sine
+I4 (net3 0) isource mag=IT type=sine
+I10 (VOUT net3 0) MOS_AC _par0=gm2 rds=rds2 cgb=cgb2 cgs=cgs2 cgd=cgd2 \
+        cdb=cdb2 cds=cds2
+I8 (net3 0 net2) MOS_AC _par0=gm1 rds=rds1 cgb=cgb1 cgs=cgs1 cgd=cgd1 \
+        cdb=cdb1 cds=cds1
+I0 (0 VG net2) MOS_AC _par0=gm1 rds=rds1 cgb=cgb1 cgs=cgs1 cgd=cgd1 \
+        cdb=cdb1 cds=cds1
+simulatorOptions options psfversion="1.4.0" reltol=1e-3 vabstol=1e-6 \
+    iabstol=1e-12 temp=27 tnom=27 scalem=1.0 scale=1.0 gmin=1e-12 rforce=1 \
+    maxnotes=5 maxwarns=5 digits=5 cols=80 pivrel=1e-3 \
+    sensfile="../psf/sens.output" checklimitdest=psf 
+ac ac start=0.01 stop=10G dec=20 annotate=status 
+pz ( VOUT ) pz iprobe=I5 freq=1 
+modelParameter info what=models where=rawfile
+element info what=inst where=rawfile
+outputParameter info what=output where=rawfile
+designParamVals info what=parameters where=rawfile
+primitives info what=primitives where=rawfile
+subckts info what=subckts where=rawfile
+saveOptions options save=allpub
