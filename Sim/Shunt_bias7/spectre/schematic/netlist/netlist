@@ -1,0 +1,27 @@
+
+// Library name: LAB4
+// Cell name: Shunt_bias7
+// View name: schematic
+M2 (net10 net11 net2 net2) nel w=10u l=1u as=4.8e-12 ad=4.8e-12 \
+        ps=2.096e-05 pd=2.096e-05 nrs=0.027 nrd=0.027 m=(8)*(1) \
+        par1=(8)*(1) xf_subext=0
+M0 (net4 net3 net2 net2) nel w=10u l=1u as=4.8e-12 ad=4.8e-12 ps=2.096e-05 \
+        pd=2.096e-05 nrs=0.027 nrd=0.027 m=(8)*(1) par1=(8)*(1) \
+        xf_subext=0
+M3 (VOUT net10 net4 net4) pel w=8u l=250.0n as=2.496e-12 ad=2.16e-12 \
+        ps=1.0224e-05 pd=8.54e-06 nrs=0.03375 nrd=0.03375 m=(1)*(10) \
+        par1=(1)*(10)
+V11 (net3 net1) vsource dc=70.8m type=dc
+V4 (VG net1) vsource dc=70.8m type=dc
+V2 (net11 0) vsource dc=0 type=dc
+V1 (net4 0) vsource dc=1.8 type=dc
+I20 (net4 net10) isource dc=10u type=dc
+I17 (VOUT 0) isource dc=10u type=dc
+I10 (net2 0) isource dc=20u type=dc
+I2 (0 net4) isource dc=10u type=dc
+C2 (net1 VOUT) capacitor c=30f
+C1 (VG 0) capacitor c=2p
+C0 (VOUT 0) capacitor c=100f
+R2 (0 VG) resistor r=100k
+R0 (net1 VOUT) resistor r=1M
+I7 (0 VG) isource mag=IS type=sine

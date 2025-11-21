@@ -1,0 +1,6 @@
+parameters temperature=27 gm=0.122m IT=1 VIN=0 gm3=0.319m rds3=13.043M \
+    cgb3=84.34f cgs3=372.5f cgd3=13.22f cdb3=79.52f cds3=184.79f \
+    cdb2=9.65f cds2=0.02f cgb2=3.61f cgd2=3.2f cgs2=26.9f gm2=0.227m \
+    rds2=452599 cdb4=66f cds4=0.77f cgb4=178f cgd4=25.65f cgs4=317f \
+    gm4=97u rds4=2.355M cdb1=32.99f cds1=0.96f cgb1=35f cgd1=13.2f \
+    cgs1=14.9f gm1=0 rds1=4.068M

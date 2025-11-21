@@ -1,0 +1,18 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "Shunt_bias9"
+  repList "spectre cmos_sch cmos.sch schematic veriloga"
+  stopList "spectre"
+  globalList "gnd!"
+  hierDelim "."
+  netlistDir "/home/saul/projects/FIL3601/Sim/Shunt_bias9/spectre/schematic/netlist"
+ )
+( net
+( "gnd!" "0" )
+ )
+( model
+( "LAB4/Shunt_bias9/schematic" "Shunt_bias9" )
+ )
+( "Shunt_bias9" "ihnl/cds0/map" )
+ )

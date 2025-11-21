@@ -1,0 +1,46 @@
+
+// Library name: DAY8
+// Cell name: trans_2st_bias6
+// View name: schematic
+M4 (net3 net3 0 0) nel w=5u l=4u as=1.875e-12 ad=1.35e-12 ps=8.25e-06 \
+        pd=5.54e-06 nrs=0.054 nrd=0.054 m=(1)*(4) par1=(1)*(4) xf_subext=0
+M3 (net6 net3 0 0) nel w=5u l=4u as=1.875e-12 ad=1.35e-12 ps=8.25e-06 \
+        pd=5.54e-06 nrs=0.054 nrd=0.054 m=(2)*(4) par1=(2)*(4) xf_subext=0
+M2 (VDD net7 VOUT 0) nel w=5u l=180.0n as=1.6125e-12 ad=1.35e-12 \
+        ps=6.895e-06 pd=5.54e-06 nrs=0.054 nrd=0.054 m=(1)*(8) \
+        par1=(1)*(8) xf_subext=0
+M9 (net8 net3 0 0) nel w=5u l=4u as=1.875e-12 ad=1.35e-12 ps=8.25e-06 \
+        pd=5.54e-06 nrs=0.054 nrd=0.054 m=(2)*(4) par1=(2)*(4) xf_subext=0
+M1 (net7 net9 net4 0) nel w=5u l=180.0n as=1.6125e-12 ad=1.35e-12 \
+        ps=6.895e-06 pd=5.54e-06 nrs=0.054 nrd=0.054 m=(1)*(8) \
+        par1=(1)*(8) xf_subext=0
+M12 (VOUT net3 0 0) nel w=5u l=4u as=1.875e-12 ad=1.35e-12 ps=8.25e-06 \
+        pd=5.54e-06 nrs=0.054 nrd=0.054 m=(15)*(4) par1=(15)*(4) \
+        xf_subext=0
+M11 (net9 net9 net3 0) nel w=5u l=180.0n as=1.875e-12 ad=1.35e-12 \
+        ps=8.25e-06 pd=5.54e-06 nrs=0.054 nrd=0.054 m=(1)*(4) par1=(1)*(4) \
+        xf_subext=0
+M0 (net4 net1 0 0) nel w=5u l=180.0n as=1.6125e-12 ad=1.35e-12 \
+        ps=6.895e-06 pd=5.54e-06 nrs=0.054 nrd=0.054 m=(1)*(8) \
+        par1=(1)*(8) xf_subext=0
+R1 (0 net11) resistor r=100K
+R2 (0 VOUT) resistor r=100K
+R0 (net1 VOUT) resistor r=100K
+C17 (net11 0) capacitor c=1p
+C0 (net1 VOUT) capacitor c=100f
+C1 (net11 net1) capacitor c=1u
+V6 (VDD 0) vsource dc=1.8 type=dc
+I3 (VDD net9) isource dc=1u type=dc
+I1 (0 net11) isource dc=IN mag=1 type=sine
+C3 (VDD net8 0) mosvc w=20u l=10u m=(1)*(1) par1=(1)*(1) xf_subext=0
+C2 (VDD net6 0) mosvc w=20u l=10u m=(1)*(1) par1=(1)*(1) xf_subext=0
+M6 (net13 net6 VDD VDD) pel w=1u l=8u as=4.8e-13 ad=4.8e-13 ps=2.96e-06 \
+        pd=2.96e-06 nrs=0.27 nrd=0.27 m=(10)*(1) par1=(10)*(1)
+M5 (net5 net6 VDD VDD) pel w=1u l=8u as=4.8e-13 ad=4.8e-13 ps=2.96e-06 \
+        pd=2.96e-06 nrs=0.27 nrd=0.27 m=(1)*(1) par1=(1)*(1)
+M7 (net7 net8 net13 VDD) pel w=5u l=1u as=2.4e-12 ad=2.4e-12 ps=1.096e-05 \
+        pd=1.096e-05 nrs=0.054 nrd=0.054 m=(10)*(1) par1=(10)*(1)
+M8 (net6 net8 net5 VDD) pel w=5u l=1u as=2.4e-12 ad=2.4e-12 ps=1.096e-05 \
+        pd=1.096e-05 nrs=0.054 nrd=0.054 m=(10)*(1) par1=(10)*(1)
+M10 (net8 net8 VDD VDD) pel w=1u l=5u as=4.8e-13 ad=4.8e-13 ps=2.96e-06 \
+        pd=2.96e-06 nrs=0.27 nrd=0.27 m=(1)*(1) par1=(1)*(1)

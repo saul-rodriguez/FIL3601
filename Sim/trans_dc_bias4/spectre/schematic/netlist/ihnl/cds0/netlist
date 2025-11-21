@@ -1,0 +1,47 @@
+
+// Library name: DAY8
+// Cell name: trans_dc_bias4
+// View name: schematic
+M14 (net13 net13 0 0) nel w=1u l=1u as=3.75e-13 ad=2.7e-13 ps=2.25e-06 \
+        pd=1.54e-06 nrs=0.27 nrd=0.27 m=(1)*(4) par1=(1)*(4) xf_subext=0
+M13 (net12 net13 0 0) nel w=1u l=1u as=3.75e-13 ad=2.7e-13 ps=2.25e-06 \
+        pd=1.54e-06 nrs=0.27 nrd=0.27 m=(1)*(4) par1=(1)*(4) xf_subext=0
+M7 (net4 net5 0 0) nel w=5u l=4u as=2.4e-12 ad=2.4e-12 ps=1.096e-05 \
+        pd=1.096e-05 nrs=0.054 nrd=0.054 m=(1)*(1) par1=(1)*(1) \
+        xf_subext=0
+M3 (net2 net5 0 0) nel w=5u l=4u as=2.4e-12 ad=2.4e-12 ps=1.096e-05 \
+        pd=1.096e-05 nrs=0.054 nrd=0.054 m=(40)*(1) par1=(40)*(1) \
+        xf_subext=0
+M4 (net5 net5 0 0) nel w=5u l=4u as=2.4e-12 ad=2.4e-12 ps=1.096e-05 \
+        pd=1.096e-05 nrs=0.054 nrd=0.054 m=(2)*(1) par1=(2)*(1) \
+        xf_subext=0
+M0 (VOUT net12 0 0) nel w=5u l=1u as=1.6125e-12 ad=1.35e-12 ps=6.895e-06 \
+        pd=5.54e-06 nrs=0.054 nrd=0.054 m=(1)*(8) par1=(1)*(8) xf_subext=0
+R2 (net7 VOUT) resistor r=200K
+R1 (0 net8) resistor r=100K
+R0 (net1 VOUT) resistor r=100K
+C5 (net8 net12) capacitor c=50p
+C0 (net1 VOUT) capacitor c=25f
+C6 (net12 net1) capacitor c=50p
+C3 (VOUT 0) capacitor c=100f
+V4 (net9 net11) vsource dc=900m type=dc
+V3 (VDD 0) vsource dc=1.8 type=dc
+I3 (VDD net5) isource dc=100n type=dc
+I1 (0 net8) isource dc=IN mag=1 type=sine
+M8 (net4 net4 VDD VDD) pel w=5u l=2.5u as=2.4e-12 ad=2.4e-12 ps=1.096e-05 \
+        pd=1.096e-05 nrs=0.054 nrd=0.054 m=(1)*(1) par1=(1)*(1)
+M9 (net6 net4 VDD VDD) pel w=5u l=2.5u as=2.4e-12 ad=2.4e-12 ps=1.096e-05 \
+        pd=1.096e-05 nrs=0.054 nrd=0.054 m=(1)*(1) par1=(1)*(1)
+M6 (net12 net9 net6 VDD) pel w=1u l=2u as=4.8e-13 ad=4.8e-13 ps=2.96e-06 \
+        pd=2.96e-06 nrs=0.27 nrd=0.27 m=(10)*(1) par1=(10)*(1)
+M5 (net13 net7 net6 VDD) pel w=1u l=2u as=4.8e-13 ad=4.8e-13 ps=2.96e-06 \
+        pd=2.96e-06 nrs=0.27 nrd=0.27 m=(10)*(1) par1=(10)*(1)
+M2 (net2 net2 VDD VDD) pel w=5u l=2.5u as=2.4e-12 ad=2.4e-12 ps=1.096e-05 \
+        pd=1.096e-05 nrs=0.054 nrd=0.054 m=(1)*(1) par1=(1)*(1)
+M1 (VOUT net2 VDD VDD) pel w=5u l=2.5u as=2.4e-12 ad=2.4e-12 ps=1.096e-05 \
+        pd=1.096e-05 nrs=0.054 nrd=0.054 m=(10)*(1) par1=(10)*(1)
+C7 (VDD net4 0) mosvc w=20u l=10u m=(1)*(1) par1=(1)*(1) xf_subext=0
+C8 (net7 0 0) mosvc w=30u l=30u m=(5)*(1) par1=(5)*(1) xf_subext=0
+C2 (VDD net2 0) mosvc w=20u l=10u m=(1)*(1) par1=(1)*(1) xf_subext=0
+V0 (net11 0) vsource type=pulse val0=0 val1=100m period=1 delay=400u \
+        rise=10n fall=1n width=500.0m

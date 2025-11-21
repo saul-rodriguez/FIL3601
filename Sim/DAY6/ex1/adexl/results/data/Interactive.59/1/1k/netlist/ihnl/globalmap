@@ -1,0 +1,13 @@
+CADENCE IHNL11140
+$model
+DAY6/ex1/schematic ex1
+$endmodel
+$net
+gnd! 0
+$endnet
+$param
+temperature temperature
+VPULSE VPULSE
+FREQ FREQ
+VIN VIN
+$endparam

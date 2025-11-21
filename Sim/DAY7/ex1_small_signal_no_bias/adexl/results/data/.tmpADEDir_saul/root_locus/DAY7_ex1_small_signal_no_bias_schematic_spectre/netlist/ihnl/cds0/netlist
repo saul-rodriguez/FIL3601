@@ -4,7 +4,7 @@
 // View name: schematic
 I36 (net4 0) isource mag=IT type=sine
 V8 (net14 0) vsource mag=VIN type=sine
-R13 (net3 VOUT) resistor r=61k
+R13 (net3 VOUT) resistor r=40k
 R11 (VOUT VB) resistor r=180k
 R5 (net4 0) resistor r=rds1
 R7 (VOUT 0) resistor r=rds2
@@ -17,7 +17,7 @@ C2 (VB 0) capacitor c=cgd1
 C1 (net14 net4) capacitor c=cgd1
 C10 (VOUT 0) capacitor c=cds2+cdb2
 C8 (net4 VOUT) capacitor c=cgd2
-C13 (net1 VB) capacitor c=43f
+C13 (VOUT VB) capacitor c=50f
 C15 (VOUT 0) capacitor c=1p
 G1 (VOUT 0 net4 0) vccs gm=gm2
 G0 (net4 0 net14 VB) vccs gm=gm1

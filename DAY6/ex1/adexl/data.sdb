@@ -177,7 +177,7 @@
 				</dependentTests>
 			</var>
 			<var enabled="0">VIN
-				<value>0</value>
+				<value>500m</value>
 				<dependentTests>
 					<dependentTest enabled="0">1k</dependentTest>
 					<dependentTest enabled="0">3M</dependentTest>
@@ -185,7 +185,7 @@
 				</dependentTests>
 			</var>
 			<var enabled="0">VPULSE
-				<value>500m</value>
+				<value>0</value>
 				<dependentTests>
 					<dependentTest enabled="0">1k</dependentTest>
 					<dependentTest enabled="0">3M</dependentTest>
@@ -223,2227 +223,9 @@
 		<jobpolicyname>ADE XL Default</jobpolicyname>
 		<disabledtests>
 			<test>1k</test>
-			<test>SR</test>
 		</disabledtests>
 	</active>
 	<history>History
-		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.49
-			<checkpoint>
-				<corners>
-					<corner enabled="1">_default</corner>
-				</corners>
-				<extensions>
-					<extension>Parasitics
-						<callback>_parSetupDBExtensionCB</callback>
-						<iconvalue></iconvalue>
-						<icontype></icontype>
-					</extension>
-				</extensions>
-				<currentmode>Single Run, Sweeps and Corners</currentmode>
-				<overwritehistory>0</overwritehistory>
-				<tests>
-					<test enabled="1">1k
-						<tool>ADE</tool>
-						<tooloptions>
-							<option>cell
-								<value>ex1</value>
-							</option>
-							<option>lib
-								<value>DAY6</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>state
-								<value>1k_none_Interactive.49</value>
-							</option>
-						</tooloptions>
-						<origoptions>
-							<option>cell
-								<value>ex1</value>
-							</option>
-							<option>lib
-								<value>DAY6</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</origoptions>
-						<outputs>
-							<output>dB20(leafValue(VF("/VOUT") "VPULSE" 0))
-								<evalType>point</evalType>
-							</output>
-							<output>dB20(VF("/VOUT"))
-								<evalType>point</evalType>
-							</output>
-						</outputs>
-					</test>
-					<test enabled="1">3M
-						<tool>ADE</tool>
-						<outputs>
-							<output>dB20(leafValue(VF("/VOUT") "VPULSE" 0))
-								<evalType>point</evalType>
-							</output>
-							<output>dB20(VF("/VOUT"))
-								<evalType>point</evalType>
-							</output>
-						</outputs>
-						<tooloptions>
-							<option>cell
-								<value>ex1</value>
-							</option>
-							<option>lib
-								<value>DAY6</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>state
-								<value>3M_DAY6:ex1:1:1_state_Interactive.49</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</tooloptions>
-						<prerunscript>0</prerunscript>
-						<origoptions>
-							<option>cell
-								<value>ex1</value>
-							</option>
-							<option>lib
-								<value>DAY6</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>state
-								<value>DAY6:ex1:1:1_state</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</origoptions>
-					</test>
-					<test enabled="1">SR
-						<tool>ADE</tool>
-						<outputs>
-							<output>dB20(leafValue(VF("/VOUT") "VPULSE" 0))
-								<evalType>point</evalType>
-							</output>
-							<output>dB20(VF("/VOUT"))
-								<evalType>point</evalType>
-							</output>
-							<output>SR
-								<evalType>point</evalType>
-							</output>
-						</outputs>
-						<tooloptions>
-							<option>cell
-								<value>ex1</value>
-							</option>
-							<option>lib
-								<value>DAY6</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>state
-								<value>SR_3M:1_state_Interactive.49</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</tooloptions>
-						<prerunscript>0</prerunscript>
-						<origoptions>
-							<option>cell
-								<value>ex1</value>
-							</option>
-							<option>lib
-								<value>DAY6</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>state
-								<value>3M:1_state</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</origoptions>
-					</test>
-				</tests>
-				<vars>
-					<var enabled="0">FREQ
-						<value>1k</value>
-						<dependentTests>
-							<dependentTest enabled="0">1k</dependentTest>
-							<dependentTest enabled="0">3M</dependentTest>
-							<dependentTest enabled="0">SR</dependentTest>
-						</dependentTests>
-					</var>
-					<var enabled="0">VIN
-						<value>0</value>
-						<dependentTests>
-							<dependentTest enabled="0">1k</dependentTest>
-							<dependentTest enabled="0">3M</dependentTest>
-							<dependentTest enabled="0">SR</dependentTest>
-						</dependentTests>
-					</var>
-					<var enabled="0">VPULSE
-						<value>500m</value>
-						<dependentTests>
-							<dependentTest enabled="0">1k</dependentTest>
-							<dependentTest enabled="0">3M</dependentTest>
-							<dependentTest enabled="0">SR</dependentTest>
-						</dependentTests>
-					</var>
-				</vars>
-				<overwritehistoryname>Interactive.0</overwritehistoryname>
-				<plottingoptions>
-					<plottingoption>plottingmode
-						<value>New Win</value>
-					</plottingoption>
-					<plottingoption>plottype
-						<value>None</value>
-					</plottingoption>
-					<plottingoption>usewaveformtemplate
-						<value>no</value>
-					</plottingoption>
-					<plottingoption>useMaestroPlottingTemplate
-						<value>yes</value>
-					</plottingoption>
-					<plottingoption>waveformtemplate
-						<value></value>
-					</plottingoption>
-					<plottingoption>allplottingtemplates
-						<value></value>
-					</plottingoption>
-					<plottingoption>defaultplottingtemplate
-						<value></value>
-					</plottingoption>
-					<plottingoption>distributedplot_enabled
-						<value>no</value>
-					</plottingoption>
-				</plottingoptions>
-				<jobpolicyname>ADE XL Default</jobpolicyname>
-				<disabledtests></disabledtests>
-				<sortVariableValues>0</sortVariableValues>
-			</checkpoint>
-			<timestamp>Mar 8 09:45:43 2025</timestamp>
-			<uuid>{5a64cf74-1488-4505-b82b-5be48fb4efef}</uuid>
-			<resultsname>/home/saul/projects/FIL3601/DAY6/ex1/adexl/results/data/Interactive.49.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.49.rdb</simresults>
-			<rawdatadelstrategy>SaveAll
-				<simdatasavemode>All</simdatasavemode>
-			</rawdatadelstrategy>
-			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
-			<netlistdelstrategy>SaveAll</netlistdelstrategy>
-			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/s2424_saul_094543181</localpsfdir>
-			<psfdir>/home/saul/projects/FIL3601/Sim/DAY6/ex1/adexl/results/data/Interactive.49</psfdir>
-			<simdir>$AXL_PROJECT_DIR/DAY6/ex1/adexl/results/data/Interactive.49</simdir>
-			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
-			<runlog>/home/saul/projects/FIL3601/DAY6/ex1/adexl/results/data/Interactive.49.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.49.log</runlogfile>
-			<schematicpoint></schematicpoint>
-			<test>all</test>
-		</historyentry>
-		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.50
-			<checkpoint>
-				<corners>
-					<corner enabled="1">_default</corner>
-				</corners>
-				<extensions>
-					<extension>Parasitics
-						<callback>_parSetupDBExtensionCB</callback>
-						<iconvalue></iconvalue>
-						<icontype></icontype>
-					</extension>
-				</extensions>
-				<currentmode>Single Run, Sweeps and Corners</currentmode>
-				<overwritehistory>0</overwritehistory>
-				<tests>
-					<test enabled="1">1k
-						<tool>ADE</tool>
-						<tooloptions>
-							<option>cell
-								<value>ex1</value>
-							</option>
-							<option>lib
-								<value>DAY6</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>state
-								<value>1k_none_Interactive.50</value>
-							</option>
-						</tooloptions>
-						<origoptions>
-							<option>cell
-								<value>ex1</value>
-							</option>
-							<option>lib
-								<value>DAY6</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</origoptions>
-						<outputs>
-							<output>dB20(leafValue(VF("/VOUT") "VPULSE" 0))
-								<evalType>point</evalType>
-							</output>
-							<output>dB20(VF("/VOUT"))
-								<evalType>point</evalType>
-							</output>
-						</outputs>
-					</test>
-					<test enabled="1">3M
-						<tool>ADE</tool>
-						<outputs>
-							<output>dB20(leafValue(VF("/VOUT") "VPULSE" 0))
-								<evalType>point</evalType>
-							</output>
-							<output>dB20(VF("/VOUT"))
-								<evalType>point</evalType>
-							</output>
-						</outputs>
-						<tooloptions>
-							<option>cell
-								<value>ex1</value>
-							</option>
-							<option>lib
-								<value>DAY6</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>state
-								<value>3M_DAY6:ex1:1:1_state_Interactive.50</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</tooloptions>
-						<prerunscript>0</prerunscript>
-						<origoptions>
-							<option>cell
-								<value>ex1</value>
-							</option>
-							<option>lib
-								<value>DAY6</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>state
-								<value>DAY6:ex1:1:1_state</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</origoptions>
-					</test>
-					<test enabled="1">SR
-						<tool>ADE</tool>
-						<outputs>
-							<output>dB20(leafValue(VF("/VOUT") "VPULSE" 0))
-								<evalType>point</evalType>
-							</output>
-							<output>dB20(VF("/VOUT"))
-								<evalType>point</evalType>
-							</output>
-							<output>SR
-								<evalType>point</evalType>
-							</output>
-						</outputs>
-						<tooloptions>
-							<option>cell
-								<value>ex1</value>
-							</option>
-							<option>lib
-								<value>DAY6</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>state
-								<value>SR_3M:1_state_Interactive.50</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</tooloptions>
-						<prerunscript>0</prerunscript>
-						<origoptions>
-							<option>cell
-								<value>ex1</value>
-							</option>
-							<option>lib
-								<value>DAY6</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>state
-								<value>3M:1_state</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</origoptions>
-					</test>
-				</tests>
-				<vars>
-					<var enabled="0">FREQ
-						<value>1k</value>
-						<dependentTests>
-							<dependentTest enabled="0">1k</dependentTest>
-							<dependentTest enabled="0">3M</dependentTest>
-							<dependentTest enabled="0">SR</dependentTest>
-						</dependentTests>
-					</var>
-					<var enabled="0">VIN
-						<value>0</value>
-						<dependentTests>
-							<dependentTest enabled="0">1k</dependentTest>
-							<dependentTest enabled="0">3M</dependentTest>
-							<dependentTest enabled="0">SR</dependentTest>
-						</dependentTests>
-					</var>
-					<var enabled="0">VPULSE
-						<value>500m</value>
-						<dependentTests>
-							<dependentTest enabled="0">1k</dependentTest>
-							<dependentTest enabled="0">3M</dependentTest>
-							<dependentTest enabled="0">SR</dependentTest>
-						</dependentTests>
-					</var>
-				</vars>
-				<overwritehistoryname>Interactive.0</overwritehistoryname>
-				<plottingoptions>
-					<plottingoption>plottingmode
-						<value>New Win</value>
-					</plottingoption>
-					<plottingoption>plottype
-						<value>None</value>
-					</plottingoption>
-					<plottingoption>usewaveformtemplate
-						<value>no</value>
-					</plottingoption>
-					<plottingoption>useMaestroPlottingTemplate
-						<value>yes</value>
-					</plottingoption>
-					<plottingoption>waveformtemplate
-						<value></value>
-					</plottingoption>
-					<plottingoption>allplottingtemplates
-						<value></value>
-					</plottingoption>
-					<plottingoption>defaultplottingtemplate
-						<value></value>
-					</plottingoption>
-					<plottingoption>distributedplot_enabled
-						<value>no</value>
-					</plottingoption>
-				</plottingoptions>
-				<jobpolicyname>ADE XL Default</jobpolicyname>
-				<disabledtests></disabledtests>
-				<sortVariableValues>0</sortVariableValues>
-			</checkpoint>
-			<timestamp>Mar 8 09:48:08 2025</timestamp>
-			<uuid>{4f1c6294-4856-4e4f-9407-60a296a0f4a1}</uuid>
-			<resultsname>/home/saul/projects/FIL3601/DAY6/ex1/adexl/results/data/Interactive.50.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.50.rdb</simresults>
-			<rawdatadelstrategy>SaveAll
-				<simdatasavemode>All</simdatasavemode>
-			</rawdatadelstrategy>
-			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
-			<netlistdelstrategy>SaveAll</netlistdelstrategy>
-			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/s2424_saul_094808782</localpsfdir>
-			<psfdir>/home/saul/projects/FIL3601/Sim/DAY6/ex1/adexl/results/data/Interactive.50</psfdir>
-			<simdir>$AXL_PROJECT_DIR/DAY6/ex1/adexl/results/data/Interactive.50</simdir>
-			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
-			<runlog>/home/saul/projects/FIL3601/DAY6/ex1/adexl/results/data/Interactive.50.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.50.log</runlogfile>
-			<schematicpoint></schematicpoint>
-			<test>all</test>
-		</historyentry>
-		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.51
-			<checkpoint>
-				<corners>
-					<corner enabled="1">_default</corner>
-				</corners>
-				<extensions>
-					<extension>Parasitics
-						<callback>_parSetupDBExtensionCB</callback>
-						<iconvalue></iconvalue>
-						<icontype></icontype>
-					</extension>
-				</extensions>
-				<currentmode>Single Run, Sweeps and Corners</currentmode>
-				<overwritehistory>0</overwritehistory>
-				<tests>
-					<test enabled="1">1k
-						<tool>ADE</tool>
-						<tooloptions>
-							<option>cell
-								<value>ex1</value>
-							</option>
-							<option>lib
-								<value>DAY6</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>state
-								<value>1k_none_Interactive.51</value>
-							</option>
-						</tooloptions>
-						<origoptions>
-							<option>cell
-								<value>ex1</value>
-							</option>
-							<option>lib
-								<value>DAY6</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</origoptions>
-						<outputs>
-							<output>dB20(leafValue(VF("/VOUT") "VPULSE" 0))
-								<evalType>point</evalType>
-							</output>
-							<output>dB20(VF("/VOUT"))
-								<evalType>point</evalType>
-							</output>
-						</outputs>
-					</test>
-					<test enabled="1">3M
-						<tool>ADE</tool>
-						<outputs>
-							<output>dB20(leafValue(VF("/VOUT") "VPULSE" 0))
-								<evalType>point</evalType>
-							</output>
-							<output>dB20(VF("/VOUT"))
-								<evalType>point</evalType>
-							</output>
-						</outputs>
-						<tooloptions>
-							<option>cell
-								<value>ex1</value>
-							</option>
-							<option>lib
-								<value>DAY6</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>state
-								<value>3M_DAY6:ex1:1:1_state_Interactive.51</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</tooloptions>
-						<prerunscript>0</prerunscript>
-						<origoptions>
-							<option>cell
-								<value>ex1</value>
-							</option>
-							<option>lib
-								<value>DAY6</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>state
-								<value>DAY6:ex1:1:1_state</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</origoptions>
-					</test>
-					<test enabled="1">SR
-						<tool>ADE</tool>
-						<outputs>
-							<output>dB20(leafValue(VF("/VOUT") "VPULSE" 0))
-								<evalType>point</evalType>
-							</output>
-							<output>dB20(VF("/VOUT"))
-								<evalType>point</evalType>
-							</output>
-							<output>SR
-								<evalType>point</evalType>
-							</output>
-						</outputs>
-						<tooloptions>
-							<option>cell
-								<value>ex1</value>
-							</option>
-							<option>lib
-								<value>DAY6</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>state
-								<value>SR_3M:1_state_Interactive.51</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</tooloptions>
-						<prerunscript>0</prerunscript>
-						<origoptions>
-							<option>cell
-								<value>ex1</value>
-							</option>
-							<option>lib
-								<value>DAY6</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>state
-								<value>3M:1_state</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</origoptions>
-					</test>
-				</tests>
-				<vars>
-					<var enabled="0">FREQ
-						<value>1k</value>
-						<dependentTests>
-							<dependentTest enabled="0">1k</dependentTest>
-							<dependentTest enabled="0">3M</dependentTest>
-							<dependentTest enabled="0">SR</dependentTest>
-						</dependentTests>
-					</var>
-					<var enabled="0">VIN
-						<value>0</value>
-						<dependentTests>
-							<dependentTest enabled="0">1k</dependentTest>
-							<dependentTest enabled="0">3M</dependentTest>
-							<dependentTest enabled="0">SR</dependentTest>
-						</dependentTests>
-					</var>
-					<var enabled="0">VPULSE
-						<value>500m</value>
-						<dependentTests>
-							<dependentTest enabled="0">1k</dependentTest>
-							<dependentTest enabled="0">3M</dependentTest>
-							<dependentTest enabled="0">SR</dependentTest>
-						</dependentTests>
-					</var>
-				</vars>
-				<overwritehistoryname>Interactive.0</overwritehistoryname>
-				<plottingoptions>
-					<plottingoption>plottingmode
-						<value>New Win</value>
-					</plottingoption>
-					<plottingoption>plottype
-						<value>None</value>
-					</plottingoption>
-					<plottingoption>usewaveformtemplate
-						<value>no</value>
-					</plottingoption>
-					<plottingoption>useMaestroPlottingTemplate
-						<value>yes</value>
-					</plottingoption>
-					<plottingoption>waveformtemplate
-						<value></value>
-					</plottingoption>
-					<plottingoption>allplottingtemplates
-						<value></value>
-					</plottingoption>
-					<plottingoption>defaultplottingtemplate
-						<value></value>
-					</plottingoption>
-					<plottingoption>distributedplot_enabled
-						<value>no</value>
-					</plottingoption>
-				</plottingoptions>
-				<jobpolicyname>ADE XL Default</jobpolicyname>
-				<disabledtests>
-					<test>3M</test>
-					<test>SR</test>
-				</disabledtests>
-				<sortVariableValues>0</sortVariableValues>
-			</checkpoint>
-			<timestamp>Mar 8 09:59:08 2025</timestamp>
-			<uuid>{eb50c00e-6309-4d53-ac9d-576e61e8134e}</uuid>
-			<resultsname>/home/saul/projects/FIL3601/DAY6/ex1/adexl/results/data/Interactive.51.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.51.rdb</simresults>
-			<rawdatadelstrategy>SaveAll
-				<simdatasavemode>All</simdatasavemode>
-			</rawdatadelstrategy>
-			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
-			<netlistdelstrategy>SaveAll</netlistdelstrategy>
-			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/s2424_saul_095908777</localpsfdir>
-			<psfdir>/home/saul/projects/FIL3601/Sim/DAY6/ex1/adexl/results/data/Interactive.51</psfdir>
-			<simdir>$AXL_PROJECT_DIR/DAY6/ex1/adexl/results/data/Interactive.51</simdir>
-			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
-			<runlog>/home/saul/projects/FIL3601/DAY6/ex1/adexl/results/data/Interactive.51.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.51.log</runlogfile>
-			<schematicpoint></schematicpoint>
-			<test>all</test>
-		</historyentry>
-		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.52
-			<checkpoint>
-				<corners>
-					<corner enabled="1">_default</corner>
-				</corners>
-				<extensions>
-					<extension>Parasitics
-						<callback>_parSetupDBExtensionCB</callback>
-						<iconvalue></iconvalue>
-						<icontype></icontype>
-					</extension>
-				</extensions>
-				<currentmode>Single Run, Sweeps and Corners</currentmode>
-				<overwritehistory>0</overwritehistory>
-				<tests>
-					<test enabled="1">1k
-						<tool>ADE</tool>
-						<tooloptions>
-							<option>cell
-								<value>ex1</value>
-							</option>
-							<option>lib
-								<value>DAY6</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>state
-								<value>1k_none_Interactive.52</value>
-							</option>
-						</tooloptions>
-						<origoptions>
-							<option>cell
-								<value>ex1</value>
-							</option>
-							<option>lib
-								<value>DAY6</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</origoptions>
-						<outputs>
-							<output>dB20(leafValue(VF("/VOUT") "VPULSE" 0))
-								<evalType>point</evalType>
-							</output>
-							<output>dB20(VF("/VOUT"))
-								<evalType>point</evalType>
-							</output>
-						</outputs>
-					</test>
-					<test enabled="1">3M
-						<tool>ADE</tool>
-						<outputs>
-							<output>dB20(leafValue(VF("/VOUT") "VPULSE" 0))
-								<evalType>point</evalType>
-							</output>
-							<output>dB20(VF("/VOUT"))
-								<evalType>point</evalType>
-							</output>
-						</outputs>
-						<tooloptions>
-							<option>cell
-								<value>ex1</value>
-							</option>
-							<option>lib
-								<value>DAY6</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>state
-								<value>3M_DAY6:ex1:1:1_state_Interactive.52</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</tooloptions>
-						<prerunscript>0</prerunscript>
-						<origoptions>
-							<option>cell
-								<value>ex1</value>
-							</option>
-							<option>lib
-								<value>DAY6</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>state
-								<value>DAY6:ex1:1:1_state</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</origoptions>
-					</test>
-					<test enabled="1">SR
-						<tool>ADE</tool>
-						<outputs>
-							<output>dB20(leafValue(VF("/VOUT") "VPULSE" 0))
-								<evalType>point</evalType>
-							</output>
-							<output>dB20(VF("/VOUT"))
-								<evalType>point</evalType>
-							</output>
-							<output>SR
-								<evalType>point</evalType>
-							</output>
-						</outputs>
-						<tooloptions>
-							<option>cell
-								<value>ex1</value>
-							</option>
-							<option>lib
-								<value>DAY6</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>state
-								<value>SR_3M:1_state_Interactive.52</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</tooloptions>
-						<prerunscript>0</prerunscript>
-						<origoptions>
-							<option>cell
-								<value>ex1</value>
-							</option>
-							<option>lib
-								<value>DAY6</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>state
-								<value>3M:1_state</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</origoptions>
-					</test>
-				</tests>
-				<vars>
-					<var enabled="0">FREQ
-						<value>1k</value>
-						<dependentTests>
-							<dependentTest enabled="0">1k</dependentTest>
-							<dependentTest enabled="0">3M</dependentTest>
-							<dependentTest enabled="0">SR</dependentTest>
-						</dependentTests>
-					</var>
-					<var enabled="0">VIN
-						<value>0</value>
-						<dependentTests>
-							<dependentTest enabled="0">1k</dependentTest>
-							<dependentTest enabled="0">3M</dependentTest>
-							<dependentTest enabled="0">SR</dependentTest>
-						</dependentTests>
-					</var>
-					<var enabled="0">VPULSE
-						<value>500m</value>
-						<dependentTests>
-							<dependentTest enabled="0">1k</dependentTest>
-							<dependentTest enabled="0">3M</dependentTest>
-							<dependentTest enabled="0">SR</dependentTest>
-						</dependentTests>
-					</var>
-				</vars>
-				<overwritehistoryname>Interactive.0</overwritehistoryname>
-				<plottingoptions>
-					<plottingoption>plottingmode
-						<value>New Win</value>
-					</plottingoption>
-					<plottingoption>plottype
-						<value>None</value>
-					</plottingoption>
-					<plottingoption>usewaveformtemplate
-						<value>no</value>
-					</plottingoption>
-					<plottingoption>useMaestroPlottingTemplate
-						<value>yes</value>
-					</plottingoption>
-					<plottingoption>waveformtemplate
-						<value></value>
-					</plottingoption>
-					<plottingoption>allplottingtemplates
-						<value></value>
-					</plottingoption>
-					<plottingoption>defaultplottingtemplate
-						<value></value>
-					</plottingoption>
-					<plottingoption>distributedplot_enabled
-						<value>no</value>
-					</plottingoption>
-				</plottingoptions>
-				<jobpolicyname>ADE XL Default</jobpolicyname>
-				<disabledtests>
-					<test>SR</test>
-					<test>1k</test>
-				</disabledtests>
-				<sortVariableValues>0</sortVariableValues>
-			</checkpoint>
-			<timestamp>Mar 8 10:01:20 2025</timestamp>
-			<uuid>{86bd5c23-486b-472a-8b36-99c595175e53}</uuid>
-			<resultsname>/home/saul/projects/FIL3601/DAY6/ex1/adexl/results/data/Interactive.52.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.52.rdb</simresults>
-			<rawdatadelstrategy>SaveAll
-				<simdatasavemode>All</simdatasavemode>
-			</rawdatadelstrategy>
-			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
-			<netlistdelstrategy>SaveAll</netlistdelstrategy>
-			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/s2424_saul_100120118</localpsfdir>
-			<psfdir>/home/saul/projects/FIL3601/Sim/DAY6/ex1/adexl/results/data/Interactive.52</psfdir>
-			<simdir>$AXL_PROJECT_DIR/DAY6/ex1/adexl/results/data/Interactive.52</simdir>
-			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
-			<runlog>/home/saul/projects/FIL3601/DAY6/ex1/adexl/results/data/Interactive.52.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.52.log</runlogfile>
-			<schematicpoint></schematicpoint>
-			<test>all</test>
-		</historyentry>
-		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.53
-			<checkpoint>
-				<corners>
-					<corner enabled="1">_default</corner>
-				</corners>
-				<extensions>
-					<extension>Parasitics
-						<callback>_parSetupDBExtensionCB</callback>
-						<iconvalue></iconvalue>
-						<icontype></icontype>
-					</extension>
-				</extensions>
-				<currentmode>Single Run, Sweeps and Corners</currentmode>
-				<overwritehistory>0</overwritehistory>
-				<tests>
-					<test enabled="1">1k
-						<tool>ADE</tool>
-						<tooloptions>
-							<option>cell
-								<value>ex1</value>
-							</option>
-							<option>lib
-								<value>DAY6</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>state
-								<value>1k_none_Interactive.53</value>
-							</option>
-						</tooloptions>
-						<origoptions>
-							<option>cell
-								<value>ex1</value>
-							</option>
-							<option>lib
-								<value>DAY6</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</origoptions>
-						<outputs>
-							<output>dB20(leafValue(VF("/VOUT") "VPULSE" 0))
-								<evalType>point</evalType>
-							</output>
-							<output>dB20(VF("/VOUT"))
-								<evalType>point</evalType>
-							</output>
-						</outputs>
-					</test>
-					<test enabled="1">3M
-						<tool>ADE</tool>
-						<outputs>
-							<output>dB20(leafValue(VF("/VOUT") "VPULSE" 0))
-								<evalType>point</evalType>
-							</output>
-							<output>dB20(VF("/VOUT"))
-								<evalType>point</evalType>
-							</output>
-						</outputs>
-						<tooloptions>
-							<option>cell
-								<value>ex1</value>
-							</option>
-							<option>lib
-								<value>DAY6</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>state
-								<value>3M_DAY6:ex1:1:1_state_Interactive.53</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</tooloptions>
-						<prerunscript>0</prerunscript>
-						<origoptions>
-							<option>cell
-								<value>ex1</value>
-							</option>
-							<option>lib
-								<value>DAY6</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>state
-								<value>DAY6:ex1:1:1_state</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</origoptions>
-					</test>
-					<test enabled="1">SR
-						<tool>ADE</tool>
-						<outputs>
-							<output>dB20(leafValue(VF("/VOUT") "VPULSE" 0))
-								<evalType>point</evalType>
-							</output>
-							<output>dB20(VF("/VOUT"))
-								<evalType>point</evalType>
-							</output>
-							<output>SR
-								<evalType>point</evalType>
-							</output>
-						</outputs>
-						<tooloptions>
-							<option>cell
-								<value>ex1</value>
-							</option>
-							<option>lib
-								<value>DAY6</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>state
-								<value>SR_3M:1_state_Interactive.53</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</tooloptions>
-						<prerunscript>0</prerunscript>
-						<origoptions>
-							<option>cell
-								<value>ex1</value>
-							</option>
-							<option>lib
-								<value>DAY6</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>state
-								<value>3M:1_state</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</origoptions>
-					</test>
-				</tests>
-				<vars>
-					<var enabled="0">FREQ
-						<value>1k</value>
-						<dependentTests>
-							<dependentTest enabled="0">1k</dependentTest>
-							<dependentTest enabled="0">3M</dependentTest>
-							<dependentTest enabled="0">SR</dependentTest>
-						</dependentTests>
-					</var>
-					<var enabled="0">VIN
-						<value>0</value>
-						<dependentTests>
-							<dependentTest enabled="0">1k</dependentTest>
-							<dependentTest enabled="0">3M</dependentTest>
-							<dependentTest enabled="0">SR</dependentTest>
-						</dependentTests>
-					</var>
-					<var enabled="0">VPULSE
-						<value>500m</value>
-						<dependentTests>
-							<dependentTest enabled="0">1k</dependentTest>
-							<dependentTest enabled="0">3M</dependentTest>
-							<dependentTest enabled="0">SR</dependentTest>
-						</dependentTests>
-					</var>
-				</vars>
-				<overwritehistoryname>Interactive.0</overwritehistoryname>
-				<plottingoptions>
-					<plottingoption>plottingmode
-						<value>New Win</value>
-					</plottingoption>
-					<plottingoption>plottype
-						<value>None</value>
-					</plottingoption>
-					<plottingoption>usewaveformtemplate
-						<value>no</value>
-					</plottingoption>
-					<plottingoption>useMaestroPlottingTemplate
-						<value>yes</value>
-					</plottingoption>
-					<plottingoption>waveformtemplate
-						<value></value>
-					</plottingoption>
-					<plottingoption>allplottingtemplates
-						<value></value>
-					</plottingoption>
-					<plottingoption>defaultplottingtemplate
-						<value></value>
-					</plottingoption>
-					<plottingoption>distributedplot_enabled
-						<value>no</value>
-					</plottingoption>
-				</plottingoptions>
-				<jobpolicyname>ADE XL Default</jobpolicyname>
-				<disabledtests>
-					<test>1k</test>
-					<test>3M</test>
-				</disabledtests>
-				<sortVariableValues>0</sortVariableValues>
-			</checkpoint>
-			<timestamp>Mar 8 10:04:19 2025</timestamp>
-			<uuid>{8504eb88-9882-4f97-9f27-c3cc94db6b1d}</uuid>
-			<resultsname>/home/saul/projects/FIL3601/DAY6/ex1/adexl/results/data/Interactive.53.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.53.rdb</simresults>
-			<rawdatadelstrategy>SaveAll
-				<simdatasavemode>All</simdatasavemode>
-			</rawdatadelstrategy>
-			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
-			<netlistdelstrategy>SaveAll</netlistdelstrategy>
-			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/s2424_saul_100419486</localpsfdir>
-			<psfdir>/home/saul/projects/FIL3601/Sim/DAY6/ex1/adexl/results/data/Interactive.53</psfdir>
-			<simdir>$AXL_PROJECT_DIR/DAY6/ex1/adexl/results/data/Interactive.53</simdir>
-			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
-			<runlog>/home/saul/projects/FIL3601/DAY6/ex1/adexl/results/data/Interactive.53.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.53.log</runlogfile>
-			<schematicpoint></schematicpoint>
-			<test>all</test>
-		</historyentry>
-		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.54
-			<checkpoint>
-				<corners>
-					<corner enabled="1">_default</corner>
-				</corners>
-				<extensions>
-					<extension>Parasitics
-						<callback>_parSetupDBExtensionCB</callback>
-						<iconvalue></iconvalue>
-						<icontype></icontype>
-					</extension>
-				</extensions>
-				<currentmode>Single Run, Sweeps and Corners</currentmode>
-				<overwritehistory>0</overwritehistory>
-				<tests>
-					<test enabled="1">1k
-						<tool>ADE</tool>
-						<tooloptions>
-							<option>cell
-								<value>ex1</value>
-							</option>
-							<option>lib
-								<value>DAY6</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>state
-								<value>1k_none_Interactive.54</value>
-							</option>
-						</tooloptions>
-						<origoptions>
-							<option>cell
-								<value>ex1</value>
-							</option>
-							<option>lib
-								<value>DAY6</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</origoptions>
-						<outputs>
-							<output>dB20(leafValue(VF("/VOUT") "VPULSE" 0))
-								<evalType>point</evalType>
-							</output>
-							<output>dB20(VF("/VOUT"))
-								<evalType>point</evalType>
-							</output>
-						</outputs>
-					</test>
-					<test enabled="1">3M
-						<tool>ADE</tool>
-						<outputs>
-							<output>dB20(leafValue(VF("/VOUT") "VPULSE" 0))
-								<evalType>point</evalType>
-							</output>
-							<output>dB20(VF("/VOUT"))
-								<evalType>point</evalType>
-							</output>
-						</outputs>
-						<tooloptions>
-							<option>cell
-								<value>ex1</value>
-							</option>
-							<option>lib
-								<value>DAY6</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>state
-								<value>3M_DAY6:ex1:1:1_state_Interactive.54</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</tooloptions>
-						<prerunscript>0</prerunscript>
-						<origoptions>
-							<option>cell
-								<value>ex1</value>
-							</option>
-							<option>lib
-								<value>DAY6</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>state
-								<value>DAY6:ex1:1:1_state</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</origoptions>
-					</test>
-					<test enabled="1">SR
-						<tool>ADE</tool>
-						<outputs>
-							<output>dB20(leafValue(VF("/VOUT") "VPULSE" 0))
-								<evalType>point</evalType>
-							</output>
-							<output>dB20(VF("/VOUT"))
-								<evalType>point</evalType>
-							</output>
-							<output>SR
-								<evalType>point</evalType>
-							</output>
-						</outputs>
-						<tooloptions>
-							<option>cell
-								<value>ex1</value>
-							</option>
-							<option>lib
-								<value>DAY6</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>state
-								<value>SR_3M:1_state_Interactive.54</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</tooloptions>
-						<prerunscript>0</prerunscript>
-						<origoptions>
-							<option>cell
-								<value>ex1</value>
-							</option>
-							<option>lib
-								<value>DAY6</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>state
-								<value>3M:1_state</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</origoptions>
-					</test>
-				</tests>
-				<vars>
-					<var enabled="0">FREQ
-						<value>1k</value>
-						<dependentTests>
-							<dependentTest enabled="0">1k</dependentTest>
-							<dependentTest enabled="0">3M</dependentTest>
-							<dependentTest enabled="0">SR</dependentTest>
-						</dependentTests>
-					</var>
-					<var enabled="0">VIN
-						<value>0</value>
-						<dependentTests>
-							<dependentTest enabled="0">1k</dependentTest>
-							<dependentTest enabled="0">3M</dependentTest>
-							<dependentTest enabled="0">SR</dependentTest>
-						</dependentTests>
-					</var>
-					<var enabled="0">VPULSE
-						<value>500m</value>
-						<dependentTests>
-							<dependentTest enabled="0">1k</dependentTest>
-							<dependentTest enabled="0">3M</dependentTest>
-							<dependentTest enabled="0">SR</dependentTest>
-						</dependentTests>
-					</var>
-				</vars>
-				<overwritehistoryname>Interactive.0</overwritehistoryname>
-				<plottingoptions>
-					<plottingoption>plottingmode
-						<value>New Win</value>
-					</plottingoption>
-					<plottingoption>plottype
-						<value>None</value>
-					</plottingoption>
-					<plottingoption>usewaveformtemplate
-						<value>no</value>
-					</plottingoption>
-					<plottingoption>useMaestroPlottingTemplate
-						<value>yes</value>
-					</plottingoption>
-					<plottingoption>waveformtemplate
-						<value></value>
-					</plottingoption>
-					<plottingoption>allplottingtemplates
-						<value></value>
-					</plottingoption>
-					<plottingoption>defaultplottingtemplate
-						<value></value>
-					</plottingoption>
-					<plottingoption>distributedplot_enabled
-						<value>no</value>
-					</plottingoption>
-				</plottingoptions>
-				<jobpolicyname>ADE XL Default</jobpolicyname>
-				<disabledtests>
-					<test>1k</test>
-					<test>SR</test>
-				</disabledtests>
-				<sortVariableValues>0</sortVariableValues>
-			</checkpoint>
-			<timestamp>Mar 8 10:12:28 2025</timestamp>
-			<uuid>{dd2e2a03-5777-4b73-b1da-9accab68329d}</uuid>
-			<resultsname>/home/saul/projects/FIL3601/DAY6/ex1/adexl/results/data/Interactive.54.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.54.rdb</simresults>
-			<rawdatadelstrategy>SaveAll
-				<simdatasavemode>All</simdatasavemode>
-			</rawdatadelstrategy>
-			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
-			<netlistdelstrategy>SaveAll</netlistdelstrategy>
-			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/s2424_saul_101229041</localpsfdir>
-			<psfdir>/home/saul/projects/FIL3601/Sim/DAY6/ex1/adexl/results/data/Interactive.54</psfdir>
-			<simdir>$AXL_PROJECT_DIR/DAY6/ex1/adexl/results/data/Interactive.54</simdir>
-			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
-			<runlog>/home/saul/projects/FIL3601/DAY6/ex1/adexl/results/data/Interactive.54.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.54.log</runlogfile>
-			<schematicpoint></schematicpoint>
-			<test>all</test>
-		</historyentry>
-		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.55
-			<checkpoint>
-				<corners>
-					<corner enabled="1">_default</corner>
-				</corners>
-				<extensions>
-					<extension>Parasitics
-						<callback>_parSetupDBExtensionCB</callback>
-						<iconvalue></iconvalue>
-						<icontype></icontype>
-					</extension>
-				</extensions>
-				<currentmode>Single Run, Sweeps and Corners</currentmode>
-				<overwritehistory>0</overwritehistory>
-				<tests>
-					<test enabled="1">1k
-						<tool>ADE</tool>
-						<tooloptions>
-							<option>cell
-								<value>ex1</value>
-							</option>
-							<option>lib
-								<value>DAY6</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>state
-								<value>1k_none_Interactive.55</value>
-							</option>
-						</tooloptions>
-						<origoptions>
-							<option>cell
-								<value>ex1</value>
-							</option>
-							<option>lib
-								<value>DAY6</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</origoptions>
-						<outputs>
-							<output>dB20(leafValue(VF("/VOUT") "VPULSE" 0))
-								<evalType>point</evalType>
-							</output>
-							<output>dB20(VF("/VOUT"))
-								<evalType>point</evalType>
-							</output>
-						</outputs>
-					</test>
-					<test enabled="1">3M
-						<tool>ADE</tool>
-						<outputs>
-							<output>dB20(leafValue(VF("/VOUT") "VPULSE" 0))
-								<evalType>point</evalType>
-							</output>
-							<output>dB20(VF("/VOUT"))
-								<evalType>point</evalType>
-							</output>
-						</outputs>
-						<tooloptions>
-							<option>cell
-								<value>ex1</value>
-							</option>
-							<option>lib
-								<value>DAY6</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>state
-								<value>3M_DAY6:ex1:1:1_state_Interactive.55</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</tooloptions>
-						<prerunscript>0</prerunscript>
-						<origoptions>
-							<option>cell
-								<value>ex1</value>
-							</option>
-							<option>lib
-								<value>DAY6</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>state
-								<value>DAY6:ex1:1:1_state</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</origoptions>
-					</test>
-					<test enabled="1">SR
-						<tool>ADE</tool>
-						<outputs>
-							<output>dB20(leafValue(VF("/VOUT") "VPULSE" 0))
-								<evalType>point</evalType>
-							</output>
-							<output>dB20(VF("/VOUT"))
-								<evalType>point</evalType>
-							</output>
-							<output>SR
-								<evalType>point</evalType>
-							</output>
-						</outputs>
-						<tooloptions>
-							<option>cell
-								<value>ex1</value>
-							</option>
-							<option>lib
-								<value>DAY6</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>state
-								<value>SR_3M:1_state_Interactive.55</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</tooloptions>
-						<prerunscript>0</prerunscript>
-						<origoptions>
-							<option>cell
-								<value>ex1</value>
-							</option>
-							<option>lib
-								<value>DAY6</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>state
-								<value>3M:1_state</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</origoptions>
-					</test>
-				</tests>
-				<vars>
-					<var enabled="0">FREQ
-						<value>1k</value>
-						<dependentTests>
-							<dependentTest enabled="0">1k</dependentTest>
-							<dependentTest enabled="0">3M</dependentTest>
-							<dependentTest enabled="0">SR</dependentTest>
-						</dependentTests>
-					</var>
-					<var enabled="0">VIN
-						<value>0</value>
-						<dependentTests>
-							<dependentTest enabled="0">1k</dependentTest>
-							<dependentTest enabled="0">3M</dependentTest>
-							<dependentTest enabled="0">SR</dependentTest>
-						</dependentTests>
-					</var>
-					<var enabled="0">VPULSE
-						<value>500m</value>
-						<dependentTests>
-							<dependentTest enabled="0">1k</dependentTest>
-							<dependentTest enabled="0">3M</dependentTest>
-							<dependentTest enabled="0">SR</dependentTest>
-						</dependentTests>
-					</var>
-				</vars>
-				<overwritehistoryname>Interactive.0</overwritehistoryname>
-				<plottingoptions>
-					<plottingoption>plottingmode
-						<value>New Win</value>
-					</plottingoption>
-					<plottingoption>plottype
-						<value>None</value>
-					</plottingoption>
-					<plottingoption>usewaveformtemplate
-						<value>no</value>
-					</plottingoption>
-					<plottingoption>useMaestroPlottingTemplate
-						<value>yes</value>
-					</plottingoption>
-					<plottingoption>waveformtemplate
-						<value></value>
-					</plottingoption>
-					<plottingoption>allplottingtemplates
-						<value></value>
-					</plottingoption>
-					<plottingoption>defaultplottingtemplate
-						<value></value>
-					</plottingoption>
-					<plottingoption>distributedplot_enabled
-						<value>no</value>
-					</plottingoption>
-				</plottingoptions>
-				<jobpolicyname>ADE XL Default</jobpolicyname>
-				<disabledtests>
-					<test>1k</test>
-					<test>3M</test>
-				</disabledtests>
-				<sortVariableValues>0</sortVariableValues>
-			</checkpoint>
-			<timestamp>Mar 8 10:24:12 2025</timestamp>
-			<uuid>{f74b292b-bf5f-421f-9cd3-7b3e55c76a35}</uuid>
-			<resultsname>/home/saul/projects/FIL3601/DAY6/ex1/adexl/results/data/Interactive.55.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.55.rdb</simresults>
-			<rawdatadelstrategy>SaveAll
-				<simdatasavemode>All</simdatasavemode>
-			</rawdatadelstrategy>
-			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
-			<netlistdelstrategy>SaveAll</netlistdelstrategy>
-			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/s2424_saul_102413006</localpsfdir>
-			<psfdir>/home/saul/projects/FIL3601/Sim/DAY6/ex1/adexl/results/data/Interactive.55</psfdir>
-			<simdir>$AXL_PROJECT_DIR/DAY6/ex1/adexl/results/data/Interactive.55</simdir>
-			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
-			<runlog>/home/saul/projects/FIL3601/DAY6/ex1/adexl/results/data/Interactive.55.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.55.log</runlogfile>
-			<schematicpoint></schematicpoint>
-			<test>all</test>
-		</historyentry>
-		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.56
-			<checkpoint>
-				<corners>
-					<corner enabled="1">_default</corner>
-				</corners>
-				<extensions>
-					<extension>Parasitics
-						<callback>_parSetupDBExtensionCB</callback>
-						<iconvalue></iconvalue>
-						<icontype></icontype>
-					</extension>
-				</extensions>
-				<currentmode>Single Run, Sweeps and Corners</currentmode>
-				<overwritehistory>0</overwritehistory>
-				<tests>
-					<test enabled="1">1k
-						<tool>ADE</tool>
-						<tooloptions>
-							<option>cell
-								<value>ex1</value>
-							</option>
-							<option>lib
-								<value>DAY6</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>state
-								<value>1k_none_Interactive.56</value>
-							</option>
-						</tooloptions>
-						<origoptions>
-							<option>cell
-								<value>ex1</value>
-							</option>
-							<option>lib
-								<value>DAY6</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</origoptions>
-						<outputs>
-							<output>dB20(leafValue(VF("/VOUT") "VPULSE" 0))
-								<evalType>point</evalType>
-							</output>
-							<output>dB20(VF("/VOUT"))
-								<evalType>point</evalType>
-							</output>
-						</outputs>
-					</test>
-					<test enabled="1">3M
-						<tool>ADE</tool>
-						<outputs>
-							<output>dB20(leafValue(VF("/VOUT") "VPULSE" 0))
-								<evalType>point</evalType>
-							</output>
-							<output>dB20(VF("/VOUT"))
-								<evalType>point</evalType>
-							</output>
-						</outputs>
-						<tooloptions>
-							<option>cell
-								<value>ex1</value>
-							</option>
-							<option>lib
-								<value>DAY6</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>state
-								<value>3M_DAY6:ex1:1:1_state_Interactive.56</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</tooloptions>
-						<prerunscript>0</prerunscript>
-						<origoptions>
-							<option>cell
-								<value>ex1</value>
-							</option>
-							<option>lib
-								<value>DAY6</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>state
-								<value>DAY6:ex1:1:1_state</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</origoptions>
-					</test>
-					<test enabled="1">SR
-						<tool>ADE</tool>
-						<outputs>
-							<output>dB20(leafValue(VF("/VOUT") "VPULSE" 0))
-								<evalType>point</evalType>
-							</output>
-							<output>dB20(VF("/VOUT"))
-								<evalType>point</evalType>
-							</output>
-							<output>SR
-								<evalType>point</evalType>
-							</output>
-						</outputs>
-						<tooloptions>
-							<option>cell
-								<value>ex1</value>
-							</option>
-							<option>lib
-								<value>DAY6</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>state
-								<value>SR_3M:1_state_Interactive.56</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</tooloptions>
-						<prerunscript>0</prerunscript>
-						<origoptions>
-							<option>cell
-								<value>ex1</value>
-							</option>
-							<option>lib
-								<value>DAY6</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>state
-								<value>3M:1_state</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</origoptions>
-					</test>
-				</tests>
-				<vars>
-					<var enabled="0">FREQ
-						<value>1k</value>
-						<dependentTests>
-							<dependentTest enabled="0">1k</dependentTest>
-							<dependentTest enabled="0">3M</dependentTest>
-							<dependentTest enabled="0">SR</dependentTest>
-						</dependentTests>
-					</var>
-					<var enabled="0">VIN
-						<value>0</value>
-						<dependentTests>
-							<dependentTest enabled="0">1k</dependentTest>
-							<dependentTest enabled="0">3M</dependentTest>
-							<dependentTest enabled="0">SR</dependentTest>
-						</dependentTests>
-					</var>
-					<var enabled="0">VPULSE
-						<value>500m</value>
-						<dependentTests>
-							<dependentTest enabled="0">1k</dependentTest>
-							<dependentTest enabled="0">3M</dependentTest>
-							<dependentTest enabled="0">SR</dependentTest>
-						</dependentTests>
-					</var>
-				</vars>
-				<overwritehistoryname>Interactive.0</overwritehistoryname>
-				<plottingoptions>
-					<plottingoption>plottingmode
-						<value>New Win</value>
-					</plottingoption>
-					<plottingoption>plottype
-						<value>None</value>
-					</plottingoption>
-					<plottingoption>usewaveformtemplate
-						<value>no</value>
-					</plottingoption>
-					<plottingoption>useMaestroPlottingTemplate
-						<value>yes</value>
-					</plottingoption>
-					<plottingoption>waveformtemplate
-						<value></value>
-					</plottingoption>
-					<plottingoption>allplottingtemplates
-						<value></value>
-					</plottingoption>
-					<plottingoption>defaultplottingtemplate
-						<value></value>
-					</plottingoption>
-					<plottingoption>distributedplot_enabled
-						<value>no</value>
-					</plottingoption>
-				</plottingoptions>
-				<jobpolicyname>ADE XL Default</jobpolicyname>
-				<disabledtests>
-					<test>1k</test>
-					<test>3M</test>
-				</disabledtests>
-				<sortVariableValues>0</sortVariableValues>
-			</checkpoint>
-			<timestamp>Mar 8 10:26:34 2025</timestamp>
-			<uuid>{91ea739f-3cfd-46cb-8ec8-97ec73510241}</uuid>
-			<resultsname>/home/saul/projects/FIL3601/DAY6/ex1/adexl/results/data/Interactive.56.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.56.rdb</simresults>
-			<rawdatadelstrategy>SaveAll
-				<simdatasavemode>All</simdatasavemode>
-			</rawdatadelstrategy>
-			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
-			<netlistdelstrategy>SaveAll</netlistdelstrategy>
-			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/s2424_saul_102634739</localpsfdir>
-			<psfdir>/home/saul/projects/FIL3601/Sim/DAY6/ex1/adexl/results/data/Interactive.56</psfdir>
-			<simdir>$AXL_PROJECT_DIR/DAY6/ex1/adexl/results/data/Interactive.56</simdir>
-			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
-			<runlog>/home/saul/projects/FIL3601/DAY6/ex1/adexl/results/data/Interactive.56.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.56.log</runlogfile>
-			<schematicpoint></schematicpoint>
-			<test>all</test>
-		</historyentry>
-		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.57
-			<checkpoint>
-				<corners>
-					<corner enabled="1">_default</corner>
-				</corners>
-				<extensions>
-					<extension>Parasitics
-						<callback>_parSetupDBExtensionCB</callback>
-						<iconvalue></iconvalue>
-						<icontype></icontype>
-					</extension>
-				</extensions>
-				<currentmode>Single Run, Sweeps and Corners</currentmode>
-				<overwritehistory>0</overwritehistory>
-				<tests>
-					<test enabled="1">1k
-						<tool>ADE</tool>
-						<tooloptions>
-							<option>cell
-								<value>ex1</value>
-							</option>
-							<option>lib
-								<value>DAY6</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>state
-								<value>1k_none_Interactive.57</value>
-							</option>
-						</tooloptions>
-						<origoptions>
-							<option>cell
-								<value>ex1</value>
-							</option>
-							<option>lib
-								<value>DAY6</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</origoptions>
-						<outputs>
-							<output>dB20(leafValue(VF("/VOUT") "VPULSE" 0))
-								<evalType>point</evalType>
-							</output>
-							<output>dB20(VF("/VOUT"))
-								<evalType>point</evalType>
-							</output>
-						</outputs>
-					</test>
-					<test enabled="1">3M
-						<tool>ADE</tool>
-						<outputs>
-							<output>dB20(leafValue(VF("/VOUT") "VPULSE" 0))
-								<evalType>point</evalType>
-							</output>
-							<output>dB20(VF("/VOUT"))
-								<evalType>point</evalType>
-							</output>
-						</outputs>
-						<tooloptions>
-							<option>cell
-								<value>ex1</value>
-							</option>
-							<option>lib
-								<value>DAY6</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>state
-								<value>3M_DAY6:ex1:1:1_state_Interactive.57</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</tooloptions>
-						<prerunscript>0</prerunscript>
-						<origoptions>
-							<option>cell
-								<value>ex1</value>
-							</option>
-							<option>lib
-								<value>DAY6</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>state
-								<value>DAY6:ex1:1:1_state</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</origoptions>
-					</test>
-					<test enabled="1">SR
-						<tool>ADE</tool>
-						<outputs>
-							<output>dB20(leafValue(VF("/VOUT") "VPULSE" 0))
-								<evalType>point</evalType>
-							</output>
-							<output>dB20(VF("/VOUT"))
-								<evalType>point</evalType>
-							</output>
-							<output>SR
-								<evalType>point</evalType>
-							</output>
-						</outputs>
-						<tooloptions>
-							<option>cell
-								<value>ex1</value>
-							</option>
-							<option>lib
-								<value>DAY6</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>state
-								<value>SR_3M:1_state_Interactive.57</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</tooloptions>
-						<prerunscript>0</prerunscript>
-						<origoptions>
-							<option>cell
-								<value>ex1</value>
-							</option>
-							<option>lib
-								<value>DAY6</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>state
-								<value>3M:1_state</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</origoptions>
-					</test>
-				</tests>
-				<vars>
-					<var enabled="0">FREQ
-						<value>1k</value>
-						<dependentTests>
-							<dependentTest enabled="0">1k</dependentTest>
-							<dependentTest enabled="0">3M</dependentTest>
-							<dependentTest enabled="0">SR</dependentTest>
-						</dependentTests>
-					</var>
-					<var enabled="0">VIN
-						<value>0</value>
-						<dependentTests>
-							<dependentTest enabled="0">1k</dependentTest>
-							<dependentTest enabled="0">3M</dependentTest>
-							<dependentTest enabled="0">SR</dependentTest>
-						</dependentTests>
-					</var>
-					<var enabled="0">VPULSE
-						<value>500m</value>
-						<dependentTests>
-							<dependentTest enabled="0">1k</dependentTest>
-							<dependentTest enabled="0">3M</dependentTest>
-							<dependentTest enabled="0">SR</dependentTest>
-						</dependentTests>
-					</var>
-				</vars>
-				<overwritehistoryname>Interactive.0</overwritehistoryname>
-				<plottingoptions>
-					<plottingoption>plottingmode
-						<value>New Win</value>
-					</plottingoption>
-					<plottingoption>plottype
-						<value>None</value>
-					</plottingoption>
-					<plottingoption>usewaveformtemplate
-						<value>no</value>
-					</plottingoption>
-					<plottingoption>useMaestroPlottingTemplate
-						<value>yes</value>
-					</plottingoption>
-					<plottingoption>waveformtemplate
-						<value></value>
-					</plottingoption>
-					<plottingoption>allplottingtemplates
-						<value></value>
-					</plottingoption>
-					<plottingoption>defaultplottingtemplate
-						<value></value>
-					</plottingoption>
-					<plottingoption>distributedplot_enabled
-						<value>no</value>
-					</plottingoption>
-				</plottingoptions>
-				<jobpolicyname>ADE XL Default</jobpolicyname>
-				<disabledtests>
-					<test>1k</test>
-					<test>SR</test>
-				</disabledtests>
-				<sortVariableValues>0</sortVariableValues>
-			</checkpoint>
-			<timestamp>Mar 8 10:29:02 2025</timestamp>
-			<uuid>{dd51ea3f-b3ae-45cf-9139-62bbedcc33c5}</uuid>
-			<resultsname>/home/saul/projects/FIL3601/DAY6/ex1/adexl/results/data/Interactive.57.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.57.rdb</simresults>
-			<rawdatadelstrategy>SaveAll
-				<simdatasavemode>All</simdatasavemode>
-			</rawdatadelstrategy>
-			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
-			<netlistdelstrategy>SaveAll</netlistdelstrategy>
-			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/s2424_saul_102902266</localpsfdir>
-			<psfdir>/home/saul/projects/FIL3601/Sim/DAY6/ex1/adexl/results/data/Interactive.57</psfdir>
-			<simdir>$AXL_PROJECT_DIR/DAY6/ex1/adexl/results/data/Interactive.57</simdir>
-			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
-			<runlog>/home/saul/projects/FIL3601/DAY6/ex1/adexl/results/data/Interactive.57.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.57.log</runlogfile>
-			<schematicpoint></schematicpoint>
-			<test>all</test>
-		</historyentry>
 		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.58
 			<checkpoint>
 				<corners>
@@ -2688,6 +470,2223 @@
 			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
 			<runlog>/home/saul/projects/FIL3601/DAY6/ex1/adexl/results/data/Interactive.58.log</runlog>
 			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.58.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.59
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test enabled="1">1k
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>ex1</value>
+							</option>
+							<option>lib
+								<value>DAY6</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>1k_none_Interactive.59</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>ex1</value>
+							</option>
+							<option>lib
+								<value>DAY6</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+						<outputs>
+							<output>dB20(leafValue(VF("/VOUT") "VPULSE" 0))
+								<evalType>point</evalType>
+							</output>
+							<output>dB20(VF("/VOUT"))
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+					</test>
+					<test enabled="1">3M
+						<tool>ADE</tool>
+						<outputs>
+							<output>dB20(leafValue(VF("/VOUT") "VPULSE" 0))
+								<evalType>point</evalType>
+							</output>
+							<output>dB20(VF("/VOUT"))
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+						<tooloptions>
+							<option>cell
+								<value>ex1</value>
+							</option>
+							<option>lib
+								<value>DAY6</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>3M_DAY6:ex1:1:1_state_Interactive.59</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</tooloptions>
+						<prerunscript>0</prerunscript>
+						<origoptions>
+							<option>cell
+								<value>ex1</value>
+							</option>
+							<option>lib
+								<value>DAY6</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>DAY6:ex1:1:1_state</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+					<test enabled="1">SR
+						<tool>ADE</tool>
+						<outputs>
+							<output>dB20(leafValue(VF("/VOUT") "VPULSE" 0))
+								<evalType>point</evalType>
+							</output>
+							<output>dB20(VF("/VOUT"))
+								<evalType>point</evalType>
+							</output>
+							<output>SR
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+						<tooloptions>
+							<option>cell
+								<value>ex1</value>
+							</option>
+							<option>lib
+								<value>DAY6</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>SR_3M:1_state_Interactive.59</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</tooloptions>
+						<prerunscript>0</prerunscript>
+						<origoptions>
+							<option>cell
+								<value>ex1</value>
+							</option>
+							<option>lib
+								<value>DAY6</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>3M:1_state</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var enabled="0">FREQ
+						<value>1k</value>
+						<dependentTests>
+							<dependentTest enabled="0">1k</dependentTest>
+							<dependentTest enabled="0">3M</dependentTest>
+							<dependentTest enabled="0">SR</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">VIN
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="0">1k</dependentTest>
+							<dependentTest enabled="0">3M</dependentTest>
+							<dependentTest enabled="0">SR</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">VPULSE
+						<value>500m</value>
+						<dependentTests>
+							<dependentTest enabled="0">1k</dependentTest>
+							<dependentTest enabled="0">3M</dependentTest>
+							<dependentTest enabled="0">SR</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottingmode
+						<value>New Win</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>distributedplot_enabled
+						<value>no</value>
+					</plottingoption>
+				</plottingoptions>
+				<jobpolicyname>ADE XL Default</jobpolicyname>
+				<disabledtests>
+					<test>SR</test>
+					<test>3M</test>
+				</disabledtests>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Nov 17 11:36:22 2025</timestamp>
+			<uuid>{e975cb69-1060-47de-af37-e2b2401c23d9}</uuid>
+			<resultsname>/home/saul/projects/FIL3601/DAY6/ex1/adexl/results/data/Interactive.59.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.59.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/edatools_saul_113622578</localpsfdir>
+			<psfdir>/home/saul/projects/FIL3601/Sim/DAY6/ex1/adexl/results/data/Interactive.59</psfdir>
+			<simdir>$AXL_PROJECT_DIR/DAY6/ex1/adexl/results/data/Interactive.59</simdir>
+			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
+			<runlog>/home/saul/projects/FIL3601/DAY6/ex1/adexl/results/data/Interactive.59.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.59.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.60
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test enabled="1">1k
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>ex1</value>
+							</option>
+							<option>lib
+								<value>DAY6</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>1k_none_Interactive.60</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>ex1</value>
+							</option>
+							<option>lib
+								<value>DAY6</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+						<outputs>
+							<output>dB20(leafValue(VF("/VOUT") "VPULSE" 0))
+								<evalType>point</evalType>
+							</output>
+							<output>dB20(VF("/VOUT"))
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+					</test>
+					<test enabled="1">3M
+						<tool>ADE</tool>
+						<outputs>
+							<output>dB20(leafValue(VF("/VOUT") "VPULSE" 0))
+								<evalType>point</evalType>
+							</output>
+							<output>dB20(VF("/VOUT"))
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+						<tooloptions>
+							<option>cell
+								<value>ex1</value>
+							</option>
+							<option>lib
+								<value>DAY6</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>3M_DAY6:ex1:1:1_state_Interactive.60</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</tooloptions>
+						<prerunscript>0</prerunscript>
+						<origoptions>
+							<option>cell
+								<value>ex1</value>
+							</option>
+							<option>lib
+								<value>DAY6</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>DAY6:ex1:1:1_state</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+					<test enabled="1">SR
+						<tool>ADE</tool>
+						<outputs>
+							<output>dB20(leafValue(VF("/VOUT") "VPULSE" 0))
+								<evalType>point</evalType>
+							</output>
+							<output>dB20(VF("/VOUT"))
+								<evalType>point</evalType>
+							</output>
+							<output>SR
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+						<tooloptions>
+							<option>cell
+								<value>ex1</value>
+							</option>
+							<option>lib
+								<value>DAY6</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>SR_3M:1_state_Interactive.60</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</tooloptions>
+						<prerunscript>0</prerunscript>
+						<origoptions>
+							<option>cell
+								<value>ex1</value>
+							</option>
+							<option>lib
+								<value>DAY6</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>3M:1_state</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var enabled="0">FREQ
+						<value>1k</value>
+						<dependentTests>
+							<dependentTest enabled="0">1k</dependentTest>
+							<dependentTest enabled="0">3M</dependentTest>
+							<dependentTest enabled="0">SR</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">VIN
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="0">1k</dependentTest>
+							<dependentTest enabled="0">3M</dependentTest>
+							<dependentTest enabled="0">SR</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">VPULSE
+						<value>500m</value>
+						<dependentTests>
+							<dependentTest enabled="0">1k</dependentTest>
+							<dependentTest enabled="0">3M</dependentTest>
+							<dependentTest enabled="0">SR</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottingmode
+						<value>New Win</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>distributedplot_enabled
+						<value>no</value>
+					</plottingoption>
+				</plottingoptions>
+				<jobpolicyname>ADE XL Default</jobpolicyname>
+				<disabledtests>
+					<test>SR</test>
+					<test>3M</test>
+				</disabledtests>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Nov 17 11:38:30 2025</timestamp>
+			<uuid>{542a4f16-3847-4d2e-93cd-ef83b676615e}</uuid>
+			<resultsname>/home/saul/projects/FIL3601/DAY6/ex1/adexl/results/data/Interactive.60.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.60.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/edatools_saul_113831003</localpsfdir>
+			<psfdir>/home/saul/projects/FIL3601/Sim/DAY6/ex1/adexl/results/data/Interactive.60</psfdir>
+			<simdir>$AXL_PROJECT_DIR/DAY6/ex1/adexl/results/data/Interactive.60</simdir>
+			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
+			<runlog>/home/saul/projects/FIL3601/DAY6/ex1/adexl/results/data/Interactive.60.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.60.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.61
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test enabled="1">1k
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>ex1</value>
+							</option>
+							<option>lib
+								<value>DAY6</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>1k_none_Interactive.61</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>ex1</value>
+							</option>
+							<option>lib
+								<value>DAY6</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+						<outputs>
+							<output>dB20(leafValue(VF("/VOUT") "VPULSE" 0))
+								<evalType>point</evalType>
+							</output>
+							<output>dB20(VF("/VOUT"))
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+					</test>
+					<test enabled="1">3M
+						<tool>ADE</tool>
+						<outputs>
+							<output>dB20(leafValue(VF("/VOUT") "VPULSE" 0))
+								<evalType>point</evalType>
+							</output>
+							<output>dB20(VF("/VOUT"))
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+						<tooloptions>
+							<option>cell
+								<value>ex1</value>
+							</option>
+							<option>lib
+								<value>DAY6</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>3M_DAY6:ex1:1:1_state_Interactive.61</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</tooloptions>
+						<prerunscript>0</prerunscript>
+						<origoptions>
+							<option>cell
+								<value>ex1</value>
+							</option>
+							<option>lib
+								<value>DAY6</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>DAY6:ex1:1:1_state</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+					<test enabled="1">SR
+						<tool>ADE</tool>
+						<outputs>
+							<output>dB20(leafValue(VF("/VOUT") "VPULSE" 0))
+								<evalType>point</evalType>
+							</output>
+							<output>dB20(VF("/VOUT"))
+								<evalType>point</evalType>
+							</output>
+							<output>SR
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+						<tooloptions>
+							<option>cell
+								<value>ex1</value>
+							</option>
+							<option>lib
+								<value>DAY6</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>SR_3M:1_state_Interactive.61</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</tooloptions>
+						<prerunscript>0</prerunscript>
+						<origoptions>
+							<option>cell
+								<value>ex1</value>
+							</option>
+							<option>lib
+								<value>DAY6</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>3M:1_state</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var enabled="0">FREQ
+						<value>1k</value>
+						<dependentTests>
+							<dependentTest enabled="0">1k</dependentTest>
+							<dependentTest enabled="0">3M</dependentTest>
+							<dependentTest enabled="0">SR</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">VIN
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="0">1k</dependentTest>
+							<dependentTest enabled="0">3M</dependentTest>
+							<dependentTest enabled="0">SR</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">VPULSE
+						<value>500m</value>
+						<dependentTests>
+							<dependentTest enabled="0">1k</dependentTest>
+							<dependentTest enabled="0">3M</dependentTest>
+							<dependentTest enabled="0">SR</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottingmode
+						<value>New Win</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>distributedplot_enabled
+						<value>no</value>
+					</plottingoption>
+				</plottingoptions>
+				<jobpolicyname>ADE XL Default</jobpolicyname>
+				<disabledtests>
+					<test>SR</test>
+					<test>3M</test>
+				</disabledtests>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Nov 17 11:39:01 2025</timestamp>
+			<uuid>{8f3c0c01-3321-4586-b5e6-8cf0345e955b}</uuid>
+			<resultsname>/home/saul/projects/FIL3601/DAY6/ex1/adexl/results/data/Interactive.61.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.61.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/edatools_saul_113901113</localpsfdir>
+			<psfdir>/home/saul/projects/FIL3601/Sim/DAY6/ex1/adexl/results/data/Interactive.61</psfdir>
+			<simdir>$AXL_PROJECT_DIR/DAY6/ex1/adexl/results/data/Interactive.61</simdir>
+			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
+			<runlog>/home/saul/projects/FIL3601/DAY6/ex1/adexl/results/data/Interactive.61.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.61.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.62
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test enabled="1">1k
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>ex1</value>
+							</option>
+							<option>lib
+								<value>DAY6</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>1k_none_Interactive.62</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>ex1</value>
+							</option>
+							<option>lib
+								<value>DAY6</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+						<outputs>
+							<output>dB20(leafValue(VF("/VOUT") "VPULSE" 0))
+								<evalType>point</evalType>
+							</output>
+							<output>dB20(VF("/VOUT"))
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+					</test>
+					<test enabled="1">3M
+						<tool>ADE</tool>
+						<outputs>
+							<output>dB20(leafValue(VF("/VOUT") "VPULSE" 0))
+								<evalType>point</evalType>
+							</output>
+							<output>dB20(VF("/VOUT"))
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+						<tooloptions>
+							<option>cell
+								<value>ex1</value>
+							</option>
+							<option>lib
+								<value>DAY6</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>3M_DAY6:ex1:1:1_state_Interactive.62</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</tooloptions>
+						<prerunscript>0</prerunscript>
+						<origoptions>
+							<option>cell
+								<value>ex1</value>
+							</option>
+							<option>lib
+								<value>DAY6</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>DAY6:ex1:1:1_state</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+					<test enabled="1">SR
+						<tool>ADE</tool>
+						<outputs>
+							<output>dB20(leafValue(VF("/VOUT") "VPULSE" 0))
+								<evalType>point</evalType>
+							</output>
+							<output>dB20(VF("/VOUT"))
+								<evalType>point</evalType>
+							</output>
+							<output>SR
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+						<tooloptions>
+							<option>cell
+								<value>ex1</value>
+							</option>
+							<option>lib
+								<value>DAY6</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>SR_3M:1_state_Interactive.62</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</tooloptions>
+						<prerunscript>0</prerunscript>
+						<origoptions>
+							<option>cell
+								<value>ex1</value>
+							</option>
+							<option>lib
+								<value>DAY6</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>3M:1_state</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var enabled="0">FREQ
+						<value>1k</value>
+						<dependentTests>
+							<dependentTest enabled="0">1k</dependentTest>
+							<dependentTest enabled="0">3M</dependentTest>
+							<dependentTest enabled="0">SR</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">VIN
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="0">1k</dependentTest>
+							<dependentTest enabled="0">3M</dependentTest>
+							<dependentTest enabled="0">SR</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">VPULSE
+						<value>500m</value>
+						<dependentTests>
+							<dependentTest enabled="0">1k</dependentTest>
+							<dependentTest enabled="0">3M</dependentTest>
+							<dependentTest enabled="0">SR</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottingmode
+						<value>New Win</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>distributedplot_enabled
+						<value>no</value>
+					</plottingoption>
+				</plottingoptions>
+				<jobpolicyname>ADE XL Default</jobpolicyname>
+				<disabledtests>
+					<test>3M</test>
+				</disabledtests>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Nov 17 11:43:05 2025</timestamp>
+			<uuid>{756100f5-cee3-45a4-84bc-b729ef3f915f}</uuid>
+			<resultsname>/home/saul/projects/FIL3601/DAY6/ex1/adexl/results/data/Interactive.62.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.62.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/edatools_saul_114305836</localpsfdir>
+			<psfdir>/home/saul/projects/FIL3601/Sim/DAY6/ex1/adexl/results/data/Interactive.62</psfdir>
+			<simdir>$AXL_PROJECT_DIR/DAY6/ex1/adexl/results/data/Interactive.62</simdir>
+			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
+			<runlog>/home/saul/projects/FIL3601/DAY6/ex1/adexl/results/data/Interactive.62.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.62.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.63
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test enabled="1">1k
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>ex1</value>
+							</option>
+							<option>lib
+								<value>DAY6</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>1k_none_Interactive.63</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>ex1</value>
+							</option>
+							<option>lib
+								<value>DAY6</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+						<outputs>
+							<output>dB20(leafValue(VF("/VOUT") "VPULSE" 0))
+								<evalType>point</evalType>
+							</output>
+							<output>dB20(VF("/VOUT"))
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+					</test>
+					<test enabled="1">3M
+						<tool>ADE</tool>
+						<outputs>
+							<output>dB20(leafValue(VF("/VOUT") "VPULSE" 0))
+								<evalType>point</evalType>
+							</output>
+							<output>dB20(VF("/VOUT"))
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+						<tooloptions>
+							<option>cell
+								<value>ex1</value>
+							</option>
+							<option>lib
+								<value>DAY6</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>3M_DAY6:ex1:1:1_state_Interactive.63</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</tooloptions>
+						<prerunscript>0</prerunscript>
+						<origoptions>
+							<option>cell
+								<value>ex1</value>
+							</option>
+							<option>lib
+								<value>DAY6</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>DAY6:ex1:1:1_state</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+					<test enabled="1">SR
+						<tool>ADE</tool>
+						<outputs>
+							<output>dB20(leafValue(VF("/VOUT") "VPULSE" 0))
+								<evalType>point</evalType>
+							</output>
+							<output>dB20(VF("/VOUT"))
+								<evalType>point</evalType>
+							</output>
+							<output>SR
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+						<tooloptions>
+							<option>cell
+								<value>ex1</value>
+							</option>
+							<option>lib
+								<value>DAY6</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>SR_3M:1_state_Interactive.63</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</tooloptions>
+						<prerunscript>0</prerunscript>
+						<origoptions>
+							<option>cell
+								<value>ex1</value>
+							</option>
+							<option>lib
+								<value>DAY6</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>3M:1_state</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var enabled="0">FREQ
+						<value>1k</value>
+						<dependentTests>
+							<dependentTest enabled="0">1k</dependentTest>
+							<dependentTest enabled="0">3M</dependentTest>
+							<dependentTest enabled="0">SR</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">VIN
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="0">1k</dependentTest>
+							<dependentTest enabled="0">3M</dependentTest>
+							<dependentTest enabled="0">SR</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">VPULSE
+						<value>500m</value>
+						<dependentTests>
+							<dependentTest enabled="0">1k</dependentTest>
+							<dependentTest enabled="0">3M</dependentTest>
+							<dependentTest enabled="0">SR</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottingmode
+						<value>New Win</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>distributedplot_enabled
+						<value>no</value>
+					</plottingoption>
+				</plottingoptions>
+				<jobpolicyname>ADE XL Default</jobpolicyname>
+				<disabledtests>
+					<test>3M</test>
+				</disabledtests>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Nov 17 13:39:42 2025</timestamp>
+			<uuid>{ebc24ad9-372c-4cbe-826e-27953036177d}</uuid>
+			<resultsname>/home/saul/projects/FIL3601/DAY6/ex1/adexl/results/data/Interactive.63.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.63.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/edatools_saul_133942516</localpsfdir>
+			<psfdir>/home/saul/projects/FIL3601/Sim/DAY6/ex1/adexl/results/data/Interactive.63</psfdir>
+			<simdir>$AXL_PROJECT_DIR/DAY6/ex1/adexl/results/data/Interactive.63</simdir>
+			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
+			<runlog>/home/saul/projects/FIL3601/DAY6/ex1/adexl/results/data/Interactive.63.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.63.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.64
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test enabled="1">1k
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>ex1</value>
+							</option>
+							<option>lib
+								<value>DAY6</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>1k_none_Interactive.64</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>ex1</value>
+							</option>
+							<option>lib
+								<value>DAY6</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+						<outputs>
+							<output>dB20(leafValue(VF("/VOUT") "VPULSE" 0))
+								<evalType>point</evalType>
+							</output>
+							<output>dB20(VF("/VOUT"))
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+					</test>
+					<test enabled="1">3M
+						<tool>ADE</tool>
+						<outputs>
+							<output>dB20(leafValue(VF("/VOUT") "VPULSE" 0))
+								<evalType>point</evalType>
+							</output>
+							<output>dB20(VF("/VOUT"))
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+						<tooloptions>
+							<option>cell
+								<value>ex1</value>
+							</option>
+							<option>lib
+								<value>DAY6</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>3M_DAY6:ex1:1:1_state_Interactive.64</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</tooloptions>
+						<prerunscript>0</prerunscript>
+						<origoptions>
+							<option>cell
+								<value>ex1</value>
+							</option>
+							<option>lib
+								<value>DAY6</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>DAY6:ex1:1:1_state</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+					<test enabled="1">SR
+						<tool>ADE</tool>
+						<outputs>
+							<output>dB20(leafValue(VF("/VOUT") "VPULSE" 0))
+								<evalType>point</evalType>
+							</output>
+							<output>dB20(VF("/VOUT"))
+								<evalType>point</evalType>
+							</output>
+							<output>SR
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+						<tooloptions>
+							<option>cell
+								<value>ex1</value>
+							</option>
+							<option>lib
+								<value>DAY6</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>SR_3M:1_state_Interactive.64</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</tooloptions>
+						<prerunscript>0</prerunscript>
+						<origoptions>
+							<option>cell
+								<value>ex1</value>
+							</option>
+							<option>lib
+								<value>DAY6</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>3M:1_state</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var enabled="0">FREQ
+						<value>1k</value>
+						<dependentTests>
+							<dependentTest enabled="0">1k</dependentTest>
+							<dependentTest enabled="0">3M</dependentTest>
+							<dependentTest enabled="0">SR</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">VIN
+						<value>500m</value>
+						<dependentTests>
+							<dependentTest enabled="0">1k</dependentTest>
+							<dependentTest enabled="0">3M</dependentTest>
+							<dependentTest enabled="0">SR</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">VPULSE
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="0">1k</dependentTest>
+							<dependentTest enabled="0">3M</dependentTest>
+							<dependentTest enabled="0">SR</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottingmode
+						<value>New Win</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>distributedplot_enabled
+						<value>no</value>
+					</plottingoption>
+				</plottingoptions>
+				<jobpolicyname>ADE XL Default</jobpolicyname>
+				<disabledtests>
+					<test>3M</test>
+				</disabledtests>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Nov 17 13:42:34 2025</timestamp>
+			<uuid>{9b12eb42-dd9f-460c-beb2-ab5506487336}</uuid>
+			<resultsname>/home/saul/projects/FIL3601/DAY6/ex1/adexl/results/data/Interactive.64.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.64.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/edatools_saul_134234282</localpsfdir>
+			<psfdir>/home/saul/projects/FIL3601/Sim/DAY6/ex1/adexl/results/data/Interactive.64</psfdir>
+			<simdir>$AXL_PROJECT_DIR/DAY6/ex1/adexl/results/data/Interactive.64</simdir>
+			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
+			<runlog>/home/saul/projects/FIL3601/DAY6/ex1/adexl/results/data/Interactive.64.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.64.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.65
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test enabled="1">1k
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>ex1</value>
+							</option>
+							<option>lib
+								<value>DAY6</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>1k_none_Interactive.65</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>ex1</value>
+							</option>
+							<option>lib
+								<value>DAY6</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+						<outputs>
+							<output>dB20(leafValue(VF("/VOUT") "VPULSE" 0))
+								<evalType>point</evalType>
+							</output>
+							<output>dB20(VF("/VOUT"))
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+					</test>
+					<test enabled="1">3M
+						<tool>ADE</tool>
+						<outputs>
+							<output>dB20(leafValue(VF("/VOUT") "VPULSE" 0))
+								<evalType>point</evalType>
+							</output>
+							<output>dB20(VF("/VOUT"))
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+						<tooloptions>
+							<option>cell
+								<value>ex1</value>
+							</option>
+							<option>lib
+								<value>DAY6</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>3M_DAY6:ex1:1:1_state_Interactive.65</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</tooloptions>
+						<prerunscript>0</prerunscript>
+						<origoptions>
+							<option>cell
+								<value>ex1</value>
+							</option>
+							<option>lib
+								<value>DAY6</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>DAY6:ex1:1:1_state</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+					<test enabled="1">SR
+						<tool>ADE</tool>
+						<outputs>
+							<output>dB20(leafValue(VF("/VOUT") "VPULSE" 0))
+								<evalType>point</evalType>
+							</output>
+							<output>dB20(VF("/VOUT"))
+								<evalType>point</evalType>
+							</output>
+							<output>SR
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+						<tooloptions>
+							<option>cell
+								<value>ex1</value>
+							</option>
+							<option>lib
+								<value>DAY6</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>SR_3M:1_state_Interactive.65</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</tooloptions>
+						<prerunscript>0</prerunscript>
+						<origoptions>
+							<option>cell
+								<value>ex1</value>
+							</option>
+							<option>lib
+								<value>DAY6</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>3M:1_state</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var enabled="0">FREQ
+						<value>1k</value>
+						<dependentTests>
+							<dependentTest enabled="0">1k</dependentTest>
+							<dependentTest enabled="0">3M</dependentTest>
+							<dependentTest enabled="0">SR</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">VIN
+						<value>500m</value>
+						<dependentTests>
+							<dependentTest enabled="0">1k</dependentTest>
+							<dependentTest enabled="0">3M</dependentTest>
+							<dependentTest enabled="0">SR</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">VPULSE
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="0">1k</dependentTest>
+							<dependentTest enabled="0">3M</dependentTest>
+							<dependentTest enabled="0">SR</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottingmode
+						<value>New Win</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>distributedplot_enabled
+						<value>no</value>
+					</plottingoption>
+				</plottingoptions>
+				<jobpolicyname>ADE XL Default</jobpolicyname>
+				<disabledtests>
+					<test>3M</test>
+				</disabledtests>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Nov 17 13:43:44 2025</timestamp>
+			<uuid>{e4b07dab-c9c8-4660-a41a-253159e8eb00}</uuid>
+			<resultsname>/home/saul/projects/FIL3601/DAY6/ex1/adexl/results/data/Interactive.65.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.65.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/edatools_saul_134344356</localpsfdir>
+			<psfdir>/home/saul/projects/FIL3601/Sim/DAY6/ex1/adexl/results/data/Interactive.65</psfdir>
+			<simdir>$AXL_PROJECT_DIR/DAY6/ex1/adexl/results/data/Interactive.65</simdir>
+			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
+			<runlog>/home/saul/projects/FIL3601/DAY6/ex1/adexl/results/data/Interactive.65.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.65.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.66
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test enabled="1">1k
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>ex1</value>
+							</option>
+							<option>lib
+								<value>DAY6</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>1k_none_Interactive.66</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>ex1</value>
+							</option>
+							<option>lib
+								<value>DAY6</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+						<outputs>
+							<output>dB20(leafValue(VF("/VOUT") "VPULSE" 0))
+								<evalType>point</evalType>
+							</output>
+							<output>dB20(VF("/VOUT"))
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+					</test>
+					<test enabled="1">3M
+						<tool>ADE</tool>
+						<outputs>
+							<output>dB20(leafValue(VF("/VOUT") "VPULSE" 0))
+								<evalType>point</evalType>
+							</output>
+							<output>dB20(VF("/VOUT"))
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+						<tooloptions>
+							<option>cell
+								<value>ex1</value>
+							</option>
+							<option>lib
+								<value>DAY6</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>3M_DAY6:ex1:1:1_state_Interactive.66</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</tooloptions>
+						<prerunscript>0</prerunscript>
+						<origoptions>
+							<option>cell
+								<value>ex1</value>
+							</option>
+							<option>lib
+								<value>DAY6</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>DAY6:ex1:1:1_state</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+					<test enabled="1">SR
+						<tool>ADE</tool>
+						<outputs>
+							<output>dB20(leafValue(VF("/VOUT") "VPULSE" 0))
+								<evalType>point</evalType>
+							</output>
+							<output>dB20(VF("/VOUT"))
+								<evalType>point</evalType>
+							</output>
+							<output>SR
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+						<tooloptions>
+							<option>cell
+								<value>ex1</value>
+							</option>
+							<option>lib
+								<value>DAY6</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>SR_3M:1_state_Interactive.66</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</tooloptions>
+						<prerunscript>0</prerunscript>
+						<origoptions>
+							<option>cell
+								<value>ex1</value>
+							</option>
+							<option>lib
+								<value>DAY6</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>3M:1_state</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var enabled="0">FREQ
+						<value>1k</value>
+						<dependentTests>
+							<dependentTest enabled="0">1k</dependentTest>
+							<dependentTest enabled="0">3M</dependentTest>
+							<dependentTest enabled="0">SR</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">VIN
+						<value>500m</value>
+						<dependentTests>
+							<dependentTest enabled="0">1k</dependentTest>
+							<dependentTest enabled="0">3M</dependentTest>
+							<dependentTest enabled="0">SR</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">VPULSE
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="0">1k</dependentTest>
+							<dependentTest enabled="0">3M</dependentTest>
+							<dependentTest enabled="0">SR</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottingmode
+						<value>New Win</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>distributedplot_enabled
+						<value>no</value>
+					</plottingoption>
+				</plottingoptions>
+				<jobpolicyname>ADE XL Default</jobpolicyname>
+				<disabledtests>
+					<test>1k</test>
+				</disabledtests>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Nov 17 13:45:42 2025</timestamp>
+			<uuid>{5e1f72d5-f465-48a7-bd3d-02128c461b2f}</uuid>
+			<resultsname>/home/saul/projects/FIL3601/DAY6/ex1/adexl/results/data/Interactive.66.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.66.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/edatools_saul_134542047</localpsfdir>
+			<psfdir>/home/saul/projects/FIL3601/Sim/DAY6/ex1/adexl/results/data/Interactive.66</psfdir>
+			<simdir>$AXL_PROJECT_DIR/DAY6/ex1/adexl/results/data/Interactive.66</simdir>
+			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
+			<runlog>/home/saul/projects/FIL3601/DAY6/ex1/adexl/results/data/Interactive.66.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.66.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.67
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test enabled="1">1k
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>ex1</value>
+							</option>
+							<option>lib
+								<value>DAY6</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>1k_none_Interactive.67</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>ex1</value>
+							</option>
+							<option>lib
+								<value>DAY6</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+						<outputs>
+							<output>dB20(leafValue(VF("/VOUT") "VPULSE" 0))
+								<evalType>point</evalType>
+							</output>
+							<output>dB20(VF("/VOUT"))
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+					</test>
+					<test enabled="1">3M
+						<tool>ADE</tool>
+						<outputs>
+							<output>dB20(leafValue(VF("/VOUT") "VPULSE" 0))
+								<evalType>point</evalType>
+							</output>
+							<output>dB20(VF("/VOUT"))
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+						<tooloptions>
+							<option>cell
+								<value>ex1</value>
+							</option>
+							<option>lib
+								<value>DAY6</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>3M_DAY6:ex1:1:1_state_Interactive.67</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</tooloptions>
+						<prerunscript>0</prerunscript>
+						<origoptions>
+							<option>cell
+								<value>ex1</value>
+							</option>
+							<option>lib
+								<value>DAY6</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>DAY6:ex1:1:1_state</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+					<test enabled="1">SR
+						<tool>ADE</tool>
+						<outputs>
+							<output>dB20(leafValue(VF("/VOUT") "VPULSE" 0))
+								<evalType>point</evalType>
+							</output>
+							<output>dB20(VF("/VOUT"))
+								<evalType>point</evalType>
+							</output>
+							<output>SR
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+						<tooloptions>
+							<option>cell
+								<value>ex1</value>
+							</option>
+							<option>lib
+								<value>DAY6</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>SR_3M:1_state_Interactive.67</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</tooloptions>
+						<prerunscript>0</prerunscript>
+						<origoptions>
+							<option>cell
+								<value>ex1</value>
+							</option>
+							<option>lib
+								<value>DAY6</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>3M:1_state</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var enabled="0">FREQ
+						<value>1k</value>
+						<dependentTests>
+							<dependentTest enabled="0">1k</dependentTest>
+							<dependentTest enabled="0">3M</dependentTest>
+							<dependentTest enabled="0">SR</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">VIN
+						<value>500m</value>
+						<dependentTests>
+							<dependentTest enabled="0">1k</dependentTest>
+							<dependentTest enabled="0">3M</dependentTest>
+							<dependentTest enabled="0">SR</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">VPULSE
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="0">1k</dependentTest>
+							<dependentTest enabled="0">3M</dependentTest>
+							<dependentTest enabled="0">SR</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottingmode
+						<value>New Win</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>distributedplot_enabled
+						<value>no</value>
+					</plottingoption>
+				</plottingoptions>
+				<jobpolicyname>ADE XL Default</jobpolicyname>
+				<disabledtests>
+					<test>1k</test>
+				</disabledtests>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Nov 17 13:58:24 2025</timestamp>
+			<uuid>{d0cc5f9e-c417-4188-be21-bef6553915c7}</uuid>
+			<resultsname>/home/saul/projects/FIL3601/DAY6/ex1/adexl/results/data/Interactive.67.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.67.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/edatools_saul_135825020</localpsfdir>
+			<psfdir>/home/saul/projects/FIL3601/Sim/DAY6/ex1/adexl/results/data/Interactive.67</psfdir>
+			<simdir>$AXL_PROJECT_DIR/DAY6/ex1/adexl/results/data/Interactive.67</simdir>
+			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
+			<runlog>/home/saul/projects/FIL3601/DAY6/ex1/adexl/results/data/Interactive.67.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.67.log</runlogfile>
 			<schematicpoint></schematicpoint>
 			<test>all</test>
 		</historyentry>

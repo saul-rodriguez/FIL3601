@@ -1,0 +1,19 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.2
+LoginName                      saul
+HostName                       33107@edatools
+ProcessIdentifier              11342
+ProcessCreationTime_UTC        1763386785
+ProcessCreationTime_Readable   Mon Nov 17 13:39:45 2025 UTC
+AppIdentifier                  /opt/tools/cadence/installs/IC618/tools.lnx86/dfII/bin/64bit/virtuoso
+OSType                         lnx86
+ReasonForPlacingEditLock       Set lock by hiiLockFile
+FilePathUsedToEditLock         /home/saul/projects/FIL3601/logs_saul/logs1/Job8.log
+TimeEditLocked                 Mon Nov 17 13:39:45 2025 UTC
+ProcessScopeIdentifier         ETd7CmnqqhtwtEexCmpvpL
+ExpirationTime_UTC             1763473185
+ExpirationTime_Readable        Tue Nov 18 13:39:45 2025 UTC

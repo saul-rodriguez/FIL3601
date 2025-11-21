@@ -1,0 +1,7 @@
+// Generated for: spectre
+// Generated on: Nov 21 12:24:24 2025
+// Design library name: LAB4
+// Design cell name: Shunt_bias9
+// Design view name: schematic
+simulator lang=spectre
+global 0

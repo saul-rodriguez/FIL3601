@@ -511,7 +511,7 @@
 		<disabledtests></disabledtests>
 	</active>
 	<history>History
-		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.60
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.73
 			<checkpoint>
 				<corners>
 					<corner enabled="1">_default</corner>
@@ -545,7 +545,7 @@
 								<value>$AXL_SETUPDB_DIR/test_states</value>
 							</option>
 							<option>state
-								<value>Closed_loop_spectre_state1_Interactive.60</value>
+								<value>Closed_loop_spectre_state1_Interactive.73</value>
 							</option>
 						</tooloptions>
 						<origoptions>
@@ -585,7 +585,7 @@
 								<value>spectre</value>
 							</option>
 							<option>state
-								<value>Asymptotic_Closed_loop:1_state_Interactive.60</value>
+								<value>Asymptotic_Closed_loop:1_state_Interactive.73</value>
 							</option>
 							<option>view
 								<value>schematic</value>
@@ -629,7 +629,7 @@
 								<value>spectre</value>
 							</option>
 							<option>state
-								<value>AB_Asymptotic:1_state_Interactive.60</value>
+								<value>AB_Asymptotic:1_state_Interactive.73</value>
 							</option>
 							<option>view
 								<value>schematic</value>
@@ -684,7 +684,7 @@
 								<value>spectre</value>
 							</option>
 							<option>state
-								<value>root_locus_Closed_loop:1_state_Interactive.60</value>
+								<value>root_locus_Closed_loop:1_state_Interactive.73</value>
 							</option>
 							<option>view
 								<value>schematic</value>
@@ -1023,26 +1023,26 @@
 				<disabledtests></disabledtests>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Apr 13 15:58:12 2025</timestamp>
-			<uuid>{f4762ad2-d011-444e-a91e-05708611203c}</uuid>
-			<resultsname>/home/saul/projects/FIL3601/DAY7/ex1_small_signal_no_bias/adexl/results/data/Interactive.60.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.60.rdb</simresults>
+			<timestamp>Nov 14 11:50:14 2025</timestamp>
+			<uuid>{43faecd4-d21c-4007-9410-2d4e3e0c07ae}</uuid>
+			<resultsname>/home/saul/projects/FIL3601/DAY7/ex1_small_signal_no_bias/adexl/results/data/Interactive.73.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.73.rdb</simresults>
 			<rawdatadelstrategy>SaveAll
 				<simdatasavemode>All</simdatasavemode>
 			</rawdatadelstrategy>
 			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/s2424_saul_155812341</localpsfdir>
-			<psfdir>/home/saul/projects/FIL3601/Sim/DAY7/ex1_small_signal_no_bias/adexl/results/data/Interactive.60</psfdir>
-			<simdir>$AXL_PROJECT_DIR/DAY7/ex1_small_signal_no_bias/adexl/results/data/Interactive.60</simdir>
+			<localpsfdir>/tmp/edatools_saul_115014094</localpsfdir>
+			<psfdir>/home/saul/projects/FIL3601/Sim/DAY7/ex1_small_signal_no_bias/adexl/results/data/Interactive.73</psfdir>
+			<simdir>$AXL_PROJECT_DIR/DAY7/ex1_small_signal_no_bias/adexl/results/data/Interactive.73</simdir>
 			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
-			<runlog>/home/saul/projects/FIL3601/DAY7/ex1_small_signal_no_bias/adexl/results/data/Interactive.60.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.60.log</runlogfile>
+			<runlog>/home/saul/projects/FIL3601/DAY7/ex1_small_signal_no_bias/adexl/results/data/Interactive.73.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.73.log</runlogfile>
 			<schematicpoint></schematicpoint>
 			<test>all</test>
 		</historyentry>
-		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.61
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.74
 			<checkpoint>
 				<corners>
 					<corner enabled="1">_default</corner>
@@ -1076,7 +1076,7 @@
 								<value>$AXL_SETUPDB_DIR/test_states</value>
 							</option>
 							<option>state
-								<value>Closed_loop_spectre_state1_Interactive.61</value>
+								<value>Closed_loop_spectre_state1_Interactive.74</value>
 							</option>
 						</tooloptions>
 						<origoptions>
@@ -1116,7 +1116,7 @@
 								<value>spectre</value>
 							</option>
 							<option>state
-								<value>Asymptotic_Closed_loop:1_state_Interactive.61</value>
+								<value>Asymptotic_Closed_loop:1_state_Interactive.74</value>
 							</option>
 							<option>view
 								<value>schematic</value>
@@ -1160,7 +1160,7 @@
 								<value>spectre</value>
 							</option>
 							<option>state
-								<value>AB_Asymptotic:1_state_Interactive.61</value>
+								<value>AB_Asymptotic:1_state_Interactive.74</value>
 							</option>
 							<option>view
 								<value>schematic</value>
@@ -1215,7 +1215,7 @@
 								<value>spectre</value>
 							</option>
 							<option>state
-								<value>root_locus_Closed_loop:1_state_Interactive.61</value>
+								<value>root_locus_Closed_loop:1_state_Interactive.74</value>
 							</option>
 							<option>view
 								<value>schematic</value>
@@ -1554,26 +1554,26 @@
 				<disabledtests></disabledtests>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Apr 13 15:59:25 2025</timestamp>
-			<uuid>{9138a2f2-c740-41b9-999d-63463f6a97cd}</uuid>
-			<resultsname>/home/saul/projects/FIL3601/DAY7/ex1_small_signal_no_bias/adexl/results/data/Interactive.61.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.61.rdb</simresults>
+			<timestamp>Nov 14 11:57:27 2025</timestamp>
+			<uuid>{f860d116-4228-4183-9828-7795a453ec06}</uuid>
+			<resultsname>/home/saul/projects/FIL3601/DAY7/ex1_small_signal_no_bias/adexl/results/data/Interactive.74.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.74.rdb</simresults>
 			<rawdatadelstrategy>SaveAll
 				<simdatasavemode>All</simdatasavemode>
 			</rawdatadelstrategy>
 			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/s2424_saul_155925784</localpsfdir>
-			<psfdir>/home/saul/projects/FIL3601/Sim/DAY7/ex1_small_signal_no_bias/adexl/results/data/Interactive.61</psfdir>
-			<simdir>$AXL_PROJECT_DIR/DAY7/ex1_small_signal_no_bias/adexl/results/data/Interactive.61</simdir>
+			<localpsfdir>/tmp/edatools_saul_115727317</localpsfdir>
+			<psfdir>/home/saul/projects/FIL3601/Sim/DAY7/ex1_small_signal_no_bias/adexl/results/data/Interactive.74</psfdir>
+			<simdir>$AXL_PROJECT_DIR/DAY7/ex1_small_signal_no_bias/adexl/results/data/Interactive.74</simdir>
 			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
-			<runlog>/home/saul/projects/FIL3601/DAY7/ex1_small_signal_no_bias/adexl/results/data/Interactive.61.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.61.log</runlogfile>
+			<runlog>/home/saul/projects/FIL3601/DAY7/ex1_small_signal_no_bias/adexl/results/data/Interactive.74.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.74.log</runlogfile>
 			<schematicpoint></schematicpoint>
 			<test>all</test>
 		</historyentry>
-		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.62
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.75
 			<checkpoint>
 				<corners>
 					<corner enabled="1">_default</corner>
@@ -1607,7 +1607,7 @@
 								<value>$AXL_SETUPDB_DIR/test_states</value>
 							</option>
 							<option>state
-								<value>Closed_loop_spectre_state1_Interactive.62</value>
+								<value>Closed_loop_spectre_state1_Interactive.75</value>
 							</option>
 						</tooloptions>
 						<origoptions>
@@ -1647,7 +1647,7 @@
 								<value>spectre</value>
 							</option>
 							<option>state
-								<value>Asymptotic_Closed_loop:1_state_Interactive.62</value>
+								<value>Asymptotic_Closed_loop:1_state_Interactive.75</value>
 							</option>
 							<option>view
 								<value>schematic</value>
@@ -1691,7 +1691,7 @@
 								<value>spectre</value>
 							</option>
 							<option>state
-								<value>AB_Asymptotic:1_state_Interactive.62</value>
+								<value>AB_Asymptotic:1_state_Interactive.75</value>
 							</option>
 							<option>view
 								<value>schematic</value>
@@ -1746,7 +1746,7 @@
 								<value>spectre</value>
 							</option>
 							<option>state
-								<value>root_locus_Closed_loop:1_state_Interactive.62</value>
+								<value>root_locus_Closed_loop:1_state_Interactive.75</value>
 							</option>
 							<option>view
 								<value>schematic</value>
@@ -2085,26 +2085,26 @@
 				<disabledtests></disabledtests>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Apr 13 16:03:38 2025</timestamp>
-			<uuid>{71f9b395-7704-41ac-8d05-06f26f60900f}</uuid>
-			<resultsname>/home/saul/projects/FIL3601/DAY7/ex1_small_signal_no_bias/adexl/results/data/Interactive.62.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.62.rdb</simresults>
+			<timestamp>Nov 14 12:17:02 2025</timestamp>
+			<uuid>{3a3ba1eb-55ab-4e54-87bf-eb9d8c114909}</uuid>
+			<resultsname>/home/saul/projects/FIL3601/DAY7/ex1_small_signal_no_bias/adexl/results/data/Interactive.75.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.75.rdb</simresults>
 			<rawdatadelstrategy>SaveAll
 				<simdatasavemode>All</simdatasavemode>
 			</rawdatadelstrategy>
 			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/s2424_saul_160338325</localpsfdir>
-			<psfdir>/home/saul/projects/FIL3601/Sim/DAY7/ex1_small_signal_no_bias/adexl/results/data/Interactive.62</psfdir>
-			<simdir>$AXL_PROJECT_DIR/DAY7/ex1_small_signal_no_bias/adexl/results/data/Interactive.62</simdir>
+			<localpsfdir>/tmp/edatools_saul_121702558</localpsfdir>
+			<psfdir>/home/saul/projects/FIL3601/Sim/DAY7/ex1_small_signal_no_bias/adexl/results/data/Interactive.75</psfdir>
+			<simdir>$AXL_PROJECT_DIR/DAY7/ex1_small_signal_no_bias/adexl/results/data/Interactive.75</simdir>
 			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
-			<runlog>/home/saul/projects/FIL3601/DAY7/ex1_small_signal_no_bias/adexl/results/data/Interactive.62.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.62.log</runlogfile>
+			<runlog>/home/saul/projects/FIL3601/DAY7/ex1_small_signal_no_bias/adexl/results/data/Interactive.75.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.75.log</runlogfile>
 			<schematicpoint></schematicpoint>
 			<test>all</test>
 		</historyentry>
-		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.63
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.76
 			<checkpoint>
 				<corners>
 					<corner enabled="1">_default</corner>
@@ -2138,7 +2138,7 @@
 								<value>$AXL_SETUPDB_DIR/test_states</value>
 							</option>
 							<option>state
-								<value>Closed_loop_spectre_state1_Interactive.63</value>
+								<value>Closed_loop_spectre_state1_Interactive.76</value>
 							</option>
 						</tooloptions>
 						<origoptions>
@@ -2178,7 +2178,7 @@
 								<value>spectre</value>
 							</option>
 							<option>state
-								<value>Asymptotic_Closed_loop:1_state_Interactive.63</value>
+								<value>Asymptotic_Closed_loop:1_state_Interactive.76</value>
 							</option>
 							<option>view
 								<value>schematic</value>
@@ -2222,7 +2222,7 @@
 								<value>spectre</value>
 							</option>
 							<option>state
-								<value>AB_Asymptotic:1_state_Interactive.63</value>
+								<value>AB_Asymptotic:1_state_Interactive.76</value>
 							</option>
 							<option>view
 								<value>schematic</value>
@@ -2277,7 +2277,7 @@
 								<value>spectre</value>
 							</option>
 							<option>state
-								<value>root_locus_Closed_loop:1_state_Interactive.63</value>
+								<value>root_locus_Closed_loop:1_state_Interactive.76</value>
 							</option>
 							<option>view
 								<value>schematic</value>
@@ -2616,26 +2616,26 @@
 				<disabledtests></disabledtests>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Apr 13 16:08:01 2025</timestamp>
-			<uuid>{c53bf9c3-7475-4acd-820e-5643bf66cc79}</uuid>
-			<resultsname>/home/saul/projects/FIL3601/DAY7/ex1_small_signal_no_bias/adexl/results/data/Interactive.63.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.63.rdb</simresults>
+			<timestamp>Nov 14 12:18:01 2025</timestamp>
+			<uuid>{656d88c6-ec67-47e5-b650-45d5a6845449}</uuid>
+			<resultsname>/home/saul/projects/FIL3601/DAY7/ex1_small_signal_no_bias/adexl/results/data/Interactive.76.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.76.rdb</simresults>
 			<rawdatadelstrategy>SaveAll
 				<simdatasavemode>All</simdatasavemode>
 			</rawdatadelstrategy>
 			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/s2424_saul_160801596</localpsfdir>
-			<psfdir>/home/saul/projects/FIL3601/Sim/DAY7/ex1_small_signal_no_bias/adexl/results/data/Interactive.63</psfdir>
-			<simdir>$AXL_PROJECT_DIR/DAY7/ex1_small_signal_no_bias/adexl/results/data/Interactive.63</simdir>
+			<localpsfdir>/tmp/edatools_saul_121801850</localpsfdir>
+			<psfdir>/home/saul/projects/FIL3601/Sim/DAY7/ex1_small_signal_no_bias/adexl/results/data/Interactive.76</psfdir>
+			<simdir>$AXL_PROJECT_DIR/DAY7/ex1_small_signal_no_bias/adexl/results/data/Interactive.76</simdir>
 			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
-			<runlog>/home/saul/projects/FIL3601/DAY7/ex1_small_signal_no_bias/adexl/results/data/Interactive.63.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.63.log</runlogfile>
+			<runlog>/home/saul/projects/FIL3601/DAY7/ex1_small_signal_no_bias/adexl/results/data/Interactive.76.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.76.log</runlogfile>
 			<schematicpoint></schematicpoint>
 			<test>all</test>
 		</historyentry>
-		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.64
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.77
 			<checkpoint>
 				<corners>
 					<corner enabled="1">_default</corner>
@@ -2669,7 +2669,7 @@
 								<value>$AXL_SETUPDB_DIR/test_states</value>
 							</option>
 							<option>state
-								<value>Closed_loop_spectre_state1_Interactive.64</value>
+								<value>Closed_loop_spectre_state1_Interactive.77</value>
 							</option>
 						</tooloptions>
 						<origoptions>
@@ -2709,7 +2709,7 @@
 								<value>spectre</value>
 							</option>
 							<option>state
-								<value>Asymptotic_Closed_loop:1_state_Interactive.64</value>
+								<value>Asymptotic_Closed_loop:1_state_Interactive.77</value>
 							</option>
 							<option>view
 								<value>schematic</value>
@@ -2753,7 +2753,7 @@
 								<value>spectre</value>
 							</option>
 							<option>state
-								<value>AB_Asymptotic:1_state_Interactive.64</value>
+								<value>AB_Asymptotic:1_state_Interactive.77</value>
 							</option>
 							<option>view
 								<value>schematic</value>
@@ -2808,7 +2808,7 @@
 								<value>spectre</value>
 							</option>
 							<option>state
-								<value>root_locus_Closed_loop:1_state_Interactive.64</value>
+								<value>root_locus_Closed_loop:1_state_Interactive.77</value>
 							</option>
 							<option>view
 								<value>schematic</value>
@@ -3147,26 +3147,26 @@
 				<disabledtests></disabledtests>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Apr 13 16:15:01 2025</timestamp>
-			<uuid>{7d4eac1e-a0a0-4762-be10-0efd0a65ceb3}</uuid>
-			<resultsname>/home/saul/projects/FIL3601/DAY7/ex1_small_signal_no_bias/adexl/results/data/Interactive.64.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.64.rdb</simresults>
+			<timestamp>Nov 14 12:54:04 2025</timestamp>
+			<uuid>{98b2bf65-430a-4622-9534-635ce3c5c550}</uuid>
+			<resultsname>/home/saul/projects/FIL3601/DAY7/ex1_small_signal_no_bias/adexl/results/data/Interactive.77.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.77.rdb</simresults>
 			<rawdatadelstrategy>SaveAll
 				<simdatasavemode>All</simdatasavemode>
 			</rawdatadelstrategy>
 			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/s2424_saul_161501065</localpsfdir>
-			<psfdir>/home/saul/projects/FIL3601/Sim/DAY7/ex1_small_signal_no_bias/adexl/results/data/Interactive.64</psfdir>
-			<simdir>$AXL_PROJECT_DIR/DAY7/ex1_small_signal_no_bias/adexl/results/data/Interactive.64</simdir>
+			<localpsfdir>/tmp/edatools_saul_125404434</localpsfdir>
+			<psfdir>/home/saul/projects/FIL3601/Sim/DAY7/ex1_small_signal_no_bias/adexl/results/data/Interactive.77</psfdir>
+			<simdir>$AXL_PROJECT_DIR/DAY7/ex1_small_signal_no_bias/adexl/results/data/Interactive.77</simdir>
 			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
-			<runlog>/home/saul/projects/FIL3601/DAY7/ex1_small_signal_no_bias/adexl/results/data/Interactive.64.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.64.log</runlogfile>
+			<runlog>/home/saul/projects/FIL3601/DAY7/ex1_small_signal_no_bias/adexl/results/data/Interactive.77.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.77.log</runlogfile>
 			<schematicpoint></schematicpoint>
 			<test>all</test>
 		</historyentry>
-		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.65
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.78
 			<checkpoint>
 				<corners>
 					<corner enabled="1">_default</corner>
@@ -3200,7 +3200,7 @@
 								<value>$AXL_SETUPDB_DIR/test_states</value>
 							</option>
 							<option>state
-								<value>Closed_loop_spectre_state1_Interactive.65</value>
+								<value>Closed_loop_spectre_state1_Interactive.78</value>
 							</option>
 						</tooloptions>
 						<origoptions>
@@ -3240,7 +3240,7 @@
 								<value>spectre</value>
 							</option>
 							<option>state
-								<value>Asymptotic_Closed_loop:1_state_Interactive.65</value>
+								<value>Asymptotic_Closed_loop:1_state_Interactive.78</value>
 							</option>
 							<option>view
 								<value>schematic</value>
@@ -3284,7 +3284,7 @@
 								<value>spectre</value>
 							</option>
 							<option>state
-								<value>AB_Asymptotic:1_state_Interactive.65</value>
+								<value>AB_Asymptotic:1_state_Interactive.78</value>
 							</option>
 							<option>view
 								<value>schematic</value>
@@ -3339,7 +3339,7 @@
 								<value>spectre</value>
 							</option>
 							<option>state
-								<value>root_locus_Closed_loop:1_state_Interactive.65</value>
+								<value>root_locus_Closed_loop:1_state_Interactive.78</value>
 							</option>
 							<option>view
 								<value>schematic</value>
@@ -3678,26 +3678,26 @@
 				<disabledtests></disabledtests>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Apr 16 14:36:51 2025</timestamp>
-			<uuid>{b27ba0c8-5350-4e3e-a640-c74eb54a3e39}</uuid>
-			<resultsname>/home/saul/projects/FIL3601/DAY7/ex1_small_signal_no_bias/adexl/results/data/Interactive.65.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.65.rdb</simresults>
+			<timestamp>Nov 14 13:59:13 2025</timestamp>
+			<uuid>{9979ffa4-fa9d-4977-98f6-490834e4e052}</uuid>
+			<resultsname>/home/saul/projects/FIL3601/DAY7/ex1_small_signal_no_bias/adexl/results/data/Interactive.78.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.78.rdb</simresults>
 			<rawdatadelstrategy>SaveAll
 				<simdatasavemode>All</simdatasavemode>
 			</rawdatadelstrategy>
 			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/s2424_saul_143651067</localpsfdir>
-			<psfdir>/home/saul/projects/FIL3601/Sim/DAY7/ex1_small_signal_no_bias/adexl/results/data/Interactive.65</psfdir>
-			<simdir>$AXL_PROJECT_DIR/DAY7/ex1_small_signal_no_bias/adexl/results/data/Interactive.65</simdir>
+			<localpsfdir>/tmp/edatools_saul_135913263</localpsfdir>
+			<psfdir>/home/saul/projects/FIL3601/Sim/DAY7/ex1_small_signal_no_bias/adexl/results/data/Interactive.78</psfdir>
+			<simdir>$AXL_PROJECT_DIR/DAY7/ex1_small_signal_no_bias/adexl/results/data/Interactive.78</simdir>
 			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
-			<runlog>/home/saul/projects/FIL3601/DAY7/ex1_small_signal_no_bias/adexl/results/data/Interactive.65.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.65.log</runlogfile>
+			<runlog>/home/saul/projects/FIL3601/DAY7/ex1_small_signal_no_bias/adexl/results/data/Interactive.78.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.78.log</runlogfile>
 			<schematicpoint></schematicpoint>
 			<test>all</test>
 		</historyentry>
-		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.66
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.79
 			<checkpoint>
 				<corners>
 					<corner enabled="1">_default</corner>
@@ -3731,7 +3731,7 @@
 								<value>$AXL_SETUPDB_DIR/test_states</value>
 							</option>
 							<option>state
-								<value>Closed_loop_spectre_state1_Interactive.66</value>
+								<value>Closed_loop_spectre_state1_Interactive.79</value>
 							</option>
 						</tooloptions>
 						<origoptions>
@@ -3771,7 +3771,7 @@
 								<value>spectre</value>
 							</option>
 							<option>state
-								<value>Asymptotic_Closed_loop:1_state_Interactive.66</value>
+								<value>Asymptotic_Closed_loop:1_state_Interactive.79</value>
 							</option>
 							<option>view
 								<value>schematic</value>
@@ -3815,7 +3815,7 @@
 								<value>spectre</value>
 							</option>
 							<option>state
-								<value>AB_Asymptotic:1_state_Interactive.66</value>
+								<value>AB_Asymptotic:1_state_Interactive.79</value>
 							</option>
 							<option>view
 								<value>schematic</value>
@@ -3870,7 +3870,7 @@
 								<value>spectre</value>
 							</option>
 							<option>state
-								<value>root_locus_Closed_loop:1_state_Interactive.66</value>
+								<value>root_locus_Closed_loop:1_state_Interactive.79</value>
 							</option>
 							<option>view
 								<value>schematic</value>
@@ -4209,26 +4209,26 @@
 				<disabledtests></disabledtests>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>May 3 00:59:09 2025</timestamp>
-			<uuid>{37612605-a5b1-4cdb-9834-b4d3431e6fee}</uuid>
-			<resultsname>/home/saul/projects/FIL3601/DAY7/ex1_small_signal_no_bias/adexl/results/data/Interactive.66.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.66.rdb</simresults>
+			<timestamp>Nov 14 14:01:41 2025</timestamp>
+			<uuid>{257c246f-e25e-4a99-93f5-9e003d7f24a8}</uuid>
+			<resultsname>/home/saul/projects/FIL3601/DAY7/ex1_small_signal_no_bias/adexl/results/data/Interactive.79.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.79.rdb</simresults>
 			<rawdatadelstrategy>SaveAll
 				<simdatasavemode>All</simdatasavemode>
 			</rawdatadelstrategy>
 			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/s2424_saul_005909320</localpsfdir>
-			<psfdir>/home/saul/projects/FIL3601/Sim/DAY7/ex1_small_signal_no_bias/adexl/results/data/Interactive.66</psfdir>
-			<simdir>$AXL_PROJECT_DIR/DAY7/ex1_small_signal_no_bias/adexl/results/data/Interactive.66</simdir>
+			<localpsfdir>/tmp/edatools_saul_140141658</localpsfdir>
+			<psfdir>/home/saul/projects/FIL3601/Sim/DAY7/ex1_small_signal_no_bias/adexl/results/data/Interactive.79</psfdir>
+			<simdir>$AXL_PROJECT_DIR/DAY7/ex1_small_signal_no_bias/adexl/results/data/Interactive.79</simdir>
 			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
-			<runlog>/home/saul/projects/FIL3601/DAY7/ex1_small_signal_no_bias/adexl/results/data/Interactive.66.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.66.log</runlogfile>
+			<runlog>/home/saul/projects/FIL3601/DAY7/ex1_small_signal_no_bias/adexl/results/data/Interactive.79.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.79.log</runlogfile>
 			<schematicpoint></schematicpoint>
 			<test>all</test>
 		</historyentry>
-		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.67
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.80
 			<checkpoint>
 				<corners>
 					<corner enabled="1">_default</corner>
@@ -4262,7 +4262,7 @@
 								<value>$AXL_SETUPDB_DIR/test_states</value>
 							</option>
 							<option>state
-								<value>Closed_loop_spectre_state1_Interactive.67</value>
+								<value>Closed_loop_spectre_state1_Interactive.80</value>
 							</option>
 						</tooloptions>
 						<origoptions>
@@ -4302,7 +4302,7 @@
 								<value>spectre</value>
 							</option>
 							<option>state
-								<value>Asymptotic_Closed_loop:1_state_Interactive.67</value>
+								<value>Asymptotic_Closed_loop:1_state_Interactive.80</value>
 							</option>
 							<option>view
 								<value>schematic</value>
@@ -4346,7 +4346,7 @@
 								<value>spectre</value>
 							</option>
 							<option>state
-								<value>AB_Asymptotic:1_state_Interactive.67</value>
+								<value>AB_Asymptotic:1_state_Interactive.80</value>
 							</option>
 							<option>view
 								<value>schematic</value>
@@ -4401,7 +4401,7 @@
 								<value>spectre</value>
 							</option>
 							<option>state
-								<value>root_locus_Closed_loop:1_state_Interactive.67</value>
+								<value>root_locus_Closed_loop:1_state_Interactive.80</value>
 							</option>
 							<option>view
 								<value>schematic</value>
@@ -4740,26 +4740,26 @@
 				<disabledtests></disabledtests>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>May 3 01:16:22 2025</timestamp>
-			<uuid>{ec967ab6-81cf-4321-bf9c-3a995e9fa6cc}</uuid>
-			<resultsname>/home/saul/projects/FIL3601/DAY7/ex1_small_signal_no_bias/adexl/results/data/Interactive.67.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.67.rdb</simresults>
+			<timestamp>Nov 14 14:20:27 2025</timestamp>
+			<uuid>{172822b7-3520-4cb1-97f6-e1057027537b}</uuid>
+			<resultsname>/home/saul/projects/FIL3601/DAY7/ex1_small_signal_no_bias/adexl/results/data/Interactive.80.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.80.rdb</simresults>
 			<rawdatadelstrategy>SaveAll
 				<simdatasavemode>All</simdatasavemode>
 			</rawdatadelstrategy>
 			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/s2424_saul_011622986</localpsfdir>
-			<psfdir>/home/saul/projects/FIL3601/Sim/DAY7/ex1_small_signal_no_bias/adexl/results/data/Interactive.67</psfdir>
-			<simdir>$AXL_PROJECT_DIR/DAY7/ex1_small_signal_no_bias/adexl/results/data/Interactive.67</simdir>
+			<localpsfdir>/tmp/edatools_saul_142027445</localpsfdir>
+			<psfdir>/home/saul/projects/FIL3601/Sim/DAY7/ex1_small_signal_no_bias/adexl/results/data/Interactive.80</psfdir>
+			<simdir>$AXL_PROJECT_DIR/DAY7/ex1_small_signal_no_bias/adexl/results/data/Interactive.80</simdir>
 			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
-			<runlog>/home/saul/projects/FIL3601/DAY7/ex1_small_signal_no_bias/adexl/results/data/Interactive.67.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.67.log</runlogfile>
+			<runlog>/home/saul/projects/FIL3601/DAY7/ex1_small_signal_no_bias/adexl/results/data/Interactive.80.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.80.log</runlogfile>
 			<schematicpoint></schematicpoint>
 			<test>all</test>
 		</historyentry>
-		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.68
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.81
 			<checkpoint>
 				<corners>
 					<corner enabled="1">_default</corner>
@@ -4793,7 +4793,7 @@
 								<value>$AXL_SETUPDB_DIR/test_states</value>
 							</option>
 							<option>state
-								<value>Closed_loop_spectre_state1_Interactive.68</value>
+								<value>Closed_loop_spectre_state1_Interactive.81</value>
 							</option>
 						</tooloptions>
 						<origoptions>
@@ -4833,7 +4833,7 @@
 								<value>spectre</value>
 							</option>
 							<option>state
-								<value>Asymptotic_Closed_loop:1_state_Interactive.68</value>
+								<value>Asymptotic_Closed_loop:1_state_Interactive.81</value>
 							</option>
 							<option>view
 								<value>schematic</value>
@@ -4877,7 +4877,7 @@
 								<value>spectre</value>
 							</option>
 							<option>state
-								<value>AB_Asymptotic:1_state_Interactive.68</value>
+								<value>AB_Asymptotic:1_state_Interactive.81</value>
 							</option>
 							<option>view
 								<value>schematic</value>
@@ -4932,7 +4932,7 @@
 								<value>spectre</value>
 							</option>
 							<option>state
-								<value>root_locus_Closed_loop:1_state_Interactive.68</value>
+								<value>root_locus_Closed_loop:1_state_Interactive.81</value>
 							</option>
 							<option>view
 								<value>schematic</value>
@@ -5271,26 +5271,26 @@
 				<disabledtests></disabledtests>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Nov 12 20:52:01 2025</timestamp>
-			<uuid>{cb63852b-3ea7-47a3-9d83-508091fa4b77}</uuid>
-			<resultsname>/home/saul/projects/FIL3601/DAY7/ex1_small_signal_no_bias/adexl/results/data/Interactive.68.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.68.rdb</simresults>
+			<timestamp>Nov 14 14:23:37 2025</timestamp>
+			<uuid>{7e8d4fe0-b0c0-4d4d-a097-72d99f06b7da}</uuid>
+			<resultsname>/home/saul/projects/FIL3601/DAY7/ex1_small_signal_no_bias/adexl/results/data/Interactive.81.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.81.rdb</simresults>
 			<rawdatadelstrategy>SaveAll
 				<simdatasavemode>All</simdatasavemode>
 			</rawdatadelstrategy>
 			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/edatools_saul_205201570</localpsfdir>
-			<psfdir>/home/saul/projects/FIL3601/Sim/DAY7/ex1_small_signal_no_bias/adexl/results/data/Interactive.68</psfdir>
-			<simdir>$AXL_PROJECT_DIR/DAY7/ex1_small_signal_no_bias/adexl/results/data/Interactive.68</simdir>
+			<localpsfdir>/tmp/edatools_saul_142337450</localpsfdir>
+			<psfdir>/home/saul/projects/FIL3601/Sim/DAY7/ex1_small_signal_no_bias/adexl/results/data/Interactive.81</psfdir>
+			<simdir>$AXL_PROJECT_DIR/DAY7/ex1_small_signal_no_bias/adexl/results/data/Interactive.81</simdir>
 			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
-			<runlog>/home/saul/projects/FIL3601/DAY7/ex1_small_signal_no_bias/adexl/results/data/Interactive.68.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.68.log</runlogfile>
+			<runlog>/home/saul/projects/FIL3601/DAY7/ex1_small_signal_no_bias/adexl/results/data/Interactive.81.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.81.log</runlogfile>
 			<schematicpoint></schematicpoint>
 			<test>all</test>
 		</historyentry>
-		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.69
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.82
 			<checkpoint>
 				<corners>
 					<corner enabled="1">_default</corner>
@@ -5324,7 +5324,7 @@
 								<value>$AXL_SETUPDB_DIR/test_states</value>
 							</option>
 							<option>state
-								<value>Closed_loop_spectre_state1_Interactive.69</value>
+								<value>Closed_loop_spectre_state1_Interactive.82</value>
 							</option>
 						</tooloptions>
 						<origoptions>
@@ -5364,7 +5364,7 @@
 								<value>spectre</value>
 							</option>
 							<option>state
-								<value>Asymptotic_Closed_loop:1_state_Interactive.69</value>
+								<value>Asymptotic_Closed_loop:1_state_Interactive.82</value>
 							</option>
 							<option>view
 								<value>schematic</value>
@@ -5408,7 +5408,7 @@
 								<value>spectre</value>
 							</option>
 							<option>state
-								<value>AB_Asymptotic:1_state_Interactive.69</value>
+								<value>AB_Asymptotic:1_state_Interactive.82</value>
 							</option>
 							<option>view
 								<value>schematic</value>
@@ -5463,7 +5463,7 @@
 								<value>spectre</value>
 							</option>
 							<option>state
-								<value>root_locus_Closed_loop:1_state_Interactive.69</value>
+								<value>root_locus_Closed_loop:1_state_Interactive.82</value>
 							</option>
 							<option>view
 								<value>schematic</value>
@@ -5802,22 +5802,22 @@
 				<disabledtests></disabledtests>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Nov 12 21:48:07 2025</timestamp>
-			<uuid>{8df56010-b5d0-45f0-b3bc-0fd73d281e42}</uuid>
-			<resultsname>/home/saul/projects/FIL3601/DAY7/ex1_small_signal_no_bias/adexl/results/data/Interactive.69.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.69.rdb</simresults>
+			<timestamp>Nov 14 14:46:05 2025</timestamp>
+			<uuid>{9a390a3a-ce1b-4c84-9f11-9dc161c9459a}</uuid>
+			<resultsname>/home/saul/projects/FIL3601/DAY7/ex1_small_signal_no_bias/adexl/results/data/Interactive.82.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.82.rdb</simresults>
 			<rawdatadelstrategy>SaveAll
 				<simdatasavemode>All</simdatasavemode>
 			</rawdatadelstrategy>
 			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/edatools_saul_214807537</localpsfdir>
-			<psfdir>/home/saul/projects/FIL3601/Sim/DAY7/ex1_small_signal_no_bias/adexl/results/data/Interactive.69</psfdir>
-			<simdir>$AXL_PROJECT_DIR/DAY7/ex1_small_signal_no_bias/adexl/results/data/Interactive.69</simdir>
+			<localpsfdir>/tmp/edatools_saul_144605349</localpsfdir>
+			<psfdir>/home/saul/projects/FIL3601/Sim/DAY7/ex1_small_signal_no_bias/adexl/results/data/Interactive.82</psfdir>
+			<simdir>$AXL_PROJECT_DIR/DAY7/ex1_small_signal_no_bias/adexl/results/data/Interactive.82</simdir>
 			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
-			<runlog>/home/saul/projects/FIL3601/DAY7/ex1_small_signal_no_bias/adexl/results/data/Interactive.69.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.69.log</runlogfile>
+			<runlog>/home/saul/projects/FIL3601/DAY7/ex1_small_signal_no_bias/adexl/results/data/Interactive.82.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.82.log</runlogfile>
 			<schematicpoint></schematicpoint>
 			<test>all</test>
 		</historyentry>

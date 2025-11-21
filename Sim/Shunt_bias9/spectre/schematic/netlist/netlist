@@ -1,0 +1,61 @@
+
+// Library name: LAB4
+// Cell name: Shunt_bias9
+// View name: schematic
+M14 (net11 net11 net6 0) nel w=10u l=5u as=4.8e-12 ad=4.8e-12 ps=2.096e-05 \
+        pd=2.096e-05 nrs=0.027 nrd=0.027 m=(10)*(1) par1=(10)*(1) \
+        xf_subext=0
+M12 (net6 net6 net8 0) nel w=10u l=5u as=4.8e-12 ad=4.8e-12 ps=2.096e-05 \
+        pd=2.096e-05 nrs=0.027 nrd=0.027 m=(10)*(1) par1=(10)*(1) \
+        xf_subext=0
+M11 (net8 net8 net7 0) nel w=10u l=5u as=4.8e-12 ad=4.8e-12 ps=2.096e-05 \
+        pd=2.096e-05 nrs=0.027 nrd=0.027 m=(10)*(1) par1=(10)*(1) \
+        xf_subext=0
+M10 (net7 net7 net1 0) nel w=10u l=5u as=4.8e-12 ad=4.8e-12 ps=2.096e-05 \
+        pd=2.096e-05 nrs=0.027 nrd=0.027 m=(10)*(1) par1=(10)*(1) \
+        xf_subext=0
+M9 (net1 net1 0 0) nel w=10u l=5u as=4.8e-12 ad=4.8e-12 ps=2.096e-05 \
+        pd=2.096e-05 nrs=0.027 nrd=0.027 m=(10)*(1) par1=(10)*(1) \
+        xf_subext=0
+M7 (net12 net4 0 0) nel w=10u l=5u as=4.8e-12 ad=4.8e-12 ps=2.096e-05 \
+        pd=2.096e-05 nrs=0.027 nrd=0.027 m=(2)*(1) par1=(2)*(1) \
+        xf_subext=0
+M6 (VOUT net4 0 0) nel w=10u l=5u as=4.8e-12 ad=4.8e-12 ps=2.096e-05 \
+        pd=2.096e-05 nrs=0.027 nrd=0.027 m=(10)*(1) par1=(10)*(1) \
+        xf_subext=0
+M5 (net2 net4 0 0) nel w=10u l=5u as=4.8e-12 ad=4.8e-12 ps=2.096e-05 \
+        pd=2.096e-05 nrs=0.027 nrd=0.027 m=(20)*(1) par1=(20)*(1) \
+        xf_subext=0
+M4 (net4 net4 0 0) nel w=10u l=5u as=4.8e-12 ad=4.8e-12 ps=2.096e-05 \
+        pd=2.096e-05 nrs=0.027 nrd=0.027 m=(2)*(1) par1=(2)*(1) \
+        xf_subext=0
+M2 (net10 net8 net2 0) nel w=10u l=1u as=4.8e-12 ad=4.8e-12 ps=2.096e-05 \
+        pd=2.096e-05 nrs=0.027 nrd=0.027 m=(8)*(1) par1=(8)*(1) \
+        xf_subext=0
+M0 (net9 net3 net2 0) nel w=10u l=1u as=4.8e-12 ad=4.8e-12 ps=2.096e-05 \
+        pd=2.096e-05 nrs=0.027 nrd=0.027 m=(8)*(1) par1=(8)*(1) \
+        xf_subext=0
+M13 (net9 net9 net11 net11) pel w=4u l=1u as=1.5e-12 ad=1.08e-12 \
+        ps=6.75e-06 pd=4.54e-06 nrs=0.0675 nrd=0.0675 m=(1)*(4) \
+        par1=(1)*(4)
+M8 (net10 net9 net11 net11) pel w=4u l=1u as=1.5e-12 ad=1.08e-12 \
+        ps=6.75e-06 pd=4.54e-06 nrs=0.0675 nrd=0.0675 m=(1)*(4) \
+        par1=(1)*(4)
+M1 (net12 net12 net11 net11) pel w=4u l=2u as=1.92e-12 ad=1.08e-12 \
+        ps=8.96e-06 pd=4.54e-06 nrs=0.0675 nrd=0.0675 m=(1)*(2) \
+        par1=(1)*(2)
+M3 (VOUT net10 net11 net11) pel w=8u l=250.0n as=2.496e-12 ad=2.16e-12 \
+        ps=1.0224e-05 pd=8.54e-06 nrs=0.03375 nrd=0.03375 m=(1)*(10) \
+        par1=(1)*(10)
+V1 (net11 0) vsource dc=1.8 type=dc
+I24 (net11 net4) isource dc=2u type=dc
+C4 (VG net3) capacitor c=1u
+C2 (net3 VOUT) capacitor c=35f
+C1 (VG 0) capacitor c=2p
+C0 (VOUT 0) capacitor c=100f
+R2 (0 VG) resistor r=100k
+R0 (net3 VOUT) resistor r=1M
+I7 (0 VG) isource mag=IS type=sine
+C6 (net8 0 0) mosvc w=20u l=20u m=(3)*(1) par1=(3)*(1) xf_subext=0
+C5 (net11 net12 0) mosvc w=20u l=20u m=(3)*(1) par1=(3)*(1) xf_subext=0
+C3 (net4 0 0) mosvc w=20u l=20u m=(3)*(1) par1=(3)*(1) xf_subext=0

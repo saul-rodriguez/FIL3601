@@ -1,0 +1,71 @@
+// Point Netlist Generated on: Nov 17 13:45:44 2025
+// Generated for: spectre
+// Design Netlist Generated on: Nov 17 13:45:44 2025
+// Design library name: DAY6
+// Design cell name: ex1
+// Design view name: schematic
+simulator lang=spectre
+global 0
+parameters temperature=27 FREQ=1.4M VIN=500m VPULSE=0
+include "/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/config.scs" section=default
+include "/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/param.scs" section=3s
+include "/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/bip.scs" section=tm
+include "/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/cap.scs" section=tm
+include "/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/dio.scs" section=tm
+include "/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/mos.scs" section=tm
+include "/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/photo.scs" section=tm
+include "/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/res.scs" section=tm
+
+// Library name: DAY6
+// Cell name: ex1
+// View name: schematic
+M7 (net2 net2 0 0) nel w=10u l=2u as=4.8e-12 ad=4.8e-12 ps=2.096e-05 \
+        pd=2.096e-05 nrs=0.027 nrd=0.027 m=(4)*(1) par1=(4)*(1) \
+        xf_subext=0
+M6 (VOUT net2 0 0) nel w=10u l=2u as=4.8e-12 ad=4.8e-12 ps=2.096e-05 \
+        pd=2.096e-05 nrs=0.027 nrd=0.027 m=(12)*(1) par1=(12)*(1) \
+        xf_subext=0
+M2 (net1 net2 0 0) nel w=10u l=2u as=4.8e-12 ad=4.8e-12 ps=2.096e-05 \
+        pd=2.096e-05 nrs=0.027 nrd=0.027 m=(2)*(1) par1=(2)*(1) \
+        xf_subext=0
+M1 (net3 VOUT net1 0) nel w=10u l=180.0n as=4.8e-12 ad=4.8e-12 \
+        ps=2.096e-05 pd=2.096e-05 nrs=0.027 nrd=0.027 m=(1)*(1) \
+        par1=(1)*(1) xf_subext=0
+M0 (net5 VIN net1 0) nel w=10u l=180.0n as=4.8e-12 ad=4.8e-12 ps=2.096e-05 \
+        pd=2.096e-05 nrs=0.027 nrd=0.027 m=(1)*(1) par1=(1)*(1) \
+        xf_subext=0
+M5 (VOUT net5 net4 net4) pel w=10u l=500n as=4.8e-12 ad=4.8e-12 \
+        ps=2.096e-05 pd=2.096e-05 nrs=0.027 nrd=0.027 m=(1)*(1) \
+        par1=(1)*(1)
+M4 (net5 net3 net4 net4) pel w=10u l=180.0n as=4.8e-12 ad=4.8e-12 \
+        ps=2.096e-05 pd=2.096e-05 nrs=0.027 nrd=0.027 m=(1)*(1) \
+        par1=(1)*(1)
+M3 (net3 net3 net4 net4) pel w=10u l=180.0n as=4.8e-12 ad=4.8e-12 \
+        ps=2.096e-05 pd=2.096e-05 nrs=0.027 nrd=0.027 m=(1)*(1) \
+        par1=(1)*(1)
+R2 (net5 net6) resistor r=2k
+V1 (net11 0) vsource dc=900m type=dc
+V0 (net4 0) vsource dc=1.8 type=dc
+I4 (net4 net2) isource dc=10u type=dc
+V2 (VIN net9) vsource mag=1 type=sine ampl=VIN freq=FREQ
+C3 (net6 VOUT) capacitor c=2p
+C1 (VOUT 0) capacitor c=10p
+V3 (net9 net11) vsource type=pulse val0=0 val1=VPULSE delay=1u rise=1n \
+        fall=1n width=100u
+simulatorOptions options psfversion="1.4.0" reltol=1e-3 vabstol=1e-6 \
+    iabstol=1e-12 temp=27 tnom=27 scalem=1.0 scale=1.0 gmin=1e-12 rforce=1 \
+    maxnotes=5 maxwarns=5 digits=5 cols=80 pivrel=1e-3 \
+    sensfile="../psf/sens.output" checklimitdest=psf 
+tran tran stop=10u errpreset=conservative write="spectre.ic" \
+    writefinal="spectre.fc" annotate=status maxiters=5 
+finalTimeOP info what=oppoint where=rawfile
+ac ac start=0.01 stop=100M dec=20 annotate=status 
+dcOp dc write="spectre.dc" maxiters=150 maxsteps=10000 annotate=status
+dcOpInfo info what=oppoint where=rawfile
+modelParameter info what=models where=rawfile
+element info what=inst where=rawfile
+outputParameter info what=output where=rawfile
+designParamVals info what=parameters where=rawfile
+primitives info what=primitives where=rawfile
+subckts info what=subckts where=rawfile
+saveOptions options save=allpub

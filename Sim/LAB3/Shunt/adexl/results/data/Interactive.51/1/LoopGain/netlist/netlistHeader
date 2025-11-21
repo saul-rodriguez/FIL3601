@@ -1,7 +1,0 @@
-// Generated for: spectre
-// Design Netlist Generated on: Nov 13 09:43:31 2025
-// Design library name: LAB3
-// Design cell name: Shunt
-// Design view name: schematic
-simulator lang=spectre
-global 0

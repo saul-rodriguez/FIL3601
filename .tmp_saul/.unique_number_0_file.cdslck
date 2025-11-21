@@ -5,15 +5,15 @@
 #
 LockStakeVersion               1.2
 LoginName                      saul
-HostName                       34831@edatools
-ProcessIdentifier              1236
-ProcessCreationTime_UTC        1762776728
-ProcessCreationTime_Readable   Mon Nov 10 12:12:08 2025 UTC
+HostName                       41577@edatools
+ProcessIdentifier              24418
+ProcessCreationTime_UTC        1763377345
+ProcessCreationTime_Readable   Mon Nov 17 11:02:25 2025 UTC
 AppIdentifier                  /opt/tools/cadence/installs/IC618/tools/dfII/bin/64bit/virtuoso
 OSType                         lnx86
 ReasonForPlacingEditLock       Lock file for generating unique number for ICRP command and log file directories.
 FilePathUsedToEditLock         /home/saul/projects/FIL3601/.tmp_saul/.unique_number_0_file
-TimeEditLocked                 Tue Nov 11 14:05:15 2025 UTC
-ProcessScopeIdentifier         E-j_qwT7ZgHRQ5oxU9NotI
-ExpirationTime_UTC             1762956315
-ExpirationTime_Readable        Wed Nov 12 14:05:15 2025 UTC
+TimeEditLocked                 Mon Nov 17 11:04:11 2025 UTC
+ProcessScopeIdentifier         EIRnhGTODzlA3lxHrXYkeK
+ExpirationTime_UTC             1763463851
+ExpirationTime_Readable        Tue Nov 18 11:04:11 2025 UTC

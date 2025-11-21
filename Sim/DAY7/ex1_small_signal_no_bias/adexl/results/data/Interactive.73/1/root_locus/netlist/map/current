@@ -1,0 +1,18 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "ex1_small_signal_no_bias"
+  repList "spectre cmos_sch cmos.sch schematic veriloga"
+  stopList "spectre"
+  globalList "gnd!"
+  hierDelim "."
+  netlistDir "/home/saul/projects/FIL3601/Sim/DAY7/ex1_small_signal_no_bias/adexl/results/data/Interactive.73/1/root_locus/netlist"
+ )
+( net
+( "gnd!" "0" )
+ )
+( model
+( "DAY7/ex1_small_signal_no_bias/schematic" "ex1_small_signal_no_bias" )
+ )
+( "ex1_small_signal_no_bias" "ihnl/cds0/map" )
+ )

@@ -1,0 +1,10 @@
+CADENCE IHNL11140
+$model
+DAY6/ex2/schematic ex2
+$endmodel
+$net
+gnd! 0
+$endnet
+$param
+VIN2 VIN2
+$endparam

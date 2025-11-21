@@ -1,0 +1,18 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "ex2"
+  repList "spectre cmos_sch cmos.sch schematic veriloga"
+  stopList "spectre"
+  globalList "gnd!"
+  hierDelim "."
+  netlistDir "/home/saul/projects/FIL3601/Sim/DAY6/ex2/adexl/results/data/Interactive.17/1/DAY6:ex2:2/netlist"
+ )
+( net
+( "gnd!" "0" )
+ )
+( model
+( "DAY6/ex2/schematic" "ex2" )
+ )
+( "ex2" "ihnl/cds0/map" )
+ )

@@ -1,0 +1,7 @@
+// Generated for: spectre
+// Generated on: Nov 17 08:26:35 2025
+// Design library name: DAY8
+// Design cell name: trans_dc_bias4
+// Design view name: schematic
+simulator lang=spectre
+global 0

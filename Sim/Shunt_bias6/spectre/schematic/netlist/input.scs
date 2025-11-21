@@ -1,0 +1,56 @@
+// Generated for: spectre
+// Generated on: Nov 21 09:22:54 2025
+// Design library name: LAB4
+// Design cell name: Shunt_bias6
+// Design view name: schematic
+simulator lang=spectre
+global 0
+parameters IS=1
+include "/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/config.scs" section=default
+include "/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/param.scs" section=3s
+include "/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/bip.scs" section=tm
+include "/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/cap.scs" section=tm
+include "/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/dio.scs" section=tm
+include "/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/mos.scs" section=tm
+include "/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/photo.scs" section=tm
+include "/opt/pdk/xfab/XKIT/xh018/cadence/v10_0/spectre/v10_0_2/lpmos/res.scs" section=tm
+
+// Library name: LAB4
+// Cell name: Shunt_bias6
+// View name: schematic
+M2 (net10 net11 net2 net2) nel w=10u l=1u as=4.8e-12 ad=4.8e-12 \
+        ps=2.096e-05 pd=2.096e-05 nrs=0.027 nrd=0.027 m=(8)*(1) \
+        par1=(8)*(1) xf_subext=0
+M0 (net4 VG net2 net2) nel w=10u l=1u as=4.8e-12 ad=4.8e-12 ps=2.096e-05 \
+        pd=2.096e-05 nrs=0.027 nrd=0.027 m=(8)*(1) par1=(8)*(1) \
+        xf_subext=0
+M3 (VOUT net10 net4 net4) pel w=8u l=250.0n as=2.496e-12 ad=2.16e-12 \
+        ps=1.0224e-05 pd=8.54e-06 nrs=0.03375 nrd=0.03375 m=(1)*(10) \
+        par1=(1)*(10)
+V4 (net8 VOUT) vsource dc=70.8m type=dc
+V2 (net11 0) vsource dc=0 type=dc
+V1 (net4 0) vsource dc=1.8 type=dc
+I17 (VOUT 0) isource dc=10u type=dc
+I10 (net2 0) isource dc=20u type=dc
+I2 (0 net10) isource dc=10u type=dc
+C2 (VG net8) capacitor c=30f
+C1 (VG 0) capacitor c=2p
+C0 (VOUT 0) capacitor c=100f
+R2 (0 VG) resistor r=100k
+R0 (VG net8) resistor r=1M
+I7 (0 VG) isource mag=IS type=sine
+simulatorOptions options psfversion="1.4.0" reltol=1e-3 vabstol=1e-6 \
+    iabstol=1e-12 temp=27 tnom=27 scalem=1.0 scale=1.0 gmin=1e-12 rforce=1 \
+    maxnotes=5 maxwarns=5 digits=5 cols=80 pivrel=1e-3 \
+    sensfile="../psf/sens.output" checklimitdest=psf 
+dcOp dc write="spectre.dc" maxiters=150 maxsteps=10000 annotate=status
+dcOpInfo info what=oppoint where=rawfile
+ac ac start=0.01 stop=100M dec=30 annotate=status 
+pz ( VOUT ) pz iprobe=I7 freq=1 
+modelParameter info what=models where=rawfile
+element info what=inst where=rawfile
+outputParameter info what=output where=rawfile
+designParamVals info what=parameters where=rawfile
+primitives info what=primitives where=rawfile
+subckts info what=subckts where=rawfile
+saveOptions options save=allpub

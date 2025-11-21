@@ -1,0 +1,23 @@
+
+// Library name: DAY7
+// Cell name: ex1_small_signal_no_bias
+// View name: schematic
+I36 (net2 0) isource mag=IT type=sine
+V8 (net14 0) vsource mag=VIN type=sine
+R13 (net3 VOUT) resistor r=40k
+R11 (VOUT VB) resistor r=180k
+R5 (net2 0) resistor r=rds1
+R7 (VOUT 0) resistor r=rds2
+R10 (VB 0) resistor r=20k
+C6 (net2 0) capacitor c=cds1+cdb1
+C14 (net3 net2) capacitor c=100f
+C7 (net2 0) capacitor c=cgb2 +cgs2
+C3 (net14 VB) capacitor c=cgb1/2 +cgs1/2
+C2 (VB 0) capacitor c=cgd1
+C1 (net14 net2) capacitor c=cgd1
+C10 (VOUT 0) capacitor c=cds2+cdb2
+C8 (net2 VOUT) capacitor c=cgd2
+C13 (net1 VB) capacitor c=50f
+C15 (VOUT 0) capacitor c=1p
+G1 (VOUT 0 net2 0) vccs gm=gm2
+G0 (net2 0 net14 VB) vccs gm=gm1

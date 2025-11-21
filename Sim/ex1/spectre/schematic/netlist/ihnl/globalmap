@@ -1,0 +1,9 @@
+CADENCE IHNL11140
+$model
+DAY7/ex1/schematic ex1
+$endmodel
+$net
+gnd! 0
+$endnet
+$param
+$endparam

@@ -1,0 +1,10 @@
+CADENCE IHNL11140
+$model
+LAB4/Shunt_bias1/schematic Shunt_bias1
+$endmodel
+$net
+gnd! 0
+$endnet
+$param
+IS IS
+$endparam

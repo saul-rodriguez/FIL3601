@@ -1,4 +1,0 @@
-parameters temperature=27 gm=0.227m cdb2=36.3f cds2=0 cgb2=36.3f \
-    cgd2=25.6f cgs2=28.61f gm2=0.2291m rds2=200823 IS=1 IT=0 cdb1=160f \
-    cds1=46.01f cgb1=160.37f cgd1=26.40f cgs1=112.78f gm1=0 \
-    rds1=23893065.17

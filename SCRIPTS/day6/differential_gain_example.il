@@ -1,9 +1,15 @@
 simulator( 'spectre )
+/*ADDED ONLY FOR DOCKER STARTS HERE*/
+hostMode( 'distributed )
+/*ADDED ONLY FOR DOCKER ENDS HERE*/
+
 
 design("DAY6" "ex2" "schematic")
 createNetlist
 
 resultsDir( "/home/saul/projects/FIL3601/Sim/ex2/spectre/schematic" )
+
+/*
 modelFile( 
     '("/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/config.scs" "default")
     '("/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/param.scs" "3s")
@@ -14,6 +20,11 @@ modelFile(
     '("/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/photo.scs" "tm")
     '("/pkg/xfab2/XKIT/xh018/cadence/v9_0/spectre/v9_0_2/lpmos/res.scs" "tm")
 )
+*/
+
+
+load("SCRIPTS/lab1/models.il")
+
 analysis('tran ?stop "6m"  ?errpreset "conservative"  )
 analysis('dc ?saveOppoint t  ?param "VIN2"  ?start "-0.9"  
 		?stop "0.9"  ?step "1m"  )
@@ -22,7 +33,18 @@ envOption(
 	'analysisOrder  list("dc" "tran") 
 )
 temp( 27 ) 
-run()
+;run()
+
+/*ADDED ONLY FOR DOCKER STARTS HERE*/
+jobList = nil
+
+; starting first job
+jobList = append1( jobList run( ?host "edatools" ) )
+
+; wait for all the jobs to complete
+wait((append1 last(jobList) nil))
+
+/*ADDED ONLY FOR DOCKER ENDS HERE*/
 
 selectResult( 'dc )
 

@@ -1,20 +1,23 @@
 \o Program:		@(#)$CDS: cdsLibEditor version 6.1.8 - CAT37 04/25/2024 14:36 (csvcm36c-7) $
 \o Sub version:		sub-version  s364 
-\o Arguments:		-cdslib /home/saul/projects/FIL3601/cds.lib -mpssession virtuosoEOpt-9Os2NgYalkzc2608K_92532 -mpshost 58099@edatools -mpsversion 6.18 
+\o Arguments:		-cdslib /home/saul/projects/FIL3601/cds.lib -mpssession virtuosoETd7CmnqqhtwtEexCmpvpL_6524 -mpshost 43723@edatools -mpsversion 6.18 
 \o Working Directory:	edatools:/home/saul/projects/FIL3601
 \o 64-bit offsets
 \a nrSetWindowVisibility(cdsLibEditor "show")
 \o Qt version: 		5.9.1
 \a nrSetCurrentWindow(cdsLibEditor)
-\a nrResizeWindow(cdsLibEditor list(1617 310 500 400))
-\a nrSetCurrentWindow(cdsLibEditor)
-\a nrListItemAction(cdsLibEditor->mainTable 0 0)
-\o Active cell: 0 0 "analogLib"
-\a nrResizeWindow(cdsLibEditor list(735 332 500 400))
+\a nrResizeWindow(cdsLibEditor list(705 297 500 400))
+\a nrListItemAction(cdsLibEditor->mainTable 77 0)
+\o Active cell: 77 0 "LAB3"
 \a nrListItemAction(cdsLibEditor->mainTable 77 1)
-\o Active cell: 77 1 "/home/saul/projects/FIL3601/LAB3"
-\a nrListItemRename(cdsLibEditor->mainTable, 77 1 "./LAB3")
-\a nrListItemAction(cdsLibEditor->mainTable 78 0)
-\o Active cell: 78 0 ""
-\a cdsLibEditor->fileSaveButton->value = t
+\o Active cell: 77 1 "./LAB3"
+\a nrSetCurrentWindow(cdsLibEditor)
+\a nrListItemAction(cdsLibEditor->mainTable 73 1)
+\o Active cell: 73 1 "./TEST"
+\a nrListItemAction(cdsLibEditor->mainTable 77 1)
+\o Active cell: 77 1 "./LAB3"
+\a nrListItemAction(cdsLibEditor->mainTable 75 1)
+\o Active cell: 75 1 "./LAB1"
+\a nrListItemAction(cdsLibEditor->mainTable 77 1)
+\o Active cell: 77 1 "./LAB3"
 \a exit(0)

@@ -1,0 +1,40 @@
+HEADER
+"PSFversion" "1.00"
+"Time Stamp" "Nov 14 11:57:45 2025"
+TYPE
+"variable" STRUCT(
+"value" FLOAT DOUBLE
+) PROP( "key" "element" )
+VALUE
+"rds1" "variable" ( 4.068e6 ) PROP( )
+"gm1" "variable" ( 122e-6 ) PROP( )
+"cgs1" "variable" ( 14.9e-15 ) PROP( )
+"cgd1" "variable" ( 13.2e-15 ) PROP( )
+"cgb1" "variable" ( 35e-15 ) PROP( )
+"cds1" "variable" ( 960e-18 ) PROP( )
+"cdb1" "variable" ( 32.99e-15 ) PROP( )
+"rds4" "variable" ( 2.355e6 ) PROP( )
+"gm4" "variable" ( 97e-6 ) PROP( )
+"cgs4" "variable" ( 317e-15 ) PROP( )
+"cgd4" "variable" ( 25.65e-15 ) PROP( )
+"cgb4" "variable" ( 178e-15 ) PROP( )
+"cds4" "variable" ( 770e-18 ) PROP( )
+"cdb4" "variable" ( 66e-15 ) PROP( )
+"rds2" "variable" ( 452599 ) PROP( )
+"gm2" "variable" ( 227e-6 ) PROP( )
+"cgs2" "variable" ( 26.9e-15 ) PROP( )
+"cgd2" "variable" ( 3.2e-15 ) PROP( )
+"cgb2" "variable" ( 3.61e-15 ) PROP( )
+"cds2" "variable" ( 20e-18 ) PROP( )
+"cdb2" "variable" ( 9.65e-15 ) PROP( )
+"cds3" "variable" ( 184.79e-15 ) PROP( )
+"cdb3" "variable" ( 79.52e-15 ) PROP( )
+"cgd3" "variable" ( 13.22e-15 ) PROP( )
+"cgs3" "variable" ( 372.5e-15 ) PROP( )
+"cgb3" "variable" ( 84.34e-15 ) PROP( )
+"rds3" "variable" ( 13.043e6 ) PROP( )
+"gm3" "variable" ( 319e-6 ) PROP( )
+"VIN" "variable" ( 1 ) PROP( )
+"IT" "variable" ( 0 ) PROP( )
+"temp" "variable" ( 27 ) PROP( )
+END

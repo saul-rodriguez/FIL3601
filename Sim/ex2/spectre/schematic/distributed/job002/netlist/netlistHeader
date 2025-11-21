@@ -1,0 +1,7 @@
+// Generated for: spectre
+// Generated on: Nov 17 12:10:53 2025
+// Design library name: DAY6
+// Design cell name: ex2
+// Design view name: schematic
+simulator lang=spectre
+global 0

@@ -1,0 +1,33 @@
+
+// Library name: LAB4
+// Cell name: Shunt_bias3
+// View name: schematic
+M2 (net10 net11 net2 net2) nel w=10u l=1u as=4.8e-12 ad=4.8e-12 \
+        ps=2.096e-05 pd=2.096e-05 nrs=0.027 nrd=0.027 m=(8)*(1) \
+        par1=(8)*(1) xf_subext=0
+M0 (net4 VG net2 net2) nel w=10u l=1u as=4.8e-12 ad=4.8e-12 ps=2.096e-05 \
+        pd=2.096e-05 nrs=0.027 nrd=0.027 m=(8)*(1) par1=(8)*(1) \
+        xf_subext=0
+M3 (net3 net10 net12 net12) pel w=8u l=250.0n as=2.496e-12 ad=2.16e-12 \
+        ps=1.0224e-05 pd=8.54e-06 nrs=0.03375 nrd=0.03375 m=(1)*(10) \
+        par1=(1)*(10)
+V10 (net14 net12) vsource dc=371.7m type=dc
+V9 (net14 net13) vsource dc=900.0m type=dc
+V8 (net13 0) vsource dc=300.9m type=dc
+V7 (net5 net3) vsource dc=371.7m type=dc
+V6 (net6 net11) vsource dc=371.7m type=dc
+V5 (net9 net7) vsource dc=300.9m type=dc
+V4 (VOUT net7) vsource dc=900.0m type=dc
+V3 (net5 net9) vsource dc=900.0m type=dc
+V2 (net6 0) vsource dc=371.7m type=dc
+V1 (net1 0) vsource dc=900.0m type=dc
+V0 (net1 net4) vsource dc=371.7m type=dc
+I3 (net3 net12) isource dc=10u type=dc
+I2 (net2 net10) isource dc=10u type=dc
+I0 (net2 net4) isource dc=10u type=dc
+C2 (VG VOUT) capacitor c=30f
+C1 (VG 0) capacitor c=2p
+C0 (VOUT 0) capacitor c=100f
+R2 (0 VG) resistor r=100k
+R0 (VG VOUT) resistor r=1M
+I7 (0 VG) isource mag=IS type=sine

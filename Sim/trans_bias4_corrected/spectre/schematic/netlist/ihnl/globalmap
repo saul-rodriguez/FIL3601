@@ -1,0 +1,10 @@
+CADENCE IHNL11140
+$model
+DAY8/trans_bias4_corrected/schematic trans_bias4_corrected
+$endmodel
+$net
+gnd! 0
+$endnet
+$param
+IN IN
+$endparam

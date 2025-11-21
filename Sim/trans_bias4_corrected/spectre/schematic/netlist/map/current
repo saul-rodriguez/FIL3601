@@ -1,0 +1,18 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "trans_bias4_corrected"
+  repList "spectre cmos_sch cmos.sch schematic veriloga"
+  stopList "spectre"
+  globalList "gnd!"
+  hierDelim "."
+  netlistDir "/home/saul/projects/FIL3601/Sim/trans_bias4_corrected/spectre/schematic/netlist"
+ )
+( net
+( "gnd!" "0" )
+ )
+( model
+( "DAY8/trans_bias4_corrected/schematic" "trans_bias4_corrected" )
+ )
+( "trans_bias4_corrected" "ihnl/cds0/map" )
+ )

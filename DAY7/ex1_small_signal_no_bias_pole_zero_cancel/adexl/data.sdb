@@ -505,531 +505,6 @@
 		<disabledtests></disabledtests>
 	</active>
 	<history>History
-		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.24
-			<checkpoint>
-				<corners>
-					<corner enabled="1">_default</corner>
-				</corners>
-				<extensions>
-					<extension>Parasitics
-						<callback>_parSetupDBExtensionCB</callback>
-						<iconvalue></iconvalue>
-						<icontype></icontype>
-					</extension>
-				</extensions>
-				<currentmode>Single Run, Sweeps and Corners</currentmode>
-				<overwritehistory>0</overwritehistory>
-				<tests>
-					<test enabled="1">Closed_loop
-						<tool>ADE</tool>
-						<tooloptions>
-							<option>cell
-								<value>ex1_small_signal_no_bias_pole_zero_cancel</value>
-							</option>
-							<option>lib
-								<value>DAY7</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>state
-								<value>Closed_loop_spectre_state1_Interactive.24</value>
-							</option>
-						</tooloptions>
-						<origoptions>
-							<option>cell
-								<value>ex1_small_signal_no_bias</value>
-							</option>
-							<option>lib
-								<value>DAY7</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>state
-								<value>spectre_state1</value>
-							</option>
-						</origoptions>
-					</test>
-					<test enabled="1">Asymptotic
-						<tool>ADE</tool>
-						<tooloptions>
-							<option>cell
-								<value>ex1_small_signal_no_bias_pole_zero_cancel</value>
-							</option>
-							<option>lib
-								<value>DAY7</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>state
-								<value>Asymptotic_Closed_loop:1_state_Interactive.24</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</tooloptions>
-						<prerunscript>0</prerunscript>
-						<origoptions>
-							<option>cell
-								<value>ex1_small_signal_no_bias</value>
-							</option>
-							<option>lib
-								<value>DAY7</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>state
-								<value>Closed_loop:1_state</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</origoptions>
-					</test>
-					<test enabled="1">AB
-						<tool>ADE</tool>
-						<tooloptions>
-							<option>cell
-								<value>ex1_small_signal_no_bias_pole_zero_cancel</value>
-							</option>
-							<option>lib
-								<value>DAY7</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>state
-								<value>AB_Asymptotic:1_state_Interactive.24</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</tooloptions>
-						<prerunscript>0</prerunscript>
-						<origoptions>
-							<option>cell
-								<value>ex1_small_signal_no_bias</value>
-							</option>
-							<option>lib
-								<value>DAY7</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>state
-								<value>Asymptotic:1_state</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</origoptions>
-						<outputs>
-							<output>AB
-								<evalType>point</evalType>
-							</output>
-						</outputs>
-					</test>
-					<test enabled="1">root_locus
-						<tool>ADE</tool>
-						<tooloptions>
-							<option>cell
-								<value>ex1_small_signal_no_bias_pole_zero_cancel</value>
-							</option>
-							<option>lib
-								<value>DAY7</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>state
-								<value>root_locus_Closed_loop:1_state_Interactive.24</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</tooloptions>
-						<prerunscript>0</prerunscript>
-						<origoptions>
-							<option>cell
-								<value>ex1_small_signal_no_bias</value>
-							</option>
-							<option>lib
-								<value>DAY7</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>state
-								<value>Closed_loop:1_state</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</origoptions>
-					</test>
-				</tests>
-				<vars>
-					<var>gm3
-						<value>0.319m</value>
-						<dependentTests>
-							<dependentTest enabled="1">Closed_loop</dependentTest>
-							<dependentTest enabled="1">Asymptotic</dependentTest>
-							<dependentTest enabled="1">AB</dependentTest>
-							<dependentTest enabled="1">root_locus</dependentTest>
-						</dependentTests>
-					</var>
-					<var>rds3
-						<value>13.043M</value>
-						<dependentTests>
-							<dependentTest enabled="1">Closed_loop</dependentTest>
-							<dependentTest enabled="1">Asymptotic</dependentTest>
-							<dependentTest enabled="1">AB</dependentTest>
-							<dependentTest enabled="1">root_locus</dependentTest>
-						</dependentTests>
-					</var>
-					<var>cgb3
-						<value>84.34f</value>
-						<dependentTests>
-							<dependentTest enabled="1">Closed_loop</dependentTest>
-							<dependentTest enabled="1">Asymptotic</dependentTest>
-							<dependentTest enabled="1">AB</dependentTest>
-							<dependentTest enabled="1">root_locus</dependentTest>
-						</dependentTests>
-					</var>
-					<var>cgs3
-						<value>372.5f</value>
-						<dependentTests>
-							<dependentTest enabled="1">Closed_loop</dependentTest>
-							<dependentTest enabled="1">Asymptotic</dependentTest>
-							<dependentTest enabled="1">AB</dependentTest>
-							<dependentTest enabled="1">root_locus</dependentTest>
-						</dependentTests>
-					</var>
-					<var>cgd3
-						<value>13.22f</value>
-						<dependentTests>
-							<dependentTest enabled="1">Closed_loop</dependentTest>
-							<dependentTest enabled="1">Asymptotic</dependentTest>
-							<dependentTest enabled="1">AB</dependentTest>
-							<dependentTest enabled="1">root_locus</dependentTest>
-						</dependentTests>
-					</var>
-					<var>cdb3
-						<value>79.52f</value>
-						<dependentTests>
-							<dependentTest enabled="1">Closed_loop</dependentTest>
-							<dependentTest enabled="1">Asymptotic</dependentTest>
-							<dependentTest enabled="1">AB</dependentTest>
-							<dependentTest enabled="1">root_locus</dependentTest>
-						</dependentTests>
-					</var>
-					<var>cds3
-						<value>184.79f</value>
-						<dependentTests>
-							<dependentTest enabled="1">Closed_loop</dependentTest>
-							<dependentTest enabled="1">Asymptotic</dependentTest>
-							<dependentTest enabled="1">AB</dependentTest>
-							<dependentTest enabled="1">root_locus</dependentTest>
-						</dependentTests>
-					</var>
-					<var>cdb2
-						<value>9.65f</value>
-						<dependentTests>
-							<dependentTest enabled="1">Closed_loop</dependentTest>
-							<dependentTest enabled="1">Asymptotic</dependentTest>
-							<dependentTest enabled="1">AB</dependentTest>
-							<dependentTest enabled="1">root_locus</dependentTest>
-						</dependentTests>
-					</var>
-					<var>cds2
-						<value>0.02f</value>
-						<dependentTests>
-							<dependentTest enabled="1">Closed_loop</dependentTest>
-							<dependentTest enabled="1">Asymptotic</dependentTest>
-							<dependentTest enabled="1">AB</dependentTest>
-							<dependentTest enabled="1">root_locus</dependentTest>
-						</dependentTests>
-					</var>
-					<var>cgb2
-						<value>3.61f</value>
-						<dependentTests>
-							<dependentTest enabled="1">Closed_loop</dependentTest>
-							<dependentTest enabled="1">Asymptotic</dependentTest>
-							<dependentTest enabled="1">AB</dependentTest>
-							<dependentTest enabled="1">root_locus</dependentTest>
-						</dependentTests>
-					</var>
-					<var>cgd2
-						<value>3.2f</value>
-						<dependentTests>
-							<dependentTest enabled="1">Closed_loop</dependentTest>
-							<dependentTest enabled="1">Asymptotic</dependentTest>
-							<dependentTest enabled="1">AB</dependentTest>
-							<dependentTest enabled="1">root_locus</dependentTest>
-						</dependentTests>
-					</var>
-					<var>cgs2
-						<value>26.9f</value>
-						<dependentTests>
-							<dependentTest enabled="1">Closed_loop</dependentTest>
-							<dependentTest enabled="1">Asymptotic</dependentTest>
-							<dependentTest enabled="1">AB</dependentTest>
-							<dependentTest enabled="1">root_locus</dependentTest>
-						</dependentTests>
-					</var>
-					<var>gm2
-						<value>0.227m</value>
-						<dependentTests>
-							<dependentTest enabled="1">Closed_loop</dependentTest>
-							<dependentTest enabled="1">Asymptotic</dependentTest>
-							<dependentTest enabled="1">AB</dependentTest>
-							<dependentTest enabled="1">root_locus</dependentTest>
-						</dependentTests>
-					</var>
-					<var>rds2
-						<value>452599</value>
-						<dependentTests>
-							<dependentTest enabled="1">Closed_loop</dependentTest>
-							<dependentTest enabled="1">Asymptotic</dependentTest>
-							<dependentTest enabled="1">AB</dependentTest>
-							<dependentTest enabled="1">root_locus</dependentTest>
-						</dependentTests>
-					</var>
-					<var>cdb4
-						<value>66f</value>
-						<dependentTests>
-							<dependentTest enabled="1">Closed_loop</dependentTest>
-							<dependentTest enabled="1">Asymptotic</dependentTest>
-							<dependentTest enabled="1">AB</dependentTest>
-							<dependentTest enabled="1">root_locus</dependentTest>
-						</dependentTests>
-					</var>
-					<var>cds4
-						<value>0.77f</value>
-						<dependentTests>
-							<dependentTest enabled="1">Closed_loop</dependentTest>
-							<dependentTest enabled="1">Asymptotic</dependentTest>
-							<dependentTest enabled="1">AB</dependentTest>
-							<dependentTest enabled="1">root_locus</dependentTest>
-						</dependentTests>
-					</var>
-					<var>cgb4
-						<value>178f</value>
-						<dependentTests>
-							<dependentTest enabled="1">Closed_loop</dependentTest>
-							<dependentTest enabled="1">Asymptotic</dependentTest>
-							<dependentTest enabled="1">AB</dependentTest>
-							<dependentTest enabled="1">root_locus</dependentTest>
-						</dependentTests>
-					</var>
-					<var>cgd4
-						<value>25.65f</value>
-						<dependentTests>
-							<dependentTest enabled="1">Closed_loop</dependentTest>
-							<dependentTest enabled="1">Asymptotic</dependentTest>
-							<dependentTest enabled="1">AB</dependentTest>
-							<dependentTest enabled="1">root_locus</dependentTest>
-						</dependentTests>
-					</var>
-					<var>cgs4
-						<value>317f</value>
-						<dependentTests>
-							<dependentTest enabled="1">Closed_loop</dependentTest>
-							<dependentTest enabled="1">Asymptotic</dependentTest>
-							<dependentTest enabled="1">AB</dependentTest>
-							<dependentTest enabled="1">root_locus</dependentTest>
-						</dependentTests>
-					</var>
-					<var>gm4
-						<value>97u</value>
-						<dependentTests>
-							<dependentTest enabled="1">Closed_loop</dependentTest>
-							<dependentTest enabled="1">Asymptotic</dependentTest>
-							<dependentTest enabled="1">AB</dependentTest>
-							<dependentTest enabled="1">root_locus</dependentTest>
-						</dependentTests>
-					</var>
-					<var>rds4
-						<value>2.355M</value>
-						<dependentTests>
-							<dependentTest enabled="1">Closed_loop</dependentTest>
-							<dependentTest enabled="1">Asymptotic</dependentTest>
-							<dependentTest enabled="1">AB</dependentTest>
-							<dependentTest enabled="1">root_locus</dependentTest>
-						</dependentTests>
-					</var>
-					<var>cdb1
-						<value>32.99f</value>
-						<dependentTests>
-							<dependentTest enabled="1">Closed_loop</dependentTest>
-							<dependentTest enabled="1">Asymptotic</dependentTest>
-							<dependentTest enabled="1">AB</dependentTest>
-							<dependentTest enabled="1">root_locus</dependentTest>
-						</dependentTests>
-					</var>
-					<var>cds1
-						<value>0.96f</value>
-						<dependentTests>
-							<dependentTest enabled="1">Closed_loop</dependentTest>
-							<dependentTest enabled="1">Asymptotic</dependentTest>
-							<dependentTest enabled="1">AB</dependentTest>
-							<dependentTest enabled="1">root_locus</dependentTest>
-						</dependentTests>
-					</var>
-					<var>cgb1
-						<value>35f</value>
-						<dependentTests>
-							<dependentTest enabled="1">Closed_loop</dependentTest>
-							<dependentTest enabled="1">Asymptotic</dependentTest>
-							<dependentTest enabled="1">AB</dependentTest>
-							<dependentTest enabled="1">root_locus</dependentTest>
-						</dependentTests>
-					</var>
-					<var>cgd1
-						<value>13.2f</value>
-						<dependentTests>
-							<dependentTest enabled="1">Closed_loop</dependentTest>
-							<dependentTest enabled="1">Asymptotic</dependentTest>
-							<dependentTest enabled="1">AB</dependentTest>
-							<dependentTest enabled="1">root_locus</dependentTest>
-						</dependentTests>
-					</var>
-					<var>cgs1
-						<value>14.9f</value>
-						<dependentTests>
-							<dependentTest enabled="1">Closed_loop</dependentTest>
-							<dependentTest enabled="1">Asymptotic</dependentTest>
-							<dependentTest enabled="1">AB</dependentTest>
-							<dependentTest enabled="1">root_locus</dependentTest>
-						</dependentTests>
-					</var>
-					<var enabled="0">gm1
-						<value>0.122m</value>
-						<dependentTests>
-							<dependentTest enabled="1">Closed_loop</dependentTest>
-							<dependentTest enabled="0">Asymptotic</dependentTest>
-							<dependentTest enabled="0">AB</dependentTest>
-							<dependentTest enabled="1">root_locus</dependentTest>
-						</dependentTests>
-					</var>
-					<var>rds1
-						<value>4.068M</value>
-						<dependentTests>
-							<dependentTest enabled="1">Closed_loop</dependentTest>
-							<dependentTest enabled="1">Asymptotic</dependentTest>
-							<dependentTest enabled="1">AB</dependentTest>
-							<dependentTest enabled="1">root_locus</dependentTest>
-						</dependentTests>
-					</var>
-					<var enabled="0">IT
-						<value>0</value>
-						<dependentTests>
-							<dependentTest enabled="0">Closed_loop</dependentTest>
-							<dependentTest enabled="0">Asymptotic</dependentTest>
-							<dependentTest enabled="0">AB</dependentTest>
-							<dependentTest enabled="0">root_locus</dependentTest>
-						</dependentTests>
-					</var>
-					<var enabled="0">VIN
-						<value>1</value>
-						<dependentTests>
-							<dependentTest enabled="0">Closed_loop</dependentTest>
-							<dependentTest enabled="0">Asymptotic</dependentTest>
-							<dependentTest enabled="0">AB</dependentTest>
-							<dependentTest enabled="0">root_locus</dependentTest>
-						</dependentTests>
-					</var>
-					<var>gm
-						<value>0.122m</value>
-						<dependentTests>
-							<dependentTest enabled="1">root_locus</dependentTest>
-						</dependentTests>
-					</var>
-				</vars>
-				<distributeoptions></distributeoptions>
-				<overwritehistoryname>Interactive.0</overwritehistoryname>
-				<plottingoptions>
-					<plottingoption>plottingmode
-						<value>New Win</value>
-					</plottingoption>
-					<plottingoption>plottype
-						<value>None</value>
-					</plottingoption>
-					<plottingoption>usewaveformtemplate
-						<value>no</value>
-					</plottingoption>
-					<plottingoption>useMaestroPlottingTemplate
-						<value>yes</value>
-					</plottingoption>
-					<plottingoption>waveformtemplate
-						<value></value>
-					</plottingoption>
-					<plottingoption>allplottingtemplates
-						<value></value>
-					</plottingoption>
-					<plottingoption>defaultplottingtemplate
-						<value></value>
-					</plottingoption>
-					<plottingoption>distributedplot_enabled
-						<value>no</value>
-					</plottingoption>
-				</plottingoptions>
-				<jobpolicyname>ADE XL Default</jobpolicyname>
-				<disabledtests></disabledtests>
-				<sortVariableValues>0</sortVariableValues>
-			</checkpoint>
-			<timestamp>Mar 13 18:08:06 2025</timestamp>
-			<uuid>{d80bd2b0-e4c4-4b07-b0b3-8b826f5a9953}</uuid>
-			<resultsname>/home/saul/projects/FIL3601/DAY7/ex1_small_signal_no_bias_pole_zero_cancel/adexl/results/data/Interactive.24.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.24.rdb</simresults>
-			<rawdatadelstrategy>SaveAll
-				<simdatasavemode>All</simdatasavemode>
-			</rawdatadelstrategy>
-			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
-			<netlistdelstrategy>SaveAll</netlistdelstrategy>
-			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/s2424_saul_180806667</localpsfdir>
-			<psfdir>/home/saul/projects/FIL3601/Sim/DAY7/ex1_small_signal_no_bias_pole_zero_cancel/adexl/results/data/Interactive.24</psfdir>
-			<simdir>$AXL_PROJECT_DIR/DAY7/ex1_small_signal_no_bias_pole_zero_cancel/adexl/results/data/Interactive.24</simdir>
-			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
-			<runlog>/home/saul/projects/FIL3601/DAY7/ex1_small_signal_no_bias_pole_zero_cancel/adexl/results/data/Interactive.24.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.24.log</runlogfile>
-			<schematicpoint></schematicpoint>
-			<test>all</test>
-		</historyentry>
 		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.25
 			<checkpoint>
 				<corners>
@@ -5752,6 +5227,531 @@
 			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
 			<runlog>/home/saul/projects/FIL3601/DAY7/ex1_small_signal_no_bias_pole_zero_cancel/adexl/results/data/Interactive.33.log</runlog>
 			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.33.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.34
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test enabled="1">Closed_loop
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>ex1_small_signal_no_bias_pole_zero_cancel</value>
+							</option>
+							<option>lib
+								<value>DAY7</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>Closed_loop_spectre_state1_Interactive.34</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>ex1_small_signal_no_bias</value>
+							</option>
+							<option>lib
+								<value>DAY7</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>spectre_state1</value>
+							</option>
+						</origoptions>
+					</test>
+					<test enabled="1">Asymptotic
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>ex1_small_signal_no_bias_pole_zero_cancel</value>
+							</option>
+							<option>lib
+								<value>DAY7</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>Asymptotic_Closed_loop:1_state_Interactive.34</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</tooloptions>
+						<prerunscript>0</prerunscript>
+						<origoptions>
+							<option>cell
+								<value>ex1_small_signal_no_bias</value>
+							</option>
+							<option>lib
+								<value>DAY7</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>Closed_loop:1_state</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+					<test enabled="1">AB
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>ex1_small_signal_no_bias_pole_zero_cancel</value>
+							</option>
+							<option>lib
+								<value>DAY7</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>AB_Asymptotic:1_state_Interactive.34</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</tooloptions>
+						<prerunscript>0</prerunscript>
+						<origoptions>
+							<option>cell
+								<value>ex1_small_signal_no_bias</value>
+							</option>
+							<option>lib
+								<value>DAY7</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>Asymptotic:1_state</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+						<outputs>
+							<output>AB
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+					</test>
+					<test enabled="1">root_locus
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>ex1_small_signal_no_bias_pole_zero_cancel</value>
+							</option>
+							<option>lib
+								<value>DAY7</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>root_locus_Closed_loop:1_state_Interactive.34</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</tooloptions>
+						<prerunscript>0</prerunscript>
+						<origoptions>
+							<option>cell
+								<value>ex1_small_signal_no_bias</value>
+							</option>
+							<option>lib
+								<value>DAY7</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>Closed_loop:1_state</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var>gm3
+						<value>0.319m</value>
+						<dependentTests>
+							<dependentTest enabled="1">Closed_loop</dependentTest>
+							<dependentTest enabled="1">Asymptotic</dependentTest>
+							<dependentTest enabled="1">AB</dependentTest>
+							<dependentTest enabled="1">root_locus</dependentTest>
+						</dependentTests>
+					</var>
+					<var>rds3
+						<value>13.043M</value>
+						<dependentTests>
+							<dependentTest enabled="1">Closed_loop</dependentTest>
+							<dependentTest enabled="1">Asymptotic</dependentTest>
+							<dependentTest enabled="1">AB</dependentTest>
+							<dependentTest enabled="1">root_locus</dependentTest>
+						</dependentTests>
+					</var>
+					<var>cgb3
+						<value>84.34f</value>
+						<dependentTests>
+							<dependentTest enabled="1">Closed_loop</dependentTest>
+							<dependentTest enabled="1">Asymptotic</dependentTest>
+							<dependentTest enabled="1">AB</dependentTest>
+							<dependentTest enabled="1">root_locus</dependentTest>
+						</dependentTests>
+					</var>
+					<var>cgs3
+						<value>372.5f</value>
+						<dependentTests>
+							<dependentTest enabled="1">Closed_loop</dependentTest>
+							<dependentTest enabled="1">Asymptotic</dependentTest>
+							<dependentTest enabled="1">AB</dependentTest>
+							<dependentTest enabled="1">root_locus</dependentTest>
+						</dependentTests>
+					</var>
+					<var>cgd3
+						<value>13.22f</value>
+						<dependentTests>
+							<dependentTest enabled="1">Closed_loop</dependentTest>
+							<dependentTest enabled="1">Asymptotic</dependentTest>
+							<dependentTest enabled="1">AB</dependentTest>
+							<dependentTest enabled="1">root_locus</dependentTest>
+						</dependentTests>
+					</var>
+					<var>cdb3
+						<value>79.52f</value>
+						<dependentTests>
+							<dependentTest enabled="1">Closed_loop</dependentTest>
+							<dependentTest enabled="1">Asymptotic</dependentTest>
+							<dependentTest enabled="1">AB</dependentTest>
+							<dependentTest enabled="1">root_locus</dependentTest>
+						</dependentTests>
+					</var>
+					<var>cds3
+						<value>184.79f</value>
+						<dependentTests>
+							<dependentTest enabled="1">Closed_loop</dependentTest>
+							<dependentTest enabled="1">Asymptotic</dependentTest>
+							<dependentTest enabled="1">AB</dependentTest>
+							<dependentTest enabled="1">root_locus</dependentTest>
+						</dependentTests>
+					</var>
+					<var>cdb2
+						<value>9.65f</value>
+						<dependentTests>
+							<dependentTest enabled="1">Closed_loop</dependentTest>
+							<dependentTest enabled="1">Asymptotic</dependentTest>
+							<dependentTest enabled="1">AB</dependentTest>
+							<dependentTest enabled="1">root_locus</dependentTest>
+						</dependentTests>
+					</var>
+					<var>cds2
+						<value>0.02f</value>
+						<dependentTests>
+							<dependentTest enabled="1">Closed_loop</dependentTest>
+							<dependentTest enabled="1">Asymptotic</dependentTest>
+							<dependentTest enabled="1">AB</dependentTest>
+							<dependentTest enabled="1">root_locus</dependentTest>
+						</dependentTests>
+					</var>
+					<var>cgb2
+						<value>3.61f</value>
+						<dependentTests>
+							<dependentTest enabled="1">Closed_loop</dependentTest>
+							<dependentTest enabled="1">Asymptotic</dependentTest>
+							<dependentTest enabled="1">AB</dependentTest>
+							<dependentTest enabled="1">root_locus</dependentTest>
+						</dependentTests>
+					</var>
+					<var>cgd2
+						<value>3.2f</value>
+						<dependentTests>
+							<dependentTest enabled="1">Closed_loop</dependentTest>
+							<dependentTest enabled="1">Asymptotic</dependentTest>
+							<dependentTest enabled="1">AB</dependentTest>
+							<dependentTest enabled="1">root_locus</dependentTest>
+						</dependentTests>
+					</var>
+					<var>cgs2
+						<value>26.9f</value>
+						<dependentTests>
+							<dependentTest enabled="1">Closed_loop</dependentTest>
+							<dependentTest enabled="1">Asymptotic</dependentTest>
+							<dependentTest enabled="1">AB</dependentTest>
+							<dependentTest enabled="1">root_locus</dependentTest>
+						</dependentTests>
+					</var>
+					<var>gm2
+						<value>0.227m</value>
+						<dependentTests>
+							<dependentTest enabled="1">Closed_loop</dependentTest>
+							<dependentTest enabled="1">Asymptotic</dependentTest>
+							<dependentTest enabled="1">AB</dependentTest>
+							<dependentTest enabled="1">root_locus</dependentTest>
+						</dependentTests>
+					</var>
+					<var>rds2
+						<value>452599</value>
+						<dependentTests>
+							<dependentTest enabled="1">Closed_loop</dependentTest>
+							<dependentTest enabled="1">Asymptotic</dependentTest>
+							<dependentTest enabled="1">AB</dependentTest>
+							<dependentTest enabled="1">root_locus</dependentTest>
+						</dependentTests>
+					</var>
+					<var>cdb4
+						<value>66f</value>
+						<dependentTests>
+							<dependentTest enabled="1">Closed_loop</dependentTest>
+							<dependentTest enabled="1">Asymptotic</dependentTest>
+							<dependentTest enabled="1">AB</dependentTest>
+							<dependentTest enabled="1">root_locus</dependentTest>
+						</dependentTests>
+					</var>
+					<var>cds4
+						<value>0.77f</value>
+						<dependentTests>
+							<dependentTest enabled="1">Closed_loop</dependentTest>
+							<dependentTest enabled="1">Asymptotic</dependentTest>
+							<dependentTest enabled="1">AB</dependentTest>
+							<dependentTest enabled="1">root_locus</dependentTest>
+						</dependentTests>
+					</var>
+					<var>cgb4
+						<value>178f</value>
+						<dependentTests>
+							<dependentTest enabled="1">Closed_loop</dependentTest>
+							<dependentTest enabled="1">Asymptotic</dependentTest>
+							<dependentTest enabled="1">AB</dependentTest>
+							<dependentTest enabled="1">root_locus</dependentTest>
+						</dependentTests>
+					</var>
+					<var>cgd4
+						<value>25.65f</value>
+						<dependentTests>
+							<dependentTest enabled="1">Closed_loop</dependentTest>
+							<dependentTest enabled="1">Asymptotic</dependentTest>
+							<dependentTest enabled="1">AB</dependentTest>
+							<dependentTest enabled="1">root_locus</dependentTest>
+						</dependentTests>
+					</var>
+					<var>cgs4
+						<value>317f</value>
+						<dependentTests>
+							<dependentTest enabled="1">Closed_loop</dependentTest>
+							<dependentTest enabled="1">Asymptotic</dependentTest>
+							<dependentTest enabled="1">AB</dependentTest>
+							<dependentTest enabled="1">root_locus</dependentTest>
+						</dependentTests>
+					</var>
+					<var>gm4
+						<value>97u</value>
+						<dependentTests>
+							<dependentTest enabled="1">Closed_loop</dependentTest>
+							<dependentTest enabled="1">Asymptotic</dependentTest>
+							<dependentTest enabled="1">AB</dependentTest>
+							<dependentTest enabled="1">root_locus</dependentTest>
+						</dependentTests>
+					</var>
+					<var>rds4
+						<value>2.355M</value>
+						<dependentTests>
+							<dependentTest enabled="1">Closed_loop</dependentTest>
+							<dependentTest enabled="1">Asymptotic</dependentTest>
+							<dependentTest enabled="1">AB</dependentTest>
+							<dependentTest enabled="1">root_locus</dependentTest>
+						</dependentTests>
+					</var>
+					<var>cdb1
+						<value>32.99f</value>
+						<dependentTests>
+							<dependentTest enabled="1">Closed_loop</dependentTest>
+							<dependentTest enabled="1">Asymptotic</dependentTest>
+							<dependentTest enabled="1">AB</dependentTest>
+							<dependentTest enabled="1">root_locus</dependentTest>
+						</dependentTests>
+					</var>
+					<var>cds1
+						<value>0.96f</value>
+						<dependentTests>
+							<dependentTest enabled="1">Closed_loop</dependentTest>
+							<dependentTest enabled="1">Asymptotic</dependentTest>
+							<dependentTest enabled="1">AB</dependentTest>
+							<dependentTest enabled="1">root_locus</dependentTest>
+						</dependentTests>
+					</var>
+					<var>cgb1
+						<value>35f</value>
+						<dependentTests>
+							<dependentTest enabled="1">Closed_loop</dependentTest>
+							<dependentTest enabled="1">Asymptotic</dependentTest>
+							<dependentTest enabled="1">AB</dependentTest>
+							<dependentTest enabled="1">root_locus</dependentTest>
+						</dependentTests>
+					</var>
+					<var>cgd1
+						<value>13.2f</value>
+						<dependentTests>
+							<dependentTest enabled="1">Closed_loop</dependentTest>
+							<dependentTest enabled="1">Asymptotic</dependentTest>
+							<dependentTest enabled="1">AB</dependentTest>
+							<dependentTest enabled="1">root_locus</dependentTest>
+						</dependentTests>
+					</var>
+					<var>cgs1
+						<value>14.9f</value>
+						<dependentTests>
+							<dependentTest enabled="1">Closed_loop</dependentTest>
+							<dependentTest enabled="1">Asymptotic</dependentTest>
+							<dependentTest enabled="1">AB</dependentTest>
+							<dependentTest enabled="1">root_locus</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">gm1
+						<value>0.122m</value>
+						<dependentTests>
+							<dependentTest enabled="1">Closed_loop</dependentTest>
+							<dependentTest enabled="0">Asymptotic</dependentTest>
+							<dependentTest enabled="0">AB</dependentTest>
+							<dependentTest enabled="1">root_locus</dependentTest>
+						</dependentTests>
+					</var>
+					<var>rds1
+						<value>4.068M</value>
+						<dependentTests>
+							<dependentTest enabled="1">Closed_loop</dependentTest>
+							<dependentTest enabled="1">Asymptotic</dependentTest>
+							<dependentTest enabled="1">AB</dependentTest>
+							<dependentTest enabled="1">root_locus</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">IT
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="0">Closed_loop</dependentTest>
+							<dependentTest enabled="0">Asymptotic</dependentTest>
+							<dependentTest enabled="0">AB</dependentTest>
+							<dependentTest enabled="0">root_locus</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">VIN
+						<value>1</value>
+						<dependentTests>
+							<dependentTest enabled="0">Closed_loop</dependentTest>
+							<dependentTest enabled="0">Asymptotic</dependentTest>
+							<dependentTest enabled="0">AB</dependentTest>
+							<dependentTest enabled="0">root_locus</dependentTest>
+						</dependentTests>
+					</var>
+					<var>gm
+						<value>0.122m</value>
+						<dependentTests>
+							<dependentTest enabled="1">root_locus</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<distributeoptions></distributeoptions>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottingmode
+						<value>New Win</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>distributedplot_enabled
+						<value>no</value>
+					</plottingoption>
+				</plottingoptions>
+				<jobpolicyname>ADE XL Default</jobpolicyname>
+				<disabledtests></disabledtests>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Nov 14 14:41:23 2025</timestamp>
+			<uuid>{08561139-8c84-474e-a01d-0b2a264c10a0}</uuid>
+			<resultsname>/home/saul/projects/FIL3601/DAY7/ex1_small_signal_no_bias_pole_zero_cancel/adexl/results/data/Interactive.34.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.34.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/edatools_saul_144123625</localpsfdir>
+			<psfdir>/home/saul/projects/FIL3601/Sim/DAY7/ex1_small_signal_no_bias_pole_zero_cancel/adexl/results/data/Interactive.34</psfdir>
+			<simdir>$AXL_PROJECT_DIR/DAY7/ex1_small_signal_no_bias_pole_zero_cancel/adexl/results/data/Interactive.34</simdir>
+			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
+			<runlog>/home/saul/projects/FIL3601/DAY7/ex1_small_signal_no_bias_pole_zero_cancel/adexl/results/data/Interactive.34.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.34.log</runlogfile>
 			<schematicpoint></schematicpoint>
 			<test>all</test>
 		</historyentry>

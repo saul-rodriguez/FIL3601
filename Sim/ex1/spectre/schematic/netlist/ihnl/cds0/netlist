@@ -1,0 +1,40 @@
+
+// Library name: DAY7
+// Cell name: ex1
+// View name: schematic
+M7 (net2 net2 0 0) nel w=10u l=2u as=4.8e-12 ad=4.8e-12 ps=2.096e-05 \
+        pd=2.096e-05 nrs=0.027 nrd=0.027 m=(4)*(1) par1=(4)*(1) \
+        xf_subext=0
+M6 (net7 net2 0 0) nel w=10u l=2u as=4.8e-12 ad=4.8e-12 ps=2.096e-05 \
+        pd=2.096e-05 nrs=0.027 nrd=0.027 m=(4)*(1) par1=(4)*(1) \
+        xf_subext=0
+M2 (net1 net2 0 0) nel w=10u l=2u as=4.8e-12 ad=4.8e-12 ps=2.096e-05 \
+        pd=2.096e-05 nrs=0.027 nrd=0.027 m=(2)*(1) par1=(2)*(1) \
+        xf_subext=0
+M1 (net3 net5 net1 0) nel w=10u l=350.0n as=4.8e-12 ad=4.8e-12 \
+        ps=2.096e-05 pd=2.096e-05 nrs=0.027 nrd=0.027 m=(4)*(1) \
+        par1=(4)*(1) xf_subext=0
+M0 (net9 VIN net1 0) nel w=10u l=350.0n as=4.8e-12 ad=4.8e-12 ps=2.096e-05 \
+        pd=2.096e-05 nrs=0.027 nrd=0.027 m=(4)*(1) par1=(4)*(1) \
+        xf_subext=0
+M5 (net7 net9 net4 net4) pel w=10u l=500n as=4.8e-12 ad=4.8e-12 \
+        ps=2.096e-05 pd=2.096e-05 nrs=0.027 nrd=0.027 m=(1)*(1) \
+        par1=(1)*(1)
+M4 (net9 net3 net4 net4) pel w=10u l=2u as=4.8e-12 ad=4.8e-12 ps=2.096e-05 \
+        pd=2.096e-05 nrs=0.027 nrd=0.027 m=(8)*(1) par1=(8)*(1)
+M3 (net3 net3 net4 net4) pel w=10u l=2u as=4.8e-12 ad=4.8e-12 ps=2.096e-05 \
+        pd=2.096e-05 nrs=0.027 nrd=0.027 m=(8)*(1) par1=(8)*(1)
+R2 (net13 net6) resistor r=80k
+R3 (VOUT net5) resistor r=180k
+R4 (net5 net8) resistor r=20k
+V1 (net10 0) vsource dc=900m type=dc
+V0 (net4 0) vsource dc=1.8 type=dc
+I4 (net4 net2) isource dc=20u type=dc
+V2 (VIN net11) vsource mag=1 type=sine
+C6 (VOUT 0) capacitor c=1p
+C4 (net8 0) capacitor c=1u
+C3 (net6 net7) capacitor c=150f
+C5 (net12 net5) capacitor c=100f
+V3 (net11 net10) vsource type=pulse val0=0 val1=10m period=1 delay=10u \
+        rise=1n fall=1n width=500.0m
+IPRB0 (net7 VOUT) iprobe

@@ -1,0 +1,16 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Mon Nov 17 11:24:57 2025 
+Best design point: 1
+Design specs: 
+	DAY6:ex3:1	corner	Nominal - 
+Design parameters: 
+	FREQ		1K
+	VIN		300m
+	VPULSE		0
+
+Interactive.21
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.21 completed. 
+Current time: Mon Nov 17 11:25:02 2025 

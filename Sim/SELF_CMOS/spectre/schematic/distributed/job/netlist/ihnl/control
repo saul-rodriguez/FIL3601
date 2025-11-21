@@ -1734,14 +1734,14 @@ hnlLastConstants = '(
                       "M_LN2"
                     )
 hnlLastDesignVars = '(
-                      "VDSP"
-                      "VDS"
-                      "IDSP"
-                      "IDS"
                       "WF"
-                      "L"
+                      "VDS"
                       "NF"
+                      "L"
+                      "IDS"
                       "WFP"
-                      "LP"
+                      "VDSP"
                       "NFP"
+                      "LP"
+                      "IDSP"
                     )

@@ -38,3 +38,6 @@ DEFINE DAY10 ./DAY10
 DEFINE LAB1 ./LAB1
 DEFINE LAB2 ./LAB2
 DEFINE LAB3 ./LAB3
+#Removed by ddDeleteObj: DEFINE LIB4 /home/saul/projects/FIL3601/LIB4
+#Removed by ddDeleteObj: DEFINE LIB4 /home/saul/projects/FIL3601/LIB4
+DEFINE LAB4 /home/saul/projects/FIL3601/LAB4

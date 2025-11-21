@@ -1,0 +1,27 @@
+HEADER
+"PSFversion" "1.00"
+"Time Stamp" "Nov 21 05:56:10 2025"
+TYPE
+"variable" STRUCT(
+"value" FLOAT DOUBLE
+) PROP( "key" "element" )
+VALUE
+"rds1" "variable" ( 23.89306517e6 ) PROP( )
+"gm1" "variable" ( 227e-6 ) PROP( )
+"cgs1" "variable" ( 112.78e-15 ) PROP( )
+"cgd1" "variable" ( 26.4e-15 ) PROP( )
+"cgb1" "variable" ( 160.37e-15 ) PROP( )
+"cds1" "variable" ( 46.01e-15 ) PROP( )
+"cdb1" "variable" ( 160e-15 ) PROP( )
+"IT" "variable" ( 0 ) PROP( )
+"IS" "variable" ( 1 ) PROP( )
+"rds2" "variable" ( 200823 ) PROP( )
+"gm2" "variable" ( 229.1e-6 ) PROP( )
+"cgs2" "variable" ( 28.61e-15 ) PROP( )
+"cgd2" "variable" ( 25.6e-15 ) PROP( )
+"cgb2" "variable" ( 36.3e-15 ) PROP( )
+"cds2" "variable" ( 0 ) PROP( )
+"cdb2" "variable" ( 36.3e-15 ) PROP( )
+"temperature" "variable" ( 27 ) PROP( )
+"temp" "variable" ( 27 ) PROP( )
+END

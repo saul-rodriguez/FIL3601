@@ -1,0 +1,4 @@
+simulator lang=spectre
+include "mosvc.scs"
+include "nel.scs"
+include "pel.scs"
